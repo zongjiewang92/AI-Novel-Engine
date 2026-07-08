@@ -1,0 +1,14 @@
+python-dotenv
+
+langchain
+langchain-community
+
+openai
+anthropic
+
+ollama
+
+chromadb
+
+fastapi
+uvicorn
