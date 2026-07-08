@@ -1,6 +1,7 @@
 from pathlib import Path
 import yaml
 import json
+from database.plot_manager import PlotManager
 
 
 class ProjectContext:
@@ -26,6 +27,12 @@ class ProjectContext:
         self.summary = self.load_summary()
 
         self.volume_memory = self.load_volume_memory()
+
+        self.plot_plan = self.load_plot_plan()
+        self.current_plot = PlotManager.get_current_plot(
+            self.plot_plan, self.state["current_chapter"]
+        )
+
         self.chapter_memory = self.load_chapter_memory(limit=5)
 
         # =====================
@@ -135,15 +142,18 @@ class ProjectContext:
     # =====================
 
     def load_summary(self):
-
         file = self.root / "state" / "story_summary.json"
-
         if not file.exists():
-
             return {"main_story": "", "important_events": [], "character_changes": []}
+        with open(file, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    def load_plot_plan(self):
+        file = self.volume_path / "memory" / "plot_plan.json"
+        if not file.exists():
+            return {}
 
         with open(file, "r", encoding="utf-8") as f:
-
             return json.load(f)
 
     # =====================

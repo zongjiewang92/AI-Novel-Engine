@@ -1,17 +1,16 @@
 from agents.writer_agent import write_chapter
-
 from agents.chapter_summary_agent import summarize_chapter
-
 from agents.volume_summary_agent import summarize_volume
-
+from agents.planner_agent import create_plot_plan
 
 from database.project_manager import ProjectManager
 from database.project_context import ProjectContext
-
-
 from database.state_manager import save_state
-
-from database.memory_manager import save_chapter_memory, save_volume_memory
+from database.memory_manager import (
+    save_chapter_memory,
+    save_volume_memory,
+    save_plot_plan,
+)
 
 
 from scripts.file_utils import save_chapter
@@ -85,3 +84,8 @@ if __name__ == "__main__":
         save_volume_memory(new_context, volume_memory)
 
         print("卷总结更新完成")
+
+    if not context.plot_plan:
+        print("生成剧情规划")
+        plan = create_plot_plan(context)
+        save_plot_plan(context, plan)

@@ -21,6 +21,8 @@ def write_chapter(context):
 
     chapter_memory = context.chapter_memory
 
+    current_plot = context.current_plot
+
     characters = context.characters
 
     world_rules = context.world_rules
@@ -57,6 +59,27 @@ def write_chapter(context):
 
 {volume_memory}
 
+
+====================
+【未来剧情规划】
+====================
+
+
+当前卷未来剧情方向：
+
+{current_plot}
+
+
+
+写作要求：
+
+1. 当前章节必须服务于未来剧情目标
+
+2. 不提前完成后续剧情
+
+3. 保留伏笔
+
+4. 不改变规划中的核心事件
 
 
 ====================

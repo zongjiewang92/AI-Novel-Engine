@@ -38,3 +38,10 @@ def save_volume_memory(context, memory):
         json.dump(memory, f, ensure_ascii=False, indent=4)
 
     print(f"卷总结保存: {file}")
+
+
+def save_plot_plan(context, plan):
+    file = context.volume_path / "memory" / "plot_plan.json"
+    with open(file, "w", encoding="utf-8") as f:
+
+        json.dump(plan, f, ensure_ascii=False, indent=4)
