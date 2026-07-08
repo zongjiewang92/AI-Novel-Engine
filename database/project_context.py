@@ -12,22 +12,21 @@ class ProjectContext:
         # =====================
         # 基础信息
         # =====================
-
         self.config = self.load_config()
 
         self.state = self.load_state()
 
         # 当前卷
-
         self.volume = self.load_volume()
-
         self.volume_path = self.get_volume_path()
 
         # =====================
         # 长期记忆
         # =====================
-
         self.summary = self.load_summary()
+
+        self.volume_memory = self.load_volume_memory()
+        self.chapter_memory = self.load_chapter_memory(limit=5)
 
         # =====================
         # 最近章节
@@ -78,9 +77,7 @@ class ProjectContext:
     # =====================
 
     def load_volume(self):
-
         current_volume_id = self.state["current_volume_id"]
-
         volumes_dir = self.root / "volumes"
 
         for folder in volumes_dir.iterdir():
@@ -148,6 +145,73 @@ class ProjectContext:
         with open(file, "r", encoding="utf-8") as f:
 
             return json.load(f)
+
+    # =====================
+    # 当前卷 Memory
+    # =====================
+
+    def load_volume_memory(self):
+        volume_id = self.state["current_volume_id"]
+        volumes_dir = self.root / "volumes"
+        for volume_folder in volumes_dir.iterdir():
+            if not volume_folder.is_dir():
+                continue
+
+            config_file = volume_folder / "volume_config.yaml"
+            if not config_file.exists():
+                continue
+
+            with open(config_file, "r", encoding="utf-8") as f:
+                config = yaml.safe_load(f)
+
+            if config["volume"]["id"] == volume_id:
+                memory_file = volume_folder / "memory" / "volume_summary.json"
+                if not memory_file.exists():
+                    return {}
+
+                with open(memory_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+
+        raise Exception(f"Volume {volume_id} memory not found")
+
+        # =====================
+
+    # 最近章节摘要
+    # =====================
+
+    def load_chapter_memory(self, limit=5):
+        volume_id = self.state["current_volume_id"]
+        volumes_dir = self.root / "volumes"
+        current_volume = None
+
+        for folder in volumes_dir.iterdir():
+            config_file = folder / "volume_config.yaml"
+            if not config_file.exists():
+                continue
+
+            with open(config_file, "r", encoding="utf-8") as f:
+                config = yaml.safe_load(f)
+
+            if config["volume"]["id"] == volume_id:
+                current_volume = folder
+                break
+
+        if current_volume is None:
+            return []
+
+        summary_dir = current_volume / "memory" / "chapter_summary"
+        if not summary_dir.exists():
+            return []
+
+        files = sorted(summary_dir.glob("chapter*.json"))
+        # 最近limit章
+        files = files[-limit:]
+        result = []
+        for file in files:
+            with open(file, "r", encoding="utf-8") as f:
+                result.append(json.load(f))
+
+        return result
 
     # =====================
     # 最近章节

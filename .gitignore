@@ -25,7 +25,7 @@ projects/*/volumes/*/chapters/*.md
 
 
 # Generated summaries
-projects/*/state/story_summary.json
+# projects/*/state/story_summary.json
 
 
 # Vector database

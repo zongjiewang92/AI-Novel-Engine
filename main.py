@@ -1,23 +1,31 @@
 from agents.writer_agent import write_chapter
-from agents.summary_agent import summarize_story
+
+from agents.chapter_summary_agent import summarize_chapter
+
+from agents.volume_summary_agent import summarize_volume
+
 
 from database.project_manager import ProjectManager
 from database.project_context import ProjectContext
 
-from database.state_manager import save_state, save_summary
+
+from database.state_manager import save_state
+
+from database.memory_manager import save_chapter_memory, save_volume_memory
+
 
 from scripts.file_utils import save_chapter
 
 if __name__ == "__main__":
 
     # ==========================
-    # 1. 加载小说项目
+    # 1. 加载项目
     # ==========================
 
     project = ProjectManager("swallowing_star_fanfic")
 
     # ==========================
-    # 2. 创建小说上下文
+    # 2. 加载上下文
     # ==========================
 
     context = ProjectContext(project.root)
@@ -43,7 +51,17 @@ if __name__ == "__main__":
     save_chapter(chapter, current_chapter, chapter_dir)
 
     # ==========================
-    # 5. 更新小说状态
+    # 5. 生成章节记忆
+    # ==========================
+
+    print("生成章节记忆...")
+
+    chapter_memory = summarize_chapter(context, chapter, current_chapter)
+
+    save_chapter_memory(context, current_chapter, chapter_memory)
+
+    # ==========================
+    # 6. 更新状态
     # ==========================
 
     context.state["current_chapter"] += 1
@@ -52,20 +70,18 @@ if __name__ == "__main__":
 
     print("章节生成完成")
 
-    # ==================================================
-    # 6. 每10章更新剧情摘要
-    # ==================================================
+    # ==========================
+    # 7. 每10章更新卷记忆
+    # ==========================
 
     new_context = ProjectContext(project.root)
 
     if new_context.chapter_count % 10 == 0 and new_context.chapter_count != 0:
 
-        print("达到10章，开始更新剧情摘要...")
+        print("开始更新卷总结...")
 
-        summary = summarize_story(new_context)
+        volume_memory = summarize_volume(new_context)
 
-        summary_file = project.root / "state" / "story_summary.json"
+        save_volume_memory(new_context, volume_memory)
 
-        save_summary(summary_file, summary)
-
-        print("剧情摘要更新完成")
+        print("卷总结更新完成")

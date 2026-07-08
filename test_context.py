@@ -25,3 +25,11 @@ print(context.characters)
 
 print("\n世界规则:")
 print(context.world_rules)
+
+
+print("\n当前卷记忆:")
+print(context.volume_memory)
+
+
+print("\n最近章节摘要:")
+print(context.chapter_memory)
