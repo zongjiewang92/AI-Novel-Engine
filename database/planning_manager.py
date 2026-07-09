@@ -6,16 +6,20 @@ import re
 class PlanningManager:
 
     def __init__(self, project_root):
+
         self.root = Path(project_root)
+
         self.planning_root = self.root / "planning" / "volumes"
 
     # ==================================================
-    # yaml 基础操作
+    # YAML
     # ==================================================
 
     def load_yaml(self, file):
+
         if not file.exists():
             return {}
+
         with open(file, "r", encoding="utf-8") as f:
             return yaml.safe_load(f) or {}
 
@@ -28,154 +32,215 @@ class PlanningManager:
             yaml.dump(data, f, allow_unicode=True, sort_keys=False)
 
     # ==================================================
-    # 路径定位
+    # Path
     # ==================================================
 
-    def volume_path(self, volume_id):
-        return self.planning_root / volume_id
+    def volume_path(self, target):
 
-    def arc_path(self, volume_id, arc_id):
-        return self.volume_path(volume_id) / "arcs" / arc_id
+        return self.planning_root / target["volume"]
 
-    def plot_path(self, volume_id, arc_id, plot_id):
-        return self.arc_path(volume_id, arc_id) / "plots" / plot_id
+    def arc_path(self, target):
 
-    # ==================================================
-    # 加载 volume
-    # ==================================================
+        return self.volume_path(target) / "arcs" / target["arc"]
 
-    def load_volume(self, volume_id):
-        path = self.volume_path(volume_id) / "volume.yaml"
-        return self.load_yaml(path)
+    def plot_path(self, target):
 
-    # ==================================================
-    # 加载 arc
-    # ==================================================
+        return self.arc_path(target) / "plots" / target["plot"]
 
-    def load_arc(self, volume_id, arc_id):
-        path = self.arc_path(volume_id, arc_id) / "arc.yaml"
-        return self.load_yaml(path)
+    def chapter_path(self, target):
+
+        return self.plot_path(target) / "chapters" / target["chapter"]
 
     # ==================================================
-    # 加载 plot
+    # Load
     # ==================================================
 
-    def load_plot(self, volume_id, arc_id, plot_id):
-        path = self.plot_path(volume_id, arc_id, plot_id) / "plot.yaml"
-        return self.load_yaml(path)
+    def load_volume(self, target):
 
-    # ==================================================
-    # 加载 chapter
-    # ==================================================
+        return self.load_yaml(self.volume_path(target) / "volume.yaml")
 
-    def load_chapter(self, volume_id, arc_id, plot_id, chapter_id):
-        path = (
-            self.plot_path(volume_id, arc_id, plot_id)
-            / "chapters"
-            / chapter_id
-            / f"{chapter_id}.yaml"
-        )
+    def load_arc(self, target):
 
-        return self.load_yaml(path)
+        return self.load_yaml(self.arc_path(target) / "arc.yaml")
 
-    # ==================================================
-    # 加载 scene
-    # ==================================================
+    def load_plot(self, target):
 
-    def load_scenes(self, volume_id, arc_id, plot_id, chapter_id):
-        scene_path = (
-            self.plot_path(volume_id, arc_id, plot_id)
-            / "chapters"
-            / chapter_id
-            / "scenes"
-        )
+        return self.load_yaml(self.plot_path(target) / "plot.yaml")
+
+    def load_chapter(self, target):
+
+        file = self.chapter_path(target) / f'{target["chapter"]}.yaml'
+
+        return self.load_yaml(file)
+
+    def load_scenes(self, target):
+
+        folder = self.chapter_path(target) / "scenes"
+
+        if not folder.exists():
+
+            return []
 
         result = []
 
-        if not scene_path.exists():
-            return result
+        for file in sorted(folder.glob("*.yaml")):
 
-        for file in sorted(scene_path.glob("*.yaml")):
             result.append(self.load_yaml(file))
 
         return result
 
     # ==================================================
-    # 加载当前完整剧情
+    # 当前完整计划
     # ==================================================
 
     def load_current_plan(self, target):
-        volume_id = target["volume"]
-        arc_id = target["arc"]
-        plot_id = target["plot"]
-        chapter_id = target["chapter"]
 
-        result = {}
-        result["volume"] = self.load_volume(volume_id)
-        result["arc"] = self.load_arc(volume_id, arc_id)
-        result["plot"] = self.load_plot(volume_id, arc_id, plot_id)
-        result["chapter"] = self.load_chapter(volume_id, arc_id, plot_id, chapter_id)
-        result["scenes"] = self.load_scenes(volume_id, arc_id, plot_id, chapter_id)
-
-        return result
+        return {
+            "volume": self.load_volume(target),
+            "arc": self.load_arc(target),
+            "plot": self.load_plot(target),
+            "chapter": self.load_chapter(target),
+            "scenes": self.load_scenes(target),
+        }
 
     # ==================================================
-    # 获取所有 plot
+    # Related Plot
     # ==================================================
 
-    def get_plot_ids(self, volume_id, arc_id):
-        path = self.arc_path(volume_id, arc_id) / "plots"
-        if not path.exists():
+    def get_plot_ids(self, target):
+
+        folder = self.arc_path(target) / "plots"
+
+        if not folder.exists():
+
             return []
 
-        return sorted([p.name for p in path.iterdir() if p.is_dir()])
-
-    # ==================================================
-    # 加载附近 plot
-    # ==================================================
+        return sorted([x.name for x in folder.iterdir() if x.is_dir()])
 
     def load_related_plots(self, target, limit=3):
-        volume_id = target["volume"]
-        arc_id = target["arc"]
-        current_plot = target["plot"]
-        plots = self.get_plot_ids(volume_id, arc_id)
-        if current_plot not in plots:
+
+        plots = self.get_plot_ids(target)
+
+        current = target["plot"]
+
+        if current not in plots:
+
             return []
 
-        index = plots.index(current_plot)
+        index = plots.index(current)
+
         start = max(0, index - limit)
+
         end = min(len(plots), index + limit + 1)
+
         result = []
 
-        for plot_id in plots[start:end]:
-            result.append(
-                {"id": plot_id, "content": self.load_plot(volume_id, arc_id, plot_id)}
-            )
+        for pid in plots[start:end]:
+
+            new_target = target.copy()
+
+            new_target["plot"] = pid
+
+            result.append({"target": new_target, "plan": self.load_plot(new_target)})
 
         return result
 
     # ==================================================
-    # 保存 plot
+    # 状态判断
     # ==================================================
 
-    def save_plot(self, volume_id, arc_id, plot_id, data):
-        path = self.plot_path(volume_id, arc_id, plot_id) / "plot.yaml"
-        self.save_yaml(path, data)
+    def is_plot_finished(self, target):
+
+        plot = self.load_plot(target)
+
+        end_chapter = plot.get("plot", {}).get("end_chapter")
+
+        if not end_chapter:
+
+            return False
+
+        current = int(re.findall(r"\d+", target["chapter"])[0])
+
+        end = int(re.findall(r"\d+", end_chapter)[0])
+
+        return current >= end
+
+    def is_arc_finished(self, target):
+
+        arc = self.load_arc(target)
+
+        plots = arc.get("arc", {}).get("plots", [])
+
+        if not plots:
+
+            return False
+
+        return target["plot"] == plots[-1]
+
+    def is_volume_finished(self, target):
+
+        volume = self.load_volume(target)
+
+        arcs = volume.get("volume", {}).get("arcs", [])
+
+        if not arcs:
+
+            return False
+
+        return target["arc"] == arcs[-1]
 
     # ==================================================
-    # 创建新的 plot
+    # Save Planning
     # ==================================================
 
-    def create_next_plot(self, volume_id, arc_id, current_plot_id):
+    def save_plan(self, target, level, data):
 
-        number = int(re.findall(r"\d+", current_plot_id)[0])
+        if level == "volume":
+
+            file = self.volume_path(target) / "volume.yaml"
+
+        elif level == "arc":
+
+            file = self.arc_path(target) / "arc.yaml"
+
+        elif level == "plot":
+
+            file = self.plot_path(target) / "plot.yaml"
+
+        elif level == "chapter":
+
+            file = self.chapter_path(target) / f'{target["chapter"]}.yaml'
+
+        elif level == "scene":
+
+            file = self.chapter_path(target) / "scenes" / f'{data["id"]}.yaml'
+
+        else:
+
+            raise Exception(f"unknown level:{level}")
+
+        self.save_yaml(file, data)
+
+    # ==================================================
+    # Create next plot
+    # ==================================================
+
+    def create_next_plot(self, target):
+
+        current = target["plot"]
+
+        number = int(re.findall(r"\d+", current)[0])
+
         next_id = f"plot{number+1:03d}"
-        path = self.plot_path(volume_id, arc_id, next_id)
-        path.mkdir(parents=True, exist_ok=True)
-        chapter_path = path / "chapters"
-        chapter_path.mkdir(exist_ok=True)
 
-        return next_id
+        new_target = target.copy()
 
-    def save_plan():
-        pass
+        new_target["plot"] = next_id
+
+        folder = self.plot_path(new_target)
+
+        folder.mkdir(parents=True, exist_ok=True)
+
+        (folder / "chapters").mkdir(exist_ok=True)
+
+        return new_target

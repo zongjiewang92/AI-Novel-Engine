@@ -1,6 +1,5 @@
 from pathlib import Path
 import yaml
-import json
 
 
 from database.task_manager import TaskManager
@@ -16,12 +15,17 @@ class ProjectContext:
         self.root = Path(project_path)
 
         # =================================
-        # 基础配置
+        # 基础
         # =================================
 
         self.config = self.load_config()
+
+        # State
+
         self.state_manager = StateManager(self.root)
+
         self.state_manager.create_checkpoint_if_changed()
+
         self.novel_state = self.state_manager.load_state()
 
         # =================================
@@ -29,14 +33,26 @@ class ProjectContext:
         # =================================
 
         self.task_manager = TaskManager(self.root)
+
         self.task = self.task_manager.load_task()
+
         self.target = self.task["target"]
+
         self.output = self.task["output"]
 
-        # 拆分定位
+        self.position = {
+            "volume": self.target["volume"],
+            "arc": self.target["arc"],
+            "plot": self.target["plot"],
+            "chapter": self.target["chapter"],
+        }
+
         self.volume_id = self.target["volume"]
+
         self.arc_id = self.target["arc"]
+
         self.plot_id = self.target["plot"]
+
         self.chapter_id = self.target["chapter"]
 
         # =================================
@@ -45,53 +61,73 @@ class ProjectContext:
 
         self.planning_manager = PlanningManager(self.root)
 
-        # 当前完整规划
+        # 当前剧情规划
+
         self.current_plan = self.planning_manager.load_current_plan(self.target)
 
-        # 当前plot附近
+        # 附近plot
+
         self.related_plots = self.planning_manager.load_related_plots(
             self.target, limit=3
         )
 
-        # 当前volume路径
-        self.volume_path = self.planning_manager.volume_path(self.volume_id)
+        self.volume_path = self.planning_manager.volume_path(self.target)
 
         # =================================
         # Memory
         # =================================
+
         self.memory_manager = MemoryManager(self.root)
 
-        # Volume Memory
-        self.volume_memory = self.memory_manager.load_volume_memory(self.volume_id)
+        # 当前节点 Memory
 
-        # Arc Memory
-        self.arc_memory = self.memory_manager.load_arc_memory(
-            self.volume_id, self.arc_id
-        )
+        self.volume_memory = self.memory_manager.load_volume_memory(self.target)
 
-        # Plot Memory
-        self.plot_memory = self.memory_manager.load_plot_memory(
-            self.volume_id, self.arc_id, self.plot_id
-        )
+        self.arc_memory = self.memory_manager.load_arc_memory(self.target)
 
-        # Chapter Memory
-        self.chapter_memory = self.memory_manager.load_chapter_memory(
-            self.volume_id, self.arc_id, self.plot_id, self.chapter_id
-        )
+        self.plot_memory = self.memory_manager.load_plot_memory(self.target)
+
+        self.chapter_memory = self.memory_manager.load_chapter_memory(self.target)
+
+        # =================================
+        # Memory Tree
+        # 用于更新上级memory
+        # =================================
+
+        # 当前arc下面所有plot memory
+
+        self.plot_memories = self.memory_manager.load_arc_plot_memories(self.target)
+
+        # 当前volume下面所有arc memory
+
+        self.arc_memories = self.memory_manager.load_volume_arc_memories(self.target)
+
+        # =================================
+        # 状态判断
+        # =================================
+
+        self.is_plot_finished = self.planning_manager.is_plot_finished(self.target)
+
+        self.is_arc_finished = self.planning_manager.is_arc_finished(self.target)
+
+        self.is_volume_finished = self.planning_manager.is_volume_finished(self.target)
 
         # =================================
         # 最近正文
         # =================================
+
         self.chapter_history = self.load_chapters(limit=3)
 
         # =================================
         # Knowledge
         # =================================
+
         self.knowledge = self.load_knowledge()
 
         # =================================
         # 统计
         # =================================
+
         self.chapter_count = self.get_chapter_count()
 
     # =================================================
@@ -107,7 +143,7 @@ class ProjectContext:
             return yaml.safe_load(f)
 
     # =================================================
-    # 最近章节正文
+    # 最近章节
     # =================================================
 
     def load_chapters(self, limit=3):

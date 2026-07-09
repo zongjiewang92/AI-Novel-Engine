@@ -5,134 +5,229 @@ from agents.memory_agent import MemoryAgent
 from agents.critic_agent import CriticAgent
 from agents.planner_agent import PlannerAgent
 
-# 后续增加
-# from agents.editor_agent import EditorAgent
-
 
 from database.project_manager import ProjectManager
 from database.project_context import ProjectContext
-
 from database.memory_manager import MemoryManager
 
-from utils.file_utils import save_chapter
 from utils.logger import get_logger
+from pathlib import Path
 
 
+def save_chapter(content, context):
+
+    target = context.target
+    output = context.output
+
+    volume = target["volume"]
+    chapter = target["chapter"]
+
+    # ==============================
+    # 输出目录
+    # ==============================
+
+    root = context.root / output["directory"]
+
+    chapter_dir = root / volume / "chapters" / chapter
+
+    chapter_dir.mkdir(parents=True, exist_ok=True)
+
+    file = chapter_dir / f"{chapter}.md"
+
+    with open(file, "w", encoding="utf-8") as f:
+
+        f.write(content)
+
+    print(f"章节已保存: {file}")
+
+    return file
+
+
+# ==================================================
+# Planning检查
+# ==================================================
 def ensure_planning(context):
-    """
-    检查当前planning是否存在
-
-    如果不存在:
-        AI生成
-
-    """
-
     planner = PlannerAgent(context)
     if not context.current_plan:
-        logger.info("当前规划不存在，生成planning")
-        # plan = planner.generate_full_plan()
-        # context.planning_manager.save_plan(plan)
+        logger.warning("当前planning不存在，开始生成")
+        # plan = planner.generate_plan()
+        # context.planning_manager.save_plan(context.target, plan)
         return False
+
     return True
+
+
+# ==================================================
+# Writer
+# ==================================================
 
 
 def generate_chapter(context):
     logger.info("开始生成章节")
-    chapter = write_chapter(context)
-    return chapter
+    return write_chapter(context)
+
+
+# ==================================================
+# Critic
+# ==================================================
 
 
 def review_chapter(context, chapter):
+
     logger.info("开始章节审核")
+
     critic = CriticAgent(context)
+
     result = critic.review_chapter(chapter)
+
     logger.info(f"审核评分:{result['score']}")
+
     return result
 
 
-def create_memory(context, chapter):
-    logger.info("生成章节记忆")
+# ==================================================
+# Memory
+# ==================================================
+
+
+def generate_memory(context, chapter):
+
+    logger.info("开始生成Memory")
+
     agent = MemoryAgent(context)
-    memory = agent.create_chapter_memory(chapter, context.target["latest_chapter_id"])
 
-    return memory
+    memories = {}
+
+    # -----------------------
+    # Chapter Memory
+    # -----------------------
+
+    chapter_memory = agent.create_chapter_memory(chapter, context.target["chapter"])
+
+    memories["chapter"] = chapter_memory
+
+    # -----------------------
+    # Character Memory
+    # -----------------------
+
+    character_memory = agent.update_character_memory(chapter_memory)
+
+    memories["characters"] = character_memory
+
+    # -----------------------
+    # Plot Memory
+    # -----------------------
+
+    if context.is_plot_finished:
+
+        logger.info("Plot结束，更新Plot Memory")
+
+        memories["plot"] = agent.update_plot_memory(chapter_memory)
+
+    # -----------------------
+    # Arc Memory
+    # -----------------------
+
+    if context.is_arc_finished:
+
+        logger.info("Arc结束，更新Arc Memory")
+
+        memories["arc"] = agent.update_arc_memory(context.plot_memories)
+
+    # -----------------------
+    # Volume Memory
+    # -----------------------
+
+    if context.is_volume_finished:
+
+        logger.info("Volume结束，更新Volume Memory")
+
+        memories["volume"] = agent.update_volume_memory(context.arc_memories)
+
+    return memories
 
 
-def save_result(context, chapter, memory):
+# ==================================================
+# 保存
+# ==================================================
+
+
+def save_result(context, chapter, memories):
+
     memory_manager = MemoryManager(context.root)
-    # 保存正文
-    chapter_dir = context.output["directory"]
-    save_chapter(chapter, context.target["latest_chapter_id"], chapter_dir)
-    # 保存memory
-    memory_manager.save_chapter_memory(context.target, memory)
-    logger.info("章节和memory保存完成")
 
+    # -----------------------
+    # 保存正文
+    # -----------------------
+    save_chapter(chapter, context)
+
+    # -----------------------
+    # 保存所有Memory
+    # -----------------------
+
+    memory_manager.save_all(context.target, memories)
+
+    logger.info("章节和Memory保存完成")
+
+
+# ==================================================
+# Main
+# ==================================================
 
 if __name__ == "__main__":
 
-    # ==================================
-    # 1. 项目
-    # ==================================
     project = ProjectManager("swallowing_star_fanfic")
 
     logger = get_logger(__name__, project.root)
-    logger.info("项目启动")
+
+    logger.info("小说引擎启动")
 
     # ==================================
-    # 2. Context
-    # 自动加载:
-    #
-    # task
-    # planning
-    # memory
-    # knowledge
-    #
+    # Context
     # ==================================
 
     context = ProjectContext(project.root)
-    logger.info("任务:" + str(context.task))
+
+    logger.info(str(context.task))
 
     # ==================================
-    # 3. 检查规划
+    # Planning
     # ==================================
-    planned = ensure_planning(context)
-    if not planned:
+
+    if not ensure_planning(context):
+
+        logger.info("Planning生成完成，请重新运行")
+
         sys.exit(0)
 
     # ==================================
-    # 4. 写章节
+    # Writer
     # ==================================
+
     chapter = generate_chapter(context)
 
     # ==================================
-    # 5. AI审核
+    # Critic
     # ==================================
 
     review = review_chapter(context, chapter)
-
-    # ==================================
-    # 6. 判断
-    # ==================================
 
     if not review["pass"]:
 
         logger.warning("章节审核失败")
 
-        # TODO:
-        # editor_agent修改
-
-        raise Exception("章节质量不通过")
+        sys.exit(1)
 
     # ==================================
-    # 7. 生成memory
+    # Memory
     # ==================================
 
-    memory = create_memory(context, chapter)
+    memories = generate_memory(context, chapter)
 
     # ==================================
-    # 8. 保存
+    # Save
     # ==================================
 
-    save_result(context, chapter, memory)
+    save_result(context, chapter, memories)
 
-    logger.info("小说生成流程完成")
+    logger.info("本章生成完成")
