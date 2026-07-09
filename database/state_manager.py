@@ -23,16 +23,16 @@ class StateManager:
     # ==================================================
 
     def load_state(self):
+
         if not self.current_state_file.exists():
             return {}
+
         with open(self.current_state_file, "r", encoding="utf-8") as f:
+
             return yaml.safe_load(f) or {}
 
     # ==================================================
     # Save current state
-    #
-    # 人工修改后保存
-    #
     # ==================================================
 
     def save_state(self, state):
@@ -44,7 +44,7 @@ class StateManager:
             yaml.dump(state, f, allow_unicode=True, sort_keys=False)
 
     # ==================================================
-    # Get latest checkpoint
+    # 获取最新checkpoint
     # ==================================================
 
     def get_latest_checkpoint(self):
@@ -52,7 +52,6 @@ class StateManager:
         files = sorted(self.checkpoint_dir.glob("state_*.yaml"))
 
         if not files:
-
             return None
 
         return files[-1]
@@ -68,17 +67,40 @@ class StateManager:
             return yaml.safe_load(f) or {}
 
     # ==================================================
+    # 提取真正state
+    #
+    # 去掉:
+    # checkpoint_id
+    # created_at
+    #
+    # ==================================================
+
+    def extract_state(self, checkpoint):
+
+        if "state" in checkpoint:
+
+            return checkpoint["state"]
+
+        return checkpoint
+
+    # ==================================================
     # Compare state
+    #
+    # 只比较业务数据
+    #
     # ==================================================
 
     def is_same_state(self, state1, state2):
 
+        state1 = self.extract_state(state1)
+        state2 = self.extract_state(state2)
+
         return state1 == state2
 
     # ==================================================
-    # Auto checkpoint
+    # 自动创建checkpoint
     #
-    # 如果状态变化才保存
+    # 只有内容变化才保存
     #
     # ==================================================
 
@@ -86,28 +108,34 @@ class StateManager:
 
         current_state = self.load_state()
 
+        # 空state不保存
+
+        if not current_state:
+
+            return None
+
         latest_file = self.get_latest_checkpoint()
 
-        # 第一次运行
+        # 第一次
 
         if latest_file is None:
 
             return self.create_checkpoint(current_state)
 
-        latest_state = self.load_checkpoint_file(latest_file)
+        latest_checkpoint = self.load_checkpoint_file(latest_file)
 
-        # 没变化
+        # ==============================
+        # 核心比较
+        # ==============================
 
-        if self.is_same_state(latest_state, current_state):
+        if self.is_same_state(latest_checkpoint, current_state):
 
             return None
-
-        # 有变化
 
         return self.create_checkpoint(current_state)
 
     # ==================================================
-    # Create checkpoint
+    # 创建checkpoint
     #
     # state_00000001.yaml
     #
@@ -132,8 +160,7 @@ class StateManager:
         return file
 
     # ==================================================
-    # Next id
-    #
+    # 获取下一个编号
     # ==================================================
 
     def get_next_checkpoint_id(self):
@@ -156,15 +183,12 @@ class StateManager:
 
             except:
 
-                pass
+                continue
 
         return max(numbers) + 1 if numbers else 1
 
     # ==================================================
-    # Restore
-    #
-    # 回滚
-    #
+    # Restore checkpoint
     # ==================================================
 
     def restore_checkpoint(self, checkpoint_id):
@@ -175,13 +199,13 @@ class StateManager:
 
             raise FileNotFoundError(file)
 
-        with open(file, encoding="utf-8") as f:
+        checkpoint = self.load_checkpoint_file(file)
 
-            data = yaml.safe_load(f)
+        state = self.extract_state(checkpoint)
 
-        self.save_state(data["state"])
+        self.save_state(state)
 
-        return data["state"]
+        return state
 
     # ==================================================
     # List
