@@ -1,0 +1,18 @@
+target:
+  # =====================
+  # 生成的章节编码
+  # =====================
+  latest_chapter_id: 1
+  # =====================
+  # 剧情定位
+  # =====================
+  volume: volume001
+  arc: arc001
+  plot: plot001
+  chapter: chapter0001
+
+# =====================
+# 输出
+# =====================
+output:
+  directory: output_drafts

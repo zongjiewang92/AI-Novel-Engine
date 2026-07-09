@@ -1,0 +1,88 @@
+task:
+  type: generate_chapter
+  id: task_000001
+  created_at: 2026-07-09
+
+target:
+
+  # =====================
+  # 剧情定位
+  # =====================
+
+  volume: volume001
+
+  arc: arc001
+
+  plot: plot001
+
+  chapter: chapter0002
+
+mode:
+
+  # generate:
+  #   新生成章节
+  #
+  # rewrite:
+  #   重写章节
+  #
+  # publish:
+  #   发布章节
+
+  action: generate
+
+  # 不覆盖正式章节
+  overwrite: false
+
+  # 保存draft
+  save_as_draft: true
+
+# =====================
+# AI上下文控制
+# =====================
+
+context:
+  chapters:
+    # 最近正文数量
+    recent_count: 5
+
+  memory:
+    # 最近章节记忆
+    chapter_memory_count: 10
+
+    # 加载卷memory
+    load_volume_memory: true
+
+    # 加载arc memory
+    load_arc_memory: true
+
+    # 加载plot memory
+    load_plot_memory: true
+
+  planning:
+
+    load_volume_plan: true
+    load_arc_plan: true
+    load_plot_plan: true
+    load_chapter_plan: true
+    load_scene_plan: false
+
+# =====================
+# 输出
+# =====================
+
+output:
+
+  format: markdown
+  directory: drafts
+
+# =====================
+# 是否更新系统
+# =====================
+
+after:
+
+  # 是否更新memory
+  update_memory: false
+
+  # 是否更新state
+  update_state: false

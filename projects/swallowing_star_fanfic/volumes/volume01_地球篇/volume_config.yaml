@@ -3,12 +3,11 @@ volume:
   name: 地球篇
 
 story_goal:
-  - 主角觉醒
-  - 建立武者体系
-  - 探索地球遗迹
+- 主角觉醒
+- 建立武者体系
+- 探索地球遗迹
 
 start_chapter: 1
-
 end_chapter: 50
 
 power_stage:
@@ -16,5 +15,5 @@ power_stage:
   end: 行星级
 
 main_conflict:
-  - 地球危机
-  - 怪兽威胁
+- 地球危机
+- 怪兽威胁

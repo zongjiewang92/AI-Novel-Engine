@@ -16,6 +16,3 @@ class ProjectManager:
 
     def get_path(self, name):
         return self.root / name
-
-    def get_state_file(self):
-        return self.root / "state" / "novel_state.json"

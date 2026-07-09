@@ -1,0 +1,35 @@
+id: arc01
+
+title: 远古遗迹探索
+
+volume:
+
+  volume01
+
+goal:
+
+  发现宇宙遗迹秘密
+
+start_chapter:
+
+  10
+
+end_chapter:
+
+  30
+
+plots:
+
+- plot01
+- plot02
+
+depends_on:
+  characters:
+  - 林玄
+  - 罗峰
+
+  locations:
+  - 地球
+
+  knowledge:
+  - 空间法则

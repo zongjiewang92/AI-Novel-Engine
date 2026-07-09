@@ -1,0 +1,9 @@
+volumes:
+
+- id: volume01
+  title: 地球篇
+  status: writing
+
+- id: volume02
+  title: 宇宙篇
+  status: locked

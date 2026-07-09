@@ -1,0 +1,23 @@
+id: volume01
+
+title: 地球篇
+
+goal: 主角从地球成长， 接触宇宙文明。
+
+theme:
+- 成长
+- 探索
+
+arcs:
+- arc01
+- arc02
+
+chapter_range:
+
+  start: 1
+  end: 100
+
+status:
+- planned
+- writing
+- finished
