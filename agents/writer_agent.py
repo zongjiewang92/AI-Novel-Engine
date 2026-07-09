@@ -7,15 +7,15 @@ def write_chapter(context):
 
     volume = context.volume
 
-    current_chapter = context.state["current_chapter"]
+    current_chapter = context.novel_state["current_chapter"]
 
-    protagonist = context.state["protagonist"]
+    protagonist = context.novel_state["protagonist"]
 
     # ==========================
     # 小说上下文
     # ==========================
 
-    summary = context.summary
+    summary = context.story_summary
 
     volume_memory = context.volume_memory
 

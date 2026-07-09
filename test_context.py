@@ -8,11 +8,11 @@ print(context.config["novel"]["title"])
 
 
 print("\n当前章节:")
-print(context.state["current_chapter"])
+print(context.novel_state["current_chapter"])
 
 
 print("\n剧情摘要:")
-print(context.summary)
+print(context.story_summary)
 
 
 print("\n最近章节:")

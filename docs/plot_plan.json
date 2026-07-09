@@ -1,0 +1,36 @@
+{
+    "novel": "吞噬星空之浑源道主",
+    "structure": {
+        "volume": [
+            {
+                "id": "volume01",
+                "title": "地球篇",
+                "goal": "主角地球成长",
+                "children": [
+                    {
+                        "id": "arc01",
+                        "title": "遗迹篇",
+                        "children": [
+                            {
+                                "id": "plot01",
+                                "title": "发现遗迹",
+                                "children": [
+                                    {
+                                        "id": "chapter0001",
+                                        "goal": "发现遗迹入口",
+                                        "children": [
+                                            {
+                                                "id": "scene01",
+                                                "goal": "营造神秘气氛"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
