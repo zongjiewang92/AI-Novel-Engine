@@ -6,6 +6,7 @@ from database.task_manager import TaskManager
 from database.planning_manager import PlanningManager
 from database.memory_manager import MemoryManager
 from database.state_manager import StateManager
+from database.character_manager import CharacterManager
 
 
 class ProjectContext:
@@ -101,6 +102,12 @@ class ProjectContext:
         # 当前volume下面所有arc memory
 
         self.arc_memories = self.memory_manager.load_volume_arc_memories(self.target)
+
+        # =================================
+        # Character
+        # =================================
+        self.character_manager = CharacterManager(self.root)
+        self.related_characters = self.load_related_characters()
 
         # =================================
         # 状态判断
@@ -201,3 +208,14 @@ class ProjectContext:
             return 0
 
         return len(list(folder.glob("*.md")))
+
+    def load_related_characters(self):
+        result = {}
+        characters = self.plot_memory.get("characters", [])
+        for item in characters:
+            name = item["name"]
+            character = self.character_manager.load_character(name)
+            if character:
+                result[name] = character
+
+        return result

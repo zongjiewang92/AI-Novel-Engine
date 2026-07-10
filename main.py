@@ -4,11 +4,12 @@ from agents.writer_agent import write_chapter
 from agents.memory_agent import MemoryAgent
 from agents.critic_agent import CriticAgent
 from agents.planner_agent import PlannerAgent
-
+from agents.character_agent import CharacterAgent
 
 from database.project_manager import ProjectManager
 from database.project_context import ProjectContext
 from database.memory_manager import MemoryManager
+from database.character_manager import CharacterManager
 
 from utils.logger import get_logger
 from pathlib import Path
@@ -147,6 +148,16 @@ def generate_memory(context, chapter):
     return memories
 
 
+def update_character_memory(context, chapter_memory):
+    logger.info("更新人物系统")
+
+    agent = CharacterAgent(context)
+
+    result = agent.process(chapter_memory)
+
+    logger.info(f"更新人物数量:{len(result)}")
+
+
 # ==================================================
 # 保存
 # ==================================================
@@ -225,9 +236,13 @@ if __name__ == "__main__":
     memories = generate_memory(context, chapter)
 
     # ==================================
-    # Save
+    # 8. 保存章节和基础memory
     # ==================================
-
     save_result(context, chapter, memories)
+
+    # ==================================
+    # 9. 更新人物长期Memory
+    # ==================================
+    update_character_memory(context, memories["chapter"])
 
     logger.info("本章生成完成")
