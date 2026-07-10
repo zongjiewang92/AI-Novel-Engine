@@ -1,7 +1,317 @@
 id: planet_earth
 
-name: 地球
+name:
+  zh: 地球
+  en: Earth
 
 aliases:
-- Earth
-- 原始地球
+  - Earth
+  - 原始地球
+  - 母星
+
+type:
+  - planet
+  - life_planet
+  - human_origin_world
+
+description:
+  zh: >
+    地球人类文明起源星球。
+    在大涅槃时期后，人类社会经历巨大灾难，
+    全球进入怪兽与人类武者共同发展的时代。
+    罗峰等主要人物早期成长于此。
+
+# ==========================
+# 基础宇宙信息
+# ==========================
+
+cosmic_location:
+  galaxy:
+    name: 银河系
+
+  star_field:
+    name: 未加入宇宙文明前属于偏远星域
+
+  universe:
+    name: 原始宇宙
+
+coordinates:
+  known: false
+
+# ==========================
+# 生命与文明
+# ==========================
+
+life:
+  dominant_species:
+    - 人类
+    - 地球怪兽
+
+civilization:
+  name:
+    zh: 地球人类文明
+
+  level:
+    early:
+      type: 行星级文明以下
+
+    later:
+      type: 加入宇宙文明体系
+
+  characteristics:
+    - 武者体系
+    - 精神念师体系
+    - 古文明遗迹科技
+
+# ==========================
+# 地球时代划分
+# ==========================
+
+history:
+  ancient:
+    name: 旧时代
+
+    description: 人类科技文明高速发展时期
+
+  great_nirvana:
+    name: 大涅槃时期
+
+    description: 全球生态巨变，
+      动植物发生变异，
+      人类诞生武者体系。
+
+  post_nirvana:
+    name: 大涅槃后时代
+
+    description: 人类建立基地市，
+      武者成为保护人类的重要力量。
+
+# ==========================
+# 地球主要区域
+# ==========================
+
+regions:
+  continents:
+    - name: 亚洲
+      importance: high
+
+    - name: 欧洲
+
+    - name: 北美洲
+
+    - name: 南美洲
+
+    - name: 非洲
+
+    - name: 澳洲
+
+  important_regions:
+    - name: 江南区域
+
+      type:
+        - human_settlement
+        - protagonist_region
+
+      importance: very_high
+
+    - name: 澳洲荒野区
+
+      type:
+        - wilderness
+        - monster_region
+
+    - name: 亚马逊雨林
+
+      type:
+        - wilderness
+        - dangerous_region
+
+    - name: 海域区域
+
+      type:
+        - ocean_region
+        - monster_area
+
+# ==========================
+# 基地市
+# ==========================
+
+cities:
+  base_cities:
+    china:
+      - name: 江南基地市
+
+        importance: very_high
+
+        related_characters:
+          - 罗峰
+
+      - name: 洪宁基地市
+
+        importance: high
+
+        founder:
+          - 洪
+
+      - name: 京都基地市
+
+    europe:
+      - name: 巴黎基地市
+
+      - name: 伦敦基地市
+
+    america:
+      - name: 纽约基地市
+
+      - name: 华盛顿基地市
+
+    asia:
+      - name: 印度基地市
+
+      - name: 俄罗斯基地市
+
+    others:
+      - name: 南美基地市
+
+      - name: 非洲基地市
+
+# ==========================
+# 重要设施
+# ==========================
+
+facilities:
+  martial:
+    - name: 极限武馆总部
+
+      organization: 极限武馆
+
+    - name: 雷电武馆总部
+
+      organization: 雷电武馆
+
+  government:
+    - name: 战神宫
+
+      type: 武者最高议事机构
+
+  organizations:
+    - name: HR联盟总部
+
+      type: 商业组织
+
+  training:
+    - name: 精英训练营
+
+      type: 武者培养机构
+
+# ==========================
+# 古文明遗迹
+# ==========================
+
+ancient_relics:
+  - name: 9号古文明遗迹
+
+    type: technology_ruins
+
+  - name: 12号古文明遗迹
+
+    type: technology_ruins
+
+# ==========================
+# 危险区域
+# ==========================
+
+dangerous_places:
+  - name: 雾岛
+
+    type:
+      - ancient_location
+      - treasure_location
+
+    danger_level: high
+
+  - name: 百慕大区域
+
+    type: unknown
+
+  - name: 海域怪兽区域
+
+    type: monster_area
+
+# ==========================
+# 怪兽生态
+# ==========================
+
+monster:
+  classification:
+    - 兽将级
+
+    - 领主级
+
+    - 王级怪兽
+
+  major_regions:
+    - 澳洲大陆
+
+    - 海洋区域
+
+# ==========================
+# 修炼体系关联
+# ==========================
+
+cultivation:
+  early_systems:
+    - 武者
+
+    - 精神念师
+
+  important_resources:
+    - 木伢晶
+
+    - 古文明科技
+
+# ==========================
+# 重要人物关联
+# ==========================
+
+characters:
+  born_here:
+    - 罗峰
+
+    - 洪
+
+    - 雷神
+
+  associated:
+    - 巴巴塔
+
+# ==========================
+# 写作约束
+# ==========================
+
+writing_rules:
+  allowed:
+    - 描写基地市生活
+    - 描写怪兽战争
+    - 描写武者成长
+    - 描写古文明探索
+
+  forbidden:
+    - 地球早期出现宇宙级文明
+    - 随意改变原著历史
+    - 破坏罗峰主线剧情
+
+# ==========================
+# tags
+# ==========================
+
+tags:
+  - 人类起源
+
+  - 罗峰成长地
+
+  - 大涅槃
+
+  - 武者文明
+
+  - 古文明遗迹
