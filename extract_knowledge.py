@@ -336,8 +336,8 @@ def main():
 
         # 第一阶段测试
         # 后面改成 1-100
-        part_start=1,
-        part_end=2
+        part_start=2,
+        part_end=10
     )
 
 
