@@ -1,0 +1,21 @@
+id: universe_structure
+name: 宇宙结构
+description: >
+  描述吞噬星空世界中的宇宙层级结构， 是所有生命、文明、强者存在的基础。
+universe_layers:
+
+- id: original_universe
+
+  name: 原始宇宙
+
+  type: 最高等级宇宙空间之一
+
+  features:
+
+  - id: universe_origin
+
+    description: 孕育无数生命与文明。
+
+  - id: complete_laws
+
+    description: 本源法则完整运行。
