@@ -1,0 +1,138 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 高中生，具有理科优势和数学特长。目标是成为武者。
+    attributes:
+      年龄: 不详
+      性别: 男性
+      身份: 学生
+
+  - id: 张局长
+    type: Character
+    name: 张局长
+    aliases: []
+    description: 宜安区警察局局长，负责高考考场外的安全。
+    attributes:
+      年龄: 不详
+      性别: 男性
+      身份: 公务员
+
+  - id: 刘主任
+    type: Character
+    name: 刘主任
+    aliases: []
+    description: 教育局的工作人员，参与高考考场安全工作。
+    attributes:
+      年龄: 不详
+      性别: 男性或女性
+      身份: 公务员
+
+  - id: 武者
+    type: Character
+    name: 武者
+    aliases: []
+    description: 能够一对一与怪兽战斗的存在，在高考中负责考场安全。
+    attributes:
+      年龄: 不详
+      性别: 不详
+      身份: 武者
+
+  - id: 罗华
+    type: Character
+    name: 罗华
+    aliases: []
+    description: 罗峰的弟弟，坐在轮椅上。
+    attributes:
+      年龄: 不详
+      性别: 男性
+      身份: 学生
+
+organizations:
+  - id: 第一军校
+    type: Organization
+    name: 江南第一军校
+    aliases: []
+    description: 罗峰的高考目标学校。
+    attributes:
+      地点: 江南市
+
+locations:
+  - id: 第一高中
+    type: Location
+    name: 第一高中
+    aliases: []
+    description: 高考考场所在地点。
+    attributes:
+      地址: 不详
+      特殊性: 考试场地
+
+items:
+  - id: 数学试卷
+    type: Item
+    name: 数学试卷
+    aliases: [理科试卷, 文科试卷]
+    description: 高考的考试材料。
+    attributes:
+      种类: 考试试卷
+      总分: 每门250分，总分750分
+
+abilities:
+  - id: 数学能力
+    type: Ability
+    name: 数学能力
+    aliases: []
+    description: 罗峰在数学考试中的优势。
+    attributes:
+      种类: 学术能力
+
+events:
+  - id: 高考理科考试
+    type: Event
+    name: 高考理科考试
+    aliases: [高考]
+    description: 六月七号的理科考试，是罗峰参加的一系列考试之一。
+    attributes:
+      时间: 2056年六月七号
+
+  - id: 高考文科考试
+    type: Event
+    name: 高考文科考试
+    aliases: []
+    description: 六月八号的文科考试，罗峰参加的一系列考试之一。
+    attributes:
+      时间: 2056年六月八号
+
+  - id: 数学考试
+    type: Event
+    name: 数学考试
+    aliases: [高考数学考试]
+    description: 六月九号的数学考试，是罗峰参加的最后一场考试。
+    attributes:
+      时间: 2056年六月九号
+
+dialogues:
+  - id: 父亲鼓励儿子
+    type: Dialogue
+    content: "小峰，进场了。你快进去吧。"
+    speaker: 罗洪国 (父亲)
+    listener: 罗峰
+
+timeline:
+  - event_id: 高考理科考试
+    time: 六月七号
+  - event_id: 高考文科考试
+    time: 六月八号
+  - event_id: 数学考试
+    time: 六月九号
+
+mysteries:
+  - id: 武者的身份和能力
+    type: Mystery
+    description: 负责考场安全的武者，他具体是谁？有何特殊的能力？
+```

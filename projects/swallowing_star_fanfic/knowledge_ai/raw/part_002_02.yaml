@@ -1,0 +1,63 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 武者，性格冷静沉着。
+    attributes:
+      身份: 主角,武者
+      关系: 弟弟罗华,父母
+
+  - id: 周华阳
+    type: Character
+    name: 周华阳
+    aliases: []
+    description: 社会上人脉广，中间人角色。
+    attributes:
+      身份: 中间人
+      关系: 罗峰(向罗峰道歉并送钱)
+
+  - id: 南岸小区
+    type: Location
+    name: 南岸小区
+    aliases: []
+    description: 小区位置
+
+  - id: 扬州浴馆
+    type: Location
+    name: 扬州浴馆
+    aliases: []
+    description: 提供泡澡、休闲娱乐服务的场所，消费较高。
+
+  - id: 张昊白
+    type: Character
+    name: 张昊白
+    aliases: []
+    description: 罗峰的主要对手。
+    attributes:
+      关系: 周华阳(委托周华阳对付罗峰)
+
+relationships:
+  - 主体: 罗峰
+    宾语: 周华阳
+    类型: 对话
+
+events:
+  - 名称: 道歉与赔偿
+    时间: 不详
+    描述: 周华阳向罗峰道歉并送100万支票。
+
+dialogues:
+  - 主体: 罗哥(周华阳)
+    宾语: 罗峰
+    内容: "罗哥，喝茶。这是小弟的一点意思，希望罗哥能收下。"
+
+timeline:
+
+mysteries:
+  - 内容: 张昊白对罗峰的敌意来源。
+```

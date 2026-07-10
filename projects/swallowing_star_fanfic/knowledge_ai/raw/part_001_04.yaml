@@ -1,0 +1,76 @@
+```yaml
+source:
+  id: "novel_excerpt"
+
+entities:
+  - id: "rofe"
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      主角，对武者世界充满好奇。
+    attributes:
+      实力: 准武者
+      性格: 好奇心强
+
+  - id: "jiangnian"
+    type: Character
+    name: 江年
+    aliases: []
+    description: >
+      教官，负责指导新来的准武者。
+    attributes:
+      身份: 教官
+
+  - id: "zhengjiao"
+    type: Character
+    name: 总教官
+    aliases: []
+    description: >
+      极限武馆的总教官，地位极高。
+
+  - id: "yingshiwusheng"
+    type: Ability
+    name: 精神念师能力
+    aliases: [精神念师]
+    description: >
+      能够通过精神力量控制他人意志。
+    attributes:
+      特殊性: 极为稀少
+
+  - id: "jigenyuanneng"
+    type: Cultivation
+    name: 基因原能修炼法
+    aliases: [基因优化, 五心向天修炼法]
+    description: >
+      通过宇宙能量强化人体，提升武者实力的唯一方法。
+    attributes:
+      等级: 准武者可修
+
+  - id: "daoyinsu"
+    type: Ability
+    name: 导引术
+    aliases: []
+    description: >
+      提升基因原能修炼效率的关键技术。
+    attributes:
+      稀有性: 极为珍贵，各势力核心机密。
+
+relationships:
+
+events:
+
+dialogues:
+  - speaker: "罗峰"
+    content: "教官，刚才和总教官一起出去的银发黑袍武者，他怎么一个眼神，就让我们没有反抗能力？这是武者的什么能力？"
+
+  - speaker: "江年"
+    content: "小子，和总教官一起走的那位，是精神念师！比我们武者数量还要稀少得多的精神念师。当然精神念师一般也是武者！不过却是武者当中最可怕的存在。"
+
+timeline:
+
+mysteries:
+  - id: mystery_1
+    description: >
+      银发黑袍男子通过什么方式能够无声无息地影响罗峰等人，让他们感知不到其存在。
+```

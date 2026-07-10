@@ -1,0 +1,127 @@
+```yaml
+source:
+  id: 第29章怪兽小镇
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 提前被极限武馆招募的准武者，实力较强。
+    attributes:
+      年龄: 不详
+      性格: 沉稳
+      身份: 准武者
+
+  - id: 邬通
+    type: Character
+    name: 邬通
+    aliases: []
+    description: 扬州极限会馆的总教官，与罗峰关系亲近。
+    attributes:
+      年龄: 不详
+      身份: 总教官
+
+  - id: 诸葛韬
+    type: Character
+    name: 诸葛韬
+    aliases: []
+    description: 江南市极限会馆四大巨头之一，与罗峰有对话。
+    attributes:
+      年龄: 不详
+      身份: 极限会馆巨头
+
+  - id: 魏冬
+    type: Character
+    name: 万冬
+    aliases: []
+    description: 竞争对手，来自雷电武馆的准武者。
+    attributes:
+      年龄: 不详
+      身份: 准武者
+
+  - id: 马晓
+    type: Character
+    name: 马晓
+    aliases: []
+    description: 竞争对手，来自雷电武馆的准武者。
+    attributes:
+      年龄: 不详
+      身份: 准武者
+
+  - id: 江南市北军区
+    type: Location
+    name: 江南市北军区
+    aliases: []
+    description: 武者实战考核的举办地。
+    attributes:
+      地点类型: 军事区域
+
+organizations:
+  - id: 极限武馆
+    type: Organization
+    name: 极限武馆
+    aliases: []
+    description: 提前招募罗峰等准武者的武馆。
+    attributes:
+      类型: 武馆
+
+  - id: 雷电武馆
+    type: Organization
+    name: 雷电武馆
+    aliases: []
+    description: 竞争对手所属的武馆，提前招募两名优秀准武者。
+    attributes:
+      类型: 武馆
+
+items:
+  - id: 血影战刀2系
+    type: Item
+    name: 血影战刀2系
+    aliases: []
+    description: 准武者的战斗装备之一。
+    attributes:
+      材料: 克罗合金等特殊材料
+      类型: 武器
+
+  - id: 六棱盾牌
+    type: Item
+    name: 六棱盾牌
+    aliases: []
+    description: 准武者使用的防护性装备。
+    attributes:
+      材料: 不详
+      类型: 盾牌
+
+dialogues:
+  - speaker: 邬通
+    content: "罗峰，跟我来。"
+    context: 招呼罗峰到小楼二层集合。
+
+  - speaker: 罗峰
+    content: "去，去，去。"
+    context: 对雷电武馆魁梧大汉的玩笑话表示不满。
+    
+timeline:
+  events:
+    - event_id: 实战考核装备领取
+      description: 准武者们领取作战服和兵器等实战装备。
+      time: 下午时分
+
+    - event_id: 汇聚小镇外围
+      description: 所有准武者在军人带领下到达一座小镇的外围，准备进行实战考核。
+      time: 傍晚时分
+
+mysteries:
+  - mystery_id: 阴沉青年挑战
+    content: "你有没有胆子比一比？今天晚上的武者实战考核，你我积分谁能获得第一！"
+    context: 来自雷电武馆的万冬对罗峰发出挑衅。
+    
+relationships:
+  - id: 罗峰_邬通
+    type: 关系
+    description: 邬通是扬州极限会馆总教官，与罗峰关系亲近。
+  
+  - id: 罗峰_诸葛韬
+    type: 关系
+    description: 诸葛韬是江南市极限会馆四大巨头之一，对罗峰评价较高。

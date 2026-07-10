@@ -1,0 +1,67 @@
+```yaml
+source:
+  id: 第26章诸葛韬
+
+entities:
+  - id: 江年
+    type: Character
+    name: 江年
+    aliases: []
+    description: 极限武馆的教官，对罗峰进行考核。
+    attributes:
+      身份: 教官
+      性格: 尊重上级
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 极限武馆的新学员，正在接受考核。
+    attributes:
+      实力: 中级战士级
+  - id: 白伯
+    type: Character
+    name: 白伯
+    aliases: []
+    description: 江年见到的高级别人物。
+    attributes:
+      身份: 主管身边的助手
+  - id: 主管
+    type: Character
+    name: 主管
+    aliases: [唐装中年人]
+    description: 极限总会馆的重要领导。
+    attributes:
+      身份: 管理者
+      实力: 高
+      性格: 温和
+
+relationships:
+  - id: 江年_白伯
+    type: 尊敬
+    description: 教官江年对白伯非常恭敬。
+  - id: 白伯_主管
+    type: 听从命令
+    description: 白伯听从主管的指示进行考核。
+
+events:
+  - id: 罗峰接受考核
+    type: 考核
+    description: 罗峰在扬州城极限武馆总部大楼内进行实力测试。
+    timeline: 在罗峰进入二楼大厅后，开始进行测试前的准备工作。
+
+dialogues:
+  - speaker: 江年
+    listener: 白伯
+    content: "是的，主管。"
+    context: 答应白伯对罗峰的实力进行审核。
+
+timeline:
+  - 时间点: 刚进入二楼大厅时
+    描述: 教官江年带着罗峰到达扬州城极限武馆总部大楼内的考核场地。
+  - 时间点: 开始准备测试前
+    描述: 拍摄设备开启，准备对罗峰进行实力检测。
+
+mysteries:
+  - id: 主管身份
+    type: 身份不明
+    description: 对主管的具体职位和职责仍不清楚。
