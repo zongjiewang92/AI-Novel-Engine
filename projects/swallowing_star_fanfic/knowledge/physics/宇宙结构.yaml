@@ -1,21 +1,84 @@
 id: universe_structure
+
 name: 宇宙结构
+
 description: >
-  描述吞噬星空世界中的宇宙层级结构， 是所有生命、文明、强者存在的基础。
-universe_layers:
+  描述整个无限浑源空间的空间层级。
 
-- id: original_universe
 
-  name: 原始宇宙
+hierarchy:
 
-  type: 最高等级宇宙空间之一
+  - id: infinite_origin_space
 
-  features:
+    name: 无限浑源空间
 
-  - id: universe_origin
+    level: 0
 
-    description: 孕育无数生命与文明。
+    description: >
+      已知最高层空间。
 
-  - id: complete_laws
+    contains:
 
-    description: 本源法则完整运行。
+      - origin_world
+
+      - natural_hunyuan_region
+
+      - special_regions
+
+
+
+  - id: origin_world
+
+    name: 源世界
+
+    level: 1
+
+    description: >
+      无限浑源空间中孕育出的世界。
+
+
+    examples:
+
+      - 起源初界
+
+      - 雪鹰世界
+
+      - 莽荒世界
+
+
+
+    contains:
+
+      - central_continent
+
+      - universe_sea
+
+
+
+  - id: universe_sea
+
+    name: 宇宙海
+
+    level: 2
+
+    description: >
+      围绕中心大陆存在。
+
+
+    contains:
+
+      - original_universe
+
+      - holy_universe
+
+      - small_universe
+
+      - three_forbidden_lands
+
+
+
+  - id: original_universe
+
+    name: 原始宇宙
+
+    level: 3
