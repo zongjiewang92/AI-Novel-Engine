@@ -1,3 +1,6 @@
+ollama serve
+
+
 # AI-Novel-Engine 本地运行说明
 
 ## 1. 系统组成
