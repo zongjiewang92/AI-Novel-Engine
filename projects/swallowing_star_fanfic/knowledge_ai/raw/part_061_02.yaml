@@ -1,0 +1,100 @@
+```yaml
+source:
+  id: 第913章冰狱星猎捕
+
+entities:
+  - id: 罗峰
+    type: 人物
+    name: 罗峰
+    aliases: []
+    description: >
+      主角，人类界主强者，在虚拟宇宙中与家人团聚后前往域外战场处理事务。
+    attributes:
+      实力: 界主
+      家庭成员: 包括妻子徐欣和弟弟罗华及其子女
+
+  - id: 徐欣
+    type: 人物
+    name: 徐欣
+    aliases: []
+    description: >
+      罗峰的妻子，支持丈夫处理家族事务。
+    attributes:
+      关系: 罗峰的妻子
+
+  - id: 罗华
+    type: 人物
+    name: 罗华
+    aliases: []
+    description: >
+      罗峰的弟弟，在家抚养九个孩子。
+    attributes:
+      家庭成员: 妻子和九个子女
+
+  - id: 重箭王
+    type: 人物
+    name: 重箭王
+    aliases: []
+    description: >
+      接受罗峰命令，执行神国传送任务的强者。
+    attributes:
+      实力: 不详（可能为不朽级）
+      关系: 罗峰的手下
+
+organizations:
+  - id: 罗斯家族
+    type: 组织
+    name: 罗斯家族
+    aliases: []
+    description: >
+      金岚宇宙国最强大的非皇家家族之一，与罗家有矛盾。
+    attributes:
+      影响力: 强大
+      变化: 将大量星域、星球和资产转让给罗家
+
+locations:
+  - id: 星辰塔
+    type: 地点
+    name: 星辰塔
+    aliases: []
+    description: >
+      域外战场中古老而强大的建筑，禁止外人闯入。
+    attributes:
+      特性: 禁止闯入的核心区域
+
+  - id: 虚拟宇宙
+    type: 地点
+    name: 虚拟宇宙
+    aliases: []
+    description: >
+      提供虚拟环境的网络空间，罗峰在此与家人团聚。
+
+events:
+  - id: 家族事务处理
+    type: Event
+    name: 家族事务处理
+    description: 罗峰在虚拟宇宙中与家人团聚后返回域外战场处理家族安全问题。
+    timeline: >
+      在虚拟宇宙中陪伴家人三天后，罗峰决定先处理完域外战场的事务。
+
+  - id: 星辰塔传送
+    type: Event
+    name: 星辰塔传送
+    description: 罗峰通过虚拟宇宙命令重箭王将其从星辰塔传送到指定地点。
+    timeline: >
+      仅几秒钟后，重箭王出现在罗峰所在的殿内。
+
+dialogues:
+  - id: 罗峰与重箭王对话
+    type: Dialogue
+    content: "主人拜见。"
+    context: 罗峰命令重箭王感应其位置并传送过来。
+    
+timeline:
+  - 时间点: 虚拟宇宙中三天内
+    事件描述: 家人团聚和交谈
+
+mysteries:
+  - 内容: 天阵王最终是否暴露？
+    解释: 罗峰询问天阵王的行动，重箭王表示未发现其暴露。
+```

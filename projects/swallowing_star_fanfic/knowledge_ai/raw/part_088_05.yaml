@@ -1,0 +1,75 @@
+```yaml
+source:
+  id: 第1339章垂死挣扎
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 宇宙之主，使用无尽幽海等手段帮助人类阵营俘获敌方宇宙之主。
+    attributes:
+      实力: 宇宙之主
+
+  - id: 黑暗之主
+    type: Character
+    name: 黑暗之主
+    aliases: []
+    description: 联合罗峰共同对抗敌人，利用多种手段俘获敌方宇宙之主。
+    attributes:
+      实力: 宇宙最强者
+
+  - id: 古神眼
+    type: Item
+    name: 古神眼
+    aliases: []
+    description: 意志冲击宝物，能削弱敌人数量优势。
+
+  - id: 黑狱塔
+    type: Item
+    name: 黑狱塔
+    aliases: []
+    description: 用于捕捉敌方宇宙之主的特殊工具。
+
+  - id: 神力海水
+    type: Item
+    name: 神力海水
+    aliases: []
+    description: 对敌人进行限制，使得他们难以逃脱。
+
+  - id: 联军阵营
+    type: Organization
+    name: 联军阵营
+    aliases: []
+    description: 包括机械族父神、震妖祖等12位宇宙最强者及其率领的众多宇宙之主。
+    attributes:
+      实力: 强大
+
+  - id: 自由联盟
+    type: Organization
+    name: 自由联盟
+    aliases: []
+    description: 被联军阵营和人类共同争夺的力量，包括始化岛主在内的72名被俘宇宙之主。
+    attributes:
+      实力: 强大
+
+relationships:
+
+events:
+  - id: 捕获敌方分队
+    type: Event
+    name: 捕获敌方分队
+    description: 罗峰和黑暗之主利用多种手段成功捕获联军阵营的一个分队。
+    timeline:
+      时间: 文本描述中
+
+dialogues:
+
+timeline:
+
+mysteries:
+  - id: 联盟成员的去向
+    type: Mystery
+    name: 联盟成员的去向
+    description: 自由联盟其他宇宙之主会如何应对人类和联军阵营的争斗，是否会投靠一方。
+```

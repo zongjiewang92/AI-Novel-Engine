@@ -1,0 +1,85 @@
+```yaml
+source:
+  id: "text1"
+
+entities:
+  - id: "罗峰"
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有精密探测技术，从界中界的宝藏中获得大量雷霆石和重要宝物。
+    attributes:
+      实力: 境界主层次
+      性格: 警惕且谨慎
+      关系:
+        - 三子(雷神)
+        - 大哥(洪)
+
+  - id: "白胡子老头"
+    type: Character
+    name: 白胡子老头
+    aliases: []
+    description: 界中界的宝藏管理者，提供宝物兑换服务。
+    attributes:
+      实力: 不详
+      性格: 友好且乐于助人
+
+  - id: "洪"
+    type: Character
+    name: 洪
+    aliases: ["大哥"]
+    description: 罗峰的盟友，谨慎行事。
+
+  - id: "雷神"
+    type: Character
+    name: 雷神
+    aliases: ["二哥"]
+    description: 罗峰的盟友，对雷霆秘法感兴趣。
+    attributes:
+      实力: 恒星级九阶
+
+  - id: "卡布界主"
+    type: Character
+    name: 卡布界主
+    aliases: []
+    description: 死去的界主，留下雷电秘法。
+
+organizations:
+  - id: "三斧山阵营军队"
+    type: Organization
+    name: 三斧山阵营军队
+    attributes:
+      规模: 超过50万人
+
+items:
+  - id: "雷霆石"
+    type: Item
+    name: 雷霆石
+    description: 在界中界的交易货币，最终失去价值。
+
+  - id: "生命果实"
+    type: Item
+    name: 生命果实
+    description: 罕见宝物，可促进生物进化或增强能力。
+    attributes:
+      数量: 三颗之一被罗峰获得
+
+locations:
+  - id: "界中界的古老城堡"
+    type: Location
+    name: 古老城堡
+    description: 宝藏兑换地点，312件宝物的来源地。
+
+events:
+  - id: "雷霆石交易结束"
+    type: Event
+    name: 雷霆石交易结束
+    attributes:
+      时间: 兑换后的第五天
+      描述: 古老城堡大门关闭，兑换活动结束
+
+dialogues:
+  - speaker: 白胡子老头
+    listener: 联军众人
+    content: "现在，兑换结束！"
+```

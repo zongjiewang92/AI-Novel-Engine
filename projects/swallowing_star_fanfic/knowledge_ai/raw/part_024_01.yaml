@@ -1,0 +1,89 @@
+```yaml
+source:
+  id: text_1
+
+entities:
+  - id: rofei
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 恒星级九阶精神念师，拥有强大的飞行速度和查探设备。
+    attributes:
+      实力: 恒星级九阶
+      特殊能力: 飞行速度极快, 查探设备
+
+  - id: longgou
+    type: Character
+    name: 敖骨
+    aliases: []
+    description: 精神念师，能够迅速抓住并保护罗峰等人。
+    attributes:
+      实力: 恒星级九阶精神念师
+      特殊能力: 快速飞行, 保护
+
+  - id: tiannanheshui
+    type: Character
+    name: 铁南河
+    aliases: []
+    description: 参与追击和逃跑行动。
+    attributes:
+      实力: 不详
+      关系: 罗峰的同伴
+
+  - id: leishen
+    type: Character
+    name: 雷神
+    aliases: []
+    description: 同罗峰一起逃离，对危险有警觉性。
+    attributes:
+      特殊能力: 快速飞行, 原力传音
+      关系: 罗峰的同伴
+
+  - id: hong
+    type: Character
+    name: 洪
+    aliases: []
+    description: 同罗峰一起逃离，对危险有警觉性。
+    attributes:
+      特殊能力: 快速飞行, 原力传音
+      关系: 罗峰的同伴
+
+  - id: jinjiaojuzhou
+    type: Species
+    name: 金角巨兽
+    aliases: []
+    description: 恒星级九阶生物，拥有强大的战斗能力。
+    attributes:
+      实力: 恒星级九阶
+
+relationships:
+
+events:
+  - id: 追击与逃脱
+    type: Event
+    participants:
+      - rofei
+      - longgou
+      - tiannanheshui
+      - leishen
+      - hong
+    description: 罗峰一行人被300名冒险者追击，通过进入森林成功逃脱。
+    timeline: 未知
+
+dialogues:
+  - speaker: rofei
+    content: "快跑！"
+    context: 在罗峰发现危险时喊出的命令。
+
+  - speaker: leishen
+    content: "不好，他们比我们快。"
+    context: 雷神通过原力传音表达对追击者的担忧。
+
+  - speaker: hong
+    content: "麻烦了。"
+    context: 洪在发现危险时的反应。
+
+timeline:
+
+mysteries:
+```

@@ -1,0 +1,94 @@
+```yaml
+source:
+  id: 第825章港湾
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 自由士兵，拥有强大力量和敏锐感知。
+    attributes:
+      实力: 强大
+      性格: 冷静谨慎
+      能力: 高级探测仪使用, 血影战刀掌握
+
+  - id: 巴巴塔
+    type: Character
+    name: 巴巴塔
+    aliases: []
+    description: 罗峰的宇宙飞船智能系统，给予建议。
+    attributes:
+      角色功能: 建议和信息传递
+
+  - id: 黑甲青年
+    type: Character
+    name: 黑甲青年
+    aliases: []
+    description: 拥有高级探测仪的强大对手。
+    attributes:
+      实力: 强大
+      能力: 高级探测仪使用, 可能是机械族或其同盟
+
+  - id: 库托
+    type: Character
+    name: 库托
+    aliases: []
+    description: 罗峰的邻居，封侯级别的不朽强者。
+    attributes:
+      实力: 封侯不朽
+      性格: 友好热情
+
+  - id: 兵营基地
+    type: Location
+    name: 兵营基地
+    aliases: []
+    description: 自由士兵的居住和训练场所，拥有极高的防护能力。
+    attributes:
+      直径: 数百万公里
+      功能: 训练, 娱乐, 休息
+
+relationships:
+  - id: 罗峰与巴巴塔
+    type: Relationship
+    description: 巴巴塔是罗峰的智能助手，为他提供决策建议。
+    attributes: []
+
+  - id: 罗峰与库托
+    type: Relationship
+    description: 库托是罗峰在兵营基地的新邻居，友好互动。
+    attributes: []
+
+events:
+  - id: 追逐事件
+    type: Event
+    description: 罗峰避开黑甲青年的追杀，前往穿梭点。
+    timeline:
+      - 时间节点: 开始时
+        描述: 黑甲青年追逐罗峰。
+
+dialogues:
+  - id: 罗峰与巴巴塔对话
+    type: Dialogue
+    text: "罗峰，不要铤而走险，不要因为宝物而冲昏了头脑。"
+    context: 巴巴塔建议罗峰放弃冒险。
+    
+  - id: 欢迎对话
+    type: Dialogue
+    text: "士兵罗峰，这座岛屿是你的私人岛屿，在你居住期间，其他任何人都禁止进入岛屿。"
+    context: 兵营基地的侍者介绍给罗峰他的居所。
+
+timeline:
+  - 时间节点: 开始时
+    描述: 罗峰感应到黑甲青年的逼近。
+    
+  - 时间节点: 数月后
+    描述: 罗峰从穿梭点返回兵营基地。
+
+mysteries:
+  - id: 黑甲青年的目的
+    type: Mystery
+    description: 黑甲青年在焱祭大陆的具体目的未知，需要后续探索。
+```
+
+以上是根据文本内容提取和整理的YAML格式数据。

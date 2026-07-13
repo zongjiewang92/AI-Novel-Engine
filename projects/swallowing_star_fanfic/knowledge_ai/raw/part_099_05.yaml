@@ -1,0 +1,113 @@
+```yaml
+source:
+  id: 第1504章
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 担负着保护亿万族群的责任，站在宇宙巅峰的强者。
+    attributes:
+      实力: 绝顶强者的地位
+      性格: 关爱亲人，渴望战斗的生活方式
+  - id: 徐欣
+    type: Character
+    name: 徐欣
+    aliases: []
+    description: 罗峰的妻子，默默支持罗峰的女性。
+    attributes:
+      身份: 妻子
+      性格: 支持和理解丈夫的选择
+  - id: 罗洪国
+    type: Character
+    name: 罗洪国
+    aliases: []
+    description: 罗峰的父亲，关心和支持儿子。
+    attributes:
+      关系: 父亲
+      性格: 充满自豪和鼓励的个性
+  - id: 龚心兰
+    type: Character
+    name: 龚心兰
+    aliases: []
+    description: 罗峰的母亲，充满爱意和支持。
+    attributes:
+      关系: 母亲
+      性格: 温柔且支持性的母亲形象
+  - id: 罗华
+    type: Character
+    name: 罗华
+    aliases: []
+    description: 罗峰的弟弟，崇拜哥哥。
+    attributes:
+      关系: 弟弟
+      性格: 敬佩和爱戴兄长
+  - id: 罗平
+    type: Character
+    name: 罗平
+    aliases: []
+    description: 罗峰的儿子之一，对父亲充满崇拜。
+    attributes:
+      关系: 儿子
+      性格: 敬佩的父亲视角下的儿子形象
+  - id: 罗海
+    type: Character
+    name: 罗海
+    aliases: []
+    description: 罗峰的儿子之一，对父亲充满崇拜。
+    attributes:
+      关系: 儿子
+      性格: 敬佩的父亲视角下的儿子形象
+
+relationships:
+  - id: 罗峰_徐欣
+    type: Marriage
+    name: 妻子
+    description: 罗峰与徐欣的婚姻关系，彼此支持和理解。
+  - id: 罗峰_罗洪国
+    type: Parent_Child
+    name: 父亲
+    description: 罗峰与父亲之间的亲情纽带。
+  - id: 罗峰_龚心兰
+    type: Parent_Child
+    name: 母亲
+    description: 罗峰与母亲之间的亲密关系。
+  - id: 罗峰_罗华
+    type: Sibling
+    name: 弟弟
+    description: 罗峰与其弟弟的兄弟情谊。
+  - id: 罗峰_罗平
+    type: Parent_Child
+    name: 儿子
+    description: 罗峰与儿子之间的亲子关系。
+  - id: 罗峰_罗海
+    type: Parent_Child
+    name: 儿子
+    description: 罗峰与其另一个儿子的父子情深。
+
+events:
+  - id: 最后一战前的家庭相聚
+    type: Family_Reunion
+    name: 家人见面
+    description: 在面临最后一战之前，罗峰回家见家人。
+    timeline: 战斗前夕
+
+dialogues:
+  - speaker: 罗峰
+    listener: 徐欣
+    dialogue: "来，坐。徐欣，你也坐下。"
+  - speaker: 龚心兰
+    listener: 罗峰
+    dialogue: "其实你爸我很自豪很得意了，还记得我小时候，末世来临，在末世中艰难生存……我们从来没想过，能够在茫茫宇宙中遨游！"
+
+timeline:
+  events_order:
+    - 最后一战前的家庭相聚
+
+mysteries:
+  - id: 界兽浩劫的最后时刻
+    type: Threatening_Event
+    name: 界兽浩劫的最后一战
+    description: 关于界兽浩劫的最后一场战斗，决定亿万族群的命运。
+```

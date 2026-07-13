@@ -1,0 +1,86 @@
+```yaml
+source:
+  id: 超凡学院-第59章
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 极限武馆成员，火锤小队队员。
+    attributes:
+      实力: 武者级
+      能力: 精神念师
+  - id: 高风
+    type: Character
+    name: 高风
+    aliases: [队长]
+    description: 极限武馆成员，火锤小队队长。
+    attributes:
+      实力: 战将级
+  - id: 陈谷
+    type: Character
+    name: 陈谷
+    aliases: []
+    description: 极限武馆成员，火锤小队队员。
+    attributes:
+      实力: 武者级
+  - id: 魏铁
+    type: Character
+    name: 魏铁
+    aliases: [队长]
+    description: 极限武馆成员，火锤小队队员。
+    attributes:
+      实力: 初级战将级
+  - id: 张科
+    type: Character
+    name: 张科
+    aliases: []
+    description: 极限武馆成员，火锤小队队员。
+    attributes:
+      实力: 武者级
+  - id: 罗华
+    type: Character
+    name: 罗华
+    aliases: [弟弟]
+    description: 罗峰的弟弟。
+    attributes:
+      残疾: 腿部残疾，使用轮椅
+
+relationships:
+  - 主体: 罗峰
+    客体: 高风
+    关系类型: 上级-下属
+  - 主体: 罗峰
+    客体: 张科
+    关系类型: 同事关系
+  - 主体: 罗峰
+    客体: 陈谷
+    关系类型: 同事关系
+  - 主体: 罗峰
+    客体: 魏铁
+    关系类型: 同事关系
+
+events:
+  - 名称: 基因药剂购买讨论
+    时间线: 回家第一天上午
+    参与者: 罗峰, 高风, 陈谷, 魏铁
+    地点: 极限会馆一楼小酒吧
+    描述: 讨论如何购买A级基因药剂，以增强实力。
+
+dialogues:
+  - 主体: 高风
+    客体: 罗峰
+    内容: "罗峰，这是你要的两柄9系的飞刀。一共4500万，你这个土豪赶紧汇款过来。"
+  - 主体: 陈谷
+    客体: 罗峰
+    内容: "罗峰，你现在这么有钱，怎么不买好的战刀？一套作战服？"
+
+timeline:
+  - 时间点: 回家第一天上午
+    描述: 讨论购买基因药剂事宜。
+
+mysteries:
+  - 名称: 高风的特殊渠道
+    内容: 高风声称有特殊途径可以以较低价格获得A级基因药剂。
+```

@@ -1,0 +1,76 @@
+```yaml
+source:
+  id: 罗峰在冰狱中的经历
+
+entities:
+  - id: luofeng
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有强大意志意识和虚化念力，能够施展兽神意境的攻击。
+    attributes:
+      实力: 封王巅峰灵魂类大师
+
+  - id: ba_ba_ta
+    type: Character
+    name: 巴巴塔
+    aliases: []
+    description: 罗峰附属智能，提供探测信息。
+    attributes:
+      身份: 附属智能
+
+  - id: qingqiu_ke_zunzhe
+    type: Character
+    name: 青兠寇尊者
+    aliases: []
+    description: 将罗峰关押进冰狱的强者，拥有重宝‘冰狱’。
+    attributes:
+      身份: 强者
+
+  - id: shihun_zhongwu
+    type: Character
+    name: 噬魂兽
+    aliases: []
+    description: 罗峰在冰狱中遇到的异族，拥有分身和噬魂两种天赋秘法。
+    attributes:
+      身份: 异族
+      天赋秘法: 分身术, 噬魂
+
+locations:
+  - id: bingyu
+    type: Location
+    name: 冰狱
+    description: 青兠寇尊者的重宝，内含巨大的空间。
+    attributes:
+      特点: 关押着许多强者
+
+abilities:
+  - id: nianli_qiangda
+    type: Ability
+    name: 念力强大
+    attributes:
+      实现方式: 虚化念力, 按照兽神意境攻击灵魂
+
+items:
+  - id: shiewu_yuyi
+    type: Item
+    name: 弑吴羽翼
+    description: 罗峰的翅膀，拥有极强防御能力。
+    attributes:
+      防御等级: G级金属
+
+dialogues:
+  - id: luofeng_shihunzhongwu
+    characters:
+      - luofeng
+      - shihun_zhongwu
+    text:
+      - 噬魂兽, 我刚刚进入这冰狱，不知道你可否将冰狱中的情形讲解给我听听？
+      - 自大猖狂的人类！
+
+timeline:
+
+mysteries:
+  - id: shihunzhongwu_fenshenshu
+    description: 罗峰遇到了噬魂兽的一个分身，而非本尊。
+```

@@ -1,0 +1,121 @@
+```yaml
+source:
+  id: 原文
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有极高战斗力的强者，正在观察犀皇局。
+    attributes:
+      实力: 宇宙之主级别
+
+  - id: 影埃之主
+    type: Character
+    name: 影埃之主
+    aliases: []
+    description: 犀皇局游戏参与者之一，已悟出部分规则。
+    attributes:
+      实力: 宇宙之主级别
+
+  - id: 巫魉之主
+    type: Character
+    name: 巫魉之主
+    aliases: []
+    description: 影埃之主的妻子，对犀皇局游戏有一定了解。
+    attributes:
+      实力: 宇宙之主级别
+
+  - id: 鹿虫之主
+    type: Character
+    name: 鹿虫之主
+    aliases: []
+    description: 犀皇局游戏参与者之一。
+    attributes:
+      实力: 宇宙之主级别
+
+  - id: 影钟魔主
+    type: Character
+    name: 影钟魔主
+    aliases: []
+    description: 天钟族强者，为了族人利益阻止他人进入墓陵之舟。
+    attributes:
+      实力: 宇宙最强者级别
+
+  - id: 唆海之主
+    type: Character
+    name: 唆海之主
+    aliases: []
+    description: 骸族强者，负责守卫墓陵之舟舱门。
+    attributes:
+      实力: 宇宙之主级别
+
+  - id: 赤鹨之主
+    type: Character
+    name: 赤鹨之主
+    aliases: []
+    description: 骸族强者，与唳海之主一同守卫墓陵之舟舱门。
+    attributes:
+      实力: 宇宙之主级别
+
+  - id: 岩巨之主
+    type: Character
+    name: 岩巨之主
+    aliases: []
+    description: 骸族强者，与唳海之主、赤鹨之主一同守卫墓陵之舟舱门。
+    attributes:
+      实力: 宇宙之主级别
+
+  - id: 北真
+    type: Character
+    name: 北真
+    aliases: []
+    description: 来自东帝圣地宇宙的强者，直接进入墓陵之舟争夺传承。
+    attributes:
+      实力: 超过10个轮回时代未曾在宇宙海中闯荡
+
+organizations:
+  - id: 天钟族
+    type: Organization
+    name: 天钟族
+    description: 参与争夺墓陵之舟传承的势力之一。
+
+locations:
+  - id: 墓陵之舟
+    type: Location
+    name: 墓陵之舟
+    aliases: []
+    description: 拥有无数犀皇局，内藏神秘传承。
+    attributes:
+      特点: 内域深处存在控制室核心殿厅
+
+abilities:
+  - id: 犀皇局游戏规则
+    type: Ability
+    name: 犀皇局游戏规则
+    description: 影埃之主与巫魉之主已初步悟出的部分规则。
+    
+events:
+  - id: 感应到波动
+    type: Event
+    name: 感应到波动
+    description: 六位强者感觉到犀皇局附近有异动。
+
+dialogues:
+  - id: 影钟魔主与唳海之主对话
+    type: Dialogue
+    content: "影钟魔主，这次可得谢谢你们传递消息。"
+    
+timeline:
+  - id: 半年后
+    type: Timeline
+    name: 半年后
+    description: 北真率队进入墓陵之舟争夺传承。
+
+mysteries:
+  - id: 游戏规则的全貌
+    type: Mystery
+    name: 游戏规则的全貌
+    description: 影埃之主与巫魉之主是否完全理解了犀皇局游戏的所有规则。
+```

@@ -1,0 +1,68 @@
+```yaml
+source:
+  id: 1
+
+entities:
+  - id: 001
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有极高的空间天赋，通过了通天桥第六层，正在尝试闯幻境海第十座岛屿。
+    attributes:
+      实力: 虚空级强者
+      天赋: 高超的空间参悟能力
+  - id: 002
+    type: Character
+    name: 伯兰
+    aliases: []
+    description: 在空间本源法则上有着极高的成就，但因过于骄傲，在尝试通过通天桥第七层时失败。
+    attributes:
+      实力: 虚空级强者
+      天赋: 极强的空间天赋，但在时间参悟上有缺陷
+  - id: 003
+    type: Location
+    name: 雨相山
+    aliases: []
+    description: 幻境海位面的一部分，环境宁静。
+    attributes:
+  - id: 004
+    type: Location
+    name: 黑龙山岛屿九星湾
+    aliases: []
+    description: 罗峰与家人团聚的地方。
+    attributes:
+
+relationships:
+  - entity1_id: 001
+    entity2_id: 002
+    relationship_type: 竞争关系
+
+events:
+  - id: 005
+    type: Event
+    name: "罗峰通过通天桥第六层"
+    description: 罗峰成功通过了通天桥的第六层，获得3200积分。
+    timeline: 短短两年多内通过通天桥第六层
+  - id: 006
+    type: Event
+    name: "伯兰尝试通过通天桥第七层失败"
+    description: 在挑战通天桥第七层时，因为时间参悟上的缺陷而失败。
+    timeline: 最近一次尝试
+
+dialogues:
+  - speaker_id: 001
+    listener_id: ""
+    dialogue_content: "融合第二颗血洛晶成功，悟透第12种玄妙，现在又闯过通天桥第六层。我还真是鸿运当头。"
+    context: 刚通过通天桥第六层后的感想
+
+timeline:
+  - event_id: 005
+    time: 最近两年内
+  - event_id: 006
+    time: 最近一次尝试
+
+mysteries:
+  - id: 007
+    type: Mystery
+    description: 罗峰是否能通过幻境海第十座岛屿，获得五万多积分。
+```

@@ -1,0 +1,76 @@
+```yaml
+source:
+  id: 文本来源标识
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 武者，火锤小队成员。
+    attributes:
+      实力: 中等战将级
+      能力: 飞刀控制（利用精神念力）
+  - id: 潘亚
+    type: Character
+    name: 潘亚
+    aliases: []
+    description: 武者，雷霆小队成员。
+    attributes:
+      实力: 中等战将级
+      能力: 使用三棱军刀战斗
+  - id: 刘姓老者
+    type: Character
+    name: 刘姓老者
+    aliases: []
+    description: 武者，雷霆小队成员。
+    attributes:
+      实力: 高等战将级
+  - id: 白人壮汉
+    type: Character
+    name: 白人壮汉
+    aliases: []
+    description: 武者，雷霆小队成员。
+    attributes:
+      实力: 高等战将级
+  - id: 李威
+    type: Character
+    name: 李威
+    aliases: 混血儿青年少爷
+    description: 贵族，李威少爷。
+    attributes:
+      实力: 较弱
+      身份背景: 靠山强大（有战神支持）
+
+relationships:
+  - 主体: 罗峰
+    客体: 潘亚
+    关系类型: 敌对关系
+  - 主体: 李威
+    客体: 潘亚
+    关系类型: 雇佣关系
+
+events:
+  - id: 罗峰遇到雷霆小队
+    type: Event
+    description: 罗峰意外遇到了潘亚及其队友。
+    timeline: 深夜时分
+  - id: 杀死刘姓老者和白人壮汉
+    type: Event
+    description: 罗峰利用飞刀杀死两位高等战将级武者。
+    timeline: 同上
+
+dialogues:
+  - 主体: 潘亚
+    客体: 罗峰
+    内容: "罗峰！"
+  - 主体: 李威
+    客体: 罗峰
+    内容: 目光中带着怜悯
+
+timeline:
+
+mysteries:
+  - id: 潘亚背后的计划
+    description: 潘亚是否真的受雇于李威少爷去杀罗峰？
+```

@@ -1,0 +1,94 @@
+```yaml
+source:
+  id: 第1305章各族反应
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 人类银河领主，实力强大。
+    attributes:
+      实力: 六阶顶尖
+      成就: 斩杀一名宇宙之主
+      能力: 得到断东河一脉传承
+
+  - id: 梦妖祖
+    type: Character
+    name: 梦妖祖
+    aliases: []
+    description: 妖族的领袖之一，率领宇宙之主队伍参与战斗。
+    attributes:
+      实力: 宇宙之主
+
+  - id: 震妖祖
+    type: Character
+    name: 震妖祖
+    aliases: []
+    description: 妖族的领袖之一，率领宇宙之主队伍参与战斗。
+    attributes:
+      实力: 宇宙之主
+
+  - id: 狱王
+    type: Character
+    name: 狱王
+    aliases: []
+    description: 狱族的一个具有特殊地位的存在。
+    attributes:
+      实力: 五阶顶尖战力
+      特性: 部分至宝特性，神体近似至宝
+
+  - id: 魔祖
+    type: Character
+    name: 魔祖
+    aliases: []
+    description: 狱族的老祖。
+    attributes:
+      实力: 宇宙之主
+
+organizations:
+  - id: 妖族
+    type: Civilization
+    name: 妖族
+    aliases: []
+    description: 在原始宇宙中拥有强大实力的族群之一。
+
+  - id: 狱族
+    type: Civilization
+    name: 狱族
+    aliases: []
+    description: 拥有特殊地位存在狱王的邪恶族群。
+
+locations:
+  - id: 祖山
+    type: Location
+    name: 祖山
+    aliases: []
+    description: 各种族的老巢或核心区域。
+    attributes:
+      地点性质: 老巢
+
+events:
+  - id: 妖族与人类的战斗
+    type: Event
+    name: 妖族与人类的战斗
+    description: 梦妖祖和震妖祖率领宇宙之主队伍进攻人类族群，导致妖族损失六位宇宙之主。
+    timeline:
+      时间点: 未明确
+
+dialogues:
+  - id: 狱王与魔祖对话
+    type: Dialogue
+    content: |
+      狱王: "这是我狱族最大的机会，而且，那断东河一脉传承既然是远古文明的一极强大传承，那么，肯定记载着很多详细讯息。我也想要从那传承中……找出有关我这类生命的详细记载，知道我到底该如何前进。"
+    context:
+      场景: 狱族祖山大殿内
+      人物: 狱王, 魔祖
+
+timeline:
+
+mysteries:
+  - id: 断东河一脉传承的内容
+    type: Mystery
+    description: 断东河一脉传承中记载的详细信息，包括有关狱王这类生命的进展方向。
+```

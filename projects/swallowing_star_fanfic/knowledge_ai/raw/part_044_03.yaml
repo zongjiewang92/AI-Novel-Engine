@@ -1,0 +1,193 @@
+```yaml
+source:
+  id: 第654章不朽虫族（第一更）
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 虚拟宇宙公司特使，实力强大。
+    attributes:
+      实力: 封王级不朽神灵
+
+  - id: 寺番祁长老
+    type: Character
+    name: 寺番祁长老
+    aliases: []
+    description: 战争指挥官之一。
+    attributes:
+      身份: 长老
+      实力: 不详
+
+  - id: 迪伦
+    type: Character
+    name: 迪伦
+    aliases: []
+    description: 第九军的成员，参与战斗。
+    attributes:
+      实力: 不朽神灵
+
+  - id: 卡什那
+    type: Character
+    name: 卡什那
+    aliases: []
+    description: 战甲青年，第九军成员之一。
+    attributes:
+      身份: 第九军战士
+      实力: 封侯级不朽神灵
+
+  - id: 第九军主
+    type: Character
+    name: 第九军主
+    aliases: []
+    description: 第九军的指挥官，经验丰富。
+    attributes:
+      身份: 军队指挥官
+      实力: 封王级不朽神灵
+
+  - id: 昴亥
+    type: Character
+    name: 曜亥
+    aliases: []
+    description: 不详
+    attributes:
+      身份: 战士
+      实力: 封侯级不朽神灵
+
+  - id: 杰弗里斯
+    type: Character
+    name: 杰弗里斯
+    aliases: []
+    description: 不详
+    attributes:
+      身份: 战士
+      实力: 封侯级不朽神灵
+
+organizations:
+  - id: 第九军
+    type: Organization
+    name: 第九军
+    description: 参与战斗的军队。
+    members:
+      - 罗峰
+      - 迪伦
+      - 卡什那
+      - 第九军主
+
+events:
+  - id: 不朽虫族攻击
+    type: Event
+    name: 不朽虫族母巢和虫族战士袭击人类疆域
+    description: 数千名不朽级虫族战士在虫族母皇的指挥下对人类发动了毁灭性的攻击。
+    participants:
+      - 罗峰等人
+      - 虫族母皇及其麾下的不朽虫族战士
+
+dialogues:
+  - speaker: 寺番祁长老
+    content: "数千个不朽虫族联手，远超几千个真正不朽神灵的联合。"
+  - speaker: 罗峰
+    content: "刚才那一招，竟然毁灭直径千万公里的区域。"
+  - speaker: 迪伦
+    content: "数千名不朽神灵想要准确的同时施展攻击，难以成功但威力可怕。"
+  - speaker: 第九军主
+    content: "虫族母皇可以控制无数虫族战士并精确攻击，灵魂运用堪称巅峰。"
+
+timeline:
+  - event: 不朽级虫族母巢袭击帝都星
+    date: 不详
+
+mysteries:
+  - question: 虫族母巢为何敢来人类疆域？
+    answer: 可能是通过控制的不朽神灵传送，避免追杀。
+```
+```yaml
+source:
+  id: 第655章盘点（第二更）
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 虚拟宇宙公司特使，实力强大。
+    attributes:
+      实力: 封王级不朽神灵
+
+  - id: 寺番祁长老
+    type: Character
+    name: 寺番祁长老
+    aliases: []
+    description: 战争指挥官之一。
+    attributes:
+      身份: 长老
+      实力: 不详
+
+  - id: 迪伦
+    type: Character
+    name: 迪伦
+    aliases: []
+    description: 第九军的成员，参与战斗。
+    attributes:
+      实力: 不朽神灵
+
+  - id: 卡什那
+    type: Character
+    name: 卡什那
+    aliases: []
+    description: 战甲青年，第九军成员之一。
+    attributes:
+      身份: 第九军战士
+      实力: 封侯级不朽神灵
+
+  - id: 第九军主
+    type: Character
+    name: 第九军主
+    aliases: []
+    description: 第九军的指挥官，经验丰富。
+    attributes:
+      身份: 军队指挥官
+      实力: 封王级不朽神灵
+
+organizations:
+  - id: 第九军
+    type: Organization
+    name: 第九军
+    description: 参与战斗的军队。
+    members:
+      - 罗峰
+      - 迪伦
+      - 卡什那
+      - 第九军主
+
+civilizations:
+  - id: 虫族文明
+    type: Civilization
+    name: 虫族文明
+    description: 宇宙巅峰族群之一，数量众多且智慧极高。
+    attributes:
+      实力范围: 界主级至封王级不朽神灵
+
+abilities:
+  - id: 法则攻击
+    type: Ability
+    name: 法则攻击
+    description: 不朽虫族战士能够施展出含法则的精妙攻击。
+
+dialogues:
+  - speaker: 寺番祁长老
+    content: "意识一致、不怕死，还有精准的攻击。"
+  - speaker: 迪伦
+    content: "数千不朽神灵同时施展攻击难以成功但威力可怕。"
+  - speaker: 第九军主
+    content: "虫族母皇可以控制无数虫族战士并精确攻击，灵魂运用堪称巅峰。"
+
+timeline:
+  - event: 不朽级虫族母巢袭击帝都星
+    date: 不详
+
+mysteries:
+  - question: 虫族为何敢来人类疆域？
+    answer: 可能通过控制的不朽神灵传送，避免追杀。
+```

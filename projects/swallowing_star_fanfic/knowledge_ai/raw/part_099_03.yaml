@@ -1,0 +1,83 @@
+```yaml
+source:
+  id: "第1499章逼罗峰"
+
+entities:
+  - id: "罗峰"
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 初始宇宙的守护者之一，实力强大。
+    attributes:
+      - 实力: 虚空真神级
+      - 特别能力: 洞察所有界兽的位置
+
+  - id: "混沌城主"
+    type: Character
+    name: 混沌城主
+    aliases: []
+    description: 初始宇宙的守护者之一，与罗峰共同战斗。
+    attributes:
+      - 实力: 真神级
+      - 特别能力: 无
+
+  - id: "原祖"
+    type: Character
+    name: 原祖
+    aliases: ["人类之祖"]
+    description: 初始宇宙最古老的守护者，虚拟宇宙的创造者。
+    attributes:
+      - 实力: 虚空真神级
+      - 特别能力: 受到本源意志压制但仍能通过小型宇宙提供帮助
+
+  - id: "苍老祖神"
+    type: Character
+    name: 苍老祖神
+    aliases: []
+    description: 初始宇宙的守护者之一。
+    attributes:
+      - 实力: 祖神级
+      - 特别能力: 受到本源意志命令
+
+  - id: "少年祖神"
+    type: Character
+    name: 少年祖神
+    aliases: []
+    description: 初始宇宙的守护者之一。
+    attributes:
+      - 实力: 祖神级
+      - 特别能力: 受到本源意志命令
+
+relationships:
+  - id: "罗峰-混沌城主"
+    type: 合作关系
+    description: 共同保护初始宇宙。
+
+  - id: "罗峰-原祖"
+    type: 钦佩
+    description: 罗峰对原祖的尊重与仰慕。
+
+events:
+  - id: "本源意志下达命令"
+    type: 官方通告
+    description: 本源意志不释放被镇压的原祖，但允许其在小型宇宙内凝聚神力化身。
+    timeline: []
+
+dialogues:
+  - speaker: 罗峰
+    listener: 混沌城主
+    content: "本源意志可否放出原祖？"
+
+  - speaker: 苍老祖神
+    listener: 罗峰
+    content: "原祖实力当初便无比强大，现又借你们之手得到远古文明传承，实力更强！他若是出来，借助机械流宝物怕是和银河你比都不会差多少。这样的实力如果来抵抗界兽，自然令我原始宇宙一方生机大增。"
+
+  - speaker: 罗峰
+    listener: 混沌城主
+    content: "诸位且看，九十万界兽，其中一半在最外围未曾行动。还有约一万界兽分散在三颗小型宇宙外，正在进行吞吃。其他剩余约一半界兽，正在朝我原始宇宙逼近。"
+
+mysteries:
+  - id: "原祖为何触犯至高规则"
+    type: 伏笔
+    description: 原祖当年究竟做了什么触犯了至高规则。
+```

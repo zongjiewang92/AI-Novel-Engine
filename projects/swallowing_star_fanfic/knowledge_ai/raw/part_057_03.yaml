@@ -1,0 +1,89 @@
+```yaml
+source:
+  id: origin_text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 异族入侵者，持有弑吴羽翼和血影战刀。
+    attributes:
+      实力: 封王不朽
+      能力: 三振穿梭宇宙、弑吴羽翼防御
+
+  - id: 苍金王
+    type: Character
+    name: 苍金王
+    aliases: []
+    description: 异族入侵者，使用雷电之矛。
+    attributes:
+      实力: 封王不朽
+      能力: 振幅秘法
+
+  - id: 紫钟王
+    type: Character
+    name: 紫钟王
+    aliases: []
+    description: 异族入侵者，使用三座火焰钟。
+    attributes:
+      实力: 封王不朽
+      能力: 操纵空间、燃烧不朽神体
+
+  - id: 夜辰王
+    type: Character
+    name: 夜辰王
+    aliases: []
+    description: 异族入侵者，实力强大。
+    attributes:
+      实力: 封王巅峰
+      能力: 空间秘法
+
+  - id: 冰刃
+    type: Character
+    name: 冰刃
+    aliases: []
+    description: 异族入侵者，与虎刺王战斗。
+    attributes:
+      实力: 封王不朽
+      能力: 暗物质力量
+
+  - id: 虎刺王
+    type: Character
+    name: 虎刺王
+    aliases: []
+    description: 异族入侵者，实力强大。
+    attributes:
+      实力: 封王巅峰
+      能力: 不详
+
+relationships:
+
+events:
+  - id: 紫钟王对罗峰的攻击
+    type: Event
+    name: 紫钟王燃烧不朽神体攻击罗峰
+    description: 在战斗中，紫钟王为了夺取宝藏而燃烧自己的不朽神体来增强三座火焰钟的力量。
+    attributes:
+      时间: 战斗进行时
+
+dialogues:
+  - id: 苍金王对夜辰王的威胁
+    type: Dialogue
+    speaker: 苍金王
+    content: "交出宝藏！否则……陨落吧！"
+    context: 紫钟王燃烧不朽神体攻击罗峰，苍金王在指挥其他异族入侵者作战。
+
+timeline:
+  - id: 战斗开始时间线
+    type: Timeline
+    description: 异族入侵者为了夺取宝藏而展开激战。
+    attributes:
+      时间点1: 紫钟王燃烧不朽神体攻击罗峰
+
+mysteries:
+  - id: 不朽神体的战斗意义
+    type: Mystery
+    name: 不朽神体的战斗意义
+    description: 异族入侵者不惜牺牲自己的不朽神体也要争夺宝藏，显示出宝藏的重要性。
+```

@@ -1,0 +1,80 @@
+```yaml
+source:
+  id: 文本来源
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 银河领主，能够奴役界兽摩罗撒。
+    attributes:
+      实力: 强大到能够奴役界兽王者的程度
+
+  - id: 摩罗撒
+    type: Character
+    name: 摩罗撒
+    aliases: []
+    description: 界兽王者之一，被银河领主罗峰奴役。
+    attributes:
+      实力: 非常强大，能够在界兽中成为最后的王
+
+  - id: 坐山客
+    type: Character
+    name: 坐山客
+    aliases: []
+    description: 观察到规则波动的人，在宇宙舟外围。
+    attributes:
+      实力: 强大
+
+  - id: 贝迪
+    type: Character
+    name: 贝迪
+    aliases: []
+    description: 界兽王者，曾经受伤被摩罗撒吞食。
+
+organizations:
+  - id: 晋之神王麾下奴役军团
+    type: Organization
+    name: 晋之神王麾下奴役军团
+    description: 被称为金的存在创建的神秘强大军团
+
+species:
+  - id: 界兽
+    type: Species
+    name: 界兽
+    description: 代表毁灭，是原始宇宙对立的存在。
+    attributes:
+      特性: 能够感应彼此，天生互相厮杀吞食只有最后一个能存活。
+
+locations:
+  - id: 宇宙舟外围
+    type: Location
+    name: 宇宙舟外围
+    description: 坐山客所在的位置
+
+events:
+  - id: 界兽摩罗撒被奴役
+    type: Event
+    name: 界兽摩罗撒被奴役
+    description: 摩罗撒被银河领主罗峰使用《三星界》奴役。
+
+dialogues:
+  - speaker: 罗峰
+    listener: 摩罗撒
+    content: "主人，那是什么奴役之法，竟让我没有丝毫察觉就陷入其中了。"
+  - speaker: 罗峰
+    listener: 摩罗撒
+    content: "那叫《三星界》，一位名叫‘金’的伟大存在所创。"
+
+timeline:
+  - 时间点: 文本描述开始时间
+    事件: 界兽摩罗撒被奴役，规则波动引起宇宙舟外围观察者注意。
+
+mysteries:
+  - id: 规则波动原因
+    type: Mystery
+    description: 规则波动的原因是什么？是否界兽王者的诞生或者其他影响整个宇宙海的大事？
+```
+
+重要：仅输出 YAML 数据。

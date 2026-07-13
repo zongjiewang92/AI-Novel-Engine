@@ -1,0 +1,46 @@
+```yaml
+source:
+  id: 1
+
+entities:
+  - id: 001
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 掌控者九大神兵之一，首次使用衍神兵战斗。
+    attributes:
+      实力: 恒星级
+      能力: 使用金之本源法则、幻剑式
+
+  - id: 002
+    type: Character
+    name: 绿发青年
+    aliases: 风轮
+    description: 在虚拟宇宙中与罗峰战斗，使用念力兵器残月轮。
+    attributes:
+      实力: 恒星级
+      能力: 使用风之本源法则
+
+relationships:
+
+events:
+  - id: 01
+    type: Battle
+    participants: [罗峰, 绿发青年]
+    description: 罗峰使用幻剑式击败绿发青年，赢得大量积分。
+    timeline: 预选最后一天
+
+dialogues:
+  - speaker: 绿发青年
+    content: "疯子，这预选最后一天，能遇到你这样的对手，真是让人开心，你就拿出你全部实力，让我好好看看……传说中的衍神兵，到底多强吧！"
+  - speaker: 罗峰
+    content: "不会让你失望的。"
+
+timeline:
+  - 预选30天内每天: 战斗和击杀对手以获取积分
+  - 最后一天: 使用幻剑式击败绿发青年
+
+mysteries:
+  - 积分具体数额未明
+  - 罗峰回归现实后的状态未知
+```

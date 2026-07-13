@@ -1,0 +1,65 @@
+```yaml
+source:
+  id: 第419章连胜
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 来自黑龙山帝国的天才，实力强大，在擂台群战中表现出色。
+    attributes:
+      实力: 法则强者, 排上流
+      装备: 暗金色长棍
+
+  - id: 塞瓦罗
+    type: Character
+    name: 塞瓦罗
+    aliases: []
+    description: 来自龙角星域的天才，具有高超技巧。
+    attributes:
+      实力: 法则强者, 排上流
+      装备: 巨型踏板
+
+  - id: 洪
+    type: Character
+    name: 洪
+    aliases: []
+    description: 罗峰的朋友，给予罗峰建议。
+    attributes:
+      关系: 友人
+
+relationships:
+  - entity1_id: 罗峰
+    entity2_id: 塞瓦罗
+    type: 对手
+    description: 在擂台对决中互相竞争。
+
+events:
+  - id: 擂台对决开始
+    type: Event
+    name: 擂台对决开始
+    description: 罗峰与塞瓦罗在斗武场内进行一对一战斗。
+    timeline:
+      时间: 华夏时间2066年7月23号
+
+  - id: 规则讲解
+    type: Event
+    name: 规则讲解
+    description: 解说员向参赛者介绍比赛规则，包括空间缩小机制。
+
+dialogues:
+  - speaker_id: 塞瓦罗
+    listener_ids: [解说员]
+    content: "那好，战斗……开始！"
+    context: 比赛即将开始时的对话
+
+timeline:
+  - 时间点: 华夏时间2066年7月23号
+    描述: 罗峰与塞瓦罗之间的对决正式开始。
+
+mysteries:
+  - id: 罗峰反感原因
+    type: Mystery
+    description: 罗峰对塞瓦罗莫名升起的反感具体原因未明。
+```

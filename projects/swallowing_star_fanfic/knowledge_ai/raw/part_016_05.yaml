@@ -1,0 +1,209 @@
+```yaml
+source:
+  id: 第241章
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: |
+      智能战机的主人，拥有较高的社会地位。在紧急情况下显得慌乱。
+    attributes:
+      实力: 强大
+      性格: 冷静但会在危机时表现出强烈的情绪波动
+
+  - id: 贾谊
+    type: Character
+    name: 贾谊
+    aliases: []
+    description: |
+      向罗峰报告紧急情况的人，可能是政府官员或军事人员。
+    attributes:
+      实力: 不详
+      性格: 悲伤且焦急
+
+  - id: 徐欣
+    type: Character
+    name: 徐欣
+    aliases: []
+    description: |
+      罗峰的妻子，对罗峰的行动表现出关心。
+    attributes:
+      实力: 不详
+      性格: 关心丈夫
+
+  - id: 罗洪国夫妇
+    type: Character
+    name: 罗洪国夫妇
+    aliases: []
+    description: |
+      罗峰的父母，对罗峰的行为感到担忧。
+    attributes:
+      实力: 不详
+      性格: 关心儿子
+
+  - id: 12号遗迹
+    type: Location
+    name: 12号遗迹
+    aliases: []
+    description: |
+      罗峰前往的地点，位于地球某处。
+    attributes:
+      地理位置: 不详
+      功能: 收藏重要武器或技术
+
+relationships:
+  - id: 罗峰-贾谊
+    type: Communication
+    name: 罗峰与贾谊通话
+    description: |
+      贾谊向罗峰报告关于吞噬兽对战争基地的破坏情况，以及氢弹攻击计划。
+    attributes:
+      时间: 夜晚
+
+  - id: 罗峰-徐欣
+    type: Relationship
+    name: 罗峰与徐欣的关系
+    description: |
+      徐欣关心罗峰的安全，罗峰让她留在家中确保安全。
+    attributes:
+      关系类型: 妻子和丈夫
+
+  - id: 罗峰-父母
+    type: Relationship
+    name: 罗峰与其父母的关系
+    description: |
+      父母担心儿子的安危，罗峰让他们留在家中确保安全。
+    attributes:
+      关系类型: 母子/父子
+
+dialogues:
+  - id: 贾谊-罗峰
+    type: Dialogue
+    name: 贾谊与罗峰通话
+    description: |
+      "是我，贾谊。罗峰，出大事了。"
+      "还能出什么大事？"
+      "罗峰，之前在会议厅，各国领导人们通过卫星发现。那头‘吞噬兽’在北美洲毁掉所有战争基地后，竟然又迅速飞往欧洲，开始对欧洲的一些重要战争基地进行大肆破坏，相信很快，它会对我们亚洲的战争基地进行破坏！"
+      "没有战争基地阻拦海域怪兽，无数海域怪兽会冲入内陆！恐怕只要一两天，就能和基地市发生大规模战争！"
+    attributes:
+      时间: 夜晚
+
+  - id: 罗峰-父母
+    type: Dialogue
+    name: 罗峰与父母对话
+    description: |
+      "爸妈，你们所有人都呆在家里，如果有什么危险，你们就进入楼上的‘重力室’。"
+      "小峰，小心点。"
+      "哥，早点回来。"
+    attributes:
+      时间: 夜晚
+
+events:
+  - id: 吞噬兽破坏战争基地
+    type: Event
+    name: 吞噬兽对地球的战争基地进行大肆破坏
+    description: |
+      吞噬兽以极快的速度摧毁了各个大陆上的重要战争基地，导致无数海域怪兽有机会进攻内陆。
+    attributes:
+      时间: 夜晚
+
+  - id: 氢弹攻击计划执行
+    type: Event
+    name: 执行氢弹攻击计划
+    description: |
+      若吞噬兽进入苏俄国境内，则将进行氢弹攻击以期杀死它并拯救人类的未来。
+    attributes:
+      时间: 夜晚
+
+timeline:
+  - id: 现在-今夜
+    type: Time
+    name: 当前时间至今晚
+    description: |
+      时间非常紧迫，罗峰需要立即行动前往12号遗迹。
+
+mysteries:
+  - id: 吞噬兽的动机
+    type: Mystery
+    name: 吞噬兽为何如此快速地摧毁战争基地？
+    description: |
+      为什么吞噬兽要在极短时间内毁掉地球上所有的战争基地，这背后的原因是什么？
+```
+```yaml
+source:
+  id: 第242章
+
+entities:
+  - id: 智能战机
+    type: Item
+    name: 智能战机
+    aliases: []
+    description: |
+      罗峰的飞行工具，可以迅速抵达12号遗迹。
+    attributes:
+      最快速度: 8000米每秒
+
+  - id: 重力室
+    type: Item
+    name: 重力室
+    aliases: []
+    description: |
+      家中安全设施之一，在紧急情况下提供避难场所，材料非常坚固。
+    attributes:
+      安全性: 非常高
+
+relationships:
+
+events:
+  - id: 罗峰前往12号遗迹
+    type: Event
+    name: 罗峰会见巴巴塔并前往12号遗迹
+    description: |
+      罗峰离开家，准备前往12号遗迹获取武器。
+    attributes:
+      时间: 夜晚
+
+  - id: 氢弹攻击计划执行
+    type: Event
+    name: 执行氢弹攻击计划
+    description: |
+      根据贾谊的描述，在吞噬兽进入苏俄国境内后，将实施氢弹攻击尝试消灭它。
+    attributes:
+      时间: 夜晚
+
+dialogues:
+  - id: 罗峰-巴巴塔
+    type: Dialogue
+    name: 罗峰与巴巴塔对话
+    description: |
+      "设定重力室给我爸妈、弟弟、甄楠、徐欣五人权限。"
+      "已经搞定。"
+    attributes:
+      时间: 夜晚
+
+  - id: 罗峰-洪
+    type: Dialogue
+    name: 罗峰与馆主洪的对话
+    description: |
+      "按照氢弹攻击计划，洪荒级智能战机攻击之前，会安排其他的‘极限型号’战机携带原子弹，进行攻击！以混淆视听。"
+      "嗯？"
+    attributes:
+      时间: 夜晚
+
+timeline:
+  - id: 现在-今夜
+    type: Time
+    name: 当前时间至今晚
+    description: |
+      时间非常紧迫，罗峰需要立即行动前往12号遗迹。
+
+mysteries:
+  - id: 吞噬兽的动机
+    type: Mystery
+    name: 吞噬兽为何如此快速地摧毁战争基地？
+    description: |
+      为什么吞噬兽要在极短时间内毁掉地球上所有的战争基地，这背后的原因是什么？
+
+```

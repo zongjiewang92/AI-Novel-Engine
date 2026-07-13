@@ -1,0 +1,70 @@
+```yaml
+source:
+  id: 第1080章星泪金
+
+entities:
+  - id: 魃剑尊者
+    type: Character
+    name: 魃剑尊者
+    aliases: []
+    description: 来自九域联盟的宇宙霸主，拥有两件至宝。
+    attributes:
+      实力: 宇宙霸主
+      现状: 已经陨落
+
+  - id: 金角巨兽
+    type: Character
+    name: 金角巨兽
+    aliases: []
+    description: 拥有六亿界主之力的强大神体，能够使用领域类至宝“九虓河”。
+    attributes:
+      实力: 强大神体拥有者
+      现状: 获得了墨绿色铠甲和碧绿色的至宝神剑
+
+  - id: 策天尊者
+    type: Character
+    name: 策天尊者
+    aliases: []
+    description: 拥有宇宙中等尊者的实力。
+    attributes:
+      实力: 宇宙中等尊者
+      关系: 和羽黯领主一同逃离
+
+  - id: 羽黯领主
+    type: Character
+    name: 羽黯领主
+    aliases: []
+    description: 拥有宇宙中等领主的实力。
+    attributes:
+      实力: 宇宙中等领主
+      关系: 和策天尊者一同逃离
+
+relationships:
+  - 主体: 魃剑尊者
+    对象: 策天尊者、羽黯领主
+    类型: 同盟关系（曾经）
+    描述: 曾经与策天尊者和羽黯领主为同盟，试图联手对付金角巨兽。
+
+  - 主体: 金角巨兽
+    对象: 策天尊者、羽黯领主
+    类型: 敌对关系
+    描述: 目前处于敌对状态，但尚未直接冲突。
+
+events:
+  - id: 霸主陨落事件
+    type: Event
+    description: 魃剑尊者在与金角巨兽的战斗中自爆身亡。
+    timeline: [魃剑尊者神体不断下降, 自爆]
+
+dialogues:
+  - 主体: 金角巨兽
+    对象: 策天尊者、羽黯领主
+    内容: "策天尊者、羽黯领主，你们是否继续要与我为敌？"
+    情境: 金角巨兽取得胜利后询问对手的去向。
+
+timeline:
+  - 霸主陨落事件
+
+mysteries:
+  - 九域联盟是否会付出代价复活魃剑尊者
+```

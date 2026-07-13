@@ -1,0 +1,97 @@
+```yaml
+source:
+  id: 第1143章你是宇宙之主（保底二更）
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有强大实力的宇宙高等尊者，曾与班夫之主交战。
+    attributes:
+      实力: 宇宙高等尊者
+      能力: 微型宇宙秘法
+
+  - id: 班夫之主
+    type: Character
+    name: 班夫之主
+    aliases: []
+    description: 拥有强大实力的虫族联盟宇宙之主。
+    attributes:
+      实力: 宇宙之主
+      能力: 俄萝界顶级领域类至宝
+
+  - id: 混沌城主
+    type: Character
+    name: 混沌城主
+    aliases: []
+    description: 参与观察微型宇宙事件的宇宙之主。
+    attributes:
+      实力: 宇宙之主
+
+  - id: 通岭之主
+    type: Character
+    name: 通岭之主
+    aliases: []
+    description: 参与观察微型宇宙事件的宇宙之主，怀疑班夫之主施展秘法。
+    attributes:
+      实力: 宇宙之主
+
+  - id: 六蹄长鼻异兽
+    type: Character
+    name: 六蹄长鼻异兽
+    aliases: []
+    description: 微型宇宙内的另一名宇宙之主，对罗峰的秘法感到震惊。
+    attributes:
+      实力: 宇宙之主
+
+  - id: 三眼异族
+    type: Character
+    name: 三眼异族
+    aliases: []
+    description: 微型宇宙内的另一名宇宙之主，对罗峰的秘法感到震惊。
+    attributes:
+      实力: 宇宙之主
+
+relationships:
+  - id: 罗峰与班夫之主
+    type: 对立
+    participants:
+      - 罗峰
+      - 班夫之主
+    description: 罗峰和班夫之主之间存在强烈的对立关系。
+
+events:
+  - id: 微型宇宙的创造
+    type: Ability
+    description: 罗峰创造出微型宇宙，内部包含无尽混沌气流。
+    participants:
+      - 罗峰
+
+  - id: 宇宙尊者的灭杀
+    type: Event
+    description: 罗峰利用微型宇宙的力量直接碾压消灭了6000多名宇宙尊者。
+    participants:
+      - 罗峰
+      - 微型宇宙内的其他宇宙之主
+      - 众多宇宙尊者
+
+dialogues:
+  - id: 班夫之主与罗峰的对话
+    type: Dialogue
+    content: "罗峰，你别乱来。这里可是有足足6000多名宇宙尊者！这是三大联盟的宇宙尊者，牵扯的族群更是多的很，你杀了他们，那就是结怨大量族群！"
+    participants:
+      - 班夫之主
+      - 罗峰
+
+timeline:
+  - id: 微型宇宙创造时间点
+    type: Timeline
+    description: 罗峰在编号02933号原始星创造出微型宇宙。
+    time: 同时发生
+
+mysteries:
+  - id: 秘法的归属疑问
+    type: Mystery
+    description: 对于创造出微型宇宙秘法的人身份存在疑惑，多数认为是班夫之主所为，但事实却是罗峰施展。
+```

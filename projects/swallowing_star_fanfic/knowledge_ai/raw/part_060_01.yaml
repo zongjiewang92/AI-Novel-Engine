@@ -1,0 +1,78 @@
+```yaml
+source:
+  id: 895
+
+entities:
+  - id: 天阵王
+    type: Character
+    name: 天阵王
+    aliases: []
+    description: 妖族阵营的灵魂大师，试图暗算罗峰。
+    attributes:
+      实力: 封王极限
+      目标: 罗峰的财富
+
+  - id: 魑芒王
+    type: Character
+    name: 魑芒王
+    aliases: []
+    description: 妖族阵营的灵魂大师，与天阵王合作。
+    attributes:
+      实力: 封王极限
+
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 主人公，地球上的华夏国强者。
+    attributes:
+      实力: 极端意志坚定
+      特点: 明心见性、直指本心的大成境界
+
+  - id: 驱武王
+    type: Character
+    name: 驱武王
+    aliases: []
+    description: 妖族阵营的封王极限战士。
+    attributes:
+      实力: 封王极限
+
+  - id: 重箭王
+    type: Character
+    name: 重箭王
+    aliases: []
+    description: 妖族阵营的封王极限射手，罗峰的同伴。
+    attributes:
+      实力: 封王极限
+
+relationships:
+  - 主体: 天阵王
+    关系类型: 敌对
+    客体: 罗峰
+    描述: 暗算罗峰，试图夺取其财富。
+
+events:
+  - 时间点: 最近
+    类型: 战斗
+    名称: 阴谋暗算失败
+    参与者:
+      - 天阵王
+      - 罗峰
+    描述: 天阵王利用灵魂幻术和物理冲击力相结合的手段企图杀死罗峰，但未能成功。罗峰通过自己的意志破除了幻术并幸免于难。
+
+dialogues:
+  - 主体: 罗峰
+    对象: 天阵王
+    内容: "天阵王！！！是你！"
+    描述: 发现暗算自己的是天阵王，并显示出强烈的愤怒和决心。
+
+timeline:
+  - 时间点: 最近
+    类型: 战斗过程
+    名称: 罗峰脱险
+    描述: 天阵王利用灵魂幻术欲害罗峰，但罗峰凭借意志力破除了幻术，最终通过空间出口逃离危险区域。
+
+mysteries:
+  - 内容: 神秘力量包裹罗峰使其进入另一个虚空。
+  - 内容: 战争中时而崩溃、时而诞生的空间出口是如何形成的？
+```

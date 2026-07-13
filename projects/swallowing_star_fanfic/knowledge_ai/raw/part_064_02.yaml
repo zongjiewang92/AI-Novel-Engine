@@ -1,0 +1,86 @@
+```yaml
+source:
+  id: 第960章混沌城主降临
+
+entities:
+  - id: 天狼之主
+    type: Character
+    name: 天狼之主
+    aliases: []
+    description: 妖族皇族之一‘天狼族’最伟大的存在，拥有极强的威压和实力。
+    attributes:
+      实力: 宇宙之主级别
+      特征: 全身毛发腾绕着火焰，通体漆黑如墨的巨大天狼
+
+  - id: 青兠寇尊者
+    type: Character
+    name: 青兠寇尊者
+    aliases: []
+    description: 冰狱星带的管理者之一。
+    attributes:
+      实力: 封王无敌不朽级别
+      特征: 紫色身影，掌心能出现冰柱
+
+  - id: 紫兠寇尊者
+    type: Character
+    name: 紫兠寇尊者
+    aliases: []
+    description: 冰狱星带的管理者之一。
+    attributes:
+      实力: 封王无敌不朽级别
+      特征: 青色身影，与天狼之主有过过节
+
+  - id: 斯卜瓦
+    type: Character
+    name: 斯卜瓦
+    aliases: []
+    description: 天狼族中被关押在冰狱中的族人。
+    attributes:
+      实力: 排在冰狱前五的不朽级别
+      特征: 通体雪白，对天狼之主极其恭敬
+
+locations:
+  - id: 冰狱星带
+    type: Location
+    name: 冰狱星带
+    description: 在乌华秘境中，是一个被火焰笼罩的区域。
+
+items:
+  - id: 天狼殿
+    type: Item
+    name: 天狼殿
+    aliases: []
+    description: 天狼族最伟大的至宝。
+    attributes:
+      属性: 宫殿凭空消失，具有极强威压
+
+abilities:
+  - id: 冰狱
+    type: Ability
+    name: 冰狱
+    description: 青兠寇尊者和紫兠寇尊者的镇压封印类重宝。
+
+dialogues:
+  - speaker: 天狼之主
+    content: "我天狼族有一族人被关押在你等冰狱中。放出来吧。"
+    context: 对青兠寇尊者、紫兠寇尊者下达命令。
+  
+  - speaker: 紫兠寇尊者
+    content: "天狼之主，这小家伙实力倒是颇为了得，在冰狱中排在前五，若是再增添几件适合的重宝，足以媲美其他封王无敌不朽。"
+    context: 对斯卜瓦的实力评价。
+  
+  - speaker: 天狼之主
+    content: "你知道是我天狼族人，有此天赋，你还关押？"
+    context: 质问紫兠寇尊者为何关押天狼族人。
+
+timeline:
+  events:
+    - id: 天狼之主降临冰狱星带
+      date: 文中提到的时间点
+      description: 天狼之主为了带走被囚禁的斯卜瓦而降临冰狱星带。
+  
+mysteries:
+  - question: 冰狱中的人类身份及其重要性为何？
+    context: 紫兠寇尊者和青兠寇尊者不愿交出人类，声称无此人。
+
+```

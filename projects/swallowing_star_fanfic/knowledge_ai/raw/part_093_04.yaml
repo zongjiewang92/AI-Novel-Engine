@@ -1,0 +1,58 @@
+```yaml
+source:
+  id: uqi_lou_fourth_floor
+
+entities:
+  - id: rofe
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 军士银河，选择进入神力路线的真神之路。
+    attributes:
+      实力: 强大
+      目标: 成为真神
+
+  - id: divine_king_lords
+    type: Organization
+    name: 神王谷统领
+    aliases: []
+    description: 负责守护乌启楼的四位统领。
+    attributes:
+      关系: 尊重神王陛下的意愿
+
+  - id: divine_king_road
+    type: Location
+    name: 神力路线通道
+    aliases: ["黑光通道"]
+    description: 第四层中唯一珍贵，由神王陛下耗费心血留下的指引。
+
+events:
+  - id: rofe_enters_divine_king_road
+    type: Event
+    name: 罗峰选择进入神力路线通道
+    description: "罗峰毫不犹豫地选择了神力路线的真神之路。"
+    timeline:
+      时间: 第四层
+
+relationships:
+  - id: rofe_divine_king_lords
+    type: Relationship
+    name: 神王谷统领对罗峰的选择赞赏
+    description: 四位统领感叹罗峰选择正确，认为这是神王陛下的心血所在。
+
+dialogues:
+  - id: divine_king_road_guidance
+    speaker: 苍老声音
+    content: "四条通道只能选择一条！你们从这通道中的收获，则决定你们是否能够进入乌启楼第五层。"
+    context: 第四层开始时的指引
+
+mysteries:
+  - id: secret_inscription_pattern
+    type: Mystery
+    name: 生命立体图的秘密
+    description: "罗峰发现墙壁上的标本结合后形成了一幅复杂的立体秘纹图，代表完美生命的生命最详细结构。"
+
+timeline:
+
+```
+此YAML仅涵盖文档中明确提及的信息和事件，请注意其他未明示内容或细节可能在原始文本中存在但未纳入上述数据模型中。

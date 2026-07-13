@@ -1,0 +1,107 @@
+```yaml
+source:
+  id: 第504章燕岗城（第一更）
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 宇宙级九阶强者，精通空间、金两大本源法则。
+    attributes:
+      实力: 宇宙级九阶
+      特殊能力: 奴役魂印，类似催眠的能力
+  - id: 穿着黑色毛皮的娇小少女
+    type: Character
+    name: 穿着黑色毛皮的娇小少女
+    aliases: []
+    description: 飞云阁接待人员。
+    attributes:
+      职位: 接待人员
+  - id: 倾城青年仆人
+    type: Character
+    name: 倾城青年仆人
+    aliases: []
+    description: 飞云阁内部服务员，对燕岗城十分熟悉。
+    attributes:
+      年龄: 生活两百多年，在飞云阁呆了近百年
+  - id: 纳家
+    type: Organization
+    name: 纳家
+    aliases: []
+    description: 燕岗领范围内中等势力之一，与酉家实力相当。
+    attributes:
+      势力等级: 中等
+  - id: 十三斧
+    type: Organization
+    name: 十三斧
+    aliases: []
+    description: 上等势力，被罗峰消灭后获得其全副身家。
+    attributes:
+      势力等级: 上等
+  - id: 石风家族
+    type: Organization
+    name: 石风家族
+    aliases: []
+    description: 超等势力之一，燕岗领城主家族。
+    attributes:
+      势力等级: 超等
+  - id: 淳羽家族
+    type: Organization
+    name: 淳羽家族
+    aliases: []
+    description: 燕岗领内第一商人家族，超等势力之一。
+    attributes:
+      势力等级: 超等
+  - id: 虎雷族
+    type: Organization
+    name: 虎雷族
+    aliases: []
+    description: 超等势力之一，野蛮人类族群。
+
+relationships:
+  - entity1_id: 罗峰
+    entity2_id: 飞云阁接待人员
+    relationship_type: 客户-服务提供者
+  - entity1_id: 倾城青年仆人
+    entity2_id: 燕岗领居民
+    relationship_type: 居民-导游
+
+events:
+  - id: 飞云阁入住
+    type: Event
+    description: 罗峰入住飞云阁，并安排住宿。
+    timeline: 未知时间点，燕岗城内
+  - id: 调查燕岗城
+    type: Event
+    description: 倾城青年仆人向罗峰详细描述燕岗城内的势力情况和重要地点。
+    timeline: 罗峰入住飞云阁后不久
+
+dialogues:
+  - speaker_id: 穿着黑色毛皮的娇小少女
+    listener_id: 罗峰
+    content: "我们这有地级、天级、云级，不知道你要住哪一级的？至于价格，那边墙壁上挂着。"
+    context: 飞云阁入住时接待罗峰。
+  - speaker_id: 罗峰
+    listener_id: 倾城青年仆人
+    content: "我是第一次来你们燕岗城，你跟我说说，这燕岗城有哪些特殊地方，有哪些大人物。"
+    context: 要求了解燕岗城的详细信息。
+  - speaker_id: 纳可
+    listener_id: 纳布
+    content: "峰大哥传音在我脑子里的。"
+    context: 接收到罗峰的信息后告知父亲。
+
+timeline:
+  - time_point: 第二天早晨
+    description: 罗峰通过念力感应到纳家父子的到来，并与之联系。
+    events:
+      - id: 纳可到来传音
+
+mysteries:
+  - mystery_id: 城主石风家族的血洛晶持有情况
+    description: 虽然城主最有可能拥有第二颗血洛晶，但罗峰暂时不去招惹他。
+  - mystery_id: 淳羽家族是否真的有领域级老者潜修
+    description: 这是仆人道听途说的信息，真实性存疑。
+```
+
+此YAML格式输出了人物、组织、事件、对话及一些未解决的谜团等信息。

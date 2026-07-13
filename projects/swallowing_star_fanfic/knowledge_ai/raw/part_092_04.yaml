@@ -1,0 +1,82 @@
+```yaml
+source:
+  id: 第1395章乌启神（第四更）
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 主角，正在晋之世界中查看传承资料。
+    attributes:
+      实力: 超级战士
+      目标: 在这一轮回时代结束前突破为真神
+
+  - id: 晋之世界的永恒真神
+    type: Character
+    name: 永恒真神
+    aliases: []
+    description: 神王陛下的伟大臣子，地位极高。
+    attributes:
+      实力: 绝对高高在上的存在
+      特点: 可自由离开晋之世界
+
+  - id: 紫月圣地宇宙
+    type: Location
+    name: 紫月圣地宇宙
+    aliases: []
+    description: 宇宙直径为21亿光年。
+    attributes:
+      直径: 21亿光年
+
+  - id: 东帝圣地宇宙
+    type: Location
+    name: 东帝圣地宇宙
+    aliases: []
+    description: 宇宙直径为32亿光年。
+    attributes:
+      直径: 32亿光年
+
+organizations:
+  - id: 晋之世界
+    type: Organization
+    name: 晋之世界
+    aliases: []
+    description: 神王陛下的领土，拥有四位永恒真神。
+
+abilities:
+  - id: 小型宇宙
+    type: Ability
+    name: 小型宇宙
+    aliases: []
+    description: 强者的小型宇宙是突破的关键。
+    attributes:
+      直径范围: 从1亿光年到百亿光年不等
+
+cultivation_systems:
+  - id: 真神、虚空真神、永恒真神
+    type: Cultivation
+    name: 真神、虚空真神、永恒真神
+    aliases: []
+    description: 晋之世界的三个重要境界。
+    attributes:
+      难度递增: 从真神到虚空真神再到永恒真神难度逐步上升
+
+timeline:
+
+dialogues:
+  - id: 罗峰询问传承资料
+    type: Dialogue
+    participants:
+      - 罗峰
+      - 金色身影
+    content: |
+      罗峰: 我想要看一些传承。
+      金色身影: 可以。这是众多传承的清单。
+
+mysteries:
+  - id: 晋之世界神王陛下生死未明
+    type: Mystery
+    name: 晋之世界神王陛下生死未明
+    description: 神王陛下的巨大类人形生物躺在宇宙海，不知是否已经陨落。
+```

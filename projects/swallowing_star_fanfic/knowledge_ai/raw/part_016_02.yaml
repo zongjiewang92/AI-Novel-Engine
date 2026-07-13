@@ -1,0 +1,64 @@
+```yaml
+source:
+  id: 罗峰的特殊能力
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 行星级一阶精神念师，学徒九阶巅峰武者。
+    attributes:
+      实力: 强大
+      能力: 具备特殊能力金刚身
+
+  - id: 巴巴塔
+    type: Character
+    name: 巴巴塔
+    aliases: []
+    description: 罗峰的老师，陨墨一脉传承者。
+    attributes:
+      实力: 强大
+      能力: 教授秘法
+
+  - id: 《魂印》
+    type: Item
+    name: 《魂印》
+    aliases: []
+    description: 控制奴仆的独门秘法书籍。
+
+  - id: 《虚空之塔》
+    type: Item
+    name: 《虚空之塔》
+    aliases: []
+    description: 灵魂防御绝顶秘法书籍。
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 学习
+    对象: 巴巴塔
+
+events:
+  - 名称: 融合行星级武者
+    描述: 罗峰在巴巴塔的指导下，融合行星级武者。
+    时间线: 在虚拟空间修炼室中进行。
+
+dialogues:
+  - 主体: 巴巴塔
+    内容: 这可是我陨墨一脉独门秘法，绝对不外传的。
+    相关人物: 罗峰
+
+  - 主体: 巴巴塔
+    内容: 教会徒弟饿死师傅，自己这老师活着的时候，或许难得才传授一个秘法，可自知必死后，当然是将全部秘法都留下。
+    相关人物: 罗峰
+
+timeline:
+  - 时间点1: 融合行星级武者的开始
+    描述: 罗峰在虚拟空间的修炼室中，身体变得模糊消失。
+
+  - 时间点2: 意识刺痛
+    描述: 罗峰感到意识一阵刺痛，即将突破到新的层次。
+
+mysteries:
+  - 内容: 罗峰的特殊能力是什么？
+```

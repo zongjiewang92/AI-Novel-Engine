@@ -1,0 +1,111 @@
+```yaml
+source:
+  id: text_source
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      地球上的武者，实力强大。拥有体内世界“金角巨兽”，渴望宇宙探索。
+    attributes:
+      - 实力: 强大
+      - 目标: 宇宙探索
+
+  - id: 巴巴塔
+    type: Character
+    name: 巴巴塔
+    aliases: []
+    description: >
+      黑龙飞船中的智能系统，帮助罗峰修复飞船。
+    attributes:
+      - 状态: 兴奋
+      - 目标: 鼓励罗峰探索宇宙
+
+  - id: 虚无区域
+    type: Location
+    name: 虚无区域
+    aliases: []
+    description: >
+      宇宙星空中银河系内一个特定区域，冒险者们前往地球的必经之地。
+    attributes:
+      - 特点: 著名
+      - 地理位置: 银河系
+
+  - id: 飞碟型飞船
+    type: Item
+    name: 飞碟型飞船
+    aliases: []
+    description: >
+      正朝地球方向飞行的银色飞碟型宇宙飞船。
+    attributes:
+      - 特点: 稳定高速
+
+  - id: 船长
+    type: Character
+    name: 船长
+    aliases: []
+    description: >
+      银灰色冒险者小队船长，俊美中年男子。希望独自获取生命星球的利益。
+    attributes:
+      - 目标: 生命星球利益
+
+  - id: 黑猩猩大汉
+    type: Character
+    name: 黑猩猩大汉
+    aliases: []
+    description: >
+      船员，担心家族舰队可能抢夺船长利益。
+    attributes:
+      - 担忧: 家族竞争
+
+  - id: 金角巨兽
+    type: Species
+    name: 金角巨兽
+    aliases: ["体内世界"]
+    description: >
+      罗峰的体内世界，体型庞大，拥有黑色鳞片和金色犄角。
+    attributes:
+      - 功能: 吞噬玄铁精
+
+relationships:
+  - 主体: 巴巴塔
+    关系类型: 协助者
+    目标: 罗峰
+    描述: >
+      帮助罗峰修复飞船，鼓励其探索宇宙。
+
+events:
+  - 名称: 宇宙穿梭准备完成
+    类型: Event
+    时间: 文本内近期
+    参与者: 巴巴塔, 罗峰
+    地点: 黑龙山X81飞船
+    描述: >
+      飞船辅助动力系统修复完毕，罗峰即将进行宇宙穿梭。
+  
+  - 名称: 生命星球探险
+    类型: Event
+    时间: 文本内近期
+    参与者: 船长, 黑猩猩大汉
+    地点: 虚无区域至地球航线
+    描述: >
+      飞船朝向地球，预计91天后抵达。
+
+dialogues:
+  - 主体: 巴巴塔
+    对象: 罗峰
+    内容: "辅助动力系统已经搞定，自此，黑龙山X81飞船一切都完好……你就可以乘坐黑龙飞船，进行宇宙穿梭，遨游浩瀚的宇宙，见识见识宇宙中的无数种族了！"
+  
+  - 主体: 黑猩猩大汉
+    对象: 船长
+    内容: "船长, 现在船长的家族的舰队……到时候……家族内会不会抢了船长的利益？只分很少一点给船长？"
+
+timeline:
+  - 时间点1: 文本叙述当前时间点，罗峰准备进行体内世界蜕变。
+  - 时间点2: 飞碟型飞船预计91天后抵达地球。
+
+mysteries:
+  - 内容: 地球被其他冒险者或国家发现后的生存问题。
+```

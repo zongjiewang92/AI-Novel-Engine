@@ -1,0 +1,46 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: rofei
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 排在前十的超级强者，拥有极高的实力和操控念力兵器的能力。
+    attributes:
+      实力: 超级强者前10
+      特长: 操控念力兵器“金色鱼儿”
+  - id: mochui
+    type: Character
+    name: 魔锤
+    aliases: []
+    description: 排在前十的超级强者，暗伽罗族天才，拥有黑色领域和四只手臂。
+    attributes:
+      实力: 超级强者前10
+      特长: 黑色领域、操控四个黑锤
+
+relationships:
+
+events:
+  - id: 对战
+    type: Event
+    description: 罗峰与魔锤在街道上进行生死之战，双方都使用各自的最强手段。
+    timeline:
+      时间线: 文本描述的顺序
+
+dialogues:
+  - speaker: 魔锤
+    content: "现在动手？"
+  - speaker: 罗峰
+    content: "对。现在！"
+  - speaker: 魔锤
+    content: "哈哈，那我就要瞧瞧，让无数天才恐惧的‘疯子’到底有多强。"
+
+timeline:
+  events:
+    - 对战
+
+mysteries:
+  - 内容: 罗峰是否能够直接击杀魔锤。
+```

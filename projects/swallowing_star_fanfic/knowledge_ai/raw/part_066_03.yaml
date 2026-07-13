@@ -1,0 +1,61 @@
+```yaml
+source:
+  id: yuanshen
+
+entities:
+  - id: rofei-benzhen
+    type: Character
+    name: 罗峰本尊
+    aliases: []
+    description: 银甲银翼罗峰，能够通过世界戒指操纵极虹王，并使用空间封锁技术。
+    attributes:
+      实力: 宇宙强者
+      装备: 世界戒指、护臂战衣
+
+  - id: moheshu-fenshen
+    type: Character
+    name: 魔杀族分身
+    aliases: []
+    description: 拥有天赋秘法“域”，能够瞬间掌控大范围空间，进行瞬移。
+    attributes:
+      实力: 宇宙强者
+      能力: 天赋秘法"域", 瞬间化身为上万公里的空间
+
+  - id: jiuhongwang
+    type: Character
+    name: 极虹王
+    aliases: []
+    description: 向罗峰本尊和魔杀族分身行礼，能够执行空间封锁。
+    attributes:
+      实力: 宇宙强者
+      能力: 空间封锁
+
+  - id: jiuyou-shijian
+    type: Location
+    name: 九幽时空
+    aliases: []
+    description: 直径12光年的神秘时空中，蕴含着许多宇宙之主战力的存在和宝物。
+    attributes:
+      危险程度: 极高
+
+relationships:
+
+events:
+  - id: shouhu-zhiyao
+    type: Event
+    name: 收获之要
+    description: 罗峰本尊前往九幽时空，希望能得到世界树的枝叶。
+    timeline:
+      开始时间: 半天后
+      结束时间: 未定
+
+dialogues:
+
+timeline:
+  - "罗峰本尊在半天内抵达了九幽时空。"
+
+mysteries:
+  - "谁又能想到，这直径仅仅12光年的九幽时空，单单我们传承者知道的拥有宇宙之主战力的存在就有好几位。"
+```
+
+注意：以上为根据原文提炼出的主要信息，未做推理和评论。

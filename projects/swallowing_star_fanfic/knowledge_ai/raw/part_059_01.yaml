@@ -1,0 +1,72 @@
+```yaml
+source:
+  id: "罗峰传-第十五篇至十六篇"
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 初始宇宙界主，人类族群强者。
+    attributes:
+      实力: 封王极限（实际为界主）
+      特殊能力: 使用火神源晶、费摩毒液、弑吴羽翼等宝物，使用五倍灵魂振幅秘法《兽神吼》
+  - id: 刀河王
+    type: Character
+    name: 刀河王
+    aliases: []
+    description: 罗峰因击杀十四名封王并重伤血兽王获得的称号。
+    attributes:
+      实力: 封王极限（实际为界主）
+  - id: 血兽王
+    type: Character
+    name: 血兽王
+    aliases: []
+    description: 强大的异族封王，擅长使用火神源晶进行攻击。
+    attributes:
+      实力: 封王巅峰
+  - id: 真衍王
+    type: Character
+    name: 真衍王
+    aliases: []
+    description: 初始宇宙人类族群的领袖之一。
+    attributes:
+      实力: 宇宙尊者
+  - id: 混沌城主
+    type: Character
+    name: 混沌城主
+    aliases: []
+    description: 初级宇宙混沌城的主宰，人类族群最高领导者之一。
+    attributes:
+      实力: 不详（高于封王）
+
+relationships:
+  - 主角-罗峰与血兽王为敌对关系
+  - 罗峰与真衍王为师徒关系
+  - 混沌城主监督着包括真衍王在内的诸多人类族群领袖
+
+events:
+  - 名称: 刀河王成名战
+    时间线位置: 第十五篇结束
+    描述: 罗峰杀死十四名封王，重伤血兽王，并因此获得刀河王的称号。
+  - 名称: 混沌城主下达绝密命令
+    时间线位置: 刀河王成名战后
+    描述: 混沌城主要求真衍王不得将罗峰是刀河王的消息外传。
+
+dialogues:
+  - 对话人1: 血兽王
+    对话人2: 麾下生灵
+    内容: "你地由巴诺迩扶持我的家族管理。"
+  - 对话人1: 混沌城主
+    对话人2: 真衍王
+    内容: "罗峰是刀河王的消息，乃绝密，绝不可外传。"
+
+timeline:
+  - 时间点: 刀河王成名战结束
+    描述: 血兽王开始闭关修炼。
+  - 时间点: 混沌城主下达命令后
+    描述: 真衍王遵照混沌城主指示行事。
+
+mysteries:
+  - 罗峰为何能以界主之身达到封王极限的战力？
+```

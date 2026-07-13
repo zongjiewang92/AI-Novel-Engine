@@ -1,0 +1,78 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 主角，金角巨兽转世，实力强大。
+    attributes:
+      - 实力: 强大
+      - 性格: 冷静、暴躁（受到金角巨兽本性影响时）
+  - id: 洪
+    type: Character
+    name: 洪
+    aliases: []
+    description: 罗峰的大哥，雷神之兄。
+    attributes:
+      - 实力: 强大
+      - 性格: 关心弟弟
+  - id: 雷神
+    type: Character
+    name: 雷神
+    aliases: []
+    description: 罗峰的二哥，拥有强大实力和经验。
+    attributes:
+      - 实力: 强大
+      - 性格: 老练、冷静
+  - id: 敖骨
+    type: Character
+    name: 敖骨
+    aliases: []
+    description: 受伤严重的战士。
+    attributes:
+      - 状态: 重伤
+  - id: 布罗林
+    type: Character
+    name: 布罗林
+    aliases: []
+    description: 黑龙山星域的九皇子，势力强大。
+    attributes:
+      - 实力: 强大
+      - 性格: 残忍、心机深沉
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 兄弟关系
+    对象: 洪
+  - 主体: 罗峰
+    关系类型: 兄弟关系
+    对象: 雷神
+
+events:
+  - 名称: 界中界战斗
+    描述: 在界中界与布罗林的手下发生冲突，敖骨受伤。
+    时间线: 当前章节
+  - 名称: 摩云藤进化
+    描述: 使用生命果实帮助摩云藤进化。
+    时间线: 当前章节
+
+dialogues:
+  - 主体: 罗峰
+    对象: 雷神
+    内容: "大哥二哥，你们放心，我不会头脑发热的。"
+  - 主体: 雷神
+    对象: 罗峰
+    内容: "这仇我们不能忘，可得冷静！像当初我和你大哥经历大涅槃时代，当时，遭到怪兽的攻击，地球上无数城市被毁，很多人类死去。可是再仇恨再愤怒，也得忍着！"
+
+timeline:
+  - 时间点: 界中界战斗
+    描述: 在界中界与布罗林的手下发生冲突。
+  - 时间点: 摩云藤进化
+    描述: 使用生命果实帮助摩云藤进化。
+
+mysteries:
+  - 问题: 布罗林的下一步行动会是什么？
+```

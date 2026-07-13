@@ -1,0 +1,84 @@
+```yaml
+source:
+  id: 冰狱排名和强者信息
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 战胜了卡屠族生命、苍绛族生命，并击败噬魂兽，准备挑战冰狱中的五大巨头。
+    attributes:
+      实力: 封王巅峰
+      目标: 击败冰狱的五大巨头并走出冰狱
+
+  - id: 卡屠族生命
+    type: Character
+    name: 卡屠族生命
+    aliases: []
+    description: 被罗峰击败，排名732。
+    attributes:
+      实力: 封王巅峰
+      排名: 第732
+
+  - id: 苍绛族生命
+    type: Character
+    name: 苍绛族生命
+    aliases: []
+    description: 被罗峰击败，排名611。
+    attributes:
+      实力: 封王巅峰
+      排名: 第611
+
+  - id: 噬魂兽
+    type: Character
+    name: 噬魂兽
+    aliases: []
+    description: 因天赋秘法而排名较高，被罗峰击败。
+    attributes:
+      实力: 封王巅峰
+      排名: 第102
+
+  - id: 天狼
+    type: Character
+    name: 天狼
+    aliases: []
+    description: 妖族皇族之一，冰狱五大巨头之一，排名在前。
+    attributes:
+      种族: 狼妖
+      实力: 封王无敌
+
+  - id: 茨黯族生命
+    type: Character
+    name: 茨黯族生命
+    aliases: []
+    description: 冰狱五大巨头之一。
+    attributes:
+      种族: 特殊生命茨黯族
+      实力: 封王无敌
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 战胜
+    客体: 卡屠族生命、苍绛族生命、噬魂兽
+    描述: 罗峰击败了这三个封王巅峰的强者。
+
+events:
+  - 名称: 冰狱排名展示
+    时间线位置: 初入冰狱后不久
+    描述: 苍绛族生命给罗峰展示了整个冰狱中的强者的排名情况。
+    相关人物: 罗峰、苍绛族生命
+
+dialogues:
+  - 主体: 苍绛族生命
+    客体: 罗峰
+    对话内容: "你放我走？再不走，我可改变想法了。"
+    描述: 苍绛族生命劝告罗峰不要在冰狱中对其他强者有善心。
+
+timeline:
+  - 时间点: 初入冰狱后不久
+    事件描述: 罗峰与苍绛族生命交手，并获得冰块排名信息。
+  
+mysteries:
+  - 内容: 青兠寇尊者是否真放人，还是假放人？
+```

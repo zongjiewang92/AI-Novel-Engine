@@ -1,0 +1,105 @@
+```yaml
+source:
+  id: 第593章资格战（今天第一更）
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 虚拟宇宙公司核心成员，正在进行魔音神将传承修炼。
+    attributes:
+      实力: 百年一度虚拟宇宙资格战的竞争者
+      目标: 冲击原始秘境
+  - id: 将莫
+    type: Character
+    name: 将莫
+    aliases: []
+    description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+    attributes:
+      实力: 虚拟宇宙资格战的竞争者
+      目标: 避免被淘汰进天地秘境
+  - id: 千水
+    type: Character
+    name: 千水
+    aliases: []
+    description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+    attributes:
+      实力: 虚拟宇宙资格战的竞争者
+      目标: 避免被淘汰进天地秘境
+  - id: 戎钧
+    type: Character
+    name: 戎钧
+    aliases: []
+    description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+    attributes:
+      实力: 虚拟宇宙资格战的竞争者
+      目标: 避免被淘汰进天地秘境
+  - id: 兰斯洛
+    type: Character
+    name: 兰斯洛
+    aliases: []
+    description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+    attributes:
+      实力: 虚拟宇宙资格战的竞争者
+      目标: 避免被淘汰进天地秘境
+  - id: 奥帕特拉
+    type: Character
+    name: 奥帕特拉
+    aliases: []
+    description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+    attributes:
+      实力: 虚拟宇宙资格战的竞争者
+      目标: 避免被淘汰进天地秘境
+  - id: 艾辰
+    type: Character
+    name: 艾辰
+    aliases: []
+    description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+    attributes:
+      实力: 虚拟宇宙资格战的竞争者
+      目标: 避免被淘汰进天地秘境
+  - id: 乌卡
+    type: Character
+    name: 乌卡
+    aliases: []
+    description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+    attributes:
+      实力: 虚拟宇宙资格战的竞争者
+      目标: 避免被淘汰进天地秘境
+  - id: 洛夫鹨盘
+    type: Item
+    name: 洛夫鹨盘
+    aliases: []
+    description: 一种可变形状的奇异石盘，能融入罗峰体内。
+    attributes:
+      功能: 增强灵魂力量
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 同辈竞争者
+    对象: 将莫, 千水, 戎钧, 兰斯洛, 奥帕特拉, 艾辰, 乌卡
+
+events:
+  - 名称: 百年一度虚拟宇宙资格战
+    时间线: 罗峰在太初秘境中修炼期间举行
+    地点: 太初秘境
+    描述: 新进核心成员与资深成员之间的竞争，罗峰的目标是冲击原始秘境。
+
+dialogues:
+  - 主体: 乌卡, 将莫
+    对象: 罗峰
+    内容: "罗峰！今天可是资格战举行的日子。估计等会儿就会召集大家了，你竟然还慢吞吞的一直不出现……"
+  - 主体: 艾辰
+    对象: 其他竞争者
+    内容: "我们八人中最没有压力的恐怕就是罗峰了，就罗峰，绝对不可能被淘汰进天地秘境。"
+
+timeline:
+  - 时间点: 罗峰开始修炼魔音神将传承秘法
+    描述: 罗峰在太初秘境中接受魔音神将传承。
+  - 时间点: 资格战即将举行
+    描述: 新进核心成员与资深成员之间的竞争正式开启。
+
+mysteries:
+  - 内容: 罗峰进入魔音山的核心——传承之地的具体方式和过程并未详细说明。
+```

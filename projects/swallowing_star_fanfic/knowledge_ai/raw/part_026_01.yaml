@@ -1,0 +1,96 @@
+```yaml
+source:
+  id: qidian_com_375
+
+entities:
+  - id: LuoFeng
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      在虚拟宇宙中获得成就，回到地球后与家人团聚，并决定帮助五大强国进行宇宙移民。
+    attributes:
+      - 实力: 行星级
+  - id: Hong
+    type: Character
+    name: 洪
+    aliases: [雷神]
+    description: >
+      罗峰的朋友，一同参与宇宙移民的讨论会议。
+    attributes:
+      - 实力: 行星级
+  - id: LeiShen
+    type: Character
+    name: 雷神
+    aliases: []
+    description: >
+      罗峰的朋友，一同参与宇宙移民的讨论会议。
+    attributes:
+      - 实力: 行星级
+  - id: Xuxin
+    type: Character
+    name: 徐欣
+    aliases: []
+    description: 罗峰的妻子。
+    attributes: []
+  - id: WuJiang
+    type: Organization
+    name: 卫城扬州城
+    aliases: [扬州城]
+    description: 地球上的一个城市，罗峰的家人居住在此地。
+  - id: WuchangCity
+    type: Location
+    name: 卫城
+    aliases: []
+    description: >
+      罗峰一家所在的地球城市。罗峰降临时会先到此城降落。
+  - id: FiveMajorPowers
+    type: Organization
+    name: 地球五大强国
+    aliases: [五大强国]
+    description: 包括美利坚、欧盟国等五个国家，希望进行宇宙移民以应对未来的威胁。
+  - id: JinguJure
+    type: Species
+    name: 吞噬兽
+    aliases: []
+    description: >
+      实际上是金角巨兽的别名。罗峰需要保密的信息之一。
+  - id: JinjiaoJuere
+    type: Species
+    name: 金角巨兽
+    aliases: [吞噬兽]
+    description: 罗峰需要保密的重要信息。
+
+relationships:
+  - id: LuoFeng_and_Xuxin
+    type: Relationship
+    description: >
+      罗峰和徐欣是夫妻关系。
+  - id: LuoFeng_and_FiveMajorPowers
+    type: Relationship
+    description: >
+      罗峰与地球五大强国在宇宙移民问题上达成合作意向。
+
+events:
+  - id: LuoFeng_ReturnsToEarth
+    type: Event
+    description: "罗峰从虚拟宇宙回到地球，和家人团聚。"
+    timeline: 2063年11月16号深夜
+
+dialogues:
+  - speaker: 洪
+    dialogue: >
+      别骂，没意义。
+  - speaker: 徐欣
+    dialogue: >
+      回来也不换换衣服。
+
+timeline:
+  - event_id: LuoFeng_ReturnsToEarth
+    timestamp: 2063-11-16 22:08
+
+mysteries:
+  - id: SecrecyOfJinguJuereInformation
+    description: >
+      罗峰不允许移民带任何关于金角巨兽的照片或视频到宇宙中，以防信息泄露。
+```

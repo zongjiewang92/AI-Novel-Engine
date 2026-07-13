@@ -1,0 +1,95 @@
+```yaml
+source:
+  id: 第1085章-第1086章
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有完美的生命基因层次，修炼《九劫秘典》的宇宙强者。
+    attributes:
+      实力: 宇宙级强者
+      年龄: 未知
+      性格: 聪明机智
+      能力: 精通《九劫秘典》，拥有天赋秘法“我为宇宙”
+      关系: 与兽神界、始祖有关系
+
+  - id: 金角巨兽
+    type: Character
+    name: 金角巨兽
+    aliases: []
+    description: 罗峰的分身，生命基因层次达到了完美极限。
+    attributes:
+      实力: 宇宙级强者
+      年龄: 未知
+      性格: 沉默寡言
+      能力: 生命基因达到完美极限，修炼《九劫秘典》
+      关系: 罗峰的分身
+
+locations:
+  - id: 兽神界
+    type: Location
+    name: 兽神界
+    description: 宇宙兽族圣地，充满各种秘法和绝学。
+    attributes:
+      地理位置: 另一个宇宙中
+      特殊性: 是修炼《九劫秘典》的绝佳之地
+
+abilities:
+  - id: 我为宇宙
+    type: Ability
+    name: 我为宇宙
+    description: 宇宙之主级别的究极绝学，具有强大的威能。
+    attributes:
+      需求: 完美生命基因层次，庞大神体能量
+      效果: 能够击败宇宙级强者
+
+cultivations:
+  - id: 生命基因层次
+    type: Cultivation
+    name: 生命基因层次
+    description: 修炼《九劫秘典》达到的境界。
+    attributes:
+      突破条件: 持续修炼，融合血洛晶等特殊材料
+
+items:
+  - id: 血洛晶
+    type: Item
+    name: 血洛晶
+    description: 融合生命基因层次的特殊材料。
+    attributes:
+      功能: 提升生命基因层次，增强神体能量
+
+events:
+  - id: 生命基因达到完美极限
+    type: Event
+    name: 生命基因达到完美极限
+    description: 金角巨兽在兽神界修炼《九劫秘典》，达到了生命基因的最高境界。
+    attributes:
+      时间: 进入兽神界的第62年
+
+dialogues:
+  - id: 罗峰与自己对话
+    type: Dialogue
+    name: 罗峰与自己对话
+    description: 罗峰在等待金角巨兽分身生命基因达到完美极限后的变化。
+    attributes:
+      内容: "难道，难道——"
+      人物关系: 自我思考
+
+mysteries:
+  - id: 宇宙差异影响进化
+    type: Mystery
+    name: 宇宙差异影响进化
+    description: 在不同的宇宙中达到生命基因的完美极限后没有发生预期的变化。
+    attributes:
+      解释: 可能是由于不同的宇宙规则不同，导致了这一现象。
+
+timeline:
+  - id: 第62年
+    type: Timeline
+    name: 第62年
+    description: 罗峰分身金角巨兽在兽神界修炼《九劫秘典》，达到生命基因完美极限的时间。
+```
+以上是根据文档内容提取出的YAML格式数据。

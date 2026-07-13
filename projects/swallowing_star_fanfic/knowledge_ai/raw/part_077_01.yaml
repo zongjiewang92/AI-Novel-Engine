@@ -1,0 +1,95 @@
+```yaml
+source:
+  id: 罗峰与戎钧关系及银河系改造
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有天赋分身之能，成为宇宙之主。
+    attributes:
+      实力: 宇宙之主
+      能力: 幽海分身
+
+  - id: 戎钧
+    type: Character
+    name: 戎钧
+    aliases: []
+    description: 当初被宇宙国主收为弟子，与罗峰同期。
+    attributes:
+      实力: 宇宙之主
+      能力: 未知
+
+  - id: 巨斧创始者
+    type: Character
+    name: 巨斧创始者
+    aliases: []
+    description: 人类族群创始人之一。
+    attributes:
+      实力: 强大宇宙之主或更高级别
+      关系: 罗峰的族长
+
+  - id: 混沌城主
+    type: Character
+    name: 混沌城主
+    aliases: []
+    description: 宇宙之主。
+    attributes:
+      实力: 宇宙之主
+
+  - id: 荒鉴之主
+    type: Character
+    name: 荒鉴之主
+    aliases: [三根尖角鳞甲巨人]
+    description: 宇宙之主，支持付出等价物品。
+    attributes:
+      实力: 宇宙之主
+
+  - id: 银河系
+    type: Location
+    name: 银河系
+    aliases: []
+    description: 罗峰的家乡星系。
+
+  - id: 虚拟宇宙公司
+    type: Organization
+    name: 虚拟宇宙公司
+    aliases: []
+    description: 拥有巨额财产，曾出资购买地球一半所有权。
+    attributes:
+      关系: 属于人类族群
+
+relationships:
+  - 主体: 罗峰
+    对象: 巨斧创始者
+    类型: 老师/族长关系
+  - 主体: 罗峰
+    对象: 银河系
+    类型: 家乡星系
+
+events:
+  - 名称: 银河北建设
+    时间线: 当前
+    描述: 需要改造银河系，使其更加稳固。
+    
+dialogues:
+  - 主体: 巨斧创始者
+    对象: 罗峰
+    内容: "罗峰，你有什么要求？"
+  - 主体: 混沌城主
+    对象: 荒鉴之主等
+    内容: "既然免费赠与已经给过，银河领主就不能再免费得到什么。地球一半所有权乃是族群的，银河领主既然想要得到，就该付出约莫等价的物品！"
+  - 主体: 罗峰
+    对象: 混沌城主
+    内容: "是，老师，弟子愿出这500亿混元单位。"
+
+timeline:
+  - 时间点: 当前
+    描述: 银河北建设请求被提出。
+
+mysteries:
+  - 未知信息: 戎钧是否与巨斧创始者同源或有特殊关系。
+```
+
+此YAML文件仅包含原文中明确出现的信息，且没有推测、总结剧情或写评论。

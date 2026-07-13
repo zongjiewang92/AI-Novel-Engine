@@ -1,0 +1,44 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 主角，体内世界孕育分身，想要成为兽神之道的修炼者。
+    attributes:
+      实力: 界主级
+      目标: 获得界主级的世界树作为第三分身
+
+  - id: 九幽时空
+    type: Location
+    name: 九幽时空
+    aliases: []
+    description: 存在九棵世界树的地方，祖神秘境中最危险的地点之一。
+    attributes:
+      危险度: 非常高
+      特殊性: 包含宇宙之主战力的存在
+
+relationships:
+
+events:
+  - id: 罗峰决定第三分身目标
+    type: Event
+    name: 决定世界树作为第三分身
+    description: 罗峰基于世界树的天赋能力和优势，决定将界主级的世界树作为自己的第三分身。
+    timeline:
+      时间: 未指定时间
+      顺序: 在确定目标之前
+
+dialogues:
+
+timeline:
+
+mysteries:
+  - id: 九幽时空的秘密
+    type: Mystery
+    name: 九幽时空的秘密
+    description: 关于九棵世界树所在的地方，九幽时空的更多信息尚未揭露。
+```

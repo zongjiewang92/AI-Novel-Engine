@@ -1,0 +1,70 @@
+```yaml
+source:
+  id: original_star_story
+
+entities:
+  - id: universe_overlord
+    type: character
+    name: 宇宙之主
+    aliases: []
+    description: 能够掌控一方时空，实力强大到足以压制宇宙霸主。
+    attributes:
+      strength: 极强
+      ability: 掌控时空, 逆转时空观看过去
+
+  - id: invincible_overlord
+    type: character
+    name: 震魔之主
+    aliases: []
+    description: 北疆联盟的宇宙之主，拥有强大的威能。
+    attributes:
+      strength: 极强
+      ability: 远程神力凝聚攻击, 控制时空
+
+  - id: golden_horn_monster
+    type: character
+    name: 金角巨兽
+    aliases: []
+    description: 星空巨兽联盟的成员，拥有强大的防御能力。
+    attributes:
+      strength: 中等偏上
+      ability: 灼烧神力, 分身之术
+
+relationships:
+
+events:
+  - id: universe_overlord_arrival
+    type: event
+    name: 宇宙之主降临原始星
+    description: 宇宙之主降临原始星，掌控时空。
+    timeline: 第一段
+
+  - id: golden_horn_monster_encounter
+    type: event
+    name: 震魔之主与金角巨兽相遇
+    description: 震魔之主控制时空压迫金角巨兽，要求其交出剑河罗部件。
+    timeline: 第二段
+
+dialogues:
+  - speaker: golden_horn_monster
+    content: "杀啊，有本事杀了我啊，哈哈哈……"
+    context: 金角巨兽面对震魔之主的压迫时的回应。
+
+  - speaker: invincible_overlord
+    content: "你的至宝战铠呢？你曾经遭到八名宇宙高等尊者合击，甚至其中之一有至宝进行攻击。你都丝毫无损！怎么我仅仅操控时空就能伤你？"
+    context: 震魔之主质问金角巨兽为何其防御不如从前。
+
+  - speaker: golden_horn_monster
+    content: "原始星上宝物出世，我也凭运气和实力得到宝物。宇宙之主高高在上，地位尊崇。为何要凭借这等手段来夺我宝物？"
+    context: 金角巨兽对震魔之主的质问。
+
+timeline:
+  - 第一段
+  - 第二段
+
+mysteries:
+  - id: missing_artifact
+    type: mystery
+    name: 消失的剑河罗部件
+    description: 剑河罗部件具体下落不明，金角巨兽是否藏匿其中？
+```

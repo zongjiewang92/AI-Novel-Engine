@@ -1,0 +1,52 @@
+```yaml
+source:
+  id: qidian
+
+entities:
+  - id: luofeng
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 行星级一阶精神念师，拥有超凡的武器碎片。
+    attributes:
+      - 实力: 行星级一阶精神念师
+      - 能力: 念力操控
+
+  - id: xingshangzhizhi
+    type: Item
+    name: 黑神套装
+    aliases: []
+    description: 极为坚韧的防御装备，以其惊人的防护能力著称。
+    attributes:
+      - 防御等级: SS级
+
+  - id: doupengduilianpujian
+    type: Item
+    name: 血红色刀锋碎片
+    aliases: [刀锋残片]
+    description: 来自古老遗迹的未知武器碎片，能够轻易切割SS级材质。
+    attributes:
+      - 威力: 强大到可以威胁洪、雷神级别的存在
+      - 速度: 明显超过十倍音速
+
+relationships:
+
+events:
+  - id: luofeng-discovery
+    type: Event
+    name: 罗峰发现血红色刀锋碎片
+    description: 在探索遗迹过程中，罗峰意外发现了这把非凡的武器碎片。
+    timeline: []
+
+dialogues:
+
+timeline:
+  - date: 发现血红色刀锋碎片的时间点
+    event: luofeng-discovery
+
+mysteries:
+  - id: doupengduilianpujian-origin
+    type: Mystery
+    description: 血红色刀锋碎片的真正来源和历史背景仍然未知。
+```
+重要，重要，重要。仅输出YAML数据，请勿添加其他内容或解释。

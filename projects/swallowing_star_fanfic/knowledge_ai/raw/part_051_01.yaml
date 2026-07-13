@@ -1,0 +1,96 @@
+```yaml
+source:
+  id: 文本来源
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 混沌城主记名弟子，正在修炼《衍神七变》。
+    attributes:
+      实力: 不详
+      性格: 苦修且进步极快
+
+  - id: 魇烛王
+    type: Character
+    name: 魇烛王
+    aliases: []
+    description: 星域牢狱中的囚犯，父亲是蚀火尊者。
+    attributes:
+      实力: 不详
+      性格: 疯狂且歇斯底里
+
+  - id: 蚀火尊者
+    type: Character
+    name: 蚀火尊者
+    aliases: []
+    description: 魂烛王的父亲。
+    attributes:
+      实力: 不详
+      性格: 权利心重且善解人意
+
+  - id: 巨斧斗武场
+    type: Location
+    name: 巨斧斗武场
+    aliases: []
+    description: 虚拟宇宙中的一个场所。
+    attributes:
+      
+  - id: 第九星域牢狱
+    type: Location
+    name: 第九星域牢狱
+    aliases: []
+    description: 关押犯大错者的囚禁之地，极其可怕。
+
+  - id: 混沌城主
+    type: Character
+    name: 混沌城主
+    aliases: []
+    description: 虚拟宇宙中的统治者。
+    attributes:
+      实力: 不详
+
+  - id: 金斧尊者
+    type: Character
+    name: 金斧尊者
+    aliases: [六条手臂、六只眼的金斧尊者]
+    description: 混沌城主的手下，负责教导罗峰。
+    attributes:
+      实力: 不详
+
+relationships:
+  - id: 罗峰与魇烛王的关系
+    type: 对立关系
+    description: 魂烛王因罗峰被惩罚关押，而罗峰则成为混沌城主的弟子。
+
+  - id: 罗峰与金斧尊者的关系
+    type: 师徒关系
+    description: 金斧尊者教导罗峰修炼《衍神七变》。
+
+  - id: 魂烛王与其父亲蚀火尊者的关系
+    type: 家庭关系
+    description: 蚀火尊者为魂烛王在虚拟宇宙中争取到特殊待遇，每100年可进入一个月的虚拟宇宙时间。
+
+events:
+  - id: 罗峰修炼进展迅速
+    type: ProgressionEvent
+    description: 罗峰的进步速度极快，没有一个难关能阻挠他超过三个月。
+    
+  - id: 魂烛王在第九星域牢狱被关押
+    type: ImprisonmentEvent
+    description: 因某些原因，魂烛王被罚入第九星域牢狱1000纪元。
+
+dialogues:
+  - speaker: 金斧尊者
+    listener: 混沌城主
+    dialogue: "弟子每10年一次去指点罗峰，却发现这罗峰颇有古怪。"
+    
+timeline:
+  - event_id: 罗峰修炼进展迅速
+    time: 不详
+
+mysteries:
+  - id: 魂烛王的具体行为动机
+    description: 魂烛王为何如此疯狂地对待自己手下？
+```

@@ -1,0 +1,143 @@
+```yaml
+source:
+  id: origin_text
+
+entities:
+  - id: yuchunyang
+    type: character
+    name: 余春阳
+    aliases: []
+    description: 燕岗城纳家护卫队成员，与弟弟一起寻找纳可少爷。
+    attributes:
+      identity: 护卫队成员
+      personality: 关心纳可少爷的安危
+
+  - id: yuxiang
+    type: character
+    name: 余想
+    aliases: []
+    description: 燕岗城纳家护卫队成员，与哥哥一起寻找纳可少爷。
+    attributes:
+      identity: 护卫队成员
+      personality: 比较谨慎，关心兄弟利益
+
+  - id: shiyong
+    type: character
+    name: 司雍
+    aliases: []
+    description: 燕岗城的世界主，负责统治燕岗领。
+    attributes:
+      identity: 世界主
+      power_level: 领域级
+
+  - id: mo_teshi
+    type: character
+    name: 莫特使
+    aliases: [神殿使者]
+    description: 神殿派来调查燕岗城事件的使者。
+    attributes:
+      identity: 神殿使者
+      power_level: 领域级
+
+  - id: nanbu
+    type: character
+    name: 纳布
+    aliases: [纳家家主]
+    description: 燕岗城纳家的家主，儿子失踪后急于寻找。
+    attributes:
+      identity: 家主
+      relationship: 父亲（纳可）
+
+  - id: leishe
+    type: character
+    name: 雷叔
+    aliases: [雷冬]
+    description: 纳家的护卫，负责保护纳布和寻找纳可。
+    attributes:
+      identity: 护卫
+
+locations:
+  - id: yanggan_city
+    type: location
+    name: 燕岗城
+    description: 燕岗领的主要城市之一，拥有繁华的街道和众多居民。
+
+organizations:
+  - id: shiyong_palace
+    type: organization
+    name: 城主府
+    aliases: [宫殿]
+    description: 燕岗城世界主司雍居住的地方，也是权力中心。
+    attributes:
+      control_level: 领域级
+
+  - id: nanjia_family
+    type: organization
+    name: 纳家
+    aliases: []
+    description: 燕岗城的一个大家族，纳布是家主。
+
+abilities:
+  - id: space_source_rule
+    type: ability
+    name: 空间本源法则
+    description: 掌握空间法则的特殊能力。
+    attributes:
+      power_level: 领域级
+
+items:
+  - id: shield_and_warrior_sword
+    type: item
+    name: 盾牌和战刀
+    aliases: []
+    description: 图纸中显示，用于悬赏寻找凶手峰使用的装备。
+
+events:
+  - id: yuchunyang_searching_for_nako
+    type: event
+    name: 余春阳寻找纳可少爷
+    description: 余春阳与弟弟一起在燕岗城内寻找失踪的纳可少爷。
+    timeline:
+      start_time: 刚从赌坊出来
+
+  - id: mo_teshi_investigation
+    type: event
+    name: 莫特使调查事件
+    description: 神殿使者莫特使发送视频，指认黑甲武者为凶手峰。
+    timeline:
+      start_time: 同时进行
+
+  - id: nanbu_concerned_about_nako
+    type: event
+    name: 纳布担心纳可少爷失踪
+    description: 纳布因儿子纳可的失踪而焦急万分，动员所有力量寻找。
+    timeline:
+      start_time: 发现纳可失踪后
+
+dialogues:
+  - id: yuchunyang_conversation_with_yuxiang
+    type: dialogue
+    participants:
+      - yuchunyang
+      - yuxiang
+    content: "手气真烂，又输了。"哥，哥。怎么这么高兴？纳可少爷找到了吗？
+    context: 余春阳与弟弟讨论纳可少爷的去向。
+
+relationships:
+  - id: brother_relationship
+    type: relationship
+    participants:
+      - yuchunyang
+      - yuxiang
+    description: 兄弟关系，互相帮助寻找纳可少爷。
+    timeline:
+      start_time: 小说开始时
+
+mysteries:
+  - id: identity_of_feng
+    type: mystery
+    name: 峰的真实身份
+    description: 被悬赏的峰是否与黑甲武者是同一个人，以及他为何要杀死十三斧。
+```
+
+请根据实际需要调整或添加。

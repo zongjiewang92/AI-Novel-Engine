@@ -1,0 +1,79 @@
+```yaml
+source:
+  id: 第551章原始剑之世界
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 编号80389081号星辰碎片的老巢主人，宇宙级九阶强者。
+    attributes:
+      实力: 宇宙级九阶
+      身份: 天蚀宫主座下弟子、太初秘境成员
+
+  - id: 奥多
+    type: Character
+    name: 奥多
+    aliases: []
+    description: 罗峰的老巢护卫首领，秃顶老者。
+    attributes:
+      实力: 宇宙级战士
+      身份: 护卫首领
+
+  - id: 天蚀宫主
+    type: Character
+    name: 天蚀宫主
+    aliases: []
+    description: 天蚀宫的主人，强大的不朽存在。
+    attributes:
+      实力: 不朽（强大）
+      身份: 天蚀宫宫主
+
+  - id: 宇宙飞船
+    type: Item
+    name: F级宇宙飞船
+    aliases: []
+    description: 梭状的F级宇宙飞船，用于将罗峰从天蚀宫送回其老巢。
+    attributes:
+      级别: F级
+
+locations:
+  - id: 编号80389081号星辰碎片
+    type: Location
+    name: 编号80389081号星辰碎片
+    aliases: []
+    description: 罗峰的老巢，悬浮在虚空中的一片星辰陆地。
+    attributes:
+      直径: 6200公里
+
+relationships:
+  - id: 罗峰与奥多
+    type: Relationship
+    name: 主仆关系
+    description: 奥多是罗峰的护卫首领，忠心耿耿。
+
+events:
+  - id: 天蚀宫归来
+    type: Event
+    name: 罗峰从天蚀宫返回老巢
+    description: 罗峰乘坐F级宇宙飞船返回自己的星辰碎片老巢。
+    timeline:
+      时间点: 某日
+
+dialogues:
+  - id: 奥多迎接罗峰
+    type: Dialogue
+    name: 宇宙飞船降落时的对话
+    content:
+      奥多: "将军，有飞船！"
+      护卫们: "有飞船过来了。"
+      奥多: "天蚀宫的标志？竟然是F级宇宙飞船，跟我来！"
+
+  - id: 不朽到来
+    type: Dialogue
+    name: 魁梧壮汉对奥多一行人的指示
+    content:
+      魁梧壮汉: "罗峰正在参悟，关键时刻不能影响他。"
+      奥多: "是。"
+```

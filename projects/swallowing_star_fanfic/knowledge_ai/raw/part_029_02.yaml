@@ -1,0 +1,111 @@
+```yaml
+source:
+  id: 第425章三年后的‘疯子’
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      虚拟宇宙乾巫大陆的天才，能够排在前十。已经跨入法则门槛。
+    attributes:
+      实力: 法则级
+      性格: 冷静、理智
+
+  - id: 小恶魔巴巴塔
+    type: Character
+    name: 巴巴塔
+    aliases: []
+    description: >
+      罗峰的指导者，负责训练罗峰。
+    attributes:
+      实力: 宇宙级（智慧生物）
+      性格: 严厉、直接
+
+  - id: 黄金色战甲男子
+    type: Character
+    name: 刀锋神侯
+    aliases: []
+    description: >
+      虚拟宇宙中的一位高层，对罗峰有高度评价。
+    attributes:
+      实力: 宇宙级
+      性格: 理性、严格
+
+  - id: 白袍老者
+    type: Character
+    name: 白袍老者
+    aliases: []
+    description: >
+      虚拟宇宙中的一位高层，负责推荐罗峰。
+    attributes:
+      实力: 宇宙级
+      性格: 温和、严谨
+
+  - id: 深灰色战衣少年
+    type: Character
+    name: 矮小青年
+    aliases: []
+    description: >
+      轮回战中的对手，实力强大。
+    attributes:
+      实力: 法则级
+      性格: 果断、勇猛
+
+organizations:
+  - id: 虚拟宇宙乾巫大陆
+    type: Location
+    name: 虚拟宇宙乾巫大陆
+    description: >
+      宇宙虚拟世界，其中举行轮回战。
+    attributes:
+      地理位置: 浮空岛上的高大建筑内
+
+items:
+  - id: 暗云梭
+    type: Item
+    name: 暗云梭
+    aliases: []
+    description: >
+      罗峰使用的五阶念力兵器，最适合金、空间本源法则。
+    attributes:
+      功能: 提升使用者的灵活性
+
+events:
+  - id: 轮回战最后一天对决
+    type: Event
+    name: 轮回战最后一天对决
+    description: >
+      罗峰在轮回战中进行的一场战斗，最终击败矮小青年。
+    attributes:
+      时间: 华夏历2069年3月2号
+
+dialogues:
+  - speaker: 小恶魔巴巴塔
+    listener: 罗峰
+    content: >
+      "你的选择很明智！"
+    context: 指导罗峰选择飞行念力兵器，强调长远规划的重要性。
+
+  - speaker: 黄金色战甲男子
+    listener: 白袍老者
+    content: >
+      "这个小家伙有资格冲刺宇宙总排名前1000？"
+    context: 对罗峰的实力进行评价。
+    
+timeline:
+  - event: 罗峰选择暗云梭作为念力兵器
+    date: 2066年7月30号
+
+  - event: 轮回战开始
+    date: 2066年7月30号
+
+  - event: 轮回战最后一天对决
+    date: 华夏历2069年3月2号
+
+mysteries:
+  - id: 究竟罗峰的实力能排到宇宙总排名多少位？
+    description: >
+      白袍老者提到罗峰有资格冲刺前1000，但具体排名未知。
+```

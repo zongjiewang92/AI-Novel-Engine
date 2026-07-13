@@ -1,0 +1,66 @@
+```yaml
+source:
+  id: 罗峰秘纹图修炼
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 研究金之兽神八大秘纹图，无意中领悟兽神之心。
+    attributes:
+      实力: 宇宙尊者级
+      年龄: 无数纪元
+      天赋: 数千年达到封王巅峰，数万年创造三式究极秘法
+
+  - id: 始祖
+    type: Character
+    name: 始祖
+    aliases: []
+    description: 兽神界的始祖，见证罗峰修炼过程。
+    attributes:
+      实力: 宇宙之主级
+
+  - id: 金之兽神雕像
+    type: Location
+    name: 金之兽神雕像
+    aliases: []
+    description: 罗峰研究秘纹图的地方。
+
+  - id: 兽神界最高山峰
+    type: Location
+    name: 兽神界最高山峰
+    aliases: []
+    description: 始祖俯瞰罗峰修炼之地。
+    
+  - id: 秘纹图流派
+    type: Cultivation
+    name: 秘纹图流派
+    aliases: []
+    description: 研究秘纹图的流派，能够创造出宇宙尊者级的秘法。
+
+relationships:
+  - entity1_id: 罗峰
+    entity2_id: 始祖
+    type: 观察
+
+events:
+  - id: 领悟兽神之心
+    name: 领悟兽神之心
+    description: 罗峰在秘纹图修炼中无意间领悟了兽神之心。
+    timeline: 第1089章
+
+dialogues:
+  - speaker_id: 始祖
+    listener_ids: []
+    content: "难道这都能领悟兽神之心？"
+    context: 观察罗峰的修炼进展。
+
+timeline:
+  - event_id: 领悟兽神之心
+    time: 第1089章
+
+mysteries:
+  - id: 秘纹图流派的极限
+    description: 罗峰在秘纹图流派上的造诣已经超越了法则感悟，未来可能达到何种境界。
+```

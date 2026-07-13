@@ -1,0 +1,75 @@
+```yaml
+source:
+  id: 晋之世界片段
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 游历者，寻找超脱轮回的机遇。
+    attributes:
+      实力: 宇宙之主
+      性格: 好战且好奇心强
+  - id: 横行魔神
+    type: Character
+    name: 横行魔神
+    aliases: []
+    description: 进入晋之世界的外来者，试图学会土著语言。
+    attributes:
+      实力: 真神
+      性格: 好奇且好战
+  - id: 干野
+    type: Character
+    name: 干野
+    aliases: []
+    description: 干野部落的族长，超越真神的存在。
+    attributes:
+      实力: 超越真神
+      性格: 强大且令人敬畏
+  - id: 北风
+    type: Character
+    name: 北风
+    aliases: []
+    description: 干野部落的战士，天赋异禀。
+    attributes:
+      实力: 法则尊者（接近真神）
+      性格: 坚韧不拔且好战
+
+organizations:
+  - id: 晋之世界的军队
+    type: Organization
+    name: 军队
+    description: 整个晋之世界中最强的战士聚集地，为伟大的神王陛下服务。
+    attributes:
+      规模: 极大
+      目标: 培养超级强者
+
+locations:
+  - id: 干野部落
+    type: Location
+    name: 干野部落
+    description: 晋之世界中一个强大的部落，地位稳固。
+    attributes:
+      部众数量: 大量
+      地理位置: 内陆山区
+
+dialogues:
+  - speaker: 罗峰
+    listener: 北风
+    content: "我要离开了。"
+    context: 离开干野部落前的对话。
+  - speaker: 北风
+    listener: 罗峰
+    content: "你要继续游历吗？"
+    context: 离开干野部落时询问罗峰未来的计划。
+
+timeline:
+  days: 6
+
+mysteries:
+  - question: 横行魔神学会的晋之世界土著语言如何影响它在该世界的行动？
+    answer: 待解决
+  - question: 干野族长的实际实力和超脱轮回的可能性？
+    answer: 待解决
+```

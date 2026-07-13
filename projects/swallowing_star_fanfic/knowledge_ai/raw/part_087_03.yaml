@@ -1,0 +1,99 @@
+```yaml
+source:
+  id: rofensecret
+
+entities:
+  - id: yu_duan_zhuang_wen_hui
+    type: Event
+    name: 中立势力会面商议对策
+    description: 妖族、虫族、机械族、狱族、晶族的宇宙最强者以及北疆联盟代表聚会在血牙星，讨论未来战争策略及立场。
+    attributes:
+      - location: 血牙星
+      - participants:
+        - 梦妖祖
+        - 震妖祖
+        - 虫族女皇
+        - 机械族父神
+        - 狱族魔祖
+        - 晶族圣主
+        - 星河之主
+        - 黑莲之主
+        - 戆岚星主
+
+  - id: rofensecret_dragonlord
+    type: Character
+    name: 银河领主
+    description: 控制星辰塔，囚禁屈闇之主。
+    attributes:
+      - power_level: 强大宇宙之主
+      - status: 承诺放行异族条件
+
+  - id: qu_an_zhi_zhu
+    type: Character
+    name: 屈闇之主
+    description: 被银河领主囚禁于星辰塔，等待其族群屈闇之主投诚。
+    attributes:
+      - status: 囚禁中
+
+  - id: zhongjian_shili_wendu
+    type: Event
+    name: 中立势力对人类威胁的反应升级
+    description: 三族联军战败后，其他敌对势力开始更重视并全力打击人类阵营。
+    attributes:
+      - consequence: 威胁上升到新高度
+
+  - id: yu_duan_lianjun_zhengbiao
+    type: Event
+    name: 三族联军预演失败
+    description: 包括妖族、虫族、机械族的联盟在与人类的初步交锋中失利。
+    attributes:
+      - outcome: 战败
+
+organizations:
+  - id: yu_duan_lianjun
+    type: Organization
+    name: 三族联军
+    description: 包括妖族、虫族和机械族的联盟，针对人类阵营展开战斗。
+
+locations:
+  - id: xueya_xing
+    type: Location
+    name: 血牙星
+    description: 妖族疆域的一颗生命星球，现为六大势力高层商谈场所。
+    attributes:
+      - importance: 中立联盟重要会面地点
+
+cultivations:
+  - id: wuzuojunzhu
+    type: Cultivation
+    name: 宇宙之主
+    description: 高等宇宙生命体的最高层次之一。
+
+items:
+  - id: xingchen_tashuo_yinli
+    type: Item
+    name: 星辰塔阴影
+    description: 关押屈闇之主的地方，银河领主掌控中。
+    attributes:
+      - location: 血牙星附近
+
+dialogues:
+  - conversation:
+      speaker1: 机械族父神
+      speaker2: 梦妖祖等其他五位宇宙最强者和三位宇宙之主
+      content: "传承重在修炼经验指引，人类族群将来会诞生更多宇宙最强者。"
+    context: 中立势力商议人类威胁
+
+timeline:
+  - event: yu_duan_lianjun_zhengbiao
+    time: 罗峰自断东河一脉传承之后不久
+  - event: zhongjian_shili_wendu
+    time: 三族联军预演失败后
+  - event: yu_duan_zhuang_wen_hui
+    time: 预演失败后不久
+
+mysteries:
+  - id: qu_an_zhi_zhu_fushi
+    type: Mystery
+    description: 屈闇之主何时能够得到释放，取决于其族群的反应。
+```

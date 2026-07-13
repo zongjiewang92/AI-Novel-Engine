@@ -1,0 +1,56 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 黑衣罗峰
+    type: Character
+    name: 罗峰
+    aliases: [地球人本尊]
+    description: 身穿黑衣的神秘人物，擅长使用分身技巧与空间暗杀流。
+    attributes:
+      实力: 强大
+      性格: 冷静
+  - id: 金角巨兽
+    type: Species
+    name: 金角巨兽
+    aliases: []
+    description: 高大的生物，拥有利爪和强大的力量。通过融合血洛晶获得更加强大的能力。
+    attributes:
+      实力: 强大
+      能力: 物质构成变化、对宇宙本源法则的感应增强
+
+relationships:
+  - id: 黑衣罗峰与金角巨兽
+    type: 关系
+    description: 罗峰通过操控金角巨兽，利用其强大的力量和能力进行战斗。
+    
+items:
+  - id: 血洛晶
+    type: Item
+    name: 血洛晶
+    attributes:
+      功能: 提升融合者的宇宙法则感知、增强战斗力、改变物质构成
+
+events:
+  - id: 金角巨兽融合血洛晶
+    type: Event
+    description: 金角巨兽通过不断融合血洛晶获得强大的力量和能力。融合十颗血洛晶后，其右蹄爪的力量可以媲美之前全身的力量。
+
+dialogues:
+  - speaker: 罗峰
+    content: "真不知道，这血洛晶到底是怎么产生的。"
+  - speaker: 黑衣罗峰
+    content: "幸好我这血洛晶足够的多，那神殿特使供应给我十颗血洛晶，否则金角巨兽还没办法融合十颗血洛晶。"
+
+timeline:
+  - 时间点1: 开始融合血洛晶的时刻
+    描述: 黑衣罗峰开始操控金角巨兽进行血洛晶融合。
+  - 时间点2: 融合十颗血洛晶后的变化
+    描述: 金角巨兽在完成十颗血洛晶融合后，右蹄爪的力量和能力显著增强。
+
+mysteries:
+  - id: 血洛晶的来源
+    type: Mystery
+    description: 文中提到黑衣罗峰不知道血洛晶是如何产生的。
+```

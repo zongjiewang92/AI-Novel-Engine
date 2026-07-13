@@ -1,0 +1,101 @@
+```yaml
+source:
+  id: "原文"
+
+entities:
+  - id: "断东河"
+    type: Character
+    name: 断东河
+    aliases: []
+    description: 第一轮回时代的宇宙之主，性格冰冷。拥有能够筛选继承者的神秘魔方仪器。
+    attributes:
+      实力: 强大
+      性格: 冷漠
+
+  - id: "鹿虫之主"
+    type: Character
+    name: 鹿虫之主
+    aliases: []
+    description: 第一轮回时代的宇宙之主，通过了断东河的筛选。
+    attributes:
+      实力: 强大
+      性格: 悠然
+
+  - id: "琉玖之主"
+    type: Character
+    name: 琉玖之主
+    aliases: []
+    description: 第一轮回时代的宇宙之主，女性。通过了断东河的筛选。
+    attributes:
+      实力: 强大
+      性格: 谦逊
+
+  - id: "巫魉之主"
+    type: Character
+    name: 巫魉之主
+    aliases: []
+    description: 第一轮回时代的宇宙之主，女性。通过了断东河的筛选。
+    attributes:
+      实力: 强大
+      性格: 沉默
+
+  - id: "唳海之主"
+    type: Character
+    name: 唱海之主
+    aliases: []
+    description: 第一轮回时代的宇宙之主，主动挑战断东河的筛选但未通过。
+    attributes:
+      实力: 强大
+      性格: 热情
+
+  - id: "赤鹨之主"
+    type: Character
+    name: 赤鹨之主
+    aliases: []
+    description: 第一轮回时代的宇宙之主，未通过断东河的筛选。
+    attributes:
+      实力: 强大
+      性格: 不详
+
+  - id: "岩巨之主"
+    type: Character
+    name: 岩巨之主
+    aliases: []
+    description: 第一轮回时代的宇宙之主，未通过断东河的筛选。
+    attributes:
+      实力: 强大
+      性格: 稳重
+
+  - id: "罗峰"
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 通过了断东河的筛选，但具体原因未知。
+    attributes:
+      实力: 强大
+      性格: 冷静
+
+relationships:
+
+events:
+  - id: "筛选仪式"
+    type: Event
+    name: 筛选仪式
+    description: 断东河利用神秘魔方仪器进行继承者筛选，只有部分宇宙之主通过。
+    timeline: []
+
+dialogues:
+  - speaker: 断东河
+    listener: 鹿虫之主
+    content: "你，进去。"
+  - speaker: 断东河
+    listener: 唱海之主
+    content: "你不符合！"
+
+timeline:
+
+mysteries:
+  - id: 神秘魔方仪器的工作原理
+    type: Mystery
+    description: 没有人知道神秘魔方仪器是如何筛选继承者的。
+```

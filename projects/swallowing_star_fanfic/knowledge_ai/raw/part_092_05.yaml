@@ -1,0 +1,155 @@
+```yaml
+source:
+  id: 第1397章
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 新幽海分身，宇宙之主级别，拥有金角巨兽和地球人本尊两个强大分身。
+    attributes:
+      - 实力: 宇宙之主
+      - 特殊能力: 分身
+
+  - id: 卜兀赫
+    type: Character
+    name: 卜兀赫
+    aliases: []
+    description: 军士，对罗峰态度幸灾乐祸。
+    attributes:
+      - 实力: 新兵军士
+
+  - id: 鱼罗
+    type: Character
+    name: 鱼罗
+    aliases: []
+    description: 军队中的领头者，在任务中死亡。
+
+  - id: 库法
+    type: Character
+    name: 库法
+    aliases: []
+    description: 军士，任务后幸存。
+    attributes:
+      - 实力: 新兵军士
+
+  - id: 氪盟异族宇宙之主们
+    type: Organization
+    name: 鸿盟
+    aliases: []
+    description: 包括36位非人类的宇宙之主。
+
+  - id: 小型宇宙“晋之世界”
+    type: Location
+    name: "小型宇宙‘晋之世界’"
+    aliases: ["晋之世界"]
+    description: 危险遍布，有诸多任务和挑战等待强者们。
+    
+  - id: 墓陵之舟
+    type: Item
+    name: 墓陵之舟
+    aliases: []
+    description: 罗峰的座驾至宝。
+
+relationships:
+  - from: 罗峰
+    to: 庞兀赫
+    relation_type: 不同情
+    description: 卜兀赫对罗峰态度幸灾乐祸，可能因任务失败而怨恨罗峰。
+    
+events:
+  - id: 晋之世界第二纪元开启
+    type: Event
+    name: "晋之世界危险遍布"
+    date: 第5600年左右
+    description: 大量宇宙海势力强者进入小型宇宙“晋之世界”，准备迎接新一轮的挑战。
+    
+dialogues:
+  - speaker: 卜兀赫
+    listener: 罗峰
+    content: "银河，你知道吧？队长他们回来了。"
+    context: 通知罗峰老军士回归的消息，并透露了一些任务结果。
+
+timeline:
+  - id: 晋之世界第二纪元开始
+    year: 第5600年左右
+    event: 大量宇宙海势力强者进入小型宇宙“晋之世界”。
+
+mysteries:
+  - id: 鱼罗的死亡原因
+    description: 关于鱼罗在任务中死去的具体情形，外界并不知情。
+```
+```yaml
+source:
+  id: 第1398章
+
+entities:
+  - id: 庞兀赫
+    type: Character
+    name: 卜兀赫
+    aliases: []
+    description: 军士，态度幸灾乐祸，向罗峰传递消息。
+
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 新幽海分身，宇宙之主级别，具有金角巨兽和地球人本尊两个强大分身。
+    attributes:
+      - 实力: 宇宙之主
+
+  - id: 氪盟异族宇宙之主们
+    type: Organization
+    name: 鸿盟
+    aliases: []
+    description: 包括36位非人类的宇宙之主。
+
+  - id: 墓陵之舟
+    type: Item
+    name: 墓陵之舟
+    aliases: []
+    description: 罗峰的座驾至宝，可容纳其他宇宙之主进入。
+    
+  - id: 星辰塔
+    type: Item
+    name: 星辰塔
+    aliases: []
+    description: 宫殿类至宝，用于承载鸿盟异族宇宙之主们。
+
+locations:
+  - id: 小型宇宙“晋之世界”
+    type: Location
+    name: "小型宇宙‘晋之世界’"
+    aliases: ["晋之世界"]
+    description: 危险遍布的战场，吸引强者前来探索和挑战。
+    
+relationships:
+  - from: 罗峰
+    to: 鸿盟异族宇宙之主们
+    relation_type: 引导
+    description: 新幽海分身罗峰负责引导这些异族宇宙之主进入晋之世界并提供必要信息。
+
+events:
+  - id: 晋之世界第二纪元开启
+    type: Event
+    name: "鸿盟异族宇宙之主们进入‘晋之世界’"
+    date: 第5600年左右
+    description: 各势力强者大规模进入小型宇宙“晋之世界”，开始新一轮的探索和挑战。
+    
+dialogues:
+  - speaker: 混沌城主
+    listener: 罗峰
+    content: "此次进入的都是我鸿盟的其他异族，一共36位宇宙之主。你一开始引导他们即可，至于以后你也无需多管，保护好自己最重要。"
+    context: 提醒罗峰注意自身安全，并让他负责初次指引异族宇宙之主。
+
+timeline:
+  - id: 晋之世界第二纪元开始
+    year: 第5600年左右
+    event: 大量宇宙海势力强者进入小型宇宙“晋之世界”，准备迎接新一轮的挑战。
+    
+mysteries:
+  - id: 鱼罗死亡细节未知
+    description: 关于鱼罗在任务中死去的具体情形，外界并不知情。
+
+```

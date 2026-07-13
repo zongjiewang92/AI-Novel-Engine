@@ -1,0 +1,90 @@
+```yaml
+source:
+  id: 第1392章蟒河军小队的结局
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 新兵银河，伪装成法则之主。曾经偷取异兽真神尸体。
+    attributes:
+      实力: 法则之主
+      能力: 使用血影刀和机械流战船
+
+  - id: 弯角队长
+    type: Character
+    name: 弯角队长
+    aliases: []
+    description: 新兵银河的直接上级，曾试图阻止罗峰逃跑。
+    attributes:
+      实力: 法则之主
+      能力: 使用黑云翼
+
+  - id: 炫鬻山一方的大军
+    type: Organization
+    name: 炫鬻山大军
+    aliases: []
+    description: 反抗九烟泽的军队，拥有法则之主和虚空真神成员。
+
+  - id: 九烟泽一方的大军
+    type: Organization
+    name: 九烟泽大军
+    aliases: []
+    description: 拥有法则之主、异兽和真神组成的强大军队。
+
+  - id: 异兽真神
+    type: Character
+    name: 异兽真神
+    aliases: []
+    description: 观察战局，拥有强大的飞行能力和攻击手段。
+    attributes:
+      实力: 真神
+
+  - id: 金角巨兽
+    type: Species
+    name: 金角巨兽
+    aliases: []
+    description: 拥有翅膀的巨大蜥蜴型生物，在九烟泽一方的大军中混入。
+
+  - id: 法则之主
+    type: Character
+    name: 法则之主
+    aliases: []
+    description: 超凡者的一种，拥有法则之力。
+    attributes:
+      实力: 法则之主
+
+  - id: 真神
+    type: Character
+    name: 真神
+    aliases: []
+    description: 高于法则之主的超凡者，拥有强大的能力和力量。
+    attributes:
+      实力: 真神
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 上级-下属关系
+    对象: 弯角队长
+
+events:
+  - id: 队长拦截罗峰逃跑
+    type: Event
+    description: 弯角队长试图阻止伪装成新兵银河的罗峰逃跑，但被击败。
+    timeline: 罗峰利用机械流战船逃走。
+
+dialogues:
+  - 说话人: 异兽真神
+    对象: 队长
+    内容: "停下，停下。你要找死吗？"
+
+timeline:
+  - 时间点: 战斗初期
+    描述: 罗峰与弯角队长发生冲突并逃走。
+  - 时间点: 战斗中期
+    描述: 异兽真神发现罗峰逃脱，试图阻止但失败。
+
+mysteries:
+  - 内容: 罗峰如何获得机械流战船这种强大宝物？
+```

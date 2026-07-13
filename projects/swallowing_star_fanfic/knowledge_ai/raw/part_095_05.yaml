@@ -1,0 +1,87 @@
+```yaml
+source:
+  id: 第1444章宇宙海大军
+
+entities:
+  - id: 查闇之主
+    type: Character
+    name: 查闈之主
+    description: 小型宇宙内的一个分身，负责探查界兽信息。
+    attributes:
+      实力: 宇宙之主
+  - id: 火虫真主
+    type: Character
+    name: 火虫真主
+    description: 控制着小型宇宙的宇宙海强者之一。
+    attributes:
+      实力: 真神
+  - id: 摩罗撒
+    type: Species
+    name: 界兽摩罗撒
+    description: 吞噬本源的存在，体型巨大且拥有金色皮肤和尾巴。
+    attributes:
+      特性: 强大吞噬力量
+      实力: ?
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: [宇宙海第一强者]
+    description: 宇宙海中最强大的存在，拥有众多弟子。
+    attributes:
+      实力: 虚空级
+  - id: 洪
+    type: Character
+    name: 洪
+    description: 罗峰的兄弟，同样强大。
+    attributes:
+      实力: ?
+  - id: 火穹真神
+    type: Character
+    name: 火穹真神
+    description: 罗峰最杰出弟子之一，有潜力成为未来的强者。
+    attributes:
+      实力: 真神级
+      特性: 天赋极高但意志弱
+
+relationships:
+  - id: 罗峰与火虫真主
+    type: Cooperation
+    description: 罗峰响应火虫真主的求助，准备前往支援。
+  - id: 洪和罗峰
+    type: Brotherhood
+    description: 哥俩共同参与对抗界兽。
+
+events:
+  - id: 界兽摩罗撒现身
+    type: Event
+    description: 查闈之主发现并确认了界兽的存在，导致小型宇宙内的紧张局面。
+  - id: 派遣救兵
+    type: Event
+    description: 面对强大的敌人，火虫真主不得不向宇宙海各族求助。
+  - id: 罗峰等人出发
+    type: Event
+    description: 火虫真主的求援得到响应，罗峰和洪准备前往战斗。
+
+dialogues:
+  - speaker: 查闈之主
+    listener: 火虫真主
+    content: "我的分身被界兽吞噬了。"
+    context: 向火虫真主报告发现界兽的情况。
+  - speaker: 罗峰
+    listener: 洪, 火穹
+    content: "你们俩随我一道出发，前往火虫真主那吧。"
+    context: 准备带领门下弟子和兄弟前去支援。
+
+timeline:
+  - event_id: 界兽摩罗撒现身
+    time: 第一个事件发生的时间节点
+  - event_id: 派遣救兵
+    time: 火虫真主发现界兽后立即向宇宙海各族求援。
+  - event_id: 罗峰等人出发
+    time: 接到消息后的第一时间。
+
+mysteries:
+  - id: 界兽实力
+    type: Mystery
+    description: 界兽摩罗撒的实际力量尚未完全展现，未知其具体威力。
+```

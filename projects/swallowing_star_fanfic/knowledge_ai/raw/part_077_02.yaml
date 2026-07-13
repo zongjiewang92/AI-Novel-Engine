@@ -1,0 +1,129 @@
+```yaml
+source:
+  id: original_text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有无尽财富，控制自家子弟资源，拥有神殿居所和固定通道。
+    attributes:
+      实力: 宇宙之主级
+      年龄: 不详
+      性格: 关心朋友，谨慎行事
+
+  - id: 罗家
+    type: Organization
+    name: 罗家
+    aliases: []
+    description: 拥有无尽财富，帮助罗峰的好友和家人。
+    attributes:
+      财富: 无尽
+
+  - id: 乾巫国主
+    type: Character
+    name: 乾巫国主
+    aliases: []
+    description: 罗峰麾下宇宙尊者之一，与罗峰关系良好。
+    attributes:
+      实力: 宇宙尊者级
+      性格: 忠诚
+
+  - id: 狓宙尊者
+    type: Character
+    name: 狾宙尊者
+    aliases: []
+    description: 罗峰麾下宇宙尊者之一，与罗峰关系良好。
+    attributes:
+      实力: 宇宙尊者级
+      性格: 忠诚
+
+  - id: 北螟尊者
+    type: Character
+    name: 北螟尊者
+    aliases: []
+    description: 罗峰麾下宇宙尊者之一，与罗峰关系良好。
+    attributes:
+      实力: 宇宙尊者级
+      性格: 忠诚
+
+  - id: 星辰塔
+    type: Item
+    name: 星辰塔
+    aliases: []
+    description: 罗峰研究的对象之一，难度较高。
+    attributes:
+      类型: 法宝
+      效果: 提升实力
+
+  - id: 弑吴羽翼
+    type: Item
+    name: 弧吴羽翼
+    aliases: []
+    description: 四翼弑吴羽翼为顶级至宝，比两翼弑吴羽翼更强大。
+    attributes:
+      类型: 法宝
+      效果: 提升实力
+
+  - id: 神殿居所
+    type: Location
+    name: 神殿居所
+    aliases: []
+    description: 罗峰的住所，拥有宫殿群、侍卫等。
+    attributes:
+      尺寸: 千万公里高
+      安全性: 高
+
+  - id: 地球
+    type: Location
+    name: 地球
+    aliases: []
+    description: 罗峰的出生地，拥有保护区和人类文明。
+    attributes:
+      特点: 存在大量保护区、翻新建造遗迹
+
+relationships:
+  - 主体: 罗峰
+    对象: 罗家
+    关系类型: 家族关系
+    描述: 罗家帮助罗峰的好友和家人，但不干涉他们的生活。
+
+  - 主体: 罗峰
+    对象: 乾巫国主
+    关系类型: 上下级
+    描述: 乾巫国主是罗峰麾下的宇宙尊者之一。
+
+  - 主体: 罗峰
+    对象: 狕宙尊者
+    关系类型: 上下级
+    描述: 狳宙尊者是罗峰麾下的宇宙尊者之一。
+
+  - 主体: 罗峰
+    对象: 北螟尊者
+    关系类型: 上下级
+    描述: 北螟尊者是罗峰麾下的宇宙尊者之一。
+
+events:
+  - name: 星辰塔研究
+    description: 罗峰花费多年时间研究星辰塔，但主要精力在弑吴羽翼上。
+    timeline: 前段岁月
+
+  - name: 弑吴羽翼第二层悟透
+    description: 经过12年的努力，罗峰最终悟透了弑吴羽翼的第二形态。
+    timeline: 过去十二年
+
+dialogues:
+  - 主体: 罗峰
+    对象: 乾巫国主、狃宙尊者、北螟尊者
+    内容: "这些日子辛苦你们了。"
+    情境: 罗峰见三位宇宙尊者归来时的对话。
+
+timeline:
+  - 时间点: 过去十二年
+    描述: 自此期间，罗峰完成了弑吴羽翼第二层的研究。
+
+mysteries:
+  - 伏笔: 神殿一个比一个大。
+    描述: 罗峰对此感到疑惑，但未给出解释。
+```

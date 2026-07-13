@@ -1,0 +1,107 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 正在修炼《本尊天地》，计划前往杀戮场决战空间练手。
+    attributes:
+      实力: 宇宙级八阶
+      能力: 越阶战斗
+
+  - id: 百卡罗
+    type: Character
+    name: 百卡罗
+    aliases: []
+    description: 穿着深绿色战衣的诺岚山弟子，拥有青色鳞片和尖角，在杀戮场战胜宇宙级九阶对手。
+    attributes:
+      实力: 宇宙级八阶
+      能力: 双刀技巧, 风之领域
+
+  - id: 德温
+    type: Character
+    name: 德温
+    aliases: []
+    description: 拥有尖耳，与百卡罗一同前往地球。
+    attributes:
+      实力: 不详
+      能力: 不详
+
+  - id: 诺岚山
+    type: Character
+    name: 诺岚山
+    aliases: []
+    description: 百虎楼成员，巨斧武者称号持有者，百卡罗的老师。
+    attributes:
+      实力: 宇宙级九阶
+      能力: 战斗技巧
+
+organizations:
+  - id: 百虎楼
+    type: Organization
+    name: 百虎楼
+    description: 管理和培养特等精英，拥有巨斧武者称号成员。
+
+locations:
+  - id: 黑龙山岛屿的杀戮场决战空间
+    type: Location
+    name: 黑龙山岛屿的杀戮场决战空间
+    description: 沙漠环境中的战斗场所。
+    attributes:
+      地形: 沙漠
+
+items:
+  - id: 双刀
+    type: Item
+    name: 双刀
+    aliases: []
+    description: 百卡罗使用的武器，能够化作大量雪白刀光。
+
+abilities:
+  - id: 风之领域
+    type: Ability
+    name: 风之领域
+    description: 与百卡罗的双刀技巧完美结合的战斗领域。
+    attributes:
+      技能效果: 提升移动速度和攻击范围
+
+events:
+  - id: 百卡罗战胜宇宙级九阶对手
+    type: Event
+    name: 百卡罗战胜宇宙级九阶对手
+    description: 在杀戮场决战空间中，百卡罗使用双刀技巧和风之领域击败一名宇宙级九阶的银发男子。
+    attributes:
+      时间点: 不详
+
+dialogues:
+  - id: 罗峰与他人对话
+    type: Dialogue
+    name: 罗峰与他人对话
+    description: 罗峰表示打算去杀戮场决战空间练手，并提到越阶战斗才有挑战性。
+    attributes:
+      参与者: 罗峰
+
+  - id: 诺岚山和灰色长袍男子的对话
+    type: Dialogue
+    name: 诺岚山和灰色长袍男子的对话
+    description: 讨论百卡罗的实力，以及他在杀戮场的表现。
+    attributes:
+      参与者: 诺岚山, 灰色长袍男子
+
+timeline:
+  - id: 百卡罗在决战空间战斗
+    type: Timeline
+    name: 百卡罗在决战空间战斗
+    description: 百卡罗使用双刀技巧和风之领域，在杀戮场决战空间中击败一名宇宙级九阶的银发男子。
+    attributes:
+      时间点: 不详
+
+mysteries:
+  - id: 德温和百卡罗前往地球的目的
+    type: Mystery
+    name: 德温和百卡罗前往地球的目的
+    description: 德温和百卡罗前往地球是为了得到机械族飞船，然后解决罗峰。
+```

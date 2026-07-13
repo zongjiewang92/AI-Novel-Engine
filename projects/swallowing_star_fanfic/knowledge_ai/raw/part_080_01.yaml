@@ -1,0 +1,110 @@
+```yaml
+source:
+  id: 第1206章闯轮回
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      拥有星辰塔和魔杀族分身，沿着洞穴通道探索倾峰界内部深处。
+    attributes:
+      实力: 宇宙尊者级
+      物品: 星辰塔、魔杀族分身
+
+  - id: 倾峰界
+    type: Location
+    name: 倾峰界
+    aliases: []
+    description: >
+      主体山峰巍峨神秘，内部洞穴通道通向未知深处。
+    attributes:
+      危险程度: 极度危险
+
+relationships:
+
+events:
+  - id: 探索倾峰界内域
+    type: Event
+    name: 沿着洞穴通道探索倾峰界内域
+    description: >
+      罗峰携带星辰塔和魔杀族分身，沿着一条洞穴通道向深处探索。途中温度极高，甚至能让宇宙尊者焚毁。
+  - id: 发现特殊石柱
+    type: Event
+    name: 在火焰浆流洞窟中发现带有爪印的特殊石柱
+    description: >
+      罗峰在火焰浆流洞窟中发现了有爪印标记的石柱，其中一砂砾含有特殊空间。
+  - id: 进入砂砾内部空间
+    type: Event
+    name: 星辰塔进入石柱砂砾内的空间
+    description: >
+      罗峰通过星辰塔触碰带有特殊气息的一砂砾，使得星辰塔和分身被吸入其中。
+
+dialogues:
+
+timeline:
+  - 探索洞穴通道
+  - 发现火焰浆流洞窟
+  - 观察石柱并发现爪印
+  - 进入砂砾内部空间
+
+mysteries:
+  - 爪印的来源和意义是什么？
+  - 特殊石柱的存在及其构成材料为何未被记录？
+```
+```yaml
+source:
+  id: 第1206章闯轮回
+
+entities:
+  - id: 星辰塔
+    type: Item
+    name: 星辰塔
+    aliases: []
+    description: >
+      镇封宫殿式至强至宝，同时具备物质和灵魂双重防御功能。
+    attributes:
+      功能: 物质攻击防御、灵魂镇守
+
+  - id: 火焰浆流洞窟
+    type: Location
+    name: 火焰浆流洞窟
+    aliases: []
+    description: >
+      被炽热的火焰浆流环绕的巨大溶洞，其中充斥着各种未知危险。
+    attributes:
+      温度: 极高
+      危险程度: 非常危险
+
+relationships:
+
+events:
+  - id: 罗峰进入火焰浆流洞窟
+    type: Event
+    name: 罗峰通过星辰塔进入火焰浆流洞窟
+    description: >
+      罗峰携带星辰塔，沿着洞穴通道深入到火焰浆流溶洞中。
+  - id: 发现带有爪印的石柱
+    type: Event
+    name: 发现有带爪印标记的特殊石柱
+    description: >
+      在火焰浆流洞窟内罗峰发现了一条特殊的石柱，上面刻有疑似宇宙最强者留下的爪印。
+  - id: 触碰并进入砂砾空间
+    type: Event
+    name: 星辰塔触碰带有气息的砂砾被吸入内部空间
+    description: >
+      罗峰通过星辰塔接触石柱上特殊砂砾，整个星辰塔和分身被吸收到该砂砾内隐藏的空间中。
+
+dialogues:
+
+timeline:
+  - 探索洞穴通道
+  - 进入火焰浆流洞窟
+  - 发现带有爪印的石柱
+  - 触碰砂砾并进入内部空间
+
+mysteries:
+  - 爪印背后的故事和留下的宇宙最强者是谁？
+  - 石柱与其中砂砾的独特构成及其功能是什么？
+```

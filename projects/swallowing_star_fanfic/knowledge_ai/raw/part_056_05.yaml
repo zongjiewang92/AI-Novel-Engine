@@ -1,0 +1,97 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: LuoFeng
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      主角，虚拟宇宙公司宝库中的探索者。
+    attributes:
+      实力: 四星存在
+      目标: 购买金甲
+
+  - id: MuYuWang
+    type: Character
+    name: 木玉王
+    aliases: []
+    description: >
+      宇宝堂的老板，鸿盟内的商人。
+    attributes:
+      实力: 不详
+      关系: 罗峰的向导
+
+  - id: WuLvWang
+    type: Character
+    name: 吴吕王
+    aliases: []
+    description: >
+      异族强者，拥有异族七星存在的老师。
+    attributes:
+      实力: 四星或以上
+      关系: 在宇宝堂二楼活动
+
+  - id: JinJiaoJuShou
+    type: Species
+    name: 金角巨兽
+    aliases: []
+    description: >
+      宇宙中的生物种类，可能与罗峰有关。
+
+locations:
+  - id: YubaoTang
+    type: Location
+    name: 宇宝堂
+    description: >
+      鸿盟城内的最大最好店铺。
+    attributes:
+      地点: 鸿盟城内
+
+organizations:
+  - id: HongMeng
+    type: Organization
+    name: 鸿盟
+    description: >
+      虚拟宇宙公司中的一个组织。
+
+items:
+  - id: JinJia
+    type: Item
+    name: 金甲
+    aliases: []
+    description: >
+      炎神族封王极限强者使用过的铠甲，无法改变大小和融入体内。
+    attributes:
+      材质: 特殊金属
+      功能: 抵御灵魂攻击超过九成削弱，物质攻击超过九成削弱
+      价格: 需用其他宝物交换
+
+abilities:
+  - id: BenZhenTianDi
+    type: Ability
+    name: 本尊天地
+    aliases: []
+    description: >
+      金角巨兽修炼的秘法。
+
+mysteries:
+  - 内容: 吴吕王为何会特意羞辱罗峰？
+    解释: 罗峰推测这体现了异族在人类中的自卑感，或许不是故意的。
+
+dialogues:
+  - speaker: MuYuWang
+    listener: LuoFeng
+    content: "宇宝堂一楼的宝物，价格从百万混元单位到千亿混元单位，应有尽有。"
+    context: 罗峰进入宇宝堂时木玉王给他的介绍
+
+  - speaker: WuLvWang
+    listener: LuoFeng
+    content: "（瞥了罗峰一眼）"
+    context: 吴吕王在二楼楼梯口对罗峰的不屑一顾
+
+timeline:
+  - 时间点: 罗峰进入宇宝堂
+    内容: 罗峰探索和观察宇宝堂一楼的各种宝物。
+```

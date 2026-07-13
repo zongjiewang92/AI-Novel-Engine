@@ -1,0 +1,59 @@
+```yaml
+source:
+  id: origin_text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 虚拟宇宙公司学员，真衍王的亲传弟子。
+    attributes:
+      实力: 域主级, 准备修炼到界主级
+      积分: 200万积分（最高积分任务）
+      关系: 真衍王的学生
+
+  - id: 真衍王
+    type: Character
+    name: 真衍王
+    aliases: []
+    description: 虚拟宇宙公司高层管理者, 宇宙超级存在。
+    attributes:
+      实力: 接近宇宙尊者
+      关系: 罗峰的老师
+
+  - id: 秘法典籍
+    type: Item
+    name: 秘法典籍
+    aliases: []
+    description: 帮助修炼和战斗的强大辅助工具。
+    attributes:
+      数量: 106种普通秘法+一套珍贵秘法（三本暗金色书籍）
+      价格: 普通秘法数百万积分，珍贵秘法80亿积分
+
+relationships:
+  - id: 罗峰与真衍王
+    type: 师徒关系
+    description: 真衍王是罗峰的老师, 负责指导他的修炼。
+
+events:
+  - id: 秘法典籍赠送
+    type: Event
+    description: 真衍王为即将成为界主级的罗峰准备了一套珍贵秘法典籍作为礼物。
+    attributes:
+      时间: 混沌城潜修前
+
+dialogues:
+  - speaker: 罗峰
+    listener: 真衍王
+    content: "老师, 这些秘法典籍我自己可以兑换的。"
+  - speaker: 真衍王
+    listener: 罗峰
+    content: "你那点积分够什么用？也就能兑换一些很普通的秘法典籍，真正宇宙超级存在们的强大手段，你根本兑换不起。"
+
+timeline:
+  - 时间节点1: 最高积分任务完成
+
+mysteries:
+  - 秘法典籍的具体内容和效果
+```

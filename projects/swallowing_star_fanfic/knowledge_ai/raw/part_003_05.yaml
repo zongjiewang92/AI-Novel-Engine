@@ -1,0 +1,76 @@
+```yaml
+source:
+  id: 文本1
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 新人，表现出色，在战斗中与兽将级怪兽交战。
+    attributes:
+      实力: 初级战士级（携带血影战刀和盾牌）
+  - id: 高风
+    type: Character
+    name: 高风
+    aliases: []
+    description: 火锤小队队长，力量强大但速度稍慢。
+    attributes:
+      实力: 中级战将武者级别（使用重锤）
+  - id: 虎牙小队
+    type: Organization
+    name: 虎牙小队
+    aliases: []
+    description: 武者小队，计划利用狙击枪袭击火锤小队和吸引怪兽。
+    attributes:
+      成员数量: 六人
+  - id: 张泽虎
+    type: Character
+    name: 张泽虎
+    aliases: []
+    description: 虎牙小队成员之一，对罗峰怀恨在心。
+    attributes:
+      实力: 高级战士级（背负巨型开山刀）
+  - id: 独眼中年人
+    type: Character
+    name: 独眼中年人
+    aliases: []
+    description: 虎牙小队成员之一，提供策略建议。
+    attributes:
+
+relationships:
+  - 主体: 张泽虎
+    客体: 罗峰
+    关系类型: 敌对关系（因为罗峰搞掉了张泽虎一个亿）
+  - 主体: 虎牙小队
+    客体: 火锤小队
+    关系类型: 对抗关系（计划袭击火锤小队）
+
+events:
+  - id: 队伍遭遇战
+    type: Event
+    name: 队伍遭遇战
+    description: 罗峰及其队友与虎猫怪兽群交战。
+    timeline: 战斗中
+  - id: 虎牙小队袭击计划
+    type: Event
+    name: 虎牙小队袭击计划
+    description: 虎牙小队决定利用狙击枪攻击火锤小队成员，并转移怪兽注意力，以便顺利通过。
+    timeline: 战斗中
+
+dialogues:
+  - 发言人: 独眼中年人
+    对象: 虎牙队长
+    内容: "周围怪兽比较多,我们要不惊动绝大多数怪兽抵达十里外猎杀者所在的地方。很有难度。"
+  - 发言人: 张泽虎
+    对象: 虎牙队长
+    内容: "东子，你帮忙给我瞄准那个罗峰，一枪把他给毙了，给兄弟我出口恶气。"
+
+timeline:
+  - 时间点1: 罗峰及其队友与虎猫怪兽群遭遇。
+  - 时间点2: 虎牙小队决定袭击火锤小队。
+
+mysteries:
+  - 内容: 张泽虎为何对罗峰怀恨在心，弄掉了他一个亿。
+  - 内容: 虎牙小队如何能够顺利执行他们的计划而不被其他武者发现和阻止。
+```

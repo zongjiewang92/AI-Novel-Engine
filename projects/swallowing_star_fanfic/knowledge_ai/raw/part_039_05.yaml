@@ -1,0 +1,53 @@
+```yaml
+source:
+  id: 罗峰在魔音山的探索
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有界主级实力，正以冰熊形态探索神秘区域。
+    attributes:
+      实力: 界主级
+      形态: 冰熊
+
+  - id: 白色光层
+    type: Item
+    name: 白色光层
+    aliases: []
+    description: 将宫殿完全笼罩的防御性白色能量层，对内部生物无害。
+    attributes:
+      防御力: 强大
+      影响范围: 整个宫殿
+
+  - id: 悬浮宫殿
+    type: Location
+    name: 悬浮宫殿
+    aliases: [悬浮的宫殿, 放射着金光的宫殿]
+    description: 在深渊世界中，共有32座放射金色光芒并漂浮于空中的巨大建筑。
+    attributes:
+      数量: 32
+      特性: 发散金光, 悬浮于空中
+
+relationships:
+
+events:
+  - id: 探索悬浮宫殿
+    type: Event
+    name: 探索悬浮宫殿
+    description: 罗峰以冰熊形态探索深渊世界中放射金色光芒的悬浮宫殿。
+    timeline:
+      时间: 文本描述期间
+
+dialogues:
+
+timeline:
+
+mysteries:
+  - id: 白色光层形成原因
+    type: Mystery
+    name: 白色光层形成原因
+    description: 突然出现的白色光层，其形成的机制和目的不明。
+```
+重要：请严格按照YAML格式要求输出，不要添加其他额外信息或解释。

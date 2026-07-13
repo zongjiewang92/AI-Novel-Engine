@@ -1,0 +1,118 @@
+```yaml
+source:
+  id: 罗峰宇宙
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 解决界兽浩劫，拥有《列元术》。
+    attributes:
+      实力: 虚空真神级
+      特点: 意志化圣
+
+  - id: 原祖
+    type: Character
+    name: 原祖
+    aliases: []
+    description: 人类族群早期的引路者，超脱轮回拥有无限生命。
+    attributes:
+      实力: 超越永恒真神
+      特点: 意志化圣
+
+  - id: 苍老祖神
+    type: Character
+    name: 苍老祖神
+    aliases: []
+    description: 祖神教成员，管理原始宇宙。
+    attributes:
+      实力: 虚空真神级
+
+  - id: 少年祖神
+    type: Character
+    name: 少年祖神
+    aliases: []
+    description: 祖神教成员，管理原始宇宙。
+    attributes:
+      实力: 虚空真神级
+
+  - id: 双面祖神
+    type: Character
+    name: 双面祖神
+    aliases: []
+    description: 祖神教成员，管理原始宇宙。
+    attributes:
+      实力: 虚空真神级
+
+  - id: 混沌城主
+    type: Character
+    name: 混沌城主
+    aliases: []
+    description: 原祖的弟子，人类族群管理者。
+    attributes:
+      实力: 超越永恒真神
+      特点: 管理者
+
+  - id: 银河圣地
+    type: Location
+    name: 银河圣地
+    aliases: []
+    description: 在原始宇宙中，是罗峰的修炼地点。
+    
+  - id: 原始宇宙
+    type: Location
+    name: 原始宇宙
+    aliases: []
+    description: 人类族群所在的主宇宙。
+
+organizations:
+  - id: 祖神教
+    type: Organization
+    name: 祖神教
+    aliases: []
+    description: 负责管理原始宇宙的组织，包括界兽浩劫、释放原祖等事务。
+    
+items:
+  - id: 神斧
+    type: Item
+    name: 神斧
+    aliases: []
+    description: 巨斧的至宝神斧，由罗峰带回。
+
+abilities:
+  - id: 列元术
+    type: Ability
+    name: 列元术
+    aliases: []
+    description: 至高意志秘术，能够影响对手意志。
+    
+relationships:
+  - id: 罗峰与混沌城主关系
+    type: Relationship
+    description: 混沌城主是原祖的弟子，也是罗峰的师尊。
+
+events:
+  - id: 原祖释放事件
+    type: Event
+    name: 原祖被释放
+    timeline: 界兽浩劫解决之后
+    description: 罗峰解决了界兽浩劫后，本源意志履行承诺释放原祖。
+    
+dialogues:
+  - speaker1: 混沌城主
+    speaker2: 祖神教三位祖神
+    content: "请略微等待。"
+  - speaker1: 原祖
+    speaker2: 混沌城主
+    content: "别像个孩子。"
+
+timeline:
+  - id: 界兽浩劫解决之后
+    description: 解决界兽浩劫后，本源意志释放原祖。
+    
+mysteries:
+  - id: 原祖的位置
+    type: Mystery
+    description: 超脱轮回的原祖具体在哪里？
+```

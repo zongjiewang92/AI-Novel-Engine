@@ -1,0 +1,84 @@
+```yaml
+source:
+  id: auction_event
+
+entities:
+  - id: rofei
+    type: character
+    name: 罗峰
+    aliases: []
+    description: >
+      参加乾巫拍卖会的顾客，财富在黑龙山星域可以排到前100名。手持黑色令牌。
+    attributes:
+      - 实力: 财富地位高，最低为三星级客户
+
+  - id: kigukelaolao
+    type: character
+    name: 龟壳老者
+    aliases: []
+    description: >
+      主持乾巫拍卖会的主持人。
+    attributes:
+      - 角色: 拍卖会主持，负责介绍和宣布拍卖品信息
+
+  - id: babahta
+    type: character
+    name: 巴巴塔
+    aliases: []
+    description: >
+      罗峰的意识生命体助手。
+    attributes:
+      - 功能: 解释拍卖规则与价格逻辑
+
+  - id: tanashiyuqu
+    type: location
+    name: 塔纳星域
+    aliases: []
+    description: >
+      正在被拍卖的小型星域，之前属于一位不朽强者的领地。
+    attributes:
+      - 星系数量: 668个
+
+  - id: jianwugaoyuanguo
+    type: organization
+    name: 乾巫宇宙国
+    aliases: []
+    description: >
+      进行拍卖会的国家，每三年举行一次拍卖。
+    attributes:
+      - 拍卖频率: 每三年一次
+
+events:
+  - id: auction_starting
+    type: event
+    name: 乾巫拍卖会开始
+    description: >
+      在众多参与者中正式开启，热场拍卖品为塔纳星域。
+
+dialogues:
+  - speaker: kigukelaolao
+    listener: 其他与会者
+    content: |
+      热场拍卖，我们先来一次拍卖。底价——300混元单位。
+      每次加价需要是混元单位的整数倍。
+
+  - speaker: rofei
+    listener: babahta
+    content: >
+      巴巴塔，这个星域的价格是不是有点高？
+
+  - speaker: babahta
+    listener: rofei
+    content: |
+      罗峰，你说的是星系单独卖。而现在是整个星域在卖！这是一个整体。
+
+timeline:
+  - event: 拍卖会热场拍卖
+    time: 开始前
+
+mysteries:
+  - id: tanashiyuqu_jiage
+    type: mystery
+    description: >
+      塔纳星域的价格从300混元单位迅速飙升至1000混元单位，为何？
+```

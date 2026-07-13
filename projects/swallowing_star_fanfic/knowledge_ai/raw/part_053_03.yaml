@@ -1,0 +1,73 @@
+```yaml
+source:
+  id: 炎祭大陆
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 地球人本尊，拥有不朽神体初等封侯的水准。
+    attributes:
+      实力: 不朽神灵初等封侯
+      目标: 成为焱祭大陆霸主
+
+  - id: 巴巴塔
+    type: Character
+    name: 巴巴塔
+    aliases: []
+    description: 罗峰的智能辅助设备。
+    attributes:
+      职责: 探测仪器操作和警报系统
+
+  - id: 赤黯族
+    type: Species
+    name: 赤黯族
+    aliases: []
+    description: 在焱祭大陆09号陆地上空飞行时观察到的异族，外表可爱但实际非常可怕。
+
+  - id: 炎祭大陆
+    type: Location
+    name: 炎祭大陆
+    aliases:
+      - 炎祭大陆主大陆
+      - 炎祭大陆01号陆地
+      - 炎祭大陆09号陆地碎片
+    description: 分为主大陆和环绕其周围的诸多陆地碎片，是不朽神灵战斗的重要战场。
+    attributes:
+      地理位置: 域外战场上
+
+  - id: E9级宇宙飞船
+    type: Item
+    name: E9级宇宙飞船
+    aliases: []
+    description: 罗峰前往炎祭大陆的交通工具，拥有先进的探测仪器。
+
+  - id: 诺岚山
+    type: Character
+    name: 诺岚山
+    aliases: []
+    description: 被巴巴塔发现并传送给罗峰查看的人影图像。
+    attributes:
+      穿着: 深绿色战服
+
+relationships:
+
+events:
+  - id: 发现诺岚山
+    type: Event
+    name: 发现诺岚山
+    description: 在焱祭大陆09号陆地碎片上空飞行时，巴巴塔发现并传送给罗峰查看的人影图像。
+    timeline:
+      时间点: 大半个月后
+
+dialogues:
+
+timeline:
+
+mysteries:
+  - id: 诺岚山身份
+    type: Mystery
+    name: 诺岚山的身份和目的
+    description: 巴巴塔发现诺岚山的照片，暗示罗峰可能与诺岚山有关联。
+```

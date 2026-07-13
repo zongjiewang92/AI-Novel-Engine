@@ -1,0 +1,83 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 身份不明，但在战神宫有交易记录。
+    attributes:
+      实力: 不详
+      年龄: 不详
+      性格: 沉稳
+  - id: 王侯
+    type: Character
+    name: 王侯
+    aliases: []
+    description: 在战神宫有权力，专门收购宝物。
+    attributes:
+      实力: 不详
+      年龄: 不详
+      性格: 可靠、厚道
+  - id: 战神宫
+    type: Organization
+    name: 战神宫
+    aliases: []
+    description: 收购宝物的地方。
+    attributes:
+      地点: 京都基地市
+
+locations:
+  - id: 京都基地市
+    type: Location
+    name: 京都基地市
+    aliases: []
+    description: 罗峰与王侯交易的地方。
+    attributes:
+      特色: 战神宫位于此地，用于收购宝物
+  - id: 江南基地市的扬州
+    type: Location
+    name: 江南基地市的扬州
+    aliases: []
+    description: 罗峰离开京都基地市后的目的地。
+    attributes:
+      特色: 不详
+
+items:
+  - id: SS级作战背心
+    type: Item
+    name: SS级作战背心
+    aliases: []
+    description: 极其珍贵的战斗装备，由S和SS级部件组成。
+    attributes:
+      价格: 150亿华夏币
+      功能: 保护身体的核心部件
+
+dialogues:
+  - id: 罗峰与王侯交易对话
+    type: Dialogue
+    content: |
+      "你看看吧。"
+      "嗯。"
+      "魏先生，这作战服至少是S级的，是否是SS级就不知道了。"
+      "呼！好了，全部搞定。先告诉你一个坏消息，你这作战服并非是一套SS级作战服。同时也告诉你一个好消息，你这作战服也并非是一套S级作战服。因为，它是一套S级和SS级部件混合起来的作战服！这一套作战服中的“作战背心”，是SS级的。"
+      "我最多给你150亿的价格。收购这SS级作战背心。当然，以我的权力，我无法一次性调动那么庞大的一笔资金，你如果原意卖给我，需要等待大概十五分钟时间，我才能将钱搞定。"
+      "S级作战服其他部件一来都有磨损，并非100%完好度。我们不能拿出去直接卖。二来，作战背心销售市场很好，可是这战靴、作战长裤这些部件嘛……这样吧！"
+      "你单单卖这些部件，恐怕没有第二个人出8亿的价。"
+      "合作愉快。"
+
+timeline:
+  - id: 罗峰与王侯交易时间线
+    type: Timeline
+    content: |
+      当晚，罗峰来到京都基地市，并在战神宫内与王侯进行交易。
+      十分钟后，王侯完成资料传送并成功提高汇款额度。
+      次日早晨七点左右，罗峰抵达江南基地市的扬州。
+
+mysteries:
+  - id: 罗峰来源和目的
+    type: Mystery
+    content: 不清楚罗峰的具体背景和交易后的去向。
+```

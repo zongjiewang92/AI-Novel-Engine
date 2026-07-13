@@ -1,0 +1,80 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      修炼岁月较短的强者，拥有生命基因层次过万倍。现已成为人类族群中的宇宙霸主。
+    attributes:
+      - 实力: 宇宙尊者级
+      - 身份: 金角巨兽分身、星空巨兽联盟成员
+      - 秘法: 宇宙之主究极秘法
+      - 武器: 斩玥刀
+
+  - id: 始祖
+    type: Character
+    name: 星空始祖
+    aliases: []
+    description: >
+      组织星空巨兽联盟的首领，想要拉拢罗峰加入其组织。
+    attributes:
+      - 身份: 星空巨兽联盟领袖
+
+  - id: 坐山客
+    type: Character
+    name: 坐山客
+    aliases: []
+    description: >
+      罗峰的老师，性格粗俗直接。关心罗峰的利益。
+    attributes:
+      - 身份: 罗峰的老师
+
+  - id: 星空巨兽联盟
+    type: Organization
+    name: 星空巨兽联盟
+    aliases: []
+    description: >
+      组织星空巨兽，给予有潜力宇宙尊者帮助并要求其贡献。
+    attributes:
+      - 总部: 星空神山
+
+  - id: 斩玥刀
+    type: Item
+    name: 斩玥刀
+    aliases: []
+    description: >
+      高等至宝近战兵器，由始祖赐予罗峰。刀刃部分略带弧度，手柄呈紫黑色。
+    attributes:
+      - 类型: 近战兵器
+      - 等级: 高等
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 老师
+    对象: 坐山客
+
+  - 主体: 罗峰
+    关系类型: 成员
+    对象: 星空巨兽联盟
+
+dialogues:
+  - 发言人: 始祖
+    内容: "你的亲人朋友都还在。"
+    场景描述: 讨论罗峰加入星空巨兽联盟的影响。
+  - 发言人: 坐山客
+    内容: "老家伙有没有给你好处啊？"
+    场景描述: 关心罗峰是否得到了应有的利益。
+
+timeline:
+  - 时间点: 罗峰与始祖讨论加入星空巨兽联盟。
+  - 时间点: 坐山客询问是否给罗峰好处。
+  - 时间点: 始祖赐予罗峰高等至宝近战兵器斩玥刀。
+  - 时间点: 始祖向罗峰介绍星空巨兽联盟的资料。
+
+mysteries:
+  - 信息: 罗峰金角巨兽分身加入星空巨兽联盟后，如何平衡人类族群和星空巨兽联盟的责任？
+```

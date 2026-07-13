@@ -1,0 +1,90 @@
+```yaml
+source:
+  id: 第643章罗家藏宝库（三更完毕）
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      虚拟宇宙公司成员，拥有高念力振幅。
+    attributes:
+      实力: 境界未定（预计为界主级）
+      目标: 控制虫族母巢
+
+  - id: 徐欣
+    type: Character
+    name: 徐欣
+    aliases: []
+    description: >
+      负责保护罗峰的虫族母巢。
+    attributes:
+      角色: 看守者
+
+  - id: 迪伦
+    type: Character
+    name: 迪伦
+    aliases: []
+    description: >
+      提供虫族母巢价格信息。
+    attributes:
+      角色: 交易顾问
+
+  - id: 虫族母巢
+    type: Item
+    name: 虫族母巢
+    aliases: []
+    description: >
+      可以培育大量界主级和不朽级虫族战士的生物。
+    attributes:
+      等级: 界主级（活体）
+      控制难度: 高
+
+  - id: 原始秘境
+    type: Organization
+    name: 原始秘境
+    aliases: []
+    description: >
+      虚拟宇宙公司中的一个级别，提供更高权限。
+    attributes:
+      权限等级: 高级
+
+relationships:
+  - 主体: 罗峰
+    客体: 徐欣
+    关系类型: 命令与执行
+    描述: >
+      罗峰命令徐欣保护虫族母巢。
+
+  - 主体: 迪伦
+    客体: 虫族母巢
+    关系类型: 价格评估
+    描述: >
+      迪伦为罗峰提供虫族母巢的交易价值信息。
+
+dialogues:
+  - 发言人: 罗峰
+    对话内容: "相信虚拟宇宙公司的能力吧。"
+    上下文描述: >
+      罗峰对徐欣表示信任。
+  
+  - 发言人: 迪伦
+    对话内容: "赚了，殿下大赚一笔啊。"
+    上下文描述: >
+      迪伦夸赞罗峰获得虫族母巢的交易价值。
+
+timeline:
+  - 时间点: 罗峰加入虚拟宇宙公司后不久
+    描述: >
+      罗峰开始关注虫族母巢。
+  
+  - 时间点: 数十年后
+    描述: >
+      罗峰预计达到界主级，学习《万心控魂秘法》，控制虫族母巢。
+
+mysteries:
+  - 未解决信息: 控制虫族母巢的确切时间
+    上下文描述: >
+      罗峰计划在成为界主后控制虫族母巢。
+```

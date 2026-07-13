@@ -1,0 +1,75 @@
+```yaml
+source:
+  id: 第10章
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 虚拟宇宙雷霆岛之巅，获得祖神教108宝藏之一银虬幻影船的行星级小家伙。
+    attributes:
+      实力: 行星级
+  - id: 千雨王
+    type: Character
+    name: 千雨王
+    aliases: []
+    description: 祖神教传承者，真衍尊者的使者。
+    attributes: {}
+  - id: 察曼王
+    type: Character
+    name: 察曼王
+    aliases: []
+    description: 祖神教传承者之一。
+    attributes: {}
+  - id: 真衍尊者
+    type: Character
+    name: 真衍尊者
+    aliases: 老师
+    description: 混沌城主的老师，祖神教传承者。
+    attributes: {}
+  - id: 戒吠镜王
+    type: Character
+    name: 戒吠镜王
+    aliases: 吠镜王
+    description: 祖神教传承者之一，与罗峰有仇怨。
+    attributes:
+      性格: 嫉妒、愤怒
+
+relationships:
+  - 主体id: 罗峰
+    客体id: 千雨王
+    关系类型: 邀请
+  - 主体id: 真衍尊者
+    客体id: 罗峰
+    关系类型: 师徒
+
+events:
+  - 名称: 庆功宴
+    时间线: 在获得108宝藏之后
+    地点: 荣耀世界
+    描述: 真衍尊者为罗峰准备的庆祝宴会。
+  - 名称: 宝藏之地探索
+    时间线: 庆功宴之前
+    地点: 荣耀世界的宝藏之地
+    描述: 在宝藏之地发现108宝藏之一，引发其他传承者的关注。
+
+dialogues:
+  - 主体id: 千雨王
+    对象id: 罗峰
+    内容: "恭喜你获得了祖神教的108宝藏之一。"
+  - 主体id: 真衍尊者
+    对象id: 罗峰
+    内容: 恭喜刀河王得到108宝藏之一，举行庆功宴。
+  - 主体id: 戒吠镜王
+    对象id: 其他传承者
+    内容: "不过是靠了点运气而已！"
+
+timeline:
+  - 庆功宴前
+  - 罗峰发现108宝藏之一
+  - 千雨王邀请罗峰参加庆功宴
+
+mysteries:
+  - 罗峰是否能引发第二个宝藏的疑问。
+```

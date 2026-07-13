@@ -1,0 +1,117 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 恒星级别的天才战士，一战成名。
+    attributes:
+      实力: 法则门槛
+      身份: 黑龙山帝国预选赛的胜者
+
+  - id: 徐欣
+    type: Character
+    name: 徐欣
+    aliases: []
+    description: 罗峰的妻子，关注罗峰的实力发展。
+    attributes:
+      身份: 黑龙山岛屿居民
+
+  - id: 小海
+    type: Character
+    name: 小海
+    aliases: []
+    description: 罗峰的儿子，兴奋于父亲的名声。
+
+  - id: 银发老者
+    type: Character
+    name: 银发老者
+    aliases: []
+    description: 乾巫宇宙国中势力强者的代表。
+    attributes:
+      身份: 组织派来接触罗峰的人
+
+  - id: 帝皇
+    type: Character
+    name: 帝皇
+    aliases: []
+    description: 黑龙山帝国的领导者。
+    attributes:
+      实力: 高强
+
+  - id: 沃特
+    type: Character
+    name: 沃特
+    aliases: []
+    description: 不朽存在之一，寻找传人。
+
+  - id: 蒙火
+    type: Character
+    name: 蒙火
+    aliases: []
+    description: 神主级别的强者。
+    attributes:
+      实力: 不朽
+
+  - id: 昆沙罗
+    type: Character
+    name: 昆沙罗
+    aliases: []
+    description: 涉嫌欺诈蒙火的势力代表。
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 结婚
+    对象: 徐欣
+
+  - 主体: 蒙火
+    关系类型: 合作或兄弟关系
+    对象: 沃特
+
+locations:
+  - id: 黑龙山岛屿
+    type: Location
+    name: 黑龙山岛屿
+    description: 罗峰成名之地，黑龙山帝国的预选赛举办地。
+
+  - id: 冰海神国
+    type: Location
+    name: 冰海神国
+    description: 不朽存在的领地之一。
+
+organizations:
+  - id: 黑龙山帝国
+    type: Organization
+    name: 黑龙山帝国
+    description: 罗峰成名所在的国度，有两位不朽存在作为支持。
+    attributes:
+      特点: 尊重天才
+
+  - id: 乾巫宇宙国
+    type: Organization
+    name: 乾巫宇宙国
+    description: 虚拟宇宙公司所属的庞大势力范围。
+
+abilities:
+  - 名称: 秘法
+    描述: 高阶强者传授给传人的独特能力。
+    
+dialogues:
+  - 主体: 罗峰
+    对象: 徐欣
+    内容: "以后出去得伪装了。"
+  
+  - 主体: 红瞳男子
+    对象: 沃特
+    内容: "'我的寿命正走向终点。'"
+
+timeline:
+  - 时间点: 黑龙山帝国预选赛结束
+    描述: 罗峰一战成名，吸引各方势力关注。
+
+mysteries:
+  - 未解决信息: 昆沙罗是否真的欺诈了蒙火？
+```

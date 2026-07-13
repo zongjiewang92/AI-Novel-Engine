@@ -1,0 +1,94 @@
+```yaml
+source:
+  id: 第631章那是我大哥
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 新任乾巫分部监察特使，受到乾巫分部三巨头的特别重视。
+    attributes:
+      实力: 域主级九阶
+      背景: 真衍王爱徒
+
+  - id: 银雪侯
+    type: Character
+    name: 银雪侯
+    aliases: []
+    description: 干巫宇宙国的强大不朽神灵，乾巫分部三巨头之一。
+    attributes:
+      实力: 不详
+      关系: 罗峰的老师
+
+  - id: 姬风烟
+    type: Character
+    name: 姬风烟
+    aliases: []
+    description: 银雪侯的手下，穹玉星家族成员。
+    attributes:
+      实力: 不详
+      关系: 银雪侯的部下
+
+  - id: 誉阚
+    type: Character
+    name: 誉阚
+    aliases: []
+    description: 银雪侯的手下，穹玉星家族成员。
+    attributes:
+      实力: 不详
+      关系: 银雪侯的部下
+
+  - id: 紫电侯
+    type: Character
+    name: 紫电侯
+    aliases: []
+    description: 干巫宇宙国的强大不朽神灵，乾巫分部三巨头之一。
+    attributes:
+      实力: 不详
+      关系: 乾巫分部三巨头成员
+
+  - id: 金羽侯
+    type: Character
+    name: 金羽侯
+    aliases: []
+    description: 干巫宇宙国的强大不朽神灵，乾巫分部三巨头之一。
+    attributes:
+      实力: 不详
+      关系: 乾巫分部三巨头成员
+
+  - id: 黑湮侯
+    type: Character
+    name: 黑湮侯
+    aliases: []
+    description: 干巫宇宙国的强大不朽神灵，乾巫分部三巨头之一。
+    attributes:
+      实力: 不详
+      关系: 乾巫分部三巨头成员
+
+relationships:
+  - 主体: 罗峰
+    客体: 银雪侯
+    类型: 师徒关系
+  - 主体: 罗峰
+    客体: 金羽侯、紫电侯、黑湮侯
+    类型: 同事关系
+
+events:
+  - 名称: 干巫分部三巨头力挺罗峰
+    时间线位置: 开始
+    描述: 在宴会中，乾巫分部的三巨头特别殷勤地对待新任监察特使罗峰。
+
+dialogues:
+  - 主体: 银雪侯
+    客体: 姬风烟、誉阚
+    对话内容: "那罗峰不是对族祖很敬仰么？"
+    关键词: 罗峰, 敬仰
+
+timeline:
+  - 时间点: 开始
+    描述: 干巫分部三巨头在宴会中力挺新任监察特使罗峰。
+
+mysteries:
+  - 内容: 卜筮卡和“洪”的老师洛为何出现在宴会上。
+```

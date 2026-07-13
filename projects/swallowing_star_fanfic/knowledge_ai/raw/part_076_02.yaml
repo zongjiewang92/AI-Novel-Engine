@@ -1,0 +1,84 @@
+```yaml
+source:
+  id: 文本来源ID
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰, 刀河之主
+    aliases: 血云殿主
+    description: 魔杀族分身，拥有多个宇宙霸主级别的分身和宇宙之主的实力。使用星辰塔伪装成血云珠的长梭作为武器。
+    attributes:
+      - 实力: 宇宙之主
+      - 速度: 极快, 能够快速转移至不同原始星
+
+  - id: 沉火之主
+    type: Character
+    name: 沉火之主
+    aliases: 
+    description: 威名远播的宇宙之主，拥有九根火焰触角。
+    attributes:
+      - 实力: 宇宙之主
+
+  - id: 梦妖祖
+    type: Character
+    name: 梦妖祖
+    aliases: 
+    description: 管理妖族联盟高层之一, 对罗峰非常关注，试图找到他。
+    attributes:
+      - 实力: 宇宙之主
+
+  - id: 震妖祖
+    type: Character
+    name: 震妖祖
+    aliases: 
+    description: 管理妖族联盟高层之一, 对罗峰非常关注，试图找到他。
+    attributes:
+      - 实力: 宇宙之主
+
+  - id: 血云珠
+    type: Item
+    name: 血云珠
+    aliases: 长梭
+    description: 星辰塔伪装后的形态, 装备成血云殿主的武器。
+    attributes:
+      - 类型: 武器
+
+  - id: 初始宇宙
+    type: Location
+    name: 初始宇宙
+    aliases: 混沌城主掌控的空间
+    description: 受混沌城主控制的特殊空间, 宇宙最强者之一。
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 对抗
+    目标: 妖族联盟、虫族联盟、机械族联盟
+
+events:
+  - 名称: 血云殿主现身03129号原始星
+    时间线位置: 当前事件
+    描述: 罗峰在编号为03129的原始星上变换身份, 成为血云殿主。
+    关联人物:
+      - 罗峰
+      - 沉火之主
+
+  - 名称: 大规模搜索罗峰行动
+    时间线位置: 过去事件
+    描述: 妖族、虫族、机械族三大联盟的宇宙之主们正在进行大规模搜索, 寻找罗峰。
+    关联人物:
+      - 罗峰
+      - 沉火之主
+      - 梦妖祖
+      - 震妖祖
+
+dialogues:
+  - 主体: 沉火之主
+    对象: 梦妖祖, 震妖祖
+    内容: "我发现了血云殿主！他现在正在编号03129原始星上。"
+    
+timeline:
+
+mysteries:
+  - 描述: 罗峰是否逃回了初始宇宙？如果在初始宇宙，混沌城主会如何应对？
+```

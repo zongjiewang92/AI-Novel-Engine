@@ -1,0 +1,105 @@
+```yaml
+source:
+  id: original_text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 虚拟宇宙公司核心成员，地球人的骄傲。
+    attributes:
+      实力: 宇宙人类五大巨头之一
+      性别: 男
+      年龄: 不详
+      关系: 徐欣的丈夫，罗平、罗海的父亲
+
+  - id: 徐欣
+    type: Character
+    name: 徐欣
+    aliases: []
+    description: 罗峰的妻子，在九星湾小区生活。
+    attributes:
+      身份: 家庭主妇
+      性别: 女
+      年龄: 不详
+      关系: 罗峰的配偶，罗平、罗海的母亲
+
+  - id: 巴克森
+    type: Character
+    name: 巴克森
+    aliases: []
+    description: 拥有三万多颗生命星球领地的大奴隶供应商。
+    attributes:
+      实力: 不详
+      性别: 男
+      年龄: 不详
+
+  - id: 罗平
+    type: Character
+    name: 罗平
+    aliases: []
+    description: 罗峰的长子，继承了罗家的部分产业。
+    attributes:
+      身份: 继承人
+      性别: 男
+      年龄: 不详
+
+  - id: 罗海
+    type: Character
+    name: 罗海
+    aliases: []
+    description: 罗峰的次子，追求成为超级强者的武疯子。
+    attributes:
+      身份: 武者
+      性别: 男
+      年龄: 不详
+
+  - id: 混沌城
+    type: Location
+    name: 混沌城
+    aliases: []
+    description: 罗峰进行参悟的地方。
+    attributes:
+      地点特性: 时间流速快于原宇宙
+
+organizations:
+  - id: 虚拟宇宙公司
+    type: Organization
+    name: 虚拟宇宙公司
+    aliases: []
+    description: 宇宙人类五大巨头之一，罗峰的核心成员所在。
+    attributes:
+      地点: 原宇宙
+      成员构成: 商部和武部
+
+  - id: 平海公司
+    type: Organization
+    name: 平海公司
+    aliases: []
+    description: 徐欣的企业，在九星湾小区总部运营。
+    attributes:
+      地点: 平海市
+      成员构成: 不详
+
+dialogues:
+  - id: 罗峰与徐欣对话
+    type: Dialogue
+    participants:
+      - 罗峰
+      - 徐欣
+    content:
+      "你还知道回来！": "呃……"
+      "十年了！你超过十年没回来了！": "对不起。"
+
+timeline:
+  - id: 第一次回家
+    event_type: Event
+    description: 罗峰时隔多年回到九星湾小区，见到徐欣。
+    time: 十年后
+
+mysteries:
+  - id: 洪的下落
+    type: Mystery
+    content: 没能见到洪，他似乎正在进行重要的训练。
+```

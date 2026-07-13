@@ -1,0 +1,77 @@
+```yaml
+source:
+  id: 第1058章劫甲走路踩到重宝
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      原始星寻宝者，谨慎且实力强大。在原始星中寻找宝物时发现了一件重宝。
+    attributes:
+      实力: 宇宙尊者
+
+  - id: 金角巨兽
+    type: Species
+    name: 金角巨兽
+    aliases: []
+    description: >
+      罗峰的坐骑，外形奇特且具有一定的智慧。在罗峰肩膀上乖乖蹲着。
+    attributes:
+      关系: 坐骑
+
+  - id: 妖族
+    type: Species
+    name: 妖族
+    aliases: []
+    description: >
+      在原始星中与其他种族竞争的异族之一，拥有强大的实力。
+
+  - id: 星空巨兽联盟
+    type: Organization
+    name: 星空巨兽联盟
+    aliases: []
+    description: >
+      一个由星空巨兽组成的强大组织，在原始星中有一定的势力和影响力。
+    attributes:
+      关系: 和妖族有一定的瓜葛
+
+  - id: 原始星
+    type: Location
+    name: 原始星
+    aliases: []
+    description: >
+      寻找宝物的地方，存在大量珍贵材料及宝物。原始星上任何与之感觉一体的物品都会很快回到原处。
+
+items:
+  - id: 银白色尖角正方体
+    type: Item
+    name: 正方体
+    aliases: []
+    description: >
+      罗峰在山林中踩到的一件重宝，通体银色，上面有古老法则秘纹。
+    attributes:
+      类型: 重宝
+
+events:
+  - id: 妖族与九域联盟的战斗
+    type: Event
+    name: 战斗
+    description: >
+      在原始星中妖族和九域联盟之间的激烈厮杀，吸引了其他种族强者的注意。
+
+dialogues:
+  - speaker: 巨型野兽
+    content: "星空巨兽联盟！我们走！"
+    context: 吸引了多名异族强者前来围观的战斗结束后，部分异族迅速离开。
+timeline:
+  - 时间点: 罗峰在原始星中漫步寻宝时
+    描述: >
+      发现了一件银白色的尖角正方体重宝，并感叹原始星上重宝之多。
+
+mysteries:
+  - id: 原始星的特殊规则
+    description: >
+      在原始星内，任何与星球感觉一体的物品都会很快回到原处。唯有那些没有这种联系的出世宝物才是可以带走的。
+```

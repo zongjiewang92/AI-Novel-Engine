@@ -1,0 +1,73 @@
+```yaml
+source:
+  id: 罗峰的新幽海分身与双面祖神的对话
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 银河领主，蟒河军的一员。
+    attributes:
+      实力: 宇宙海强者, 蟒河甲拥有者
+      关系: 双面祖神的好友, 本源意志的重视对象
+  - id: 双面祖神
+    type: Character
+    name: 双面祖神
+    aliases: []
+    description: 祖神教成员，原始宇宙本源意志的代表。
+    attributes:
+      实力: 远超虚空真神
+      关系: 罗峰的好友, 传递原始宇宙本源意志的消息
+  - id: 蟒河军
+    type: Organization
+    name: 蟒河军
+    aliases: []
+    description: 特殊军团，罗峰的所属。
+    attributes:
+      成员身份: 罗峰为成员之一
+
+abilities:
+  - id: 燃烧神力秘术
+    type: Ability
+    name: 燃烧神力秘术
+    aliases: []
+    description: 蟒河军的传承技能，可增强战斗力。
+
+items:
+  - id: 蟒河甲
+    type: Item
+    name: 蟒河甲
+    aliases: []
+    description: 真神级战甲，拥有防御和攻击能力。
+    attributes:
+      属性: 防御八阶以下不伤神体, 攻击七阶以下不伤神体
+
+events:
+  - id: 双面祖神来访
+    type: Event
+    name: 双面祖神来访
+    description: 双面祖神代表原始宇宙本源意志来见罗峰。
+    timeline: 罗峰在晋之世界中的收获被认可，获得指引。
+
+dialogues:
+  - speaker1: 罗峰
+    speaker2: 双面祖神
+    content: "银河领主你在晋之世界，收获极大。"
+    context: 原始宇宙本源意志通过双面祖神传达对罗峰的认可和未来期望。
+  - speaker1: 罗峰
+    speaker2: 混沌城主
+    content: "这是蟒河军的‘燃烧神力秘术’。"
+    context: 将蟒河军传承技能发送给混沌城主。
+
+timeline:
+  - 时间点: 双面祖神来访时
+    描述: 罗峰被原始宇宙本源意志认可，获得未来指导。
+  - 时间点: 雷霆岛之巅相见时
+    描述: 罗峰将蟒河军的传承技能发送给混沌城主。
+
+mysteries:
+  - id: 原始宇宙本源意志的目的
+    type: Mystery
+    description: 为何原始宇宙本源意志如此重视罗峰，并积极引导他。
+```

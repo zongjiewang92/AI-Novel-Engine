@@ -1,0 +1,78 @@
+```yaml
+source:
+  id: 第1350章紫月圣地的格杀令
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 银河领主，具有强大的实力和一定的影响力。
+    attributes:
+      实力: 宇宙之主以上
+      性格: 冷静、果断
+
+  - id: 紫濮之主
+    type: Character
+    name: 紫濮之主
+    aliases: []
+    description: 紫月圣地的宇宙之主，拥有一定的实力和地位。
+    attributes:
+      实力: 宇宙之主
+      性格: 冷漠、傲慢
+
+  - id: 雷梭之主
+    type: Character
+    name: 雷梭之主
+    aliases: []
+    description: 旋泽海礁石上的宇宙之主之一。
+    attributes:
+      实力: 宇宙之主
+      性格: 不详
+
+organizations:
+  - id: 紫月圣地
+    type: Organization
+    name: 紫月圣地
+    aliases: []
+    description: 一个与人类对立的强大势力，拥有宇宙之主级别的成员。
+    attributes:
+      成员数量: 不足400位宇宙之主
+
+locations:
+  - id: 旋泽海中央
+    type: Location
+    name: 旋泽海中央
+    aliases: []
+    description: 紫月圣地的活动区域，位于一处巨大礁石上。
+    
+  - id: 星辰塔
+    type: Location
+    name: 星辰塔
+    aliases: []
+    description: 巨大的建筑结构，内部设有镇封空间。
+
+abilities:
+  - id: 分身之能
+    type: Ability
+    name: 分身之能
+    description: 可以制造分身的能力。
+    
+timeline:
+  events:
+    - id: 罗峰抓紫濮之主
+      time: 同一天
+      description: 在旋泽海中央的礁石上，罗峰抓住了紫月圣地的宇宙之主紫濮之主，并将其镇封在星辰塔内。
+
+dialogues:
+  - characters:
+      - 罗峰
+      - 紫濮之主
+    text: |
+      "你也敢在我面前出现？"
+      "怎么不敢，这是宇宙舟，又不是你人类的疆域。即便是你人类的疆域，若是原始宇宙允许，我照样敢去闯。银河领主……怎么？你也要对我动手？你和我动手，便是和我紫月圣地为敌！"
+
+mysteries:
+  - id: 紫月圣地始祖之令
+    description: 关于始祖的命令意图以及后续行动。
+```

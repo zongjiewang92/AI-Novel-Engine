@@ -1,0 +1,101 @@
+```yaml
+source:
+  id: 第1106章梵挪堡主和罗峰
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有金角巨兽分身，幽海分身等多个人格。掌握高等至宝。
+    attributes:
+      实力: 宇宙之主
+      关系: 与梵挪堡主为对手关系
+
+  - id: 幽海分身
+    type: Character
+    name: 幽海分身
+    aliases: []
+    description: 穿着高等至宝铠甲，背负紫色战刀。被派去守护地球。
+    attributes:
+      实力: 类宇宙之主(配备高等至宝后)
+      
+  - id: 金角巨兽分身
+    type: Character
+    name: 金角巨兽分身
+    aliases: []
+    description: 罗峰的战斗化身，神体庞大。
+    attributes:
+      实力: 类宇宙之主(配备高等至宝后)
+
+  - id: 魔杀族分身
+    type: Character
+    name: 魔杀族分身
+    aliases: []
+    description: 罗峰的人格之一。
+    attributes:
+      
+  - id: 梵挪堡主
+    type: Character
+    name: 梵挪堡主
+    aliases: []
+    description: 刺环联盟的强者，逆转时空复活了煞雾尊者。
+    attributes:
+      实力: 宇宙之主
+
+  - id: 煞雾尊者
+    type: Character
+    name: 煞雾尊者
+    aliases: []
+    description: 被梵挪堡主用逆转时空复活，跟踪天旸尊者的对手。
+    attributes:
+      实力: 宇宙霸主
+
+organizations:
+  - id: 刺环联盟
+    type: Organization
+    name: 刺环联盟
+    aliases: []
+
+locations:
+  - id: 原始星
+    type: Location
+    name: 原始星
+    aliases: []
+    
+items:
+  - id: 高等至宝铠甲
+    type: Item
+    name: 高等至宝铠甲
+    description: 来自天旸尊者，由幽海分身穿戴。
+    
+  - id: 紫色战刀
+    type: Item
+    name: 紫色战刀
+    description: 罗峰近一年来击杀五名宇宙霸主所得。
+    
+abilities:
+  - id: 逆转时空
+    type: Ability
+    name: 逆转时空
+    description: 宇宙之主级别的秘法，能将死去的强者复活。
+
+dialogues:
+  - characters:
+      - 梵挪堡主
+      - 煞雾尊者
+    content: 
+      梵挪堡主问煞雾尊者的跟踪情况。
+      
+timeline:
+  - event_id: 幽海分身前往地球
+    time: 近一年后
+    description: 幽海分身离开神国，去守护罗家所在的地球。
+
+mysteries:
+  - id: 混沌气流出现原因
+    type: Mystery
+    name: 混沌气流出现的原因
+    description: 煞雾尊者在原始星遭遇混沌气流的场景让梵挪堡主感到疑惑，因为混沌气流不可能出现在原始星。
+    
+```

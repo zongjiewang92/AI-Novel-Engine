@@ -1,0 +1,145 @@
+```yaml
+source:
+  id: 文本来源ID
+
+entities:
+  - id: 混沌城主
+    type: Character
+    name: 混沌城主
+    aliases: []
+    description: 罗峰的老师，宇宙之主级别的强者。
+    attributes:
+      实力: 宇宙之主
+      特殊身份: 原祖的学生、罗峰的老师
+
+  - id: 巨斧
+    type: Character
+    name: 巨斧
+    aliases: []
+    description: 罗峰的老师之一，宇宙之主级别的强者。
+    attributes:
+      实力: 宇宙之主
+      特殊身份: 混沌城主的朋友
+
+  - id: 坐山客
+    type: Character
+    name: 坐山客
+    aliases: []
+    description: 罗峰的老师之一，宇宙之主级别的强者。
+    attributes:
+      实力: 宇宙之主
+      特殊身份: 混沌城主的朋友
+
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 主角，宇宙尊者级别的强者。
+    attributes:
+      实力: 宇宙尊者（秘纹图流派已达到宇宙之主水平）
+      特殊身份: 混沌城主和巨斧的学生
+
+  - id: 隐秘空间
+    type: Location
+    name: 隐秘空间
+    aliases: []
+    description: 罗峰曾经在此地看到古老存在最强绝学的遗迹。
+    attributes:
+      地点类型: 秘境
+      特殊性: 存在高深秘纹图
+
+  - id: 黑纹石柱空间
+    type: Location
+    name: 黑纹石柱空间
+    aliases: []
+    description: 宇宙舟内域的天然遗迹之一，由16根黑纹石柱撑起。
+    attributes:
+      地点类型: 遗迹
+      特殊性: 有极深奥黑色秘纹图分布
+
+organizations:
+  - id: 鸿盟
+    type: Organization
+    name: 鸿盟
+    aliases: []
+    description: 文中提及的一个组织。
+    attributes:
+      类型: 组织
+
+items:
+  - id: 疯魔灭神甲
+    type: Item
+    name: 疯魔灭神甲
+    aliases: [宝甲]
+    description: 罗峰拥有的仅次于至强至宝的防御性宝物。
+    attributes:
+      类型: 宝物
+      功能: 防御和进攻
+
+  - id: 雪火界
+    type: Item
+    name: 雪火界
+    aliases: []
+    description: 罗峰在此次宇宙舟闯荡中获得的顶级领域类至宝。
+    attributes:
+      类型: 宝物
+      功能: 属于领域类至宝，有特殊防御和攻击能力
+
+abilities:
+  - id: 秘纹图流派
+    type: Ability
+    name: 秘纹图流派
+    aliases: []
+    description: 罗峰擅长的秘法体系。
+    attributes:
+      类型: 秘法
+      特殊性: 达到宇宙之主水平
+
+  - id: 裂金
+    type: Ability
+    name: 裂金
+    aliases: [裂金之主]
+    description: 罗峰所创的秘法，属于攻击类最强秘法。
+    attributes:
+      类型: 秘法
+      功能: 攻击
+
+  - id: 灭神
+    type: Ability
+    name: 灭神
+    aliases: []
+    description: 疯魔灭神甲右手第三重秘纹的名称，属于最强招数。
+    attributes:
+      类型: 秘法
+      功能: 攻击
+
+events:
+  - id: 波星海一役
+    type: Event
+    name: 波星海一役
+    aliases: []
+    description: 罗峰在此战斗中突破，实力大增。
+    attributes:
+      时间节点: 文章提及的重要转折点
+      类型: 战斗
+
+dialogues:
+  - id: 1
+    type: Dialogue
+    speaker: 混沌城主
+    listener: 罗峰
+    content: "我知道你自己有打算，刚失了银翼至宝，又多了另一件仅次于至强至宝的宝甲。明明才是宇宙尊者，在秘纹图流方面却已是宇宙之主造诣。"
+    context: 混沌城主对罗峰的实力和进步表示认可，并给予建议。
+
+timeline:
+  - id: 罗峰进入宇宙舟
+    type: Timeline
+    description: 罗峰进入宇宙舟，开始闯荡。
+    attributes:
+      时间节点: 文章开头提及的时间点
+
+mysteries:
+  - id: 1
+    type: Mystery
+    description: 黑纹石柱空间内是否有可以利用的资源和秘法？
+```

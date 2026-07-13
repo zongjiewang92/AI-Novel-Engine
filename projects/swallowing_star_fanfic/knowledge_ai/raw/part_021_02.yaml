@@ -1,0 +1,72 @@
+```yaml
+source:
+  id: 罗峰遗产
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 虚拟宇宙中的一名恒星级强者，拥有来自老师的大笔财富。
+    attributes:
+      实力等级: 恒星级
+      财富: 100亿乾巫币
+
+  - id: 巴巴塔
+    type: Character
+    name: 巴巴塔
+    aliases: []
+    description: 罗峰的智能光脑，老师的虚拟助手。
+    attributes:
+      类型: 智能光脑
+
+  - id: 陨墨星主人
+    type: Character
+    name: 陨墨星主人
+    aliases: []
+    description: 超级强者，麾下有九位不朽奴仆，在乾巫宇宙国中是大人物。
+    attributes:
+      实力等级: 不朽且强
+
+  - id: 宇宙星河银行
+    type: Organization
+    name: 宇宙星河银行
+    aliases: []
+    description: 提供金融和财富管理服务的大型金融机构。
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 拥有
+    目标: 财富
+
+  - 主体: 罗峰
+    关系类型: 使用
+    目标: 宇宙星河银行账户
+
+events:
+  - 名称: 取钱
+    时间线位置: 当前事件
+    描述: 罗峰通过宇宙星河银行取出了100亿乾巫币。
+    参与者:
+      - 罗峰
+      - 宇宙星河银行
+
+dialogues:
+  - 对话人1: 巴巴塔
+    对话人2: 罗峰
+    内容: "你老师给你安排的三个账户，实际上都是这个账户。"
+    
+  - 对话人1: 银行行长
+    对话人2: 罗峰
+    内容: "尊敬的客人，请随我来。"
+
+timeline:
+  - 时间点: 取钱之前
+    描述: 罗峰前往宇宙星河银行准备取老师留下的遗产。
+    
+  - 时间点: 取钱之时
+    描述: 罗峰通过智能光脑和念力解锁账户，取出100亿乾巫币。
+
+mysteries:
+  - 内容: 老师为罗峰准备的宇宙级和域主级别的遗产金额是多少。
+```

@@ -1,0 +1,82 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 洪
+    type: Character
+    name: 洪
+    aliases: []
+    description: 大战兽皇，使用摩云藤。
+    attributes:
+      实力: 行星级武者
+
+  - id: 雷神
+    type: Character
+    name: 雷神
+    aliases: []
+    description: 流银护卫之一，在地球上活跃对抗怪兽。
+
+  - id: 船长
+    type: Character
+    name: 船长
+    aliases: []
+    description: 来自诺岚山家族的船长，对金角巨兽尸体极为关注。
+    attributes:
+      家族: 诺岚山家族
+
+  - id: 诺岚山家族
+    type: Organization
+    name: 诺岚山家族
+    aliases: []
+    description: 船长所属的强大家族。
+
+  - id: 吞噬兽
+    type: Species
+    name: 吞噬兽
+    aliases: []
+    description: 地球上出现的致命怪兽，被人类八英雄以牺牲为代价消灭。
+    attributes:
+      实力: 恒星级
+
+  - id: 金角巨兽
+    type: Species
+    name: 金角巨兽
+    aliases: [星空巨兽]
+    description: 稀有且强大的星空巨兽，幼年期价值极高。
+
+  - id: 阿图卡
+    type: Character
+    name: 阿图卡
+    aliases: []
+    description: 宇宙冒险飞船的智能系统。
+    attributes:
+      职位: 飞船智能
+
+relationships:
+
+events:
+  - id: 地球上的八英雄牺牲击杀吞噬兽
+    type: Event
+    name: 地球上的八英雄牺牲击杀吞噬兽
+    description: 八名地球人以生命为代价，使用念力秘法消灭了吞食怪兽。
+
+dialogues:
+  - speaker: 船长
+    listener: 阿图卡
+    content: "那怪兽是生是死？"
+  
+  - speaker: 阿图卡
+    listener: 船长
+    content: "吞噬兽被杀死后，人类派遣行星级武者进入海底，但尸体未能获取。至今仍是谜团。"
+
+timeline:
+  - 时间点: 华夏时间中午11点42分
+    描述: 宇宙冒险飞船收集地球资料完毕。
+
+mysteries:
+  - id: 吞噬兽的尸体去向不明
+    type: Mystery
+    name: 吞噬兽的尸体去向不明
+    description: 吞噬兽被杀后，其尸体至今下落不明。
+```

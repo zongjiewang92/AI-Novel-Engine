@@ -1,0 +1,65 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 意志极强的强者，拥有兽神传承令。
+    attributes:
+      实力: 强者, 拥有宇宙尊者的实力
+
+  - id: 真衍王
+    type: Character
+    name: 真衍王
+    aliases: []
+    description: 罗峰老师，意志极强的强者，拥有兽神传承令。
+    attributes:
+      实力: 强者, 拥有宇宙尊者的实力
+
+  - id: 斐沧族尊者
+    type: Character
+    name: 斐沧族尊者
+    aliases: []
+    description: 宇宙中的岩石生命，祖神教的接引者。
+    attributes:
+      实力: 强大, 拥有宇宙尊者的实力
+
+  - id: 祖神秘境传说中的五彩极光湖
+    type: Location
+    name: 五彩极光湖
+    aliases: []
+    description: 祖神教的护教至宝，直径最大为10光年。
+    attributes:
+      威能: 强大, 单独一道极光足以重伤宇宙尊者
+
+organizations:
+  - id: 祖神教
+    type: Organization
+    name: 祖神教
+    aliases: []
+    description: 宇宙第一大势力，拥有五彩极光湖作为护教至宝。
+
+dialogues:
+  - speaker: 斐沧族尊者
+    listener: 罗峰、真衍王
+    content: "人类，拿出兽神传承令，若是没有兽神传承令，擅闯我祖神教重地，死。"
+    
+  - speaker: 斐沧族尊者
+    listener: 真衍王
+    content: "你倒是有点见识。"
+
+  - speaker: 斐沧族尊者
+    listener: 罗峰、真衍王
+    content: "你们四大族群的域外战场上不就有一件宇宙最强至宝之一的‘星辰塔’？那可是无数强者都无法撼动、强行带走的至宝，至今宇宙中无数强者都不知道它真正的威能，总之，它还没有主人。"
+
+timeline:
+  - event: 罗峰和真衍王被斐沧族尊者发现
+    date:
+
+mysteries:
+  - question: 星辰塔为何没有主人？
+    answer:
+```

@@ -1,0 +1,90 @@
+```yaml
+source:
+  id: 第640章听到了
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有宇宙强者实力，银河领主。
+    attributes:
+      实力: 宇宙强者, 银河领主
+      性格: 温和且强大
+  - id: 迪伦
+    type: Character
+    name: 迪伦
+    aliases: []
+    description: 黑袍光头男，跟随罗峰。
+    attributes:
+      实力: 不详
+      能力: 变形, 使用不朽之力
+  - id: 扬州城
+    type: Location
+    name: 扬州城
+    aliases: [八大卫城之一]
+    description: 江南基地市的八大卫城之一，常住人口两千万。
+    attributes:
+      地位: 和江南基地市并肩
+  - id: 极限武馆
+    type: Location
+    name: 极限武馆
+    aliases: []
+    description: 罗峰曾经练武的地方，现在非常热闹。
+  - id: 练功服青年
+    type: Character
+    name: 杨志
+    aliases: [阿志]
+    description: 餐厅冲突中的主角之一。
+    attributes:
+      实力: 战士级
+      性格: 勇敢且坚定
+  - id: 黄发胖子
+    type: Character
+    name: 严欢
+    aliases: []
+    description: 穿着黑衣的保镖头领，对杨志不满。
+    attributes:
+      实力: 战士级
+      性格: 阴险且高傲
+  - id: 女孩
+    type: Character
+    name: 小妹
+    aliases: []
+    description: 杨志的妹妹，支持哥哥并保护他。
+    attributes:
+      实力: 不详
+      关系: 和杨志是兄妹关系
+
+relationships:
+  - source_id: 罗峰
+    target_id: 迪伦
+    type: 随从
+    description: 迪伦跟随罗峰行动。
+
+events:
+  - name: 扬州城重游
+    type: Event
+    attributes:
+      时间: 不详
+      描述: 罗峰和迪伦回到扬州城，回忆往昔。
+      地点: 扬州城
+
+dialogues:
+  - speaker_id: 迪伦
+    listener_id: 罗峰
+    dialogue: "殿下当年在这修炼，而殿下现在有是银河领主，难怪这座武馆会这么热闹。"
+    context: 参观罗峰曾经练武的极限武馆时。
+  - speaker_id: 杨志
+    listener_id: 严欢
+    dialogue: "不是我小子敢不给你老大面子……怎么……想要靠你老大的保镖，趁机废了我？"
+    context: 在餐厅内与黄发胖子冲突时。
+
+timeline:
+  - event_name: 扬州城重游
+    time: 不详
+
+mysteries:
+  - question: 黄发胖子为何针对杨志？
+    source: "严欢，做事留点分寸，这是扬州城！闹大了，谁也保不住你。"
+```

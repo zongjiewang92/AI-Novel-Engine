@@ -1,0 +1,42 @@
+```yaml
+source:
+  id: "610"
+
+entities:
+  - id: "罗峰"
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 宇宙级九阶天才，拥有金角巨兽分身和魔杀族分身。
+    attributes:
+      实力: 绝境级任务完成者，得到过魔音神将传承
+      能力: 拥有魔杀族分身、金角巨兽分身
+
+  - id: "布布鲁"
+    type: Character
+    name: 布布鲁
+    aliases: []
+    description: 矮人，罗峰的老师。
+    attributes:
+      实力: 不详
+      能力: 教授《三千星空》
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 学生
+    宾语: 布布鲁
+
+events:
+  - 名称: 接受魔音神将传承
+    时间: 不详
+    描述: 在32座传承殿中接受魔音神将传承，进展顺利。
+
+dialogues:
+
+timeline:
+  - "罗峰在完成绝境级任务后接受魔音神将传承"
+  - "两年过去，克罗夫未现身虚拟宇宙网络"
+
+mysteries:
+  - 克罗夫的生死情况
+```

@@ -1,0 +1,52 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 宇宙尊者，击杀吠镜王后成为族群最高会议成员。
+    attributes:
+      实力: 封王不朽级
+      身份: 人类族群最高会议成员
+
+  - id: 城主府
+    type: Location
+    name: 初始宇宙城主府
+    aliases: []
+    description: 提供献宝服务的地点，位于混沌城内。
+
+  - id: 混沌城
+    type: Location
+    name: 混沌城
+    aliases: []
+    description: 宇宙文明中重要的修炼场所之一。
+
+relationships:
+  - 主体: 罗峰
+    相关对象: 城主府
+    关系类型: 到达
+
+events:
+  - 名称: 献宝
+    时间: 文本开始至结束
+    描述: 罗峰将剑河罗神剑献给族群，并查看人类族群的珍贵宝物兑换详细表单。
+    
+dialogues:
+  - 发言者: 温和声音
+    对象: 罗峰
+    内容: "剑河罗神剑，献给族群可得到12至宝点。罗峰，是否愿将这宝物献给族群？"
+    场景: 偏殿内
+
+timeline:
+  - 时间节点: 文本开始
+    描述: 罗峰在混沌城的宇宙飞船中。
+  
+  - 时间节点: 抵达混沌城
+    描述: 罗峰到达混沌城，并来到城主府献宝。
+
+mysteries:
+  - 内容: 人类族群是否拥有至强至宝兑换？
+```

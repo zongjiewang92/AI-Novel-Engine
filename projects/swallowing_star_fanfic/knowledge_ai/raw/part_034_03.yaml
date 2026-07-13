@@ -1,0 +1,64 @@
+```yaml
+source:
+  id: 第502章
+
+entities:
+  - id: 酉炎塔
+    type: Character
+    name: 酉炎塔
+    aliases: []
+    description: 精瘦男子，酉家成员。
+    attributes:
+      实力: 天空级（恒星级）
+      关系: 酉方的叔公
+
+  - id: 黑胡子老头
+    type: Character
+    name: 黑胡子老头
+    aliases: []
+    description: 酉家队伍领头，一脸黑胡子。
+    attributes:
+      实力: 大地级（行星级）
+      关系: 酉方的长辈
+
+  - id: 十三斧
+    type: Organization
+    name: 十三斧
+    aliases: []
+    description: 燕岗领内的强大组织，成员包括三位云霄级（宇宙级）、十位天空级巅峰。
+    attributes:
+      实力: 强大
+
+  - id: 酉方
+    type: Character
+    name: 酉方
+    aliases: []
+    description: 酉家的负责人。
+    attributes:
+      关系: 酉炎塔的长辈
+
+events:
+  - id: 十三斧袭击酉家队伍
+    type: Event
+    description: 在燕岗领范围内，十三斧组织对酉家运输货物的队伍进行了猛烈攻击，导致大量人员伤亡。
+
+dialogues:
+  - speaker: 黑胡子老头
+    listener: 十三斧成员
+    content: "酉家？交出‘古神废墟’的那件甲衣，饶你们一命。"
+    context: 当十三斧要求酉家交出特定物品时
+
+timeline:
+  - id: 十三斧袭击前
+    description: 酉家队伍在燕岗领内运送货物。
+
+  - id: 十三斧袭击中
+    description: 十三斧组织成员从大山山顶快速下冲，对酉家队伍进行攻击和追杀。
+
+mysteries:
+  - id: 古神废墟甲衣的真正持有者
+    type: Mystery
+    description: 酉炎塔与黑胡子老头都提到需要交给十三斧的物品，但最终并未找到该物品。
+```
+
+此YAML格式仅包含上述指定的信息类型和内容。

@@ -1,0 +1,112 @@
+```yaml
+source:
+  id: origin_text
+
+entities:
+  - id: 金角之主
+    type: Character
+    name: 金角之主
+    aliases: []
+    description: 星空巨兽联盟的宇宙之主，负责接引回归的同族金角罗峰，并带领其见始祖。
+    attributes:
+      实力: 宇宙之主
+
+  - id: 旋灭之主
+    type: Character
+    name: 旋灭之主
+    aliases: []
+    description: 新晋宇宙之主，星空巨兽联盟的成员之一，帮助金角罗峰见始祖。
+    attributes:
+      实力: 宇宙之主
+
+  - id: 帆尊者
+    type: Character
+    name: 帆尊者
+    aliases: []
+    description: 星空巨兽中的尊者，与金角罗峰一同被接引回星空神山。
+    attributes:
+      实力: 尊者
+
+  - id: 丘壑巨兽
+    type: Species
+    name: 丘壑巨兽
+    aliases: []
+    description: 十二巅峰血统之一。
+
+  - id: 星空巨兽联盟
+    type: Organization
+    name: 星空巨兽联盟
+    aliases: []
+    description: 拥有宇宙最强者的超级势力，重视培养金角罗峰以期其成为宇宙之主。
+    attributes:
+      成员组成: 金角巨兽、丘壑巨兽等十二巅峰血统
+
+  - id: 始祖山
+    type: Location
+    name: 始祖山
+    aliases: []
+    description: 星空神山顶的一座独立山峰，由十二名宇宙尊者看守。
+    attributes:
+      高度: 约上亿公里
+
+  - id: 天空中神山
+    type: Location
+    name: 星空神山
+    aliases: []
+    description: 包含众多传承和珍宝的神秘之地，金角罗峰被接引至的地方。
+    attributes:
+      内容: 珍贵宝藏、各种传承
+
+relationships:
+  - id: 1
+    type: 属于
+    source_id: 帆尊者
+    target_id: 星空巨兽联盟
+    description: 帆尊者隶属于星空巨兽联盟。
+
+  - id: 2
+    type: 指导
+    source_id: 金角之主
+    target_id: 旋灭之主
+    description: 两位宇宙之主共同指导和照顾回归的金角罗峰。
+
+  - id: 3
+    type: 属于
+    source_id: 始祖山
+    target_id: 星空神山
+    description: 始祖山是星空神山顶的一座独立山峰，位于整个星空巨兽联盟的核心位置。
+
+events:
+  - id: 1
+    type: 事件
+    name: 接引金角罗峰
+    description: 金角之主和旋灭之主接引回归的金角罗峰，并带领他去见始祖。
+    timeline: 
+      开始时间: 近二十分钟前
+
+dialogues:
+  - id: 1
+    type: 对话
+    speaker_id: 金角之主
+    listener_id: 旋灭之主, 金角罗峰
+    content: "能媲美不少宇宙霸主了。"
+    context: 表扬金角罗峰的实力。
+
+  - id: 2
+    type: 对话
+    speaker_id: 旋灭之主
+    listener_id: 金角罗峰
+    content: "你若是跨入宇宙之主，我金角巨兽一脉便有三位宇宙之主了。"
+    context: 鼓励金角罗峰成为宇宙之主。
+
+timeline:
+  - id: 1
+    type: 时间线
+    event_id: 接引金角罗峰
+    order: 1
+
+mysteries:
+  - id: 1
+    type: 疑问
+    description: "始祖为何要亲自见刚回归的金角罗峰？"
+```

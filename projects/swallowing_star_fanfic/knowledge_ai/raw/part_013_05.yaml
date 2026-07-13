@@ -1,0 +1,121 @@
+```yaml
+source:
+  id: original_text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 武者，拥有强大的实力和特殊的身份。
+    attributes:
+      - 实力: 行星级
+      - 关系: 徐欣的男友
+
+  - id: 徐欣
+    type: Character
+    name: 徐欣
+    aliases: []
+    description: 出身大家族的女孩，聪明善解人意，打算自己创业。
+    attributes:
+      - 实力: 不详
+      - 关系: 罗峰的女友
+
+  - id: 李耀
+    type: Character
+    name: 李耀
+    aliases: []
+    description: 和维妮娜夫妇一起逃离江南基地市，被战神宫逮捕。
+    attributes:
+      - 实力: 不详
+      - 关系: 维妮娜的丈夫
+
+  - id: 维妮娜
+    type: Character
+    name: 维妮娜
+    aliases: []
+    description: 李耀的妻子，和李耀一起逃离江南基地市，被战神宫逮捕。
+    attributes:
+      - 实力: 不详
+      - 关系: 李耀的女友
+
+  - id: 颜海
+    type: Character
+    name: 颜海
+    aliases: []
+    description: 战神宫议员，与李耀有深厚的交情。
+    attributes:
+      - 实力: 超越行星级
+      - 关系: 李耀的前辈
+
+  - id: 博尼特
+    type: Character
+    name: 博尼特
+    aliases: []
+    description: 战神宫议员，负责逮捕李耀和维妮娜。
+    attributes:
+      - 实力: 不详
+      - 关系: 战神宫的成员
+
+organizations:
+  - id: HR联盟
+    type: Organization
+    name: HR联盟
+    aliases: []
+    description: 在巴黎基地市有影响力，与战神宫有一定冲突。
+
+locations:
+  - id: 扬州城
+    type: Location
+    name: 扬州城
+    aliases: []
+    description: 罗峰和徐欣相见的地方。
+  
+  - id: 江南基地市
+    type: Location
+    name: 江南基地市
+    aliases: []
+    description: 李耀夫妇逃离的地方。
+
+  - id: 巴黎基地市
+    type: Location
+    name: 巴黎基地市
+    aliases: []
+    description: 李耀夫妇被逮捕后前往的目的地。
+  
+events:
+  - id: 罗峰和徐欣相见
+    type: Event
+    name: 罗峰和徐欣相见
+    description: 在扬州城明月小区，罗峰和徐欣在深冬寒风中重逢。
+
+  - id: 李耀夫妇被逮捕
+    type: Event
+    name: 李耀夫妇被逮捕
+    description: 李耀、维妮娜夫妇从江南基地市飞往巴黎基地市途中被捕。
+  
+dialogues:
+  - speaker: 徐欣
+    listener: 罗峰
+    content: "对不起，真的对不起。"
+    context: 看到罗峰时忍不住哭泣并抱住他。
+
+  - speaker: 李耀
+    listener: 颜海
+    content: "前辈！！！"
+    context: 在巴黎基地市机场听到逮捕消息后寻求颜海帮助。
+  
+timeline:
+  - event_id: 罗峰和徐欣相见
+    time: 深冬夜晚
+  
+  - event_id: 李耀夫妇被逮捕
+    time: 同时发生
+
+mysteries:
+  - question: 如何处理罗峰成为议员的问题？
+    evidence: 被捕前李耀提到的顾虑。
+
+  - question: HR联盟与战神宫之间的冲突会如何发展？
+    evidence: 战神宫议会成员在巴黎基地市逮捕李耀夫妇。
+```

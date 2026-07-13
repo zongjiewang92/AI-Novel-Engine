@@ -1,0 +1,93 @@
+```yaml
+source:
+  id: origin_text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 探索宇宙海水域的修炼者，潜力巨大。
+    attributes:
+      实力: 宇宙尊者级
+      目标: 在宇宙海中磨砺自己
+
+  - id: 燧石之主
+    type: Character
+    name: 燧石之主
+    aliases: []
+    description: 鸿盟中的燧石之主，神体周围有火焰环绕。
+    attributes:
+      实力: 宇宙之主级
+      性格: 不屑且愤愤不平
+
+  - id: 嫦鹫之主
+    type: Character
+    name: 嫦鹫之主
+    aliases: []
+    description: 当年妖族培养的绝世天才，现在地位极高。
+    attributes:
+      实力: 宇宙之主级
+      潜力: 极高
+
+  - id: 神眼族强者
+    type: Character
+    name: 神眼族强者
+    aliases: []
+    description: 第一宇宙时代的强敌，拥有巨大独眼虚影。
+    attributes:
+      实力: 宇宙之主级
+      性格: 残酷无情
+
+  - id: 安永之主
+    type: Character
+    name: 安永之主
+    aliases: []
+    description: 神眼族中的追杀者，以极高速度捕猎。
+    attributes:
+      实力: 宇宙之主级
+      目标: 从无尽杀戮中寻找永恒之路
+
+organizations:
+  - id: 鸿盟
+    type: Organization
+    name: 鸿盟
+    aliases: []
+    description: 罗峰所在的宇宙联盟组织。
+    attributes:
+      
+locations:
+  - id: 宇宙海水域深处
+    type: Location
+    name: 宇宙海水域深处
+    aliases: []
+    description: 广袤无尽的水域，充满危险和宝藏。
+
+abilities:
+  - id: 空间封锁
+    type: Ability
+    name: 空间封锁
+    description: 封锁指定区域的空间波动。
+    attributes:
+
+events:
+  - id: 燧石之主求救
+    type: Event
+    name: 燧石之主求救
+    description: 第一宇宙时代的神眼族安永之主追杀燧石之主，燧石之主发出紧急求救信号。
+    timeline:
+      发生时间: 文本中
+
+dialogues:
+  - id: 安永之主对话
+    type: Dialogue
+    name: 安永之主对话
+    description: "你逃得掉吗？生命有限。永恒难求，从无尽杀戮中寻找永恒之路。燧石之主……还是受死吧。"
+    attributes:
+
+mysteries:
+  - id: 罗峰的未来潜力
+    type: Mystery
+    name: 罗峰的未来潜力
+    description: 将来罗峰会否达到嫦鹫之主那样的层次。
+```

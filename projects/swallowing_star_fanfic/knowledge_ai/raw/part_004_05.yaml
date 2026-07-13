@@ -1,0 +1,87 @@
+```yaml
+source:
+  id: original_text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: ['罗疯子']
+    description: 武者，具有高能糖丸等物品。
+    attributes:
+      实力: 战神级武者
+      性格: 善良、乐于助人
+
+  - id: 万冬
+    type: Character
+    name: 万冬
+    aliases: []
+    description: 武者小队成员，从鼠潮中获救。
+    attributes:
+      实力: 武者
+      性格: 冷漠、感激罗峰
+
+  - id: 王可
+    type: Character
+    name: 王可
+    aliases: []
+    description: 武者小队成员，从鼠潮中获救。
+    attributes:
+      实力: 武者
+      性格: 秀气、乐观
+
+  - id: 蒋屠
+    type: Character
+    name: 蒋屠
+    aliases: []
+    description: 武者小队成员，从鼠潮中获救。
+    attributes:
+      实力: 武者
+      性格: 威猛、幽默
+
+  - id: 飞行战机
+    type: Item
+    name: 扁平圆形飞行战机
+    aliases: []
+    description: 军队使用的，用于防御鼠潮的武器。
+    attributes:
+      功能: 炮击防御
+
+organizations:
+  - id: 军区武者补给基地
+    type: Organization
+    name: 武者补给基地
+    aliases: []
+    description: 提供武者物资的地方。
+
+locations:
+  - id: 0231号县城
+    type: Location
+    name: 0231号县城
+    aliases: []
+    description: 发生三级鼠潮的地方。
+  
+events:
+  - id: 鼠潮攻击
+    type: Event
+    name: 三级鼠潮爆发
+    description: 武者遭遇大规模的兽兵级鼠兽袭击，造成伤亡。  
+
+dialogues:
+  - speaker: 万冬
+    listener: 罗峰
+    dialogue: "罗峰,有吃的没？给点吃的！喝的？"
+  
+  - speaker: 王可
+    listener: 罗峰
+    dialogue: "早听说罗疯子大名了。"
+
+timeline:
+  - event: 武者补给基地聚集大量武者
+    time: 补给基地门口
+
+mysteries:
+  - question: 队长他们现在怎么样？
+    answer: 不清楚，没有返回。
+
+```

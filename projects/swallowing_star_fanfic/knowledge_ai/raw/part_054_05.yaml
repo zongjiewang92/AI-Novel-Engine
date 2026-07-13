@@ -1,0 +1,86 @@
+```yaml
+source:
+  id: 第816章刀河王常在河边走（三更完毕）
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      主角，实力强大，在焱祭大陆战斗和修炼中不断进步。三年内共战斗15场，杀死了22名异族封侯和19名异族不朽军主。
+    attributes:
+      - 实力: 封侯初等
+  - id: 金角巨兽分身
+    type: Character
+    name: 金角巨兽分身
+    aliases: []
+    description: >
+      罗峰的分身，融合弑吴羽翼后战斗力极强。
+    attributes:
+      - 实力: 封侯巅峰
+  - id: 地球人本尊
+    type: Character
+    name: 地球人本尊
+    aliases: []
+    description: >
+      罗峰的真身，负责磨练刀法和感悟法则。
+    attributes:
+      - 实力: 封侯初等
+  - id: 银翼王
+    type: Character
+    name: 银翼王
+    aliases: []
+    description: >
+      金角巨兽分身的外号，因银色羽翼攻击威力可怕而得名。
+    attributes:
+      - 实力: 封侯巅峰
+  - id: 茨维卡
+    type: Character
+    name: 茨维卡
+    aliases: []
+    description: >
+      机械族俊美青年，负责在域外战场击杀异族以完成任务。
+    attributes:
+      - 实力: 异族不朽军主级别
+  - id: 高大机械族青年
+    type: Character
+    name: 高大机械族青年
+    aliases: []
+    description: >
+      茨维卡的师兄，机械族尊者级人物。
+    attributes:
+      - 实力: 宇宙尊者
+
+relationships:
+
+events:
+  - id: 封侯军主击杀
+    type: Event
+    name: 罗峰在焱祭大陆杀敌记录
+    description: >
+      罗峰三年内在焱祭大陆共战斗15场，杀死22名异族封侯和19名异族不朽军主。
+  - id: 茨维卡任务进度汇报
+    type: Event
+    name: 茨维卡完成主人要求的51.2%域外战场击杀任务
+    description: >
+      茨维卡在第七战场焱祭大陆进行任务，预计再击杀上千名异族封侯就能完成。
+
+dialogues:
+  - id: 茨维卡汇报对话
+    type: Dialogue
+    content: |
+      "茨维卡。"
+      "师兄。"
+      "你在域外战场收获怎么样？"
+      "已经完成主人要求的51.2%，我现在正在第七战场焱祭大陆，异族强者很多，效率应该还会提升，估计再击杀上千名异族封侯就差不多完成了。"
+
+timeline:
+  - year: 第三年
+    event: 罗峰在焱祭大陆战斗和修炼
+  - year: 第四年
+    event: 茨维卡汇报任务进度
+
+mysteries:
+
+```

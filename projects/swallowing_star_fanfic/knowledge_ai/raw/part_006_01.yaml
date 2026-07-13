@@ -1,0 +1,60 @@
+```yaml
+source:
+  id: 吞噬星空
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 初等领主，拥有精神念力及多种战斗装备。
+    attributes:
+      实力: 初等领主
+      装备: 六棱盾牌、9系飞刀、合金战靴
+
+  - id: 铁甲龙
+    type: Species
+    name: 铁甲龙
+    aliases: []
+    description: 神秘的怪兽，拥有珍贵的龙蛋。
+    attributes:
+      境界: 兽将或领主级别
+
+  - id: 天台
+    type: Location
+    name: 超市天台
+    aliases: []
+    description: 位于超市顶部，周围被大量普通怪兽包围。
+
+  - id: 龙蛋
+    type: Item
+    name: 铁甲龙龙蛋
+    aliases: []
+    description: 珍贵的铁甲龙后代。
+    attributes:
+      尺寸: 大约一米高
+
+relationships:
+
+events:
+  - id: 进入天台
+    type: Event
+    description: 罗峰从高空降落到超市天台上，准备进入一楼和二楼。
+
+  - id: 寻找电梯井
+    type: Event
+    description: 罗峰利用精神念力找到未被破坏的电梯井，打开通往一楼的通道。
+
+  - id: 搜寻龙蛋
+    type: Event
+    description: 进入超市内部后，罗峰搜索并找到了铁甲龙龙蛋，并用飞刀将其托起准备带走。
+
+dialogues:
+
+timeline:
+  - 时间节点1: 罗峰降落到天台
+  - 时间节点2: 找到电梯井
+
+mysteries:
+  - 铁甲龙是否在龙蛋周围布置了机关防止他人偷取。
+```

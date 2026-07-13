@@ -1,0 +1,72 @@
+```yaml
+source:
+  id: 文本来源ID
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 极限武馆监察使，被特别授予陆军少将军衔。
+    attributes:
+      实力: 战神级
+      身份: 极限武馆监察使
+  - id: 徐欣
+    type: Character
+    name: 徐欣
+    aliases: []
+    description: 罗峰的女友，关心罗峰的状态。
+    attributes:
+      关系: 罗峰的女友
+
+organizations:
+  - id: 极限武馆
+    type: Organization
+    name: 极限武馆
+    description: 提供战神级训练和资源，发布古文明遗迹探险任务。
+    attributes:
+      负责人: 洪（馆主）
+
+locations:
+  - id: 明月小区
+    type: Location
+    name: 明月小区
+    description: 小区内有飞行战机停放区域，周围由军人守卫。
+
+items:
+  - id: 黑神套装
+    type: Item
+    name: 黑神套装
+    attributes:
+      特性: 禁止进入9号古文明遗迹时穿戴
+
+abilities:
+  - id: 战神级实力
+    type: Ability
+    name: 战神级实力
+    description: 高于人类战士的战斗能力，包含多种技能和身体素质。
+
+events:
+  - id: 古文明遗迹探险任务发布
+    type: Event
+    name: 古文明遗迹探险任务发布
+    description: 极限武馆发布的9号古文明遗迹探险任务。
+    timeline:
+      时间点: 2057年8月31日
+      结果: 罗峰收到任务通知，需决定是否参与。
+
+dialogues:
+  - id: 罗峰与神秘人物通话
+    type: Dialogue
+    participants:
+      - 罗峰
+      - 神秘人物
+    content: "罗峰向极限武馆内部人员询问关于9号古文明遗迹的详细信息。"
+    timeline:
+      时间点: 2057年8月31日
+
+mysteries:
+  - id: 古文明遗迹的秘密
+    type: Mystery
+    description: 9号古文明遗迹的具体情况未知，包括危险性、挑战难度等。
+```

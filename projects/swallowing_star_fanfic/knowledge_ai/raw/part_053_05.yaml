@@ -1,0 +1,91 @@
+```yaml
+source:
+  id: 吞噬星空
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 主角，修炼兽神之道，拥有地球人本尊、金角巨兽等多种形态。
+    attributes:
+      实力: 封王初等不朽神灵
+      技能: 新七绝刀, 兽神兵秘法
+
+  - id: 虫族母皇
+    type: Character
+    name: 虫族母皇
+    aliases: []
+    description: 异种族群领袖，拥有大量随从。
+    attributes:
+      实力: 封王初等不朽神灵
+
+  - id: 步刺牙
+    type: Character
+    name: 步刺牙
+    aliases: []
+    description: 妖族封侯不朽神灵之一，在战斗中被食星界主杀死。
+    attributes:
+      实力: 封侯不朽神灵
+
+  - id: 食星草
+    type: Item
+    name: 食星草
+    aliases: []
+    description: 罗峰的宝物，可缩小化为金色小草融入罗峰手臂中。
+    attributes:
+      功能: 提供能量, 缩小化
+
+  - id: 希罗多
+    type: Character
+    name: 希罗多
+    aliases: []
+    description: 金角族群历史上最伟大的存在，宇宙霸主级人物。
+    attributes:
+      实力: 封王不朽神灵
+      技能: 四大绝学
+
+relationships:
+  - id: 罗峰与食星草的关系
+    type: 拥有
+    description: 罗峰拥有食星草，并可将其缩小融入手臂中。
+
+events:
+  - id: 虫族母皇率领异族攻打罗峰基地
+    type: Event
+    description: 在域外战场，虫族母皇与大量随从试图攻击罗峰所在的山脉。
+    timeline:
+      时间: 不详
+
+  - id: 罗峰逃离战斗现场
+    type: Event
+    description: 面对异族的强大力量，罗峰迅速离开，并用探测仪器发现敌方指挥者为躲在界主奴仆体内世界的虫族母皇。
+    timeline:
+      时间: 不详
+
+  - id: 罗峰参悟混沌城1200年
+    type: Event
+    description: 在混沌城中，罗峰长时间修炼兽神之道，并创造出新七绝刀法。
+    timeline:
+      时间: 之前
+
+  - id: 步刺牙被食星界主杀死
+    type: Event
+    description: 妖族不朽封侯强者步刺牙在与食星界的战斗中被击杀，导致妖族内部士气低落。
+    timeline:
+      时间: 近期
+
+dialogues:
+  - id: 罗峰自言自语
+    type: Dialogue
+    description: "如今我刀法初成，再去找那三个妖族不朽简直是蹂躏他们……"
+    timeline:
+      时间: 最近
+
+timeline:
+
+mysteries:
+  - id: 妖族为什么不朽神灵频繁遇到食星界主
+    type: Mystery
+    description: 在短短六十年内，妖族不朽神灵多次碰上食星界主。
+```

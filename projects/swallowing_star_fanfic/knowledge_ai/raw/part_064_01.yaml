@@ -1,0 +1,63 @@
+```yaml
+source:
+  id: 第957章算计
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有强大的实力，对宇宙中的势力有所了解。
+    attributes:
+      实力: 强大
+      权限: 高级
+
+  - id: 天狼
+    type: Character
+    name: 天狼
+    aliases: []
+    description: 冰狱的强者，拥有珍贵的宝物兽神传承令。
+    attributes:
+      力量: 强大
+      身份: 冰狱中的强者
+
+  - id: 祖神教
+    type: Organization
+    name: 祖神教
+    aliases: []
+    description: 宇宙第一大势力，拥有三大祖神、八大兽神、72神将和3000神使。
+    attributes:
+      成立时间: 宇宙诞生时
+      固定成员数量: 8个兽神, 72个神将, 3000个神使
+
+  - id: 兽神传承令
+    type: Item
+    name: 兽神传承令
+    aliases: []
+    description: 土、空间融合法则之兽神传承令。
+    attributes:
+      材质: 石牌
+      大小: 巴掌大小的六棱石牌
+
+relationships:
+
+events:
+  - id: 冰狱交易
+    type: Event
+    name: 冰狱中的宝物交换
+    description: 罗峰与天狼在冰狱中通过一个不记名账号感应器进行交流，讨论用两件重宝换取一件祖神教的兽神传承令。
+
+dialogues:
+  - speaker: 天狼
+    content: "你实力这般强大，在人类族群地位肯定极高，在外界得到重宝，可比在冰狱中容易得多。两件重宝……不让你动心，也不奇怪。好……我便将我天狼最重要的一件宝物给你，拿这件宝物和你换！！！"
+    context: 罗峰与天狼讨论交换条件
+  - speaker: 罗峰
+    content: "当然不会是至宝，传说中的至宝，可是令宇宙尊者们都疯狂的，我这一件虽不如至宝，却也比重宝珍贵多了。"
+    context: 对兽神传承令价值表示怀疑
+
+timeline:
+  - event: 冰狱交易
+    date: 这一章中
+mysteries:
+  - content: 罗峰是否决定交换兽神传承令。
+```

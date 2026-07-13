@@ -1,0 +1,96 @@
+```yaml
+source:
+  id: 祭塔中的宝藏秘密
+
+entities:
+  - id: 虬赤卡
+    type: Character
+    name: 虬赤卡
+    aliases: []
+    description: >
+      土著族老，族群被灭的幸存者。试图通过与外来异族合作来获取祭塔内的真正宝藏。
+    attributes:
+      - 实力: 封王级别
+      - 性格: 贪婪且充满野心
+
+  - id: 苍金王
+    type: Character
+    name: 苍金王
+    aliases: []
+    description: >
+      异族强者，贪婪地想要获取祭塔中的宝藏。
+    attributes:
+      - 实力: 封王极限
+      - 性格: 极度渴望财富
+
+  - id: 紫钟王
+    type: Character
+    name: 紫钟王
+    aliases: []
+    description: >
+      异族强者，对苍金王的贪婪感到不满。
+    attributes:
+      - 实力: 封王级别
+      - 性格: 奉承但内心憎恶
+
+  - id: 虎刺王
+    type: Character
+    name: 虎刺王
+    aliases: []
+    description: >
+      异族强者，和罗峰相互辅助。
+    attributes:
+      - 实力: 封王巅峰
+      - 性格: 冷静果断
+
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      异族强者，对土著虬赤卡的计划持怀疑态度。
+    attributes:
+      - 实力: 封王级别
+      - 性格: 谨慎聪明
+
+relationships:
+  - entity1_id: 苍金王
+    entity2_id: 紫钟王
+    type: 合作与竞争关系
+    description: >
+      苍金王贪婪地想要独占宝藏，紫钟王被迫与其合作但心怀不满。
+
+  - entity1_id: 虬赤卡
+    entity2_id: 苍金王
+    type: 合作关系
+    description: >
+      虬赤卡试图利用苍金王等人获取祭塔中的真正宝藏。
+
+events:
+  - name: 祭塔内土著族老虬赤卡的出现
+    description: >
+      土著族老虬赤卡在祭塔核心区出口现身，道出祭塔中藏宝的秘密。
+    timeline: 现场
+
+dialogues:
+  - speaker1_id: 苍金王
+    speaker2_id: 虬赤卡
+    content: >
+      "苍金王，你说这个土著说的是真是假？"
+      "一半可能是真，一半可能是假。"
+
+  - speaker1_id: 紫钟王
+    speaker2_id: 苍金王
+    content: >
+      "放心，这次得到祭塔宝藏后，我会按照协定分给你两成。"
+      "那就谢谢苍金王了。"
+
+timeline:
+  - event_name: 虬赤卡现身
+    time: 现场
+
+mysteries:
+  - question: 祭塔中的真正宝藏是否真的存在？
+    clues: >
+      土著虬赤卡声称有真正的宝藏，但其真实性存疑。
+```

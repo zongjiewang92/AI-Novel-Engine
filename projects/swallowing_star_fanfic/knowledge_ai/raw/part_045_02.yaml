@@ -1,0 +1,85 @@
+```yaml
+source:
+  id: 罗峰的突破与规划
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 地球上普通武者，通过不断努力和天赋成为银河领主、天才战排名前十，并且有希望成为封侯级、封王级不朽神灵甚至宇宙尊者。
+    attributes:
+      - 实力: 不朽神灵（有潜力成为宇宙尊者）
+      - 身份: 银河领主，人类1008宇宙国天才战排名前十
+      - 性格: 有着强烈的目标感和决心
+      - 年龄: 文中未明确提及具体年龄
+
+  - id: 金角巨兽
+    type: Species
+    name: 金角巨兽
+    aliases: []
+    description: 星空巨兽的一种，突破到界主级。
+    attributes:
+      - 实力: 界主一阶（以前是域主）
+      - 特性: 拥有强大的身体和五个尖角
+
+  - id: 魔杀族分身
+    type: Species
+    name: 魔杀族罗峰分身
+    aliases: []
+    description: 罗峰的魔杀族分身，突破到界主级。
+    attributes:
+      - 实力: 界主一阶（以前是域主）
+      - 特性: 拥有空间法则增幅能力
+
+  - id: 圣碑
+    type: Item
+    name: 圣碑
+    aliases: []
+    description: 安放在圣碑塔内的淡绿色晶体，用于参悟法则本源。
+    attributes:
+      - 功能: 提升对各种法则的理解和感悟
+
+organizations:
+
+locations:
+  - id: 圣碑塔
+    type: Location
+    name: 圣碑塔
+    aliases: []
+    description: 空旷的圣碑塔内有一座巍峨圣碑，罗峰在这里进行突破和参悟。
+    attributes:
+      - 特性: 内部环境有助于修炼和感悟法则
+
+cultivations:
+  - type: 等级体系
+    name: 不朽神灵、界主、域主
+    description: 强者从域主到不朽神灵的突破，其中界主级有特殊的修炼速度优势。
+    attributes:
+      - 界主级: 法则感悟容易且速度快
+
+abilities:
+  - id: 吞噬
+    type: Ability
+    name: 吞噬天赋秘法
+    aliases: []
+    description: 天赋秘法，通过两界渊施展更加安全。
+
+events:
+  - id: 罗峰突破到界主级
+    type: Event
+    name: 突破到界主级
+    description: 罗峰及其分身金角巨兽和魔杀族罗峰同时突破至界主一阶。
+    attributes:
+      - 时间线: 半天内完成
+
+dialogues:
+
+timeline:
+
+mysteries:
+  - id: 未来潜力
+    type: Mystery
+    name: 成为宇宙尊者的可能性
+    description: 罗峰认为自己有希望成为封侯级、封王级不朽神灵，甚至更高层次的宇宙尊者。
+```

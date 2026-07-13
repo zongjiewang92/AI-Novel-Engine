@@ -1,0 +1,65 @@
+```yaml
+source:
+  id: 星河之主与混沌城主的对决
+
+entities:
+  - id: 混沌城主
+    type: Character
+    name: 混沌城主
+    aliases: []
+    description: 现今宇宙中已知的最强宇宙之主之一，施展最强手段持续能力不如星河之主。
+    attributes:
+      实力: 强大
+  - id: 星河之主
+    type: Character
+    name: 星河之主
+    aliases: []
+    description: 现今宇宙中已知的最强宇宙之主之一，神体能够一次次施展最强手段且能维持很长时间。
+    attributes:
+      实力: 强大
+  - id: 九幽之主
+    type: Character
+    name: 九幽之主
+    aliases: []
+    description: 现今宇宙中已知的最强宇宙之主之一，拥有分身可以施展可怕攻击但存在弱点。
+    attributes:
+      实力: 强大
+  - id: 湛莲之主
+    type: Character
+    name: 湛莲之主
+    aliases: []
+    description: 虫族的宇宙之主之一，实力强大且精通幻术等手段。
+    attributes:
+      实力: 强大
+  - id: 垣奥之主
+    type: Character
+    name: 垣奥之主
+    aliases: []
+    description: 拥有奇物的宇宙最强者之一，能够轻易击败其他宇宙之主。
+    attributes:
+      实力: 极强
+
+relationships:
+
+events:
+  - id: 淹没秘境中的战斗
+    type: Event
+    description: 各方势力派出强者去垣奥秘境对付垣奥之主，但均被击败后离开。
+
+dialogues:
+  - speaker: 九幽之主
+    listener: 罗峰等
+    content: "正面之战，在原始宇宙内没谁能够杀死垣奥之主。"
+  - speaker: 湛莲之主
+    listener: 九幽之主
+    content: "那你们祖神教准备怎么办？"
+  - speaker: 九幽之主
+    listener: 湛莲之主
+    content: "我们几个根本扛不住，只能等其他各方都来再说。"
+
+timeline:
+
+mysteries:
+  - id: 垣奥之主的奇物
+    description: 各方势力派出强者去垣奥秘境的目的都是为了争夺垣奥之主手中的奇物。
+```

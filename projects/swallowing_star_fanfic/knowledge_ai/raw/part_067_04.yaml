@@ -1,0 +1,89 @@
+```yaml
+source:
+  id: 您的世界
+
+entities:
+  - id: 罗峰分身
+    type: Character
+    name: 魔杀族分身
+    aliases: []
+    description: 能够穿梭九幽世界，拥有天赋‘域’能力的罗峰分身。
+    attributes:
+      实力: 强大
+      天赋: 域
+
+  - id: 不朽土著
+    type: Character
+    name: 不朽级土著居民
+    aliases: []
+    description: 管理九幽世界的土著，有权力颁布禁令。
+    attributes:
+      实力: 不朽级
+
+  - id: 九幽之主
+    type: Character
+    name: 九幽之主
+    aliases: []
+    description: 控制整个九幽世界的存在，拥有不可思议的力量。
+    attributes:
+      实力: 强大
+
+locations:
+  - id: 九幽世界
+    type: Location
+    name: 九幽世界
+    description: 广袤无边的世界，由108座皇海构成，是土著居民朝拜的地方。
+    
+  - id: 血海
+    type: Location
+    name: 血海
+    description: 一种特殊的海洋，代表界主级皇子。没有生命诞生于此。
+
+organizations:
+  - id: 土著居民
+    type: Organization
+    name: 土著居民
+    aliases: []
+    description: 生活在九幽世界中的原住民，他们朝拜108座皇海。
+    
+abilities:
+  - id: 域
+    type: Ability
+    name: 域
+    description: 罗峰分身的天赋能力，能够瞬间移动到指定位置。
+
+items:
+  - id: 世界戒指
+    type: Item
+    name: 世界戒指
+    description: 地球人本尊贴身携带的安全物品。
+
+relationships:
+  - source_id: 罗峰分身
+    target_id: 不朽土著
+    type: 对话
+
+events:
+  - id: 探查血海
+    type: Event
+    name: 探查血海
+    description: 魔杀族分身探查108座皇海，并特别关注血海。
+    
+  - id: 触发禁忌
+    type: Event
+    name: 触发禁忌
+    description: 罗峰分身在血海周围取水，引发九幽之主的愤怒。
+
+dialogues:
+  - source_id: 不朽土著
+    target_id: 罗峰分身
+    content: "你小心点。早有严令，禁止在血海周围打斗、攻击，弄走血海之水等。"
+
+timeline:
+  - 探查108座皇海: 魔杀族分身飞行大半年时间探查。
+  - 触发禁忌后九幽之主降临: 罗峰分身取血海水后，引起九幽之主的关注。
+
+mysteries:
+  - id: 血海的秘密
+    description: 土著居民并不知道皇子就是皇海，皇海就是皇子的秘密。
+```

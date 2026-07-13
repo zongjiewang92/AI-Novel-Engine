@@ -1,0 +1,121 @@
+```yaml
+source:
+  id: 罗峰的宇宙冒险
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有界主九阶辅助植物生命，将衍神兵修炼到第九重的人类战士。
+    attributes:
+      - 实力: 高级界主（拥有界主九阶辅助植物生命和顶级武器）
+      - 武器: 衍神金剑
+      - 身份: 新加入的队长新兵
+
+  - id: 泰沃
+    type: Character
+    name: 泰沃
+    aliases: []
+    description: 队长，擅长操控宇宙飞船。
+    attributes:
+      - 实力: 界主（拥有E9级宇宙飞船）
+      - 身份: 队长
+
+  - id: 毒药
+    type: Character
+    name: 毒药
+    aliases: []
+    description: 团队成员，擅长使用毒。
+    attributes:
+      - 实力: 界主（拥有世界戒指）
+  
+  - id: 魅女
+    type: Character
+    name: 魅女
+    aliases: []
+    description: 团队成员，在战斗中被保护的脆弱角色。
+
+  - id: 锤
+    type: Character
+    name: 锤
+    aliases: []
+    description: 团队成员，以力量著称。
+  
+  - id: 卫
+    type: Character
+    name: 卫
+    aliases: []
+    description: 团队成员，幻术师。
+
+  - id: 狂舞
+    type: Character
+    name: 狂舞
+    aliases: []
+    description: 团队成员，精神念师。
+  
+  - id: 岩石
+    type: Character
+    name: 岩石
+    aliases: []
+    description: 新兵队员。
+
+  - id: 毒药源晶
+    type: Item
+    name: 火神源晶
+    aliases: [低等火神源晶]
+    description: 机械族自保的昂贵物品，媲美普通火焰不朽神灵自爆。
+  
+  - id: 雷电狱
+    type: Location
+    name: 雷电狱
+    aliases: []
+    description: 一个由雷电组成的攻击性阵法。
+
+  - id: 残破飞船舱室
+    type: Location
+    name: 残破飞船舱室
+    aliases: []
+    description: 机械族指挥官帕剌提的指挥所。
+  
+  - id: 帕剌提
+    type: Character
+    name: 帕剌提
+    aliases: []
+    description: 机械族指挥官，有高超的战斗控制能力和资本。
+
+relationships:
+  - source_id: 罗峰
+    target_id: 泰沃
+    relation_type: 队友关系
+  
+  - source_id: 毒药
+    target_id: 泰沃
+    relation_type: 队友关系
+
+events:
+  - id: 机械傀儡军团围攻
+    type: Event
+    description: 罗峰团队遭遇雷电机械傀儡军团的攻击。
+  
+  - id: 狂舞与裂神兵
+    type: Event
+    description: 精神念师狂舞使用裂神兵成功抵挡50头F级机械傀儡。
+
+dialogues:
+  - speaker_id: 泰沃
+    listener_ids: [罗峰]
+    dialogue_content: "哈哈，疯子，来帮我一把。"
+  
+  - speaker_id: 狂舞
+    listener_ids: [泰沃, 毒药, 罗峰]
+    dialogue_content: "哈哈，疯子，干的漂亮。"
+
+timeline:
+  - event_id: 机械傀儡军团围攻
+    time: 第一次遭遇
+
+mysteries:
+  - id: 帕剌提的实力来源
+    description: 雷电狱的布置者帕剌提拥有何种程度的能力和资源。
+```

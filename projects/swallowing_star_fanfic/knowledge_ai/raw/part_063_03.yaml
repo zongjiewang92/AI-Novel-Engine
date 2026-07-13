@@ -1,0 +1,57 @@
+```yaml
+source:
+  id: 罗峰的宇宙之旅-第948章初战
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      来自地球的人类强者，拥有银甲银翼的外观。实力强大，能够轻易撕裂中子星。
+    attributes:
+      实力: 强横念力、飞行能力
+
+  - id: 银眸
+    type: Character
+    name: 银眸
+    aliases: []
+    description: >
+      北方冰狱之主，五大巨头之一。性格冷漠迟钝，长期隐匿于冰狱中。
+    attributes:
+      实力: 封王
+
+  - id: 异族强者
+    type: Character
+    name: 异族强者
+    aliases: []
+    description: >
+      隐匿在冰海深处的异族封王级强者，对人类罗峰有所畏惧。
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 找寻对手
+    目标: 异族强者
+
+events:
+  - id: 初战引敌
+    type: Event
+    description: >
+      罗峰通过破坏冰层引起异族强者的注意，最终引来了一位敢于交手的敌人。
+    timeline:
+      时间: 不详
+      地点: 东方冰狱
+
+dialogues:
+  - 主体: 异族强者
+    内容: "哈哈，人类，你竟然敢现身！"
+
+timeline:
+
+mysteries:
+  - id: 罗峰的对手
+    type: Mystery
+    description: >
+      罗峰最终能够引出怎样的敌人交手？
+```
+重要，仅输出 YAML 数据。

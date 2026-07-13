@@ -1,0 +1,100 @@
+```yaml
+source:
+  id: text1
+
+entities:
+  - id: LuoFeng
+    type: Character
+    name: 罗峰
+    aliases: 黑衣罗峰
+    description: 异族大能者委托人，实力强大。
+    attributes:
+      实力: 封王强者
+      身份: 虚拟宇宙公司代理人
+
+  - id: ZuoKou
+    type: Species
+    name: 兹寇
+    aliases: []
+    description: 极度冰寒之气凝聚而成的生命，外表妖异纯真。
+    attributes:
+      数量: 数千名
+      不朽数量: 数百名
+      宇宙尊者: 两名
+
+  - id: ZuoKou123
+    type: Character
+    name: 紫色兹寇、青色兹寇
+    aliases: []
+    description: 出现在冰狱星带中的两组兹寇。
+    attributes:
+      实力: 界主级
+      特点: 青色更擅长冻死身体，紫色更擅长冻死灵魂
+
+  - id: TianZhenWang
+    type: Character
+    name: 天阵王
+    aliases: []
+    description: 罗峰的属下。
+    attributes:
+      实力: 封王级
+      身份: 拥有大量封侯级别灵魂奴仆
+
+  - id: MoLuoHou
+    type: Character
+    name: 魔螺猴
+    aliases: []
+    description: 玲珑剔透的妖族，身材矮小。
+    attributes:
+      实力: 封侯级不朽
+
+locations:
+  - id: IceJadeStarBelt
+    type: Location
+    name: 冰狱星带
+    description: 生活着兹寇的老巢。
+
+items:
+  - id: BlackMetalPlate
+    type: Item
+    name: 黑色金属板
+    description: 异族大能者给的特殊物品，罗峰需要寻找。
+  
+  - id: DetectionDevice
+    type: Item
+    name: 探测仪
+    description: 兼具微型探测仪和大型探测仪功能。
+
+organizations:
+  - id: VirtualUniverseCompany
+    type: Organization
+    name: 虚拟宇宙公司
+    aliases: []
+    description: 委托罗峰执行任务的组织。
+    
+abilities:
+  - id: CosmicTraversal
+    type: Ability
+    name: 宇宙穿梭
+    description: 界主级兹寇的能力，能轻易进行宇宙穿梭。
+
+dialogues:
+  - speaker: 天阵王
+    content: "主人。"
+  - speaker: LuoFeng
+    content: "你麾下有封侯级别奴仆吧，喊一个出来，最好是灵活小巧点的，聪明点的。"
+  - speaker: MoLuoHou
+    content: "是是是。"
+
+timeline:
+  events:
+    - event_id: IceJadeStarBeltObservation
+      description: 罗峰观察冰狱星带情况。
+    - event_id: MoLuoHouDeployment
+      description: 魔螺猴被派遣执行任务。
+
+mysteries:
+  - mystery_id: BlackMetalPlateLocation
+    description: 黑色金属板的准确位置需要进一步探索。
+```
+此YAML文件根据给定文本提取了角色、地点、物品等关键信息，保持原文设定和上下文关系。

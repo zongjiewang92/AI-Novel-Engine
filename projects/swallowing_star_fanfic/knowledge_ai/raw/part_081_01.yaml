@@ -1,0 +1,86 @@
+```yaml
+source:
+  id: 第1222章一起上绝路
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 新晋宇宙之主，银河领主，与混沌城主关系密切。
+    attributes:
+      实力: 强大至能够逼迫五浑之主、究箭之主进入绝境
+  - id: 混沌城主
+    type: Character
+    name: 混沌城主
+    aliases: []
+    description: 第一轮回时代的主宰，实力强大。
+    attributes:
+      关系: 罗峰的老师，与彭工之主等人关系密切。
+  - id: 彭工之主
+    type: Character
+    name: 彭工之主
+    aliases: []
+    description: 实力强大的宇宙之主，地位极高。
+    attributes:
+      地位: 和混沌城主同层次的实力
+  - id: 虚金之主
+    type: Character
+    name: 虚金之主
+    aliases: []
+    description: 宇宙之主之一，对罗峰有恩惠。
+    attributes:
+      关系: 罗峰的恩人
+  - id: 封砻之主
+    type: Character
+    name: 封砻之主
+    aliases: []
+    description: 第一轮回时代的宇宙之主，与五浑之主联手追杀罗峰。
+    attributes:
+      实力: 强大至能够逼迫罗峰进入绝境
+  - id: 五浑之主
+    type: Character
+    name: 五浑之主
+    aliases: []
+    description: 第一轮回时代的宇宙之主，实力强大。
+    attributes:
+      地位: 能够和混沌城主平起平坐的实力
+  - id: 究箭之主
+    type: Character
+    name: 究箭之主
+    aliases: []
+    description: 第一轮回时代的宇宙之主，因追杀罗峰而陨落。
+    attributes:
+      实力: 强大至能够逼迫罗峰进入绝境
+
+relationships:
+  - id: 混沌城主与罗峰的关系
+    type: 教师-学生关系
+    description: 罗峰是混沌城主的学生，两者之间存在深厚的师生情谊。
+  - id: 彭工之主与人类族群的联系
+    type: 关系网
+    description: 彭工之主与紫月圣地宇宙之主有交情，帮助确认罗峰消息的真实性。
+
+events:
+  - id: 罗峰与宇宙之主们的战斗
+    type: Event
+    description: 在宇宙舟内域的灭神涧中，罗峰成功对抗了因沱、五浑之主和究箭之主。
+    timeline: 第一轮回时代
+
+dialogues:
+  - speaker: 彭工之主
+    listener: 虚金之主等宇宙之主
+    content: "我已经确认，罗峰的确闯到了宇宙舟内域的灭神涧，并且与因沱、五浑之主、究箭之主战斗。"
+    context: 在虚拟宇宙鸿盟城内讨论关于罗峰的消息真实性时，彭工之主提供了确认信息。
+
+timeline:
+  - event_id: 罗峰与宇宙之主们的战斗
+    time: 第一轮回时代
+
+mysteries:
+  - id: 罗峰如何活过岩浆海？
+    type: Mystery
+    description: 虽然罗峰说他侥幸活着穿过岩浆海，但具体过程未被详细描述。
+```
+
+以上信息根据原文提取，并以YAML格式展示。

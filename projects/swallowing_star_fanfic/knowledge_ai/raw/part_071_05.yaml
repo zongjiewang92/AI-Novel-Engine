@@ -1,0 +1,106 @@
+```yaml
+source:
+  id: "第1076章 黑色金属板"
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 主角，实力强大。
+    attributes:
+      - 实力高强
+      - 智谋过人
+
+  - id: 金角巨兽分身
+    type: Character
+    name: 金角巨兽分身
+    aliases: []
+    description: 罗峰的分身之一，拥有强大的神体和劫甲。
+    attributes:
+      - 强大的防御能力
+      - 能量补充
+
+  - id: 幽海分身
+    type: Character
+    name: 幽海分身
+    aliases: []
+    description: 罗峰的另一个分身，提供神力支援。
+    attributes:
+      - 提供大量神力
+
+  - id: 匠神之主
+    type: Character
+    name: 匠神之主
+    aliases: []
+    description: 掌控匠神星的强大存在。
+    attributes:
+      - 力量无比强大
+      - 控制虫洞的能力
+
+items:
+  - id: 黑色金属板
+    type: Item
+    name: 黑色金属板
+    aliases: []
+    description: 具有重要信息和价值的神秘物品。
+
+locations:
+  - id: 匠神星
+    type: Location
+    name: 匠神星
+    aliases: []
+    description: 控制着大量虫洞，拥有极强火焰萃取能力的星球。
+    attributes:
+      - 巨大的空间漩涡
+
+abilities:
+  - id: 劫甲
+    type: Ability
+    name: 劫甲
+    aliases: []
+    description: 强大的防御装备。
+
+dialogues:
+  - speaker: 匠神之主
+    text: "敢破我秘法！"
+    attributes: []
+
+  - speaker: 匠神之主
+    text: "竟能受我全力一握而不死？"
+    attributes: []
+
+events:
+  - id: 进入黑色葫芦
+    type: Event
+    name: 进入黑色葫芦
+    description: 罗峰派出分身进入匠神星的黑色葫芦获取黑色金属板。
+    timeline: 第一步
+
+  - id: 获取黑色金属板
+    type: Event
+    name: 获取黑色金属板
+    description: 分身金角巨兽成功拿到第四块黑色金属板，并迅速离开。
+    timeline: 第二步
+
+  - id: 触发匠神之主反应
+    type: Event
+    name: 触发匠神之主反应
+    description: 破坏秘法封印后，引发匠神之主的追击和空间转移。
+    timeline: 第三步
+
+timeline:
+  - event_id: 进入黑色葫芦
+    time: 第一步
+
+  - event_id: 获取黑色金属板
+    time: 第二步
+
+  - event_id: 触发匠神之主反应
+    time: 第三步
+
+mysteries:
+  - id: 未解决的危险
+    description: 分身被送入绝地，是否能够存活下来？
+
+```

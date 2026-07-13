@@ -1,0 +1,79 @@
+```yaml
+source:
+  id: 第590章漏洞（第一更）
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      血肉类生命的核心，正在接受魔音神将传承。灵魂承受接近极限。
+    attributes:
+      实力: 域主九阶
+      目标: 完成第一阶段的传承阶梯
+  - id: 摩云藤
+    type: Ability
+    name: 摩云藤
+    aliases: []
+    description: >
+      罗峰的一种能力，能够延伸出细长且强大的藤蔓。
+    attributes:
+      长度: 3000公里（主藤蔓）
+
+locations:
+  - id: 魔音神将传承神殿
+    type: Location
+    name: 魔音神将传承神殿
+    description: >
+      存在于宇宙中不知多少年的魔山，内有亿万幻兽聚集。传承者需通过不断上阶梯获得传承。
+  - id: 虚空深处殿堂
+    type: Location
+    name: 虚空深处殿堂
+    description: >
+      第一阶段的尽头，抵达即为初选者。
+
+abilities:
+  - id: 魔音神将秘法传承
+    type: Ability
+    name: 魔音神将秘法传承
+    aliases: []
+    description: >
+      只有灵魂接近极限才能被迫离开。需通过不断上阶梯获得，每层都带来独特的秘法讯息。
+
+items:
+  - id: 战甲
+    type: Item
+    name: 战甲
+    description: 罗峰使用的装备，在接受传承时全身笼罩着它。
+    
+events:
+  - id: 灵魂承受接近极限
+    type: Event
+    name: 灵魂承受接近极限
+    description: >
+      接受传承至1236层阶梯，罗峰感到灵魂几乎完全饱和。即使硬撑，也只能再前进一两层。
+    
+  - id: 尝试越过限制
+    type: Event
+    name: 尝试越过限制
+    description: >
+      罗峰从第1237阶直接跳至第1238阶，并遭遇魔音镇压。在意识下沉后醒来，回到前面一阶。
+    
+  - id: 使用摩云藤探查
+    type: Event
+    name: 使用摩云藤探查
+    description: >
+      罗峰尝试用摩云藤延伸到虚空深处以寻找可能的漏洞或方法来获取更多传承。
+
+timeline:
+  - 时间点1: 数月后
+    描述: 接受魔音神将秘法至第1236层。
+    
+mysteries:
+  - id: 魔音神殿是否存在漏洞
+    type: Mystery
+    name: 魔音神殿是否存在漏洞
+    description: >
+      罗峰通过摩云藤延伸到虚空深处，发现没有任何阻碍，这是否意味着魔音神殿存在可以利用的漏洞。
+```

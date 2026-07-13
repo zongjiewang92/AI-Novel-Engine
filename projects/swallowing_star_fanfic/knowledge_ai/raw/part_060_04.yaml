@@ -1,0 +1,100 @@
+```yaml
+source:
+  id: 第903章至宝星辰塔
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 地球一脉首领，修炼《九劫秘典》。
+    attributes:
+      实力: 界主
+      身份: 异族大能者徒弟、地球一脉首领
+
+  - id: 巍峨老者
+    type: Character
+    name: 巍峨老者
+    aliases: []
+    description: 异族大能者，罗峰的老师。
+    attributes:
+      实力: 宇宙之主级别及以上
+
+  - id: 普缇
+    type: Character
+    name: 普缇
+    aliases: 大弟子
+    description: 罗峰的大师兄，宇宙之主级别的强者。
+
+  - id: 星辰塔
+    type: Item
+    name: 星辰塔
+    aliases: []
+    description: 异族大能者赠予罗峰的至宝之一。
+    attributes:
+      功能: 蕴含子体孕育能力
+
+  - id: 劫甲
+    type: Item
+    name: 劫甲
+    aliases: []
+    description: 异族大能者为罗峰制造的至宝，可以孕育兵甲、将甲等。
+
+  - id: 原魂
+    type: Item
+    name: 原魂
+    aliases: []
+    description: 异族大能者为二师兄普缇制造的至宝，可以孕育兵魂、将魂等。
+    attributes:
+      使用条件: 焱神族首领或地球人的灵魂
+
+  - id: 兵甲
+    type: Item
+    name: 兵甲
+    aliases: []
+    description: 劫甲中的一种子体。
+
+  - id: 将甲
+    type: Item
+    name: 将甲
+    aliases: []
+    description: 劫甲中的一种子体。
+    
+  - id: 王甲
+    type: Item
+    name: 王甲
+    aliases: []
+    description: 劫甲中的一种子体。
+
+  - id: 皇甲
+    type: Item
+    name: 皇甲
+    aliases: []
+    description: 劫甲中的一种子体。
+    
+relationships:
+  - 主题: 师徒关系
+    参与者:
+      - 罗峰 (徒弟)
+      - 巍峨老者 (师父)
+
+  - 主题: 兄弟姐妹关系
+    参与者:
+      - 罗峰 (弟弟或妹妹)
+      - 普缇 (师兄)
+
+dialogues:
+  - 发言人: 巍峨老者
+    内容: "这星辰塔乃是无比适合你的至宝……"
+  - 发言人: 巍峨老者
+    内容: "罗峰，你可知道，这些是什么？"
+  - 发言人: 罗峰
+    内容: "地球一脉的未来？"
+
+timeline:
+  - 时间点: 进入星辰塔空间
+    描述: 巍峨老者带着罗峰和普缇进入扭曲的空间通道。
+
+mysteries:
+  - 内容: 星辰塔内水珠的具体用途与数量的意义。
+```

@@ -1,0 +1,65 @@
+```yaml
+source:
+  id: 罗峰闯乌启楼
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 断东河传承者，已经创出七阶顶尖刀法。
+    attributes:
+      实力: 宇宙之主阶段
+      刀法境界: 七阶顶尖
+
+  - id: 白袍男子
+    type: Character
+    name: 白袍男子
+    aliases: []
+    description: 第五层的守卫者，能使用融合法则和金空法则。
+    attributes:
+      实力: 真神中等水准及以上
+
+  - id: 断东河
+    type: Organization
+    name: 断东河
+    aliases: []
+    description: 历代传承者的组织。
+
+  - id: 乌启楼
+    type: Location
+    name: 乌启楼
+    aliases: []
+    description: 一个用于考验和修炼的神秘建筑，有九层。
+    
+  - id: 血影刀
+    type: Item
+    name: 血影刀
+    aliases: []
+    description: 罗峰的主武器，能够刻录多种攻击秘法。
+
+relationships:
+  - source_id: 罗峰
+    target_id: 断东河
+    relationship_type: 继承者
+
+events:
+  - id: 创出七阶顶尖刀法《九天之路》
+    type: Ability
+    description: 在乌启楼第五层中，罗峰突破并创出了新的攻击秘法。
+    attributes:
+      法则融合: 水、火、金、空
+      威能等级: 七阶顶尖
+
+dialogues:
+  - speaker_id: 罗峰
+    content: "此刀，是在乌启楼内所创。此次，我也定要进入第九层，登顶乌启楼。所有拦在我面前的，尽皆粉碎，谁也挡不住我的路。这一招，便叫九天之路吧！"
+
+timeline:
+  - event_id: 创出七阶顶尖刀法《九天之路》
+    time: 第五层挑战
+
+mysteries:
+  - question: 弑吴羽翼第三重秘法是什么？
+    context: 罗峰在提升至七阶顶尖后，希望能领悟弑吴羽翼的更高层次。
+```

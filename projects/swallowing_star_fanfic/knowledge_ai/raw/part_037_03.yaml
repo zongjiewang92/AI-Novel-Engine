@@ -1,0 +1,59 @@
+```yaml
+source:
+  id: 第549章天蚀宫
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 黑衣罗峰，使用魔杀族分身击败司雍。
+    attributes:
+      实力: 领域级, 使用《幽影七绝刀》和原力战衣延伸手臂攻击
+      特殊能力: 能量生命形态变化
+
+  - id: 司雍
+    type: Character
+    name: 司雍
+    aliases: []
+    description: 被罗峰击败的世界级强者。
+    attributes:
+      实力: 界域级, 使用念力兵器和巨龙进行攻击
+
+  - id: 魔杀族分身
+    type: Species
+    name: 魔杀族分身
+    aliases: []
+    description: 能够变化形态，模仿各种生物特征。
+    attributes:
+      变化能力: 模拟人类或金角巨兽等生命形态
+
+  - id: 幽影七绝刀
+    type: Ability
+    name: 幽影七绝刀
+    aliases: []
+    description: 罗峰使用的最强刀法，蕴含凛冽杀机。
+
+relationships:
+  - 关系类型: 对手
+    主体id: 司雍
+    客体id: 罗峰
+
+events:
+  - 时间: 夜黑风吹之时
+    地点: 山林废墟
+    名称: 罗峰击败司雍
+    描述: 罗峰使用魔杀族分身变化能力，以近战击败司雍。
+    attributes:
+      结果: 司雍陨落
+
+dialogues:
+  - 对话者1id: 司雍
+    对话者2id: 罗峰
+    内容: "哈哈哈哈……世界级就是世界主，领域级就领域级，你再天才，也必死无疑！！！"
+
+timeline:
+
+mysteries:
+  - 内容: 罗峰如何使用魔杀族分身变化能力突破司雍防御。
+```

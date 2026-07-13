@@ -1,0 +1,139 @@
+```yaml
+source:
+  id: 第1438章亿万纪元（下）
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有弑吴羽翼，与神眼族第一真主交手不分胜负。创造能繁衍的第一种生命。
+    attributes:
+      实力: 宇宙之主及以上
+      能力: 创造能繁衍的生命, 神体达到七万两千倍
+
+  - id: 第一真主
+    type: Character
+    name: 第一真主
+    aliases: []
+    description: 神眼族的宇宙海第一强者，与罗峰交手不分胜负。
+    attributes:
+      实力: 宇宙之主及以上
+      能力: 使用燃烧神力秘术, 拥有机械流宝物
+
+  - id: 真衍尊者
+    type: Character
+    name: 真衍尊者
+    aliases: []
+    description: 罗峰的老师，突破成为新的宇宙之主。
+    attributes:
+      实力: 宇宙之主及以上
+      能力: 断东河一脉传承
+
+  - id: 彭工真神
+    type: Character
+    name: 彭工真神
+    aliases: []
+    description: 新诞生的第二位宇宙最强者。
+    attributes:
+      实力: 宇宙之主及以上
+      能力: 突破成为真神
+
+  - id: 洪
+    type: Character
+    name: 洪
+    aliases: []
+    description: 来自地球人一脉的宇宙之主。
+    attributes:
+      实力: 宇宙之主及以上
+      能力: 成为新的宇宙之主
+
+  - id: 呼延博
+    type: Character
+    name: 呼延博
+    aliases: []
+    description: 拥有远古文明传承指引，成为宇宙尊者。
+    attributes:
+      实力: 宇宙尊者及以上
+      能力: 突破成为宇宙尊者
+
+  - id: 巴巴塔
+    type: Character
+    name: 巴巴塔
+    aliases: []
+    description: 提供罗峰关于魔手王娑罗普的信息。
+    attributes:
+      实力: 宇宙之主及以上
+      能力: 提供信息
+
+  - id: 罗海
+    type: Character
+    name: 罗海
+    aliases: []
+    description: 罗峰的儿子，成为宇宙尊者。
+    attributes:
+      实力: 宇宙尊者及以上
+      能力: 成为新的宇宙尊者
+
+relationships:
+  - 主体: 罗峰
+    关系类型: 师生关系
+    对象: 真衍尊者
+
+  - 主体: 彭工真神
+    关系类型: 同族
+    对象: 罗峰
+
+events:
+  - 名称: 第一真主与罗峰交手
+    类型: Combat
+    时间线: 十二纪元
+    描述: 双方战力相当，不分胜负。
+
+  - 名称: 彭工之主突破成真神
+    类型: Breakthrough
+    时间线: 第一千零三纪元
+    描述: 新诞生的第二位宇宙最强者。
+
+  - 名称: 罗峰创造能繁衍的生命
+    类型: Creation
+    时间线: 第三千四百零二纪元
+    描述: 成功创造出能够繁衍的第一种生命，模样类似人类。
+
+  - 名称: 洪成为宇宙之主
+    类型: Breakthrough
+    时间线: 第一万三千纪元
+    描述: 来自地球人一脉的绝世天才突破成新的宇宙之主。
+
+  - 名称: 呼延博成为宇宙尊者
+    类型: Breakthrough
+    时间线: 第三万九千八百纪元
+    描述: 在远古文明传承指引下跨入宇宙尊者行列。
+
+  - 名称: 罗海成为宇宙尊者
+    类型: Breakthrough
+    时间线: 第五万三千纪元
+    描述: 成为罗家第三位宇宙尊者。
+  
+timeline:
+  - 时间点: 十二纪元
+    事件: 第一真主与罗峰交手，不分胜负。
+
+  - 时间点: 第一千零三纪元
+    事件: 彭工之主突破成真神
+
+  - 时间点: 第三千四百零二纪元
+    事件: 罗峰创造能繁衍的生命
+
+  - 时间点: 第一万三千纪元
+    事件: 洪成为宇宙之主
+
+  - 时间点: 第三万九千八百纪元
+    事件: 呼延博成为宇宙尊者
+  
+  - 时间点: 第五万三千纪元
+    事件: 罗海成为宇宙尊者
+    
+mysteries:
+  - 内容: 魔手王娑罗普竟然还活着，被呼延博追杀并最终斩杀。
+```

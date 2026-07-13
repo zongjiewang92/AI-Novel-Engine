@@ -1,0 +1,65 @@
+```yaml
+source:
+  id: 第786章妖族的特殊奖励
+
+entities:
+  - id: 夫威撒
+    type: Character
+    name: 夫威撒
+    aliases: []
+    description: 虬嗜族不朽神灵，曾在域外战场上被人类小队击败后设计了一枚带有暗手的空间戒指以备复仇。
+    attributes:
+      实力: 不朽军主（普通不朽）
+      性格: 狡猾
+  - id: 雷克亚
+    type: Character
+    name: 雷克亚
+    aliases: []
+    description: 虬嗜族界主，曾被夫威撒邀请共同对付人类小队。
+    attributes:
+      实力: 界主
+      性格: 有点迟疑但谨慎
+  - id: 蒙维纳
+    type: Character
+    name: 蒙维纳
+    aliases: []
+    description: '兹潜万蛇'王族成员，妖族殿下。
+    attributes:
+      实力: 普通不朽高等（天赋爆发接近封侯级）
+      性格: 未详述
+
+organizations:
+  - id: 虬嗜族
+    type: Organization
+    name: 蟒嗜族
+    description: 不明，但为妖族的一部分
+    attributes:
+
+events:
+  - id: 布置暗手
+    type: Event
+    description: 夫威撒在被人类小队击败后布置了一枚带有暗手的空间戒指。
+    timeline: 现阶段
+
+dialogues:
+  - speaker: 雷克亚
+    listener: 夫威撒
+    content: "你真狡猾。"
+  - speaker: 夫威撒
+    listener: 雷克亚
+    content: "杀我兄弟手下，我当然得报复。"
+  - speaker: 雷克亚
+    listener: 夫威撒
+    content: "人类队伍实力怎么样？"
+  - speaker: 夫威撒
+    listener: 雷克亚
+    content: "人类队伍有一名不朽神灵，九名界主。其中的两名界主拥有超强战斗力，完全能媲美不朽……"
+  - speaker: 夫威撒
+    listener: 雷克亚
+    content: "蒙维纳殿下正常形态虽然仅仅普通不朽高等，可以他天赋爆发下来，战力接近封侯级。有他在，绝对有十足把握。"
+
+mysteries:
+  - id: 蒙维纳是否出手
+    type: Mystery
+    description: 夫威撒能否成功邀请蒙维纳殿下与他们一同出马对付人类小队。
+```

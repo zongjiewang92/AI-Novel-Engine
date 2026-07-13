@@ -1,0 +1,91 @@
+```yaml
+source:
+  id: original_text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 宇宙高等尊者，拥有幽海分身和金角巨兽的宇宙超级存在。
+    attributes:
+      实力: 宇宙高等尊者
+      能力: 拥有黑色剑体至宝
+  - id: 幽海罗峰
+    type: Character
+    name: 幽海罗峰
+    aliases: []
+    description: 罗峰的分身，宇宙超级存在。
+    attributes:
+      实力: 宇宙高等尊者
+      能力: 拥有黑色剑体至宝
+  - id: 金角巨兽
+    type: Character
+    name: 金角巨兽
+    aliases: []
+    description: 星空巨兽，宇宙超级存在。
+    attributes:
+      实力: 宇宙高等尊者
+      能力: 拥有黑色剑体至宝
+  - id: 北疆联盟
+    type: Organization
+    name: 北疆联盟
+    aliases: []
+    description: 星空巨兽之一，宇宙超级存在组织。
+    attributes:
+      成员数量: 至少三名宇宙尊者
+      目标: 获取至宝
+  - id: 鸿盟
+    type: Organization
+    name: 鸿盟
+    aliases: []
+    description: 星空巨兽之一，宇宙超级存在组织。
+    attributes:
+      成员数量: 至少五名宇宙尊者
+      目标: 获取至宝
+  - id: 百貉尊者
+    type: Character
+    name: 百貉尊者
+    aliases: []
+    description: 宇宙尊者，北疆联盟成员。
+    attributes:
+      实力: 宇宙高等尊者
+      能力: 拥有分身在北疆联盟核心腹地
+
+relationships:
+  - id: 罗峰-幽海罗峰
+    type: 分身关系
+    description: 幽海罗峰是罗峰的分身。
+  - id: 金角巨兽-黑剑至宝
+    type: 拥有关系
+    description: 金角巨兽拥有黑色剑体至宝。
+
+events:
+  - id: 至宝争夺战
+    type: Event
+    description: 多支队伍争夺一件至宝，最终被星空巨兽获得。
+    attributes:
+      参与者: 八名宇宙高等尊者、罗峰及其分身金角巨兽
+      结果: 星空巨兽获得至宝
+
+dialogues:
+  - id: 百貉尊者-紫色金属尊者
+    type: 对话
+    description: "百貉尊者，你有分身在我北疆联盟核心腹地，你赶紧传消息给联盟内部，我们刚刚发现了剑河罗的其中一柄神剑。"
+    participants:
+      - 紫色金属尊者
+      - 百貉尊者
+
+timeline:
+  - id: 宝物争夺战开始
+    type: 时间线
+    description: 多支队伍争夺至宝，最终由星空巨兽获得。
+    attributes:
+      地点: 原始星某处
+      时间: 文中未明确具体时间
+
+mysteries:
+  - id: 至宝讯息缺失
+    type: Mystery
+    description: 黑色剑体至宝没有传递任何讯息给罗峰。
+```

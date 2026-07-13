@@ -1,0 +1,72 @@
+```yaml
+source:
+  id: 第1347章罗峰降临（第二更）
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 宇宙之主，银河领主，得到断东河一脉传承。
+    attributes:
+      实力: 宇宙之主
+      能力: 星辰塔、灵魂冲击之宝
+
+  - id: 混沌城主
+    type: Character
+    name: 混沌城主
+    aliases: []
+    description: 罗峰的老师，传授远古文明传承。
+    attributes:
+      实力: 宇宙最强者
+      能力: 授业解惑
+
+  - id: 星辰塔
+    type: Item
+    name: 星辰塔
+    aliases: []
+    description: 至强至宝，可吞吸宇宙之主。
+    attributes:
+      功能: 吞吸、防御、移动
+
+organizations:
+  - id: 宇宙海各大势力
+    type: Organization
+    name: 宇宙海各大势力
+    aliases: []
+    description: 包括各个种族和文明的联盟与对立派系。
+
+locations:
+  - id: 宇宙舟
+    type: Location
+    name: 宇宙舟
+    aliases: []
+    description: 超大型宇宙空间站，内部环境复杂。
+    attributes:
+      特点: 内部包含无数区域和通道
+
+events:
+  - id: 罗峰进入宇宙舟
+    type: Event
+    name: 罗峰乘坐星辰塔进入宇宙舟
+    description: 罗峰带着星辰塔光明正大地进入了宇宙舟，引起各方关注。
+    attributes:
+      时间: 不详
+      地点: 宇宙舟
+      结果: 引起人类阵营和各大势力的注意
+
+dialogues:
+  - id: 混沌城主与罗峰对话
+    type: Dialogue
+    name: 老师，我将去宇宙海。
+    description: 罗峰告知老师自己要去宇宙海搜集奇物，并表达决心。
+
+timeline:
+
+mysteries:
+  - id: 巨斧陨落之谜
+    type: Mystery
+    name: 巨斧陨落背后阴谋
+    description: 混沌城主提示罗峰留意当初使巨斧陨落的三个阴谋者，推测他们动机不明。
+```
+此 YAML 格式根据文本内容提炼出主要人物、物品、地点及事件，并保留原文的关键对话和未解之谜。

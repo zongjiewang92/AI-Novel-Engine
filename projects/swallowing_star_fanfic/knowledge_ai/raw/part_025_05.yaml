@@ -1,0 +1,65 @@
+```yaml
+source:
+  id: rofe_universe_rise
+
+entities:
+  - id: luofeng
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      拥有大量财富，成为三星级客户。具有期待参与乾巫拍卖会的兴趣。
+    attributes:
+      wealth: 富裕
+      status: 三星级客户
+
+  - id: babata
+    type: Character
+    name: 巴巴塔
+    aliases: []
+    description: >
+      罗峰的虚拟宇宙助手，提供重要信息和建议。
+    attributes:
+      role: 助手
+
+relationships:
+  - entity1_id: luofeng
+    entity2_id: babata
+    type: 指导关系
+    description: 巴巴塔为罗峰提供建议和指导。
+
+events:
+  - id: auction_invitation
+    type: Event
+    name: 乾巫拍卖会邀请函
+    description: >
+      罗峰收到虚拟宇宙公司的邮件，被邀请参加两年后的乾巫拍卖会。这是重要的交易机会。
+    timeline:
+      year: 未定（两年后）
+      month: 未知
+
+dialogues:
+  - speaker1_id: luofeng
+    speaker2_id: babata
+    content: >
+      罗峰：第六封邮件和第七封邮件，你看看，很重要？
+      巴巴塔：是的，非常重要。
+      巴巴塔：在乾巫拍卖会上会出现很多无比珍贵的宝物。
+
+  - speaker1_id: luofeng
+    speaker2_id: babata
+    content: >
+      罗峰：巨斧斗武场？一个会员，很重要么？
+      巴巴塔：会员本身不重要，可巨斧斗武场的‘决战直播’还是很重要的。
+
+timeline:
+  - event_id: auction_invitation
+    year: 未定（两年后）
+    month: 未知
+
+mysteries:
+  - id: master_death_reason
+    description: >
+      罗峰老师陨墨星主人为某件宝物丧命，具体是什么原因和物品？
+```
+注意：以上数据严格按照原文提取，并没有添加任何推测信息。

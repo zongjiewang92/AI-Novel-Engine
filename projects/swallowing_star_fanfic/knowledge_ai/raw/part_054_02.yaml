@@ -1,0 +1,89 @@
+```yaml
+source:
+  id: 第807章至宝‘弑吴羽翼’
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 权限高，查阅过详细资料，使用金角巨兽和弑吴羽翼对付卡巫族封侯不朽焚亚。
+    attributes:
+      实力: 封王初等
+
+  - id: 金角巨兽
+    type: Character
+    name: 金角巨兽
+    aliases: []
+    description: 罗峰的坐骑，融合了弑吴羽翼后实力大增，能够释放威压。
+    attributes:
+      实力: 封王初等
+
+  - id: 刹巫族封侯不朽焚亚
+    type: Character
+    name: 焚亚
+    aliases: []
+    description: 卡巫族的封侯不朽神灵，拥有不死之身。
+    attributes:
+      实力: 封侯高等
+      身份: 卡巫族封侯不朽
+
+  - id: 不死之身
+    type: Ability
+    name: 不死之身
+    aliases: []
+    description: 拥有此能力的神灵能够不断复活。
+    attributes:
+      属性: 生命恢复
+
+  - id: 强行湮灭
+    type: Ability
+    name: 强行湮灭
+    aliases: []
+    description: 杀死拥有不死之身的封侯不朽的方法，需要强大的力量和燃烧不朽神力。
+    attributes:
+      属性: 灭杀
+
+  - id: 刹巫族
+    type: Civilization
+    name: 刹巫族
+    aliases: []
+    description: 卡巫族文明背景。
+
+  - id: 食星草
+    type: Item
+    name: 不朽食星草
+    aliases: ["不朽食星界主的法宝"]
+    description: 具有强大吞噬能力，但无法对焚亚造成伤害。
+    attributes:
+      类型: 法宝
+
+  - id: 弑吴羽翼
+    type: Item
+    name: 弑吴羽翼
+    aliases: []
+    description: 混沌城主认定的宝贝至宝，具有强大的飞行和战斗能力。
+    attributes:
+      功能: 飞行, 闪躲
+
+relationships:
+
+events:
+  - id: 对付焚亚
+    type: Event
+    name: 罗峰使用金角巨兽对付卡巫族封侯不朽焚亚
+    description: 利用弑吴羽翼的强大战斗能力来尝试湮灭焚亚。
+    timeline:
+      时间节点1: 使用金角巨兽撕天一爪攻击焚亚，但效果有限。
+      时间节点2: 罗峰决定使用弑吴羽翼进行更强力的攻击。
+
+dialogues:
+
+timeline:
+  - 时间点1: 焚亚多次被轰成粉末后再度凝聚
+  - 时间点2: 罗峰考虑如何彻底消灭焚亚
+
+mysteries:
+  - 问题1: 如何在不燃烧不朽神力的情况下湮灭拥有不死之身的封侯不朽？
+```
+重要说明：仅提供YAML数据，没有额外解释或注释。

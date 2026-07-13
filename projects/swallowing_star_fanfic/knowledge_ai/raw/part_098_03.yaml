@@ -1,0 +1,81 @@
+```yaml
+source:
+  id: 罗峰的宇宙之旅
+
+entities:
+  - id: 摩罗撒
+    type: Character
+    name: 摩罗撒
+    aliases: []
+    description: 界兽巢穴的奴仆，能够感应每个界兽的位置。
+    attributes:
+      - 能力：感应界兽数量和位置
+      - 关系：罗峰的奴仆
+
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 主角，宇宙之主，使用星辰塔进入昏暗之地。
+    attributes:
+      - 能力：无形无相、瞬移
+      - 关系：摩罗撒的主人
+
+  - id: 星辰塔
+    type: Item
+    name: 星辰塔
+    aliases: []
+    description: 罗峰使用的飞行工具，可以缩小和隐形。
+    attributes:
+      - 功能：飞行、隐藏
+      - 关系：属于罗峰的宇宙之主
+
+  - id: 暗影之地
+    type: Location
+    name: 晦暗之地
+    aliases: []
+    description: 界兽巢穴，一片黑暗的地方。
+    attributes:
+      - 特点：内部时刻运转、容易迷失
+
+relationships:
+  - 主体: 罗峰
+    宾语: 星辰塔
+    关系类型: 使用
+  - 主体: 摩罗撒
+    宾语: 界兽巢穴
+    关系类型: 控制
+  - 主体: 罗峰
+    宾语: 摩罗撒
+    关系类型: 主人
+
+events:
+  - id: 进入暗影之地
+    type: Event
+    name: 星辰塔进入万重浪水域
+    description: 罗峰使用星辰塔缩小并隐形，开始在昏暗之地中穿梭。
+    timeline:
+      时间: 文本描述的时间点
+
+  - id: 界兽感应
+    type: Event
+    name: 隐形岩石被界兽发现
+    description: 某个界兽通过空间感应发现了罗峰伪装的岩石，并将其踩碎。
+    timeline:
+      时间: 进入暗影之地后一段时间
+
+dialogues:
+  - 发言者: 神力化身
+    对话内容: "摩罗撒，将界兽巢穴的星图给我。"
+  - 发言者: 摩罗撒
+    对话内容: "主人，我只能给出一个大概区域范围内的坐标。"
+
+timeline:
+  - 时间点: 罗峰进入万重浪水域前
+    描述: 计划并准备前往界兽巢穴。
+  - 时间点: 星辰塔飞入万重浪水域
+    描述: 星辰塔缩小后直接进入昏暗之地。
+
+mysteries:
+  - 未解决信息: 罗峰能否成功在无形无相状态下不被发现并完成任务。
+```

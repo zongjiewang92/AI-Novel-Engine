@@ -1,0 +1,114 @@
+```yaml
+source:
+  id: 擂台战文本
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 工作室成员，通过预选赛。
+    attributes:
+      实力: 预选赛通过者
+      关系: 徐刚妹夫, 洪的弟弟
+
+  - id: 洪
+    type: Character
+    name: 洪
+    aliases: []
+    description: 工作室成员，通过预选赛。
+    attributes:
+      实力: 预选赛通过者
+      关系: 罗峰的大哥, 徐刚的妹夫
+
+  - id: 雷神
+    type: Character
+    name: 雷神
+    aliases: []
+    description: 工作室成员。
+    attributes:
+      实力: 不详
+      关系: 工作室成员
+
+  - id: 徐刚
+    type: Character
+    name: 徐刚
+    aliases: []
+    description: 罗峰的妹夫，工作室成员。
+    attributes:
+      实力: 不详
+      关系: 罗峰的妹夫, 工作室成员
+
+  - id: 平平
+    type: Character
+    name: 平平
+    aliases: []
+    description: 罗峰的孩子。
+    attributes:
+      关系: 罗峰的儿子
+
+  - id: 小海
+    type: Character
+    name: 小海
+    aliases: []
+    description: 罗峰的孩子。
+    attributes:
+      关系: 罗峰的儿子
+
+  - id: 纳比尼
+    type: Character
+    name: 纳比尼
+    aliases: []
+    description: 黑龙山帝国的天才，预选赛通过者。
+    attributes:
+      实力: 圣地黑龙山最优秀的天才之一
+      出身: 黑龙山星域土著, 帕里斯家族跟班
+
+  - id: 隆索
+    type: Character
+    name: 隆索
+    aliases: []
+    description: 波亚帝国的天才，预选赛通过者。
+    attributes:
+      实力: 第82世界区排名第12名
+
+organizations:
+  - id: 黑龙山帝国
+    type: Organization
+    name: 黑龙山帝国
+    aliases: []
+    description: 纳比尼所属的帝国。
+
+  - id: 帕里斯家族
+    type: Organization
+    name: 帕里斯家族
+    aliases: []
+    description: 拥有十几颗生命星球领地的商业家族，发现并培养了纳比尼。
+    attributes:
+      实力: 商业家族, 出现宇宙级强敌时曾濒临崩溃
+
+locations:
+  - id: 虚拟宇宙中的斗武场
+    type: Location
+    name: 虚拟宇宙中的斗武场
+    aliases: []
+    description: 擂台战的场地。
+    attributes:
+      容量: 最大可容纳十亿观众
+
+dialogues:
+  - id: 徐刚和罗峰对话
+    type: Dialogue
+    participants:
+      - 徐刚
+      - 罗峰
+    content: "妹夫。这擂台战刚出来，我就抢着订门票，可还是没能订到。幸亏你这有门票，否则只能看转播了！"
+
+timeline:
+  - id: 擂台混战开始第一天
+    type: Timeline
+    description: 第一天进行第1组至第200组的擂台混战。
+```
+mysteries:
+
+```

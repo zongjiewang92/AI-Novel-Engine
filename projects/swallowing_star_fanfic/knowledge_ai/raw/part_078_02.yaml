@@ -1,0 +1,76 @@
+```yaml
+source:
+  id: 原文
+
+entities:
+  - id: 垣奥之主
+    type: Character
+    name: 垣奥之主
+    aliases: []
+    description: 宇宙之主，拥有奇物黑色神木。
+    attributes:
+      实力: 强大但防御较弱
+      特点: 独眼、疯狂
+
+  - id: 黑宙创始者
+    type: Character
+    name: 黑宙创始者
+    aliases: []
+    description: 宇宙最强者，拥有金色火焰身影。
+    attributes:
+      实力: 极强
+      特点: 冷静、强大
+
+  - id: 旋元
+    type: Character
+    name: 旋元
+    aliases: []
+    description: 大破灭时代前的宇宙最强者，因深入倾峰界而陨落。
+    attributes:
+      实力: 宇宙最强者
+      特点: 喜欢冒险
+
+items:
+  - id: 黑色神木
+    type: Item
+    name: 黑色神木
+    description: 神奇的武器，能够提高攻击力。
+
+  - id: 冰山
+    type: Item
+    name: 冰山
+    description: 属于冰峰之主的巅峰镇封类至宝，能发出强大的吞吸力量。
+
+locations:
+  - id: 倾峰界
+    type: Location
+    name: 倾峰界
+    description: 宇宙海三大绝地之一。
+    attributes:
+      危险程度: 极高
+
+events:
+  - id: 战斗
+    type: Event
+    name: 黑宙创始者与垣奥之主的战斗
+    description: 垣奥之主使用奇物黑色神木攻击黑宙创始者，但被压制并面临镇封。
+    timeline:
+      时间点1: 垣奥之主获得黑色神木后发动攻击
+      时间点2: 黑宙创始者用金色火焰身影压制垣奥之主
+
+dialogues:
+  - id: 对话1
+    type: Dialogue
+    speaker: 垣奥之主
+    content: "我刚刚得到奇物，如果再给我点时间，让我能够去换取更好的铠甲！或者换取更多珍贵材料提高我的生命基因……就算黑宙创始者，都难伤我！"
+  - id: 对话2
+    type: Dialogue
+    speaker: 黑宙创始者
+    content: "垣奥，我不帮你，我一样能得到黑色神木！只是损失些其他至宝罢了，可若是帮了你……等于得罪原始宇宙各大势力。"
+
+mysteries:
+  - id: 神秘1
+    type: Mystery
+    name: 倾峰界残图
+    description: 已经陨落的宇宙最强者旋元遗留的一份残图，能够让垣奥之主在绝境中看到一丝希望。
+```

@@ -1,0 +1,81 @@
+```yaml
+source:
+  id: 213
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 华夏国武者，二十岁精神念师。
+    attributes:
+      年龄: 20
+      实力: 行星级精神念师
+      身份: 极限武馆成员
+
+  - id: 默汉德森
+    type: Character
+    name: 默汉德森
+    aliases: [冰雪大帝]
+    description: 美利坚政府第一强者，行星级三阶。
+    attributes:
+      年龄: 不详
+      实力: 行星级三阶精神念师
+      身份: 第三议长
+
+  - id: 阁员
+    type: Character
+    name: 议员
+    aliases: []
+    description: 观察局势后迅速退去。
+    attributes:
+      年龄: 不详
+      实力: 不详
+      身份: 欧洲联盟议员
+
+  - id: 地底河流
+    type: Location
+    name: 地底河流
+    aliases: []
+    description: 流淌于地下深处，存在大量水域怪兽。
+
+  - id: 白色晶体
+    type: Item
+    name: 白色晶体
+    aliases: [白色晶石]
+    description: 发出米香味的神秘物品，吞食后会爆炸死亡。
+    attributes:
+      类型: 宝物
+
+relationships:
+  - 主题: 罗峰与默汉德森的竞争关系
+    参与者: 罗峰, 默汉德森
+    描述: 因争夺白色晶石产生冲突。
+
+events:
+  - 名称: 白色晶体爆炸事件
+    时间: 文章开始时
+    地点: 地底河流中某处
+    参与者: 水域怪兽, 罗峰
+    描述: 一头水域怪兽吞食白色晶石后立即爆炸死亡。
+
+dialogues:
+  - 发言人: 默汉德森
+    内容: "罗峰，这是我默汉德森的，速速让开。"
+    场景描述: 在争夺宝物时对罗峰发出警告。
+    
+  - 发言人: 罗峰
+    内容: "是我极限武馆的东西，你也敢抢，找死不成！"
+    场景描述: 对默汉德森的威胁进行回击。
+
+timeline:
+  - 时间点: 文章开始前若干时间
+    描述: 罗峰在地底河流中发现白色晶石。
+    
+  - 时间点: 文章开始时
+    描述: 罗峰与默汉德森争夺宝物，议员迅速离开现场。
+
+mysteries:
+  - 内容: 白色晶体为何会致命？
+    描述: 吞食后爆炸死亡的原因未知。
+```

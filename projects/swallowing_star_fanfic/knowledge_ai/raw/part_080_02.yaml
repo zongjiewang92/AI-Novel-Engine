@@ -1,0 +1,68 @@
+```yaml
+source:
+  id: 吞噬星空_第1209章
+
+entities:
+  - id: 巨斧创始者
+    type: 人物
+    name: 巨斧创始者
+    aliases: []
+    description: 人类族群的领袖，宇宙之主级别。
+    attributes:
+      实力: 宇宙之主
+      身份: 人类族群领袖
+
+  - id: 混沌城主
+    type: 人物
+    name: 混沌城主
+    aliases: []
+    description: 人类族群的领袖之一，宇宙最强者级别。
+    attributes:
+      实力: 宇宙最强者
+      身份: 人类族群领袖
+
+  - id: 罗峰
+    type: 人物
+    name: 罗峰
+    aliases: []
+    description: 人类族群成员，拥有强大实力和贡献。
+    attributes:
+      实力: 宇宙之主
+      贡献度: 高
+      特殊物品: 牵丝图
+
+  - id: 宇宙舟
+    type: 地点
+    name: 宇宙舟
+    aliases: []
+    description: 人类族群探索的神秘领域，包含三大绝地之一。
+    attributes:
+      区域类型: 内域、核心区域
+      危险程度: 极高
+
+relationships:
+  - 主体: 罗峰
+    关系: 受到尊敬
+    客体: 巨斧创始者
+    描述: 巨斧创始者对罗峰的贡献给予高度评价。
+
+events:
+  - id: 分享地图
+    type: Event
+    name: 分享宇宙舟的地图
+    description: 罗峰将从牵丝图中得到的宇宙舟部分区域地图无偿奉献给族群。
+    timeline: []
+
+dialogues:
+  - 主体: 巨斧创始者
+    客体: 罗峰
+    内容: "你无偿奉献地图，且是绝地地图。对族群功劳极大...所以我也只能给你5000至宝点。"
+    特殊意义: 表达了巨斧创始者对罗峰贡献的认可和奖励。
+
+timeline:
+  - 时间节点: 返回地球第三个月
+    描述: 罗峰再次离开原始宇宙，前往宇宙舟探索。
+    
+mysteries:
+  - 内容: 桀梵子遗留宝藏的具体位置及其难度级别。
+```

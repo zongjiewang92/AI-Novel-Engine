@@ -1,0 +1,67 @@
+```yaml
+source:
+  id: origin_text
+
+entities:
+  - id: yilina
+    type: Character
+    name: 伊琳娜
+    aliases: []
+    description: 虫族母皇，罗峰的宠物。
+    attributes:
+      - 实力：法则感悟火之法则，空间法则尚欠远
+      - 情感：狡黠、聪明
+
+  - id: luofeng
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 主人，虫族母皇伊琳娜的主人。
+    attributes:
+      - 实力：拥有5600亿混元单位现金存款
+
+  - id: mo_yun_teng
+    type: Species
+    name: 摩云藤
+    aliases: []
+    description: 虫族植物生命，可以进化为不朽。
+
+  - id: xing_xingcao
+    type: Species
+    name: 食星草
+    aliases: []
+    description: 类似摩云藤的虫族植物生命。
+
+relationships:
+  - id: yilina_to_luofeng_owner_pet
+    source_id: yilina
+    target_id: luofeng
+    type: Relationship
+    name: 主人与宠物关系
+
+events:
+  - id: research_materials_for_benzhentian_di
+    source_id: luofeng
+    type: Event
+    name: 研究《本尊天地》第三层所需材料
+    description: 在鸿盟城的店铺中寻找18种昂贵资源，花费约1100亿混元单位。
+
+items:
+  - id: huoshen_yuanjing
+    type: Item
+    name: 火神源晶
+    aliases: []
+    description: 高贵材料，可用于增强巨兽的力量。
+    attributes:
+      - 数量：四颗（每颗近300亿混元单位）
+```
+
+timeline:
+
+mysteries:
+  - id: yilina_incompleteness_of_achieve_immortality
+    source_id: yilina
+    type: Mystery
+    name: 伊琳娜无法成为不朽的原因
+    description: 尽管悟透火之法则，但空间法则方面尚欠远。
+```

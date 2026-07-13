@@ -1,0 +1,92 @@
+```yaml
+source:
+  id: 第783章湮灭
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 称作默默，是队伍中的成员之一。
+    attributes:
+      实力: 界主级
+      性格: 聪明谨慎
+
+  - id: 泰沃
+    type: Character
+    name: 泰沃
+    aliases: [队长]
+    description: 队伍的领导者，是一名界主。
+    attributes:
+      实力: 界主级
+      性格: 果断勇敢
+
+  - id: 毒药
+    type: Character
+    name: 毒药
+    aliases: []
+    description: 队伍成员之一，在战斗中爆发了惊人的力量。
+    attributes:
+      实力: 界主级
+      性格: 忏悔且复仇心强
+
+  - id: 武者旋风
+    type: Character
+    name: 旋风
+    aliases: []
+    description: 队伍中的一员，沉默寡言。
+    attributes:
+      实力: 界主级
+      性格: 沉默而坚韧
+
+  - id: 不朽鳞甲生物
+    type: Species
+    name: 不朽鳞甲生物
+    aliases: []
+    description: 敌对种族，拥有不朽神灵的实力。
+    attributes:
+      实力: 不朽级及以上
+
+relationships:
+  - id: 罗峰与泰沃
+    type: 合作关系
+    description: 罗峰是泰沃队伍中的一员。
+
+  - id: 毒药对七哥的情感
+    type: 复仇关系
+    description: 因为死去的战友，毒药充满仇恨和复仇心。
+
+events:
+  - id: 队伍遭遇敌人
+    type: Event
+    description: 罗峰发现远处有敌人接近，并提醒队伍。
+    timeline: 战斗开始前
+
+  - id: 不朽神力压缩体攻击
+    type: Ability
+    description: 泰沃使用不朽神力进行攻击，以抵御敌人的进攻。
+
+  - id: 再次遭遇仇敌
+    type: Event
+    description: 队伍再次遇到曾经杀死他们战友的敌人。
+    timeline: 战斗爆发时
+
+dialogues:
+  - speaker: 泰沃
+    content: "疯子，岩石，那队伍是我们的生死仇敌，不要留手，拼命，杀死他们，将那群食尸鬼杀光。"
+    context: 罗峰提醒发现敌人后，泰沃对队员的指示。
+
+timeline:
+  - event: 遭遇敌人
+    time: 战斗开始前
+
+  - event: 不朽神力压缩体攻击
+    time: 敌人接近时
+
+  - event: 再次遭遇仇敌
+    time: 紧随其后
+
+mysteries:
+  - id: 七哥的死亡原因
+    description: 虽然提到了毒药的战友，但是没有详细解释七哥具体的死因。
+```

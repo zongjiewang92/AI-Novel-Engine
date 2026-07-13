@@ -1,0 +1,88 @@
+```yaml
+source:
+  id: 第309章天空中的投影
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 领主大人，身份从公民变为星球领主。
+    attributes:
+      实力: 星球领主
+
+  - id: 洪
+    type: Character
+    name: 洪
+    aliases: []
+    description: 罗峰的同伴之一，与罗峰一同参与处理诺岚山家族带来的威胁。
+    attributes: []
+
+  - id: 雷神
+    type: Character
+    name: 雷神
+    aliases: []
+    description: 罗峰的同伴之一，与罗峰一同参与处理诺岚山家族带来的威胁。
+    attributes: []
+
+  - id: 徐欣
+    type: Character
+    name: 徐欣
+    aliases: []
+    description: 发通讯邀请给罗峰的人。
+    attributes: []
+
+  - id: 普拉
+    type: Character
+    name: 普拉
+    aliases: []
+    description: 诺岚山家族的代表，展示力量并要求地球高层给予尊重。
+    attributes:
+      实力: 恒星级九阶
+
+  - id: 诺岚山家族
+    type: Organization
+    name: 诺岚山家族
+    aliases: []
+    description: 最强武力为‘宇宙级九阶’的星际文明，拥有高级飞船和强大的幼兽。
+    attributes:
+      强度: 宇宙级九阶
+
+locations:
+  - id: 地球
+    type: Location
+    name: 地球
+    aliases: []
+    description: 被诺岚山家族威胁的人类生存之地。
+
+  - id: 天津城
+    type: Location
+    name: 天津城
+    aliases: [京都基地市天津城]
+    description: 地球的一个基地市，受到诺岚山家族的直接威胁。
+    
+relationships:
+  - entity1_id: 罗峰
+    entity2_id: 徐欣
+    type: 关系
+    description: 徐欣向罗峰发送通讯邀请，希望得到好消息。
+
+events:
+  - id: 地球被威胁
+    type: Event
+    name: 地球被威胁
+    description: 诺岚山家族通过展示强大的力量要求地球高层给予尊重，否则将采取毁灭行动。
+    
+dialogues:
+  - speaker_id: 普拉
+    listener_ids: []
+    content: "我们是抱着善意来的，所以不会攻击任何城市！你们地球上一共有五大国23个基地市，在一个小时后，你们地球上所谓的‘王级怪兽’，每一个基地市中，我们都会丢在街道广场这种地方十头王级怪兽尸体！"
+    
+timeline:
+  - event: 罗峰成为星球领主
+    time: 当前时间点
+
+mysteries:
+  - id: 混乱的地球高层决策
+    description: 地球生存基地内的高层们在诺岚山家族威胁下的混乱决策过程，未明确定论。
+```

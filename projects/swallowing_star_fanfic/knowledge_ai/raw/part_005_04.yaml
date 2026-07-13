@@ -1,0 +1,52 @@
+```yaml
+source:
+  id: original_text
+
+entities:
+  - id: LuoFeng
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 武者，独自在荒野区追杀其他人。拥有耐心毅力和精神念力。
+    attributes:
+      - 实力强
+      - 耐心毅力好
+
+  - id: LuoHua
+    type: Character
+    name: 罗华
+    aliases: []
+    description: 罗峰的弟弟，擅长炒股赚钱。拥有大量资金进行股票交易。
+    attributes:
+      - 善于炒股
+      - 资金充裕
+
+  - id: Thunder Squad
+    type: Organization
+    name: 雷霆小队
+    aliases: []
+    description: 由潘亚领导的队伍，怀疑罗峰并决定换地方狩猎。
+    attributes:
+      - 猎杀目标是混血儿少爷
+      - 拥有成员七人
+
+relationships:
+  - type: 兄弟关系
+    from: LuoFeng
+    to: LuoHua
+    description: 罗峰和罗华的兄弟关系，互相支持帮助。
+
+dialogues:
+  - speaker: LuoHua
+    content: "哥，最近我炒股又赚了一笔，大赚一笔啊，太爽了。"
+  - speaker: LuoFeng
+    content: "这么厉害，比你哥强多了。你现在资金不是有一亿多了？"
+
+timeline:
+  - event: 罗峰用望远镜观察雷霆小队的去向。
+    time: 第一天至第三天
+
+mysteries:
+  - description: 不知道罗峰布置下的陷阱是否能起到作用，只能听天由命。
+
+```

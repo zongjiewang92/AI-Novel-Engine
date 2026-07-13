@@ -1,0 +1,64 @@
+```yaml
+source:
+  id: 第473章罗峰的刀
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 虚拟宇宙中的一名天才，正在进行剑法修炼和通天桥挑战。
+    attributes:
+      实力: 强者
+      年龄: 未知
+      性格: 坚定执着
+      关系: 受元辰宇宙国主关注
+
+  - id: 巴芬
+    type: Character
+    name: 监守者巴芬
+    aliases: []
+    description: 虚拟宇宙通天桥位面的监守者，负责监管通天桥挑战。
+    attributes:
+      实力: 强者
+      年龄: 未知
+
+locations:
+  - id: 混沌城
+    type: Location
+    name: 混沌城
+    description: 虚拟宇宙中的一个修炼场所，新人在此进行各种挑战和训练。
+
+organizations:
+  - id: 虚拟宇宙公司
+    type: Organization
+    name: 虚拟宇宙公司
+    description: 提供虚拟修炼环境的大型企业。
+    attributes:
+      目标: 培养不朽强者
+
+items:
+  - id: 铠甲
+    type: Item
+    name: 铠甲
+    aliases: []
+    description: 罗峰穿着用于保护身体的铠甲。
+
+events:
+  - id: 罗峰挑战通天桥
+    type: Event
+    name: 罗峰挑战通天桥
+    attributes:
+      时间: 十年后第一次尝试
+      地点: 虚拟宇宙，通天桥位面
+
+dialogues:
+  - speaker: 监守者巴芬
+    listener: 罗峰
+    content: "这都快十年了吧，怎么一次没来闯通天桥？你的其他同伴们谁不是每年都闯几次。"
+    context: 罗峰出现在通天桥位面时，监守者惊讶于罗峰没有来挑战通天桥。
+
+timeline:
+  - 时间点: 十年后
+    描述: 罗峰首次尝试挑战通天桥。
+```

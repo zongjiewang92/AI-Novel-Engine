@@ -1,0 +1,86 @@
+```yaml
+source:
+  id: 罗峰学习神眼秘术
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 法则之主，正在乌启楼第七层修炼《神眼秘术》。
+    attributes:
+      实力: 虚空真神顶峰
+      记忆: 得到了六卷神眼秘术
+
+  - id: 军士银河
+    type: Character
+    name: 军士银河
+    aliases: []
+    description: 罗峰，法则之主。
+    attributes:
+      实力: 虚空真神顶峰
+      记忆: 得到了六卷神眼秘术
+
+  - id: 魁梧统领
+    type: Character
+    name: 魁梧统领
+    aliases: []
+    description: 神王谷四大统领之一，负责监视罗峰的修炼过程。
+    attributes:
+      实力: 不详
+      记忆: 观察并记录了罗峰在乌启楼第七层的表现
+
+  - id: 黑雾统领
+    type: Character
+    name: 黑雾统领
+    aliases: []
+    description: 神王谷四大统领之一，负责监视罗峰的修炼过程。
+    attributes:
+      实力: 不详
+      记忆: 观察并记录了罗峰在乌启楼第七层的表现
+
+  - id: 银甲女子统领
+    type: Character
+    name: 银甲女子统领
+    aliases: []
+    description: 神王谷四大统领之一，负责监视罗峰的修炼过程。
+    attributes:
+      实力: 不详
+      记忆: 观察并记录了罗峰在乌启楼第七层的表现
+
+relationships:
+
+events:
+  - id: 罗峰学习神眼秘术第五卷至第六卷
+    type: Event
+    description: 在乌启楼第七层，罗峰成功学习了《神眼秘术》前六卷。
+    timeline:
+      时间点: 不详
+
+  - id: 神王谷四大统领观察记录
+    type: Event
+    description: 四大统领通过屏幕监视并记录罗峰的修炼过程。
+    timeline:
+      时间点: 不详
+
+locations:
+  - id: 乌启楼第七层
+    type: Location
+    name: 乌启楼第七层
+    description: 罗峰进行《神眼秘术》修炼的地方，通过意志力挑战极限。
+
+abilities:
+  - id: 神眼秘术
+    type: Ability
+    name: 神眼秘术
+    description: 断东河一脉没有的神秘秘法，适合真神修炼。
+    attributes:
+      内容: 共七卷，罗峰得到六卷
+
+mysteries:
+  - id: 罗峰能否成功完成乌启楼第八层挑战
+    type: Mystery
+    description: 神王谷四大统领对罗峰在乌启楼第八层的表现充满好奇。
+    timeline:
+      时间点: 不详
+```

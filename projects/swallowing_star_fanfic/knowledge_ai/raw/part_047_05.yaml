@@ -1,0 +1,82 @@
+```yaml
+source:
+  id: text1
+
+entities:
+  - id: lujuerwang
+    type: Character
+    name: 隆厥王
+    aliases: []
+    description: 毋窿星域的管理者，负责管理垃圾山淘宝业务。
+    attributes:
+      role: 管理者
+      location: 毋窿星域
+
+  - id: rofe
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 虚拟宇宙公司的成员，正在寻找甲壳碎片。
+    attributes:
+      level: 域主期
+      goal: 寻找甲壳碎片以组合兵甲
+
+  - id: baiyaoshuren1
+    type: Character
+    name: 白袍人1
+    aliases: []
+    description: 母窿星域的引领者，负责带罗峰淘宝。
+    attributes:
+      role: 引领者
+      task: 带罗峰寻找甲壳碎片
+
+  - id: baiyaoshuren2
+    type: Character
+    name: 白袍人2
+    aliases: []
+    description: 母窿星域的引领者，负责带罗峰淘宝。
+    attributes:
+      role: 引领者
+      task: 带罗峰寻找甲壳碎片
+
+  - id: zhengtiwuzhebingjia
+    type: Item
+    name: 兵甲
+    aliases: []
+    description: 罗峰正在搜集的物品，用于组合成完整的兵甲。
+    attributes:
+      fragments: 黑色甲壳碎片132个、银色甲壳碎片7个以及碎裂刀片一个
+
+  - id: jingaojuwure
+    type: Species
+    name: 金角巨兽
+    aliases: []
+    description: 拥有一套兵甲的生物。
+
+relationships:
+  - source_id: rofe
+    target_id: lujuerwang
+    type: 合作
+
+events:
+  - id: baoliangshigong
+    name: 垃圾山淘宝任务
+    attributes:
+      duration: 一年
+      location: 母窿星域的垃圾山
+      result: 罗峰获得了132个黑色甲壳碎片、7个银色甲壳碎片以及一个碎裂刀片
+
+dialogues:
+  - speaker_id: lujuerwang
+    listener_id: rofe
+    content: 垃圾山淘宝，也就一个乐子，可别在这上面耗费太多时间。
+
+timeline:
+  - event_id: baoliangshigong
+    time: 一年
+
+mysteries:
+  - question: 罗峰接下来是否还会继续在垃圾山寻找甲壳碎片？
+    answer: []
+
+```

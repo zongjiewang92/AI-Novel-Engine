@@ -1,0 +1,69 @@
+```yaml
+source:
+  id: 罗峰杀怪兽篇
+
+entities:
+  - id: luofeng
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拥有精神念力，擅长使用血影战刀的战士。
+    attributes:
+      实力: 初级以上
+      能力: 飞刀、刀法（霹雳）、身法
+  - id: gaofeng
+    type: Character
+    name: 高风
+    aliases: []
+    description: 火锤小队队长，精神念师。
+    attributes:
+      实力: 中级战将级
+      能力: 解剖怪兽尸体获取重要材料
+  - id: chengu
+    type: Character
+    name: 陈谷
+    aliases: []
+    description: 火锤小队成员，负责警戒。
+  - id: weitie
+    type: Character
+    name: 魏铁
+    aliases: []
+    description: 火锤小队成员，负责警戒。
+  - id: weiqing
+    type: Character
+    name: 魏青
+    aliases: []
+    description: 火锤小队成员，负责警戒。
+
+relationships:
+  - 主要队员关系:
+      luofeng 和 gaofeng, chengu, weitie, weiqing 彼此之间有合作关系。
+  - 身份关系:
+      luofeng 是火锤小队的核心力量。
+      gaofeng 是火锤小队的队长。
+
+events:
+  - id: 猎杀初级兽将级怪兽
+    type: Event
+    description: 罗峰等人在003号城市内猎杀大量的初级兽将级怪兽，获取重要材料出售。
+    timeline:
+      开始时间: 十几天前
+      结束时间: 暂未结束
+
+dialogues:
+  - id: 资源分配讨论
+    speaker1: gaofeng
+    dialogue: "队长，我们这段时间杀的比较狠。不过不用急，怪兽是大量流窜的……据我估计，十天内，这小区中的怪兽数量又会多起来！我们要做的只是安静守在这，毕竟我们对这的环境最熟悉。"
+  - id: 功劳分享
+    speaker1: luofeng
+    dialogue: "赚钱多？不多不多。一名精神念师，一年赚几十亿，是很正常的。我们敢在这混，主要也是靠罗峰。"
+
+timeline:
+  - 开始时间: 十几天前
+    结束时间: 暂未结束
+
+mysteries:
+  - id: 怪兽数量减少的原因
+    description: 罗峰等人发现周围一带初级兽将级怪兽数量明显少了不少，推测可能是因为他们这段时间杀的比较狠。
+```
+重要提示：请严格按照YAML格式要求输出，不要添加任何解释或Markdown语法。

@@ -1,0 +1,61 @@
+```yaml
+source:
+  id: 第1213章因沱
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: [银翼领主]
+    description: 新晋宇宙之主，拥有金色国度、火焰刀和星辰塔等至宝。
+    attributes:
+      实力: 宇宙之主
+      特点: 拥有能精确发现安全地的金色国度，能够使用强大的火焰刀，以及可以躲避危险的星辰塔。
+
+  - id: 熔岩魔神
+    type: Character
+    name: 熔岩魔神
+    description: 高近百亿公里的巨大生物，智慧极低，身体无法损坏。
+    attributes:
+      实力: 强大到宇宙之主几乎必死的程度
+
+  - id: 黑色海洋噩梦区域
+    type: Location
+    name: 黑色海洋噩梦区域
+    description: 内域的危险区域之一。
+
+  - id: 灭神涧
+    type: Location
+    name: 灭神涧
+    description: 面临大量熔岩坠落和巨石撞击，以及九头熔岩魔神的威胁。
+    attributes:
+      危险程度: 极高
+
+relationships:
+
+events:
+  - id: 进入灭神涧
+    type: Event
+    name: 进入灭神涧
+    description: 罗峰进入内域最危险的区域之一，面对熔岩坠落、巨石撞击及熔岩魔神。
+    timeline:
+      时间: 十一天
+
+dialogues:
+
+timeline:
+  - id: 进入黑色海洋噩梦区域
+    time: 前期
+    description: 罗峰轻松应对无尽绳索的攻击，使用金色国度找到安全地点。
+
+  - id: 进入灭神涧
+    time: 十一天后
+    description: 面对熔岩坠落、巨石撞击及九头熔岩魔神的威胁。
+
+mysteries:
+  - id: 熔岩魔神的起源
+    type: Mystery
+    question: 熔岩魔神是如何诞生的？
+    hint: 毫无智慧，但实力强大。
+```
+注意：文中提到罗峰进入灭神涧已经十一天，并未记录他具体在该区域内遇到的所有事件和对话，仅列出主要信息。

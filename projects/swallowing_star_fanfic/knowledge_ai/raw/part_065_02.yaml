@@ -1,0 +1,97 @@
+```yaml
+source:
+  id: origin_text
+
+entities:
+  - id: rofei
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 刀河王，人类族群未来的支柱强者。
+    attributes:
+      实力: 战胜封王极限的不朽层次实力。
+      目标: 成为宇宙尊者。
+
+  - id: zhaomanwang
+    type: Character
+    name: 察曼王
+    aliases: []
+    description: 人类族群中的超级存在，曾是绝世天才。
+    attributes:
+      实力: 不朽阶段媲美七剑王的实力，突破为宇宙尊者遇到瓶颈。
+
+  - id: zitanshezhushou
+    type: Character
+    name: 天狼之主
+    aliases: []
+    description: 妖族中专门负责悬赏刀河王的最高负责人。
+    attributes:
+      实力: 极高，能够轻易得到上亿光年外的信息。
+
+  - id: lieshuowang
+    type: Character
+    name: 离烁王
+    aliases: []
+    description: 鸿盟中的人类传承者。
+    attributes:
+      实力: 不详
+
+organizations:
+  - id: hongmengtu
+    type: Organization
+    name: 鸿盟
+    aliases: []
+    description: 六大巅峰族群之一，吸纳的成员以精英为主。
+
+locations:
+  - id: raozuoqishijie
+    type: Location
+    name: 荣耀世界
+    aliases: []
+    description: 在此举行的露天广场上聚集了很多鸿盟的传承者。
+    
+cultivations:
+  - id: buyouzhizunzhe
+    type: Cultivation
+    name: 不朽之尊者
+    aliases: []
+    description: 宇宙中的一个强大阶段，从不朽突破为宇宙尊者的难度极大。
+
+abilities:
+  - id: xianjuejingyan
+    type: Ability
+    name: 眼神洞察力
+    aliases: []
+    description: 天狼之主能够通过眼神辨别罗峰的真实身份。
+    
+items:
+  - id: chuanxinjiqi
+    type: Item
+    name: 传讯系统
+    aliases: []
+    description: 各族群用于快速传递信息的重要工具，其中妖族的传讯效率远不及人类、机械族。
+
+events:
+  - id: jianghuangxianzhi
+    type: Event
+    name: 悬赏刀河王
+    aliases: []
+    description: 妖族悬赏刀河王，天狼之主负责相关信息的汇总与处理。
+    
+dialogues:
+  - speaker: 察曼王
+    listener: 罗峰
+    content: "我们是精英。"
+    context: 在荣耀世界的露天广场上，罗峰和鸿盟的传承者们交谈时察曼王的话语。
+
+mysteries:
+  - question: 刀河王能否突破至宇宙尊者的层次？
+    hint: 天狼之主认为刀河王在不朽阶段有100%把握成为不朽，但突破为宇宙尊者却是一个大坎。
+    
+timeline:
+  - event_id: jianghuangxianzhi
+    time: 同一天
+    description: 妖族、虫族和机械族几乎同时得到了关于刀河王在祖神教宝藏之地出现的消息，并开始制定相应的行动计划。
+
+```
+注意：以上信息仅依据原文内容提取，未做任何推测或添加。

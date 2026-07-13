@@ -1,0 +1,61 @@
+```yaml
+source:
+  id: origin_text
+
+entities:
+  - id: rofei
+    type: character
+    name: 罗峰
+    description: 虚拟宇宙公司培养的天才之一，参悟《九宇混沌碑》。
+    attributes:
+      - 实力：不详（正在通过通天桥和参悟《九宇混沌碑》进行修炼）
+  - id: uka
+    type: character
+    name: 乌卡
+    description: 虚拟宇宙公司的天才之一，与罗峰同辈。
+    attributes:
+      - 实力：不详（正在通过通天桥和参悟《九宇混沌碑》进行修炼）
+  - id: rongjun
+    type: character
+    name: 戎钧
+    description: 虚拟宇宙公司的天才，战斗天赋极高，元辰宇宙国主收为弟子。
+    attributes:
+      - 实力：不详（战斗天赋惊人，自创刀法）
+  - id: boren
+    type: character
+    name: 伯兰
+    description: 死神族的绝世天才之一，罗峰需要超越的目标。
+    attributes:
+      - 实力：极高，但未被宇宙国主收为弟子
+  - id: qingsezhantanglvxinnanren
+    type: character
+    name: 青色战袍紫鳞男子（九剑尊者）
+    description: 虚拟宇宙公司的高层，观察1008宇宙国天才的表现。
+    attributes:
+      - 实力：不详（与元辰、古轮等宇宙国主同级）
+
+relationships:
+  - id: rofei_rongjun
+    type: 竞争关系
+    description: 罗峰和戎钧都是虚拟宇宙公司的天才，彼此之间存在竞争。
+  - id: uka_rofei
+    type: 同辈关系
+    description: 乌卡和罗峰同为1008宇宙国的天才，互相鼓励、竞争。
+
+events:
+  - id: rongjun_received_disciple_by_countryleader
+    type: 事件
+    description: 戎钧被元辰宇宙国主收为弟子。
+    timeline: 不详（近期）
+
+dialogues:
+  - speaker: uka
+    listener: rofei
+    content: "想要收戎钧为弟子的，不单单是一个宇宙国主，而是两位！不过，你应该知道1008宇宙国其实背后都隶属于五大巨头，这两位宇宙国主，一个是属于虚拟宇宙公司，另一个属于巨斧斗武场。因为戎钧是我们虚拟宇宙公司的人，最后才被元辰宇宙国主成功收为弟子。"
+    context: 罗峰和乌卡的对话中提及。
+
+mysteries:
+  - id: mystery_rongjun
+    type: 伏笔
+    description: 戎钧为何会被两位宇宙国主争夺，即使其本源法则感悟不算太强。
+```

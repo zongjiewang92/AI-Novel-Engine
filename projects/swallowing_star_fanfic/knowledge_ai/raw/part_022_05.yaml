@@ -1,0 +1,96 @@
+```yaml
+source:
+  id: text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 地球人，恒星级一阶。
+    attributes:
+      实力: 恒星级一阶
+      年龄: 成年
+      性格: 进取
+
+  - id: 魁梧汉子冥昱
+    type: Character
+    name: 冥昱
+    aliases: []
+    description: 虚拟宇宙公司驻黑龙山帝国的外部执事，至少域主级别。
+    attributes:
+      实力: 域主级
+      年龄: 成年
+      性格: 自豪
+
+  - id: 洪
+    type: Character
+    name: 洪
+    aliases: []
+    description: 地球人，恒星级一阶。
+    attributes:
+      实力: 恒星级一阶
+      年龄: 成年
+
+  - id: 雷神
+    type: Character
+    name: 雷神
+    aliases: []
+    description: 地球人，行星级九阶。
+    attributes:
+      实力: 行星级九阶
+      年龄: 成年
+
+relationships:
+  - id: 罗峰-冥昱
+    type: 关系
+    entities:
+      - 罗峰
+      - 冥昱
+    description: 罗峰遇到虚拟宇宙公司的外部执事冥昱，冥昱对罗峰的修炼资质表示赞赏。
+
+  - id: 洪-冥昱
+    type: 关系
+    entities:
+      - 洪
+      - 冥昱
+    description: 冥昱也认识洪，并且对他表示了肯定。
+
+  - id: 雷神-冥昱
+    type: 关系
+    entities:
+      - 雷神
+      - 冥昱
+    description: 冥昱对雷神的成就感到惊讶和赞叹。
+
+events:
+  - id: 罗峰等人遇到冥昱
+    type: 对话事件
+    time: 文本描述中未提及具体时间，但发生在罗峰等人成为恒星级之后。
+    location: 黑龙山帝国某地
+    description: 虚拟宇宙公司的外部执事冥昱向罗峰、洪和雷神介绍血统进化剂，并表示了对他们的赞赏。
+
+dialogues:
+  - id: 冥昱与罗峰等人的对话
+    type: 对话
+    participants:
+      - 冥昱
+      - 罗峰
+      - 洪
+      - 雷神
+    content:
+      冥昱: "你们的种族血统是哪一等？"
+      罗峰: "第九等。"
+      冥昱: "第九等怎么了？这很难得，实在难得。"
+      冥昱: "虚拟宇宙公司研究出了进化剂，可以帮助改造血统，让你们以后修炼更快更容易。"
+
+timeline:
+  - id: 罗峰等人遇到冥昱的时间线
+    events:
+      - 罗峰等人成为恒星级之后
+
+mysteries:
+  - id: 血统进化剂的获得方式
+    type: 伏笔
+    description: 冥昱提到血统进化剂是限制级物品，普通渠道难以获得。
+```

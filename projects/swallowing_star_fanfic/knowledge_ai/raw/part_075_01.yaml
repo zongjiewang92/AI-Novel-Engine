@@ -1,0 +1,74 @@
+```yaml
+source:
+  id: original_text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 人类，遭受虚真魔神和双面祖神追杀的目标。
+    attributes:
+      实力: 宇宙海强者（非宇宙最强者）
+      性格: 果断勇敢
+
+  - id: 虚真魔神
+    type: Character
+    name: 虚真魔神
+    aliases: []
+    description: 拥有至强至宝护体的邪恶存在，双面祖神的主要对手。
+    attributes:
+      实力: 宇宙最强者
+      性格: 张狂且具有攻击性
+
+  - id: 双面祖神
+    type: Character
+    name: 双面祖神
+    aliases: []
+    description: 拥有六柄黑白神锏的宇宙最强者，罗峰的支持者。
+    attributes:
+      实力: 宇宙最强者
+      性格: 正义且坚决
+
+  - id: 五彩极光湖
+    type: Item
+    name: 五彩极光湖
+    aliases: []
+    description: 祖神教的镇教之宝，能够化为巨剑攻击敌人。
+    attributes:
+      类型: 至强至宝
+      功能: 攻击、防御
+
+relationships:
+  - 主体: 虚真魔神
+    客体: 罗峰
+    关系类型: 追杀
+
+  - 主体: 双面祖神
+    客体: 罗峰
+    关系类型: 支持者
+
+events:
+  - 名称: 虚真魔神追杀罗峰
+    类型: Event
+    描述: 虚真魔神利用至强至宝护体，与双面祖神交战以阻止其拯救罗峰。
+    时间线: 当前进行中
+
+  - 名称: 双面祖神对抗虚真魔神
+    类型: Battle
+    描述: 祖神教的双面祖神使用六柄黑白神锏与虚真魔神交战，试图解救罗峰。
+
+dialogues:
+  - 发言者: 虚真魔神
+    内容: "哈哈，我有至强至宝护体！纵横宇宙海，都没谁能杀死我……你双面祖神又算什么东西？哈哈……"
+  - 发言者: 双面祖神
+    内容: "虚真魔神，滚出去！"
+
+timeline:
+  - 时间点: 当前时间
+    描述: 罗峰被追杀时的激烈战斗场景。
+
+mysteries:
+  - 信息: 虚真魔神使用至强至宝护体的实际效果。
+  - 信息: 双面祖神与虚真魔神交战的具体胜负结果。
+```

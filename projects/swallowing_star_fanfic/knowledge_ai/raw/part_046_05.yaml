@@ -1,0 +1,63 @@
+```yaml
+source:
+  id: 第692章尊者的惩罚生死90秒
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 漂浮在星空中的虫族尸体区寻找界主巅峰级的虫族战士尸体。
+    attributes:
+      实力: 城市领主
+
+  - id: 高个白袍人
+    type: Character
+    name: 高个白袍人
+    aliases: []
+    description: 向罗峰介绍虫族尸体残骸单位的情况。
+    attributes:
+      职位: 销售人员？
+
+  - id: 毋窿星域观察员6号
+    type: Character
+    name: 观察员6号
+    aliases: 科斯尔
+    description: 在毋窿星域内部使用淘宝机会，准备前往垃圾山碰运气。
+    attributes:
+      实力: 未明确说明
+
+relationships:
+  - 主体: 罗峰
+    客体: 高个白袍人
+    关系类型: 购买者与销售者
+
+  - 主体: 毋窿星域观察员6号
+    客体: 白袍人
+    关系类型: 请求领取世界戒指和淘宝机会
+
+events:
+  - id: 界主巅峰级虫族尸体区的探索
+    type: Event
+    description: 罗峰与两位同伴在虫族尸体区进行探索，寻找界主巅峰级的虫族战士尸体。
+    timeline:
+      时间点: 整整八天后
+
+  - id: 淘宝机会的使用
+    type: Event
+    description: 毋窿星域观察员6号使用淘宝机会前往垃圾山碰运气。
+    timeline:
+      时间点: 第十二篇尊者的惩罚第十一章中
+
+dialogues:
+  - 主体: 观察员6号
+    客体: 白袍人
+    内容: "我来领取世界戒指，我还有三次淘宝机会。"
+
+mysteries:
+  - id: 虫族尸体区的监控情况
+    type: Mystery
+    description: 毋窿星域内部如何实现对虫族尸体区的全面监控和定位。
+    
+```
+重要说明：此YAML文档仅提供文本中明确提到的信息，未进行任何推测或额外评论。

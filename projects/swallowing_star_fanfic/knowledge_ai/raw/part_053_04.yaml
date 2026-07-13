@@ -1,0 +1,97 @@
+```yaml
+source:
+  id: 炎祭大陆篇
+
+entities:
+  - id: 博野铸
+    type: 人物
+    name: 博野铸
+    aliases: []
+    description: 不朽军主，罗峰在焱祭大陆中的战友之一。
+    attributes:
+      身份: 军队成员, 不朽军主
+
+  - id: 舒凡
+    type: 人物
+    name: 舒凡
+    aliases: []
+    description: 不朽军主，罗峰在焱祭大陆中的战友之一。
+    attributes:
+      身份: 军队成员, 不朽军主
+
+  - id: 罗峰
+    type: 人物
+    name: 罗峰
+    aliases: 扬
+    description: 主角，虚拟宇宙公司派遣到焱祭大陆执行任务的人类战士。
+    attributes:
+      身份: 军队成员, 战士
+
+  - id: 诺岚山
+    type: 人物
+    name: 诺岚山
+    aliases: []
+    description: 罗峰在军队中的敌人，计划解决的对手。
+    attributes:
+      身份: 军队成员
+
+  - id: 雾沙岛
+    type: 地点
+    name: 雾沙岛
+    aliases: []
+    description: 炎祭大陆上的一座岛屿，罗峰所在军队的驻地。
+    attributes:
+      特性: 三分之一区域常年被雾气笼罩
+
+relationships:
+  - id: 博野铸-舒凡关系
+    type: 同伴
+    name: 博野铸和舒凡
+    description: 不朽军主博野铸与不朽军主舒凡互为战友。
+    attributes: []
+
+  - id: 罗峰-舒凡关系
+    type: 战友
+    name: 罗峰和舒凡
+    description: 舒凡邀请罗峰加入其团队，共同对抗异族敌人。
+    attributes: []
+
+  - id: 罗峰-博野铸关系
+    type: 同伴
+    name: 罗峰和博野铸
+    description: 博野铸同样视罗峰为战友，并协助他适应战场环境。
+    attributes: []
+
+  - id: 罗峰-诺岚山敌对
+    type: 敌人
+    name: 罗峰会见诺岚山
+    description: 罗峰在军队中遇见了敌人诺岚山，计划解决对方。
+
+events:
+  - id: 合影
+    type: 聚会
+    name: 军队聚会
+    description: 博野铸和舒凡为罗峰举行欢迎宴会。
+    attributes: []
+
+dialogues:
+  - id: 罗峰-舒凡对话1
+    type: 对话
+    name: 关于雾沙岛的称谓
+    dialogue: "扬，这地方应该算是焱祭大陆的一个岛屿吧。""对，除了主大陆，其他陆地碎片一律属岛屿，我们所在的是叫‘雾沙岛’。"
+
+timeline:
+  - id: 罗峰加入军队
+    type: 时间点
+    name: 加入军队
+    description: 罗峰加入了博野铸和舒凡所在的队伍。
+    attributes: []
+
+mysteries:
+  - id: 封侯不朽神灵威胁
+    type: 威胁
+    name: 封侯不朽神灵的危险性
+    mystery: 在雾沙岛上，存在至少12个封侯级不朽神灵，他们极其强大且难以对付。
+```
+
+此YAML文件遵循原文信息提取原则，以结构化的方式呈现了人物、地点、关系和对话等关键信息。

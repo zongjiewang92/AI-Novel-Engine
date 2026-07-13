@@ -1,0 +1,66 @@
+```yaml
+source:
+  id: 第248章疯狂的吞噬兽
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 穿着摩云战甲，脚踏遁天梭，手持弧形盾牌。最近在进行与智能系统巴巴塔的合作。
+    attributes:
+      力量: 强大
+      身份: 特殊部门军人的家人
+  - id: 巴巴塔
+    type: Character
+    name: 巴巴塔
+    aliases: []
+    description: 罗峰的手腕虚拟空间中的智能机器人，能够操控大量流量。
+    attributes:
+      智能层次: 高级
+      功能: 控制飞船、修复武器等
+  - id: 扬州城
+    type: Location
+    name: 扬州城
+    aliases: []
+    description: 江南基地市八大卫城之一，今夜陷入混乱。
+  - id: 罗峰父母及家人
+    type: Character
+    name: 罗洪国、龚心兰、罗华等
+    aliases: []
+    description: 罗峰的直系亲属和女友甄楠一家。在重力室中等待着罗峰回来。
+  - id: 特殊部门军人
+    type: Character
+    name: 特殊部门军人
+    aliases: []
+    description: 负责保护罗峰家人的军队人员。
+
+relationships:
+  - 主体: 罗峰
+    客体: 巴巴塔
+    关系类型: 合作关系
+  - 主体: 罗洪国等
+    客体: 特殊部门军人
+    关系类型: 求助关系
+
+events:
+  - id: 扬州城陷入混乱
+    type: Event
+    name: 扬州城陷入混乱
+    description: 因吞噬兽的袭击，扬州城变得一片狼藉。
+    timeline: 当前时间点
+
+dialogues:
+  - 主体: 罗峰
+    客体: 巴巴塔
+    对话内容: "巴巴塔，谢谢。"
+    context: 巴巴塔帮助罗峰成功获得黑龙飞船。
+  - 主体: 特殊部门军人
+    客体: 罗洪国等
+    对话内容: "请你们离开重力室，快点跟我们走！你们在这边不安全。"
+    context: 军人试图劝说罗峰家人撤离危险区域。
+
+timeline:
+  - 时间节点: 当前时间点
+    描述: 罗峰正在赶往扬州城的路上，军队在保护罗峰家人的安全。
+```

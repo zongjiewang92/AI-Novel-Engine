@@ -1,0 +1,84 @@
+```yaml
+source:
+  id: 仿紫辰天
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 宇宙霸主，拥有至少六件至宝，包括灵魂类至宝、念力兵器至宝等。
+    attributes:
+      实力: 宇宙霸主
+      特殊能力: 无尽幽海分身
+
+  - id: 紫冶族群
+    type: Species
+    name: 紫冶族群
+    aliases: []
+    description: 能量类生命，天生不怕灵魂攻击，喜欢贴近大地。
+
+  - id: 天旸尊者
+    type: Character
+    name: 天旸尊者
+    aliases: []
+    description: 未详细描述，罗峰等待其消息。
+
+  - id: 繁光领主
+    type: Character
+    name: 繁光领主
+    aliases: []
+    description: 北疆联盟的超级强者，宇宙霸主存在。
+    attributes:
+      实力: 宇宙霸主
+
+locations:
+  - id: 原始星
+    type: Location
+    name: 原始星
+    aliases: []
+    description: 集聚了众多强者的星球。
+
+organizations:
+  - id: 北疆联盟
+    type: Organization
+    name: 北疆联盟
+    aliases: []
+    description: 繁光领主所在的联盟，罗峰杀的吠镜王是该联盟成员之一。
+
+items:
+  - id: 斩玥刀
+    type: Item
+    name: 斩玥刀
+    aliases: []
+    description: 罗峰持有的武器。
+
+abilities:
+  - id: 虚拟宇宙连接
+    type: Ability
+    name: 虚拟宇宙连接
+    aliases: []
+    description: 分身可以一直连接虚拟宇宙，等待消息。
+  
+events:
+  - id: 繁光领主发现罗峰
+    type: Event
+    name: 繁光领主发现罗峰
+    timeline: 原始星第29个小时
+    description: 繁光领主发现了在原始星飞行的罗峰，准备攻击他。
+
+dialogues:
+  - id: 繁光领主对罗峰的看法
+    type: Dialogue
+    speaker: 繁光领主
+    content: "这容貌不就是传说中的人类绝世天才罗峰？这，对，至宝羽翼……"
+  
+timeline:
+  - 时间节点1: 罗峰在原始星第29个小时飞行时被繁光领主发现。
+  - 时间节点2: 繁光领主决定迅速行动攻击罗峰。
+
+mysteries:
+  - id: 原始星宝物命名
+    type: Mystery
+    content: "为什么原始星中诞生的宝物，本名竟然是‘仿紫辰天’？"
+```

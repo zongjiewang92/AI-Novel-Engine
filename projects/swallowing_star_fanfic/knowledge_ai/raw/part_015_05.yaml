@@ -1,0 +1,116 @@
+```yaml
+source:
+  id: 吞噬星空-第227章
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      主人公，已经掌握了赤混铜母残片，并计划前往洪宁基地市兑换草木之灵和可能的其他宝物。
+    attributes:
+      - 实力: 行星级六阶（使用刀锋残片后预计可对付一般行星级八阶）
+      - 身份: 陨墨星唯一传人
+      - 目标: 给父母服用草木之灵，寻找有价值的物品
+
+  - id: 巴巴塔
+    type: Character
+    name: 巴巴塔
+    aliases: []
+    description: >
+      罗峰的虚拟生命助手，居住在手腕空间中。对罗峰的情况非常了解，并指导其如何使用赤混铜母残片。
+    attributes:
+      - 职务: 助手
+      - 特点: 自信狂傲
+
+  - id: 龚心兰
+    type: Character
+    name: 龚心兰
+    aliases: []
+    description: 罗峰的母亲，关心儿子的归家和出行。
+    attributes:
+      - 关系: 母亲
+      - 职业: 未知
+
+  - id: 罗洪国
+    type: Character
+    name: 罗洪国
+    aliases: []
+    description: 罗峰的父亲，身体残疾但关心儿子。
+    attributes:
+      - 关系: 父亲
+      - 身份: 残疾人
+
+  - id: HR联盟的议长
+    type: Character
+    name: HR联盟的议长
+    aliases: []
+    description: 地球上的地下之王，HR联盟首领。
+    attributes:
+      - 年龄: 约六十岁
+      - 身份: 议长
+
+relationships:
+  - id: 罗峰-父母
+    type: Relationship
+    name: 关系
+    description: 罗峰与他父母之间的亲密关系。
+
+events:
+  - id: 罗峰返回家中
+    type: Event
+    name: 返回家中
+    description: >
+      罗峰在短暂离开后，回到明月小区的家，并告诉家人他会很快再走。
+    timeline: 深夜时分
+
+  - id: 准备前往洪宁基地市
+    type: Event
+    name: 准备前往洪宁基地市
+    description: >
+      第二天早晨，罗峰准备前往洪宁基地市，在那里计划兑换草木之灵和其他可能有价值的物品。
+    timeline: 清晨
+
+  - id: HR联盟议长离开极限武馆总部
+    type: Event
+    name: HR联盟议长离开极限武馆总部
+    description: >
+      银发老太太HR联盟的议长从洪宁基地市总部离开，前往迈巴赫轿车。
+    timeline: 约一个多小时后
+
+locations:
+  - id: 明月小区
+    type: Location
+    name: 明月小区
+    aliases: []
+    description: >
+      罗峰家所在的小区，位于扬州城。
+
+  - id: 洪宁基地市总部
+    type: Location
+    name: 洪宁基地市总部
+    aliases: []
+    description: 极限武馆的总部所在，位于亚洲西部。
+    attributes:
+      - 特点: 巨型飞船建筑入口
+
+organizations:
+  - id: HR联盟
+    type: Organization
+    name: HR联盟
+    aliases: []
+    description: >
+      地球上的地下之王组织，议长是该组织的首领。
+
+dialogues:
+  - speaker: 巴巴塔
+    content: "你？嗯，你现在对精神念力的利用还很粗糙，对这‘赤混铜母’残片使用也太简单。估计能对付一般行星级六阶武者！不管怎么说，这玩意毕竟是不朽强者都难以损坏的宝贝。"
+  - speaker: 巴巴塔
+    content: "你想知道？想知道，就先成为不朽再说。"
+
+mysteries:
+  - id: 老师被杀的原因
+    description: >
+      罗峰对老师死亡原因感到好奇，巴巴塔表示要了解真相需要达到不朽级别。
+```

@@ -1,0 +1,60 @@
+```yaml
+source:
+  id: 第951章罗峰的传音
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      攻击手段弱于对方，但防御极强。能够抵挡银眸施展“时间停止”和“死神一指”，并在面对银眸的“银眸凝视”时展现出超强意志力。
+    attributes:
+      - 实力强大
+      - 意志力逆天
+
+  - id: 银眸
+    type: Character
+    name: 银眸
+    aliases: []
+    description: >
+      冰狱中的强者，擅长时间法则和空间法则，拥有两大杀招“死神一指”和“银眸凝视”。施展的“银眸凝视”试图用强大的灵魂攻击让罗峰陷入无限幻境。
+    attributes:
+      - 时间静止
+      - 灵魂侵蚀
+      - 银色眼睛
+
+relationships:
+
+events:
+  - id: 对抗银眸死神一指
+    type: Event
+    description: >
+      罗峰成功抵挡了银眸的“死神一指”，这一招结合时间停止和灵魂攻击，意图在极短时间内让对手无法反抗。罗峰依靠超强意志力破解了幻境。
+    timeline:
+      - 时间点: 关键时刻
+
+  - id: 银眸凝视
+    type: Event
+    description: >
+      银眸施展“银眸凝视”，试图通过灵魂攻击将罗峰困入无限幻境。这一招威力强大，但被罗峰意志力顽强抵抗。
+    timeline:
+      - 时间点: 持续时间长
+
+dialogues:
+  - id: 罗峰与银眸对话
+    type: Dialogue
+    description: >
+      "人类，你的实力的确很强，只要你能挡住我这一击，我便直接离开。" —— 银眸对罗峰说。
+    timeline:
+      - 时间点: 对话
+
+timeline:
+
+mysteries:
+  - id: 银眸的特殊生命
+    type: Mystery
+    description: >
+      银眸全身皮肤隐藏着眼睛，他属于何种特殊的种族或生命形式？
+```
+重要：请严格按照 YAML 格式输出数据，不要添加任何解释或额外内容。

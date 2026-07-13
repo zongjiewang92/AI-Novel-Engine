@@ -1,0 +1,70 @@
+```yaml
+source:
+  id: origin_text
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: 拯救了原祖，解决了界兽浩劫。正尝试突破至永恒真神层次。
+    attributes:
+      实力: 虚空真神,正在突破到永恒真神
+      小型宇宙直径: 1000亿光年
+
+  - id: 原祖
+    type: Character
+    name: 原祖
+    aliases: []
+    description: 罗峰帮助其小型宇宙扩张，已经突破到了虚空真神层次。
+    attributes:
+      小型宇宙直径: 52亿光年
+
+  - id: 徐欣
+    type: Character
+    name: 徐欣
+    aliases: []
+    description: 罗峰的家人之一，在罗峰的小型宇宙中等待着他的突破。
+
+  - id: 坐山客
+    type: Character
+    name: 坐山客
+    aliases: []
+    description: 见证了罗峰小型宇宙扩张的过程，对罗峰的实力表示惊叹。
+    attributes:
+      实力: 宇宙之主
+
+relationships:
+  - 主体: 罗峰
+    对象: 徐欣
+    关系类型: 家人
+
+events:
+  - id: 小型宇宙扩张
+    type: Event
+    description: 罗峰的小型宇宙从初始直径快速膨胀至1000亿光年，成功突破到永恒真神层次。
+    timeline:
+      时间点: 近一个月
+      持续时间: 大约近一个月
+
+  - id: 原祖小型宇宙扩张
+    type: Event
+    description: 原祖的小型宇宙在罗峰之前就开始膨胀，最终达到52亿光年直径。
+    timeline:
+      时间点: 罗峰小型宇宙开始前
+      持续时间: 未知
+
+dialogues:
+  - 主体: 坐山客
+    对象: 
+    内容: "传说,这就是传说。永恒级的小型宇宙达到这一步，已然是圆满，传说中才存在。"
+
+timeline:
+  - 时间点1: 罗峰小型宇宙扩张开始
+    事件描述: 站在小型宇宙的本源空间内，罗峰一声大喝！虚空通道接连诞生，小型宇宙迅速膨胀。
+  - 时间点2: 原祖小型宇宙也开始蜕变
+    事件描述: 原祖的小型宇宙体积迅速扩张，达到18亿光年直径后停止扩张。
+
+mysteries:
+  - 内容: 罗峰的神力储备是否足以支撑他在未来突破到更高的层次？
+```

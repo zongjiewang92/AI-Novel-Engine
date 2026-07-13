@@ -1,0 +1,72 @@
+```yaml
+source:
+  id: original_text
+
+entities:
+  - id: nine_headed_overlord
+    type: Character
+    name: 九头魔主
+    aliases: []
+    description: 宇宙海八大霸主之一，拥有金色机械流利爪。
+    attributes:
+      - 实力: 虚空真神极限
+      - 特性: 意志坚定
+
+  - id: mo_luo_sha
+    type: Character
+    name: 界兽摩罗撒
+    aliases: []
+    description: 具备吞噬能力，可以生成黑雾蚕茧。
+    attributes:
+      - 实力: 高于虚空真神极限
+      - 特性: 无声尖叫、身体韧性
+
+  - id: fire_insect_true_master
+    type: Character
+    name: 火虫真主
+    aliases: []
+    description: 被界兽摩罗撒吞噬，最终逃脱。
+    attributes:
+      - 实力: 虚空真神
+      - 特性: 高燃烧神力抵抗
+
+  - id: blood_lan_ancestor
+    type: Character
+    name: 血兰始祖
+    aliases: []
+    description: 支援火虫真主，通过机械流宝物攻击黑雾蚕茧。
+    attributes:
+      - 实力: 虚空真神
+
+  - id: black_silk_cocoon
+    type: Item
+    name: 黑色蚕茧
+    aliases: []
+    description: 储存和保护被吞噬的真神，具有吸收神力的能力。
+
+relationships:
+
+events:
+  - event_id: nine_headed_overlord_vs_mo_luo_sha
+    type: Battle
+    participants:
+      - nine_headed_overlord
+      - mo_luo_sha
+    summary: 九头魔主与界兽摩罗撒激烈战斗，后者试图吞噬火虫真主。
+
+  - event_id: fire_insect_escape
+    type: Rescue
+    participants:
+      - nine_headed_overlord
+      - blood_lan_ancestor
+      - fire_insect_true_master
+    summary: 火虫真主被界兽摩罗撒吞入黑色蚕茧，通过内外夹击成功逃脱。
+
+dialogues:
+
+timeline:
+
+mysteries:
+  - 界兽摩罗撒是否能完全吸收火虫真主的神力。
+  - 黑色蚕茧的具体结构和破坏方法。
+```

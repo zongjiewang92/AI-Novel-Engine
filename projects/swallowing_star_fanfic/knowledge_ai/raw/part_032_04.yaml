@@ -1,0 +1,99 @@
+```yaml
+source:
+  id: 第476章跨入域主级
+
+entities:
+  - id: 罗峰
+    type: Character
+    name: 罗峰
+    aliases: []
+    description: >
+      观察者，修炼《飘血》。灵魂意识强度高，窥探到空间法则本质。
+    attributes:
+      实力: 横跨宇宙级一阶, 掌控衍神兵第四重
+
+  - id: 真衍王
+    type: Character
+    name: 真衍王
+    aliases: []
+    description: >
+      观察罗峰的表现，认为他未来可能超越伯兰。
+    attributes:
+      实力: 高于宇宙级一阶
+
+  - id: 玥玉王
+    type: Character
+    name: 玥玉王
+    aliases: []
+    description: >
+      对罗峰的评价很高，认为他是意外收获。
+    attributes:
+      实力: 高于宇宙级一阶
+
+  - id: 瞳难王
+    type: Character
+    name: 瞳难王
+    aliases: []
+    description: >
+      观察者之一，对罗峰的评价较为客观。
+    attributes:
+      实力: 高于宇宙级一阶
+
+  - id: 戎钧
+    type: Character
+    name: 戎钧
+    aliases: []
+    description: >
+      来自人类各族青年中的一个竞争者。
+    attributes:
+      实力: 不详
+
+  - id: 监守者巴芬
+    type: Character
+    name: 监守者巴芬
+    aliases: [巴芬先生]
+    description: >
+      负责监视通天桥的进展。
+    attributes:
+      实力: 不详
+
+relationships:
+
+events:
+  - id: 罗峰闯第四层失败
+    type: Event
+    name: "罗峰闯第四层失败"
+    description: >
+      在通天桥第四层挑战银衣人，使用衍神兵第四重攻击但仍未能取胜。
+    timeline:
+      time: 不详
+
+  - id: 观察者离开虚拟宇宙
+    type: Event
+    name: "观察者离开虚拟宇宙"
+    description: >
+      真衍王、珑玉王、瞳难王在罗峰闯第四层失败后直接离开。
+    timeline:
+      time: 不详
+
+dialogues:
+  - id: 监守者巴芬通知乌卡
+    type: Dialogue
+    participants:
+      - name: 乌卡
+        role: 询问
+      - name: 监守者巴芬
+        role: 回答
+    content: >
+      "罗峰通过第三层了？"
+      "嗯。"
+
+timeline:
+
+mysteries:
+  - id: 罗峰未来潜力
+    type: Mystery
+    description: >
+      观察者认为罗峰未来有可能超越伯兰，但这是未知的。
+```
+重要：以上仅为从给定文本中提取的信息列表，并未包含整个故事的所有细节。
