@@ -1,0 +1,1112 @@
+time: '2026-07-13T22:17:48.758614'
+summary:
+  total_files: 1000
+  success: 750
+  failed: 250
+types:
+  character: 572
+  event: 152
+  ability: 8
+  unknown: 18
+unknown_files:
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_015_04.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_019_04.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_025_02.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_031_01.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_044_02.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_078_02.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_078_03.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_080_05.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_099_02.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_015_04.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_019_04.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_025_02.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_031_01.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_044_02.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_078_02.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_078_03.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_080_05.yaml
+  type: unknown
+  id: null
+  name: null
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_099_02.yaml
+  type: unknown
+  id: null
+  name: null
+failed_files:
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_001_03.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 86, column 5:\n      - 主体: 瞿琳\n        ^\nexpected <block end>, but found\
+    \ '<scalar>'\n  in \"<unicode string>\", line 88, column 16:\n        对话内容: \"\
+    罗峰。\"班长瞿琳将毕业证书和志愿申请书递给罗峰。\n                   ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_001_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 98, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_003_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 128, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_004_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 95, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_005_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 67, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_005_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 85, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_006_04.yaml
+  error: "yaml parse error: while scanning a quoted scalar\n  in \"<unicode string>\"\
+    , line 61, column 15:\n        dialogue: \"啧啧，整个论坛果然热闹了。看起来，南美洲、北美洲、欧亚、非洲， ...\
+    \ \n                  ^\nfound unexpected end of stream\n  in \"<unicode string>\"\
+    , line 69, column 25:\n        answer: 尚无具体证据，仅凭猜测。\n                        \
+    \    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_007_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 95, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_007_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 106, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_008_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 113, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_009_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 92, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_010_01.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 71, column 5:\n      - id: 罗峰与史江的对话\n        ^\nexpected <block end>, but\
+    \ found '<scalar>'\n  in \"<unicode string>\", line 72, column 22:\n        dialogue:\
+    \ \"喂，罗峰。\"\"还成，我现在找到一个城镇，每天在一栋破别墅内休息...对了，罗 ... \n                         ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_010_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 64, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_013_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 81, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_014_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 80, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_015_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 137, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_015_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 50, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_016_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 132, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_017_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 79, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_017_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 103, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_018_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 111, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_020_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 70, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_020_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 96, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_021_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 58, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_021_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 85, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_022_04.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 78, column 5:\n      - 内容: '一颗星'的同阶武者不屑与新人交手。\n        ^\nexpected <block\
+    \ end>, but found '<scalar>'\n  in \"<unicode string>\", line 78, column 14:\n\
+    \      - 内容: '一颗星'的同阶武者不屑与新人交手。\n                 ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_023_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 143, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_023_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 124, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_024_03.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 78, column 5:\n      - id: rofei_he_hong_de_tianhua_xin ... \n        ^\n\
+    expected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 87,\
+    \ column 15:\n        content: \"雷神也忍不住。 \\\"靠，近四十万？\\\" 雷神一瞪眼。\n            \
+    \      ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_024_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 92, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_025_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 90, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_025_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 123, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_025_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 80, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_025_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 63, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_027_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 175, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_028_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 110, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_029_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 63, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_029_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 86, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_030_01.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 35, column 5:\n      - id: 坎迪塔与机械傀儡的战斗失败\n        ^\nexpected <block end>,\
+    \ but found '<scalar>'\n  in \"<unicode string>\", line 37, column 22:\n     \
+    \   description: '血锋'坎迪塔在第五座试炼塔第五层中被100头高大的机械傀儡击败，最终排 ... \n                 \
+    \        ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_030_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 63, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_031_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 63, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_032_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 97, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_033_02.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 47, column 5:\n      - 对话者1: 银衣人\n        ^\nexpected <block end>, but\
+    \ found '<scalar>'\n  in \"<unicode string>\", line 49, column 18:\n        内容:\
+    \ \"给我破！！！\" (银衣人)\n                     ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_034_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 61, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_034_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 104, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_035_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 46, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_035_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 59, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_035_04.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 117, column 5:\n      - id: yuchunyang_conversation_with ... \n       \
+    \ ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line\
+    \ 122, column 25:\n        content: \"手气真烂，又输了。\"哥，哥。怎么这么高兴？纳可少爷找到了吗？\n      \
+    \                      ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_036_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 83, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_038_03.yaml
+  error: "yaml parse error: while scanning a simple key\n  in \"<unicode string>\"\
+    , line 34, column 5:\n        name:漭牙\n        ^\ncould not find expected ':'\n\
+    \  in \"<unicode string>\", line 35, column 5:\n        aliases: []\n        ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_038_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 65, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_039_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 49, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_039_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 74, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_039_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 51, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_041_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 85, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_044_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 103, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_044_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 114, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_045_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 61, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_046_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 93, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_046_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 61, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_047_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 100, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_047_02.yaml
+  error: "yaml parse error: sequence entries are not allowed here\n  in \"<unicode\
+    \ string>\", line 52, column 37:\n          \"殿下这次是在毋窿星域遭到刺杀，是毋窿星域内部管理不力。\" -\
+    \ 迪伦\n                                        ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_048_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 60, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_050_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 106, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_053_01.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 21, column 5:\n      - id: 蒙维纳\n        ^\nexpected <block end>, but found\
+    \ '<scalar>'\n  in \"<unicode string>\", line 25, column 24:\n        description:\
+    \ '兹潜万蛇'王族成员，妖族殿下。\n                           ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_053_04.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 77, column 5:\n      - id: 罗峰-舒凡对话1\n        ^\nexpected <block end>, but\
+    \ found '<scalar>'\n  in \"<unicode string>\", line 80, column 37:\n        dialogue:\
+    \ \"扬，这地方应该算是焱祭大陆的一个岛屿吧。\"\"对，除了主大陆，其他陆地碎片一律属岛屿，我们所在的是叫‘雾沙岛’。\"\n            \
+    \                            ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_054_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 87, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_055_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 60, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_055_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 91, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_056_03.yaml
+  error: "yaml parse error: while parsing a block collection\n  in \"<unicode string>\"\
+    , line 68, column 3:\n      - \"星幻王，感谢你的帮助。\"\n      ^\nexpected <block end>,\
+    \ but found '<scalar>'\n  in \"<unicode string>\", line 69, column 5:\n      \
+    \  \"我也没做什么，仅仅施展瞬移而已。能够亲眼看到银翼王这般在空间碎 ... \n        ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_057_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 62, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_057_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 50, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_058_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 56, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_058_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 95, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_059_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 90, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_060_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 64, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_060_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 52, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_061_04.yaml
+  error: "yaml parse error: mapping values are not allowed here\n  in \"<unicode string>\"\
+    , line 49, column 15:\n      - 主人: 罗峰, 奴仆: 极虹王、覆水王、山吼王\n                  ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_062_03.yaml
+  error: "yaml parse error: mapping values are not allowed here\n  in \"<unicode string>\"\
+    , line 43, column 15:\n      - 主人: 罗峰, 奴仆: 天阵王\n                  ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_062_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 98, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_063_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 55, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_063_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 58, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_063_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 102, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_065_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 91, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_065_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 95, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_065_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 97, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_065_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 61, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_066_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 61, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_066_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 58, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_067_02.yaml
+  error: "yaml parse error: mapping values are not allowed here\n  in \"<unicode string>\"\
+    , line 49, column 9:\n        type: Ability\n            ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_067_03.yaml
+  error: "yaml parse error: sequence entries are not allowed here\n  in \"<unicode\
+    \ string>\", line 43, column 15:\n        listener: -\n                  ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_068_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 65, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_069_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 95, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_072_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 93, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_074_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 74, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_077_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 92, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_077_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 54, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_077_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 105, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_077_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 75, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_078_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 84, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_080_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 54, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_080_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 59, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_081_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 83, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_081_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 88, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_084_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 89, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_084_03.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 114, column 5:\n      - id: \"东帝对碧血尊者的死亡表示愤怒\"\n        ^\nexpected <block\
+    \ end>, but found '<scalar>'\n  in \"<unicode string>\", line 117, column 18:\n\
+    \        content: \"哼！\"隐隐散发着青光的东帝脸色大变，不由怒哼一声。他盯着不远处倒在一片 ... \n              \
+    \       ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_084_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 98, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_085_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 84, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_085_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 116, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_087_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 120, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_087_05.yaml
+  error: "yaml parse error: while scanning a quoted scalar\n  in \"<unicode string>\"\
+    , line 51, column 9:\n        内容: \"此宝，是老师他当年耗尽无数心血才亲手造出。这里的山脉、大地、湖 ... \n   \
+    \         ^\nfound unexpected end of stream\n  in \"<unicode string>\", line 58,\
+    \ column 33:\n      - 内容: 掌上宇宙的构造原理和秘法是如何实现六阶顶尖攻击。\n                         \
+    \           ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_088_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 102, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_088_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 102, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_089_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 55, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_089_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 70, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_092_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 57, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_092_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 81, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_093_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 56, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_094_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 74, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_095_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 52, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_095_05.yaml
+  error: "yaml parse error: mapping keys are not allowed here\n  in \"<unicode string>\"\
+    , line 23, column 11:\n          实力: ?\n              ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_098_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 77, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_098_05.yaml
+  error: "yaml parse error: mapping values are not allowed here\n  in \"<unicode string>\"\
+    , line 38, column 16:\n      - 主人: 罗峰, 控制者: 摩罗撒\n                   ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_099_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 64, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_099_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 63, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_001_03.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 86, column 5:\n      - 主体: 瞿琳\n        ^\nexpected <block end>, but found\
+    \ '<scalar>'\n  in \"<unicode string>\", line 88, column 16:\n        对话内容: \"\
+    罗峰。\"班长瞿琳将毕业证书和志愿申请书递给罗峰。\n                   ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_001_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 98, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_003_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 128, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_004_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 95, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_005_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 67, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_005_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 85, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_006_04.yaml
+  error: "yaml parse error: while scanning a quoted scalar\n  in \"<unicode string>\"\
+    , line 61, column 15:\n        dialogue: \"啧啧，整个论坛果然热闹了。看起来，南美洲、北美洲、欧亚、非洲， ...\
+    \ \n                  ^\nfound unexpected end of stream\n  in \"<unicode string>\"\
+    , line 69, column 25:\n        answer: 尚无具体证据，仅凭猜测。\n                        \
+    \    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_007_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 95, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_007_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 106, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_008_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 113, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_009_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 92, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_010_01.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 71, column 5:\n      - id: 罗峰与史江的对话\n        ^\nexpected <block end>, but\
+    \ found '<scalar>'\n  in \"<unicode string>\", line 72, column 22:\n        dialogue:\
+    \ \"喂，罗峰。\"\"还成，我现在找到一个城镇，每天在一栋破别墅内休息...对了，罗 ... \n                         ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_010_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 64, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_013_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 81, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_014_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 80, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_015_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 137, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_015_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 50, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_016_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 132, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_017_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 79, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_017_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 103, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_018_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 111, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_020_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 70, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_020_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 96, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_021_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 58, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_021_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 85, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_022_04.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 78, column 5:\n      - 内容: '一颗星'的同阶武者不屑与新人交手。\n        ^\nexpected <block\
+    \ end>, but found '<scalar>'\n  in \"<unicode string>\", line 78, column 14:\n\
+    \      - 内容: '一颗星'的同阶武者不屑与新人交手。\n                 ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_023_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 143, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_023_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 124, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_024_03.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 78, column 5:\n      - id: rofei_he_hong_de_tianhua_xin ... \n        ^\n\
+    expected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 87,\
+    \ column 15:\n        content: \"雷神也忍不住。 \\\"靠，近四十万？\\\" 雷神一瞪眼。\n            \
+    \      ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_024_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 92, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_025_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 90, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_025_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 123, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_025_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 80, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_025_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 63, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_027_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 175, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_028_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 110, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_029_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 63, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_029_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 86, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_030_01.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 35, column 5:\n      - id: 坎迪塔与机械傀儡的战斗失败\n        ^\nexpected <block end>,\
+    \ but found '<scalar>'\n  in \"<unicode string>\", line 37, column 22:\n     \
+    \   description: '血锋'坎迪塔在第五座试炼塔第五层中被100头高大的机械傀儡击败，最终排 ... \n                 \
+    \        ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_030_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 63, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_031_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 63, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_032_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 97, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_033_02.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 47, column 5:\n      - 对话者1: 银衣人\n        ^\nexpected <block end>, but\
+    \ found '<scalar>'\n  in \"<unicode string>\", line 49, column 18:\n        内容:\
+    \ \"给我破！！！\" (银衣人)\n                     ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_034_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 61, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_034_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 104, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_035_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 46, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_035_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 59, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_035_04.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 117, column 5:\n      - id: yuchunyang_conversation_with ... \n       \
+    \ ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line\
+    \ 122, column 25:\n        content: \"手气真烂，又输了。\"哥，哥。怎么这么高兴？纳可少爷找到了吗？\n      \
+    \                      ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_036_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 83, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_038_03.yaml
+  error: "yaml parse error: while scanning a simple key\n  in \"<unicode string>\"\
+    , line 34, column 5:\n        name:漭牙\n        ^\ncould not find expected ':'\n\
+    \  in \"<unicode string>\", line 35, column 5:\n        aliases: []\n        ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_038_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 65, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_039_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 49, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_039_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 74, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_039_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 51, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_041_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 85, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_044_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 103, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_044_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 114, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_045_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 61, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_046_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 93, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_046_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 61, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_047_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 100, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_047_02.yaml
+  error: "yaml parse error: sequence entries are not allowed here\n  in \"<unicode\
+    \ string>\", line 52, column 37:\n          \"殿下这次是在毋窿星域遭到刺杀，是毋窿星域内部管理不力。\" -\
+    \ 迪伦\n                                        ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_048_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 60, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_050_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 106, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_053_01.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 21, column 5:\n      - id: 蒙维纳\n        ^\nexpected <block end>, but found\
+    \ '<scalar>'\n  in \"<unicode string>\", line 25, column 24:\n        description:\
+    \ '兹潜万蛇'王族成员，妖族殿下。\n                           ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_053_04.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 77, column 5:\n      - id: 罗峰-舒凡对话1\n        ^\nexpected <block end>, but\
+    \ found '<scalar>'\n  in \"<unicode string>\", line 80, column 37:\n        dialogue:\
+    \ \"扬，这地方应该算是焱祭大陆的一个岛屿吧。\"\"对，除了主大陆，其他陆地碎片一律属岛屿，我们所在的是叫‘雾沙岛’。\"\n            \
+    \                            ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_054_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 87, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_055_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 60, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_055_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 91, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_056_03.yaml
+  error: "yaml parse error: while parsing a block collection\n  in \"<unicode string>\"\
+    , line 68, column 3:\n      - \"星幻王，感谢你的帮助。\"\n      ^\nexpected <block end>,\
+    \ but found '<scalar>'\n  in \"<unicode string>\", line 69, column 5:\n      \
+    \  \"我也没做什么，仅仅施展瞬移而已。能够亲眼看到银翼王这般在空间碎 ... \n        ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_057_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 62, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_057_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 50, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_058_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 56, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_058_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 95, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_059_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 90, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_060_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 64, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_060_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 52, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_061_04.yaml
+  error: "yaml parse error: mapping values are not allowed here\n  in \"<unicode string>\"\
+    , line 49, column 15:\n      - 主人: 罗峰, 奴仆: 极虹王、覆水王、山吼王\n                  ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_062_03.yaml
+  error: "yaml parse error: mapping values are not allowed here\n  in \"<unicode string>\"\
+    , line 43, column 15:\n      - 主人: 罗峰, 奴仆: 天阵王\n                  ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_062_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 98, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_063_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 55, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_063_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 58, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_063_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 102, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_065_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 91, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_065_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 95, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_065_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 97, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_065_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 61, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_066_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 61, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_066_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 58, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_067_02.yaml
+  error: "yaml parse error: mapping values are not allowed here\n  in \"<unicode string>\"\
+    , line 49, column 9:\n        type: Ability\n            ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_067_03.yaml
+  error: "yaml parse error: sequence entries are not allowed here\n  in \"<unicode\
+    \ string>\", line 43, column 15:\n        listener: -\n                  ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_068_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 65, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_069_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 95, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_072_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 93, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_074_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 74, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_077_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 92, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_077_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 54, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_077_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 105, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_077_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 75, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_078_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 84, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_080_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 54, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_080_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 59, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_081_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 83, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_081_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 88, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_084_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 89, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_084_03.yaml
+  error: "yaml parse error: while parsing a block mapping\n  in \"<unicode string>\"\
+    , line 114, column 5:\n      - id: \"东帝对碧血尊者的死亡表示愤怒\"\n        ^\nexpected <block\
+    \ end>, but found '<scalar>'\n  in \"<unicode string>\", line 117, column 18:\n\
+    \        content: \"哼！\"隐隐散发着青光的东帝脸色大变，不由怒哼一声。他盯着不远处倒在一片 ... \n              \
+    \       ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_084_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 98, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_085_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 84, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_085_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 116, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_087_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 120, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_087_05.yaml
+  error: "yaml parse error: while scanning a quoted scalar\n  in \"<unicode string>\"\
+    , line 51, column 9:\n        内容: \"此宝，是老师他当年耗尽无数心血才亲手造出。这里的山脉、大地、湖 ... \n   \
+    \         ^\nfound unexpected end of stream\n  in \"<unicode string>\", line 58,\
+    \ column 33:\n      - 内容: 掌上宇宙的构造原理和秘法是如何实现六阶顶尖攻击。\n                         \
+    \           ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_088_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 102, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_088_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 102, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_089_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 55, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_089_03.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 70, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_092_02.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 57, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_092_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 81, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_093_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 56, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_094_05.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 74, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_095_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 52, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_095_05.yaml
+  error: "yaml parse error: mapping keys are not allowed here\n  in \"<unicode string>\"\
+    , line 23, column 11:\n          实力: ?\n              ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_098_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 77, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_098_05.yaml
+  error: "yaml parse error: mapping values are not allowed here\n  in \"<unicode string>\"\
+    , line 38, column 16:\n      - 主人: 罗峰, 控制者: 摩罗撒\n                   ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_099_01.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 64, column 1:\n\
+    \    ```\n    ^"
+- file: projects\swallowing_star_fanfic\knowledge_ai\raw\part_099_04.yaml
+  error: "yaml parse error: while scanning for the next token\nfound character '`'\
+    \ that cannot start any token\n  in \"<unicode string>\", line 63, column 1:\n\
+    \    ```\n    ^"

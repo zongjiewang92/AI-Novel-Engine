@@ -1,11 +1,8 @@
 from pathlib import Path
 from collections import defaultdict
+from datetime import datetime
 import yaml
 import re
-from datetime import datetime
-
-from utiles import load_yaml
-
 
 
 class KnowledgeMergeAgent:
@@ -28,6 +25,8 @@ class KnowledgeMergeAgent:
         self.failed_records = []
 
         self.type_statistics = defaultdict(int)
+
+        self.unknown_records = []
 
 
 
@@ -57,9 +56,8 @@ class KnowledgeMergeAgent:
                     )
 
 
-                knowledge_type = (
-                    data.get("type")
-                    or "unknown"
+                knowledge_type = self.detect_type(
+                    data
                 )
 
 
@@ -70,24 +68,44 @@ class KnowledgeMergeAgent:
                 )
 
 
+                data["_meta"] = {
+                    "source_file": str(file)
+                }
+
+
                 knowledge[
                     knowledge_type
                 ].append(data)
 
 
-                self.success_records.append(
-                    {
-                        "file": str(file),
-                        "type": knowledge_type,
-                        "id": data.get("id"),
-                        "name": data.get("name")
-                    }
-                )
-
-
                 self.type_statistics[
                     knowledge_type
                 ] += 1
+
+
+
+                record = {
+
+                    "file": str(file),
+
+                    "type": knowledge_type,
+
+                    "id": data.get("id"),
+
+                    "name": data.get("name")
+                }
+
+
+                self.success_records.append(
+                    record
+                )
+
+
+                if knowledge_type == "unknown":
+
+                    self.unknown_records.append(
+                        record
+                    )
 
 
 
@@ -97,6 +115,7 @@ class KnowledgeMergeAgent:
                 self.failed_records.append(
                     {
                         "file": str(file),
+
                         "error": str(e)
                     }
                 )
@@ -112,18 +131,184 @@ class KnowledgeMergeAgent:
 
 
 
-    # def load_yaml(
-    #     self,
-    #     file
-    # ):
+    def load_yaml(
+        self,
+        file: Path
+    ):
 
-    #     with open(
-    #         file,
-    #         "r",
-    #         encoding="utf-8"
-    #     ) as f:
 
-    #         return yaml.safe_load(f)
+        text = file.read_text(
+            encoding="utf-8"
+        )
+
+
+        text = self.clean_yaml_text(
+            text
+        )
+
+
+        if not text:
+
+            return {}
+
+
+
+        try:
+
+            return yaml.safe_load(text) or {}
+
+
+        except yaml.YAMLError as e:
+
+            raise Exception(
+                f"yaml parse error: {e}"
+            )
+
+
+
+    def clean_yaml_text(
+        self,
+        text
+    ):
+
+
+        text = text.strip()
+
+
+
+        # 删除 markdown
+
+        if text.startswith(
+            "```yaml"
+        ):
+
+            text = text[7:]
+
+
+        elif text.startswith(
+            "```yml"
+        ):
+
+            text = text[6:]
+
+
+        elif text.startswith(
+            "```"
+        ):
+
+            text = text[3:]
+
+
+        if text.endswith(
+            "```"
+        ):
+
+            text = text[:-3]
+
+
+        return text.strip()
+
+
+
+    def detect_type(
+        self,
+        data
+    ):
+
+
+        # 优先使用 AI 输出
+
+        if data.get("type"):
+
+            return data["type"]
+
+
+
+        keys = set(
+            data.keys()
+        )
+
+
+        name = str(
+            data.get(
+                "name",
+                ""
+            )
+        )
+
+
+
+        # 人物
+
+        if (
+            "relationships" in keys
+            or
+            "personality" in keys
+            or
+            "age" in keys
+        ):
+
+            return "character"
+
+
+
+        # 事件
+
+        if (
+            "participants" in keys
+            or
+            "timeline" in keys
+            or
+            "date" in keys
+        ):
+
+            return "event"
+
+
+
+        # 地点
+
+        if (
+            "location" in keys
+            or
+            "coordinates" in keys
+            or
+            "environment" in keys
+        ):
+
+            return "location"
+
+
+
+        # 组织
+
+        if (
+            "members" in keys
+            or
+            "leader" in keys
+            or
+            "organization" in keys
+        ):
+
+            return "organization"
+
+
+
+        # 能力
+
+        if (
+            "realm" in keys
+            or
+            "level" in keys
+            or
+            "abilities" in keys
+        ):
+
+            return "ability"
+
+
+
+        return "unknown"
 
 
 
@@ -148,26 +333,31 @@ class KnowledgeMergeAgent:
             )
 
 
+
             for item in items:
 
 
-                filename = (
-                    self.safe_filename(
-                        item.get(
-                            "id",
-                            item.get(
-                                "name",
-                                "unknown"
-                            )
-                        )
+                filename = self.safe_filename(
+
+                    item.get(
+                        "id"
                     )
+                    or
+                    item.get(
+                        "name"
+                    )
+                    or
+                    "unknown"
+
                 )
+
 
 
                 target = (
                     folder /
                     f"{filename}.yaml"
                 )
+
 
 
                 with open(
@@ -199,7 +389,6 @@ class KnowledgeMergeAgent:
 
         self.generate_statistics()
 
-
         self.generate_markdown()
 
 
@@ -211,11 +400,15 @@ class KnowledgeMergeAgent:
 
         data = {
 
+
             "time":
                 datetime.now().isoformat(),
 
+
+
             "summary":
             {
+
                 "total_files":
                     len(
                         self.success_records
@@ -225,15 +418,18 @@ class KnowledgeMergeAgent:
                         self.failed_records
                     ),
 
+
                 "success":
                     len(
                         self.success_records
                     ),
 
+
                 "failed":
                     len(
                         self.failed_records
                     )
+
             },
 
 
@@ -243,8 +439,15 @@ class KnowledgeMergeAgent:
                 ),
 
 
+
+            "unknown_files":
+                self.unknown_records,
+
+
+
             "failed_files":
                 self.failed_records
+
         }
 
 
@@ -289,7 +492,7 @@ class KnowledgeMergeAgent:
 
 
         lines.append(
-            f"""
+f"""
 ## Summary
 
 Total:
@@ -305,6 +508,7 @@ Failed:
         )
 
 
+
         lines.append(
             "\n## Knowledge Types\n"
         )
@@ -317,16 +521,31 @@ Failed:
             )
 
 
+
+        lines.append(
+            "\n## Unknown Type Files\n"
+        )
+
+
+        for item in self.unknown_records:
+
+            lines.append(
+                f"- {item['file']}\n"
+            )
+
+
+
         lines.append(
             "\n## Failed Files\n"
         )
+
 
 
         for item in self.failed_records:
 
 
             lines.append(
-                f"""
+f"""
 ### {item['file']}
 
 Reason:
@@ -335,6 +554,7 @@ Reason:
 
 """
             )
+
 
 
         file.write_text(
@@ -349,7 +569,9 @@ Reason:
         name
     ):
 
+
         return (
+
             str(name)
             .strip()
             .lower()
@@ -357,6 +579,7 @@ Reason:
                 " ",
                 "_"
             )
+
         )
 
 
@@ -366,8 +589,13 @@ Reason:
         name
     ):
 
+
         return re.sub(
+
             r'[\\/:*?"<>|]',
+
             "_",
+
             str(name)
+
         )
