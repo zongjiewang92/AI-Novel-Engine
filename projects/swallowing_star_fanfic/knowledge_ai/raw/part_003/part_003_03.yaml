@@ -1,130 +1,127 @@
-```yaml
 source:
   id: 网络小说原文
 
 entities:
-  - id: 张泽虎
-    type: Character
-    name: 张泽虎
-    aliases: []
-    description: 与罗峰有仇，因侄子的事情愤怒不已。
-    attributes:
-      strength: 高
-      wealth: 富裕
-      relationship_with_rofeng: 敌对
+- id: 张泽虎
+  type: Character
+  name: 张泽虎
+  aliases: []
+  description: 与罗峰有仇，因侄子的事情愤怒不已。
+  attributes:
+    strength: 高
+    wealth: 富裕
+    relationship_with_rofeng: 敌对
 
-  - id: 独眼中年人
-    type: Character
-    name: 独眼中年人
-    aliases: []
-    description: 张泽虎的朋友，关心张泽虎的伤势。
-    attributes:
-      relationship_with_zetuhu: 友好
+- id: 独眼中年人
+  type: Character
+  name: 独眼中年人
+  aliases: []
+  description: 张泽虎的朋友，关心张泽虎的伤势。
+  attributes:
+    relationship_with_zetuhu: 友好
 
-  - id: 高风
-    type: Character
-    name: 高风
-    aliases: []
-    description: 火锤小队队长，在队伍中地位显赫。
-    attributes:
-      strength: 强大
-      role: 队长
+- id: 高风
+  type: Character
+  name: 高风
+  aliases: []
+  description: 火锤小队队长，在队伍中地位显赫。
+  attributes:
+    strength: 强大
+    role: 队长
 
-  - id: 陈谷
-    type: Character
-    name: 陈谷
-    aliases: []
-    description: 罗峰的朋友，火锤小队队员，对机枪有研究。
-    attributes:
-      relationship_with_rofeng: 友好
-      profession: 枪械专家
+- id: 陈谷
+  type: Character
+  name: 陈谷
+  aliases: []
+  description: 罗峰的朋友，火锤小队队员，对机枪有研究。
+  attributes:
+    relationship_with_rofeng: 友好
+    profession: 枪械专家
 
-  - id: 张科
-    type: Character
-    name: 张科
-    aliases: []
-    description: 火锤小队成员，绰号“铁枪”。
-    attributes:
-      relationship_with_rofeng: 友好
+- id: 张科
+  type: Character
+  name: 张科
+  aliases: []
+  description: 火锤小队成员，绰号“铁枪”。
+  attributes:
+    relationship_with_rofeng: 友好
 
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 新加入火锤小队的队员。
-    attributes:
-      strength: 高级战士级
-      weapon: 血影战刀、盾牌
-      role: 队员
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 新加入火锤小队的队员。
+  attributes:
+    strength: 高级战士级
+    weapon: 血影战刀、盾牌
+    role: 队员
 
-  - id: 双月弯刀兄弟
-    type: Character
-    name: 双月弯刀兄弟
-    aliases: []
-    description: 火锤小队成员，位于队伍最前方。
-    attributes:
-      relationship_with_rofeng: 同事
-      role: 前锋
+- id: 双月弯刀兄弟
+  type: Character
+  name: 双月弯刀兄弟
+  aliases: []
+  description: 火锤小队成员，位于队伍最前方。
+  attributes:
+    relationship_with_rofeng: 同事
+    role: 前锋
 
 organizations:
-  - id: 火锤小队
-    type: Organization
-    name: 火锤小队
-    description: 负责进入荒野区执行任务的小队。
-    attributes:
-      leader: 高风
+- id: 火锤小队
+  type: Organization
+  name: 火锤小队
+  description: 负责进入荒野区执行任务的小队。
+  attributes:
+    leader: 高风
 
 locations:
-  - id: 补给基地
-    type: Location
-    name: 补给基地
-    description: 小队在出发前进行准备的地点。
+- id: 补给基地
+  type: Location
+  name: 补给基地
+  description: 小队在出发前进行准备的地点。
 
-  - id: E6号小楼
-    type: Location
-    name: E6号小楼
-    description: 罗峰的住所，火锤小队成员之一陈谷所在的地方。
+- id: E6号小楼
+  type: Location
+  name: E6号小楼
+  description: 罗峰的住所，火锤小队成员之一陈谷所在的地方。
 
 items:
-  - id: m81型号机枪
-    type: Item
-    name: m81型号机枪
-    aliases: []
-    attributes:
-      material: 三级克罗合金
-      bullet_count: 10000发
+- id: m81型号机枪
+  type: Item
+  name: m81型号机枪
+  aliases: []
+  attributes:
+    material: 三级克罗合金
+    bullet_count: 10000发
 
 events:
-  - id: 罗峰进入荒野区执行任务
-    type: Event
-    description: 火锤小队一行六人离开补给基地，进入荒野区。
-    timeline: 傍晚时分出发
+- id: 罗峰进入荒野区执行任务
+  type: Event
+  description: 火锤小队一行六人离开补给基地，进入荒野区。
+  timeline: 傍晚时分出发
 
 dialogues:
-  - speaker: 张泽虎
-    dialogue: 这个小子竟然真的直接上报给安全局了。
-    context: 回忆与侄子有关的过往事件。
+- speaker: 张泽虎
+  dialogue: 这个小子竟然真的直接上报给安全局了。
+  context: 回忆与侄子有关的过往事件。
 
-  - speaker: 独眼中年人
-    dialogue: 我们队就发了。
-    context: 讨论对付老怪兽后的收益。
+- speaker: 独眼中年人
+  dialogue: 我们队就发了。
+  context: 讨论对付老怪兽后的收益。
 
-  - speaker: 高风
-    dialogue: 这是你的第一战！
-    context: 指示罗峰迎战独角野猪。
-    
-  - speaker: 陈谷
-    dialogue: 我这次一共带10000发子弹。
-    context: 向队长解释携带的弹药量。
+- speaker: 高风
+  dialogue: 这是你的第一战！
+  context: 指示罗峰迎战独角野猪。
+
+- speaker: 陈谷
+  dialogue: 我这次一共带10000发子弹。
+  context: 向队长解释携带的弹药量。
 
 timeline:
-  - event: 张泽虎回忆与侄子有关的事情
-    time: 傍晚前
+- event: 张泽虎回忆与侄子有关的事情
+  time: 傍晚前
 
-  - event: 火锤小队离开补给基地进入荒野区
-    time: 傍晚时分
+- event: 火锤小队离开补给基地进入荒野区
+  time: 傍晚时分
 
 mysteries:
-  - mystery: 这第一次进荒野区，罗峰会怎么样？
-```
-注意：文档中的关系和描述仅根据原文内容提取，未做任何推测或假设。
+- mystery: 这第一次进荒野区，罗峰会怎么样？

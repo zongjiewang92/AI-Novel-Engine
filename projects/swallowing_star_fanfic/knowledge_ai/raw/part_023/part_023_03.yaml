@@ -1,81 +1,79 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: luofeng
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 身体由金角巨兽孕育，修炼《魂印》和《虚空之塔》秘法。
-    attributes:
-      实力: 恒星级九阶, 接近宇宙级
-      秘法: 万剑魂印, 绝对空间
+- id: luofeng
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 身体由金角巨兽孕育，修炼《魂印》和《虚空之塔》秘法。
+  attributes:
+    实力: 恒星级九阶, 接近宇宙级
+    秘法: 万剑魂印, 绝对空间
 
-  - id: baba_ta
-    type: character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的导师，恶魔。
-    attributes:
-      身份: 导师
-      性格: 直率
-      能力: 提供秘法指导
+- id: baba_ta
+  type: character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的导师，恶魔。
+  attributes:
+    身份: 导师
+    性格: 直率
+    能力: 提供秘法指导
 
-  - id: jinjiao_juwanzuo
-    type: species
-    name: 金角巨兽
-    aliases: []
-    description: 异界生物，拥有强大的身体和生命能量。
-    attributes:
-      长度: 超过900米
-      实力: 恒星级九阶
+- id: jinjiao_juwanzuo
+  type: species
+  name: 金角巨兽
+  aliases: []
+  description: 异界生物，拥有强大的身体和生命能量。
+  attributes:
+    长度: 超过900米
+    实力: 恒星级九阶
 
 relationships:
-  - id: luofeng_baba_ta_teacher_student_relationship
-    type: relationship
-    source_id: baba_ta
-    target_id: luofeng
-    description: 巴巴塔是罗峰的导师，指导他修炼秘法。
-    attributes: []
+- id: luofeng_baba_ta_teacher_student_relationship
+  type: relationship
+  source_id: baba_ta
+  target_id: luofeng
+  description: 巴巴塔是罗峰的导师，指导他修炼秘法。
+  attributes: []
 
 events:
-  - id: study_hunyin_second_volume_event
-    type: event
-    name: 学习《魂印》第二册
-    description: 罗峰开始学习万剑魂印，准备达到掌握奴役魂印的资格。
-    timeline:
-      start_date: "未具体时间"
-      end_date: "未具体时间"
+- id: study_hunyin_second_volume_event
+  type: event
+  name: 学习《魂印》第二册
+  description: 罗峰开始学习万剑魂印，准备达到掌握奴役魂印的资格。
+  timeline:
+    start_date: "未具体时间"
+    end_date: "未具体时间"
 
-  - id: jinjiao_juwanzuo_practicing_absolute_space_event
-    type: event
-    name: 绝对空间修炼
-    description: 金角巨兽沉浸在体内世界中，不断施展《绝对空间》秘法。
-    timeline:
-      start_date: "未具体时间"
-      end_date: "未具体时间"
+- id: jinjiao_juwanzuo_practicing_absolute_space_event
+  type: event
+  name: 绝对空间修炼
+  description: 金角巨兽沉浸在体内世界中，不断施展《绝对空间》秘法。
+  timeline:
+    start_date: "未具体时间"
+    end_date: "未具体时间"
 
 dialogues:
-  - id: luofeng_baba_ta_talk_about_hunyin_second_volume
-    type: dialogue
-    source_id: luofeng
-    target_id: baba_ta
-    content:
-      - 罗峰: "巴巴塔，这里有诸多魂印修炼，为什么修炼这个？"
-      - 巴巴塔: "笨！驳杂不如专精。你不是主修遁天梭么？那么你学的魂印秘法要求就是能够影响到敌人即可。这‘万剑魂印’，是魂印形成剑一般，直接的灵魂攻击！让敌人头痛欲裂，战斗时刻只需要走神霎那，你就能靠遁天梭将他给绞杀成碎肉了。"
+- id: luofeng_baba_ta_talk_about_hunyin_second_volume
+  type: dialogue
+  source_id: luofeng
+  target_id: baba_ta
+  content:
+  - 罗峰: "巴巴塔，这里有诸多魂印修炼，为什么修炼这个？"
+  - 巴巴塔: "笨！驳杂不如专精。你不是主修遁天梭么？那么你学的魂印秘法要求就是能够影响到敌人即可。这‘万剑魂印’，是魂印形成剑一般，直接的灵魂攻击！让敌人头痛欲裂，战斗时刻只需要走神霎那，你就能靠遁天梭将他给绞杀成碎肉了。"
 
 timeline:
-  - id: no_lane_family_arrival_reminder
-    type: timeline
-    name: 诺岚山家族抵达地球提醒
-    description: 巴巴塔倒计时提醒距离诺岚山家族人马抵达地球还有两年四个月带29天。
-    attributes:
-      时间: 两年四个月加29天
+- id: no_lane_family_arrival_reminder
+  type: timeline
+  name: 诺岚山家族抵达地球提醒
+  description: 巴巴塔倒计时提醒距离诺岚山家族人马抵达地球还有两年四个月带29天。
+  attributes:
+    时间: 两年四个月加29天
 
 mysteries:
-  - id: jinjiao_juwanzuo_evolution_puzzle
-    type: mystery
-    name: 金角巨兽进化之谜
-    description: 金角巨兽在雷霆世界修炼，如何完成从恒星级九阶到宇宙级的进阶。
-```
+- id: jinjiao_juwanzuo_evolution_puzzle
+  type: mystery
+  name: 金角巨兽进化之谜
+  description: 金角巨兽在雷霆世界修炼，如何完成从恒星级九阶到宇宙级的进阶。

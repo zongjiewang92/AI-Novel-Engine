@@ -1,117 +1,117 @@
-```yaml
 source:
   id: 第457章天地变色
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 天才战的参赛者，选择《九宇混沌碑》。
-    attributes:
-      实力: 强大
-      性格: 决策果断
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 天才战的参赛者，选择《九宇混沌碑》。
+  attributes:
+    实力: 强大
+    性格: 决策果断
 
-  - id: 黑袍使者
-    type: Character
-    name: 黑袍使者
-    aliases: []
-    description: 负责记录和指引参赛者的选择与行动。
-    attributes: []
+- id: 黑袍使者
+  type: Character
+  name: 黑袍使者
+  aliases: []
+  description: 负责记录和指引参赛者的选择与行动。
+  attributes: []
 
-  - id: 戎钧
-    type: Character
-    name: 戎钧
-    aliases: ["野人戎钧"]
-    description: 罗峰的朋友，选择《巨斧混沌碑》。
-    attributes:
-      实力: 强大
+- id: 戎钧
+  type: Character
+  name: 戎钧
+  aliases: [ "野人戎钧" ]
+  description: 罗峰的朋友，选择《巨斧混沌碑》。
+  attributes:
+    实力: 强大
 
-  - id: 巨斧斗武场创始人
-    type: Character
-    name: "巨斧斗武场的创始人"
-    aliases: []
-    description: 创立了五大势力之一“巨斧斗武场”，地位崇高。
+- id: 巨斧斗武场创始人
+  type: Character
+  name: "巨斧斗武场的创始人"
+  aliases: []
+  description: 创立了五大势力之一“巨斧斗武场”，地位崇高。
 
 organizations:
-  - id: 虚拟宇宙公司
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 宇宙人类的五大巨头之一，负责举行天才战。
-    attributes:
+- id: 虚拟宇宙公司
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 宇宙人类的五大巨头之一，负责举行天才战。
+  attributes:
 
-  - id: 巨斧斗武场
-    type: Organization
-    name: 巨斧斗武场
-    aliases: ["巨斧混沌碑"]
-    description: 宇宙人类的五大巨头之一，其创始人留下了《巨斧混沌碑》。
-    attributes:
-      地位: 高崇
+
+- id: 巨斧斗武场
+  type: Organization
+  name: 巨斧斗武场
+  aliases: [ "巨斧混沌碑" ]
+  description: 宇宙人类的五大巨头之一，其创始人留下了《巨斧混沌碑》。
+  attributes:
+    地位: 高崇
 
 items:
-  - id: 九宇混沌碑
-    type: Item
-    name: 九宇混沌碑
-    aliases: []
-    description: 可供天才们参悟的52尊混沌碑之一，选择《九宇混沌碑》的人数众多。
-    attributes:
-      功能: 参悟宇宙本源法则
+- id: 九宇混沌碑
+  type: Item
+  name: 九宇混沌碑
+  aliases: []
+  description: 可供天才们参悟的52尊混沌碑之一，选择《九宇混沌碑》的人数众多。
+  attributes:
+    功能: 参悟宇宙本源法则
 
-  - id: 心痕混沌碑
-    type: Item
-    name: 心痕混沌碑
-    aliases: []
-    description: 可供天才们参悟的52尊混沌碑之一，选择《心痕混沌碑》的人数较少。
-    attributes:
-      功能: 刀法极致诠释
+- id: 心痕混沌碑
+  type: Item
+  name: 心痕混沌碑
+  aliases: []
+  description: 可供天才们参悟的52尊混沌碑之一，选择《心痕混沌碑》的人数较少。
+  attributes:
+    功能: 刀法极致诠释
 
-  - id: 巨斧混沌碑
-    type: Item
-    name: 巨斧混沌碑
-    aliases: []
-    description: 可供天才们参悟的52尊混沌碑之一，选择《巨斧混沌碑》的人数较多。
-    attributes:
-      功能: 不可思议的威力
+- id: 巨斧混沌碑
+  type: Item
+  name: 巨斧混沌碑
+  aliases: []
+  description: 可供天才们参悟的52尊混沌碑之一，选择《巨斧混沌碑》的人数较多。
+  attributes:
+    功能: 不可思议的威力
 
 locations:
-  - id: 城主府廊道
-    type: Location
-    name: 城主府廊道
-    aliases: []
-    description: 天才战参赛者选择混沌碑的地方，有52副图画供选择。
-    attributes:
+- id: 城主府廊道
+  type: Location
+  name: 城主府廊道
+  aliases: []
+  description: 天才战参赛者选择混沌碑的地方，有52副图画供选择。
+  attributes:
+
 
 dialogues:
-  - speaker: 罗峰
-    listener: 黑袍使者
-    content: "我选《九宇混沌碑》。"
-    context: 混沌碑选择过程中的对话
+- speaker: 罗峰
+  listener: 黑袍使者
+  content: "我选《九宇混沌碑》。"
+  context: 混沌碑选择过程中的对话
 
-  - speaker: 戎钧
-    listener: 罗峰
-    content: "我？《巨斧混沌碑》。"
-    context: 讨论各自的选择
+- speaker: 戎钧
+  listener: 罗峰
+  content: "我？《巨斧混沌碑》。"
+  context: 讨论各自的选择
 
 timeline:
-  - event: 参赛者选择混沌碑
-    time: 第一阶段
-    description: 天才们根据个人喜好和实力特点，从52副图画中选择适合自己的混沌碑进行参悟。
-    attributes:
+- event: 参赛者选择混沌碑
+  time: 第一阶段
+  description: 天才们根据个人喜好和实力特点，从52副图画中选择适合自己的混沌碑进行参悟。
+  attributes:
+
 
 mysteries:
-  - id: 巨斧混沌碑的创始人身份
-    type: Mystery
-    name: "巨斧斗武场创始人"
-    description: 创立了五大势力之一“巨斧斗武场”的神秘人物，留下了《巨斧混沌碑》。
-    attributes:
-      地位: 高崇
+- id: 巨斧混沌碑的创始人身份
+  type: Mystery
+  name: "巨斧斗武场创始人"
+  description: 创立了五大势力之一“巨斧斗武场”的神秘人物，留下了《巨斧混沌碑》。
+  attributes:
+    地位: 高崇
 
-  - id: 混沌碑参悟密室
-    type: Mystery
-    name: 参悟密室的状态
-    description: 只有12个密室正在有人参悟，其他40个空闲。选择的天才们需要等待。
-    attributes:
-      等待时间: 最长三天
-
-```
+- id: 混沌碑参悟密室
+  type: Mystery
+  name: 参悟密室的状态
+  description: 只有12个密室正在有人参悟，其他40个空闲。选择的天才们需要等待。
+  attributes:
+    等待时间: 最长三天

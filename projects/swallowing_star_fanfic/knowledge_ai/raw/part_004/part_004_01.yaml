@@ -1,98 +1,94 @@
-```yaml
 source:
   id: 第52章银月凶狼
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      拥有精神念师能力，能够使用《九重雷刀》和飞刀，可以瞬间通过精神念力控制合金战靴和盾牌飞行。
-    attributes:
-      - 实力: 精神念师
-      - 能力: 飞行、踏物飞行
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    拥有精神念师能力，能够使用《九重雷刀》和飞刀，可以瞬间通过精神念力控制合金战靴和盾牌飞行。
+  attributes:
+  - 实力: 精神念师
+  - 能力: 飞行、踏物飞行
 
-  - id: 高风
-    type: Character
-    name: 高风
-    aliases: []
-    description: >
-      武者小队火锤小队的队长，性格谨慎。
-    attributes:
-      - 实力: 不详
-      - 身份: 火锤小队队长
+- id: 高风
+  type: Character
+  name: 高风
+  aliases: []
+  description: >
+    武者小队火锤小队的队长，性格谨慎。
+  attributes:
+  - 实力: 不详
+  - 身份: 火锤小队队长
 
-  - id: 陈谷
-    type: Character
-    name: 陈谷
-    aliases: []
-    description: >
-      武者小队火锤小队的队员，对银月凶狼有一定了解。
-    attributes:
-      - 实力: 不详
-      - 身份: 火锤小队队员
+- id: 陈谷
+  type: Character
+  name: 陈谷
+  aliases: []
+  description: >
+    武者小队火锤小队的队员，对银月凶狼有一定了解。
+  attributes:
+  - 实力: 不详
+  - 身份: 火锤小队队员
 
-  - id: 魏铁
-    type: Character
-    name: 魏铁
-    aliases: []
-    description: >
-      武者小队火锤小队的队员。
-    attributes:
-      - 实力: 不详
-      - 身份: 火锤小队队员
+- id: 魏铁
+  type: Character
+  name: 魏铁
+  aliases: []
+  description: >
+    武者小队火锤小队的队员。
+  attributes:
+  - 实力: 不详
+  - 身份: 火锤小队队员
 
-  - id: 银月凶狼
-    type: Species
-    name: 银月凶狼
-    aliases: []
-    description: >
-      比较稀有且强大的怪兽，属于高级兽将级。毛发通常为灰色，在战斗时会变成银白色或血色。
-    attributes:
-      - 等级: 高级兽将级
-      - 特性: 诡诈阴险、疯狂凶残
+- id: 银月凶狼
+  type: Species
+  name: 银月凶狼
+  aliases: []
+  description: >
+    比较稀有且强大的怪兽，属于高级兽将级。毛发通常为灰色，在战斗时会变成银白色或血色。
+  attributes:
+  - 等级: 高级兽将级
+  - 特性: 诡诈阴险、疯狂凶残
 
 relationships:
-  - id: 罗峰与火锤小队
-    type: Belongs to
-    description: >
-      火锤小队的成员之一。
-    attributes:
-      - 时间线: 当前时刻
-      - 情感关系: 友好合作
+- id: 罗峰与火锤小队
+  type: Belongs to
+  description: >
+    火锤小队的成员之一。
+  attributes:
+  - 时间线: 当前时刻
+  - 情感关系: 友好合作
 
 events:
-  - id: 银月凶狼出现
-    type: Event
-    description: >
-      夜晚中，银月凶狼在距离火锤小队约两里地的街道上发出狼嚎声。
-    attributes:
-      - 时间线: 当前夜晚
-      - 地点: 未具体说明
+- id: 银月凶狼出现
+  type: Event
+  description: >
+    夜晚中，银月凶狼在距离火锤小队约两里地的街道上发出狼嚎声。
+  attributes:
+  - 时间线: 当前夜晚
+  - 地点: 未具体说明
 
 dialogues:
-  - id: 高风和队员讨论
-    type: Dialogue
-    description: >
-      讨论是否要追击受伤的银月凶狼，高风表示谨慎对待。
-    attributes:
-      - 时间线: 当前夜晚
-      - 地点: 天台
+- id: 高风和队员讨论
+  type: Dialogue
+  description: >
+    讨论是否要追击受伤的银月凶狼，高风表示谨慎对待。
+  attributes:
+  - 时间线: 当前夜晚
+  - 地点: 天台
 
 timeline:
-  - id: 火锤小队准备休息
-    type: Timeline
-    description: >
-      火锤小队队员开始休息，但被银月凶狼的嚎叫声惊醒。
-    attributes:
-      - 时间线: 当前夜晚
+- id: 火锤小队准备休息
+  type: Timeline
+  description: >
+    火锤小队队员开始休息，但被银月凶狼的嚎叫声惊醒。
+  attributes:
+  - 时间线: 当前夜晚
 
 mysteries:
-  - id: 银月凶狼的具体行动
-    type: Mystery
-    description: >
-      未知受伤银月凶狼下一步会做什么动作，是否会对火锤小队造成威胁或机会。
-```
-
-注意：文档中的时间、地点等信息未完全明确具体化，在实际应用时需要根据上下文进一步推断和补充。
+- id: 银月凶狼的具体行动
+  type: Mystery
+  description: >
+    未知受伤银月凶狼下一步会做什么动作，是否会对火锤小队造成威胁或机会。

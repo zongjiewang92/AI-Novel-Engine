@@ -1,86 +1,84 @@
-```yaml
 source:
   id: 第621章-第622章
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 地球人，不朽神灵，有着地球本尊。
-    attributes:
-      实力: 域主级九阶
-      性格: 幽默、果断
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 地球人，不朽神灵，有着地球本尊。
+  attributes:
+    实力: 域主级九阶
+    性格: 幽默、果断
 
-  - id: 迪伦
-    type: Character
-    name: 迪伦
-    aliases: []
-    description: 贫穷的不朽神灵，罗峰的仆人。
-    attributes:
-      实力: 封王级不朽
+- id: 迪伦
+  type: Character
+  name: 迪伦
+  aliases: []
+  description: 贫穷的不朽神灵，罗峰的仆人。
+  attributes:
+    实力: 封王级不朽
 
-  - id: 护卫军
-    type: Organization
-    name: 护卫军
-    aliases: []
-    description: 罗峰的护卫团队。
-    attributes:
-      成员组成: 1名不朽神灵，10名界主，100名域主，1000名宇宙级战士
+- id: 护卫军
+  type: Organization
+  name: 护卫军
+  aliases: []
+  description: 罗峰的护卫团队。
+  attributes:
+    成员组成: 1名不朽神灵，10名界主，100名域主，1000名宇宙级战士
 
-  - id: 穹玉星
-    type: Location
-    name: 穹玉星
-    aliases: []
-    description: 乾巫宇宙国九颗一级行政星之一。
-    attributes:
-      特性: 大气层内禁止飞行降落，城市管理严格。
+- id: 穹玉星
+  type: Location
+  name: 穹玉星
+  aliases: []
+  description: 乾巫宇宙国九颗一级行政星之一。
+  attributes:
+    特性: 大气层内禁止飞行降落，城市管理严格。
 
 relationships:
-  - id: 罗峰-迪伦
-    type: 主仆关系
-    name: 主仆关系
-    description: 罗峰为主，迪伦为仆人
+- id: 罗峰-迪伦
+  type: 主仆关系
+  name: 主仆关系
+  description: 罗峰为主，迪伦为仆人
 
-  - id: 罗峰-护卫军
-    type: 上下级关系
-    name: 上下级关系
-    description: 罗峰为领导者，护卫军为其服务者
+- id: 罗峰-护卫军
+  type: 上下级关系
+  name: 上下级关系
+  description: 罗峰为领导者，护卫军为其服务者
 
 events:
-  - id: 宇宙穿梭到达穹玉星
-    type: Travel
-    name: 宇宙穿梭到达穹玉星
-    description: 罗峰与迪伦通过神国传送方式从其他星球快速抵达穹玉星。
-    timeline:
-      时间: 12天后
+- id: 宇宙穿梭到达穹玉星
+  type: Travel
+  name: 宇宙穿梭到达穹玉星
+  description: 罗峰与迪伦通过神国传送方式从其他星球快速抵达穹玉星。
+  timeline:
+    时间: 12天后
 
 dialogues:
-  - id: 罗峰-迪伦对话1
-    type: Conversation
-    name: 神国传送费用问题
-    description: |
-      "殿下，这就不用了。"
-      "这怎么行，我们能这么快抵达穹玉星，靠的是神国传送！而神国传送耗费那么多资源……怎么能让迪伦你买单呢？"
+- id: 罗峰-迪伦对话1
+  type: Conversation
+  name: 神国传送费用问题
+  description: |
+    "殿下，这就不用了。"
+    "这怎么行，我们能这么快抵达穹玉星，靠的是神国传送！而神国传送耗费那么多资源……怎么能让迪伦你买单呢？"
 
-  - id: 罗峰-相水城居民对话
-    type: Observation
-    name: 进入城市观察
-    description: "看！那群人竟然直接飞下来了。"
-    timeline:
-      时间: 到达穹玉星后
+- id: 罗峰-相水城居民对话
+  type: Observation
+  name: 进入城市观察
+  description: "看！那群人竟然直接飞下来了。"
+  timeline:
+    时间: 到达穹玉星后
 
 timeline:
-  - 时间点: 出发前
-    事件描述: 罗峰在营养舱中准备提升实力。
-  - 时间点: 宇宙穿梭途中
-    事件描述: 护卫军成员们留在宇宙飞船上等待抵达目的地。
-  - 时间点: 到达穹玉星后
-    事件描述: 进入相水城，观察城市规则。
+- 时间点: 出发前
+  事件描述: 罗峰在营养舱中准备提升实力。
+- 时间点: 宇宙穿梭途中
+  事件描述: 护卫军成员们留在宇宙飞船上等待抵达目的地。
+- 时间点: 到达穹玉星后
+  事件描述: 进入相水城，观察城市规则。
 
 mysteries:
-  - id: 罗峰家乡地球
-    type: Mystery
-    name: 地球状况未知
-    description: 罗峰已经超过两百年没有回过地球了。
-```
+- id: 罗峰家乡地球
+  type: Mystery
+  name: 地球状况未知
+  description: 罗峰已经超过两百年没有回过地球了。

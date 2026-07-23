@@ -1,110 +1,107 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 人类族群的支柱强者之一，银河领主。拥有墓陵之舟。
-    attributes:
-      实力: 宇宙最强者级
-      身份: 地球人一脉领袖、罗家核心成员
-      目前任务: 和东帝圣地进行交易以获取至强至宝
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 人类族群的支柱强者之一，银河领主。拥有墓陵之舟。
+  attributes:
+    实力: 宇宙最强者级
+    身份: 地球人一脉领袖、罗家核心成员
+    目前任务: 和东帝圣地进行交易以获取至强至宝
 
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 人类族群的最高层存在，负责指导和决策。
-    attributes:
-      身份: 最高层的一员
-      目前任务: 协调宇宙之主和不朽神灵进行应对浩劫的战略部署
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 人类族群的最高层存在，负责指导和决策。
+  attributes:
+    身份: 最高层的一员
+    目前任务: 协调宇宙之主和不朽神灵进行应对浩劫的战略部署
 
-  - id: 巨斧创始者
-    type: Character
-    name: 巨斧创始者
-    aliases: []
-    description: 人类族群唯一的宇宙最强者，已陨落。
-    attributes:
-      身份: 宇宙最强者
-      实力: 宇宙最强者级
+- id: 巨斧创始者
+  type: Character
+  name: 巨斧创始者
+  aliases: []
+  description: 人类族群唯一的宇宙最强者，已陨落。
+  attributes:
+    身份: 宇宙最强者
+    实力: 宇宙最强者级
 
-  - id: 北真星主
-    type: Character
-    name: 北真星主
-    aliases: []
-    description: 东帝圣地的代表，负责与罗峰交易。
-    attributes:
-      身份: 权贵人员
-      目前任务: 协助完成与银河领主的交易
+- id: 北真星主
+  type: Character
+  name: 北真星主
+  aliases: []
+  description: 东帝圣地的代表，负责与罗峰交易。
+  attributes:
+    身份: 权贵人员
+    目前任务: 协助完成与银河领主的交易
 
 organizations:
-  - id: 人类族群
-    type: Civilization
-    name: 人类族群
-    description: 面临宇宙浩劫，急需至强至宝增强实力。
-    attributes:
-      实力现状: 势弱，需要至强至宝以对抗巅峰族群的攻击
+- id: 人类族群
+  type: Civilization
+  name: 人类族群
+  description: 面临宇宙浩劫，急需至强至宝增强实力。
+  attributes:
+    实力现状: 势弱，需要至强至宝以对抗巅峰族群的攻击
 
 items:
-  - id: 至强至宝
-    type: Item
-    name: 至强至宝
-    aliases: []
-    description: 能显著提升人类族群实力的宝物。
-    attributes:
-      类型: 宝物
-      功能: 增强战斗力，提供战略优势
+- id: 至强至宝
+  type: Item
+  name: 至强至宝
+  aliases: []
+  description: 能显著提升人类族群实力的宝物。
+  attributes:
+    类型: 宝物
+    功能: 增强战斗力，提供战略优势
 
-  - id: 棺陵之舟
-    type: Item
-    name: 棺陵之舟
-    aliases: []
-    description: 罗峰的座驾，具备强大防御能力。
-    attributes:
-      类型: 船舰
-      功能: 防御、运输
+- id: 棺陵之舟
+  type: Item
+  name: 棺陵之舟
+  aliases: []
+  description: 罗峰的座驾，具备强大防御能力。
+  attributes:
+    类型: 船舰
+    功能: 防御、运输
 
 locations:
-  - id: 初始宇宙
-    type: Location
-    name: 初始宇宙
-    aliases: []
-    description: 宇宙海的一个重要区域，人类族群的避难所。
-    attributes:
-      地理位置: 混沌气流中
-      功能: 避难、聚集地
+- id: 初始宇宙
+  type: Location
+  name: 初始宇宙
+  aliases: []
+  description: 宇宙海的一个重要区域，人类族群的避难所。
+  attributes:
+    地理位置: 混沌气流中
+    功能: 避难、聚集地
 
 dialogues:
-  - id: 罗峰与混沌城主对话1
-    speaker:
-      - name: 罗峰
-        type: Character
-      - name: 混沌城主
-        type: Character
-    content:
-      - "罗峰，务必小心。这两件至强至宝非常重要！"
-      - "老师，放心吧，我有墓陵之舟，他们想要硬抢等根本是做梦。"
+- id: 罗峰与混沌城主对话1
+  speaker:
+  - name: 罗峰
+    type: Character
+  - name: 混沌城主
+    type: Character
+  content:
+  - "罗峰，务必小心。这两件至强至宝非常重要！"
+  - "老师，放心吧，我有墓陵之舟，他们想要硬抢等根本是做梦。"
 
-  - id: 罗海与父亲对话1
-    speaker:
-      - name: 父亲（罗峰）
-        type: Character
-      - name: 罗海、罗平
-        type: Character
-    content:
-      - "你们兄弟俩立即将我罗家核心成员尽皆带走，带在随身的一方世界中。"
+- id: 罗海与父亲对话1
+  speaker:
+  - name: 父亲（罗峰）
+    type: Character
+  - name: 罗海、罗平
+    type: Character
+  content:
+  - "你们兄弟俩立即将我罗家核心成员尽皆带走，带在随身的一方世界中。"
 
 timeline:
-  - id: 宇宙浩劫临近
-    description: 人类族群面临宇宙浩劫，急需至强至宝增强实力。
-    attributes:
-      时间点: 当前
+- id: 宇宙浩劫临近
+  description: 人类族群面临宇宙浩劫，急需至强至宝增强实力。
+  attributes:
+    时间点: 当前
 
 mysteries:
-  - id: 巨斧创始者陨落原因
-    description: 巨斧创始者的具体陨落原因未明。
-
-```
+- id: 巨斧创始者陨落原因
+  description: 巨斧创始者的具体陨落原因未明。

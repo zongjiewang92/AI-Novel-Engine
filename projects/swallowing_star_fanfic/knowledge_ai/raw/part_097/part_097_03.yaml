@@ -1,36 +1,34 @@
-```yaml
 source:
   id: 第1469章小型宇宙
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 达到十万倍神力层次的强者，正在进行无尽幽海重组和分身合一的过程。
-    attributes:
-      - 实力: 不朽、尊者、宇宙之主
-      - 特殊能力: 无限吞吸神力、法则海洋虚影降临
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 达到十万倍神力层次的强者，正在进行无尽幽海重组和分身合一的过程。
+  attributes:
+  - 实力: 不朽、尊者、宇宙之主
+  - 特殊能力: 无限吞吸神力、法则海洋虚影降临
 
 relationships:
-  - id: 罗峰与分身
-    type: Relationship
-    description: 地球人本尊和幽海分身、魔杀族分身、金角巨兽分身的合一过程。
+- id: 罗峰与分身
+  type: Relationship
+  description: 地球人本尊和幽海分身、魔杀族分身、金角巨兽分身的合一过程。
 
 events:
-  - id: 无尽幽海重组
-    type: Event
-    description: 罗峰通过法则海洋虚影吞吸大量神力，使无尽幽海体积恢复到直径12光年。
-    timeline:
-      start: 持续一年多的时间
+- id: 无尽幽海重组
+  type: Event
+  description: 罗峰通过法则海洋虚影吞吸大量神力，使无尽幽海体积恢复到直径12光年。
+  timeline:
+    start: 持续一年多的时间
 
 dialogues: []
 
 timeline:
-  - 时间点: 短短一年多时间
-    描述: 无尽幽海再度扩张到直径12光年后开始分身合一过程。
+- 时间点: 短短一年多时间
+  描述: 无尽幽海再度扩张到直径12光年后开始分身合一过程。
 
 mysteries:
-  - id: 无限神体的限制
-    description: 达到直径12光年之后，无法继续吞吸神力，暗示了所谓的“大小随心、无限神体”并非真正的无限。
-```
+- id: 无限神体的限制
+  description: 达到直径12光年之后，无法继续吞吸神力，暗示了所谓的“大小随心、无限神体”并非真正的无限。

@@ -1,105 +1,102 @@
-```yaml
 source:
   id: 第1404章神王谷统领
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 参加乌启楼试炼的军士，正在乌启楼第二层进行考验。
-    attributes:
-      实力: 真神级别
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 参加乌启楼试炼的军士，正在乌启楼第二层进行考验。
+  attributes:
+    实力: 真神级别
 
-  - id: 暗红色甲铠少年
-    type: Character
-    name: 暗红色甲铠少年
-    aliases: []
-    description: 参加乌启楼试炼的军士，与罗峰同一批参加。
-    attributes:
-      实力: 真神级别
+- id: 暗红色甲铠少年
+  type: Character
+  name: 暗红色甲铠少年
+  aliases: []
+  description: 参加乌启楼试炼的军士，与罗峰同一批参加。
+  attributes:
+    实力: 真神级别
 
-  - id: 五名军士
-    type: Character
-    name: 五名军士
-    aliases: [暗红色甲铠少年等]
-    description: 参加乌启楼试炼的军士，与罗峰同一批参加。
-    attributes:
-      实力: 真神级别
+- id: 五名军士
+  type: Character
+  name: 五名军士
+  aliases: [ 暗红色甲铠少年等 ]
+  description: 参加乌启楼试炼的军士，与罗峰同一批参加。
+  attributes:
+    实力: 真神级别
 
-  - id: 小型世界
-    type: Location
-    name: 上亿公里的小型世界
-    aliases: []
-    description: 军士们被传送进入用于考验他们生存能力的环境，有古老秘纹图不断轰击。
-    attributes:
-      危险程度: 比一名普通真神攻击稍弱
+- id: 小型世界
+  type: Location
+  name: 上亿公里的小型世界
+  aliases: []
+  description: 军士们被传送进入用于考验他们生存能力的环境，有古老秘纹图不断轰击。
+  attributes:
+    危险程度: 比一名普通真神攻击稍弱
 
-  - id: 古老秘纹图
-    type: Item
-    name: 古老秘纹图
-    aliases: []
-    description: 能产生光芒，对军士们进行连续轰击。
-    attributes:
-      强度: 堪比真神攻击
+- id: 古老秘纹图
+  type: Item
+  name: 古老秘纹图
+  aliases: []
+  description: 能产生光芒，对军士们进行连续轰击。
+  attributes:
+    强度: 堪比真神攻击
 
 relationships:
-  - id: 罗峰与暗红色甲铠少年等五名军士的关系
-    type: 同伴关系
-    name: 同一批参加乌启楼试炼的同伴
-    description: 在第二层考验中互相关注对方的情况。
-    attributes: []
+- id: 罗峰与暗红色甲铠少年等五名军士的关系
+  type: 同伴关系
+  name: 同一批参加乌启楼试炼的同伴
+  description: 在第二层考验中互相关注对方的情况。
+  attributes: []
 
 events:
-  - id: 军士们被传送进入小型世界
-    type: Event
-    name: 被传送到小型世界进行生存考验
-    description: 罗峰等人在乌启楼的第二层，被传送至各个小型世界内进行考验。
-    attributes:
-      时间: 乌启楼第二层开启后立即发生
+- id: 军士们被传送进入小型世界
+  type: Event
+  name: 被传送到小型世界进行生存考验
+  description: 罗峰等人在乌启楼的第二层，被传送至各个小型世界内进行考验。
+  attributes:
+    时间: 乌启楼第二层开启后立即发生
 
-  - id: 古老秘纹图轰击小型世界
-    type: Event
-    name: 小型世界的古老秘纹图开始攻击军士们
-    description: 军士们进入小型世界，遭遇古老秘纹图的光芒不断轰击。
-    attributes:
-      时间: 被传送到小型世界后立即发生
+- id: 古老秘纹图轰击小型世界
+  type: Event
+  name: 小型世界的古老秘纹图开始攻击军士们
+  description: 军士们进入小型世界，遭遇古老秘纹图的光芒不断轰击。
+  attributes:
+    时间: 被传送到小型世界后立即发生
 
-  - id: 灼热液体凝聚成暗红色岩石巨人
-    type: Event
-    name: 小型世界的赤红色液体聚集成巨大岩石巨人
-    description: 在军士们进入的小型世界中，炽热的赤红色液体从地面涌出并凝固成岩石巨人。
-    attributes:
-      时间: 地震颤动后不久
+- id: 灼热液体凝聚成暗红色岩石巨人
+  type: Event
+  name: 小型世界的赤红色液体聚集成巨大岩石巨人
+  description: 在军士们进入的小型世界中，炽热的赤红色液体从地面涌出并凝固成岩石巨人。
+  attributes:
+    时间: 地震颤动后不久
 
-  - id: 军士们与暗红色岩石巨人的战斗
-    type: Event
-    name: 军士们遭遇并抵抗暗红色岩石巨人的攻击
-    description: 暗红色岩石巨人开始对军士们进行猛烈的攻击。
-    attributes:
-      时间: 赤红色液体凝固成岩石巨人后立即发生
+- id: 军士们与暗红色岩石巨人的战斗
+  type: Event
+  name: 军士们遭遇并抵抗暗红色岩石巨人的攻击
+  description: 暗红色岩石巨人开始对军士们进行猛烈的攻击。
+  attributes:
+    时间: 赤红色液体凝固成岩石巨人后立即发生
 
 dialogues:
-  - id: 军士们的私下交谈
-    type: Dialogue
-    name: 罗峰和同伴之间的交流
-    description: 罗峰和他的五名同伴在等待时讨论第二层考验的情况。
-    attributes:
-      时间: 第一层考验结束后，进入第二层前
+- id: 军士们的私下交谈
+  type: Dialogue
+  name: 罗峰和同伴之间的交流
+  description: 罗峰和他的五名同伴在等待时讨论第二层考验的情况。
+  attributes:
+    时间: 第一层考验结束后，进入第二层前
 
 timeline:
-  - id: 军士们被传送到小型世界的时间线
-    type: Timeline
-    name: 小型世界的传送过程
-    description: 罗峰等人从乌启楼第一层被传送至各自的小型世界进行考验。
-    attributes:
-      时间顺序: 第一层结束后立即发生
+- id: 军士们被传送到小型世界的时间线
+  type: Timeline
+  name: 小型世界的传送过程
+  description: 罗峰等人从乌启楼第一层被传送至各自的小型世界进行考验。
+  attributes:
+    时间顺序: 第一层结束后立即发生
 
 mysteries:
-  - id: 神王谷统领的意图
-    type: Mystery
-    name: 神王谷统领为何设置这样的考验
-    description: 军士们不清楚神王谷统领设计如此复杂考验的目的。
-    attributes:
-      解释待定
-```
+- id: 神王谷统领的意图
+  type: Mystery
+  name: 神王谷统领为何设置这样的考验
+  description: 军士们不清楚神王谷统领设计如此复杂考验的目的。
+  attributes: 解释待定

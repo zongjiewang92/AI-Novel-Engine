@@ -1,88 +1,85 @@
-```yaml
 source:
   id: "第431章残酷的淘汰"
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      来自乾巫宇宙国，拥有多个身体（金角巨兽、魔杀族分身和地球人本尊），实力强大。
-    attributes:
-      - 实力：能击败野人戎钧，在1008宇宙国的天才战中具有冲击前十的实力。
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    来自乾巫宇宙国，拥有多个身体（金角巨兽、魔杀族分身和地球人本尊），实力强大。
+  attributes:
+  - 实力：能击败野人戎钧，在1008宇宙国的天才战中具有冲击前十的实力。
 
-  - id: 戎钧
-    type: Character
-    name: 戎钧
-    aliases: []
-    description: >
-      来自乾巫宇宙国，拥有“土、空间”本源法则感悟，实力强大。
-    attributes:
-      - 实力：能在1008宇宙国的天才战中冲击前十。
+- id: 戎钧
+  type: Character
+  name: 戎钧
+  aliases: []
+  description: >
+    来自乾巫宇宙国，拥有“土、空间”本源法则感悟，实力强大。
+  attributes:
+  - 实力：能在1008宇宙国的天才战中冲击前十。
 
-  - id: 艾辰
-    type: Character
-    name: 艾辰
-    aliases: []
-    description: >
-      梦螺翼族人，在1008宇宙国的天才战中有冲击前十的实力，外号“光剑”。
-    attributes:
-      - 外号：光剑
+- id: 艾辰
+  type: Character
+  name: 艾辰
+  aliases: []
+  description: >
+    梦螺翼族人，在1008宇宙国的天才战中有冲击前十的实力，外号“光剑”。
+  attributes:
+  - 外号：光剑
 
-  - id: 加莱西
-    type: Character
-    name: 加莱西
-    aliases: []
-    description: >
-      嗥神族人，在彭古宇宙国的天才战中展现出了极强的实力，外号“幻魔”。
-    attributes:
-      - 外号：幻魔
+- id: 加莱西
+  type: Character
+  name: 加莱西
+  aliases: []
+  description: >
+    嗥神族人，在彭古宇宙国的天才战中展现出了极强的实力，外号“幻魔”。
+  attributes:
+  - 外号：幻魔
 
-  - id: 蛮卡星王子
-    type: Character
-    name: 蛮卡星王子
-    aliases: []
-    description: >
-      来自蛮卡星的天才，在17宇宙国中被认为有冲击前十的实力。
-    attributes:
-      - 外号：蛮卡星王子
+- id: 蛮卡星王子
+  type: Character
+  name: 蛮卡星王子
+  aliases: []
+  description: >
+    来自蛮卡星的天才，在17宇宙国中被认为有冲击前十的实力。
+  attributes:
+  - 外号：蛮卡星王子
 
-  - id: 白兰
-    type: Character
-    name: 白兰
-    aliases: [死神]
-    description: >
-      死神伯兰，1008宇宙国天才战中表现最不可思议的绝世天才。
-    attributes:
-      - 实力：总排名无可争议的第一。
+- id: 白兰
+  type: Character
+  name: 白兰
+  aliases: [ 死神 ]
+  description: >
+    死神伯兰，1008宇宙国天才战中表现最不可思议的绝世天才。
+  attributes:
+  - 实力：总排名无可争议的第一。
 
-  - id: 风轮
-    type: Character
-    name: 风轮
-    aliases: []
-    description: >
-      绿发青年，与罗峰同行。
-    attributes:
-      - 身份：乾巫宇宙国天才
+- id: 风轮
+  type: Character
+  name: 风轮
+  aliases: []
+  description: >
+    绿发青年，与罗峰同行。
+  attributes:
+  - 身份：乾巫宇宙国天才
 
 relationships:
 
 events:
-  - id: 天才战聚集
-    type: Event
-    description: >
-      来自1008个宇宙国的超级天才们在中央广场集合，准备参加总排名前一千的比赛。
-    attributes:
-      地点: 中央广场
-      时间: 总排名比赛前夕
+- id: 天才战聚集
+  type: Event
+  description: >
+    来自1008个宇宙国的超级天才们在中央广场集合，准备参加总排名前一千的比赛。
+  attributes:
+    地点: 中央广场
+    时间: 总排名比赛前夕
 
 dialogues:
 
 timeline:
-  - 天才战聚集: 总排名比赛前夕
+- 天才战聚集: 总排名比赛前夕
 
 mysteries:
-  - 罗峰隐藏实力: 是否还有其他隐藏实力的天才，如罗峰一样，具备冲击前十的实力却未被外界知晓。
-```
-此段代码仅提取了文本中描述的主要人物、事件和相关信息，并且没有进行任何评论或总结。
+- 罗峰隐藏实力: 是否还有其他隐藏实力的天才，如罗峰一样，具备冲击前十的实力却未被外界知晓。

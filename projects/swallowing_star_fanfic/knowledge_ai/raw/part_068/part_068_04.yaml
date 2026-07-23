@@ -1,93 +1,91 @@
-```yaml
 source:
   id: chapter1028
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有强大的原核和各种能力，正在努力突破不朽。
-    attributes:
-      实力: 宇宙尊者
-      原核状态: 极强，能承受超大世界
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有强大的原核和各种能力，正在努力突破不朽。
+  attributes:
+    实力: 宇宙尊者
+    原核状态: 极强，能承受超大世界
 
-  - id: 天阵王
-    type: Character
-    name: 天阵王
-    aliases: []
-    description: 担任罗峰的仆人。
-    attributes:
-      身份: 主人的守候者
+- id: 天阵王
+  type: Character
+  name: 天阵王
+  aliases: []
+  description: 担任罗峰的仆人。
+  attributes:
+    身份: 主人的守候者
 
-  - id: 极虹王
-    type: Character
-    name: 极虹王
-    aliases: []
-    description: 担任罗峰的仆人。
-    attributes:
-      身份: 主人的守候者
+- id: 极虹王
+  type: Character
+  name: 极虹王
+  aliases: []
+  description: 担任罗峰的仆人。
+  attributes:
+    身份: 主人的守候者
 
-  - id: 真衍尊者
-    type: Character
-    name: 真衍尊者
-    aliases: []
-    description: 罗峰的老师，耗费亿万年无尽岁月研究秘法绝学。
-    attributes:
-      实力: 宇宙尊者
+- id: 真衍尊者
+  type: Character
+  name: 真衍尊者
+  aliases: []
+  description: 罗峰的老师，耗费亿万年无尽岁月研究秘法绝学。
+  attributes:
+    实力: 宇宙尊者
 
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 罗峰的老师，指导罗峰突破不朽。
-    attributes:
-      身份: 老师
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 罗峰的老师，指导罗峰突破不朽。
+  attributes:
+    身份: 老师
 
 relationships:
-  - 主体: 罗峰
-    关系类型: 师徒关系
-    对象: 混沌城主
+- 主体: 罗峰
+  关系类型: 师徒关系
+  对象: 混沌城主
 
 locations:
-  - id: 千宝河境地
-    type: Location
-    name: 千宝河境地
-    description: 罗峰居住的地方。
+- id: 千宝河境地
+  type: Location
+  name: 千宝河境地
+  description: 罗峰居住的地方。
 
 abilities:
-  - id: 原核桎梏
-    type: Ability
-    name: 原核桎梏
-    attributes:
-      描述: 阻碍罗峰突破不朽的限制
+- id: 原核桎梏
+  type: Ability
+  name: 原核桎梏
+  attributes:
+    描述: 阻碍罗峰突破不朽的限制
 
-  - id: 九劫秘典
-    type: Item
-    name: 九劫秘典
-    description: 罗峰得到的一部重要修炼法典。
+- id: 九劫秘典
+  type: Item
+  name: 九劫秘典
+  description: 罗峰得到的一部重要修炼法典。
 
 events:
-  - id: 研究万星布道图
-    type: Event
-    name: 研究万星布道图第一式
-    attributes:
-      时间跨度: 3000年
+- id: 研究万星布道图
+  type: Event
+  name: 研究万星布道图第一式
+  attributes:
+    时间跨度: 3000年
 
 dialogues:
-  - 主体: 混沌城主
-    对象: 罗峰
-    内容: "你这三千年，一直在研究你那《万星布道图》第一式，到现在，总算是将第一式推演到‘究极’绝学层次。可你为何要花费这么大心思来研究秘法，现在的你，早已可以突破不朽了。"
-  - 主体: 罗峰
-    对象: 混沌城主
-    内容: "弟子的实力还不够。"
+- 主体: 混沌城主
+  对象: 罗峰
+  内容: "你这三千年，一直在研究你那《万星布道图》第一式，到现在，总算是将第一式推演到‘究极’绝学层次。可你为何要花费这么大心思来研究秘法，现在的你，早已可以突破不朽了。"
+- 主体: 罗峰
+  对象: 混沌城主
+  内容: "弟子的实力还不够。"
 
 timeline:
-  - 时间点: 过去3000年
-    事件: 研究《万星布道图》第一式
+- 时间点: 过去3000年
+  事件: 研究《万星布道图》第一式
 
 mysteries:
-  - id: 不朽桎梏突破困难
-    type: Mystery
-    内容: 尽管罗峰各方面条件优越，但为何无法打破原核桎梏？
-```
+- id: 不朽桎梏突破困难
+  type: Mystery
+  内容: 尽管罗峰各方面条件优越，但为何无法打破原核桎梏？

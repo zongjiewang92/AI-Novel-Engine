@@ -1,94 +1,92 @@
-```yaml
 source:
   id: "unknown"
 
 entities:
-  - id: "rofe"
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙中的天才，受到九剑尊者的重视。
-    attributes:
-      实力: 高级不朽神灵
-      性格: 勤奋聪明
+- id: "rofe"
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙中的天才，受到九剑尊者的重视。
+  attributes:
+    实力: 高级不朽神灵
+    性格: 勤奋聪明
 
-  - id: "xieye"
-    type: Character
-    name: 饕餮王（嗜血王）
-    aliases: []
-    description: 封王级别的宇宙强者，拥有强大的实力和世界戒指。
-    attributes:
-      实力: 封王级不朽神灵
-      性格: 强势
+- id: "xieye"
+  type: Character
+  name: 饕餮王（嗜血王）
+  aliases: []
+  description: 封王级别的宇宙强者，拥有强大的实力和世界戒指。
+  attributes:
+    实力: 封王级不朽神灵
+    性格: 强势
 
-  - id: "yanzhu"
-    type: Character
-    name: 魈烛王
-    aliases: []
-    description: 来自蚀火尊者家族，拥有强大的底牌。
-    attributes:
-      实力: 封王级不朽神灵
-      性格: 冷静自信
+- id: "yanzhu"
+  type: Character
+  name: 魈烛王
+  aliases: []
+  description: 来自蚀火尊者家族，拥有强大的底牌。
+  attributes:
+    实力: 封王级不朽神灵
+    性格: 冷静自信
 
-  - id: "dielen"
-    type: Character
-    name: 迪伦
-    aliases: []
-    description: 罗峰的朋友和同伴，一同卷入战斗。
-    attributes:
-      实力: 不详
-      性格: 忠诚勇敢
+- id: "dielen"
+  type: Character
+  name: 迪伦
+  aliases: []
+  description: 罗峰的朋友和同伴，一同卷入战斗。
+  attributes:
+    实力: 不详
+    性格: 忠诚勇敢
 
-  - id: "jiujian"
-    type: Character
-    name: 九剑尊者
-    aliases: []
-    description: 虚拟宇宙中的重要人物，对罗峰极为重视。
-    attributes:
-      实力: 尊者级（高于封王）
-      性格: 威严
+- id: "jiujian"
+  type: Character
+  name: 九剑尊者
+  aliases: []
+  description: 虚拟宇宙中的重要人物，对罗峰极为重视。
+  attributes:
+    实力: 尊者级（高于封王）
+    性格: 威严
 
 locations:
-  - id: "earth"
-    type: Location
-    name: 地球
-    description: 罗峰的家乡。
+- id: "earth"
+  type: Location
+  name: 地球
+  description: 罗峰的家乡。
 
 organizations:
-  - id: "juafu"
-    type: Organization
-    name: 巨斧斗武场
-    description: 九剑尊者麾下的组织，负责派遣力量保护罗峰。
+- id: "juafu"
+  type: Organization
+  name: 巨斧斗武场
+  description: 九剑尊者麾下的组织，负责派遣力量保护罗峰。
 
 items:
-  - id: "shijiezhizhu"
-    type: Item
-    name: 世界戒指
-    description: 能够将人收进世界的宝物。
-    
+- id: "shijiezhizhu"
+  type: Item
+  name: 世界戒指
+  description: 能够将人收进世界的宝物。
+
 abilities:
-  - id: "linghuliansuo"
-    type: Ability
-    name: 灵魂秘法
-    description: 可以穿透飞船阻碍，控制罗峰。
+- id: "linghuliansuo"
+  type: Ability
+  name: 灵魂秘法
+  description: 可以穿透飞船阻碍，控制罗峰。
 
 events:
-  - id: "shizhitaojiu"
-    type: Event
-    name: 施展灵魂秘法
-    description: 魈烛王命令使用灵魂秘法来对抗嗜血王。
-    
-dialogues:
-  - speaker: 嗜血王
-    text: "混蛋！"
+- id: "shizhitaojiu"
+  type: Event
+  name: 施展灵魂秘法
+  description: 魈烛王命令使用灵魂秘法来对抗嗜血王。
 
-  - speaker: 魇烛王
-    text: "我奉我父亲之命来地球，怎么可能就这么走掉？"
-  
+dialogues:
+- speaker: 嗜血王
+  text: "混蛋！"
+
+- speaker: 魇烛王
+  text: "我奉我父亲之命来地球，怎么可能就这么走掉？"
+
 timeline:
-  - event: 罗峰和迪伦被嗜血王抓进飞船。
-    time: 实时
+- event: 罗峰和迪伦被嗜血王抓进飞船。
+  time: 实时
 
 mysteries:
-  - question: 嗜血王是否会成功将罗峰带走？
-```
+- question: 嗜血王是否会成功将罗峰带走？

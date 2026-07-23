@@ -1,113 +1,110 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 颜海
-    type: Character
-    name: 颜海
-    aliases: []
-    description: 地球上一位重要人物，行星级武者。
-    attributes:
-      实力: 行星级武者
-      状态: 死亡
+- id: 颜海
+  type: Character
+  name: 颜海
+  aliases: []
+  description: 地球上一位重要人物，行星级武者。
+  attributes:
+    实力: 行星级武者
+    状态: 死亡
 
-  - id: 阿特金
-    type: Character
-    name: 阿特金
-    aliases: []
-    description: 地球HR联盟新任议长，野心家。
-    attributes:
-      实力: 战神宫第五议长
-      状态: 生存
+- id: 阿特金
+  type: Character
+  name: 阿特金
+  aliases: []
+  description: 地球HR联盟新任议长，野心家。
+  attributes:
+    实力: 战神宫第五议长
+    状态: 生存
 
-  - id: 萨戈*尼赫鲁
-    type: Character
-    name: 萨戈*尼赫鲁
-    aliases: []
-    description: 地球上唯一的一名行星级精神念师。
-    attributes:
-      实力: 行星级一阶精神念师
+- id: 萨戈*尼赫鲁
+  type: Character
+  name: 萨戈*尼赫鲁
+  aliases: []
+  description: 地球上唯一的一名行星级精神念师。
+  attributes:
+    实力: 行星级一阶精神念师
 
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 强大无比的天才，疑似未死。
-    attributes:
-      实力: 年轻却强大的行星级武者
-      状态: 可能生存
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 强大无比的天才，疑似未死。
+  attributes:
+    实力: 年轻却强大的行星级武者
+    状态: 可能生存
 
-  - id: 洪
-    type: Character
-    name: 洪
-    aliases: []
-    description: 地球上的强者，曾经被发现生命气息消失。
-    attributes:
-      实力: 不详
-      状态: 沉睡或未死透
+- id: 洪
+  type: Character
+  name: 洪
+  aliases: []
+  description: 地球上的强者，曾经被发现生命气息消失。
+  attributes:
+    实力: 不详
+    状态: 沉睡或未死透
 
-  - id: 雷神
-    type: Character
-    name: 雷神
-    aliases: []
-    description: 地球上的强者，曾经被发现生命气息消失。
-    attributes:
-      实力: 不详
-      状态: 沉睡或未死透
+- id: 雷神
+  type: Character
+  name: 雷神
+  aliases: []
+  description: 地球上的强者，曾经被发现生命气息消失。
+  attributes:
+    实力: 不详
+    状态: 沉睡或未死透
 
-  - id: 巴巴塔
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的智能机器人助手，拥有隐身能力。
-    attributes:
-      能力: 隐身系统
+- id: 巴巴塔
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的智能机器人助手，拥有隐身能力。
+  attributes:
+    能力: 隐身系统
 
 organizations:
-  - id: HR联盟议会
-    type: Organization
-    name: HR联盟议会
-    aliases: []
-    description: 地球上的最高权力机构。
+- id: HR联盟议会
+  type: Organization
+  name: HR联盟议会
+  aliases: []
+  description: 地球上的最高权力机构。
 
 locations:
-  - id: 北美洲美利坚华府基地市
-    type: Location
-    name: 华府基地市
-    aliases: [北美洲美利坚]
-    description: 美国首都，HR联盟的重要城市。
-  
-  - id: 亚洲印度新德里基地市
-    type: Location
-    name: 新德里基地市
-    aliases: [印度新德里]
-    description: 印度的首都。
+- id: 北美洲美利坚华府基地市
+  type: Location
+  name: 华府基地市
+  aliases: [ 北美洲美利坚 ]
+  description: 美国首都，HR联盟的重要城市。
+
+- id: 亚洲印度新德里基地市
+  type: Location
+  name: 新德里基地市
+  aliases: [ 印度新德里 ]
+  description: 印度的首都。
 
 events:
-  - id: 颜海死亡事件
-    type: Event
-    name: 颜海被发现死亡
-    attributes:
-      时间: 华府基地市时间15分钟前
-      地点: 天台
-      死因: 不明
+- id: 颜海死亡事件
+  type: Event
+  name: 颜海被发现死亡
+  attributes:
+    时间: 华府基地市时间15分钟前
+    地点: 天台
+    死因: 不明
 
 dialogues:
-  - speaker: 阿特金
-    listener: 不详
-    content: "喂，颜海先生在15分钟前被发现死亡。"
-  
-  - speaker: 阿特金
-    listener: 萨戈*尼赫鲁
-    content: "我怀疑罗峰没有死，并且他刚刚杀死颜海，请你万分小心并尽快离开住所！"
+- speaker: 阿特金
+  listener: 不详
+  content: "喂，颜海先生在15分钟前被发现死亡。"
+
+- speaker: 阿特金
+  listener: 萨戈*尼赫鲁
+  content: "我怀疑罗峰没有死，并且他刚刚杀死颜海，请你万分小心并尽快离开住所！"
 
 timeline:
-  - event_id: 颜海死亡事件
-    time: 华府基地市时间15分钟前
+- event_id: 颜海死亡事件
+  time: 华府基地市时间15分钟前
 
 mysteries:
-  - id: 罗峰是否生存
-    description: 罗峰是否真的已经死去，还是像洪和雷神一样只是生命气息消失。
-```
-注意：原文中没有直接提到巴巴塔的隐身系统效果具体为“控制光线扭曲”，这是根据上下文推断的结果。因此，在保留文本信息的同时进行了合理的推测解释。
+- id: 罗峰是否生存
+  description: 罗峰是否真的已经死去，还是像洪和雷神一样只是生命气息消失。

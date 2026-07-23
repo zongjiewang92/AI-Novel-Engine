@@ -1,119 +1,111 @@
-```yaml
 source:
   id: "未知"
 
 entities:
-  - id: "罗峰"
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 原始宇宙人类领主，成为断东河一脉的传承者。
-    attributes:
-      - 实力: 不详（已突破成断东河一脉传承者）
-      - 身份: 人类银河领主
+- id: "罗峰"
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 原始宇宙人类领主，成为断东河一脉的传承者。
+  attributes:
+  - 实力: 不详（已突破成断东河一脉传承者）
+  - 身份: 人类银河领主
 
-  - id: "巨斧创始者"
-    type: Character
-    name: 巨斧创始者
-    aliases: []
-    description: 虚拟宇宙的创始人之一，对罗峰成为断东河一脉传承者有所了解。
-    attributes:
-      - 实力: 高超（虚拟宇宙创始人）
+- id: "巨斧创始者"
+  type: Character
+  name: 巨斧创始者
+  aliases: []
+  description: 虚拟宇宙的创始人之一，对罗峰成为断东河一脉传承者有所了解。
+  attributes:
+  - 实力: 高超（虚拟宇宙创始人）
 
-  - id: "混沌城主"
-    type: Character
-    name: 混沌城主
-    description: 虚拟宇宙中的一位重要人物，对罗峰成为断东河一脉传承者有所了解。
-    attributes:
-      - 实力: 高超
+- id: "混沌城主"
+  type: Character
+  name: 混沌城主
+  description: 虚拟宇宙中的一位重要人物，对罗峰成为断东河一脉传承者有所了解。
+  attributes:
+  - 实力: 高超
 
-  - id: "紫月始祖"
-    type: Character
-    name: 紫月始祖
-    aliases: []
-    description: 对断东河一脉传承的争夺极为关注，怀疑人类银河领主罗峰可能得到传承。
-    attributes:
-      - 实力: 高超
+- id: "紫月始祖"
+  type: Character
+  name: 紫月始祖
+  aliases: []
+  description: 对断东河一脉传承的争夺极为关注，怀疑人类银河领主罗峰可能得到传承。
+  attributes:
+  - 实力: 高超
 
-  - id: "东帝"
-    type: Character
-    name: 东帝
-    aliases: []
-    description: 断东河一脉传承的竞争者之一，对碧血尊者的陨落表示愤怒和怀疑。
-    attributes:
-      - 实力: 高强（疑似原始宇宙人类敌人）
+- id: "东帝"
+  type: Character
+  name: 东帝
+  aliases: []
+  description: 断东河一脉传承的竞争者之一，对碧血尊者的陨落表示愤怒和怀疑。
+  attributes:
+  - 实力: 高强（疑似原始宇宙人类敌人）
 
-  - id: "断东河"
-    type: Character
-    name: 断东河
-    aliases: []
-    description: 罗峰的传承导师，拥有断东河一脉核心传承的知识。
-    attributes:
-      - 实力: 高强（多任传承者）
-      - 名称: 断东河*震阚*吴
+- id: "断东河"
+  type: Character
+  name: 断东河
+  aliases: []
+  description: 罗峰的传承导师，拥有断东河一脉核心传承的知识。
+  attributes:
+  - 实力: 高强（多任传承者）
+  - 名称: 断东河*震阚*吴
 
-  - id: "碧血尊者"
-    type: Character
-    name: 碧血尊者
-    aliases: []
-    description: 在断东河一脉的传承争夺战中陨落，可能是东帝圣地的竞争者之一。
-    attributes:
-      - 实力: 高强
+- id: "碧血尊者"
+  type: Character
+  name: 碧血尊者
+  aliases: []
+  description: 在断东河一脉的传承争夺战中陨落，可能是东帝圣地的竞争者之一。
+  attributes:
+  - 实力: 高强
 
-  - id: "隐"
-    type: Ability
-    name: 隐
-    description: 断东河的能力，能够使空间入口消失。
+- id: "隐"
+  type: Ability
+  name: 隐
+  description: 断东河的能力，能够使空间入口消失。
 
 organizations:
-  - id: "紫月圣地"
-    type: Organization
-    name: 紫月圣地
-    aliases: []
-    description: 对断东河一脉传承有浓厚兴趣的势力之一。
-    attributes:
-      - 成员构成: 不详
+- id: "紫月圣地"
+  type: Organization
+  name: 紫月圣地
+  aliases: []
+  description: 对断东河一脉传承有浓厚兴趣的势力之一。
+  attributes:
+  - 成员构成: 不详
 
-  - id: "东帝圣地宇宙"
-    type: Location
-    name: 东帝圣地宇宙
-    aliases: []
-    description: 断东河一脉传承竞争的重要地点，碧血尊者在此陨落。
+- id: "东帝圣地宇宙"
+  type: Location
+  name: 东帝圣地宇宙
+  aliases: []
+  description: 断东河一脉传承竞争的重要地点，碧血尊者在此陨落。
 
 locations:
-  - id: "断东河一脉传承空间"
-    type: Location
-    name: 断东河一脉传承空间
-    aliases: []
-    description: 历代断东河接受传承的地方。
-    attributes:
-      - 独立位面数量: 820个基础传承的独立位面
+- id: "断东河一脉传承空间"
+  type: Location
+  name: 断东河一脉传承空间
+  aliases: []
+  description: 历代断东河接受传承的地方。
+  attributes:
+  - 独立位面数量: 820个基础传承的独立位面
 
 abilities:
-  - id: "隐"
-    type: Ability
-    name: 隐
-    description: 断东河的能力，能够使空间入口消失。
+- id: "隐"
+  type: Ability
+  name: 隐
+  description: 断东河的能力，能够使空间入口消失。
 
 items:
-  - id: "820门基础传承"
-    type: Item
-    name: 820门基础传承
-    aliases: []
-    description: 断东河一脉的基础修炼方法和知识。
+- id: "820门基础传承"
+  type: Item
+  name: 820门基础传承
+  aliases: []
+  description: 断东河一脉的基础修炼方法和知识。
 
 events:
-  - id: "断东河一脉的传承争夺战"
-    type: Event
-    name: 断东河一脉的传承争夺战
-    description: 各大势力为获得断东河一脉的传承展开激烈的竞争。
-    timeline:
-      - 时间点: 竞争进行中
-        事件描述: 候选者们纷纷陨落，罗峰成为最终的传承者。
-
-dialogues:
-  - id: "东帝对碧血尊者的死亡表示愤怒"
-    type: Dialogue
-    participants: ["东帝"]
-    content: "哼！"隐隐散发着青光的东帝脸色大变，不由怒哼一声。他盯着不远处倒在一片树叶上的碧血尊者尸体，脸色难看，低沉道：“人类银河领主罗峰？”
-```
+- id: "断东河一脉的传承争夺战"
+  type: Event
+  name: 断东河一脉的传承争夺战
+  description: 各大势力为获得断东河一脉的传承展开激烈的竞争。
+  timeline:
+  - 时间点: 竞争进行中
+    事件描述: 候选者们纷纷陨落，罗峰成为最终的传承者。

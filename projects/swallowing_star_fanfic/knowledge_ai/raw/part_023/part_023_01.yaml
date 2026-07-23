@@ -1,146 +1,142 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: LuoFeng
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      恒星级二阶精神念师，拥有两个恒星级九阶的奴仆敖骨和铁南河。正在准备参加宇宙见习佣兵考核。
-    attributes:
-      - 实力: 恒星级二阶精神念师
-      - 能力: 未知
-      - 关系: 父亲（罗海）
-      - 兴趣爱好: 保护家人和保镖，完成见习佣兵考核
+- id: LuoFeng
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    恒星级二阶精神念师，拥有两个恒星级九阶的奴仆敖骨和铁南河。正在准备参加宇宙见习佣兵考核。
+  attributes:
+  - 实力: 恒星级二阶精神念师
+  - 能力: 未知
+  - 关系: 父亲（罗海）
+  - 兴趣爱好: 保护家人和保镖，完成见习佣兵考核
 
-  - id: Hong
-    type: Character
-    name: 洪
-    aliases: []
-    description: >
-      队伍成员之一。
-    attributes:
-      - 实力: 恒星级二阶武者（推测）
-      - 关系: 罗峰的朋友或同伴
+- id: Hong
+  type: Character
+  name: 洪
+  aliases: []
+  description: >
+    队伍成员之一。
+  attributes:
+  - 实力: 恒星级二阶武者（推测）
+  - 关系: 罗峰的朋友或同伴
 
-  - id: LeiShen
-    type: Character
-    name: 雷神
-    aliases: []
-    description: >
-      队伍成员之一。
-    attributes:
-      - 实力: 恒星级一阶武者（推测）
-      - 关系: 罗峰的朋友或同伴
+- id: LeiShen
+  type: Character
+  name: 雷神
+  aliases: []
+  description: >
+    队伍成员之一。
+  attributes:
+  - 实力: 恒星级一阶武者（推测）
+  - 关系: 罗峰的朋友或同伴
 
-  - id: AoGu
-    type: Character
-    name: 敖骨
-    aliases: []
-    description: >
-      身体精瘦，恒星级九阶精神念师。罗峰的保镖之一。
-    attributes:
-      - 实力: 恒星级九阶精神念师
-      - 关系: 罗峰的奴仆
+- id: AoGu
+  type: Character
+  name: 敖骨
+  aliases: []
+  description: >
+    身体精瘦，恒星级九阶精神念师。罗峰的保镖之一。
+  attributes:
+  - 实力: 恒星级九阶精神念师
+  - 关系: 罗峰的奴仆
 
-  - id: TieNanHe
-    type: Character
-    name: 铁南河
-    aliases: []
-    description: >
-      身体精壮，额头有三片鳞片。恒星级九阶武者。罗峰的保镖之一。
-    attributes:
-      - 实力: 恒星级九阶武者
-      - 关系: 罗峰的奴仆
+- id: TieNanHe
+  type: Character
+  name: 铁南河
+  aliases: []
+  description: >
+    身体精壮，额头有三片鳞片。恒星级九阶武者。罗峰的保镖之一。
+  attributes:
+  - 实力: 恒星级九阶武者
+  - 关系: 罗峰的奴仆
 
-  - id: BaiLanXing
-    type: Location
-    name: 白兰星
-    aliases: []
-    description: >
-      罗峰等人第一次办理冒险者身份的地方。
+- id: BaiLanXing
+  type: Location
+  name: 白兰星
+  aliases: []
+  description: >
+    罗峰等人第一次办理冒险者身份的地方。
 
-  - id: QiuLongXing
-    type: Location
-    name: 虬龙星
-    aliases: []
-    description: >
-      办理宇宙见习佣兵考核注册的星球，宇宙佣兵联盟驻地在此。
-    
-  - id: CangLanXing
-    type: Location
-    name: 沧澜星
-    aliases: []
-    description: >
-      宇宙见习佣兵考核具体任务执行地点。
+- id: QiuLongXing
+  type: Location
+  name: 虬龙星
+  aliases: []
+  description: >
+    办理宇宙见习佣兵考核注册的星球，宇宙佣兵联盟驻地在此。
+
+- id: CangLanXing
+  type: Location
+  name: 沧澜星
+  aliases: []
+  description: >
+    宇宙见习佣兵考核具体任务执行地点。
 
 organizations:
-  - id: UniverseMercenaryUnion
-    type: Organization
-    name: 宇宙佣兵联盟
-    aliases: []
-    description: >
-      负责办理冒险者身份及宇宙见习佣兵考核的组织。
-    
+- id: UniverseMercenaryUnion
+  type: Organization
+  name: 宇宙佣兵联盟
+  aliases: []
+  description: >
+    负责办理冒险者身份及宇宙见习佣兵考核的组织。
+
 abilities:
-  - id: SpiritualMentalist
-    type: Ability
-    name: 精神念师
-    aliases: [精神力]
-    description: >
-      使用精神力进行攻击或防御的能力。
+- id: SpiritualMentalist
+  type: Ability
+  name: 精神念师
+  aliases: [ 精神力 ]
+  description: >
+    使用精神力进行攻击或防御的能力。
 
 items:
-  - id: AdventureCard
-    type: Item
-    name: 冒险卡
-    aliases: []
-    description: >
-      宇宙佣兵联盟发放的用于身份注册和考核任务执行的卡片。
-  
+- id: AdventureCard
+  type: Item
+  name: 冒险卡
+  aliases: []
+  description: >
+    宇宙佣兵联盟发放的用于身份注册和考核任务执行的卡片。
+
 relationships:
-  - source_id: LuoFeng
-    target_id: Hong
-    type: 友人
-    description: 罗峰的朋友或同伴
+- source_id: LuoFeng
+  target_id: Hong
+  type: 友人
+  description: 罗峰的朋友或同伴
 
-  - source_id: LuoFeng
-    target_id: LeiShen
-    type: 友人
-    description: 罗峰的朋友或同伴
+- source_id: LuoFeng
+  target_id: LeiShen
+  type: 友人
+  description: 罗峰的朋友或同伴
 
-  - source_id: LuoFeng
-    target_id: AoGu
-    type: 主仆关系
-    description: 罗峰的奴仆，恒星级九阶精神念师。
+- source_id: LuoFeng
+  target_id: AoGu
+  type: 主仆关系
+  description: 罗峰的奴仆，恒星级九阶精神念师。
 
-  - source_id: LuoFeng
-    target_id: TieNanHe
-    type: 主仆关系
-    description: 罗峰的奴仆，恒星级九阶武者。
-  
+- source_id: LuoFeng
+  target_id: TieNanHe
+  type: 主仆关系
+  description: 罗峰的奴仆，恒星级九阶武者。
+
 dialogues:
-  - speaker_id: LuoFeng
-    listener_id: Hai (son)
-    dialogue: "在忙呢，来，亲爸爸一下。"
-    
-  - speaker_id: LuoFeng
-    listener_id: LeiShen
-    dialogue: "别丢失了，补办很麻烦的。"
+- speaker_id: LuoFeng
+  listener_id: Hai (son)
+  dialogue: "在忙呢，来，亲爸爸一下。"
+
+- speaker_id: LuoFeng
+  listener_id: LeiShen
+  dialogue: "别丢失了，补办很麻烦的。"
 
 timeline:
-  - event_name: 办理冒险者身份
-    date: 在白兰星完成
+- event_name: 办理冒险者身份
+  date: 在白兰星完成
 
-  - event_name: 宇宙见习佣兵考核注册
-    date: 在虬龙星完成
-  
+- event_name: 宇宙见习佣兵考核注册
+  date: 在虬龙星完成
+
 mysteries:
-  - id: CangLanXingJieZhuShiJie
-    description: >
-      沧澜星的界主世界内部环境会不断变化，增加任务难度。
-```
-
-注意：根据原文描述提取出重要信息并分类到合适类型。
+- id: CangLanXingJieZhuShiJie
+  description: >
+    沧澜星的界主世界内部环境会不断变化，增加任务难度。

@@ -1,4 +1,4 @@
-```yaml
+
 source:
   id: text
 
@@ -93,4 +93,3 @@ mysteries:
   - id: 血统进化剂的获得方式
     type: 伏笔
     description: 冥昱提到血统进化剂是限制级物品，普通渠道难以获得。
-```

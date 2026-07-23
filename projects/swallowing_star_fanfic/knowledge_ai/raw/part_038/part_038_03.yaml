@@ -1,117 +1,116 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 罗峰
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙公司的核心天才之一。
-    attributes:
-      实力: 宇宙国主层次
-      性格: 敏捷机智
+- id: 罗峰
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙公司的核心天才之一。
+  attributes:
+    实力: 宇宙国主层次
+    性格: 敏捷机智
 
-  - id: 萨金
-    type: character
-    name: 萨金
-    aliases: []
-    description: 炎婆罗族火龙部的小天才。
-    attributes:
-      实力: 宇宙国主层次
-      性格: 勇猛直接
+- id: 萨金
+  type: character
+  name: 萨金
+  aliases: []
+  description: 炎婆罗族火龙部的小天才。
+  attributes:
+    实力: 宇宙国主层次
+    性格: 勇猛直接
 
-  - id: 炎婆罗
-    type: character
-    name: 炎婆罗
-    aliases: []
-    description: 炎婆罗族的创始者，炎晶宇宙国的国主。
-    attributes:
-      实力: 不朽级别
-      性格: 自信
+- id: 炎婆罗
+  type: character
+  name: 炎婆罗
+  aliases: []
+  description: 炎婆罗族的创始者，炎晶宇宙国的国主。
+  attributes:
+    实力: 不朽级别
+    性格: 自信
 
-  - id: 漶牙
-    type: character
-    name:漭牙
-    aliases: []
-    description: 虚拟宇宙公司的超级存在。
-    attributes:
-      实力: 不朽级别
-      性格: 好奇且乐观
+- id: 漶牙
+  type: character
+  name: 漭牙
+  aliases: []
+  description: 虚拟宇宙公司的超级存在。
+  attributes:
+    实力: 不朽级别
+    性格: 好奇且乐观
 
 items:
-  - id: 九炼拳
-    type: ability
-    name: 九炼拳
-    description: 黑洞衍变中的秘法，威力强大。
+- id: 九炼拳
+  type: ability
+  name: 九炼拳
+  description: 黑洞衍变中的秘法，威力强大。
 
-  - id: 匕首
-    type: item
-    name: 匕首
-    description: 炎婆罗拥有的珍贵物品。
+- id: 匕首
+  type: item
+  name: 匕首
+  description: 炎婆罗拥有的珍贵物品。
 
-  - id: 金角界石
-    type: item
-    name: 金角界石
-    description: 只有金角巨兽才能孕育的稀有材料，用于制作兵器主材。
+- id: 金角界石
+  type: item
+  name: 金角界石
+  description: 只有金角巨兽才能孕育的稀有材料，用于制作兵器主材。
 
-  - id: 紫蓝雷璃
-    type: item
-    name: 紫蓝雷璃
-    description: 来自虫族疆域范围内的雷神殿秘境，重要珍贵材料。
+- id: 紫蓝雷璃
+  type: item
+  name: 紫蓝雷璃
+  description: 来自虫族疆域范围内的雷神殿秘境，重要珍贵材料。
 
 locations:
-  - id: 雨相山
-    type: location
-    name: 雨相山
-    aliases: []
-    description: 虚拟宇宙公司核心天才们的聚集地。
-  
-  - id: 雷霆岛
-    type: location
-    name: 雷霆岛
-    aliases: []
-    description: 虚拟宇宙公司的伟大不朽、超级强者们聚集地。
+- id: 雨相山
+  type: location
+  name: 雨相山
+  aliases: []
+  description: 虚拟宇宙公司核心天才们的聚集地。
+
+- id: 雷霆岛
+  type: location
+  name: 雷霆岛
+  aliases: []
+  description: 虚拟宇宙公司的伟大不朽、超级强者们聚集地。
 
 organizations:
-  - id: 虚拟宇宙公司
-    type: organization
-    name: 虚拟宇宙公司
-    aliases: []
+- id: 虚拟宇宙公司
+  type: organization
+  name: 虚拟宇宙公司
+  aliases: []
 
 dialogues:
-  - speaker: 漶牙
-    dialogue: "哈哈，炎婆罗，看下面，那擂台上两个小家伙有一个是你的后代啊。"
-  
-  - speaker: 炎婆罗
-    dialogue: "他叫萨金，是火龙部的一位小天才。"
+- speaker: 漶牙
+  dialogue: "哈哈，炎婆罗，看下面，那擂台上两个小家伙有一个是你的后代啊。"
 
-  - speaker: 漶牙
-    dialogue: "炎婆罗，你说下面两个小家伙谁会获胜？"
+- speaker: 炎婆罗
+  dialogue: "他叫萨金，是火龙部的一位小天才。"
 
-  - speaker: 炎婆罗
-    dialogue: "当然是萨金！"
+- speaker: 漶牙
+  dialogue: "炎婆罗，你说下面两个小家伙谁会获胜？"
 
-  - speaker: 漶牙
-    dialogue: "我赌他对手获胜，如果我赢了，你就将那把匕首给我，怎么样？"
+- speaker: 炎婆罗
+  dialogue: "当然是萨金！"
 
-  - speaker: 炎婆罗
-    dialogue: "做梦！"
+- speaker: 漶牙
+  dialogue: "我赌他对手获胜，如果我赢了，你就将那把匕首给我，怎么样？"
 
-  - speaker: 漶牙
-    dialogue: "不要你的匕首了，赢了，你将那颗‘金角界石’给我。"
-  
-  - speaker: 炎婆罗
-    dialogue: "你要一颗金角界石也可以，如果我赢了，你将那块‘紫蓝雷璃’给我。"
+- speaker: 炎婆罗
+  dialogue: "做梦！"
 
-  - speaker: 漶牙
-    dialogue: "行！"
+- speaker: 漶牙
+  dialogue: "不要你的匕首了，赢了，你将那颗‘金角界石’给我。"
+
+- speaker: 炎婆罗
+  dialogue: "你要一颗金角界石也可以，如果我赢了，你将那块‘紫蓝雷璃’给我。"
+
+- speaker: 漶牙
+  dialogue: "行！"
 
 timeline:
   events:
 
+
 mysteries:
-  - id: 炎婆罗与漭牙的赌注
-    type: mystery
-    description: 炎婆罗与漭牙对于擂台上两个小天才的胜负进行了一场对赌，赌注分别是金角界石和紫蓝雷璃。
-```
+- id: 炎婆罗与漭牙的赌注
+  type: mystery
+  description: 炎婆罗与漭牙对于擂台上两个小天才的胜负进行了一场对赌，赌注分别是金角界石和紫蓝雷璃。

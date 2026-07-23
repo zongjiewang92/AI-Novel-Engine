@@ -1,18 +1,17 @@
-```yaml
 source:
   id: 第1219章紫月圣地
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      在冰冷水域中穿行，成功抵达焰水湖。对宇宙舟的危险地有详细的了解，并且有信心能够处理这些危险。
-    attributes:
-      实力: 宇宙之主
-      目标: 报复五浑之主
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    在冰冷水域中穿行，成功抵达焰水湖。对宇宙舟的危险地有详细的了解，并且有信心能够处理这些危险。
+  attributes:
+    实力: 宇宙之主
+    目标: 报复五浑之主
 
-  - id: 桀梵子
-    type: Character
-    name:
+- id: 桀梵子
+  type: Character
+  name:

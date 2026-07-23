@@ -1,54 +1,51 @@
-```yaml
 source:
   id: 罗峰归来（终章）
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙中的一员，兽神传承者，得到坐山客的强大力量和技巧传承。
-    attributes:
-      实力: 封王极限强者
-      特殊能力: 星辰图、将甲辅助、将魂辅助、弑吴羽翼、空间法则瞬移
-      宝物: 塔珠、两件低等至宝
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙中的一员，兽神传承者，得到坐山客的强大力量和技巧传承。
+  attributes:
+    实力: 封王极限强者
+    特殊能力: 星辰图、将甲辅助、将魂辅助、弑吴羽翼、空间法则瞬移
+    宝物: 塔珠、两件低等至宝
 
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 罗峰的老师，宇宙中的强者之一。
-    attributes:
-      实力: 封王极限强者以上
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 罗峰的老师，宇宙中的强者之一。
+  attributes:
+    实力: 封王极限强者以上
 
-  - id: 坐山客
-    type: Character
-    name: 坐山客
-    aliases: []
-    description: 给罗峰留下传承的异族大能者。
-    attributes:
-      实力: 宇宙最强者之一
+- id: 坐山客
+  type: Character
+  name: 坐山客
+  aliases: []
+  description: 给罗峰留下传承的异族大能者。
+  attributes:
+    实力: 宇宙最强者之一
 
 relationships:
-  - 主体: 罗峰
-    关系类型: 老师
-    对象: 混沌城主
+- 主体: 罗峰
+  关系类型: 老师
+  对象: 混沌城主
 
 events:
-  - 名称: 生死传承结束
-    时间: 6000多年后
-    描述: 经过生死传承，罗峰的实力和能力得到巨大提升。
+- 名称: 生死传承结束
+  时间: 6000多年后
+  描述: 经过生死传承，罗峰的实力和能力得到巨大提升。
 
 dialogues:
-  - 主体: 罗峰
-    内容: "速来见我！"
-    对象: 混沌城主
+- 主体: 罗峰
+  内容: "速来见我！"
+  对象: 混沌城主
 
 timeline:
-  - 时间点: 虚拟宇宙连接时
-    描述: 发现大量邮件，包括家人和朋友发来的信息。
+- 时间点: 虚拟宇宙连接时
+  描述: 发现大量邮件，包括家人和朋友发来的信息。
 
 mysteries:
-  - 未解决的信息: 罗峰在返回现实世界前需要处理的所有事项。
-```
-此YAML格式文档根据提供的文本内容进行了提炼与组织。
+- 未解决的信息: 罗峰在返回现实世界前需要处理的所有事项。

@@ -1,94 +1,92 @@
-```yaml
 source:
   id: "634"
 
 entities:
-  - id: "幻灵王"
-    type: Character
-    name: 幻灵王
-    aliases: []
-    description: 魑魅族的伟大存在，拥有庞大的权势和力量。
-    attributes:
-      实力: 封王级不朽神灵
-      性格: 淡定从容，威严
+- id: "幻灵王"
+  type: Character
+  name: 幻灵王
+  aliases: []
+  description: 魑魅族的伟大存在，拥有庞大的权势和力量。
+  attributes:
+    实力: 封王级不朽神灵
+    性格: 淡定从容，威严
 
-  - id: "洪"
-    type: Character
-    name: 洪
-    aliases: []
-    description: 青青的追求者，拥有坚定的决心和勇气。
-    attributes:
-      实力: 界主
-      性格: 勇敢无畏，有决断力
+- id: "洪"
+  type: Character
+  name: 洪
+  aliases: []
+  description: 青青的追求者，拥有坚定的决心和勇气。
+  attributes:
+    实力: 界主
+    性格: 勇敢无畏，有决断力
 
-  - id: "罗峰"
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 洪的弟弟，支持洪追求青青。
-    attributes:
-      实力: 不详
-      性格: 关心兄弟
+- id: "罗峰"
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 洪的弟弟，支持洪追求青青。
+  attributes:
+    实力: 不详
+    性格: 关心兄弟
 
-  - id: "布舍喇"
-    type: Character
-    name: 布舍喇
-    aliases: ["黑色羽翼男子"]
-    description: 幻灵王的徒弟，负责执行幻灵王命令。
-    attributes:
-      实力: 不详
-      性格: 敬畏老师
+- id: "布舍喇"
+  type: Character
+  name: 布舍喇
+  aliases: [ "黑色羽翼男子" ]
+  description: 幻灵王的徒弟，负责执行幻灵王命令。
+  attributes:
+    实力: 不详
+    性格: 敬畏老师
 
-  - id: "青"
-    type: Character
-    name: 青
-    aliases: ["青殿下", "齐耳短发女子"]
-    description: 幻灵王的徒弟，洪追求的对象。
-    attributes:
-      实力: 不详
-      性格: 决心坚定
+- id: "青"
+  type: Character
+  name: 青
+  aliases: [ "青殿下", "齐耳短发女子" ]
+  description: 幻灵王的徒弟，洪追求的对象。
+  attributes:
+    实力: 不详
+    性格: 决心坚定
 
 relationships:
-  - id: 洪与幻灵王
-    type: 主仆关系
-    description: 洪是青青追求者，受到幻灵王决定的影响。
+- id: 洪与幻灵王
+  type: 主仆关系
+  description: 洪是青青追求者，受到幻灵王决定的影响。
 
-  - id: 罗峰与洪
-    type: 兄弟关系
-    description: 关系亲密，罗峰支持洪的决定。
+- id: 罗峰与洪
+  type: 兄弟关系
+  description: 关系亲密，罗峰支持洪的决定。
 
-  - id: 布舍喇与幻灵王
-    type: 师徒关系
-    description: 敬畏老师，执行命令。
+- id: 布舍喇与幻灵王
+  type: 师徒关系
+  description: 敬畏老师，执行命令。
 
 events:
-  - id: 洪请求见幻灵王
-    type: 对话事件
-    description: 洪向幻灵王表达对青青的追求，并接受赌命挑战。
-    timeline: 第634章
+- id: 洪请求见幻灵王
+  type: 对话事件
+  description: 洪向幻灵王表达对青青的追求，并接受赌命挑战。
+  timeline: 第634章
 
 dialogues:
-  - speaker: 幻灵王
-    content: "你也的确有胆子，敢来见我。你就不怕我一声令下，让人在现实中杀死你？"
-    context: 对洪表示质疑和警告。
+- speaker: 幻灵王
+  content: "你也的确有胆子，敢来见我。你就不怕我一声令下，让人在现实中杀死你？"
+  context: 对洪表示质疑和警告。
 
-  - speaker: 洪
-    content: "怕！可是有些事情不能因为怕就退却……青青真诚待我，我又怎能龟缩怕死，不管怎样，我都会竭尽全力想尽方法……即使是身死魂灭，我也不会后悔。"
-    context: 表达自己的决心和勇气。
+- speaker: 洪
+  content: "怕！可是有些事情不能因为怕就退却……青青真诚待我，我又怎能龟缩怕死，不管怎样，我都会竭尽全力想尽方法……即使是身死魂灭，我也不会后悔。"
+  context: 表达自己的决心和勇气。
 
-  - speaker: 幻灵王
-    content: "洪，我给你一次机会，赌命的机会！你选择第一条可以拥有从现在到界主巅峰时期的修炼时间；选择第二条就是马上去闯十八爱欲幻境。只要你失败，那么，我一定会下令让宇宙佣兵联盟派出高手直接击杀你。"
-    context: 提出挑战和条件。
+- speaker: 幻灵王
+  content: "洪，我给你一次机会，赌命的机会！你选择第一条可以拥有从现在到界主巅峰时期的修炼时间；选择第二条就是马上去闯十八爱欲幻境。只要你失败，那么，我一定会下令让宇宙佣兵联盟派出高手直接击杀你。"
+  context: 提出挑战和条件。
 
-  - speaker: 洪
-    content: "我选择第二条。闯幻灵王你布置的十八爱欲幻境，假设我失败……不用大人你派遣人来追杀我，我会直接前往某个宇宙佣兵联盟驻地，在驻地人员面前，我会自杀，并且进行虚拟宇宙网络同步传播给幻灵王大人。"
-    context: 接受挑战并表示决心。
+- speaker: 洪
+  content: "我选择第二条。闯幻灵王你布置的十八爱欲幻境，假设我失败……不用大人你派遣人来追杀我，我会直接前往某个宇宙佣兵联盟驻地，在驻地人员面前，我会自杀，并且进行虚拟宇宙网络同步传播给幻灵王大人。"
+  context: 接受挑战并表示决心。
 
 mysteries:
-  - question: 洪能否成功闯过十八爱欲幻境？
-    answer: 尚未揭晓
+- question: 洪能否成功闯过十八爱欲幻境？
+  answer: 尚未揭晓
 
 timeline:
-  - event: 幻灵王提出赌命
-    time: 第634章
-```
+- event: 幻灵王提出赌命
+  time: 第634章

@@ -1,63 +1,61 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 主角，拥有不朽神灵实力。
-    attributes:
-      实力: 不朽神灵
-      性格: 冷静, 聪明
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 主角，拥有不朽神灵实力。
+  attributes:
+    实力: 不朽神灵
+    性格: 冷静, 聪明
 
-  - id: 重箭王
-    type: Character
-    name: 重箭王
-    aliases: [管家装束的重箭王]
-    description: 罗峰的属下，不朽神灵。
-    attributes:
-      实力: 不朽神灵
-      性格: 敬畏, 忠诚
+- id: 重箭王
+  type: Character
+  name: 重箭王
+  aliases: [ 管家装束的重箭王 ]
+  description: 罗峰的属下，不朽神灵。
+  attributes:
+    实力: 不朽神灵
+    性格: 敬畏, 忠诚
 
-  - id: 星辰塔
-    type: Location
-    name: 星辰塔
-    aliases: []
-    description: 域外战场最危险的区域之一，聚集大量封王不朽。
-    attributes:
-      危险级别: 最高
-      封王数量: 数十万计
+- id: 星辰塔
+  type: Location
+  name: 星辰塔
+  aliases: []
+  description: 域外战场最危险的区域之一，聚集大量封王不朽。
+  attributes:
+    危险级别: 最高
+    封王数量: 数十万计
 
-  - id: 焱祭大陆
-    type: Location
-    name: 焱祭大陆
-    aliases: []
-    description: 域外战场的危险区域，但比星辰塔低一个层次。
-    attributes:
-      危险级别: 高级
+- id: 焱祭大陆
+  type: Location
+  name: 焱祭大陆
+  aliases: []
+  description: 域外战场的危险区域，但比星辰塔低一个层次。
+  attributes:
+    危险级别: 高级
 
 relationships:
-  - 主体: 罗峰
-    客体: 重箭王
-    关系类型: 上下级关系
+- 主体: 罗峰
+  客体: 重箭王
+  关系类型: 上下级关系
 
 dialogues:
-  - 主体: 重箭王
-    对象: 罗峰
-    内容: "主人，你想去星辰塔？这，主人不是打算要离开域外战场么，怎么会去一趟星辰塔？"
-  - 主体: 罗峰
-    对象: 重箭王
-    内容: "我军功早就达到要求，可既然来一次域外战场，那么域外战场最危险级别区域不去逛逛，难道不遗憾么？论危险级别，星辰塔属于最危险之地。"
-  - 主体: 罗峰
-    对象: 重箭王
-    内容: "这是你恢复实力所需的宝物。"
+- 主体: 重箭王
+  对象: 罗峰
+  内容: "主人，你想去星辰塔？这，主人不是打算要离开域外战场么，怎么会去一趟星辰塔？"
+- 主体: 罗峰
+  对象: 重箭王
+  内容: "我军功早就达到要求，可既然来一次域外战场，那么域外战场最危险级别区域不去逛逛，难道不遗憾么？论危险级别，星辰塔属于最危险之地。"
+- 主体: 罗峰
+  对象: 重箭王
+  内容: "这是你恢复实力所需的宝物。"
 
 timeline:
-  - 时间点: 过去三个月
-    事件描述: 重箭王恢复了完整实力，达到最巅峰状态。
+- 时间点: 过去三个月
+  事件描述: 重箭王恢复了完整实力，达到最巅峰状态。
 
 mysteries:
-  - 内容: 星辰塔为何能吸引大量封王不朽聚集？
-```
+- 内容: 星辰塔为何能吸引大量封王不朽聚集？

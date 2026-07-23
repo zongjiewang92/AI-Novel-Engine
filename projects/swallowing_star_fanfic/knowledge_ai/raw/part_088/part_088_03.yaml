@@ -1,106 +1,104 @@
-```yaml
 source:
   id: 第1332章-第1333章
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: |
-      新人类族群的领袖，实力强大。
-    attributes:
-      - 实力: 非常强
-      - 性格: 冷静机智
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: |
+    新人类族群的领袖，实力强大。
+  attributes:
+  - 实力: 非常强
+  - 性格: 冷静机智
 
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: |
-      虚拟宇宙的主宰之一，实力强大。
-    attributes:
-      - 实力: 非常强
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: |
+    虚拟宇宙的主宰之一，实力强大。
+  attributes:
+  - 实力: 非常强
 
-  - id: 彭工之主
-    type: Character
-    name: 彭工之主
-    aliases: []
-    description: |
-      自由联盟的一员，对祖神教态度不满。
-    attributes:
-      - 性格: 不满和谨慎
+- id: 彭工之主
+  type: Character
+  name: 彭工之主
+  aliases: []
+  description: |
+    自由联盟的一员，对祖神教态度不满。
+  attributes:
+  - 性格: 不满和谨慎
 
-  - id: 光行之主
-    type: Character
-    name: 光行之主
-    aliases: []
-    description: |
-      自由联盟的新盟主，代表自由联盟的决策者之一。
-    attributes:
-      - 实力: 强大
-      - 性格: 冷静
+- id: 光行之主
+  type: Character
+  name: 光行之主
+  aliases: []
+  description: |
+    自由联盟的新盟主，代表自由联盟的决策者之一。
+  attributes:
+  - 实力: 强大
+  - 性格: 冷静
 
-  - id: 始化岛主
-    type: Character
-    name: 始化岛主
-    aliases: []
-    description: |
-      自由联盟的前任盟主，对自由联盟内决策感到不满。
-    attributes:
-      - 性格: 愤怒和困惑
+- id: 始化岛主
+  type: Character
+  name: 始化岛主
+  aliases: []
+  description: |
+    自由联盟的前任盟主，对自由联盟内决策感到不满。
+  attributes:
+  - 性格: 愤怒和困惑
 
-  - id: 联军阵营
-    type: Organization
-    name: 联军阵营
-    aliases: []
-    description: |
-      与人类族群对抗的组织。
+- id: 联军阵营
+  type: Organization
+  name: 联军阵营
+  aliases: []
+  description: |
+    与人类族群对抗的组织。
 
-  - id: 自由联盟
-    type: Organization
-    name: 自由联盟
-    aliases: []
-    description: |
-      新成立的宇宙之主组成的联盟，意图寻找新的盟友。
-    attributes:
-      - 成员数: 约400名
+- id: 自由联盟
+  type: Organization
+  name: 自由联盟
+  aliases: []
+  description: |
+    新成立的宇宙之主组成的联盟，意图寻找新的盟友。
+  attributes:
+  - 成员数: 约400名
 
-  - id: 祖神教
-    type: Organization
-    name: 祖神教
-    aliases: []
-    description: |
-      新加入人类阵营的神秘组织。
+- id: 祖神教
+  type: Organization
+  name: 祖神教
+  aliases: []
+  description: |
+    新加入人类阵营的神秘组织。
 
 relationships:
 
 events:
-  - id: 自由联盟观看传承讯息
-    type: Event
-    description: "自由联盟的所有宇宙之主都在仔细研究人类族群提供的传承讯息。"
+- id: 自由联盟观看传承讯息
+  type: Event
+  description: "自由联盟的所有宇宙之主都在仔细研究人类族群提供的传承讯息。"
 
-  - id: 光行之主代表决策
-    type: Event
-    description: "光行之主被自由联盟的大部分成员一致推举为新的盟主和决策者，代表所有宇宙之主向人类提出进一步的要求。"
+- id: 光行之主代表决策
+  type: Event
+  description: "光行之主被自由联盟的大部分成员一致推举为新的盟主和决策者，代表所有宇宙之主向人类提出进一步的要求。"
 
 dialogues:
-  - speaker1: 罗峰
-    dialogue: 这倒算不得错。
-    context: 对祖神教态度不满
+- speaker1: 罗峰
+  dialogue: 这倒算不得错。
+  context: 对祖神教态度不满
 
-  - speaker1: 彭工之主
-    dialogue: 拒绝？哼，也不看看进来的都是谁，九幽之主、落蚕之主、烽天之主……对，这一个个是厉害。可是，这些都是分身！来到星辰塔的，都是分身。
-    context: 对自由联盟不满
+- speaker1: 彭工之主
+  dialogue: 拒绝？哼，也不看看进来的都是谁，九幽之主、落蚕之主、烽天之主……对，这一个个是厉害。可是，这些都是分身！来到星辰塔的，都是分身。
+  context: 对自由联盟不满
 
-  - speaker1: 光行之主
-    dialogue: 现在，我自由联盟所有宇宙之主全部看完传承讯息，诸位，都说说看……这传承讯息，感觉如何？
-    context: 向其他成员询问对传承讯息的看法
+- speaker1: 光行之主
+  dialogue: 现在，我自由联盟所有宇宙之主全部看完传承讯息，诸位，都说说看……这传承讯息，感觉如何？
+  context: 向其他成员询问对传承讯息的看法
 
 timeline:
 
 mysteries:
-  - id: 自由联盟的真实意图
-    type: Mystery
-    description: "自由联盟的真实想法和下一步行动是什么？"
-```
+- id: 自由联盟的真实意图
+  type: Mystery
+  description: "自由联盟的真实想法和下一步行动是什么？"

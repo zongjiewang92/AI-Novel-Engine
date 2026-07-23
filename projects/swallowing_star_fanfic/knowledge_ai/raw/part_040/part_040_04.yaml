@@ -1,91 +1,89 @@
-```yaml
 source:
   id: 第596章三人（第一更）
 
 entities:
-  - id: 洪
-    type: Character
-    name: 洪
-    aliases: []
-    description: 虚拟宇宙公司太初秘境的成员之一，罗峰和雷神的大哥。
-    attributes:
-      实力: 巨斧斗武场的一员
-      老师: 时光界主洛
-      状态: 正在潜修
+- id: 洪
+  type: Character
+  name: 洪
+  aliases: []
+  description: 虚拟宇宙公司太初秘境的成员之一，罗峰和雷神的大哥。
+  attributes:
+    实力: 巨斧斗武场的一员
+    老师: 时光界主洛
+    状态: 正在潜修
 
-  - id: 雷神
-    type: Character
-    name: 雷神
-    aliases: []
-    description: 罗峰和洪的二哥，主要活动在银河系地球。
-    attributes:
-      实力: 巨斧斗武场的一员
-      老师: 时光界主洛
+- id: 雷神
+  type: Character
+  name: 雷神
+  aliases: []
+  description: 罗峰和洪的二哥，主要活动在银河系地球。
+  attributes:
+    实力: 巨斧斗武场的一员
+    老师: 时光界主洛
 
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 太初秘境资格战排名第二，虚拟宇宙公司核心层成员。
-    attributes:
-      实力: 魔音神将传承获得者
-      成绩: 36胜1负0平
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 太初秘境资格战排名第二，虚拟宇宙公司核心层成员。
+  attributes:
+    实力: 魔音神将传承获得者
+    成绩: 36胜1负0平
 
-  - id: 虚拟宇宙公司
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 提供虚拟宇宙平台的公司，拥有太初秘境和原始秘境。
+- id: 虚拟宇宙公司
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 提供虚拟宇宙平台的公司，拥有太初秘境和原始秘境。
 
-  - id: 巨斧斗武场
-    type: Organization
-    name: 巨斧斗武场
-    aliases: []
-    description: 宇宙中最强大的五大势力之一。
-    attributes:
-      成员: 洪
+- id: 巨斧斗武场
+  type: Organization
+  name: 巨斧斗武场
+  aliases: []
+  description: 宇宙中最强大的五大势力之一。
+  attributes:
+    成员: 洪
 
-  - id: 时光界主洛
-    type: Character
-    name: 时光界主洛
-    aliases: []
-    description: 洪的老师，巨斧斗武场的一员。
+- id: 时光界主洛
+  type: Character
+  name: 时光界主洛
+  aliases: []
+  description: 洪的老师，巨斧斗武场的一员。
 
 relationships:
-  - 主体: 罗峰
-    关系类型: 兄弟关系
-    客体: 雷神
+- 主体: 罗峰
+  关系类型: 兄弟关系
+  客体: 雷神
 
-  - 主体: 罗峰
-    关系类型: 兄弟关系
-    客体: 洪
+- 主体: 罗峰
+  关系类型: 兄弟关系
+  客体: 洪
 
 events:
-  - id: 太初秘境资格战结束
-    type: Event
-    description: 太初秘境的内部资格战已经结束，罗峰取得了第二名的成绩。
-    timeline: 已经过去三天。
+- id: 太初秘境资格战结束
+  type: Event
+  description: 太初秘境的内部资格战已经结束，罗峰取得了第二名的成绩。
+  timeline: 已经过去三天。
 
 dialogues:
-  - 主体: 雷神
-    客体: 洪
-    内容: "大哥，我很久没看到你，也没看到老三了。"
-    场景描述: 在黑龙山岛屿九星湾的木制亭子下，洪和雷神正在品茶。
+- 主体: 雷神
+  客体: 洪
+  内容: "大哥，我很久没看到你，也没看到老三了。"
+  场景描述: 在黑龙山岛屿九星湾的木制亭子下，洪和雷神正在品茶。
 
-  - 主体: 雷神
-    客体: 洪
-    内容: "结束了，今天刚刚结束的。所以今天老三会有时间，我约好了，让老三还有大哥你都来。我们三兄弟好好聚聚！"
-    场景描述: 介绍罗峰会和洪一起聚会。
+- 主体: 雷神
+  客体: 洪
+  内容: "结束了，今天刚刚结束的。所以今天老三会有时间，我约好了，让老三还有大哥你都来。我们三兄弟好好聚聚！"
+  场景描述: 介绍罗峰会和洪一起聚会。
 
-  - 主体: 罗峰
-    客体: 洪、雷神
-    内容: "大哥、二哥，有些日子没见了！听说大哥你加入巨斧斗武场了？"
-    场景描述: 罗峰加入聚会时的问候。
+- 主体: 罗峰
+  客体: 洪、雷神
+  内容: "大哥、二哥，有些日子没见了！听说大哥你加入巨斧斗武场了？"
+  场景描述: 罗峰加入聚会时的问候。
 
 timeline:
-  - 大事件1: 太初秘境资格战结束。时间点：三天前。
-  - 大事件2: 雷神邀请洪和罗峰相聚，时间点：当下。
+- 大事件1: 太初秘境资格战结束。时间点：三天前。
+- 大事件2: 雷神邀请洪和罗峰相聚，时间点：当下。
 
 mysteries:
-  - 内容: 罗峰与克罗夫的实力比较未明确说明谁更强。
-```
+- 内容: 罗峰与克罗夫的实力比较未明确说明谁更强。

@@ -1,78 +1,76 @@
-```yaml
 source:
   id: 罗峰无尽冰原寻宝
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 地球人，拥有多个分身和强大的实力。
-    attributes:
-      - 实力强大
-      - 多个分身（地球人本尊、魔杀族分身、金角巨兽分身）
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 地球人，拥有多个分身和强大的实力。
+  attributes:
+  - 实力强大
+  - 多个分身（地球人本尊、魔杀族分身、金角巨兽分身）
 
-  - id: 星幻王
-    type: Character
-    name: 星幻王
-    aliases: []
-    description: 空间法则封王，拥有瞬移能力。
-    attributes:
-      - 温柔声音
-      - 演绎瞬移
+- id: 星幻王
+  type: Character
+  name: 星幻王
+  aliases: []
+  description: 空间法则封王，拥有瞬移能力。
+  attributes:
+  - 温柔声音
+  - 演绎瞬移
 
-  - id: 银翼王
-    type: Character
-    name: 银翼王
-    aliases: []
-    description: 空间法则封王，擅长飞行技巧。
-    attributes:
-      - 体内融合“弑吴羽翼”
-      - 拥有特殊飞行手段
+- id: 银翼王
+  type: Character
+  name: 银翼王
+  aliases: []
+  description: 空间法则封王，擅长飞行技巧。
+  attributes:
+  - 体内融合“弑吴羽翼”
+  - 拥有特殊飞行手段
 
-  - id: 黑甲青年
-    type: Character
-    name: 黑甲青年
-    aliases: []
-    description: 拿识族战士，已被罗峰击败。
-    attributes:
-      - 持有世界戒指和黑色金属板
+- id: 黑甲青年
+  type: Character
+  name: 黑甲青年
+  aliases: []
+  description: 拿识族战士，已被罗峰击败。
+  attributes:
+  - 持有世界戒指和黑色金属板
 
-  - id: 黑色金属板
-    type: Item
-    name: 黑色金属板
-    aliases: []
-    description: 可能是无名秘典的媒介物。
-    attributes:
-      - 巴掌大小，通体黑色，轻盈冰凉
-      - 唤起罗峰强烈的召唤感
+- id: 黑色金属板
+  type: Item
+  name: 黑色金属板
+  aliases: []
+  description: 可能是无名秘典的媒介物。
+  attributes:
+  - 巴掌大小，通体黑色，轻盈冰凉
+  - 唤起罗峰强烈的召唤感
 
-  - id: 无名秘典
-    type: Cultivation
-    name: 无名秘典
-    aliases: []
-    description: 可能是绝世武学或修炼法门。
-    attributes:
-      - 分为九劫
-      - 拥有独特的修炼体系，不受宇宙本源法则的限制
+- id: 无名秘典
+  type: Cultivation
+  name: 无名秘典
+  aliases: []
+  description: 可能是绝世武学或修炼法门。
+  attributes:
+  - 分为九劫
+  - 拥有独特的修炼体系，不受宇宙本源法则的限制
 
 relationships:
-  - 主角罗峰与星幻王和银翼王存在互动交流关系。
-  - 罗峰通过击败黑甲青年获得了黑色金属板。
+- 主角罗峰与星幻王和银翼王存在互动交流关系。
+- 罗峰通过击败黑甲青年获得了黑色金属板。
 
 events:
-  - 罗峰与星幻王交谈，并在无尽冰原上空寻找新的老巢。
-  - 黑衣罗峰（金角巨兽分身）和魔杀族分身研究从黑甲青年处获得的宝物。
-  - 通过念力渗透世界戒指，发现黑色金属板。
+- 罗峰与星幻王交谈，并在无尽冰原上空寻找新的老巢。
+- 黑衣罗峰（金角巨兽分身）和魔杀族分身研究从黑甲青年处获得的宝物。
+- 通过念力渗透世界戒指，发现黑色金属板。
 
-dialogues:
+dialogues: >
   - "星幻王，感谢你的帮助。"
     "我也没做什么，仅仅施展瞬移而已。能够亲眼看到银翼王这般在空间碎片飞行的绝学，也算是有了额外收获。"
 
 timeline:
-  - 罗峰和分身探索黑甲青年的世界戒指。
-  - 发现并研究黑色金属板。
+- 罗峰和分身探索黑甲青年的世界戒指。
+- 发现并研究黑色金属板。
 
 mysteries:
-  - 黑色金属板与无名秘典的关系及其完整度尚未完全揭晓。
-```
+- 黑色金属板与无名秘典的关系及其完整度尚未完全揭晓。

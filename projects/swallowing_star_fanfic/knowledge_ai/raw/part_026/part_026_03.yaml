@@ -1,72 +1,70 @@
-```yaml
 source:
   id: unknown
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙飞船控制室中的主角，对刀锋族表现出兴趣。
-    attributes:
-      实力: 宇宙级强者
-      关系: 拥有奴仆狄梵和百卡罗
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙飞船控制室中的主角，对刀锋族表现出兴趣。
+  attributes:
+    实力: 宇宙级强者
+    关系: 拥有奴仆狄梵和百卡罗
 
-  - id: 百卡罗
-    type: Character
-    name: 百卡罗
-    aliases: []
-    description: 刀锋族最强弟子，诺岚山麾下。
-    attributes:
-      实力: 宇宙级八阶
-      能力: 狂风领域, 坚毅意志
+- id: 百卡罗
+  type: Character
+  name: 百卡罗
+  aliases: []
+  description: 刀锋族最强弟子，诺岚山麾下。
+  attributes:
+    实力: 宇宙级八阶
+    能力: 狂风领域, 坚毅意志
 
-  - id: 恶魔巴巴塔
-    type: Character
-    name: 恶魔巴巴塔
-    aliases: [巴巴塔]
-    description: 罗峰的飞船控制系统，提供信息和建议。
-    attributes:
-      能力: 提供资料, 建议
+- id: 恶魔巴巴塔
+  type: Character
+  name: 恶魔巴巴塔
+  aliases: [ 巴巴塔 ]
+  description: 罗峰的飞船控制系统，提供信息和建议。
+  attributes:
+    能力: 提供资料, 建议
 
-  - id: 狄梵
-    type: Character
-    name: 狄梵
-    aliases: []
-    description: 宇宙级九阶精神念师, 罗峰的奴仆。
-    attributes:
-      实力: 宇宙级九阶
-      能力: 念力兵器使用
+- id: 狄梵
+  type: Character
+  name: 狄梵
+  aliases: []
+  description: 宇宙级九阶精神念师, 罗峰的奴仆。
+  attributes:
+    实力: 宇宙级九阶
+    能力: 念力兵器使用
 
-  - id: 刀锋族
-    type: Species
-    name: 刀锋族
-    aliases: []
-    description: 崇拜强者, 星球上有很多宇宙级和域主级别的强者。
-    attributes:
-      特点: 成年即行星级, 追求更强的信念
+- id: 刀锋族
+  type: Species
+  name: 刀锋族
+  aliases: []
+  description: 崇拜强者, 星球上有很多宇宙级和域主级别的强者。
+  attributes:
+    特点: 成年即行星级, 追求更强的信念
 
-  - id: 宙界文明
-    type: Civilization
-    name: 宙界文明
-    aliases: []
-    description: 刀锋族所在宇宙族群。
+- id: 宙界文明
+  type: Civilization
+  name: 宙界文明
+  aliases: []
+  description: 刀锋族所在宇宙族群。
 
 relationships:
-  - 主角罗峰与奴仆狄梵和百卡罗的关系。
-  - 百卡罗是诺岚山的弟子，属于刀锋族。
+- 主角罗峰与奴仆狄梵和百卡罗的关系。
+- 百卡罗是诺岚山的弟子，属于刀锋族。
 
 events:
-  - 罗峰通过飞船控制室观看百卡罗和狄梵之间的战斗。
-  - 刀锋族男子百卡罗在战斗中展现出非凡意志力，用两柄战刀抵挡了宇宙级九阶狄梵的攻击。
-  - 百卡罗施展“狂风领域”、“百刀”，将狄梵压制。
+- 罗峰通过飞船控制室观看百卡罗和狄梵之间的战斗。
+- 刀锋族男子百卡罗在战斗中展现出非凡意志力，用两柄战刀抵挡了宇宙级九阶狄梵的攻击。
+- 百卡罗施展“狂风领域”、“百刀”，将狄梵压制。
 
 dialogues:
-  - 恶魔巴巴塔: "刀锋族！"
-  - 小恶魔: "虚拟宇宙网络上，有很详细的刀锋族资料。"
+- 恶魔巴巴塔: "刀锋族！"
+- 小恶魔: "虚拟宇宙网络上，有很详细的刀锋族资料。"
 
 timeline:
 
 mysteries:
-  - 百卡罗是否会被罗峰收为奴仆。
-```
+- 百卡罗是否会被罗峰收为奴仆。

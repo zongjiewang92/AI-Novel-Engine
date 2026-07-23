@@ -1,121 +1,119 @@
-```yaml
 source:
   id: source_id_1
 
 entities:
-  - id: character_baqi
-    type: Character
-    name: 霸戚
-    aliases: []
-    description: 血洛大陆的霸主，实力强大。
-    attributes:
-      - 实力层次: 不朽神灵级
-      - 身份: 血神
+- id: character_baqi
+  type: Character
+  name: 霸戚
+  aliases: []
+  description: 血洛大陆的霸主，实力强大。
+  attributes:
+  - 实力层次: 不朽神灵级
+  - 身份: 血神
 
-  - id: character_rock_warrior
-    type: Character
-    name: 岩石战铠老者
-    aliases: []
-    description: 霸戚的导师，不朽神殿的成员。
-    attributes:
-      - 实力层次: 不朽神灵级
+- id: character_rock_warrior
+  type: Character
+  name: 岩石战铠老者
+  aliases: []
+  description: 霸戚的导师，不朽神殿的成员。
+  attributes:
+  - 实力层次: 不朽神灵级
 
-  - id: organization_inviolable_temple
-    type: Organization
-    name: 不朽神殿
-    aliases: []
-    description: 血洛大陆的统治者。
+- id: organization_inviolable_temple
+  type: Organization
+  name: 不朽神殿
+  aliases: []
+  description: 血洛大陆的统治者。
 
-  - id: location_xiaolu_city
-    type: Location
-    name: 孟那城
-    aliases: [孟那]
-    description: 血洛大陆的一个重要城市。
+- id: location_xiaolu_city
+  type: Location
+  name: 孟那城
+  aliases: [ 孟那 ]
+  description: 血洛大陆的一个重要城市。
 
-  - id: organization_ruyiedoor_clan
-    type: Organization
-    name: 雨刀门
-    aliases: []
-    description: 曾经的势力，已被灭门。
-    
-  - id: character_lake
-    type: Character
-    name: 纳可
-    aliases: [小纳可]
-    description: 罗峰的手下之一。
-    attributes:
-      - 实力层次: 精英级精神念师
+- id: organization_ruyiedoor_clan
+  type: Organization
+  name: 雨刀门
+  aliases: []
+  description: 曾经的势力，已被灭门。
 
-  - id: location_yangong_city
-    type: Location
-    name: 燕岗领
-    aliases: []
-    description: 孟那城附近的一个地方。
+- id: character_lake
+  type: Character
+  name: 纳可
+  aliases: [ 小纳可 ]
+  description: 罗峰的手下之一。
+  attributes:
+  - 实力层次: 精英级精神念师
 
-  - id: organization_mechanical_species_fleet
-    type: Organization
-    name: 机械族飞船
-    aliases: []
-    description: 携带罗峰原核的飞行器。
-    
-  - id: character_lofeng
-    type: Character
-    name: 罗峰
-    aliases: [黑衣罗峰]
-    description: 主角，拥有魔杀族分身和机械族飞船。
-    attributes:
-      - 实力层次: 宇宙级
+- id: location_yangong_city
+  type: Location
+  name: 燕岗领
+  aliases: []
+  description: 孟那城附近的一个地方。
+
+- id: organization_mechanical_species_fleet
+  type: Organization
+  name: 机械族飞船
+  aliases: []
+  description: 携带罗峰原核的飞行器。
+
+- id: character_lofeng
+  type: Character
+  name: 罗峰
+  aliases: [ 黑衣罗峰 ]
+  description: 主角，拥有魔杀族分身和机械族飞船。
+  attributes:
+  - 实力层次: 宇宙级
 
 relationships:
-  - id: relation_baqi_and_rock_warrior
-    type: Mentorship
-    source_entity_id: character_baqi
-    target_entity_id: character_rock_warrior
-    description: 霸戚是岩石战铠老者的徒弟。
-  
-  - id: relation_lofeng_and_lake
-    type: Leadership
-    source_entity_id: character_lofeng
-    target_entity_id: character_lake
-    description: 罗峰对纳可有领导关系。
+- id: relation_baqi_and_rock_warrior
+  type: Mentorship
+  source_entity_id: character_baqi
+  target_entity_id: character_rock_warrior
+  description: 霸戚是岩石战铠老者的徒弟。
+
+- id: relation_lofeng_and_lake
+  type: Leadership
+  source_entity_id: character_lofeng
+  target_entity_id: character_lake
+  description: 罗峰对纳可有领导关系。
 
 events:
-  - id: event_baqi_conversation_with_rock_warrior
-    type: Conversation
-    time: 不详
-    location: 血洛大陆某处
-    description: 霸戚与岩石战铠老者讨论关于天外族群入侵的对策。
-  
-  - id: event_destroy_ruyiedoor_clan
-    type: Destruction
-    time: 大概五十年前
-    location: 孟那城附近
-    description: 雨刀门被灭门，精英力量全部被杀。
+- id: event_baqi_conversation_with_rock_warrior
+  type: Conversation
+  time: 不详
+  location: 血洛大陆某处
+  description: 霸戚与岩石战铠老者讨论关于天外族群入侵的对策。
 
-  - id: event_kill_culprit_by_silver_haired_mental_warrior
-    type: Combat
-    time: 大约三十年前
-    location: 燕岗领
-    description: 一名银发精神念师出现并杀死杀害雨刀门的元凶。
-    
+- id: event_destroy_ruyiedoor_clan
+  type: Destruction
+  time: 大概五十年前
+  location: 孟那城附近
+  description: 雨刀门被灭门，精英力量全部被杀。
+
+- id: event_kill_culprit_by_silver_haired_mental_warrior
+  type: Combat
+  time: 大约三十年前
+  location: 燕岗领
+  description: 一名银发精神念师出现并杀死杀害雨刀门的元凶。
+
 dialogues:
-  - id: dialogue_baqi_and_rock_warrior
-    source_entity_id: character_baqi
-    target_entity_id: character_rock_warrior
-    content: "我们血洛大陆积蓄的实力还远远不够，暂时别想反攻。"
+- id: dialogue_baqi_and_rock_warrior
+  source_entity_id: character_baqi
+  target_entity_id: character_rock_warrior
+  content: "我们血洛大陆积蓄的实力还远远不够，暂时别想反攻。"
 
 timeline:
-  - event: 霸戚与岩石战铠老者讨论对策
-    time: 不详
-    description: 讨论如何应对天外族群的入侵。
-    
-  - event: 雨刀门被灭
-    time: 大概五十年前
-    location: 孟那城附近
-    description: 精英力量全部被杀，元凶是雨刀门的大徒弟。
+- event: 霸戚与岩石战铠老者讨论对策
+  time: 不详
+  description: 讨论如何应对天外族群的入侵。
+
+- event: 雨刀门被灭
+  time: 大概五十年前
+  location: 孟那城附近
+  description: 精英力量全部被杀，元凶是雨刀门的大徒弟。
 
 mysteries:
-  - id: mystery_lake_location
-    type: LocationUnknown
-    content: 纳可是否已经到达燕岗领。
-```
+- id: mystery_lake_location
+  type: LocationUnknown
+  content: 纳可是否已经到达燕岗领。

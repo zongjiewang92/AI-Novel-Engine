@@ -1,84 +1,82 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 正在搜索天华尊者的宇宙强者，发现至宝出世后迅速前往。
-    attributes:
-      实力: 宇宙霸主或以上
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 正在搜索天华尊者的宇宙强者，发现至宝出世后迅速前往。
+  attributes:
+    实力: 宇宙霸主或以上
 
-  - id: 天华尊者
-    type: Character
-    name: 天华尊者
-    aliases: []
-    description: 异族强者，曾夺舍特殊生命天狼。在争夺高等至宝时与札威领主和千影尊者交战。
-    attributes:
-      实力: 宇宙霸主级别
+- id: 天华尊者
+  type: Character
+  name: 天华尊者
+  aliases: []
+  description: 异族强者，曾夺舍特殊生命天狼。在争夺高等至宝时与札威领主和千影尊者交战。
+  attributes:
+    实力: 宇宙霸主级别
 
-  - id: 札威领主
-    type: Character
-    name: 札威领主
-    aliases: []
-    description: 独行的宇宙霸主，与千影尊者联手对抗天华尊者。
-    attributes:
-      实力: 宇宙霸主
+- id: 札威领主
+  type: Character
+  name: 札威领主
+  aliases: []
+  description: 独行的宇宙霸主，与千影尊者联手对抗天华尊者。
+  attributes:
+    实力: 宇宙霸主
 
-  - id: 千影尊者
-    type: Character
-    name: 千影尊者
-    aliases: []
-    description: 独行的宇宙霸主，与札威领主联手对抗天华尊者。
-    attributes:
-      实力: 宇宙霸主
+- id: 千影尊者
+  type: Character
+  name: 千影尊者
+  aliases: []
+  description: 独行的宇宙霸主，与札威领主联手对抗天华尊者。
+  attributes:
+    实力: 宇宙霸主
 
-  - id: 编号02933号原始星
-    type: Location
-    name: 编号02933号原始星
-    aliases: []
-    description: 至宝出世的地方，发生激烈战斗。
-    attributes:
-      特性: 高等至宝出世
+- id: 编号02933号原始星
+  type: Location
+  name: 编号02933号原始星
+  aliases: []
+  description: 至宝出世的地方，发生激烈战斗。
+  attributes:
+    特性: 高等至宝出世
 
-  - id: 虚拟宇宙
-    type: Organization
-    name: 虚拟宇宙
-    aliases: []
-    description: 罗峰所在的虚拟宇宙平台。
-    attributes:
-      功能: 连接各宇宙强者，传递信息
+- id: 虚拟宇宙
+  type: Organization
+  name: 虚拟宇宙
+  aliases: []
+  description: 罗峰所在的虚拟宇宙平台。
+  attributes:
+    功能: 连接各宇宙强者，传递信息
 
 relationships:
-  - 主体: 天华尊者
-    关系类型: 对抗
-    客体: 札威领主
-  - 主体: 天华尊者
-    关系类型: 对抗
-    客体: 千影尊者
-  - 主体: 罗峰
-    关系类型: 搜索
-    客体: 天华尊者
+- 主体: 天华尊者
+  关系类型: 对抗
+  客体: 札威领主
+- 主体: 天华尊者
+  关系类型: 对抗
+  客体: 千影尊者
+- 主体: 罗峰
+  关系类型: 搜索
+  客体: 天华尊者
 
 events:
-  - 名称: 至宝出世
-    时间: 文本描述时间段内
-    描述: 高等至宝在编号02933号原始星出世，引发激烈战斗。
+- 名称: 至宝出世
+  时间: 文本描述时间段内
+  描述: 高等至宝在编号02933号原始星出世，引发激烈战斗。
 
 dialogues:
-  - 发言人: 天华尊者
-    对象: 札威领主、千影尊者
-    内容: "你们俩逼急了我，别怪我不留情面！"
-  - 发言人: 千影尊者
-    对象: 天华尊者
-    内容: "岂会怕你？"
+- 发言人: 天华尊者
+  对象: 札威领主、千影尊者
+  内容: "你们俩逼急了我，别怪我不留情面！"
+- 发言人: 千影尊者
+  对象: 天华尊者
+  内容: "岂会怕你？"
 
 timeline:
-  - 时间点: 文本描述时间段内
-    描述: 罗峰搜索天华尊者的行踪，发现至宝出世。
+- 时间点: 文本描述时间段内
+  描述: 罗峰搜索天华尊者的行踪，发现至宝出世。
 
 mysteries:
-  - 描述: 天华尊者是否能成功夺取高等至宝。
-```
+- 描述: 天华尊者是否能成功夺取高等至宝。

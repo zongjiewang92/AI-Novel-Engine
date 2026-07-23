@@ -1,100 +1,95 @@
-```yaml
 source:
   id: 第978章62万场!!!
 
 entities:
-  - id: 紫荆岛
-    type: Location
-    name: 紫荆岛
-    aliases: []
-    description: 被无尽的五彩极光环绕，上空演示着宇宙本源法则奥妙的光圈不断扩散。紫荆岛上各族宫殿座落其间。
-    attributes:
-      - 位置：祖神教核心之地
-      - 特征：被五彩极光围绕
+- id: 紫荆岛
+  type: Location
+  name: 紫荆岛
+  aliases: []
+  description: 被无尽的五彩极光环绕，上空演示着宇宙本源法则奥妙的光圈不断扩散。紫荆岛上各族宫殿座落其间。
+  attributes:
+  - 位置：祖神教核心之地
+  - 特征：被五彩极光围绕
 
-  - id: 七剑王
-    type: Character
-    name: 七剑王
-    aliases: []
-    description: 穿着紫色战甲，眉心有七柄战剑印记的人类刀河王挑战者。在宝藏之地收获惊人，拥有“七剑传承”和“兽神强者传承”，实力强大。
-    attributes:
-      - 实力：人类这一代最优秀的不朽天才之一
-      - 身份：得到祖神教内超级存在留下的宝藏的传承者
+- id: 七剑王
+  type: Character
+  name: 七剑王
+  aliases: []
+  description: 穿着紫色战甲，眉心有七柄战剑印记的人类刀河王挑战者。在宝藏之地收获惊人，拥有“七剑传承”和“兽神强者传承”，实力强大。
+  attributes:
+  - 实力：人类这一代最优秀的不朽天才之一
+  - 身份：得到祖神教内超级存在留下的宝藏的传承者
 
-  - id: 刀河王
-    type: Character
-    name: 刀河王
-    aliases: []
-    description: 接受上万场邀战的人类绝世天才。
-    attributes:
-      - 实力：疯狂接受挑战，实力强大，被老师认定为超越七剑王的天才
+- id: 刀河王
+  type: Character
+  name: 刀河王
+  aliases: []
+  description: 接受上万场邀战的人类绝世天才。
+  attributes:
+  - 实力：疯狂接受挑战，实力强大，被老师认定为超越七剑王的天才
 
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 没有详细描述其身份和角色。
-    attributes:
-      - 实力：地位高，有能力将宝物放在宝藏之地留给后来者。
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 没有详细描述其身份和角色。
+  attributes:
+  - 实力：地位高，有能力将宝物放在宝藏之地留给后来者。
 
-  - id: 命陨王
-    type: Character
-    name: 命陨王
-    aliases: []
-    description: 被认为应该去刺杀刀河王的人类内部强者。
-    attributes:
-      - 目的：刺杀刀河王
+- id: 命陨王
+  type: Character
+  name: 命陨王
+  aliases: []
+  description: 被认为应该去刺杀刀河王的人类内部强者。
+  attributes:
+  - 目的：刺杀刀河王
 
-  - id: 祖神教
-    type: Organization
-    name: 祖神教
-    aliases: []
-    description: 收藏并提供宇宙天才传承的地方，拥有宝藏之地。
-    attributes:
-      - 特征：核心之地有八方兽神殿和时空
+- id: 祖神教
+  type: Organization
+  name: 祖神教
+  aliases: []
+  description: 收藏并提供宇宙天才传承的地方，拥有宝藏之地。
+  attributes:
+  - 特征：核心之地有八方兽神殿和时空
 
-  - id: 雷兽神
-    type: Character
-    name: 雷兽神
-    aliases: []
-    description: 祖神教中管理琐事的兽神之一，居住在雷兽神殿。
-    attributes:
-      - 实力：拥有极强的力量，继承兽神尊位后更为强大
+- id: 雷兽神
+  type: Character
+  name: 雷兽神
+  aliases: []
+  description: 祖神教中管理琐事的兽神之一，居住在雷兽神殿。
+  attributes:
+  - 实力：拥有极强的力量，继承兽神尊位后更为强大
 
-  - id: 血火神将
-    type: Character
-    name: 血火神将
-    aliases: []
-    description: 祖神教中负责管理琐事的神将之一。
-    attributes:
-      - 实力：能硬拼普通宇宙之主的存在
+- id: 血火神将
+  type: Character
+  name: 血火神将
+  aliases: []
+  description: 祖神教中负责管理琐事的神将之一。
+  attributes:
+  - 实力：能硬拼普通宇宙之主的存在
 
 relationships:
-  - id: 七剑王-刀河王
-    type: Competitor
-    description: 七剑王与刀河王在荣耀世界中的竞争关系。
+- id: 七剑王-刀河王
+  type: Competitor
+  description: 七剑王与刀河王在荣耀世界中的竞争关系。
 
 events:
-  - id: 刀河王接受邀战
-    type: Event
-    description: 刀河王接受了上万场邀战，并且他的真实身份是界主。
-    timeline: 上万场
+- id: 刀河王接受邀战
+  type: Event
+  description: 刀河王接受了上万场邀战，并且他的真实身份是界主。
+  timeline: 上万场
 
 dialogues:
-  - id: 七剑王询问刀河王的挑战次数
-    type: Dialogue
-    content: "你不知道，我们怎么知道？我们只知道……最起码上万场。"
-    participants:
-      - 七剑王
-      - 异族强者
+- id: 七剑王询问刀河王的挑战次数
+  type: Dialogue
+  content: "你不知道，我们怎么知道？我们只知道……最起码上万场。"
+  participants:
+  - 七剑王
+  - 异族强者
 
 timeline:
-  - 时间点：未具体说明
-    事件：刀河王接受邀战
+- 时间点：未具体说明 事件：刀河王接受邀战
 
 mysteries:
-  - id: 刀河王的真实实力和背景
-    description: 关于刀河王的具体身份和真实实力信息不明。
-```
-
-以上内容严格按照原文提取，没有添加任何推测或总结。
+- id: 刀河王的真实实力和背景
+  description: 关于刀河王的具体身份和真实实力信息不明。

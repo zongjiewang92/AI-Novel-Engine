@@ -1,81 +1,79 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有强大的念力和武者实力，能够轻易控制恒星级三阶的战士进行搜魂。
-    attributes:
-      实力: 宇宙级强者或更高级别
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有强大的念力和武者实力，能够轻易控制恒星级三阶的战士进行搜魂。
+  attributes:
+    实力: 宇宙级强者或更高级别
 
-  - id: 龙楼
-    type: Character
-    name: 龙楼
-    aliases: []
-    description: 巨木部落的天才，行星级三阶武者，被魔神带走。
-    attributes:
-      实力: 行星级三阶
-      年龄: 少年
+- id: 龙楼
+  type: Character
+  name: 龙楼
+  aliases: []
+  description: 巨木部落的天才，行星级三阶武者，被魔神带走。
+  attributes:
+    实力: 行星级三阶
+    年龄: 少年
 
-  - id: 拐角鳞甲男子
-    type: Character
-    name: 拐角鳞甲男子
-    aliases: []
-    description: 火凤组成员，带领魔神团队的首领。
-    attributes:
-      实力: 行星级九阶或更高级别
+- id: 拐角鳞甲男子
+  type: Character
+  name: 拐角鳞甲男子
+  aliases: []
+  description: 火凤组成员，带领魔神团队的首领。
+  attributes:
+    实力: 行星级九阶或更高级别
 
-  - id: 巨木部落族长
-    type: Character
-    name: 巨木部落族长
-    aliases: []
-    description: 被魔神杀死以示警告。
-    attributes:
-      年龄: 老年
-      实力: 普通武者
+- id: 巨木部落族长
+  type: Character
+  name: 巨木部落族长
+  aliases: []
+  description: 被魔神杀死以示警告。
+  attributes:
+    年龄: 老年
+    实力: 普通武者
 
-  - id: 魔神
-    type: Character
-    name: 魔神
-    aliases: [犄角魔神般壮汉]
-    description: 火凤组成员，行星级九阶或更高级别。
-    attributes:
-      实力: 行星级九阶及以上
+- id: 魔神
+  type: Character
+  name: 魔神
+  aliases: [ 犄角魔神般壮汉 ]
+  description: 火凤组成员，行星级九阶或更高级别。
+  attributes:
+    实力: 行星级九阶及以上
 
 organizations:
-  - id: 火凤组
-    type: Organization
-    name: 火凤组
-    aliases: []
-    description: 负责在贝斯星球收集奴隶的组织，成员为恒星级和行星级武者。
-    attributes:
-      成员实力范围: 普通武者至宇宙级强者
+- id: 火凤组
+  type: Organization
+  name: 火凤组
+  aliases: []
+  description: 负责在贝斯星球收集奴隶的组织，成员为恒星级和行星级武者。
+  attributes:
+    成员实力范围: 普通武者至宇宙级强者
 
 locations:
-  - id: 巨木部落
-    type: Location
-    name: 巨木部落
-    aliases: []
-    description: 被魔神攻击，族长被杀，大量族人被抓走。
-    attributes:
-      居民数量: 1213682名
+- id: 巨木部落
+  type: Location
+  name: 巨木部落
+  aliases: []
+  description: 被魔神攻击，族长被杀，大量族人被抓走。
+  attributes:
+    居民数量: 1213682名
 
 dialogues:
-  - speaker: 拐角鳞甲男子
-    content: "我们是火凤组成员，不知道大人来贝斯星球有什么事，伟大的克拉奇大人就暂时居住在贝斯星球，大人有什么事我可以禀报给克拉奇大人。"
-    context: 罗峰出现后，拐角鳞甲男子惊恐地向罗峰解释自己的身份。
-  - speaker: 拐角鳞甲男子
-    content: "你们巨木部落可以换个族长了，老家伙太愚蠢了。上次你们巨木部落诞生一个行星级，是在800年前，估计你们都忘记规矩了。记住！诞生行星级，我们魔神宫必须带走，违反者，部落族长处死！"
-    context: 魔神杀死巨木部落的族长后发表警告。
+- speaker: 拐角鳞甲男子
+  content: "我们是火凤组成员，不知道大人来贝斯星球有什么事，伟大的克拉奇大人就暂时居住在贝斯星球，大人有什么事我可以禀报给克拉奇大人。"
+  context: 罗峰出现后，拐角鳞甲男子惊恐地向罗峰解释自己的身份。
+- speaker: 拐角鳞甲男子
+  content: "你们巨木部落可以换个族长了，老家伙太愚蠢了。上次你们巨木部落诞生一个行星级，是在800年前，估计你们都忘记规矩了。记住！诞生行星级，我们魔神宫必须带走，违反者，部落族长处死！"
+  context: 魔神杀死巨木部落的族长后发表警告。
 
 timeline:
-  - event: 罗峰出现
-    time: 原文描述中突然降临在地面上
+- event: 罗峰出现
+  time: 原文描述中突然降临在地面上
 
 mysteries:
-  - question: 这个神秘黑发青年罗峰的真实身份和背景是什么？
-    context: 根据原文，罗峰的威压和实力远超火凤组成员，暗示其拥有非常高的地位和强大的能力。
-```
+- question: 这个神秘黑发青年罗峰的真实身份和背景是什么？
+  context: 根据原文，罗峰的威压和实力远超火凤组成员，暗示其拥有非常高的地位和强大的能力。

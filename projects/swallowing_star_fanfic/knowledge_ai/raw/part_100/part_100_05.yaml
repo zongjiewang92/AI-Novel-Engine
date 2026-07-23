@@ -1,58 +1,56 @@
-```yaml
 source:
   id: 原始宇宙
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 具有无限潜力和强大实力的战士，曾与坐山客为师徒关系。
-    attributes:
-      实力: 虚空真神级
-      性格: 渴望冒险、追求战斗和美丽风景
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 具有无限潜力和强大实力的战士，曾与坐山客为师徒关系。
+  attributes:
+    实力: 虚空真神级
+    性格: 渴望冒险、追求战斗和美丽风景
 
-  - id: 坐山客
-    type: Character
-    name: 坐山客
-    aliases: []
-    description: 神王级强者，罗峰的老师。
-    attributes:
-      实力: 神王级
-      性格: 老练、谨慎
+- id: 坐山客
+  type: Character
+  name: 坐山客
+  aliases: []
+  description: 神王级强者，罗峰的老师。
+  attributes:
+    实力: 神王级
+    性格: 老练、谨慎
 
-  - id: 原始宇宙
-    type: Location
-    name: 原始宇宙
-    aliases: []
-    description: 许多未知的秘密与起源大陆有关联，是三千维度空间的源头之一。
+- id: 原始宇宙
+  type: Location
+  name: 原始宇宙
+  aliases: []
+  description: 许多未知的秘密与起源大陆有关联，是三千维度空间的源头之一。
 
-  - id: 起源大陆
-    type: Location
-    name: 起源大陆
-    aliases: []
-    description: 是一切维度宇宙的起源之地，孕育着无数珍宝和天才。
+- id: 起源大陆
+  type: Location
+  name: 起源大陆
+  aliases: []
+  description: 是一切维度宇宙的起源之地，孕育着无数珍宝和天才。
 
 relationships:
-  - 主体: 罗峰
-    关系类型: 师徒关系
-    客体: 坐山客
+- 主体: 罗峰
+  关系类型: 师徒关系
+  客体: 坐山客
 
 events:
-  - 名称: 走向起源大陆
-    时间线位置: 最近
-    描述: 穿越轮回通道，前往三千维度空间的起源之地。
+- 名称: 走向起源大陆
+  时间线位置: 最近
+  描述: 穿越轮回通道，前往三千维度空间的起源之地。
 
 dialogues:
-  - 主体: 罗峰
-    客体: 坐山客
-    内容: "你不是疑惑，紫月为何要打压人类，为何要杀你么？"
-    解释: 原始宇宙背后的许多秘密与三千维度空间有关联。
+- 主体: 罗峰
+  客体: 坐山客
+  内容: "你不是疑惑，紫月为何要打压人类，为何要杀你么？"
+  解释: 原始宇宙背后的许多秘密与三千维度空间有关联。
 
 timeline:
-  - 时间点: 进入起源大陆前
-    描述: 罗峰即将进入起源大陆，坐山客给罗峰忠告。
+- 时间点: 进入起源大陆前
+  描述: 罗峰即将进入起源大陆，坐山客给罗峰忠告。
 
 mysteries:
-  - 内容: 每个维度都有一个原始宇宙和宇宙海，它们共同的源头是起源大陆。
-```
+- 内容: 每个维度都有一个原始宇宙和宇宙海，它们共同的源头是起源大陆。

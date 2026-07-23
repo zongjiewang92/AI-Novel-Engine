@@ -1,87 +1,84 @@
-```yaml
 source:
   id: "星辰变第605章至第606章"
 
 entities:
-  - id: "罗峰"
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙公司的天才成员，争夺原始秘境名额的参赛者。
-    attributes:
-      实力: 绝世天才, 初始级实力
-      性格: 有决心和毅力
-      关系:
-        - 师傅: 真衍王
-        - 朋友: 戎钧、乌卡等
-        - 家人: 洪(兄弟)、雷神、妻子孩子、弟弟
+- id: "罗峰"
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙公司的天才成员，争夺原始秘境名额的参赛者。
+  attributes:
+    实力: 绝世天才, 初始级实力
+    性格: 有决心和毅力
+    关系:
+    - 师傅: 真衍王
+    - 朋友: 戎钧、乌卡等
+    - 家人: 洪(兄弟)、雷神、妻子孩子、弟弟
 
-  - id: "克罗夫"
-    type: Character
-    name: 克罗夫
-    aliases: []
-    description: 参与争夺原始秘境名额的参赛者。
-    attributes:
-      实力: 强大, 虚拟宇宙网络内实力不明确
-      性格: 情况不明, 关键时刻弃权
+- id: "克罗夫"
+  type: Character
+  name: 克罗夫
+  aliases: []
+  description: 参与争夺原始秘境名额的参赛者。
+  attributes:
+    实力: 强大, 虚拟宇宙网络内实力不明确
+    性格: 情况不明, 关键时刻弃权
 
-  - id: "真衍王"
-    type: Character
-    name: 真衍王
-    aliases: []
-    description: 罗峰的老师，虚拟宇宙公司的高层成员。
-    attributes:
-      实力: 虚拟宇宙公司核心级实力, 高层地位
+- id: "真衍王"
+  type: Character
+  name: 真衍王
+  aliases: []
+  description: 罗峰的老师，虚拟宇宙公司的高层成员。
+  attributes:
+    实力: 虚拟宇宙公司核心级实力, 高层地位
 
-  - id: "徐欣"
-    type: Character
-    name: 徐欣
-    aliases: []
-    description: 关注罗峰比赛的人之一。
-    attributes:
-      性格: 惊讶和不解
+- id: "徐欣"
+  type: Character
+  name: 徐欣
+  aliases: []
+  description: 关注罗峰比赛的人之一。
+  attributes:
+    性格: 惊讶和不解
 
-  - id: "虚拟宇宙网络系统"
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 管理虚拟宇宙的公司，提供各种竞争和修炼环境。
+- id: "虚拟宇宙网络系统"
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 管理虚拟宇宙的公司，提供各种竞争和修炼环境。
 
 locations:
-  - id: "战场位面原始森林上空"
-    type: Location
-    name: 原始森林上空
-    attributes:
-      地点描述: 战场位面内, 处于争夺原始秘境名额的战斗区域
+- id: "战场位面原始森林上空"
+  type: Location
+  name: 原始森林上空
+  attributes:
+    地点描述: 战场位面内, 处于争夺原始秘境名额的战斗区域
 
 organizations:
-  - id: "虚拟宇宙公司"
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 管理和运营虚拟宇宙的公司。
+- id: "虚拟宇宙公司"
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 管理和运营虚拟宇宙的公司。
 
 events:
-  - id: "罗峰对战克罗夫争夺原始秘境名额最后一场战斗"
-    type: Event
-    name: 最后一场战斗
-    attributes:
-      时间: 规定时间内
-      地点: 战场位面原始森林上空
-      结果: 克罗夫弃权, 罗峰胜出
+- id: "罗峰对战克罗夫争夺原始秘境名额最后一场战斗"
+  type: Event
+  name: 最后一场战斗
+  attributes:
+    时间: 规定时间内
+    地点: 战场位面原始森林上空
+    结果: 克罗夫弃权, 罗峰胜出
 
 dialogues:
-  - id: "虚拟宇宙系统对罗峰的提示"
-    type: Dialogue
-    content: "鉴于第五场开始到如今，克罗夫的意识一直未进入虚拟宇宙网络，所以无法传送过来！判定为……克罗夫弃权！"
+- id: "虚拟宇宙系统对罗峰的提示"
+  type: Dialogue
+  content: "鉴于第五场开始到如今，克罗夫的意识一直未进入虚拟宇宙网络，所以无法传送过来！判定为……克罗夫弃权！"
 
 timeline:
-  - 时间点: 第五场战斗开始至结束期间
-    描述: 克罗夫未出现, 罗峰获得胜利
+- 时间点: 第五场战斗开始至结束期间
+  描述: 克罗夫未出现, 罗峰获得胜利
 
 mysteries:
-  - id: "克罗夫为何放弃最后一场比赛"
-    type: Mystery
-    content: 在规定时间内，克罗夫的意识未进入虚拟宇宙网络，导致弃权。
-```
-这段文字提取了原文中的主要角色、地点和事件，并按照要求格式化为YAML数据。
+- id: "克罗夫为何放弃最后一场比赛"
+  type: Mystery
+  content: 在规定时间内，克罗夫的意识未进入虚拟宇宙网络，导致弃权。

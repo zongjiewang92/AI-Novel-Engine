@@ -1,86 +1,84 @@
-```yaml
 source:
   id: 文本来源ID
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 主角，人类天才，在拉斯奥世界观察毁娑巨兽。
-    attributes:
-      实力: 域主级九阶
-      目标: 获取毁娑巨兽毛发以备将来作为培育分身的材料
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 主角，人类天才，在拉斯奥世界观察毁娑巨兽。
+  attributes:
+    实力: 域主级九阶
+    目标: 获取毁娑巨兽毛发以备将来作为培育分身的材料
 
-  - id: 卡什那
-    type: Character
-    name: 卡什那
-    aliases: []
-    description: 拉斯奥世界金角族青年，跟随罗峰。
-    attributes:
-      实力: 不详
-      关系: 跟随者、老师的学生
+- id: 卡什那
+  type: Character
+  name: 卡什那
+  aliases: []
+  description: 拉斯奥世界金角族青年，跟随罗峰。
+  attributes:
+    实力: 不详
+    关系: 跟随者、老师的学生
 
-  - id: 寺番祁长老
-    type: Character
-    name: 寺番祁长老
-    aliases: []
-    description: 拉斯奥世界的元老级人物，负责向罗峰介绍圣地情况。
-    attributes:
-      实力: 不详
-      职务: 元老
+- id: 寺番祁长老
+  type: Character
+  name: 寺番祁长老
+  aliases: []
+  description: 拉斯奥世界的元老级人物，负责向罗峰介绍圣地情况。
+  attributes:
+    实力: 不详
+    职务: 元老
 
-  - id: 毁娑巨兽
-    type: Species
-    name: 毁娑巨兽
-    aliases: []
-    description: 星空巨兽，拉斯奥世界唯一的毁娑巨兽。
-    attributes:
-      实力: 界主巅峰期
-      特殊能力: 时间静止
+- id: 毁娑巨兽
+  type: Species
+  name: 毁娑巨兽
+  aliases: []
+  description: 星空巨兽，拉斯奥世界唯一的毁娑巨兽。
+  attributes:
+    实力: 界主巅峰期
+    特殊能力: 时间静止
 
-  - id: 圣地
-    type: Location
-    name: 圣地
-    aliases: []
-    description: 拉斯奥世界的圣地，有圣碑供人观摩参悟。
-    attributes:
-      位置: 山脚下
-      特点: 内含秘阵
+- id: 圣地
+  type: Location
+  name: 圣地
+  aliases: []
+  description: 拉斯奥世界的圣地，有圣碑供人观摩参悟。
+  attributes:
+    位置: 山脚下
+    特点: 内含秘阵
 
 relationships:
-  - id: 罗峰与卡什那关系
-    type: Relationship
-    name: 跟随者
-    description: 卡什那是跟随罗峰的金角族青年。
-    attributes: []
+- id: 罗峰与卡什那关系
+  type: Relationship
+  name: 跟随者
+  description: 卡什那是跟随罗峰的金角族青年。
+  attributes: []
 
 events:
-  - id: 观察毁娑巨兽
-    type: Event
-    name: 罗峰观察毁娑巨兽
-    description: 罗峰等人在圣地外围观察拉斯奥世界的唯一一头毁娑巨兽。
-    timeline: 不详
+- id: 观察毁娑巨兽
+  type: Event
+  name: 罗峰观察毁娑巨兽
+  description: 罗峰等人在圣地外围观察拉斯奥世界的唯一一头毁娑巨兽。
+  timeline: 不详
 
 dialogues:
-  - id: 寺番祁长老与罗峰对话
-    type: Dialogue
-    content: "寺番祁长老微笑着说道，向元老禀报关于罗峰的事，并安排他进入圣地观摩圣碑。"
-    participants:
-      - 寺番祁长老
-      - 罗峰
+- id: 寺番祁长老与罗峰对话
+  type: Dialogue
+  content: "寺番祁长老微笑着说道，向元老禀报关于罗峰的事，并安排他进入圣地观摩圣碑。"
+  participants:
+  - 寺番祁长老
+  - 罗峰
 
-  - id: 卡什那与罗峰对话
-    type: Dialogue
-    content: "卡什那一愣，对毁娑巨兽表现出浓厚兴趣。"
-    participants:
-      - 卡什那
-      - 罗峰
+- id: 卡什那与罗峰对话
+  type: Dialogue
+  content: "卡什那一愣，对毁娑巨兽表现出浓厚兴趣。"
+  participants:
+  - 卡什那
+  - 罗峰
 
 timeline:
 
 mysteries:
-  - id: 毁娑巨兽毛发的用途
-    type: Mystery
-    description: 罗峰计划将来利用毁娑巨兽的毛发培育分身，但目前实力不够。
-```
+- id: 毁娑巨兽毛发的用途
+  type: Mystery
+  description: 罗峰计划将来利用毁娑巨兽的毛发培育分身，但目前实力不够。

@@ -1,60 +1,58 @@
-```yaml
 source:
   id: 罗峰在古神废墟中的经历
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: 银甲罗峰, 金角巨兽分身, 魔杀族罗峰
-    description: 地球人，通过修炼和战斗获得了强大的实力。
-    attributes:
-      - 实力: 强大
-      - 身份: 古神废墟探索者
-      - 性格: 智慧且谨慎
-  - id: 巨坑之府
-    type: Location
-    name: 巨坑之府
-    aliases: []
-    description: 罗峰在古神废墟中的居所，位于一个深坑内。
-    attributes:
-      - 地点类型: 深坑内部
-  - id: 古神废墟
-    type: Location
-    name: 古神废墟
-    aliases: []
-    description: 被称为古神的遗迹区域，充满煞气和神秘现象。
-    attributes:
-      - 特征: 恶灵充斥, 神秘图影
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: 银甲罗峰, 金角巨兽分身, 魔杀族罗峰
+  description: 地球人，通过修炼和战斗获得了强大的实力。
+  attributes:
+  - 实力: 强大
+  - 身份: 古神废墟探索者
+  - 性格: 智慧且谨慎
+- id: 巨坑之府
+  type: Location
+  name: 巨坑之府
+  aliases: []
+  description: 罗峰在古神废墟中的居所，位于一个深坑内。
+  attributes:
+  - 地点类型: 深坑内部
+- id: 古神废墟
+  type: Location
+  name: 古神废墟
+  aliases: []
+  description: 被称为古神的遗迹区域，充满煞气和神秘现象。
+  attributes:
+  - 特征: 恶灵充斥, 神秘图影
 
 relationships:
-  - id: 罗峰与巨坑之府
-    type: 居住关系
-    description: 罗峰在古神废墟的深坑中建造了居所。
-    attributes:
-      - 时间段: 当前时期
-  - id: 古神废墟对罗峰的影响
-    type: 影响关系
-    description: 古神废墟中的煞气和神秘图影对罗峰产生了精神上的影响。
-    attributes:
-      - 特征: 神秘, 强烈
+- id: 罗峰与巨坑之府
+  type: 居住关系
+  description: 罗峰在古神废墟的深坑中建造了居所。
+  attributes:
+  - 时间段: 当前时期
+- id: 古神废墟对罗峰的影响
+  type: 影响关系
+  description: 古神废墟中的煞气和神秘图影对罗峰产生了精神上的影响。
+  attributes:
+  - 特征: 神秘, 强烈
 
 events:
-  - id: 罗峰探索古神废墟
-    type: Event
-    description: 罗峰在超大深坑中安家，并开始修炼战斗秘法，同时发现了神秘图影。
-    attributes:
-      - 时间段: 当前时期
-      - 地点: 古神废墟中的巨坑之府
+- id: 罗峰探索古神废墟
+  type: Event
+  description: 罗峰在超大深坑中安家，并开始修炼战斗秘法，同时发现了神秘图影。
+  attributes:
+  - 时间段: 当前时期
+  - 地点: 古神废墟中的巨坑之府
 
 dialogues:
 
 timeline:
 
 mysteries:
-  - id: 神秘图影的意义
-    type: Mystery
-    description: 发现的神秘图影是否与古神废墟的历史有关，特别是虚拟宇宙公司和血洛世界土著惊天一战。
-    attributes:
-      - 关键因素: 古神废墟, 图影, 战斗场景
-```
+- id: 神秘图影的意义
+  type: Mystery
+  description: 发现的神秘图影是否与古神废墟的历史有关，特别是虚拟宇宙公司和血洛世界土著惊天一战。
+  attributes:
+  - 关键因素: 古神废墟, 图影, 战斗场景

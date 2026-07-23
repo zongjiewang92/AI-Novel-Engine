@@ -1,76 +1,74 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: rofei
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 排名四十几的精神念师，实力接近高等战神，独自一人进入澳洲大陆。
-    attributes:
-      实力: 高等战神
-      目标: 对付秃鹫李耀，猎杀领主级怪兽赚取金钱
+- id: rofei
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 排名四十几的精神念师，实力接近高等战神，独自一人进入澳洲大陆。
+  attributes:
+    实力: 高等战神
+    目标: 对付秃鹫李耀，猎杀领主级怪兽赚取金钱
 
-  - id: shijiang
-    type: character
-    name: 史江
-    aliases: []
-    description: 罗峰的师兄，曾邀请罗峰组成小队一同进入澳洲大陆。
-    attributes:
-      实力: 不详
-      目标: 生存下去
+- id: shijiang
+  type: character
+  name: 史江
+  aliases: []
+  description: 罗峰的师兄，曾邀请罗峰组成小队一同进入澳洲大陆。
+  attributes:
+    实力: 不详
+    目标: 生存下去
 
-  - id: kanidis
-    type: character
-    name: 坎迪斯
-    aliases: []
-    description: 在训练营中的学员，可能是秃鹫毒蝎的眼线。
-    attributes:
-      关系: 维妮娜的侄女
-      目标: 寻找罗峰并报告给秃鹫李耀
+- id: kanidis
+  type: character
+  name: 坎迪斯
+  aliases: []
+  description: 在训练营中的学员，可能是秃鹫毒蝎的眼线。
+  attributes:
+    关系: 维妮娜的侄女
+    目标: 寻找罗峰并报告给秃鹫李耀
 
-  - id: weinina
-    type: character
-    name: 维妮娜
-    aliases: []
-    description: 李耀背后的资助者，与坎迪斯有亲属关系。
-    attributes:
-      关系: 坎迪斯的姑妈
-      目标: 消灭罗峰
+- id: weinina
+  type: character
+  name: 维妮娜
+  aliases: []
+  description: 李耀背后的资助者，与坎迪斯有亲属关系。
+  attributes:
+    关系: 坎迪斯的姑妈
+    目标: 消灭罗峰
 
-  - id: liyaoyao
-    type: character
-    name: 秃鹫李耀
-    aliases: []
-    description: 罗峰的主要敌人，雇佣战神来对付罗峰。
-    attributes:
-      目标: 对付并消灭罗峰
+- id: liyaoyao
+  type: character
+  name: 秃鹫李耀
+  aliases: []
+  description: 罗峰的主要敌人，雇佣战神来对付罗峰。
+  attributes:
+    目标: 对付并消灭罗峰
 
 organizations:
-  - id: xianjizuguan
-    type: organization
-    name: 极限武馆
-    description: 罗峰所属的武馆。
+- id: xianjizuguan
+  type: organization
+  name: 极限武馆
+  description: 罗峰所属的武馆。
 
 locations:
-  - id: ouzhoudalu
-    type: location
-    name: 澳洲大陆
-    description: 大涅槃时期后人口稀少，怪兽横行的地方。
-    attributes:
-      距离: 入口到三百多里外有一座山脉
+- id: ouzhoudalu
+  type: location
+  name: 澳洲大陆
+  description: 大涅槃时期后人口稀少，怪兽横行的地方。
+  attributes:
+    距离: 入口到三百多里外有一座山脉
 
 dialogues:
-  - speaker: 史江
-    dialogue: "罗峰，要不你我二人组成小队，怎么样？我们两个相互帮助，也能更好在这生存下去。"
-  - speaker: 罗峰
-    dialogue: "师兄，这次我在澳洲大陆还有一些复杂的事情，所以……只能单独一个人。"
+- speaker: 史江
+  dialogue: "罗峰，要不你我二人组成小队，怎么样？我们两个相互帮助，也能更好在这生存下去。"
+- speaker: 罗峰
+  dialogue: "师兄，这次我在澳洲大陆还有一些复杂的事情，所以……只能单独一个人。"
 
 timeline:
-  - event: 罗峰独自进入澳洲大陆。
-    date: 不详
+- event: 罗峰独自进入澳洲大陆。
+  date: 不详
 
 mysteries:
-  - mystery: 坎迪斯是否准确地将罗峰的方向告知秃鹫李耀。
-```
+- mystery: 坎迪斯是否准确地将罗峰的方向告知秃鹫李耀。

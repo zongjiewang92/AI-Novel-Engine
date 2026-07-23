@@ -1,97 +1,95 @@
-```yaml
 source:
   id: 第916章冰狱星罗峰的卫队
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 猎捕计划的领导者，拥有星辰塔和费摩毒液等宝物。
-    attributes:
-      实力: 封王不朽
-      角色属性: 智谋、领导能力
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 猎捕计划的领导者，拥有星辰塔和费摩毒液等宝物。
+  attributes:
+    实力: 封王不朽
+    角色属性: 智谋、领导能力
 
-  - id: 重箭王
-    type: Character
-    name: 重箭王
-    aliases: []
-    description: 罗峰的奴仆之一，拥有紫钟宝物。
-    attributes:
-      实力: 封王不朽
-      关系属性: 臣服于罗峰
+- id: 重箭王
+  type: Character
+  name: 重箭王
+  aliases: []
+  description: 罗峰的奴仆之一，拥有紫钟宝物。
+  attributes:
+    实力: 封王不朽
+    关系属性: 臣服于罗峰
 
-  - id: 炼心王
-    type: Character
-    name: 炼心王
-    aliases: []
-    description: 帕罗娲族，被罗峰控制的灵魂大师奴仆。
-    attributes:
-      实力: 封王不朽
-      关系属性: 臣服于罗峰
+- id: 炼心王
+  type: Character
+  name: 炼心王
+  aliases: []
+  description: 帕罗娲族，被罗峰控制的灵魂大师奴仆。
+  attributes:
+    实力: 封王不朽
+    关系属性: 臣服于罗峰
 
-  - id: 星辰塔
-    type: Location
-    name: 星辰塔
-    aliases: []
-    description: 罗峰进行猎捕计划的地点，隐藏着星辰图和镇封星辰等宝物。
-    attributes:
-      特殊性: 关系重大，不能暴露
+- id: 星辰塔
+  type: Location
+  name: 星辰塔
+  aliases: []
+  description: 罗峰进行猎捕计划的地点，隐藏着星辰图和镇封星辰等宝物。
+  attributes:
+    特殊性: 关系重大，不能暴露
 
-  - id: 费摩毒液
-    type: Item
-    name: 费摩毒液
-    aliases: []
-    description: 强力侵蚀敌人灵魂的宝物。
+- id: 费摩毒液
+  type: Item
+  name: 费摩毒液
+  aliases: []
+  description: 强力侵蚀敌人灵魂的宝物。
 
-  - id: 镇封星辰
-    type: Item
-    name: 镇封星辰
-    aliases: []
-    description: 可以用来砸击敌人的宇宙法则宝物，但严禁使用镇压封印之能。
-    attributes:
-      特殊性: 牵扯到星辰塔的安全
+- id: 镇封星辰
+  type: Item
+  name: 镇封星辰
+  aliases: []
+  description: 可以用来砸击敌人的宇宙法则宝物，但严禁使用镇压封印之能。
+  attributes:
+    特殊性: 牵扯到星辰塔的安全
 
-  - id: 封王极限
-    type: Cultivation
-    name: 封王极限
-    aliases: []
-    description: 罗峰猎捕目标的实力等级。
+- id: 封王极限
+  type: Cultivation
+  name: 封王极限
+  aliases: []
+  description: 罗峰猎捕目标的实力等级。
 
 relationships:
-  - 主体: 罗峰
-    对象: 重箭王
-    关系类型: 雇佣
+- 主体: 罗峰
+  对象: 重箭王
+  关系类型: 雇佣
 
-  - 主体: 罗峰
-    对象: 炼心王
-    关系类型: 控制
+- 主体: 罗峰
+  对象: 炼心王
+  关系类型: 控制
 
 events:
-  - id: 猎捕计划
-    type: Event
-    name: 猎捕计划
-    description: 罗峰利用星辰塔和镇封星辰进行的猎捕活动。
-    attributes:
-      时间长度: 一个月
-      战斗次数: 46场
+- id: 猎捕计划
+  type: Event
+  name: 猎捕计划
+  description: 罗峰利用星辰塔和镇封星辰进行的猎捕活动。
+  attributes:
+    时间长度: 一个月
+    战斗次数: 46场
 
 dialogues:
-  - 主体: 罗峰
-    对象: 重箭王
-    内容: "恭喜主人。"
-  
-  - 主体: 罗峰
-    对象: 炼心王
-    内容: "炼心，你先恢复实力。"
+- 主体: 罗峰
+  对象: 重箭王
+  内容: "恭喜主人。"
+
+- 主体: 罗峰
+  对象: 炼心王
+  内容: "炼心，你先恢复实力。"
 
 timeline:
-  - 时间点: 开始前八天
-    描述: 每天三次战斗
+- 时间点: 开始前八天
+  描述: 每天三次战斗
 
-  - 时间点: 后期大半个月
-    描述: 维持每天一场战斗的强度
-  
+- 时间点: 后期大半个月
+  描述: 维持每天一场战斗的强度
+
 mysteries:
-  - 内容: 星辰塔的具体秘密和价值。
-```
+- 内容: 星辰塔的具体秘密和价值。

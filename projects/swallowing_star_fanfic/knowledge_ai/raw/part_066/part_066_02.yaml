@@ -1,64 +1,60 @@
-```yaml
 source:
   id: text991
 
 entities:
-  - id: 魔杀族分身
-    type: Character
-    name: 魔杀族分身
-    aliases: []
-    description: 正在悬浮山峰内等待空间之心成体的魔杀族分身，试图获取本源至宝的核心材料。
-    attributes:
-      实力: 祖神教不朽传承者
-      目标: 获取空间之心
+- id: 魔杀族分身
+  type: Character
+  name: 魔杀族分身
+  aliases: []
+  description: 正在悬浮山峰内等待空间之心成体的魔杀族分身，试图获取本源至宝的核心材料。
+  attributes:
+    实力: 祖神教不朽传承者
+    目标: 获取空间之心
 
-  - id: 异族尊者
-    type: Character
-    name: 异族尊者
-    aliases: []
-    description: 控制五彩渊华之地的异族强者，负责扫荡进入此地的其他传承者。
-    attributes:
-      实力: 宇宙尊者
-      目标: 获取空间之心
+- id: 异族尊者
+  type: Character
+  name: 异族尊者
+  aliases: []
+  description: 控制五彩渊华之地的异族强者，负责扫荡进入此地的其他传承者。
+  attributes:
+    实力: 宇宙尊者
+    目标: 获取空间之心
 
-  - id: 空间之心
-    type: Item
-    name: 空间之心
-    aliases: []
-    description: 构成本源至宝的核心材料，尚未完全成体。
-    attributes:
-      价值: 高等本源至宝核心材料，价值媲美弑吴羽翼
+- id: 空间之心
+  type: Item
+  name: 空间之心
+  aliases: []
+  description: 构成本源至宝的核心材料，尚未完全成体。
+  attributes:
+    价值: 高等本源至宝核心材料，价值媲美弑吴羽翼
 
 relationships:
 
 events:
-  - id: space-heart-formation
-    type: Event
-    name: 空间之心成型
-    description: 空间之心开始成型，吸引异族尊者前来查看。
-    timeline:
-      时间: 尚未完全成体
-      地点: 悬浮山峰
+- id: space-heart-formation
+  type: Event
+  name: 空间之心成型
+  description: 空间之心开始成型，吸引异族尊者前来查看。
+  timeline:
+    时间: 尚未完全成体
+    地点: 悬浮山峰
 
-  - id: confrontation-massacred
-    type: Event
-    name: 对峙与屠杀
-    description: 异族尊者在锥形山发现魔杀族分身，意图灭杀以防止消息外泄。
-    timeline:
-      时间: 空间之心成型期间
-      地点: 悬浮山峰
+- id: confrontation-massacred
+  type: Event
+  name: 对峙与屠杀
+  description: 异族尊者在锥形山发现魔杀族分身，意图灭杀以防止消息外泄。
+  timeline:
+    时间: 空间之心成型期间
+    地点: 悬浮山峰
 
 dialogues:
 
 timeline:
-  - 时间节点: 发现空间之心
-    描述: 异族尊者发现五彩渊华之地，已有3000纪元。
+- 时间节点: 发现空间之心
+  描述: 异族尊者发现五彩渊华之地，已有3000纪元。
 
 mysteries:
-  - id: space-heart-completion-time
-    type: Mystery
-    name: 空间之心何时完全成体？
-    description: 魔杀族分身急于知道空间之心何时能完全成型以获得核心材料。
-```
-
-重要信息提取完毕。
+- id: space-heart-completion-time
+  type: Mystery
+  name: 空间之心何时完全成体？
+  description: 魔杀族分身急于知道空间之心何时能完全成型以获得核心材料。

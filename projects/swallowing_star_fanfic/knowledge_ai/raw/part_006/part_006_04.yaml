@@ -1,71 +1,69 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: zhu_ge_tao
-    type: Character
-    name: 诸葛韬
-    aliases: []
-    description: 江南基地市极限武馆四大巨头之一，每天早晨看华夏电视台早间新闻。
-    attributes:
-      status: 高等战将
+- id: zhu_ge_tao
+  type: Character
+  name: 诸葛韬
+  aliases: []
+  description: 江南基地市极限武馆四大巨头之一，每天早晨看华夏电视台早间新闻。
+  attributes:
+    status: 高等战将
 
-  - id: li_wei_parents
-    type: Organization
-    name: 李威父母
-    aliases: []
-    description: HR联盟中华区执行总裁维妮娜波莱纳斯的夫妻关系，提供1000亿悬赏。
-    attributes:
-      wealth: 非常富有
+- id: li_wei_parents
+  type: Organization
+  name: 李威父母
+  aliases: []
+  description: HR联盟中华区执行总裁维妮娜波莱纳斯的夫妻关系，提供1000亿悬赏。
+  attributes:
+    wealth: 非常富有
 
-  - id: huo_chui_team_members
-    type: Character
-    name: 火锤小队队员
-    aliases: []
-    description: 包括队长、魏铁、魏青和陈哥，猜测罗峰是悬赏目标。
-    attributes:
-      suspicion_level: 高度怀疑
+- id: huo_chui_team_members
+  type: Character
+  name: 火锤小队队员
+  aliases: []
+  description: 包括队长、魏铁、魏青和陈哥，猜测罗峰是悬赏目标。
+  attributes:
+    suspicion_level: 高度怀疑
 
-  - id: li_wei_team_members
-    type: Character
-    name: 李威小队成员
-    aliases: []
-    description: 包括潘牙在内的四人被杀受害者。
-    attributes:
-      status: 已死亡
+- id: li_wei_team_members
+  type: Character
+  name: 李威小队成员
+  aliases: []
+  description: 包括潘牙在内的四人被杀受害者。
+  attributes:
+    status: 已死亡
 
-  - id: xiaoyao_news_channel
-    type: Organization
-    name: 华夏电视台
-    aliases: []
-    description: 播放HR联盟提供的新闻，影响全国民众。
+- id: xiaoyao_news_channel
+  type: Organization
+  name: 华夏电视台
+  aliases: []
+  description: 播放HR联盟提供的新闻，影响全国民众。
 
 relationships:
-  - entity1_id: zhu_ge_tao
-    entity2_id: li_wei_parents
-    type: 观察者
+- entity1_id: zhu_ge_tao
+  entity2_id: li_wei_parents
+  type: 观察者
 
-  - entity1_id: huo_chui_team_members
-    entity2_id: li_wei_team_members
-    type: 疑似凶手
+- entity1_id: huo_chui_team_members
+  entity2_id: li_wei_team_members
+  type: 疑似凶手
 
 events:
-  - name: HR联盟悬赏公告
-    description: 公布巨额悬赏，寻找杀害李威等人的凶手。
-    attributes:
-      amount: 1000亿
-      date: 文本未明确时间
-
-dialogues:
-  - speaker_id: zhu_ge_tao
-    dialogue: "啧啧，整个论坛果然热闹了。看起来，南美洲、北美洲、欧亚、非洲，各地的武者都沸腾了。不过这事情，是发生在华夏国。这笔巨额赏金，恐怕最后会落到我华夏人手里。”
-
-timeline:
-  - event_id: xiaoyao_news_channel
+- name: HR联盟悬赏公告
+  description: 公布巨额悬赏，寻找杀害李威等人的凶手。
+  attributes:
+    amount: 1000亿
     date: 文本未明确时间
 
+dialogues:
+- speaker_id: zhu_ge_tao
+  dialogue: '啧啧，整个论坛果然热闹了。看起来，南美洲、北美洲、欧亚、非洲，各地的武者都沸腾了。不过这事情，是发生在华夏国。这笔巨额赏金，恐怕最后会落到我华夏人手里。'
+
+timeline:
+- event_id: xiaoyao_news_channel
+  date: 文本未明确时间
+
 mysteries:
-  - question: 火锤小队队员如何确定罗峰就是悬赏目标？
-    answer: 尚无具体证据，仅凭猜测。
-```
+- question: 火锤小队队员如何确定罗峰就是悬赏目标？
+  answer: 尚无具体证据，仅凭猜测。

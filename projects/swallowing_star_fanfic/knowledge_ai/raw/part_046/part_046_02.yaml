@@ -1,92 +1,90 @@
-```yaml
 source:
   id: "第683章尊者的惩罚奴仆虫族母皇"
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 主角，有着《万心控魂秘法》第三层修炼成果，拥有虫族母巢。
-    attributes:
-      实力: 恒星级
-      能力: 修炼《万心控魂秘法》，控制灵魂奴隶
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 主角，有着《万心控魂秘法》第三层修炼成果，拥有虫族母巢。
+  attributes:
+    实力: 恒星级
+    能力: 修炼《万心控魂秘法》，控制灵魂奴隶
 
-  - id: 迪伦
-    type: Character
-    name: 迪伦
-    aliases: []
-    description: 罗峰的追随者，负责辅助罗峰。
-    attributes:
-      实力: 宇宙级
-      能力: 辅助罗峰控制虫族母巢
+- id: 迪伦
+  type: Character
+  name: 迪伦
+  aliases: []
+  description: 罗峰的追随者，负责辅助罗峰。
+  attributes:
+    实力: 宇宙级
+    能力: 辅助罗峰控制虫族母巢
 
-  - id: 徐欣
-    type: Character
-    name: 徐欣
-    aliases: []
-    description: 罗峰的伴侣，家族聚会的组织者。
-    attributes:
-      实力: 宇宙级
-      能力: 组织家族活动
+- id: 徐欣
+  type: Character
+  name: 徐欣
+  aliases: []
+  description: 罗峰的伴侣，家族聚会的组织者。
+  attributes:
+    实力: 宇宙级
+    能力: 组织家族活动
 
-  - id: 狄梵
-    type: Character
-    name: 狄梵
-    aliases: []
-    description: 灵魂奴隶，罗峰的手下之一。
-    attributes:
-      实力: 境界主级
-      能力: 守护罗家
+- id: 狄梵
+  type: Character
+  name: 狄梵
+  aliases: []
+  description: 灵魂奴隶，罗峰的手下之一。
+  attributes:
+    实力: 境界主级
+    能力: 守护罗家
 
-  - id: 百卡罗
-    type: Character
-    name: 百卡罗
-    aliases: []
-    description: 灵魂奴隶，罗峰的手下之一。
-    attributes:
-      实力: 境界主级
-      能力: 守护罗家
+- id: 百卡罗
+  type: Character
+  name: 百卡罗
+  aliases: []
+  description: 灵魂奴隶，罗峰的手下之一。
+  attributes:
+    实力: 境界主级
+    能力: 守护罗家
 
-  - id: 神农架古堡
-    type: Location
-    name: 神农架古堡
-    aliases: []
-    description: 古堡占地近十公里方圆，是宇宙级奴隶军团驻防的地方。
-    attributes:
-      尺寸: 十公里方圆
+- id: 神农架古堡
+  type: Location
+  name: 神农架古堡
+  aliases: []
+  description: 古堡占地近十公里方圆，是宇宙级奴隶军团驻防的地方。
+  attributes:
+    尺寸: 十公里方圆
 
-  - id: 虫族母巢
-    type: Item
-    name: 虫族母巢
-    aliases: []
-    description: 大宝物，直径超800米的圆球。
-    attributes:
-      状态: 沉睡中
+- id: 虫族母巢
+  type: Item
+  name: 虫族母巢
+  aliases: []
+  description: 大宝物，直径超800米的圆球。
+  attributes:
+    状态: 沉睡中
 
 relationships:
-  - 主人: 罗峰, 迪伦
-  - 隶属关系: 狄梵、百卡罗 -> 罗峰
-  - 联络: 徐欣 -> 家族聚会组织者
+- 主人: 罗峰, 迪伦
+- 隶属关系: 狄梵、百卡罗 -> 罗峰
+- 联络: 徐欣 -> 家族聚会组织者
 
 events:
-  - type: Family Gathering
-    name: "家族聚会"
-    description: 家族成员聚在一起。
-    timeline: 在罗峰刚从老家回来时举行。
+- type: Family Gathering
+  name: "家族聚会"
+  description: 家族成员聚在一起。
+  timeline: 在罗峰刚从老家回来时举行。
 
 dialogues:
-  - speaker: 徐欣
-    content: 这才刚回来当然得家族聚会。
-  - speaker: 罗峰
-    content: 法子，人太多。这才近500年，罗家男子就有数十万了。
-  - speaker: 徐欣
-    content: 华夏国历史上像三国时期征战杀伐，整个华夏人口当时才多少点？可繁衍过千年，照样人口超过10亿。
+- speaker: 徐欣
+  content: 这才刚回来当然得家族聚会。
+- speaker: 罗峰
+  content: 法子，人太多。这才近500年，罗家男子就有数十万了。
+- speaker: 徐欣
+  content: 华夏国历史上像三国时期征战杀伐，整个华夏人口当时才多少点？可繁衍过千年，照样人口超过10亿。
 
 timeline:
-  - 时间节点: 罗峰500年前从老家回来
-  - 时间节点: 家族聚会举行
+- 时间节点: 罗峰500年前从老家回来
+- 时间节点: 家族聚会举行
 
 mysteries:
-  - 未知信息: 控制虫族母巢中的那头母皇需要多久时间。
-```
+- 未知信息: 控制虫族母巢中的那头母皇需要多久时间。

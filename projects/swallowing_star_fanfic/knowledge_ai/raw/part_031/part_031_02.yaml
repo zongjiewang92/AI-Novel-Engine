@@ -1,60 +1,56 @@
-```yaml
 source:
   id: 第454章飞船
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      虚拟宇宙公司全宇宙总部的访客，虚拟宇宙公司的殿下。在前往全宇宙总部的过程中，他看到了漂浮在星空中的一片巨大大陆。
-    attributes:
-      - 实力: 高于界主级别
-  - id: 精瘦老者
-    type: Character
-    name: 沙戊 (精瘦老者)
-    aliases: []
-    description: >
-      负责陪同罗峰前往虚拟宇宙公司全宇宙总部的界主。
-    attributes:
-      - 实力: 界主级别
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    虚拟宇宙公司全宇宙总部的访客，虚拟宇宙公司的殿下。在前往全宇宙总部的过程中，他看到了漂浮在星空中的一片巨大大陆。
+  attributes:
+  - 实力: 高于界主级别
+- id: 精瘦老者
+  type: Character
+  name: 沙戊 (精瘦老者)
+  aliases: []
+  description: >
+    负责陪同罗峰前往虚拟宇宙公司全宇宙总部的界主。
+  attributes:
+  - 实力: 界主级别
 
 relationships:
-  - id: 罗峰与沙戊
-    type: Relationship
-    name: 指导关系
-    description: 精瘦老者在旅途中陪同罗峰，并向他介绍虚拟宇宙公司的情况。
-    attributes: []
+- id: 罗峰与沙戊
+  type: Relationship
+  name: 指导关系
+  description: 精瘦老者在旅途中陪同罗峰，并向他介绍虚拟宇宙公司的情况。
+  attributes: []
 
 events:
-  - id: 虚拟宇宙总部到达
-    type: Event
-    name: 到达虚拟宇宙公司的全宇宙总部
-    description: >
-      在飞行十三小时后，罗峰和同伴终于抵达了漂浮在星空中的巨大大陆——虚拟宇宙公司全宇宙总部。
-    attributes:
-      - 时间: 十三小时
+- id: 虚拟宇宙总部到达
+  type: Event
+  name: 到达虚拟宇宙公司的全宇宙总部
+  description: >
+    在飞行十三小时后，罗峰和同伴终于抵达了漂浮在星空中的巨大大陆——虚拟宇宙公司全宇宙总部。
+  attributes:
+  - 时间: 十三小时
 
 dialogues:
-  - id: 罗峰与精瘦老者
-    type: Dialogue
-    content: >
-      "殿下，在总部大陆周围的那些恒星、行星、陨石等天体，实际上都是非常可怕的科技武器。"
-      "哦？以公司手段，那些恒星行星的确就跟玩具一样任由揉捏。"
-  - id: 罗峰与银袍青角男子
-    type: Dialogue
-    content: >
-      "罗峰殿下，请跟我来。" (银袍青角男子)
-      "嗯。" (罗峰)
+- id: 罗峰与精瘦老者
+  type: Dialogue
+  content: >
+    "殿下，在总部大陆周围的那些恒星、行星、陨石等天体，实际上都是非常可怕的科技武器。" "哦？以公司手段，那些恒星行星的确就跟玩具一样任由揉捏。"
+- id: 罗峰与银袍青角男子
+  type: Dialogue
+  content: >
+    "罗峰殿下，请跟我来。" (银袍青角男子) "嗯。" (罗峰)
 
 timeline:
-  - 时间点1: 开始进行宇宙穿梭，进入原宇宙。
-  - 时间点2: 十三小时后抵达全宇宙总部。
+- 时间点1: 开始进行宇宙穿梭，进入原宇宙。
+- 时间点2: 十三小时后抵达全宇宙总部。
 
 mysteries:
-  - id: 大陆来源
-    type: Mystery
-    content: >
-      这片漂浮在星空中巨大无比的大陆究竟是如何形成的？虚拟宇宙公司是如何建造它的？
-```
+- id: 大陆来源
+  type: Mystery
+  content: >
+    这片漂浮在星空中巨大无比的大陆究竟是如何形成的？虚拟宇宙公司是如何建造它的？

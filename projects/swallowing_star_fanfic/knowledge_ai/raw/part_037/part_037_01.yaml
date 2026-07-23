@@ -1,121 +1,119 @@
-```yaml
 source:
   id: origin_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 血神卫，青铜战衣装束。
-    attributes:
-      实力: 界主三阶
-      地位: 血神卫
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 血神卫，青铜战衣装束。
+  attributes:
+    实力: 界主三阶
+    地位: 血神卫
 
-  - id: 霸戚
-    type: Character
-    name: 霸戚
-    aliases: [血神霸戚]
-    description: 著名的世界主，曾是界主巅峰。
-    attributes:
-      实力: 界主巅峰
-      地位: 血神
+- id: 霸戚
+  type: Character
+  name: 霸戚
+  aliases: [ 血神霸戚 ]
+  description: 著名的世界主，曾是界主巅峰。
+  attributes:
+    实力: 界主巅峰
+    地位: 血神
 
-  - id: 库闫
-    type: Character
-    name: 库闫
-    aliases: [狐媚青年]
-    description: 不朽神殿的世界主，因获得兽神雕像而受到奖励。
-    attributes:
-      实力: 界主三阶
-      地位: 世界主
+- id: 库闫
+  type: Character
+  name: 库闫
+  aliases: [ 狐媚青年 ]
+  description: 不朽神殿的世界主，因获得兽神雕像而受到奖励。
+  attributes:
+    实力: 界主三阶
+    地位: 世界主
 
-  - id: 狱轲
-    type: Character
-    name: 狱轲
-    aliases: [特使首领]
-    description: 白袍狱轲，负责将血洛勋章带给霸戚。
-    attributes:
-      实力: 未知
-      地位: 特使
+- id: 狱轲
+  type: Character
+  name: 狱轲
+  aliases: [ 特使首领 ]
+  description: 白袍狱轲，负责将血洛勋章带给霸戚。
+  attributes:
+    实力: 未知
+    地位: 特使
 
-  - id: 岐牛
-    type: Character
-    name: 岐牛
-    aliases: [荒兽岐牛]
-    description: 霸戚的兄弟，是一头强大的荒兽。
-    attributes:
-      实力: 强大的荒兽
-      地位: 特使
+- id: 岐牛
+  type: Character
+  name: 岐牛
+  aliases: [ 荒兽岐牛 ]
+  description: 霸戚的兄弟，是一头强大的荒兽。
+  attributes:
+    实力: 强大的荒兽
+    地位: 特使
 
-  - id: 兽神雕像
-    type: Item
-    name: 兽神雕像
-    aliases: []
-    description: 半透明金色材质的神秘古老雕像，象征价值极高。
-    attributes:
-      材质: 半透明金色
-      功能: 纪念价值
+- id: 兽神雕像
+  type: Item
+  name: 兽神雕像
+  aliases: []
+  description: 半透明金色材质的神秘古老雕像，象征价值极高。
+  attributes:
+    材质: 半透明金色
+    功能: 纪念价值
 
-  - id: 血洛勋章
-    type: Item
-    name: 血洛勋章
-    aliases: []
-    description: 血神霸戚奖励给罗峰的物品。
+- id: 血洛勋章
+  type: Item
+  name: 血洛勋章
+  aliases: []
+  description: 血神霸戚奖励给罗峰的物品。
 
-  - id: 不朽神殿
-    type: Organization
-    name: 不朽神殿
-    aliases: []
-    description: 神圣之地，拥有兽神雕像等宝物。
-    attributes:
-      地位: 高级
+- id: 不朽神殿
+  type: Organization
+  name: 不朽神殿
+  aliases: []
+  description: 神圣之地，拥有兽神雕像等宝物。
+  attributes:
+    地位: 高级
 
 relationships:
-  - 主体: 罗峰
-    客体: 霸戚
-    关系类型: 上司关系
-    描述: 罗峰是霸戚手下的血神卫。
+- 主体: 罗峰
+  客体: 霸戚
+  关系类型: 上司关系
+  描述: 罗峰是霸戚手下的血神卫。
 
-  - 主体: 库闫
-    客体: 不朽神殿
-    关系类型: 从属关系
-    描述: 库闫是从属于不朽神殿的世界主，获得兽神雕像后得到奖励。
+- 主体: 库闫
+  客体: 不朽神殿
+  关系类型: 从属关系
+  描述: 库闫是从属于不朽神殿的世界主，获得兽神雕像后得到奖励。
 
 events:
-  - 名称: 罗峰拜见霸戚
-    时间点: 持续中
-    参与者: 罗峰, 霸戚
-    描述: 罗峰等待血洛勋章的发放，定期去巨坑之府拜见霸戚。
+- 名称: 罗峰拜见霸戚
+  时间点: 持续中
+  参与者: 罗峰, 霸戚
+  描述: 罗峰等待血洛勋章的发放，定期去巨坑之府拜见霸戚。
 
-  - 名称: 特使到达
-    时间点: 到达后立即发生
-    参与者: 库闫, 狱轲
-    描述: 特使团队带着兽神雕像和血洛勋章来到巨坑上方，准备将物品交给血神霸戚。
+- 名称: 特使到达
+  时间点: 到达后立即发生
+  参与者: 库闫, 狱轲
+  描述: 特使团队带着兽神雕像和血洛勋章来到巨坑上方，准备将物品交给血神霸戚。
 
-  - 名称: 见面会
-    时间点: 即刻发生
-    参与者: 霸戚, 库闫, 狱轲
-    描述: 特使团队带着库闫前往见血神霸戚，展示兽神雕像给众人观赏。
+- 名称: 见面会
+  时间点: 即刻发生
+  参与者: 霸戚, 库闫, 狱轲
+  描述: 特使团队带着库闫前往见血神霸戚，展示兽神雕像给众人观赏。
 
 dialogues:
-  - 发言人: 罗峰
-    对象: 霸戚
-    内容: "大人。"
-    场景描述: 罗峰收到传唤后立刻赶往巨坑之府见血神霸戚。
-  
-  - 发言人: 库闫
-    对象: 白袍狱轲
-    内容: "哈哈，狱轲。竟然这么巧。"
-    场景描述: 狐媚青年库闫碰面白袍狱轲时的惊喜问候。
+- 发言人: 罗峰
+  对象: 霸戚
+  内容: "大人。"
+  场景描述: 罗峰收到传唤后立刻赶往巨坑之府见血神霸戚。
+
+- 发言人: 库闫
+  对象: 白袍狱轲
+  内容: "哈哈，狱轲。竟然这么巧。"
+  场景描述: 狐媚青年库闫碰面白袍狱轲时的惊喜问候。
 
 timeline:
-  - 时间点: 起始时间
-    描述: 罗峰在巨坑之府等待血洛勋章发放。
-  
-  - 时间点: 特使到达后
-    描述: 库闫和特使团队带著兽神雕像前来见霸戚。
+- 时间点: 起始时间
+  描述: 罗峰在巨坑之府等待血洛勋章发放。
+
+- 时间点: 特使到达后
+  描述: 库闫和特使团队带著兽神雕像前来见霸戚。
 
 mysteries:
-  - 内容: 兽神雕像的下落和意义。
-```
+- 内容: 兽神雕像的下落和意义。

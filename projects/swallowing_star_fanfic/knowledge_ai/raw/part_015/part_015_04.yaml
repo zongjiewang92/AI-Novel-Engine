@@ -1,106 +1,104 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      主角，陨墨星主人的弟子。
-    attributes:
-      实力: 行星级
-      装备: 黑神套装（防御战甲）、弧刀盘（攻击兵器）
-      修炼能量: 木伢晶
-      储物器物: 空间戒指
-      战斗伙伴: 摩云藤幼体
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    主角，陨墨星主人的弟子。
+  attributes:
+    实力: 行星级
+    装备: 黑神套装（防御战甲）、弧刀盘（攻击兵器）
+    修炼能量: 木伢晶
+    储物器物: 空间戒指
+    战斗伙伴: 摩云藤幼体
 
-  - id: 巴巴塔
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: >
-      陨墨星号的智能生命，负责指导罗峰。
-    attributes:
-      身份: 智能生命、虚拟存在
+- id: 巴巴塔
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: >
+    陨墨星号的智能生命，负责指导罗峰。
+  attributes:
+    身份: 智能生命、虚拟存在
 
-  - id: 陨墨星主人
-    type: Character
-    name: 陨墨星主人
-    aliases: [老师]
-    description: >
-      罗峰的师父，陨墨星号的拥有者。
-    attributes:
-      实力: 不朽级
-      财富: 过半财富用于培养摩云藤
+- id: 陨墨星主人
+  type: Character
+  name: 陨墨星主人
+  aliases: [ 老师 ]
+  description: >
+    罗峰的师父，陨墨星号的拥有者。
+  attributes:
+    实力: 不朽级
+    财富: 过半财富用于培养摩云藤
 
-  - id: 摩云藤
-    type: Item
-    name: 摩云藤
-    aliases: []
-    description: >
-      宇宙中受欢迎的植物生命，可以进化为宇宙级或不朽。
-    attributes:
-      起源: 主人的培养物
+- id: 摩云藤
+  type: Item
+  name: 摩云藤
+  aliases: []
+  description: >
+    宇宙中受欢迎的植物生命，可以进化为宇宙级或不朽。
+  attributes:
+    起源: 主人的培养物
 
-  - id: 黑神套装
-    type: Item
-    name: 黑神套装
-    aliases: []
-    description: 防御战甲，适用于行星级。
+- id: 黑神套装
+  type: Item
+  name: 黑神套装
+  aliases: []
+  description: 防御战甲，适用于行星级。
 
-  - id: 弧刀盘
-    type: Item
-    name: 弧刀盘
-    aliases: []
-    description: >
-      行星级使用的基础兵器。
-    attributes:
-      起源: 主人提供
+- id: 弧刀盘
+  type: Item
+  name: 弧刀盘
+  aliases: []
+  description: >
+    行星级使用的基础兵器。
+  attributes:
+    起源: 主人提供
 
-  - id: 遁天梭
-    type: Item
-    name: 遁天梭
-    aliases: []
-    description: >
-      罗峰的飞船残片，其材质极为贵重。
-    attributes:
-      材质: 赤混铜母
+- id: 遁天梭
+  type: Item
+  name: 遁天梭
+  aliases: []
+  description: >
+    罗峰的飞船残片，其材质极为贵重。
+  attributes:
+    材质: 赤混铜母
 
 locations:
-  - id: 地底一万五千多米深处
-    type: Location
-    name: 地底一万五千多米深处
-    aliases: []
-    description: >
-      飞船内部，存放不朽强者尸体的地方。
+- id: 地底一万五千多米深处
+  type: Location
+  name: 地底一万五千多米深处
+  aliases: []
+  description: >
+    飞船内部，存放不朽强者尸体的地方。
 
 items:
-  - id: 木伢晶
-    type: Item
-    name: 木伢晶
-    aliases: []
-    description: >
-      提供修炼能量的宝物。
-    attributes:
-      起源: 主人提供
+- id: 木伢晶
+  type: Item
+  name: 木伢晶
+  aliases: []
+  description: >
+    提供修炼能量的宝物。
+  attributes:
+    起源: 主人提供
 
 organizations:
-  - id: 宇宙星河银行
-    type: Organization
-    name: 宇宙星河银行
-    aliases: []
-    description: >
-      为主人预留了三个账号，分别对应不同实力阶段。
+- id: 宇宙星河银行
+  type: Organization
+  name: 宇宙星河银行
+  aliases: []
+  description: >
+    为主人预留了三个账号，分别对应不同实力阶段。
 
 civilizations:
-  - id: 人类文明
-    type: Civilization
-    name: 人类文明
+- id: 人类文明
+  type: Civilization
+  name: 人类文明
 
 species:
-  - id: 机械族
-    type: Species
-    name: 机械族
-```
+- id: 机械族
+  type: Species
+  name: 机械族

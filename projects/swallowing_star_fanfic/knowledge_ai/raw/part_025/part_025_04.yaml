@@ -1,82 +1,78 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: rofei
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 成为三星级客户的宇宙强者，拥有参与乾巫拍卖会的资格。
-    attributes:
-      - 实力: 拥有界主级别实力
-      - 身份: 三星级客户
+- id: rofei
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 成为三星级客户的宇宙强者，拥有参与乾巫拍卖会的资格。
+  attributes:
+  - 实力: 拥有界主级别实力
+  - 身份: 三星级客户
 
-  - id: ba_ba_ta
-    type: character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的虚拟宇宙智能助手，为罗峰提供信息和建议。
-    attributes:
-      - 性质: 虚拟宇宙公司提供的智能辅助程序
+- id: ba_ba_ta
+  type: character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的虚拟宇宙智能助手，为罗峰提供信息和建议。
+  attributes:
+  - 性质: 虚拟宇宙公司提供的智能辅助程序
 
-  - id: yu_zhou_xing_he_yin_hang
-    type: organization
-    name: 宇宙星河银行
-    aliases: []
-    description: 提供金融投资服务，设立三星级客户制度。
-    attributes:
-      - 职能: 管理和提供金融服务
+- id: yu_zhou_xing_he_yin_hang
+  type: organization
+  name: 宇宙星河银行
+  aliases: []
+  description: 提供金融投资服务，设立三星级客户制度。
+  attributes:
+  - 职能: 管理和提供金融服务
 
-  - id: ji_wu_douwu_chang
-    type: organization
-    name: 巨斧斗武场
-    aliases: []
-    description: 提供生死决斗直播服务，罗峰成为青铜会员。
-    attributes:
-      - 职能: 组织宇宙级的生死决斗
+- id: ji_wu_douwu_chang
+  type: organization
+  name: 巨斧斗武场
+  aliases: []
+  description: 提供生死决斗直播服务，罗峰成为青铜会员。
+  attributes:
+  - 职能: 组织宇宙级的生死决斗
 
-  - id: yu_zhou_xin_wu_gong_she
-    type: organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 提供虚拟宇宙服务，举办乾巫拍卖会。
-    attributes:
-      - 职能: 管理虚拟宇宙平台及举办拍卖会
+- id: yu_zhou_xin_wu_gong_she
+  type: organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 提供虚拟宇宙服务，举办乾巫拍卖会。
+  attributes:
+  - 职能: 管理虚拟宇宙平台及举办拍卖会
 
 relationships:
-  - entity1_id: rofei
-    entity2_id: ba_ba_ta
-    type: 主从关系
-    description: 巴巴塔为罗峰提供辅助和支持。
-  
-  - entity1_id: yu_zhou_xin_wu_gong_she
-    entity2_id: ji_wu_douwu_chang
-    type: 合作关系
-    description: 虚拟宇宙公司与巨斧斗武场有合作关系。
+- entity1_id: rofei
+  entity2_id: ba_ba_ta
+  type: 主从关系
+  description: 巴巴塔为罗峰提供辅助和支持。
+
+- entity1_id: yu_zhou_xin_wu_gong_she
+  entity2_id: ji_wu_douwu_chang
+  type: 合作关系
+  description: 虚拟宇宙公司与巨斧斗武场有合作关系。
 
 events:
-  - id: dai_ji_san_xing_ke_hu
-    name: 第一次成为三星级客户
-    attributes:
-      - 时间: 文章开始提及的时间点
-      - 影响: 罗峰获得参与乾巫拍卖会的资格
+- id: dai_ji_san_xing_ke_hu
+  name: 第一次成为三星级客户
+  attributes:
+  - 时间: 文章开始提及的时间点
+  - 影响: 罗峰获得参与乾巫拍卖会的资格
 
-  - id: ji_wu_douwu_chang_bao_ming
-    name: 巨斧斗武场会员赠予
-    attributes:
-      - 时间: 成为三星级客户的同时
-      - 影响: 获得巨斧斗武场青铜会员资格，可免费观看生死决斗直播
+- id: ji_wu_douwu_chang_bao_ming
+  name: 巨斧斗武场会员赠予
+  attributes:
+  - 时间: 成为三星级客户的同时
+  - 影响: 获得巨斧斗武场青铜会员资格，可免费观看生死决斗直播
 
 timeline:
-  - event_id: dai_ji_san_xing_ke_hu
-    time: 文章开始提及的时间点
-  - event_id: ji_wu_douwu_chang_bao_ming
-    time: 成为三星级客户的同时
+- event_id: dai_ji_san_xing_ke_hu
+  time: 文章开始提及的时间点
+- event_id: ji_wu_douwu_chang_bao_ming
+  time: 成为三星级客户的同时
 
 mysteries:
-  - id: qian_wu_aupinghui_baohu
-    description: 下一届乾巫拍卖会将在两年零一个月后举行，其中将会有许多珍贵的宝物。
-
-```
-请注意：以上信息来自原文内容提取，并按照要求整理为YAML格式。
+- id: qian_wu_aupinghui_baohu
+  description: 下一届乾巫拍卖会将在两年零一个月后举行，其中将会有许多珍贵的宝物。

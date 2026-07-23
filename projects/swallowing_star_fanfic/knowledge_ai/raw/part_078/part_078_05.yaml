@@ -1,106 +1,104 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 宇宙之主级别的强者，曾跟随原祖修炼。
-    attributes:
-      实力: 宇宙之主
-      身份: 弟子
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 宇宙之主级别的强者，曾跟随原祖修炼。
+  attributes:
+    实力: 宇宙之主
+    身份: 弟子
 
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 原祖的弟子，教导罗峰关于宇宙海的知识。
-    attributes:
-      实力: 宇宙之主级别
-      身份: 教师
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 原祖的弟子，教导罗峰关于宇宙海的知识。
+  attributes:
+    实力: 宇宙之主级别
+    身份: 教师
 
-  - id: 原祖
-    type: Character
-    name: 原祖
-    aliases: []
-    description: 曾经的强者，罗峰和混沌城主共同的老师。
-    attributes:
-      实力: 宇宙最强者
-      身份: 强者
+- id: 原祖
+  type: Character
+  name: 原祖
+  aliases: []
+  description: 曾经的强者，罗峰和混沌城主共同的老师。
+  attributes:
+    实力: 宇宙最强者
+    身份: 强者
 
-  - id: 小型宇宙
-    type: Location
-    name: 小型宇宙
-    aliases: []
-    description: 已陨落破败的小型宇宙，直径约1亿光年。
-    attributes:
-      状态: 破败
-      直径: 大约1亿光年
+- id: 小型宇宙
+  type: Location
+  name: 小型宇宙
+  aliases: []
+  description: 已陨落破败的小型宇宙，直径约1亿光年。
+  attributes:
+    状态: 破败
+    直径: 大约1亿光年
 
-  - id: 原始宇宙
-    type: Location
-    name: 原始宇宙
-    aliases: []
-    description: 孵育亿万族群的摇篮，膜壁洞口巨大而残破。
-    attributes:
-      状态: 衰落中
-      特点: 残破的膜壁和天然虫洞
+- id: 原始宇宙
+  type: Location
+  name: 原始宇宙
+  aliases: []
+  description: 孵育亿万族群的摇篮，膜壁洞口巨大而残破。
+  attributes:
+    状态: 衰落中
+    特点: 残破的膜壁和天然虫洞
 
-  - id: 宇宙海
-    type: Location
-    name: 宇宙海
-    aliases: []
-    description: 遍布混沌气流的巨大空间。
-    attributes:
-      状态: 蔑视宇宙之主的存在
-      特点: 混沌气体
+- id: 宇宙海
+  type: Location
+  name: 宇宙海
+  aliases: []
+  description: 遍布混沌气流的巨大空间。
+  attributes:
+    状态: 蔑视宇宙之主的存在
+    特点: 混沌气体
 
-  - id: 天然虫洞
-    type: Location
-    name: 天然虫洞
-    aliases: []
-    description: 位于原始宇宙膜壁上的空间通道，共有39个。
-    attributes:
-      数量: 39个
-      特点: 大小不一，距离不同
+- id: 天然虫洞
+  type: Location
+  name: 天然虫洞
+  aliases: []
+  description: 位于原始宇宙膜壁上的空间通道，共有39个。
+  attributes:
+    数量: 39个
+    特点: 大小不一，距离不同
 
 relationships:
-  - id: 罗峰与混沌城主关系
-    type: Relationship
-    description: 混沌城主教导罗峰关于宇宙海的知识。
+- id: 罗峰与混沌城主关系
+  type: Relationship
+  description: 混沌城主教导罗峰关于宇宙海的知识。
 
-  - id: 原祖与罗峰关系
-    type: Relationship
-    description: 原祖是罗峰的老师。
-    
+- id: 原祖与罗峰关系
+  type: Relationship
+  description: 原祖是罗峰的老师。
+
 events:
-  - id: 罗峰观看原始宇宙膜壁
-    type: Event
-    description: 罗峰和混沌城主通过天然虫洞瞬移到原始宇宙膜壁附近。
+- id: 罗峰观看原始宇宙膜壁
+  type: Event
+  description: 罗峰和混沌城主通过天然虫洞瞬移到原始宇宙膜壁附近。
 
-  - id: 观察破败的小型宇宙
-    type: Event
-    description: 混沌城主带罗峰观察一个直径约1亿光年的破败小型宇宙，该小型宇宙处于崩溃进程中。
-    
+- id: 观察破败的小型宇宙
+  type: Event
+  description: 混沌城主带罗峰观察一个直径约1亿光年的破败小型宇宙，该小型宇宙处于崩溃进程中。
+
 dialogues:
-  - speaker: 罗峰
-    listener: 混沌城主
-    content: "啊！"
-    context: 发现前方不远处的小型宇宙时的惊讶。
+- speaker: 罗峰
+  listener: 混沌城主
+  content: "啊！"
+  context: 发现前方不远处的小型宇宙时的惊讶。
 
-  - speaker: 混沌城主
-    listener: 罗峰
-    content: "即使是宇宙最强者，乃至大破灭之前的宇宙最强者。也没听说有谁敢和原始宇宙对抗！老师是唯一一个。"
-    context: 解释为什么原祖敢于抵抗原始宇宙。
-    
+- speaker: 混沌城主
+  listener: 罗峰
+  content: "即使是宇宙最强者，乃至大破灭之前的宇宙最强者。也没听说有谁敢和原始宇宙对抗！老师是唯一一个。"
+  context: 解释为什么原祖敢于抵抗原始宇宙。
+
 timeline:
-  - event: 罗峰观看原始宇宙膜壁
-    time: 多天时间后
+- event: 罗峰观看原始宇宙膜壁
+  time: 多天时间后
 
 mysteries:
-  - id: 宇宙时代的秘密
-    type: Mystery
-    description: 混沌城主提到三大宇宙时代，而其他所有前代宇宙时代全部湮灭。
-```
+- id: 宇宙时代的秘密
+  type: Mystery
+  description: 混沌城主提到三大宇宙时代，而其他所有前代宇宙时代全部湮灭。

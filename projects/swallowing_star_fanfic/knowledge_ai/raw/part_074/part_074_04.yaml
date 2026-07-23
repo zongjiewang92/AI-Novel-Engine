@@ -1,53 +1,51 @@
-```yaml
 source:
   id: 第1120章宇宙尊者血云殿
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 地球人，金角巨兽的操控者。
-    attributes:
-      实力: 宇宙霸主级实力,可能接近宇宙之主
-      能力: 操控金角巨兽,意识连接虚拟宇宙
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 地球人，金角巨兽的操控者。
+  attributes:
+    实力: 宇宙霸主级实力,可能接近宇宙之主
+    能力: 操控金角巨兽,意识连接虚拟宇宙
 
-  - id: 黑天领主
-    type: Character
-    name: 黑天领主
-    aliases: []
-    description: 神体庞大的顶尖宇宙霸主，被黑天尊者所用。
-    attributes:
-      实力: 宇宙之主级实力,神体庞大
+- id: 黑天领主
+  type: Character
+  name: 黑天领主
+  aliases: []
+  description: 神体庞大的顶尖宇宙霸主，被黑天尊者所用。
+  attributes:
+    实力: 宇宙之主级实力,神体庞大
 
-  - id: 血云殿
-    type: Location
-    name: 血云殿
-    aliases: []
-    description: 传说中的飞行宫殿类至宝，血红色的巨大宫殿。
+- id: 血云殿
+  type: Location
+  name: 血云殿
+  aliases: []
+  description: 传说中的飞行宫殿类至宝，血红色的巨大宫殿。
 
 relationships:
-  - 主体: 罗峰
-    客体: 黑天领主
-    关系类型: 对抗
+- 主体: 罗峰
+  客体: 黑天领主
+  关系类型: 对抗
 
 events:
-  - id: 第五块黑色金属板的寻找
-    type: Event
-    description: 罗峰操控金角巨兽寻找第五块黑色金属板。
-    attributes:
-      时间线位置: 后期
+- id: 第五块黑色金属板的寻找
+  type: Event
+  description: 罗峰操控金角巨兽寻找第五块黑色金属板。
+  attributes:
+    时间线位置: 后期
 
 dialogues:
-  - 主体: 黑天领主
-    客体: 金角巨兽（罗峰）
-    内容: "这里不是你来的地方，你比我强，我佩服你的实力，可如果不想死，还是离开吧。"
-    意义: 警告和劝退
+- 主体: 黑天领主
+  客体: 金角巨兽（罗峰）
+  内容: "这里不是你来的地方，你比我强，我佩服你的实力，可如果不想死，还是离开吧。"
+  意义: 警告和劝退
 
 timeline:
-  - 时间点: 半小时前进
-    事件描述: 金角巨兽到达血云殿门口。
+- 时间点: 半小时前进
+  事件描述: 金角巨兽到达血云殿门口。
 
 mysteries:
-  - 内容: 血云殿主的真实身份、来历与真正实力。
-```
+- 内容: 血云殿主的真实身份、来历与真正实力。

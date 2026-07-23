@@ -1,117 +1,115 @@
-```yaml
 source:
   id: 文本来源
 
 entities:
-  - id: 贝迪
-    type: Character
-    name: 贝迪
-    aliases: []
-    description: 三阶界兽，曾与银河领主交战。
-    attributes:
-      实力: 三阶界兽
-      战略思维: 吞吃威胁到自己的二、三阶界兽来增强自己
+- id: 贝迪
+  type: Character
+  name: 贝迪
+  aliases: []
+  description: 三阶界兽，曾与银河领主交战。
+  attributes:
+    实力: 三阶界兽
+    战略思维: 吞吃威胁到自己的二、三阶界兽来增强自己
 
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 宇宙之主，银河领主。
-    attributes:
-      实力: 宇宙之主
-      战略目标: 成为真神以对抗界兽
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 宇宙之主，银河领主。
+  attributes:
+    实力: 宇宙之主
+    战略目标: 成为真神以对抗界兽
 
-  - id: 苍老祖神
-    type: Character
-    name: 苍老祖神
-    aliases: []
-    description: 祖神宫中的一位长老。
-    attributes:
-      关系: 宇宙海各族的领导者之一
-      担忧事项: 银河领主能否成为真神
+- id: 苍老祖神
+  type: Character
+  name: 苍老祖神
+  aliases: []
+  description: 祖神宫中的一位长老。
+  attributes:
+    关系: 宇宙海各族的领导者之一
+    担忧事项: 银河领主能否成为真神
 
-  - id: 少年祖神
-    type: Character
-    name: 少年祖神
-    aliases: []
-    description: 祖神宫中的一位年轻领袖。
-    attributes:
-      关系: 宇宙海各族的领导者之一
-      担忧事项: 银河领主能否成为真神
+- id: 少年祖神
+  type: Character
+  name: 少年祖神
+  aliases: []
+  description: 祖神宫中的一位年轻领袖。
+  attributes:
+    关系: 宇宙海各族的领导者之一
+    担忧事项: 银河领主能否成为真神
 
-  - id: 双面祖神
-    type: Character
-    name: 双面祖神
-    aliases: []
-    description: 祖神宫中的一位领袖。
-    attributes:
-      关系: 宇宙海各族的领导者之一
-      担忧事项: 银河领主能否成为真神
+- id: 双面祖神
+  type: Character
+  name: 双面祖神
+  aliases: []
+  description: 祖神宫中的一位领袖。
+  attributes:
+    关系: 宇宙海各族的领导者之一
+    担忧事项: 银河领主能否成为真神
 
-  - id: 真衍之主
-    type: Character
-    name: 真衍之主
-    aliases: []
-    description: 罗峰的导师，对弟子充满期待。
-    attributes:
-      关系: 罗峰的老师和精神支柱
-      担忧事项: 银河领主能否成为真神
+- id: 真衍之主
+  type: Character
+  name: 真衍之主
+  aliases: []
+  description: 罗峰的导师，对弟子充满期待。
+  attributes:
+    关系: 罗峰的老师和精神支柱
+    担忧事项: 银河领主能否成为真神
 
-  - id: 紫月始祖
-    type: Character
-    name: 紫月始祖
-    aliases: []
-    description: 始祖树上的领导者之一。
-    attributes:
-      关系: 宇宙海各族的领导者之一
-      担忧事项: 银河领主能否成为真神
+- id: 紫月始祖
+  type: Character
+  name: 紫月始祖
+  aliases: []
+  description: 始祖树上的领导者之一。
+  attributes:
+    关系: 宇宙海各族的领导者之一
+    担忧事项: 银河领主能否成为真神
 
-  - id: 东帝始祖
-    type: Character
-    name: 东帝始祖
-    aliases: []
-    description: 始祖树上的领导者。
-    attributes:
-      关系: 宇宙海各族的领导者之一
-      担忧事项: 银河领主能否成为真神
+- id: 东帝始祖
+  type: Character
+  name: 东帝始祖
+  aliases: []
+  description: 始祖树上的领导者。
+  attributes:
+    关系: 宇宙海各族的领导者之一
+    担忧事项: 银河领主能否成为真神
 
-  - id: 神眼真主
-    type: Character
-    name: 神眼真主
-    aliases: []
-    description: 宇宙海各族的重要人物。
-    attributes:
-      关系: 宇宙海各族的领导者之一
-      担忧事项: 银河领主能否成为真神
+- id: 神眼真主
+  type: Character
+  name: 神眼真主
+  aliases: []
+  description: 宇宙海各族的重要人物。
+  attributes:
+    关系: 宇宙海各族的领导者之一
+    担忧事项: 银河领主能否成为真神
 
-  - id: 黑纹石柱
-    type: Location
-    name: 黒纹石柱
-    aliases: []
-    description: 宇宙舟内的奇特存在，能加速时间流逝。
-    attributes:
-      特性: 能够产生强大意志冲击和时间流速加快
+- id: 黑纹石柱
+  type: Location
+  name: 黒纹石柱
+  aliases: []
+  description: 宇宙舟内的奇特存在，能加速时间流逝。
+  attributes:
+    特性: 能够产生强大意志冲击和时间流速加快
 
 relationships:
-  - 主体: 罗峰
-    对象: 双面祖神
-    关系类型: 导师-弟子关系
-    描述: 真衍之主希望罗峰能成为真神以对抗界兽。
+- 主体: 罗峰
+  对象: 双面祖神
+  关系类型: 导师-弟子关系
+  描述: 真衍之主希望罗峰能成为真神以对抗界兽。
 
 events:
-  - id: 摩罗撒败退
-    type: Event
-    name: 摩罗撒败退
-    description: 界兽摩罗撒被银河领主击败。
-    timeline: 首次界兽与宇宙海生命接触的事件
+- id: 摩罗撒败退
+  type: Event
+  name: 摩罗撒败退
+  description: 界兽摩罗撒被银河领主击败。
+  timeline: 首次界兽与宇宙海生命接触的事件
 
 dialogues:
 
 timeline:
-  - 时间点: 文本未明确时间点
-    描述: 宇宙海各族对银河领主能否成为真神充满期待。
+- 时间点: 文本未明确时间点
+  描述: 宇宙海各族对银河领主能否成为真神充满期待。
 
 mysteries:
-  - id: 罗峰为何未能突破为真神
-    description: 银河领主罗峰的实力已经非常强大，但为何尚未突破为真神？
-```
+- id: 罗峰为何未能突破为真神
+  description: 银河领主罗峰的实力已经非常强大，但为何尚未突破为真神？

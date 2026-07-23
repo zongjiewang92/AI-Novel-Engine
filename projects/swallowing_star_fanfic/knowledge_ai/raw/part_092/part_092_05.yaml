@@ -1,4 +1,4 @@
-```yaml
+
 source:
   id: 第1397章
 
@@ -79,8 +79,7 @@ timeline:
 mysteries:
   - id: 鱼罗的死亡原因
     description: 关于鱼罗在任务中死去的具体情形，外界并不知情。
-```
-```yaml
+
 source:
   id: 第1398章
 
@@ -152,4 +151,3 @@ mysteries:
   - id: 鱼罗死亡细节未知
     description: 关于鱼罗在任务中死去的具体情形，外界并不知情。
 
-```

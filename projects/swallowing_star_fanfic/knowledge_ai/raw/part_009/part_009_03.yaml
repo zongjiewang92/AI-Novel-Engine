@@ -1,58 +1,56 @@
-```yaml
 source:
   id: "原文"
 
 entities:
-  - id: "罗峰"
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有九重雷刀，正在努力提升自己的战力振幅以获得巨额奖励。
-    attributes:
-      实力: 第四重拳力发力等级3.5, 试炼塔等级3.4
-      目标: 达到12的战力振幅以获取高额奖励
+- id: "罗峰"
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有九重雷刀，正在努力提升自己的战力振幅以获得巨额奖励。
+  attributes:
+    实力: 第四重拳力发力等级3.5, 试炼塔等级3.4
+    目标: 达到12的战力振幅以获取高额奖励
 
-  - id: "极限武馆"
-    type: Organization
-    name: 极限武馆
-    aliases: []
-    description: 与学员签订合同，提供试炼塔等设施。
-    attributes:
-      合同要求: 学员在8月1号前战力振幅达到12可以获得巨额奖励
+- id: "极限武馆"
+  type: Organization
+  name: 极限武馆
+  aliases: []
+  description: 与学员签订合同，提供试炼塔等设施。
+  attributes:
+    合同要求: 学员在8月1号前战力振幅达到12可以获得巨额奖励
 
-  - id: "九重雷刀"
-    type: Ability
-    name: 九重雷刀
-    aliases: []
-    description: 罗峰正在修炼的秘籍，分多个阶段。
-    attributes:
-      阶段: 第四重
+- id: "九重雷刀"
+  type: Ability
+  name: 九重雷刀
+  aliases: []
+  description: 罗峰正在修炼的秘籍，分多个阶段。
+  attributes:
+    阶段: 第四重
 
 relationships:
-  - 主体: 罗峰
-    关系类型: 所属组织
-    客体: 极限武馆
+- 主体: 罗峰
+  关系类型: 所属组织
+  客体: 极限武馆
 
 events:
-  - id: "罗峰悟透第四重"
-    type: Event
-    description: 罗峰成功悟透九重雷刀的第四重，拳力发力达到3.5。
-    timeline: 当前时间点
+- id: "罗峰悟透第四重"
+  type: Event
+  description: 罗峰成功悟透九重雷刀的第四重，拳力发力达到3.5。
+  timeline: 当前时间点
 
-  - id: "极限武馆合同奖励"
-    type: Event
-    description: 极限武馆提供高额奖励给达到战力振幅12的学员。
-    timeline: 8月1号之前
+- id: "极限武馆合同奖励"
+  type: Event
+  description: 极限武馆提供高额奖励给达到战力振幅12的学员。
+  timeline: 8月1号之前
 
 dialogues:
-  - 主体: 罗峰
-    对话内容: "第四重！现在我已经悟透了第四重，那么，我的拳力发力达到3.5。"
-    时间点: 当前时间点
+- 主体: 罗峰
+  对话内容: "第四重！现在我已经悟透了第四重，那么，我的拳力发力达到3.5。"
+  时间点: 当前时间点
 
 timeline:
-  - 第一天: 罗峰悟透九重雷刀的第四重
-  - 第二天晚上9点35分: 罗峰开始试炼塔测试并准备击杀飞禽怪兽群以提升等级
+- 第一天: 罗峰悟透九重雷刀的第四重
+- 第二天晚上9点35分: 罗峰开始试炼塔测试并准备击杀飞禽怪兽群以提升等级
 
 mysteries:
-  - 罗峰能否在8月1号前达到战力振幅12，获得巨额奖励？
-```
+- 罗峰能否在8月1号前达到战力振幅12，获得巨额奖励？

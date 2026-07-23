@@ -1,92 +1,91 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 混沌城修炼者，成功闯过原始通天山。
-    attributes:
-      实力: 界主级以下
-      性格: 坚定、自信
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 混沌城修炼者，成功闯过原始通天山。
+  attributes:
+    实力: 界主级以下
+    性格: 坚定、自信
 
-  - id: 虚拟宇宙系统
-    type: Civilization
-    name: 虚拟宇宙系统
-    aliases: []
-    description: 可以提供各种修炼挑战和战斗环境。
-    attributes:
-      功能: 模拟法则, 提供对手
+- id: 虚拟宇宙系统
+  type: Civilization
+  name: 虚拟宇宙系统
+  aliases: []
+  description: 可以提供各种修炼挑战和战斗环境。
+  attributes:
+    功能: 模拟法则, 提供对手
 
-  - id: 守关者牛头人
-    type: Character
-    name: 牛头人
-    aliases: []
-    description: 原始通天山守关者，负责最后一关的防守。
-    attributes:
-      实力: 域主级九阶
-      能力: 切割宇宙空间
+- id: 守关者牛头人
+  type: Character
+  name: 牛头人
+  aliases: []
+  description: 原始通天山守关者，负责最后一关的防守。
+  attributes:
+    实力: 域主级九阶
+    能力: 切割宇宙空间
 
-  - id: 守关者蛇女
-    type: Character
-    name: 蛇女
-    aliases: []
-    description: 原始通天山守关者，负责施展幻境。
-    attributes:
-      实力: 不详
-      能力: 幻境攻击
+- id: 守关者蛇女
+  type: Character
+  name: 蛇女
+  aliases: []
+  description: 原始通天山守关者，负责施展幻境。
+  attributes:
+    实力: 不详
+    能力: 幻境攻击
 
-  - id: 守关者猿人
-    type: Character
-    name: 猿人
-    aliases: []
-    description: 原始通天山守关者，负责使用弧形刀光进行攻击。
-    attributes:
-      实力: 不详
-      能力: 弧形流光切割
+- id: 守关者猿人
+  type: Character
+  name: 猿人
+  aliases: []
+  description: 原始通天山守关者，负责使用弧形刀光进行攻击。
+  attributes:
+    实力: 不详
+    能力: 弧形流光切割
 
-  - id: 混沌城主老师
-    type: Character
-    name: 混沌城主老师
-    aliases: []
-    description: 提供修炼指导和奖励信息。
-    attributes:
-      实力: 不详
-      职责: 提供修炼建议, 积分奖励
+- id: 混沌城主老师
+  type: Character
+  name: 混沌城主老师
+  aliases: []
+  description: 提供修炼指导和奖励信息。
+  attributes:
+    实力: 不详
+    职责: 提供修炼建议, 积分奖励
 
 relationships:
-  - id: 罗峰-混沌城主老师
-    type: 师徒关系
-    description: 混沌城主老师指导罗峰的修炼进度。
-    attributes:
+- id: 罗峰-混沌城主老师
+  type: 师徒关系
+  description: 混沌城主老师指导罗峰的修炼进度。
+  attributes:
+
 
 events:
-  - id: 闯过原始通天山
-    type: Event
-    name: 闯过原始通天山
-    description: 罗峰成功击败三名守关者，通过最后一关考验。
-    timeline: 第一次挑战原始通天山的最后时刻。
+- id: 闯过原始通天山
+  type: Event
+  name: 闯过原始通天山
+  description: 罗峰成功击败三名守关者，通过最后一关考验。
+  timeline: 第一次挑战原始通天山的最后时刻。
 
 dialogues:
-  - id: 罗峰-蛇女对话
-    type: Dialogue
-    participants:
-      - 罗峰
-      - 蛇女
-    content: "罗峰：我也是。"
-    context: 山巅最后一关挑战前，蛇女表示必须执行职责。
+- id: 罗峰-蛇女对话
+  type: Dialogue
+  participants:
+  - 罗峰
+  - 蛇女
+  content: "罗峰：我也是。"
+  context: 山巅最后一关挑战前，蛇女表示必须执行职责。
 
 timeline:
-  - id: 第一次原始通天山挑战
-    type: Timeline
-    description: 罗峰在混沌城中通过修炼突破，在闯过原始通天山后得到界主级奖励。
-    time: 不详
+- id: 第一次原始通天山挑战
+  type: Timeline
+  description: 罗峰在混沌城中通过修炼突破，在闯过原始通天山后得到界主级奖励。
+  time: 不详
 
 mysteries:
-  - id: 守关者能力来源
-    type: Mystery
-    description: 虚拟宇宙系统制造的守关者的能力和背景有待进一步探索。
-    hint: "蛇女提到他们被制造出来已经过百万纪元没被挑战过了。"
-```
+- id: 守关者能力来源
+  type: Mystery
+  description: 虚拟宇宙系统制造的守关者的能力和背景有待进一步探索。
+  hint: "蛇女提到他们被制造出来已经过百万纪元没被挑战过了。"

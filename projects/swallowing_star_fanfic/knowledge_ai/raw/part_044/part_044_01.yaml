@@ -1,83 +1,81 @@
-```yaml
 source:
   id: 第649章金角族群（第二更）
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙公司的特使，拥有高傲的态度。
-    attributes:
-      实力: 不朽神灵
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙公司的特使，拥有高傲的态度。
+  attributes:
+    实力: 不朽神灵
 
-  - id: 黑纱少女
-    type: Character
-    name: 黑纱少女
-    aliases: []
-    description: 第九军团的指挥者，来自虚拟宇宙公司。
-    attributes:
-      身份: 第九军主, 特使助手
+- id: 黑纱少女
+  type: Character
+  name: 黑纱少女
+  aliases: []
+  description: 第九军团的指挥者，来自虚拟宇宙公司。
+  attributes:
+    身份: 第九军主, 特使助手
 
-  - id: 高瘦男子
-    type: Character
-    name: 高瘦男子
-    aliases: []
-    description: 第九军团的指挥官，负责执行特使的任务。
-    attributes:
-      身份: 第九军团首领, 军职不朽神灵
+- id: 高瘦男子
+  type: Character
+  name: 高瘦男子
+  aliases: []
+  description: 第九军团的指挥官，负责执行特使的任务。
+  attributes:
+    身份: 第九军团首领, 军职不朽神灵
 
-  - id: 巴巴塔
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的虚拟宇宙助手，提供资料和意见。
-    attributes:
-      职责: 智能辅助, 讯息分析
+- id: 巴巴塔
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的虚拟宇宙助手，提供资料和意见。
+  attributes:
+    职责: 智能辅助, 讯息分析
 
-  - id: 第九军团
-    type: Organization
-    name: 第九军团
-    aliases: []
-    description: 乾巫宇宙国的军队单位之一，由100个军组成。
-    attributes:
-      规模: 过百万名战士
-      组成: 不朽神灵, 界主, 域主, 宇宙级
+- id: 第九军团
+  type: Organization
+  name: 第九军团
+  aliases: []
+  description: 乾巫宇宙国的军队单位之一，由100个军组成。
+  attributes:
+    规模: 过百万名战士
+    组成: 不朽神灵, 界主, 域主, 宇宙级
 
-  - id: 金角族群
-    type: Species
-    name: 金角族群
-    aliases: []
-    description: 属于岩石类生命的一种，投靠人类。
-    attributes:
-      实力: 普通族群, 多部落拥有封王及封侯级不朽神灵
+- id: 金角族群
+  type: Species
+  name: 金角族群
+  aliases: []
+  description: 属于岩石类生命的一种，投靠人类。
+  attributes:
+    实力: 普通族群, 多部落拥有封王及封侯级不朽神灵
 
 relationships:
-  - id: 罗峰与第九军团
-    type: 命令关系
-    description: 罗峰作为特使，指挥第九军团执行任务。
-    
-  - id: 第九军主黑纱少女和高瘦男子
-    type: 上下级关系
-    description: 黑纱少女是助手，而高瘦男子为直接领导。
+- id: 罗峰与第九军团
+  type: 命令关系
+  description: 罗峰作为特使，指挥第九军团执行任务。
+
+- id: 第九军主黑纱少女和高瘦男子
+  type: 上下级关系
+  description: 黑纱少女是助手，而高瘦男子为直接领导。
 
 events:
-  - id: 金角族群塔文部接触计划
-    type: 计划制定
-    description: 罗峰准备与金角族群的塔文部落进行接触。
+- id: 金角族群塔文部接触计划
+  type: 计划制定
+  description: 罗峰准备与金角族群的塔文部落进行接触。
 
 dialogues:
-  - speaker: 黑纱少女
-    content: "罗峰，这第九军主是来自我虚拟宇宙公司，也是我虚拟宇宙公司成员。"
-    
-  - speaker: 高瘦男子
-    content: "特使，不知道这次任务有什么需要我第九军团做的？"
+- speaker: 黑纱少女
+  content: "罗峰，这第九军主是来自我虚拟宇宙公司，也是我虚拟宇宙公司成员。"
+
+- speaker: 高瘦男子
+  content: "特使，不知道这次任务有什么需要我第九军团做的？"
 
 timeline:
-  - id: 第九军团组建时间
-    time: 不详
-    description: 第九军团由乾巫分部‘军部’管辖。
+- id: 第九军团组建时间
+  time: 不详
+  description: 第九军团由乾巫分部‘军部’管辖。
 
 mysteries:
-  - 内容: 罗峰将如何与金角族群塔文部落接触。
-```
+- 内容: 罗峰将如何与金角族群塔文部落接触。

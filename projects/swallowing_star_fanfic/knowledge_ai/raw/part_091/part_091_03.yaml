@@ -1,78 +1,76 @@
-```yaml
 source:
   id: "原文"
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 干野部落战士，目标是搜集晋之世界中的生物和机械流宝物。
-    attributes:
-      实力: 宇宙之主
-      目标: 1. 搜集真神尸体；2. 探寻宇宙海秘密；3. 获取机械流宝物
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 干野部落战士，目标是搜集晋之世界中的生物和机械流宝物。
+  attributes:
+    实力: 宇宙之主
+    目标: 1. 搜集真神尸体；2. 探寻宇宙海秘密；3. 获取机械流宝物
 
-  - id: 北风
-    type: Character
-    name: 北风
-    aliases: []
-    description: 干野部落核心战士，穿戴至强至宝战甲。
-    attributes:
-      实力: 六阶战力
-      目标: 被选入特殊军团
+- id: 北风
+  type: Character
+  name: 北风
+  aliases: []
+  description: 干野部落核心战士，穿戴至强至宝战甲。
+  attributes:
+    实力: 六阶战力
+    目标: 被选入特殊军团
 
-  - id: 独角男子
-    type: Character
-    name: 独角男子
-    aliases: []
-    description: 控制沙漠战场的虚空真神，监督战士和异兽厮杀。
-    attributes:
-      实力: 虚空真神
+- id: 独角男子
+  type: Character
+  name: 独角男子
+  aliases: []
+  description: 控制沙漠战场的虚空真神，监督战士和异兽厮杀。
+  attributes:
+    实力: 虚空真神
 
 location:
-  - id: 沙漠
-    type: Location
-    name: 沙漠
-    description: 干枯荒凉的沙漠，是晋之世界中的战场。
+- id: 沙漠
+  type: Location
+  name: 沙漠
+  description: 干枯荒凉的沙漠，是晋之世界中的战场。
 
 organizations:
-  - id: 远古文明军队
-    type: Organization
-    name: 远古文明军队
-    aliases: []
-    description: 在晋之世界中无尽作战的军队。
-    
+- id: 远古文明军队
+  type: Organization
+  name: 远古文明军队
+  aliases: []
+  description: 在晋之世界中无尽作战的军队。
+
 ability:
-  - id: 燃烧神力秘术
-    type: Ability
-    name: 燃烧神力秘术
-    attributes:
-      使用者: 北风
-      效果: 激发体内隐藏力量
+- id: 燃烧神力秘术
+  type: Ability
+  name: 燃烧神力秘术
+  attributes:
+    使用者: 北风
+    效果: 激发体内隐藏力量
 
 item:
-  - id: 至强至宝战甲
-    type: Item
-    name: 至强至宝战甲
-    description: 北风的装备，极大提升战斗力。
+- id: 至强至宝战甲
+  type: Item
+  name: 至强至宝战甲
+  description: 北风的装备，极大提升战斗力。
 
 events:
-  - id: 战斗开始
-    type: Event
-    name: 战斗开始
-    attributes:
-      时间: 文本开头
-      地点: 干枯沙漠
+- id: 战斗开始
+  type: Event
+  name: 战斗开始
+  attributes:
+    时间: 文本开头
+    地点: 干枯沙漠
 
 dialogues:
-  - speaker: 独角男子
-    content: "你等，分两阵营。彼此杀戮，杀死对方，当我让你等停下时，活着的即可进入军队。如果有实力，尽可尽情发挥……如果你们中有特殊优秀者，或许可入选特殊军团！"
-    
+- speaker: 独角男子
+  content: "你等，分两阵营。彼此杀戮，杀死对方，当我让你等停下时，活着的即可进入军队。如果有实力，尽可尽情发挥……如果你们中有特殊优秀者，或许可入选特殊军团！"
+
 timeline:
-  - event_id: 战斗开始
-    time: 文本开头
+- event_id: 战斗开始
+  time: 文本开头
 
 mysteries:
-  - id: 虚空真神身份
-    description: 独角男子究竟是远古文明中的哪位虚空真神。
-```
+- id: 虚空真神身份
+  description: 独角男子究竟是远古文明中的哪位虚空真神。

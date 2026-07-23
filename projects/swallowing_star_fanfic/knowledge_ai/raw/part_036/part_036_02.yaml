@@ -1,94 +1,93 @@
-```yaml
 source:
   id: 文本
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 地球人，实力云霄级，击杀了一头域主一阶的血魔。
-    attributes:
-      实力: 云霄级
-      特殊能力: 法则感悟强
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 地球人，实力云霄级，击杀了一头域主一阶的血魔。
+  attributes:
+    实力: 云霄级
+    特殊能力: 法则感悟强
 
-  - id: 阿一
-    type: Character
-    name: 阿一
-    aliases: []
-    description: 血神卫队长，界主级实力。
-    attributes:
-      身份: 血神卫队长
-      实力: 界主级
+- id: 阿一
+  type: Character
+  name: 阿一
+  aliases: []
+  description: 血神卫队长，界主级实力。
+  attributes:
+    身份: 血神卫队长
+    实力: 界主级
 
-  - id: 古神废墟
-    type: Location
-    name: 古神废墟
-    aliases: []
-    description: 血洛大陆最古老莫测的地方，充满危险。
-    attributes:
-      危险程度: 极高
-      特别区域: 漩涡
+- id: 古神废墟
+  type: Location
+  name: 古神废墟
+  aliases: []
+  description: 血洛大陆最古老莫测的地方，充满危险。
+  attributes:
+    危险程度: 极高
+    特别区域: 漩涡
 
-  - id: 巨坑深渊
-    type: Location
-    name: 巨坑深渊
-    aliases: []
-    description: 古神废墟中的一个巨大坑洞，内部充满煞气。
-    attributes:
-      危险程度: 极高
-      煞气浓度: 非常浓
+- id: 巨坑深渊
+  type: Location
+  name: 巨坑深渊
+  aliases: []
+  description: 古神废墟中的一个巨大坑洞，内部充满煞气。
+  attributes:
+    危险程度: 极高
+    煞气浓度: 非常浓
 
-  - id: 血洛大陆
-    type: Location
-    name: 血洛大陆
-    aliases: []
-    description: 宇宙中的一个星球，古神废墟所在地。
-    attributes:
-      
-  - id: 智能光脑
-    type: Item
-    name: 智能光脑
-    aliases: []
-    description: 管理整个宫殿的智能系统。
-    attributes:
-      来源: 古神废墟一战中从天外族人那得到的技术
+- id: 血洛大陆
+  type: Location
+  name: 血洛大陆
+  aliases: []
+  description: 宇宙中的一个星球，古神废墟所在地。
+  attributes:
+
+
+- id: 智能光脑
+  type: Item
+  name: 智能光脑
+  aliases: []
+  description: 管理整个宫殿的智能系统。
+  attributes:
+    来源: 古神废墟一战中从天外族人那得到的技术
 
 relationships:
-  - id: 罗峰-阿一
-    type: 指导关系
-    entities:
-      - 罗峰
-      - 阿一
-    description: 阿一指导罗峰熟悉血神卫的居所和宫殿规则。
+- id: 罗峰-阿一
+  type: 指导关系
+  entities:
+  - 罗峰
+  - 阿一
+  description: 阿一指导罗峰熟悉血神卫的居所和宫殿规则。
 
 events:
-  - id: 古神废墟探索警告
-    type: Event
-    name: 古神废墟探索警告
-    description: 血神卫队长阿一向新成员罗峰提醒古神废墟中的危险。
-    timeline:
-      时间: 尚未具体说明
+- id: 古神废墟探索警告
+  type: Event
+  name: 古神废墟探索警告
+  description: 血神卫队长阿一向新成员罗峰提醒古神废墟中的危险。
+  timeline:
+    时间: 尚未具体说明
 
 dialogues:
-  - id: 阿一介绍古神废墟
-    type: Dialogue
-    participants:
-      - 罗峰
-      - 阿一
-    content: 古神废墟是血洛大陆最古老莫测的地方，充满危险。阿一向罗峰详细介绍了其中的漩涡区域和煞气浓度过高的地方。
+- id: 阿一介绍古神废墟
+  type: Dialogue
+  participants:
+  - 罗峰
+  - 阿一
+  content: 古神废墟是血洛大陆最古老莫测的地方，充满危险。阿一向罗峰详细介绍了其中的漩涡区域和煞气浓度过高的地方。
 
-  - id: 关于智能光脑
-    type: Dialogue
-    participants:
-      - 罗峰
-      - 阿一
-    content: 智能光脑是古神废墟战斗中从天外族人处获取的技术，非常珍贵。阿一向罗峰解释了它的用途。
+- id: 关于智能光脑
+  type: Dialogue
+  participants:
+  - 罗峰
+  - 阿一
+  content: 智能光脑是古神废墟战斗中从天外族人处获取的技术，非常珍贵。阿一向罗峰解释了它的用途。
 
 timeline:
 
 mysteries:
-  - id: 古神废墟的危险性
-    type: Mystery
-    description: 古神废墟中还有许多未知危险地点，未被发现。
-```
+- id: 古神废墟的危险性
+  type: Mystery
+  description: 古神废墟中还有许多未知危险地点，未被发现。

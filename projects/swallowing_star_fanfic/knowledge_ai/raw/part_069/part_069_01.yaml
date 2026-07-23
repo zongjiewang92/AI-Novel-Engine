@@ -1,128 +1,126 @@
-```yaml
 source:
   id: 第1034章不朽荣耀
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: |
-      不朽强者，来自人类族群。因天赋秘法逆天而击败一些普通宇宙尊者，但实力与宇宙尊者相去甚远。
-    attributes:
-      - 实力: 不朽
-  - id: 真衍尊者
-    type: Character
-    name: 真衍尊者
-    aliases: []
-    description: |
-      宇宙尊者，人类族群中的强者之一，天生喜欢交友。与罗峰关系密切。
-    attributes:
-      - 实力: 宇宙尊者
-  - id: 雷鸣尊者
-    type: Character
-    name: 雷鸣尊者
-    aliases: []
-    description: |
-      宇宙尊者，雷霆岛上强者之一。因不满罗峰地位而向真衍尊者表达意见。
-    attributes:
-      - 实力: 宇宙尊者
-  - id: 血翼尊者
-    type: Character
-    name: 血翼尊者
-    aliases: []
-    description: |
-      宇宙尊者，雷霆岛上强者之一。与雷鸣尊者实力相当。
-    attributes:
-      - 实力: 宇宙尊者
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: |
+    不朽强者，来自人类族群。因天赋秘法逆天而击败一些普通宇宙尊者，但实力与宇宙尊者相去甚远。
+  attributes:
+  - 实力: 不朽
+- id: 真衍尊者
+  type: Character
+  name: 真衍尊者
+  aliases: []
+  description: |
+    宇宙尊者，人类族群中的强者之一，天生喜欢交友。与罗峰关系密切。
+  attributes:
+  - 实力: 宇宙尊者
+- id: 雷鸣尊者
+  type: Character
+  name: 雷鸣尊者
+  aliases: []
+  description: |
+    宇宙尊者，雷霆岛上强者之一。因不满罗峰地位而向真衍尊者表达意见。
+  attributes:
+  - 实力: 宇宙尊者
+- id: 血翼尊者
+  type: Character
+  name: 血翼尊者
+  aliases: []
+  description: |
+    宇宙尊者，雷霆岛上强者之一。与雷鸣尊者实力相当。
+  attributes:
+  - 实力: 宇宙尊者
 
 relationships:
-  - id: 罗峰-真衍尊者
-    type: 师徒关系
-    name: 真衍尊者是罗峰的老师
-    description: |
-      真衍尊者教导过罗峰，并且对他的成长十分关心。
-  - id: 雷鸣尊者-血翼尊者
-    type: 同盟关系
-    name: 宇宙尊者的友谊
-    description: |
-      雷鸣尊者与血翼尊者在雷霆岛上是朋友，两人实力接近。
+- id: 罗峰-真衍尊者
+  type: 师徒关系
+  name: 真衍尊者是罗峰的老师
+  description: |
+    真衍尊者教导过罗峰，并且对他的成长十分关心。
+- id: 雷鸣尊者-血翼尊者
+  type: 同盟关系
+  name: 宇宙尊者的友谊
+  description: |
+    雷鸣尊者与血翼尊者在雷霆岛上是朋友，两人实力接近。
 
 locations:
-  - id: 霆雷岛
-    type: Location
-    name: 霆雷岛
-    aliases: []
-    description: |
-      强者的聚集地，位于雷霆山腰上。宇宙尊者们在此居住和交流。
-  - id: 祖神教的荣耀世界
-    type: Location
-    name: 祖神教的荣耀世界
-    aliases: []
-    description: |
-      千雨王与罗峰交谈的地方。
+- id: 霆雷岛
+  type: Location
+  name: 霆雷岛
+  aliases: []
+  description: |
+    强者的聚集地，位于雷霆山腰上。宇宙尊者们在此居住和交流。
+- id: 祖神教的荣耀世界
+  type: Location
+  name: 祖神教的荣耀世界
+  aliases: []
+  description: |
+    千雨王与罗峰交谈的地方。
 
 organizations:
-  - id: 人类族群
-    type: Civilization
-    name: 人类族群
-    aliases: []
-    description: |
-      拥有悠久历史和强大文明的人类群体，拥有众多强者。
+- id: 人类族群
+  type: Civilization
+  name: 人类族群
+  aliases: []
+  description: |
+    拥有悠久历史和强大文明的人类群体，拥有众多强者。
 
 cultivation_systems:
-  - id: 宇宙尊者
-    type: Cultivation
-    name: 宇宙尊者
-    aliases: []
-    description: |
-      强大的修炼境界，代表人类族群中的顶尖力量。
-  - id: 不朽
-    type: Cultivation
-    name: 不朽
-    aliases: []
-    description: |
-      较宇宙尊者低一层次的修炼境界。
+- id: 宇宙尊者
+  type: Cultivation
+  name: 宇宙尊者
+  aliases: []
+  description: |
+    强大的修炼境界，代表人类族群中的顶尖力量。
+- id: 不朽
+  type: Cultivation
+  name: 不朽
+  aliases: []
+  description: |
+    较宇宙尊者低一层次的修炼境界。
 
 abilities:
-  - id: 天赋秘法逆天
-    type: Ability
-    name: 天赋秘法逆天
-    aliases: []
-    description: |
-      能够让不朽强者在某些方面超越普通宇宙尊者的能力。
+- id: 天赋秘法逆天
+  type: Ability
+  name: 天赋秘法逆天
+  aliases: []
+  description: |
+    能够让不朽强者在某些方面超越普通宇宙尊者的能力。
 
 events:
-  - id: 罗峰入驻雷霆岛山腰
-    type: Event
-    name: 罗峰入驻雷霆岛山腰
-    description: |
-      因为混沌城主的安排，罗峰被允许在雷霆岛上建立宫殿。
+- id: 罗峰入驻雷霆岛山腰
+  type: Event
+  name: 罗峰入驻雷霆岛山腰
+  description: |
+    因为混沌城主的安排，罗峰被允许在雷霆岛上建立宫殿。
 dialogues:
-  - id: 雷鸣尊者对真衍尊者的抱怨
-    type: Dialogue
-    speaker:
-      - name: 雷鸣尊者
-        text: 我的确是一肚子怒气，你可知道你弟子罗峰的事？
-      - name: 真衍尊者
-        text: 他知道什么？你说罗峰，难道是说他跨入不朽的事……
-  - id: 千雨王与罗峰的交谈
-    type: Dialogue
-    speaker:
-      - name: 罗峰
-        text: 老师，你怎么来了，我之前给你邮件，要找我，直接虚拟宇宙叫我声，我不就立即到了？
-      - name: 真衍尊者
-        text: 我刚得到你的邮件，可在雷霆岛上却是被我的不少好友给抓了去。
+- id: 雷鸣尊者对真衍尊者的抱怨
+  type: Dialogue
+  speaker:
+  - name: 雷鸣尊者
+    text: 我的确是一肚子怒气，你可知道你弟子罗峰的事？
+  - name: 真衍尊者
+    text: 他知道什么？你说罗峰，难道是说他跨入不朽的事……
+- id: 千雨王与罗峰的交谈
+  type: Dialogue
+  speaker:
+  - name: 罗峰
+    text: 老师，你怎么来了，我之前给你邮件，要找我，直接虚拟宇宙叫我声，我不就立即到了？
+  - name: 真衍尊者
+    text: 我刚得到你的邮件，可在雷霆岛上却是被我的不少好友给抓了去。
 timeline:
-  - id: 时间线1
-    type: Timeline
-    description: |
-      文章描述的是罗峰入驻雷霆岛山腰后引发的一系列事件。
+- id: 时间线1
+  type: Timeline
+  description: |
+    文章描述的是罗峰入驻雷霆岛山腰后引发的一系列事件。
 
 mysteries:
-  - id: 罗峰未来的地位
-    type: Mystery
-    name: 真衍尊者对罗峰的未来考虑
-    description: |
-      罗峰是否需要搬出雷霆岛，以避免因位置问题引起的不满。
-```
+- id: 罗峰未来的地位
+  type: Mystery
+  name: 真衍尊者对罗峰的未来考虑
+  description: |
+    罗峰是否需要搬出雷霆岛，以避免因位置问题引起的不满。

@@ -1,68 +1,66 @@
-```yaml
 source:
   id: 界兽摩罗撒与银河领主的对决
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 银河领主，宇宙海第一强者。
-    attributes:
-      实力: 宇宙海第一强者
-      身份: 星辰塔主人
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 银河领主，宇宙海第一强者。
+  attributes:
+    实力: 宇宙海第一强者
+    身份: 星辰塔主人
 
-  - id: 摩罗撒
-    type: Character
-    name: 界兽摩罗撒
-    aliases: []
-    description: 界兽，拥有分解身体的能力。
-    attributes:
-      实力: 强大界兽
-      能力: 分解身体为99个分身
+- id: 摩罗撒
+  type: Character
+  name: 界兽摩罗撒
+  aliases: []
+  description: 界兽，拥有分解身体的能力。
+  attributes:
+    实力: 强大界兽
+    能力: 分解身体为99个分身
 
-  - id: 星辰塔
-    type: Item
-    name: 星辰塔
-    aliases: []
-    description: 罗峰拥有的宝物，能施展出强大的领域类能力。
-    attributes:
-      秘法层次: 第七重（九阶）
-      功能: 形成漩涡世界
+- id: 星辰塔
+  type: Item
+  name: 星辰塔
+  aliases: []
+  description: 罗峰拥有的宝物，能施展出强大的领域类能力。
+  attributes:
+    秘法层次: 第七重（九阶）
+    功能: 形成漩涡世界
 
-  - id: 弑吴羽翼
-    type: Item
-    name: 弑吴羽翼
-    aliases: []
-    description: 罗峰拥有的宝物，核心中枢为“源”。
-    attributes:
-      秘法层次: 第六重（八阶）
-      功能: 形成一念虚空
+- id: 弑吴羽翼
+  type: Item
+  name: 弑吴羽翼
+  aliases: []
+  description: 罗峰拥有的宝物，核心中枢为“源”。
+  attributes:
+    秘法层次: 第六重（八阶）
+    功能: 形成一念虚空
 
 events:
-  - id: 拦截摩罗撒
-    type: Event
-    name: 罗峰拦截界兽摩罗撒
-    description: 罗峰利用星辰塔的第七重秘法，形成漩涡世界，将分解为99个分身的界兽摩罗撒困住。
-    timeline:
-      时间顺序: 事件发生时
+- id: 拦截摩罗撒
+  type: Event
+  name: 罗峰拦截界兽摩罗撒
+  description: 罗峰利用星辰塔的第七重秘法，形成漩涡世界，将分解为99个分身的界兽摩罗撒困住。
+  timeline:
+    时间顺序: 事件发生时
 
 dialogues:
-  - id: 摩罗撒投降
-    type: Dialogue
-    speaker:
-      - 界兽摩罗撒
-    dialogue: "银河领主，你知道的，逼急了我，我会引领大群界兽过来。不要逼我，放我走……而且我会发誓，以后绝对不会针对你们人类族群。只要你放了我，我就对宇宙海规则发出誓言！我的要求就一个……放了我，甚至你将来还可以继续对付我，但是现在放过我吧。"
-    context: 界兽摩罗撒试图通过威胁让罗峰放自己离开
+- id: 摩罗撒投降
+  type: Dialogue
+  speaker:
+  - 界兽摩罗撒
+  dialogue: "银河领主，你知道的，逼急了我，我会引领大群界兽过来。不要逼我，放我走……而且我会发誓，以后绝对不会针对你们人类族群。只要你放了我，我就对宇宙海规则发出誓言！我的要求就一个……放了我，甚至你将来还可以继续对付我，但是现在放过我吧。"
+  context: 界兽摩罗撒试图通过威胁让罗峰放自己离开
 
 timeline:
-  - 时间点1: 罗峰拦截界兽摩罗撒
-  - 时间点2: 星辰塔第七重秘法形成漩涡世界困住摩罗撒
-  - 时间点3: 摩罗撒提出条件请求放过自己
+- 时间点1: 罗峰拦截界兽摩罗撒
+- 时间点2: 星辰塔第七重秘法形成漩涡世界困住摩罗撒
+- 时间点3: 摩罗撒提出条件请求放过自己
 
 mysteries:
-  - id: 银河领主的反应
-    type: Mystery
-    question: 罗峰是否会放界兽摩罗撒离开？
-    context: 在逼迫下，界兽摩罗撒提出了威胁和交换条件。
-```
+- id: 银河领主的反应
+  type: Mystery
+  question: 罗峰是否会放界兽摩罗撒离开？
+  context: 在逼迫下，界兽摩罗撒提出了威胁和交换条件。

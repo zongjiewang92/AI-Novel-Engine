@@ -1,4 +1,4 @@
-```yaml
+
 source:
   id: 第1265章至强至宝宫殿
 
@@ -87,8 +87,7 @@ timeline:
 mysteries:
   - id: 雷衣魔神的请求原因
     description: 雷衣魔神为何要断绝神眼族的机会，背后是否有更深层次的原因。
-```
-```yaml
+
 source:
   id: 第1266章至强至宝？可笑！
 
@@ -158,4 +157,3 @@ timeline:
 mysteries:
   - id: 神眼族机会被断的原因
     description: 为什么雷衣魔神会提出这样的请求，背后是否有更深层次的原因。
-```

@@ -1,57 +1,54 @@
-```yaml
 source:
   id: unknown
 
 entities:
-  - id: rofei
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 拥有极高实力的宇宙之主，曾参与原始宇宙的大战。
-    attributes:
-      - 实力: 宇宙之主
-      - 特点: 创造了强大的刀法《涅槃新生》
+- id: rofei
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 拥有极高实力的宇宙之主，曾参与原始宇宙的大战。
+  attributes:
+  - 实力: 宇宙之主
+  - 特点: 创造了强大的刀法《涅槃新生》
 
-  - id: shuangmianzushen
-    type: character
-    name: 双面祖神
-    aliases: []
-    description: 祖神教中的重要成员，曾帮助罗峰。
-    attributes:
-      - 实力: 祖神
-      - 特点: 能够保护罗峰
+- id: shuangmianzushen
+  type: character
+  name: 双面祖神
+  aliases: []
+  description: 祖神教中的重要成员，曾帮助罗峰。
+  attributes:
+  - 实力: 祖神
+  - 特点: 能够保护罗峰
 
-  - id: zushenjiao
-    type: organization
-    name: 祖神教
-    aliases: []
-    description: 在原始宇宙中拥有重要地位的宗教组织。
+- id: zushenjiao
+  type: organization
+  name: 祖神教
+  aliases: []
+  description: 在原始宇宙中拥有重要地位的宗教组织。
 
 locations:
-  - id: yinjiangdao
-    type: location
-    name: 紫荆岛
-    aliases: [祖神秘境]
-    description: 祖神教的重要地点，罗峰居住的地方。
-    
+- id: yinjiangdao
+  type: location
+  name: 紫荆岛
+  aliases: [ 祖神秘境 ]
+  description: 祖神教的重要地点，罗峰居住的地方。
+
 items:
-  - id: xingcengtacai
-    type: item
-    name: 星辰塔
-    aliases: []
-    description: 罗峰持有的神秘宝物。
+- id: xingcengtacai
+  type: item
+  name: 星辰塔
+  aliases: []
+  description: 罗峰持有的神秘宝物。
 
 dialogues:
-  - speaker: 双面祖神
-    listener: 罗峰
-    content: "到我这一叙，我有你人类重要事情告知于你。"
-    
+- speaker: 双面祖神
+  listener: 罗峰
+  content: "到我这一叙，我有你人类重要事情告知于你。"
+
 timeline:
-  - event: 祖神教召唤罗峰
-    time: 大战之后一段时间
+- event: 祖神教召唤罗峰
+  time: 大战之后一段时间
 
 mysteries:
-  - question: 双面祖神为何突然召唤罗峰？
-    hint: 涉及到罗峰的族人的重要信息。
-```
-注意：文中提到“冰火果酒”等未详细记录，因为它们主要涉及描述食物或饮品，并非核心事件。
+- question: 双面祖神为何突然召唤罗峰？
+  hint: 涉及到罗峰的族人的重要信息。

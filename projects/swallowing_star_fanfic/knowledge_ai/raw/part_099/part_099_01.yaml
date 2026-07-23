@@ -1,66 +1,63 @@
-```yaml
 source:
   id: 第1493章超脱轮回收网
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有神眼秘术，刀法威力强大。
-    attributes:
-      实力: 终极真神巅峰层次
-      武器: 血影刀
-  - id: 界兽
-    type: Species
-    name: 界兽
-    aliases: []
-    description: 强大的宇宙生物，数量庞大。
-    attributes: []
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有神眼秘术，刀法威力强大。
+  attributes:
+    实力: 终极真神巅峰层次
+    武器: 血影刀
+- id: 界兽
+  type: Species
+  name: 界兽
+  aliases: []
+  description: 强大的宇宙生物，数量庞大。
+  attributes: []
 
 relationships:
 
 events:
-  - id: 罗峰使用神眼秘术和血影刀对抗界兽群
-    type: Battle
-    participants:
-      - 罗峰
-      - 界兽
-    location: 昏暗之地
-    description: 在与大量界兽的战斗中，罗峰利用神眼秘术击溃对方意志，并用强大的刀法杀伤敌人。
-  - id: 摩罗撒记录围剿罗峰的界兽数量增加
-    type: Log
-    participants:
-      - 罗峰
-      - 摩罗撒
-    location: 昏暗之地
-    description: 随着战斗进程，摩罗撒持续报告参与围剿罗峰的界兽数量变化。
+- id: 罗峰使用神眼秘术和血影刀对抗界兽群
+  type: Battle
+  participants:
+  - 罗峰
+  - 界兽
+  location: 昏暗之地
+  description: 在与大量界兽的战斗中，罗峰利用神眼秘术击溃对方意志，并用强大的刀法杀伤敌人。
+- id: 摩罗撒记录围剿罗峰的界兽数量增加
+  type: Log
+  participants:
+  - 罗峰
+  - 摩罗撒
+  location: 昏暗之地
+  description: 随着战斗进程，摩罗撒持续报告参与围剿罗峰的界兽数量变化。
 
 dialogues:
-  - speaker: 摩罗撒
-    listener: 神力化身
-    content: "主人，已经到七百九十万了。"
-    context: 记录追杀罗峰界的兽数量增加。
-  - speaker: 神力化身
-    listener: 摩罗撒
-    content: "效果不错。"
-    context: 对摩罗撒报告界兽数量增长的评价。
-  - speaker: 罗峰
-    listener: 一万八千界兽群
-    content: ""
-    context: 使用神眼秘术和血影刀对战，使大量界兽数量减少。
+- speaker: 摩罗撒
+  listener: 神力化身
+  content: "主人，已经到七百九十万了。"
+  context: 记录追杀罗峰界的兽数量增加。
+- speaker: 神力化身
+  listener: 摩罗撒
+  content: "效果不错。"
+  context: 对摩罗撒报告界兽数量增长的评价。
+- speaker: 罗峰
+  listener: 一万八千界兽群
+  content: ""
+  context: 使用神眼秘术和血影刀对战，使大量界兽数量减少。
 
 timeline:
-  - event_id: 界兽围剿罗峰开始
-    time: 第一阶段
-    description: 大量界兽集结准备围剿银河领主。
-  - event_id: 摩罗撒记录追杀数量变化
-    time: 过程中
-    description: 持续报告参与追杀的界兽数量增长情况。
+- event_id: 界兽围剿罗峰开始
+  time: 第一阶段
+  description: 大量界兽集结准备围剿银河领主。
+- event_id: 摩罗撒记录追杀数量变化
+  time: 过程中
+  description: 持续报告参与追杀的界兽数量增长情况。
 
 mysteries:
-  - id: 界兽数量上限
-    type: Unknown
-    content: 界兽围剿罗峰的数量是否会有极限？
-```
-以上内容根据文档中的信息整理而成。
+- id: 界兽数量上限
+  type: Unknown
+  content: 界兽围剿罗峰的数量是否会有极限？

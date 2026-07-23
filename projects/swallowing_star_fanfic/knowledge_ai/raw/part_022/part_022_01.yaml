@@ -1,69 +1,68 @@
-```yaml
 source:
   id: "text"
 
 entities:
-  - id: "陀雷武"
-    type: Character
-    name: "陀雷武"
-    aliases: []
-    description: "诺岚山家族精英小队成员，恒星级九阶实力。"
-    attributes:
-      strength: 恒星级九阶
-      role: 追杀任务队长
+- id: "陀雷武"
+  type: Character
+  name: "陀雷武"
+  aliases: []
+  description: "诺岚山家族精英小队成员，恒星级九阶实力。"
+  attributes:
+    strength: 恒星级九阶
+    role: 追杀任务队长
 
-  - id: "吞噬兽"
-    type: Species
-    name: "金角巨兽"
-    aliases: ["吞噬兽"]
-    description: "体型庞大，拥有锋利的鳞甲和尖角。"
-    attributes:
-      strength: 恒星级七阶
-      abilities: 
-        - 利爪
-        - 尖角攻击
-        - 鳞甲尾巴扫击
+- id: "吞噬兽"
+  type: Species
+  name: "金角巨兽"
+  aliases: [ "吞噬兽" ]
+  description: "体型庞大，拥有锋利的鳞甲和尖角。"
+  attributes:
+    strength: 恒星级七阶
+    abilities:
+    - 利爪
+    - 尖角攻击
+    - 鳞甲尾巴扫击
 
-  - id: "诺岚山家族精英小队"
-    type: Organization
-    name: "诺岚山家族精英小队"
-    aliases: []
-    description: "由恒星级九阶、八阶和七阶成员组成的追杀队伍。"
+- id: "诺岚山家族精英小队"
+  type: Organization
+  name: "诺岚山家族精英小队"
+  aliases: []
+  description: "由恒星级九阶、八阶和七阶成员组成的追杀队伍。"
 
 relationships:
-  - source_id: "陀雷武"
-    target_id: "诺岚山家族精英小队"
-    type: 属于
+- source_id: "陀雷武"
+  target_id: "诺岚山家族精英小队"
+  type: 属于
 
 events:
-  - id: 追杀行动
-    type: Event
-    description: "15名恒星级九阶成员追杀7名恒星级九阶成员。"
-    timeline: 
-      start_time: 刚从海域飞过
-      end_time: 激动地转向抓捕金角巨兽
+- id: 追杀行动
+  type: Event
+  description: "15名恒星级九阶成员追杀7名恒星级九阶成员。"
+  timeline:
+    start_time: 刚从海域飞过
+    end_time: 激动地转向抓捕金角巨兽
 
-  - id: 吞噬兽出现
-    type: Event
-    description: "巨大的金角巨兽从海底缓缓升起，引发海面波涛汹涌。"
-    timeline:
-      start_time: 15名恒星级九阶成员飞过后不久
-      end_time: 
+- id: 吞噬兽出现
+  type: Event
+  description: "巨大的金角巨兽从海底缓缓升起，引发海面波涛汹涌。"
+  timeline:
+    start_time: 15名恒星级九阶成员飞过后不久
+    end_time:
+
 
 dialogues:
-  - speaker_id: "陀雷武"
-    hearer_id: 智能光脑
-    dialogue: "快，抓住它。"
+- speaker_id: "陀雷武"
+  hearer_id: 智能光脑
+  dialogue: "快，抓住它。"
 
-  - speaker_id: 未知队员
-    hearer_id: 陀雷武
-    dialogue: "吞噬兽？？？"
+- speaker_id: 未知队员
+  hearer_id: 陀雷武
+  dialogue: "吞噬兽？？？"
 
 timeline:
-  - 追杀行动开始时间: 刚从海域飞过
-  - 吞噬兽出现时间: 15名恒星级九阶成员飞过后不久
+- 追杀行动开始时间: 刚从海域飞过
+- 吞噬兽出现时间: 15名恒星级九阶成员飞过后不久
 
 mysteries:
-  - id: 金角巨兽的真正力量
-    description: "描述了达到巅峰的金角巨兽的力量，但未提及具体数值。"
-```
+- id: 金角巨兽的真正力量
+  description: "描述了达到巅峰的金角巨兽的力量，但未提及具体数值。"

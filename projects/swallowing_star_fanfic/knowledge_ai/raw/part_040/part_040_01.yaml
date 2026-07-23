@@ -1,101 +1,99 @@
-```yaml
 source:
   id: novel-snippet
 
 entities:
-  - id: poyu_hou
-    type: Character
-    name: 魄瑜侯
-    aliases: []
-    description: 封侯级不朽，虚拟宇宙公司的银衣执事的上级。
-    attributes:
-      identity: 虚拟宇宙公司高层
-      strength: 封侯级不朽
-  - id: bayan
-    type: Character
-    name: 巴彦
-    aliases: []
-    description: 千星宗高手，界主九阶实力。
-    attributes:
-      affiliation: 千星宗
-      strength: 界主九阶
+- id: poyu_hou
+  type: Character
+  name: 魄瑜侯
+  aliases: []
+  description: 封侯级不朽，虚拟宇宙公司的银衣执事的上级。
+  attributes:
+    identity: 虚拟宇宙公司高层
+    strength: 封侯级不朽
+- id: bayan
+  type: Character
+  name: 巴彦
+  aliases: []
+  description: 千星宗高手，界主九阶实力。
+  attributes:
+    affiliation: 千星宗
+    strength: 界主九阶
 
-  - id: purple_clothes_young_man
-    type: Character
-    name: 穿紫衣的青年
-    aliases: []
-    description: 英俊青年，请求魄瑜侯帮助解救墨查星球。
-    attributes:
-      identity: 魄瑜侯弟子
-      strength: 未知
+- id: purple_clothes_young_man
+  type: Character
+  name: 穿紫衣的青年
+  aliases: []
+  description: 英俊青年，请求魄瑜侯帮助解救墨查星球。
+  attributes:
+    identity: 魄瑜侯弟子
+    strength: 未知
 
 organizations:
-  - id: virtual_universe_company
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 提供虚拟现实体验的大型企业。
+- id: virtual_universe_company
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 提供虚拟现实体验的大型企业。
 
 locations:
-  - id: god_temple
-    type: Location
-    name: 神殿
-    aliases: []
-    description: 魄瑜侯所在的地方，位于魔音山外围。
-  
-  - id: mozha_planet
-    type: Location
-    name: 墨查星
-    aliases: []
-    description: 英俊青年的家乡星球。
+- id: god_temple
+  type: Location
+  name: 神殿
+  aliases: []
+  description: 魄瑜侯所在的地方，位于魔音山外围。
+
+- id: mozha_planet
+  type: Location
+  name: 墨查星
+  aliases: []
+  description: 英俊青年的家乡星球。
 
 species:
-  - id: human
-    type: Species
-    name: 人类
-    aliases: []
+- id: human
+  type: Species
+  name: 人类
+  aliases: []
 
 events:
-  - id: poyu_hou_kills_bayan_and_companions
-    type: Event
-    name: 魄瑜侯杀死巴彦和同伴
-    description: 魄瑜侯因巴彦等人知道太多秘密，将其处死。
-  
-  - id: purple_clothes_young_man_requests_help
-    type: Event
-    name: 穿紫衣的青年请求帮助
-    description: 英俊青年跪求魄瑜侯解救墨查星。
+- id: poyu_hou_kills_bayan_and_companions
+  type: Event
+  name: 魄瑜侯杀死巴彦和同伴
+  description: 魄瑜侯因巴彦等人知道太多秘密，将其处死。
+
+- id: purple_clothes_young_man_requests_help
+  type: Event
+  name: 穿紫衣的青年请求帮助
+  description: 英俊青年跪求魄瑜侯解救墨查星。
 
 dialogues:
-  - speaker: 魄瑜侯
-    listener: 巴彦等三人
-    content: "不过，你们知道太多，必须死。"
-  
-  - speaker: 穿紫衣的青年
-    listener: 魄瑜侯
-    content: "师傅，求求你救救我的家乡——墨查星！"
+- speaker: 魄瑜侯
+  listener: 巴彦等三人
+  content: "不过，你们知道太多，必须死。"
+
+- speaker: 穿紫衣的青年
+  listener: 魄瑜侯
+  content: "师傅，求求你救救我的家乡——墨查星！"
 
 relationships:
-  - id: relationship_between_poyu_hou_and_bayan
-    type: Relationship
-    name: 魄瑜侯与巴彦等人的关系
-    description: 巴彦等人因知道过多秘密而被魄瑜侯处死。
-  
-  - id: relationship_between_poyu_hou_and_purple_clothes_young_man
-    type: Relationship
-    name: 魄瑜侯与穿紫衣的青年的关系
-    description: 穿紫衣的青年是魄瑜侯的弟子，请求帮助解救墨查星。
+- id: relationship_between_poyu_hou_and_bayan
+  type: Relationship
+  name: 魄瑜侯与巴彦等人的关系
+  description: 巴彦等人因知道过多秘密而被魄瑜侯处死。
+
+- id: relationship_between_poyu_hou_and_purple_clothes_young_man
+  type: Relationship
+  name: 魄瑜侯与穿紫衣的青年的关系
+  description: 穿紫衣的青年是魄瑜侯的弟子，请求帮助解救墨查星。
 
 timeline:
-  - event_id: poyu_hou_kills_bayan_and_companions
-    time: 不详
+- event_id: poyu_hou_kills_bayan_and_companions
+  time: 不详
 
-  - event_id: purple_clothes_young_man_requests_help
-    time: 魔音山事件之后不久
+- event_id: purple_clothes_young_man_requests_help
+  time: 魔音山事件之后不久
 
 mysteries:
-  - id: mystery_of_the_missing_inheritance_slot
-    type: Mystery
-    name: 失踪的传承名额之谜
-    description: 蒙苍王愤怒的原因是他的老师为他获得的“魔音山”传承名额被他人占据。
-```
+- id: mystery_of_the_missing_inheritance_slot
+  type: Mystery
+  name: 失踪的传承名额之谜
+  description: 蒙苍王愤怒的原因是他的老师为他获得的“魔音山”传承名额被他人占据。

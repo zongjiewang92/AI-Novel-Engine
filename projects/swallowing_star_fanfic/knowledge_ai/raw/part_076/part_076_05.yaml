@@ -1,91 +1,89 @@
-```yaml
 source:
   id: "galactic_chronicles_1154"
 
 entities:
-  - id: "chaotic_city_master"
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 虚拟宇宙公司六位宇宙之主之一，罗峰的老师。
-    attributes:
-      - 实力强
-      - 宽容
+- id: "chaotic_city_master"
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 虚拟宇宙公司六位宇宙之主之一，罗峰的老师。
+  attributes:
+  - 实力强
+  - 宽容
 
-  - id: "darkness_overlord"
-    type: Character
-    name: 黑暗之主
-    aliases: []
-    description: 混沌城主的师弟，黑暗气息强烈。
-    attributes:
-      - 邪异
-      - 强大
+- id: "darkness_overlord"
+  type: Character
+  name: 黑暗之主
+  aliases: []
+  description: 混沌城主的师弟，黑暗气息强烈。
+  attributes:
+  - 邪异
+  - 强大
 
-  - id: "ice_peak_overlord"
-    type: Character
-    name: 冰峰之主
-    aliases: []
-    description: 虚拟宇宙公司六位宇宙之主之一，外表帅气冷酷。
-    attributes:
-      - 神秘
-      - 强大
+- id: "ice_peak_overlord"
+  type: Character
+  name: 冰峰之主
+  aliases: []
+  description: 虚拟宇宙公司六位宇宙之主之一，外表帅气冷酷。
+  attributes:
+  - 神秘
+  - 强大
 
-  - id: "serpentine_overlord"
-    type: Character
-    name: 龙行之主
-    aliases: []
-    description: 虚拟宇宙公司六位宇宙之主之一，有龙尾。
-    attributes:
-      - 幽默
-      - 强大
+- id: "serpentine_overlord"
+  type: Character
+  name: 龙行之主
+  aliases: []
+  description: 虚拟宇宙公司六位宇宙之主之一，有龙尾。
+  attributes:
+  - 幽默
+  - 强大
 
-  - id: "infinity_sea_overlord"
-    type: Character
-    name: 幽侯之主
-    aliases: []
-    description: 混沌城主的优秀弟子。
-    attributes:
-      - 聪明
-      - 强大
+- id: "infinity_sea_overlord"
+  type: Character
+  name: 幽侯之主
+  aliases: []
+  description: 混沌城主的优秀弟子。
+  attributes:
+  - 聪明
+  - 强大
 
-  - id: "luofeng"
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 混沌城主的弟子，新晋升宇宙之主。
-    attributes:
-      - 生存能力强
-      - 分身天赋
-      - 海洋神体
+- id: "luofeng"
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 混沌城主的弟子，新晋升宇宙之主。
+  attributes:
+  - 生存能力强
+  - 分身天赋
+  - 海洋神体
 
 relationships:
-  - 主题: "混沌城主与黑暗之主的关系"
-    描述: 师兄师弟关系。
+- 主题: "混沌城主与黑暗之主的关系"
+  描述: 师兄师弟关系。
 
-  - 主题: "罗峰与混沌城主的关系"
-    描述: 师徒关系。
+- 主题: "罗峰与混沌城主的关系"
+  描述: 师徒关系。
 
 events:
-  - 名称: 混沌城主召集会议
-    时间线位置: 开始
-    描述: 虚拟宇宙公司六位宇宙之主齐聚一堂，讨论相关事宜。
-    关系影响: 强化了混沌城主作为虚拟宇宙公司领头者的地位。
+- 名称: 混沌城主召集会议
+  时间线位置: 开始
+  描述: 虚拟宇宙公司六位宇宙之主齐聚一堂，讨论相关事宜。
+  关系影响: 强化了混沌城主作为虚拟宇宙公司领头者的地位。
 
 dialogues:
-  - 人物1: 混沌城主
-    人物2: 罗峰
-    内容: "罗峰，见过你师叔。"
-    功能: 介绍罗峰给黑暗之主。
-  
-  - 人物1: 黑暗之主
-    人物2: 混沌城主
-    内容: "师兄，这就是你的弟子罗峰？"
-    功能: 认识混沌城主的弟子。
+- 人物1: 混沌城主
+  人物2: 罗峰
+  内容: "罗峰，见过你师叔。"
+  功能: 介绍罗峰给黑暗之主。
+
+- 人物1: 黑暗之主
+  人物2: 混沌城主
+  内容: "师兄，这就是你的弟子罗峰？"
+  功能: 认识混沌城主的弟子。
 
 timeline:
-  - 时间点: 虚拟宇宙公司六位宇宙之主齐聚一堂。
-    描述: 召开会议讨论重要事宜。
+- 时间点: 虚拟宇宙公司六位宇宙之主齐聚一堂。
+  描述: 召开会议讨论重要事宜。
 
 mysteries:
-  - 内容: 罗峰的海洋神体具体有多大的潜力？
-```
+- 内容: 罗峰的海洋神体具体有多大的潜力？

@@ -1,43 +1,42 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 来自地球的年轻人，岁数太小尚未在虬龙星购置房产。
-    attributes:
-      实力: 行星级六阶（通过辅助）
-      性格: 沉稳
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 来自地球的年轻人，岁数太小尚未在虬龙星购置房产。
+  attributes:
+    实力: 行星级六阶（通过辅助）
+    性格: 沉稳
 
-  - id: 高升
-    type: Character
-    name: 高升
-    aliases: []
-    description: 罗峰的朋友，准备先去见一位长辈。
-    attributes:
-      实力: 不详
-      性格: 喜欢广交好友
+- id: 高升
+  type: Character
+  name: 高升
+  aliases: []
+  description: 罗峰的朋友，准备先去见一位长辈。
+  attributes:
+    实力: 不详
+    性格: 喜欢广交好友
 
-  - id: 巴巴塔
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的虚拟助手，告诉罗峰关于虬龙星的信息。
-    attributes:
-      身份: 辅助光脑
+- id: 巴巴塔
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的虚拟助手，告诉罗峰关于虬龙星的信息。
+  attributes:
+    身份: 辅助光脑
 
-  - id: 虬龙城
-    type: Location
-    name: 虬龙城
-    aliases: []
-    description: 长宽近6000公里的巨大城市，历史有三百多万年。
-    attributes:
-      城墙高度: 大约120米（加上雕刻后数百米）
-      特色建筑: 漆黑城墙和琉璃巨龙雕刻
+- id: 虬龙城
+  type: Location
+  name: 虬龙城
+  aliases: []
+  description: 长宽近6000公里的巨大城市，历史有三百多万年。
+  attributes:
+    城墙高度: 大约120米（加上雕刻后数百米）
+    特色建筑: 漆黑城墙和琉璃巨龙雕刻
 
-  - id: 虬龙星
-    type: Location
-    name:
+- id: 虬龙星
+  type: Location
+  name:

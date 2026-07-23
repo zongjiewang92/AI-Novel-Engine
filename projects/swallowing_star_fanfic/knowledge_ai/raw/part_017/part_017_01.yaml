@@ -1,66 +1,64 @@
-```yaml
 source:
   id: 第245章生命涅盘巨力顶
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 武器、遗迹探索者，试图找到最厉害的武器来杀死金角巨兽。
-    attributes:
-      实力: 超越人类常规水平
-  - id: 巴巴塔
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的智能助手，帮助罗峰探索遗迹和寻找武器。
-    attributes: 
-      特性: 智能系统, 探测能力
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 武器、遗迹探索者，试图找到最厉害的武器来杀死金角巨兽。
+  attributes:
+    实力: 超越人类常规水平
+- id: 巴巴塔
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的智能助手，帮助罗峰探索遗迹和寻找武器。
+  attributes:
+    特性: 智能系统, 探测能力
 
 locations:
-  - id: 星空舰队母舰
-    type: Location
-    name: 星空舰队母舰
-    description: 长度16000米，宽度3200米，高度800米的战舰。内部藏有黑龙山-X81型号飞船。
-  - id: X81型号飞船
-    type: Item
-    name: 黑龙山-X81型号飞船
-    description: 直径约100米的飞碟型宇宙冒险飞船，由乌钇金属制造。
+- id: 星空舰队母舰
+  type: Location
+  name: 星空舰队母舰
+  description: 长度16000米，宽度3200米，高度800米的战舰。内部藏有黑龙山-X81型号飞船。
+- id: X81型号飞船
+  type: Item
+  name: 黑龙山-X81型号飞船
+  description: 直径约100米的飞碟型宇宙冒险飞船，由乌钇金属制造。
 
 organizations:
-  - id: 地球各国
-    type: Organization
-    name: 地球各国
-    description: 面对金角巨兽的威胁，决定实行军管并启动人类传承计划。
-    attributes:
-      决策: 实行军管, 启动人类传承计划
+- id: 地球各国
+  type: Organization
+  name: 地球各国
+  description: 面对金角巨兽的威胁，决定实行军管并启动人类传承计划。
+  attributes:
+    决策: 实行军管, 启动人类传承计划
 
 species:
-  - id: 人类
-    type: Species
-    name: 人类
-    description: 处于与金角巨兽战争中的物种，尝试找到能对抗的武器。
+- id: 人类
+  type: Species
+  name: 人类
+  description: 处于与金角巨兽战争中的物种，尝试找到能对抗的武器。
 
 abilities:
-  - id: 宇宙冒险飞船标配武器
-    type: Ability
-    name: 黑龙山-X81型号飞船标配武器
-    description: 可以击杀恒星级七阶八阶生物。
-    
+- id: 宇宙冒险飞船标配武器
+  type: Ability
+  name: 黑龙山-X81型号飞船标配武器
+  description: 可以击杀恒星级七阶八阶生物。
+
 mysteries:
-  - 内容: X81型号飞船如何被控制和改造？
+- 内容: X81型号飞船如何被控制和改造？
 
 dialogues:
-  - id: 罗峰与巴巴塔对话关于X81型号飞船
-    content: 
-      - 罗峰: 杀死恒星级七阶八阶都有希望？
-      - 巴巴塔: 在黑龙山星域内，这种冒险飞船是宇宙级强者使用的。标配武器击杀恒星级七阶八阶生物有希望。
-  - id: 国家领导人会议
-    content:
-      - 各国领导人: 实行军管并启动人类传承计划。
+- id: 罗峰与巴巴塔对话关于X81型号飞船
+  content:
+  - 罗峰: 杀死恒星级七阶八阶都有希望？
+  - 巴巴塔: 在黑龙山星域内，这种冒险飞船是宇宙级强者使用的。标配武器击杀恒星级七阶八阶生物有希望。
+- id: 国家领导人会议
+  content:
+  - 各国领导人: 实行军管并启动人类传承计划。
 
 timeline:
-  - 时间节点: 现在
-    描述: 地球各国决定实行军管，并启动人类传承计划。罗峰和巴巴塔正探索星空舰队母舰。
-```
+- 时间节点: 现在
+  描述: 地球各国决定实行军管，并启动人类传承计划。罗峰和巴巴塔正探索星空舰队母舰。

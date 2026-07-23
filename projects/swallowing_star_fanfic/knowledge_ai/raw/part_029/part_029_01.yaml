@@ -1,63 +1,61 @@
-```yaml
 source:
   id: 罗峰与野人青年的战斗
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 恒星级九阶精神念师，能够施展出两柄金色幻剑。
-    attributes:
-      实力: 衍神兵第二重刺天式
-      能力: 念力强度高，意识强大
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 恒星级九阶精神念师，能够施展出两柄金色幻剑。
+  attributes:
+    实力: 衍神兵第二重刺天式
+    能力: 念力强度高，意识强大
 
-  - id: 野人青年
-    type: Character
-    name: 野人青年
-    aliases: []
-    description: 狂热追求宇宙总排名的战士。
-    attributes:
-      实力: 不详
-      目标: 宇宙总排名第1名，底线是进入前1000
+- id: 野人青年
+  type: Character
+  name: 野人青年
+  aliases: []
+  description: 狂热追求宇宙总排名的战士。
+  attributes:
+    实力: 不详
+    目标: 宇宙总排名第1名，底线是进入前1000
 
 relationships:
-  - id: 罗峰与野人青年的战斗关系
-    type: Conflict
-    description: 在斗武场中进行的一场激烈的对决。
-    entities:
-      - 罗峰
-      - 野人青年
+- id: 罗峰与野人青年的战斗关系
+  type: Conflict
+  description: 在斗武场中进行的一场激烈的对决。
+  entities:
+  - 罗峰
+  - 野人青年
 
 events:
-  - id: 施展两柄金色幻剑
-    type: Ability展示
-    description: 罗峰在虚拟宇宙中施展出两柄金色幻剑，震撼全场。
-    time: 预选到如今两个多月时间的苦修研究后
-    location: 斗武场
+- id: 施展两柄金色幻剑
+  type: Ability展示
+  description: 罗峰在虚拟宇宙中施展出两柄金色幻剑，震撼全场。
+  time: 预选到如今两个多月时间的苦修研究后
+  location: 斗武场
 
-  - id: 野人青年扔掉兵器
-    type: 惊喜举动
-    description: 野人青年突然扔掉手中战刀，引发观众席喧哗。
-    time: 斗武场中战斗时
-    location: 斗武场
+- id: 野人青年扔掉兵器
+  type: 惊喜举动
+  description: 野人青年突然扔掉手中战刀，引发观众席喧哗。
+  time: 斗武场中战斗时
+  location: 斗武场
 
 dialogues:
-  - speaker: 罗峰
-    listener: 野人青年
-    content: "野人！接招！！！"
-    context: 战斗即将开始，罗峰发出战斗宣言。
-  
-  - speaker: 野人青年
-    listener: 观众
-    content: "乾巫宇宙国内部的选拔，我根本没在意过！我的底线，是进入宇宙总排名前一千，我的真正目标……是那宇宙总排名中的第一！！！"
-    context: 表达自己的战斗意志和宏大目标。
+- speaker: 罗峰
+  listener: 野人青年
+  content: "野人！接招！！！"
+  context: 战斗即将开始，罗峰发出战斗宣言。
+
+- speaker: 野人青年
+  listener: 观众
+  content: "乾巫宇宙国内部的选拔，我根本没在意过！我的底线，是进入宇宙总排名前一千，我的真正目标……是那宇宙总排名中的第一！！！"
+  context: 表达自己的战斗意志和宏大目标。
 
 timeline:
-  - 时间点1: 施展两柄金色幻剑
-  - 时间点2: 野人青年扔掉兵器
+- 时间点1: 施展两柄金色幻剑
+- 时间点2: 野人青年扔掉兵器
 
 mysteries:
-  - id: 野人青年的真实实力
-    description: 野人青年的真实战斗力未明，观众难以判断。
-```
+- id: 野人青年的真实实力
+  description: 野人青年的真实战斗力未明，观众难以判断。

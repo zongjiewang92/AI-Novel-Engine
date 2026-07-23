@@ -1,78 +1,76 @@
-```yaml
 source:
   id: 晋之世界事件
 
 entities:
-  - id: 梦妖祖
-    type: Character
-    name: 梦妖祖
-    aliases: []
-    description: 妖族联盟的宇宙之主，联军阵营中的一员。
-    attributes:
-      实力: 宇宙之主
-      性格: 焦急、不甘心
+- id: 梦妖祖
+  type: Character
+  name: 梦妖祖
+  aliases: []
+  description: 妖族联盟的宇宙之主，联军阵营中的一员。
+  attributes:
+    实力: 宇宙之主
+    性格: 焦急、不甘心
 
-  - id: 震妖祖
-    type: Character
-    name: 震妖祖
-    aliases: []
-    description: 巨兽种族的宇宙之主，联军阵营中的一员。
-    attributes:
-      实力: 宇宙之主
-      性格: 焦急、愤怒
+- id: 震妖祖
+  type: Character
+  name: 震妖祖
+  aliases: []
+  description: 巨兽种族的宇宙之主，联军阵营中的一员。
+  attributes:
+    实力: 宇宙之主
+    性格: 焦急、愤怒
 
-  - id: 晋之世界
-    type: Location
-    name: 晋之世界
-    aliases: []
-    description: 联军阵营派出宇宙之主进入的地方，所有进入该世界的联军阵营成员全部消失。
+- id: 晋之世界
+  type: Location
+  name: 晋之世界
+  aliases: []
+  description: 联军阵营派出宇宙之主进入的地方，所有进入该世界的联军阵营成员全部消失。
 
 relationships:
-  - 主体: 梦妖祖
-    对象: 震妖祖
-    关系类型: 同盟关系
+- 主体: 梦妖祖
+  对象: 震妖祖
+  关系类型: 同盟关系
 
 events:
-  - id: 宇宙之主的消失
-    type: Event
-    name: 宇宙之主的突然消失
-    description: 所有进入晋之世界的联军阵营宇宙之主全部消失，且没有留下任何留言。
-    timeline:
-      发生时间: 不久之前
+- id: 宇宙之主的消失
+  type: Event
+  name: 宇宙之主的突然消失
+  description: 所有进入晋之世界的联军阵营宇宙之主全部消失，且没有留下任何留言。
+  timeline:
+    发生时间: 不久之前
 
-  - id: 联系调查
-    type: Event
-    name: 各势力之间的联系和调查
-    description: 梦妖祖、震妖祖等联军阵营成员开始联络各个势力，进行损失统计。
-    timeline:
-      发生时间: 宇宙之主消失之后
+- id: 联系调查
+  type: Event
+  name: 各势力之间的联系和调查
+  description: 梦妖祖、震妖祖等联军阵营成员开始联络各个势力，进行损失统计。
+  timeline:
+    发生时间: 宇宙之主消失之后
 
-  - id: 安全确认
-    type: Event
-    name: 非联军阵营的安全确认
-    description: 联军阵营与宇宙海中其他势力联系，发现他们并未遭受损失。
-    timeline:
-      发生时间: 各势力之间的调查后
+- id: 安全确认
+  type: Event
+  name: 非联军阵营的安全确认
+  description: 联军阵营与宇宙海中其他势力联系，发现他们并未遭受损失。
+  timeline:
+    发生时间: 各势力之间的调查后
 
 dialogues:
-  - 主体: 梦妖祖
-    对象: 震妖祖
-    内容: "我这边也是！你那边也全部消失了？"
-  
-  - 主体: 震妖祖
-    对象: 梦妖祖
-    内容: "只要是去晋之世界的宇宙之主，全部消失，且个个都是突兀消失。"
+- 主体: 梦妖祖
+  对象: 震妖祖
+  内容: "我这边也是！你那边也全部消失了？"
+
+- 主体: 震妖祖
+  对象: 梦妖祖
+  内容: "只要是去晋之世界的宇宙之主，全部消失，且个个都是突兀消失。"
 
 timeline:
-  - 发生时间: 不久之前
-    描述: 所有进入晋之世界的联军阵营宇宙之主突然消失。
-  
-  - 发生时间: 联系调查之后
-    描述: 梦妖祖和震妖祖等势力发现其他联军阵营成员也遭受了同样的打击。
+- 发生时间: 不久之前
+  描述: 所有进入晋之世界的联军阵营宇宙之主突然消失。
+
+- 发生时间: 联系调查之后
+  描述: 梦妖祖和震妖祖等势力发现其他联军阵营成员也遭受了同样的打击。
 
 mysteries:
-  - id: 消失的原因
-    type: Mystery
-    name: 宇宙之主突然消失的原因
-    description: 所有进入晋之世界的联军阵营宇宙之主为何会突然全部消失，没有留下任何信息或原因。
-```
+- id: 消失的原因
+  type: Mystery
+  name: 宇宙之主突然消失的原因
+  description: 所有进入晋之世界的联军阵营宇宙之主为何会突然全部消失，没有留下任何信息或原因。

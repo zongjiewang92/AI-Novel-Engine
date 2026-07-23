@@ -1,83 +1,79 @@
-```yaml
 source:
   id: origin_text
 
 entities:
-  - id: huang
-    type: Character
-    name: 洪
-    description: 极限武馆的馆主，拥有极高的实力和智慧。
-    attributes:
-      - 实力: 行星级八阶以上
-      - 身份: 极限武馆馆主
+- id: huang
+  type: Character
+  name: 洪
+  description: 极限武馆的馆主，拥有极高的实力和智慧。
+  attributes:
+  - 实力: 行星级八阶以上
+  - 身份: 极限武馆馆主
 
-  - id: lei_shen
-    type: Character
-    name: 雷神
-    description: 极限武馆的重要人物，具有强大的实力。
-    attributes:
-      - 实力: 行星级七阶
+- id: lei_shen
+  type: Character
+  name: 雷神
+  description: 极限武馆的重要人物，具有强大的实力。
+  attributes:
+  - 实力: 行星级七阶
 
-  - id: luofeng
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 极限武馆成员之一，正准备突破至行星级。
-    attributes:
-      - 实力: 地球级八阶
-      - 目标: 成为极限武馆巡察使
+- id: luofeng
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 极限武馆成员之一，正准备突破至行星级。
+  attributes:
+  - 实力: 地球级八阶
+  - 目标: 成为极限武馆巡察使
 
-  - id: xuxin
-    type: Character
-    name: 徐欣
-    description: 罗峰的妻子，关心罗峰的安全。
+- id: xuxin
+  type: Character
+  name: 徐欣
+  description: 罗峰的妻子，关心罗峰的安全。
 
 organizations:
-  - id: jixian_wuguan
-    type: Organization
-    name: 极限武馆
-    description: 地球上顶尖的武术组织之一。
-    attributes:
-      - 成员数量: 大量
-      - 目标: 维护地球安全
+- id: jixian_wuguan
+  type: Organization
+  name: 极限武馆
+  description: 地球上顶尖的武术组织之一。
+  attributes:
+  - 成员数量: 大量
+  - 目标: 维护地球安全
 
 locations:
-  - id: tiantai
-    type: Location
-    name: 露天天台
-    description: 洪和雷神进行密谈的地方。
+- id: tiantai
+  type: Location
+  name: 露天天台
+  description: 洪和雷神进行密谈的地方。
 
 events:
-  - id: luofeng_qingxie_chuanchaishi
-    type: Event
-    name: 罗峰申请巡察使
-    description: 罗峰向极限武馆馆主洪提交成为巡察使的申请。
-    timeline:
-      date: 2058年12月30日
-
-  - id: huang_yuanchen_qingqiu_chuanchaishi
-    type: Event
-    name: 洪授权罗峰为巡察使
-    description: 极限武馆馆主洪正式任命罗峰为第六位巡察使。
-    timeline:
-      date: 2059年1月5日
-
-dialogues:
-  - speaker: huang
-    listener: luofeng
-    content: "你极限武馆任命第六位巡察使，是要全球公开的，是要选择一个重要日子，我想……一月份1号、5号、18号都是不错的日子，你选一天吧。"
-    
-timeline:
-  - event: 罗峰申请成为巡察使
+- id: luofeng_qingxie_chuanchaishi
+  type: Event
+  name: 罗峰申请巡察使
+  description: 罗峰向极限武馆馆主洪提交成为巡察使的申请。
+  timeline:
     date: 2058年12月30日
 
-  - event: 极限武馆任命罗峰为第六位巡察使
+- id: huang_yuanchen_qingqiu_chuanchaishi
+  type: Event
+  name: 洪授权罗峰为巡察使
+  description: 极限武馆馆主洪正式任命罗峰为第六位巡察使。
+  timeline:
     date: 2059年1月5日
 
-mysteries:
-  - id: wudao_chuangzuo_zhong
-    type: Mystery
-    description: 在雾岛，神秘黑色巨蛋中孵化出了一个未知的怪物。
-```
+dialogues:
+- speaker: huang
+  listener: luofeng
+  content: "你极限武馆任命第六位巡察使，是要全球公开的，是要选择一个重要日子，我想……一月份1号、5号、18号都是不错的日子，你选一天吧。"
 
-此为根据提供的文本内容所提取的关键信息。
+timeline:
+- event: 罗峰申请成为巡察使
+  date: 2058年12月30日
+
+- event: 极限武馆任命罗峰为第六位巡察使
+  date: 2059年1月5日
+
+mysteries:
+- id: wudao_chuangzuo_zhong
+  type: Mystery
+  description: 在雾岛，神秘黑色巨蛋中孵化出了一个未知的怪物。

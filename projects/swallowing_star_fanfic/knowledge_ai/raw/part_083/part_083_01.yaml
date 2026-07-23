@@ -1,98 +1,96 @@
-```yaml
 source:
   id: origin_text
 
 entities:
-  - id: rofei
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 宇宙尊者，拥有弑吴羽翼等强大装备。
-    attributes:
-      实力: 宇宙尊者
-      装备: 判决之刃、金色的国度、弑吴羽翼
+- id: rofei
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 宇宙尊者，拥有弑吴羽翼等强大装备。
+  attributes:
+    实力: 宇宙尊者
+    装备: 判决之刃、金色的国度、弑吴羽翼
 
-  - id: duandonghe
-    type: Character
-    name: 断东河
-    aliases: []
-    description: 遗留下的远古文明传承者，拥有强大的力量和智慧。
-    attributes:
-      实力: 宇宙最强者层次
+- id: duandonghe
+  type: Character
+  name: 断东河
+  aliases: []
+  description: 遗留下的远古文明传承者，拥有强大的力量和智慧。
+  attributes:
+    实力: 宇宙最强者层次
 
-  - id: wujiongzhushou
-    type: Character
-    name: 巫魉之主
-    aliases: []
-    description: 参与断东河传承的宇宙之主。
-    attributes:
-      实力: 宇宙之主
+- id: wujiongzhushou
+  type: Character
+  name: 巫魉之主
+  aliases: []
+  description: 参与断东河传承的宇宙之主。
+  attributes:
+    实力: 宇宙之主
 
-  - id: yingeizhushou
-    type: Character
-    name: 影埃之主
-    aliases: []
-    description: 参与断东河传承的宇宙之主，冷酷无情。
-    attributes:
-      实力: 宇宙之主
+- id: yingeizhushou
+  type: Character
+  name: 影埃之主
+  aliases: []
+  description: 参与断东河传承的宇宙之主，冷酷无情。
+  attributes:
+    实力: 宇宙之主
 
-  - id: luchongzhushou
-    type: Character
-    name: 鹿虫之主
-    aliases: []
-    description: 参与断东河传承的宇宙之主，对罗峰表示佩服。
-    attributes:
-      实力: 宇宙之主
+- id: luchongzhushou
+  type: Character
+  name: 鹿虫之主
+  aliases: []
+  description: 参与断东河传承的宇宙之主，对罗峰表示佩服。
+  attributes:
+    实力: 宇宙之主
 
 organizations:
-  - id: renlei_zu
-    type: Civilization
-    name: 人类族群
-    description: 拥有众多宇宙之主的强大文明。
+- id: renlei_zu
+  type: Civilization
+  name: 人类族群
+  description: 拥有众多宇宙之主的强大文明。
 
 items:
-  - id: jinguseguo
-    type: Item
-    name: 金色的国度
-    aliases: []
-    description: 罗峰的重要装备，具有保护作用。
-    attributes:
-      功能: 提供保护
+- id: jinguseguo
+  type: Item
+  name: 金色的国度
+  aliases: []
+  description: 罗峰的重要装备，具有保护作用。
+  attributes:
+    功能: 提供保护
 
-  - id: shiewuyi
-    type: Ability
-    name: 弑吴羽翼
-    aliases: []
-    description: 罗峰的防御手段之一。
+- id: shiewuyi
+  type: Ability
+  name: 弑吴羽翼
+  aliases: []
+  description: 罗峰的防御手段之一。
 
 locations:
-  - id: muling_zhoushi
-    type: Location
-    name: 墓陵之舟
-    aliases: []
-    description: 内含断东河传承的地方。
-    attributes:
-      特性: 拥有考验和挑战
+- id: muling_zhoushi
+  type: Location
+  name: 墓陵之舟
+  aliases: []
+  description: 内含断东河传承的地方。
+  attributes:
+    特性: 拥有考验和挑战
 
 dialogues:
-  - speaker: 断东河
-    content: "你已通过，继续前进。"
-    context: 对罗峰完成怪物奎洛考验的评价。
+- speaker: 断东河
+  content: "你已通过，继续前进。"
+  context: 对罗峰完成怪物奎洛考验的评价。
 
 timeline:
   events:
-    - id: muling_zhoushi_ketang
-      name: 墓陵之舟挑战
-      description: 罗峰在墓陵之舟内接受断东河传承，面对怪物奎洛。
-      order: 1
+  - id: muling_zhoushi_ketang
+    name: 墓陵之舟挑战
+    description: 罗峰在墓陵之舟内接受断东河传承，面对怪物奎洛。
+    order: 1
 
 mysteries:
-  - question: 断东河的真正目的和能力是什么？
-    context: 关于断东河的神秘性以及其传承的未知。
+- question: 断东河的真正目的和能力是什么？
+  context: 关于断东河的神秘性以及其传承的未知。
 
 relationships:
-  - id: rofei_duandonghe
-    type: Relationship
-    name: 罗峰与断东河的关系
-    description: 罗峰是接受断东河传承者之一，关系密切但不明。
-```
+- id: rofei_duandonghe
+  type: Relationship
+  name: 罗峰与断东河的关系
+  description: 罗峰是接受断东河传承者之一，关系密切但不明。

@@ -1,73 +1,69 @@
-```yaml
 source:
   id: 第289章心中冰凉
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 黑发年轻人，实际是一个土著星球的最强者（行星级）。
-    attributes:
-      实力: 行星级
-      目标: 增加自己和地球的实力
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 黑发年轻人，实际是一个土著星球的最强者（行星级）。
+  attributes:
+    实力: 行星级
+    目标: 增加自己和地球的实力
 
-  - id: 高升
-    type: Character
-    name: 高升
-    aliases: []
-    description: 黑发青年，看起来有大背景。
-    attributes:
-      身份: 流银护卫的队长，高阶域主
+- id: 高升
+  type: Character
+  name: 高升
+  aliases: []
+  description: 黑发青年，看起来有大背景。
+  attributes:
+    身份: 流银护卫的队长，高阶域主
 
-  - id: 莎莎
-    type: Character
-    name: 莎莎
-    aliases: []
-    description: 梦贝族女仆，曾被贩卖为奴隶。
+- id: 莎莎
+  type: Character
+  name: 莎莎
+  aliases: []
+  description: 梦贝族女仆，曾被贩卖为奴隶。
 
-  - id: 梦贝族
-    type: Species
-    name: 梦贝族
-    aliases: []
-    description: 美丽妖娆的碧发少女种族。
-    attributes:
-      实力: 弱小种族，成年后实力弱于恒星级
+- id: 梦贝族
+  type: Species
+  name: 梦贝族
+  aliases: []
+  description: 美丽妖娆的碧发少女种族。
+  attributes:
+    实力: 弱小种族，成年后实力弱于恒星级
 
 relationships:
-  - id: 罗峰与莎莎
-    type: 雇佣关系
-    description: 莎莎是罗峰雇佣的女仆。
+- id: 罗峰与莎莎
+  type: 雇佣关系
+  description: 莎莎是罗峰雇佣的女仆。
 
-  - id: 梦贝族奴隶
-    type: 同种族关系
-    description: 莎莎与其他梦贝族奴隶的关系。
+- id: 梦贝族奴隶
+  type: 同种族关系
+  description: 莎莎与其他梦贝族奴隶的关系。
 
 events:
-  - id: 罗峰遇见高升
-    type: 遇见
-    description: 罗峰在餐厅遇到高升，并被邀请参观奴隶市场。
-  
-  - id: 梦贝族贩卖事件
-    type: 奴隶贩卖
-    description: 梦贝族人被抓捕并卖给奴隶贩子。
+- id: 罗峰遇见高升
+  type: 遇见
+  description: 罗峰在餐厅遇到高升，并被邀请参观奴隶市场。
+
+- id: 梦贝族贩卖事件
+  type: 奴隶贩卖
+  description: 梦贝族人被抓捕并卖给奴隶贩子。
 
 dialogues:
-  - speaker: 高升
-    listener: 罗峰
-    content: "看，那边也有梦贝族的。莎莎，那些都跟你一个种族的吧！"
-  
-  - speaker: 莎莎
-    listener: 罗峰
-    content: "认识，认识的。主人，她们是跟我来自同一个家乡，同一批被领主抓住，卖给奴隶贩子的。"
+- speaker: 高升
+  listener: 罗峰
+  content: "看，那边也有梦贝族的。莎莎，那些都跟你一个种族的吧！"
+
+- speaker: 莎莎
+  listener: 罗峰
+  content: "认识，认识的。主人，她们是跟我来自同一个家乡，同一批被领主抓住，卖给奴隶贩子的。"
 
 timeline:
-  - event: 高升邀请罗峰参观奴隶市场
-    time: 当前章节
+- event: 高升邀请罗峰参观奴隶市场
+  time: 当前章节
 
 mysteries:
-  - id: 地球的命运
-    description: 如果地球被发现会怎样？
-```
-
-重要提示：严格按照YAML格式输出数据，不要添加任何解释或额外的Markdown。
+- id: 地球的命运
+  description: 如果地球被发现会怎样？

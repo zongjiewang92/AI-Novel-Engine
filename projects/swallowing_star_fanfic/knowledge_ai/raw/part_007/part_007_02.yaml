@@ -1,98 +1,94 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 李耀
-    type: Character
-    name: 李耀
-    aliases: []
-    description: 极限会馆的幕后老板，实力强大。
-    attributes:
-      实力: 高等战神或以上
-      年龄: 成年男性
-      性格: 冷酷、果断
+- id: 李耀
+  type: Character
+  name: 李耀
+  aliases: []
+  description: 极限会馆的幕后老板，实力强大。
+  attributes:
+    实力: 高等战神或以上
+    年龄: 成年男性
+    性格: 冷酷、果断
 
-  - id: 维妮娜*波莱纳斯
-    type: Character
-    name: 维妮娜*波莱纳斯
-    aliases: []
-    description: 波莱纳斯家族大小姐，李耀的妻子。
-    attributes:
-      实力: 高等战神
-      年龄: 成年女性
+- id: 维妮娜*波莱纳斯
+  type: Character
+  name: 维妮娜*波莱纳斯
+  aliases: []
+  description: 波莱纳斯家族大小姐，李耀的妻子。
+  attributes:
+    实力: 高等战神
+    年龄: 成年女性
 
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: ["疯子"]
-    description: 极限会馆的成员，正在努力提升实力。
-    attributes:
-      实力: 初级战将级（目标）
-      年龄: 成年男性
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: [ "疯子" ]
+  description: 极限会馆的成员，正在努力提升实力。
+  attributes:
+    实力: 初级战将级（目标）
+    年龄: 成年男性
 
-  - id: 手机
-    type: Item
-    name: 手机
-    aliases: []
-    description: 罗峰使用的通讯工具。
+- id: 手机
+  type: Item
+  name: 手机
+  aliases: []
+  description: 罗峰使用的通讯工具。
 
 locations:
-  - id: 极限会馆
-    type: Location
-    name: 极限会馆
-    aliases: []
-    description: 武者训练场所，罗峰经常前往的地方。
-    attributes:
-      地址: 扬州城
+- id: 极限会馆
+  type: Location
+  name: 极限会馆
+  aliases: []
+  description: 武者训练场所，罗峰经常前往的地方。
+  attributes:
+    地址: 扬州城
 
 organizations:
-  - id: 波莱纳斯家族
-    type: Organization
-    name: 波莱纳斯家族
-    aliases: []
-    description: 出身于该家族的维妮娜成为HR联盟华夏区执行总裁。
+- id: 波莱纳斯家族
+  type: Organization
+  name: 波莱纳斯家族
+  aliases: []
+  description: 出身于该家族的维妮娜成为HR联盟华夏区执行总裁。
 
 cultivations:
-  - id: 武者实战考核
-    type: Cultivation
-    name: 武者实战考核
-    aliases: []
-    description: 考核武者的实际战斗能力。
-    attributes:
-      等级: 准武者、初级战将级等
+- id: 武者实战考核
+  type: Cultivation
+  name: 武者实战考核
+  aliases: []
+  description: 考核武者的实际战斗能力。
+  attributes:
+    等级: 准武者、初级战将级等
 
 abilities:
-  - id: 九重雷刀
-    type: Ability
-    name: 九重雷刀
-    aliases: []
-    description: 罗峰正在修炼的刀法。
+- id: 九重雷刀
+  type: Ability
+  name: 九重雷刀
+  aliases: []
+  description: 罗峰正在修炼的刀法。
 
 relationships:
-  - id: 李耀和维妮娜*波莱纳斯的关系
-    type: Relationship
-    attributes:
-      关系类型: 夫妻
-      描述: 李耀是维妮娜的父亲，两人共同经营HR联盟华夏区执行总裁职位。
-      
+- id: 李耀和维妮娜*波莱纳斯的关系
+  type: Relationship
+  attributes:
+    关系类型: 夫妻
+    描述: 李耀是维妮娜的父亲，两人共同经营HR联盟华夏区执行总裁职位。
+
 dialogues:
-  - speaker: 维妮娜*波莱纳斯
-    dialogue: "凶手如果真的是有目的有准备的杀死我们儿子，恐怕根本没携带通讯手表。这说明，那506个目标，恐怕一个都不是凶手。"
-    
-  - speaker: 李耀
-    dialogue: "全球范围内，和我李耀有仇的高等战神，就不少于10个。当初为了让你坐上这HR联盟华夏区执行总裁的位置，我们俩也得罪不少人。"
+- speaker: 维妮娜*波莱纳斯
+  dialogue: "凶手如果真的是有目的有准备的杀死我们儿子，恐怕根本没携带通讯手表。这说明，那506个目标，恐怕一个都不是凶手。"
+
+- speaker: 李耀
+  dialogue: "全球范围内，和我李耀有仇的高等战神，就不少于10个。当初为了让你坐上这HR联盟华夏区执行总裁的位置，我们俩也得罪不少人。"
 
 timeline:
-  - event: 罗峰接到新年之后去荒野区的通知。
-    date: 2月26日
-    description: 春节后罗峰会和队友前往荒野区进行训练。
+- event: 罗峰接到新年之后去荒野区的通知。
+  date: 2月26日
+  description: 春节后罗峰会和队友前往荒野区进行训练。
 
 mysteries:
-  - id: 杀害阿威的凶手身份未明
-    type: Mystery
-    attributes:
-      描述: 谁是杀害李耀儿子阿威的真凶，目前仍是一个谜。
-```
-
-此 YAML 数据根据原文提取关键信息组织而成。
+- id: 杀害阿威的凶手身份未明
+  type: Mystery
+  attributes:
+    描述: 谁是杀害李耀儿子阿威的真凶，目前仍是一个谜。

@@ -1,66 +1,64 @@
-```yaml
 source:
   id: "src_566"
 
 entities:
-  - id: "char_true_derivation"
-    type: Character
-    name: 真衍王
-    aliases: []
-    description: 太初秘境的老师，对罗峰非常满意。
-    attributes:
-      lifespan: 亿万年
+- id: "char_true_derivation"
+  type: Character
+  name: 真衍王
+  aliases: []
+  description: 太初秘境的老师，对罗峰非常满意。
+  attributes:
+    lifespan: 亿万年
 
-  - id: "char_rofei"
-    type: Character
-    name: 罗峰
-    aliases: ["殿下"]
-    description: 真衍王的学生，有着极高的天赋和进步速度。
-    attributes:
-      level: 太初秘境成员
+- id: "char_rofei"
+  type: Character
+  name: 罗峰
+  aliases: [ "殿下" ]
+  description: 真衍王的学生，有着极高的天赋和进步速度。
+  attributes:
+    level: 太初秘境成员
 
-  - id: "org_virtual_universe_company"
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 提供太初秘境的平台。
+- id: "org_virtual_universe_company"
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 提供太初秘境的平台。
 
-  - id: "location_true_mystery"
-    type: Location
-    name: 太初秘境
-    aliases: [绝境级任务]
-    description: 包含多个危险级和绝境级的任务，死亡率极高。
-    attributes:
-      task_count:
-        danger_level: 186
-        absolute_danger_level: 18
+- id: "location_true_mystery"
+  type: Location
+  name: 太初秘境
+  aliases: [ 绝境级任务 ]
+  description: 包含多个危险级和绝境级的任务，死亡率极高。
+  attributes:
+    task_count:
+      danger_level: 186
+      absolute_danger_level: 18
 
 relationships:
-  - id: "rel_rofei_true_derivation"
-    type: Teacher-Student
-    from: char_rofei
-    to: char_true_derivation
+- id: "rel_rofei_true_derivation"
+  type: Teacher-Student
+  from: char_rofei
+  to: char_true_derivation
 
 events:
-  - id: "event_decision_absolute_mission"
-    name: 决定执行绝境任务
-    description: 罗峰决定接取绝境级任务，老师劝说后仍坚持。
+- id: "event_decision_absolute_mission"
+  name: 决定执行绝境任务
+  description: 罗峰决定接取绝境级任务，老师劝说后仍坚持。
 
 dialogues:
-  - speaker: char_true_derivation
-    listener: char_rofei
-    content: |
-      "你天赋是高！你的进步，也是越来越惊人！你说你……你连第一次资格战都没参加就去参加绝境级。你说，我是该说你是狂妄自大好，还是说你自信十足好？"
+- speaker: char_true_derivation
+  listener: char_rofei
+  content: |
+    "你天赋是高！你的进步，也是越来越惊人！你说你……你连第一次资格战都没参加就去参加绝境级。你说，我是该说你是狂妄自大好，还是说你自信十足好？"
 
-  - speaker: char_rofei
-    listener: char_true_derivation
-    content: |
-      "老师，我已做了决定，而且，信心十足。"
+- speaker: char_rofei
+  listener: char_true_derivation
+  content: |
+    "老师，我已做了决定，而且，信心十足。"
 timeline:
-  - event_id: "event_decision_absolute_mission"
-    time: 半年之后
+- event_id: "event_decision_absolute_mission"
+  time: 半年之后
 
 mysteries:
-  - id: mystery_absolute_task_detail
-    description: 绝境任务的详细内容和罗峰如何从绝境中活下来。
-```
+- id: mystery_absolute_task_detail
+  description: 绝境任务的详细内容和罗峰如何从绝境中活下来。

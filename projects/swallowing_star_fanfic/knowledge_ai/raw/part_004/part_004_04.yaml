@@ -1,112 +1,110 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: rofei
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      初级战将，曾被徐刚劝告不要纠缠他的妹妹。身体素质在服用基因药水后得到了显著提升。
-    attributes:
-      实力: 初级战将
-      年龄: 不详
-      性格: 谦逊谨慎
+- id: rofei
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    初级战将，曾被徐刚劝告不要纠缠他的妹妹。身体素质在服用基因药水后得到了显著提升。
+  attributes:
+    实力: 初级战将
+    年龄: 不详
+    性格: 谦逊谨慎
 
-  - id: xujiang
-    type: Character
-    name: 徐刚
-    aliases: []
-    description: >
-      给罗峰警告，不要纠缠他的妹妹。表现出对妹妹的保护欲。
-    attributes:
-      实力: 不详
-      年龄: 不详
-      性格: 严格谨慎
+- id: xujiang
+  type: Character
+  name: 徐刚
+  aliases: []
+  description: >
+    给罗峰警告，不要纠缠他的妹妹。表现出对妹妹的保护欲。
+  attributes:
+    实力: 不详
+    年龄: 不详
+    性格: 严格谨慎
 
-  - id: xuxin
-    type: Character
-    name: 徐欣
-    aliases: []
-    description: >
-      罗峰的老同学，曾与罗峰在酒吧有过长时间的交谈。
-    attributes:
-      实力: 不详
-      年龄: 不详
-      性格: 友好
+- id: xuxin
+  type: Character
+  name: 徐欣
+  aliases: []
+  description: >
+    罗峰的老同学，曾与罗峰在酒吧有过长时间的交谈。
+  attributes:
+    实力: 不详
+    年龄: 不详
+    性格: 友好
 
-  - id: changong
-    type: Character
-    name: 高风
-    aliases: []
-    description: >
-      罗峰的小队队长，关心队员的身体素质提升情况。
-    attributes:
-      实力: 初级战将及以上
-      年龄: 不详
-      性格: 老练
+- id: changong
+  type: Character
+  name: 高风
+  aliases: []
+  description: >
+    罗峰的小队队长，关心队员的身体素质提升情况。
+  attributes:
+    实力: 初级战将及以上
+    年龄: 不详
+    性格: 老练
 
-  - id: weite
-    type: Character
-    name: 魏铁
-    aliases: []
-    description: >
-      罗峰的小队成员之一，身体素质达到初级战将级标准。
-    attributes:
-      实力: 初级战将
-      年龄: 不详
-      性格: 耐心勤奋
+- id: weite
+  type: Character
+  name: 魏铁
+  aliases: []
+  description: >
+    罗峰的小队成员之一，身体素质达到初级战将级标准。
+  attributes:
+    实力: 初级战将
+    年龄: 不详
+    性格: 耐心勤奋
 
-  - id: weiqing
-    type: Character
-    name: 魏青
-    aliases: []
-    description: >
-      罗峰的小队成员之一，身体素质达到初级战将级标准。
-    attributes:
-      实力: 初级战将
-      年龄: 不详
-      性格: 耐心勤奋
+- id: weiqing
+  type: Character
+  name: 魏青
+  aliases: []
+  description: >
+    罗峰的小队成员之一，身体素质达到初级战将级标准。
+  attributes:
+    实力: 初级战将
+    年龄: 不详
+    性格: 耐心勤奋
 
-  - id: chengu
-    type: Character
-    name: 陈谷
-    aliases: []
-    description: >
-      罗峰的小队成员，身体素质达到初级战将级优秀标准。
-    attributes:
-      实力: 初级战将及以上
-      年龄: 不详
-      性格: 热情
+- id: chengu
+  type: Character
+  name: 陈谷
+  aliases: []
+  description: >
+    罗峰的小队成员，身体素质达到初级战将级优秀标准。
+  attributes:
+    实力: 初级战将及以上
+    年龄: 不详
+    性格: 热情
 
 relationships:
-  - id: xuxin_rofei
-    type: 友好关系
-    description: 徐欣与罗峰曾经是同学，有过长时间的交谈。
-    
-  - id: rofei_xujiang
-    type: 警告关系
-    description: 徐刚警告罗峰不要纠缠他的妹妹徐欣。
+- id: xuxin_rofei
+  type: 友好关系
+  description: 徐欣与罗峰曾经是同学，有过长时间的交谈。
+
+- id: rofei_xujiang
+  type: 警告关系
+  description: 徐刚警告罗峰不要纠缠他的妹妹徐欣。
 
 events:
-  - id: xueyin_jingyan
-    type: 经验积累
-    description: 罗峰通过连续五十天的战斗积累了丰富的实战经验。
-    
-  - id: weite_weiqing_chengu_qiyejin
-    type: 体质提升
-    description: 魏铁、魏青和陈谷在服用基因药水后，身体素质得到了显著提高。
+- id: xueyin_jingyan
+  type: 经验积累
+  description: 罗峰通过连续五十天的战斗积累了丰富的实战经验。
+
+- id: weite_weiqing_chengu_qiyejin
+  type: 体质提升
+  description: 魏铁、魏青和陈谷在服用基因药水后，身体素质得到了显著提高。
 
 dialogues:
-  - speaker: xujiang
-    dialogue: >
-      罗峰啊罗峰，我跟你说这么多，也够委婉，够给你面子了！希望你有自知之明……如果你将来再纠缠我妹妹，就不能怪我动用手段了！
+- speaker: xujiang
+  dialogue: >
+    罗峰啊罗峰，我跟你说这么多，也够委婉，够给你面子了！希望你有自知之明……如果你将来再纠缠我妹妹，就不能怪我动用手段了！
 
 timeline:
 
 mysteries:
-  - id: xuxin_jingli
-    type: 神秘信息
-    description: 徐欣的真实背景和实力是否如外界所说一般深厚，有待揭晓。
-```
+- id: xuxin_jingli
+  type: 神秘信息
+  description: 徐欣的真实背景和实力是否如外界所说一般深厚，有待揭晓。

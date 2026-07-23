@@ -1,85 +1,83 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: LuoFeng
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      界主罗家子弟，受到族群重视。已击败吠镜王，拥有宇宙中等尊者的实力。
-    attributes:
-      - 实力: 宇宙中等尊者
-      - 身份: 人类族群成员
+- id: LuoFeng
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    界主罗家子弟，受到族群重视。已击败吠镜王，拥有宇宙中等尊者的实力。
+  attributes:
+  - 实力: 宇宙中等尊者
+  - 身份: 人类族群成员
 
-  - id: ZhenYanZunzhe
-    type: Character
-    name: 真衍尊者
-    aliases: []
-    description: >
-      混沌城主的弟子，罗峰的老师。时常指导并支持罗峰的成长。
-    attributes:
-      - 实力: 强大宇宙尊者
+- id: ZhenYanZunzhe
+  type: Character
+  name: 真衍尊者
+  aliases: []
+  description: >
+    混沌城主的弟子，罗峰的老师。时常指导并支持罗峰的成长。
+  attributes:
+  - 实力: 强大宇宙尊者
 
-  - id: JiuYanGuozhu
-    type: Character
-    name: 九焱国主
-    aliases: []
-    description: >
-      混沌城主的亲信，与罗峰关系良好。
-    attributes:
-      - 身份: 国主
+- id: JiuYanGuozhu
+  type: Character
+  name: 九焱国主
+  aliases: []
+  description: >
+    混沌城主的亲信，与罗峰关系良好。
+  attributes:
+  - 身份: 国主
 
-  - id: GuiyiZunzhe
-    type: Character
-    name: 归一尊者
-    aliases: []
-    description: >
-      排行第二的弟子，混沌城主的亲信。负责传达混沌城主的信息和命令。
-    attributes:
-      - 实力: 强大宇宙尊者
+- id: GuiyiZunzhe
+  type: Character
+  name: 归一尊者
+  aliases: []
+  description: >
+    排行第二的弟子，混沌城主的亲信。负责传达混沌城主的信息和命令。
+  attributes:
+  - 实力: 强大宇宙尊者
 
-  - id: JiuxiaoJiejiong
-    type: Organization
-    name: 家族
-    aliases: []
-    description: >
-      罗家家族，罗峰所属的家族。
+- id: JiuxiaoJiejiong
+  type: Organization
+  name: 家族
+  aliases: []
+  description: >
+    罗家家族，罗峰所属的家族。
 
 relationships:
-  - entities:
-      - LuoFeng
-      - ZhenYanZunzhe
-    type: 师徒关系
+- entities:
+  - LuoFeng
+  - ZhenYanZunzhe
+  type: 师徒关系
 
 events:
-  - id: 战斗视频传播
-    name: 战斗视频传播
-    description: >
-      罗峰与吠镜王的战斗视频已经传入人类族群，很多宇宙尊者都看到了。
-    timeline: 已经过去两天
+- id: 战斗视频传播
+  name: 战斗视频传播
+  description: >
+    罗峰与吠镜王的战斗视频已经传入人类族群，很多宇宙尊者都看到了。
+  timeline: 已经过去两天
 
 dialogues:
-  - speaker: ZhenYanZunzhe
-    listener: LuoFeng
-    content: "我给你一封邮件，你是立即就来接我。真是为师的好弟子啊。"
-    context: 真衍尊者称赞罗峰迅速回应老师的消息。
+- speaker: ZhenYanZunzhe
+  listener: LuoFeng
+  content: "我给你一封邮件，你是立即就来接我。真是为师的好弟子啊。"
+  context: 真衍尊者称赞罗峰迅速回应老师的消息。
 
-  - speaker: LuoFeng
-    listener: ZhenYanZunzhe
-    content: "尊敬老师嘛。"
-    context: 罗峰对老师的夸奖进行谦虚的回答。
+- speaker: LuoFeng
+  listener: ZhenYanZunzhe
+  content: "尊敬老师嘛。"
+  context: 罗峰对老师的夸奖进行谦虚的回答。
 
-  - speaker: GuiyiZunzhe
-    listener: LuoFeng
-    content: "师弟，我奉老师令，亲自传达消息给你……关于你加入我人类最高会议的提案，最高层已经审核通过。自此，你便有资格位列最高会议席位。"
-    context: 归一尊者代表混沌城主宣布罗峰可以参加最高会议。
+- speaker: GuiyiZunzhe
+  listener: LuoFeng
+  content: "师弟，我奉老师令，亲自传达消息给你……关于你加入我人类最高会议的提案，最高层已经审核通过。自此，你便有资格位列最高会议席位。"
+  context: 归一尊者代表混沌城主宣布罗峰可以参加最高会议。
 
 timeline:
-  - name: 战斗视频传播
-    time: 已经过去两天
+- name: 战斗视频传播
+  time: 已经过去两天
 
 mysteries:
-  - unknown_information: 罗峰未来具体会在人类族群中发挥怎样的作用。
-```
+- unknown_information: 罗峰未来具体会在人类族群中发挥怎样的作用。

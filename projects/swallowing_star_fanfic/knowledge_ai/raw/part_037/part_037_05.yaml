@@ -1,85 +1,83 @@
-```yaml
 source:
   id: origin_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 太初秘境的成员，宇宙级实力。
-    attributes:
-      实力: 宇宙级
-      装备: 暗金色长棍
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 太初秘境的成员，宇宙级实力。
+  attributes:
+    实力: 宇宙级
+    装备: 暗金色长棍
 
-  - id: 牛头人
-    type: Character
-    name: 牛头人
-    aliases: []
-    description: 原始通天山山脚的守关者。
-    attributes:
-      实力: 不详
-      装备: 骇人巨斧
+- id: 牛头人
+  type: Character
+  name: 牛头人
+  aliases: []
+  description: 原始通天山山脚的守关者。
+  attributes:
+    实力: 不详
+    装备: 骇人巨斧
 
-  - id: 精瘦猿人
-    type: Character
-    name: 精瘦猿人
-    aliases: []
-    description: 原始通天山山脚的守关者。
-    attributes:
-      实力: 不详
-      装备: 黑色竹竿
+- id: 精瘦猿人
+  type: Character
+  name: 精瘦猿人
+  aliases: []
+  description: 原始通天山山脚的守关者。
+  attributes:
+    实力: 不详
+    装备: 黑色竹竿
 
-  - id: 蛇女
-    type: Character
-    name: 蛇女
-    aliases: []
-    description: 原始通天山山脚的守关者。
-    attributes:
-      实力: 不详
-      外貌特征: 半透明纱衣，蛇尾人身
+- id: 蛇女
+  type: Character
+  name: 蛇女
+  aliases: []
+  description: 原始通天山山脚的守关者。
+  attributes:
+    实力: 不详
+    外貌特征: 半透明纱衣，蛇尾人身
 
 organizations:
-  - id: 虚拟宇宙公司
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 提供虚拟宇宙空间的组织。
+- id: 虚拟宇宙公司
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 提供虚拟宇宙空间的组织。
 
 locations:
-  - id: 原始通天山
-    type: Location
-    name: 原始通天山
-    aliases: []
-    description: 虚拟宇宙中的一座高山，位于原始区。
-    attributes:
-      高度: 十万米
+- id: 原始通天山
+  type: Location
+  name: 原始通天山
+  aliases: []
+  description: 虚拟宇宙中的一座高山，位于原始区。
+  attributes:
+    高度: 十万米
 
 abilities:
-  - id: 挑战通天山
-    type: Ability
-    name: 挑战通天山
-    aliases: []
-    description: 成功闯过三座通天山可提升秘境层级。
-    attributes:
-      规则: 从山脚杀到山顶，击败三个守关者。
+- id: 挑战通天山
+  type: Ability
+  name: 挑战通天山
+  aliases: []
+  description: 成功闯过三座通天山可提升秘境层级。
+  attributes:
+    规则: 从山脚杀到山顶，击败三个守关者。
 
 dialogues:
-  - id: 牛头人与罗峰对话
-    type: Dialogue
-    content: "你是来闯原始通天山的？"
-    participants:
-      - 罗峰
-      - 牛头人
+- id: 牛头人与罗峰对话
+  type: Dialogue
+  content: "你是来闯原始通天山的？"
+  participants:
+  - 罗峰
+  - 牛头人
 
 timeline:
   events:
-    - id: 罗峰挑战原始通天山
-      time: 不详
-      description: 罗峰决定挑战原始通天山。
+  - id: 罗峰挑战原始通天山
+    time: 不详
+    description: 罗峰决定挑战原始通天山。
 
 mysteries:
-  - id: 守关者实力未知
-    type: Mystery
-    content: 原始通天山守关者的具体实力未说明。
-```
+- id: 守关者实力未知
+  type: Mystery
+  content: 原始通天山守关者的具体实力未说明。

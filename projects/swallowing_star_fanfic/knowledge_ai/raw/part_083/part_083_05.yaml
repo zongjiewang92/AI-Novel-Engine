@@ -1,88 +1,86 @@
-```yaml
 source:
   id: 犀皇局解题与意志磨砺
 
 entities:
-  - id: 断东河
-    type: 角色
-    name: 断东河
-    aliases: []
-    description: 断东河是犀皇局的传人，负责传承给后来者。
-    attributes:
-      实力: 不朽神灵
-      性格: 淡漠、严厉
+- id: 断东河
+  type: 角色
+  name: 断东河
+  aliases: []
+  description: 断东河是犀皇局的传人，负责传承给后来者。
+  attributes:
+    实力: 不朽神灵
+    性格: 淡漠、严厉
 
-  - id: 罗峰
-    type: 角色
-    name: 罗峰
-    aliases: []
-    description: 解开了犀皇局第二瓶颈，拥有极大的潜力。
-    attributes:
-      实力: 宇宙尊者
-      性格: 冷静、坚韧
+- id: 罗峰
+  type: 角色
+  name: 罗峰
+  aliases: []
+  description: 解开了犀皇局第二瓶颈，拥有极大的潜力。
+  attributes:
+    实力: 宇宙尊者
+    性格: 冷静、坚韧
 
-  - id: 碧血尊者
-    type: 角色
-    name: 碧血尊者
-    aliases: []
-    description: 来自东帝圣地，解开犀皇局第二瓶颈。
-    attributes:
-      实力: 宇宙尊者
-      性格: 冷静、野心勃勃
+- id: 碧血尊者
+  type: 角色
+  name: 碧血尊者
+  aliases: []
+  description: 来自东帝圣地，解开犀皇局第二瓶颈。
+  attributes:
+    实力: 宇宙尊者
+    性格: 冷静、野心勃勃
 
-  - id: 黑纹石柱空间
-    type: 地点
-    name: 黑纹石柱空间
-    aliases: []
-    description: 罗峰磨砺意志的地方，有16根黑纹石柱。
-    attributes:
-      特性: 巨大、充满意志冲击
+- id: 黑纹石柱空间
+  type: 地点
+  name: 黑纹石柱空间
+  aliases: []
+  description: 罗峰磨砺意志的地方，有16根黑纹石柱。
+  attributes:
+    特性: 巨大、充满意志冲击
 
-  - id: 东帝圣地
-    type: 组织
-    name: 东帝圣地
-    aliases: []
-    description: 罗峰所属的宇宙圣地之一，拥有众多强者。
+- id: 东帝圣地
+  type: 组织
+  name: 东帝圣地
+  aliases: []
+  description: 罗峰所属的宇宙圣地之一，拥有众多强者。
 
 events:
-  - id: 犀皇局解题
-    type: 事件
-    description: 罗峰和碧血尊者解开犀皇局第二瓶颈。
-    attributes:
-      时间: 未知
+- id: 犀皇局解题
+  type: 事件
+  description: 罗峰和碧血尊者解开犀皇局第二瓶颈。
+  attributes:
+    时间: 未知
 
-  - id: 意志磨砺
-    type: 事件
-    description: 罗峰在黑纹石柱空间中磨砺意志，试图突破极限。
-    attributes:
-      地点: 黑纹石柱空间
-      时间: 解锁第二瓶颈后不久
+- id: 意志磨砺
+  type: 事件
+  description: 罗峰在黑纹石柱空间中磨砺意志，试图突破极限。
+  attributes:
+    地点: 黑纹石柱空间
+    时间: 解锁第二瓶颈后不久
 
 relationships:
-  - id: 断东河与罗峰
-    type: 关系
-    description: 断东河认可了罗峰的潜力，并给予了其传承的机会。
+- id: 断东河与罗峰
+  type: 关系
+  description: 断东河认可了罗峰的潜力，并给予了其传承的机会。
 
-  - id: 罗峰和碧血尊者
-    type: 关系
-    description: 在解题过程中，两人是竞争对手关系。
-    
+- id: 罗峰和碧血尊者
+  type: 关系
+  description: 在解题过程中，两人是竞争对手关系。
+
 dialogues:
-  - id: 断东河与罗峰对话
-    text: "‘嗯？碧血尊者。’断东河目光看去，微笑点头，看来此次得到我断东河一脉传承希望最大的，便是你和那人类银河了……"
-    context: 罗峰解开第二瓶颈后。
+- id: 断东河与罗峰对话
+  text: "‘嗯？碧血尊者。’断东河目光看去，微笑点头，看来此次得到我断东河一脉传承希望最大的，便是你和那人类银河了……"
+  context: 罗峰解开第二瓶颈后。
 
-  - id: 碧血尊者内心独白
-    text: "‘成宇宙最强者？不是唯有原始宇宙，才能孕育宇宙最强者吗？难道始祖也有办法？’"
-    context: 解开第二瓶颈后的激动与思考。
-    
+- id: 碧血尊者内心独白
+  text: "‘成宇宙最强者？不是唯有原始宇宙，才能孕育宇宙最强者吗？难道始祖也有办法？’"
+  context: 解开第二瓶颈后的激动与思考。
+
 timeline:
-  - id: 持续解题
-    type: 时间线
-    description: 罗峰和碧血尊者继续解决犀皇局的难题，争取获得传承。
+- id: 持续解题
+  type: 时间线
+  description: 罗峰和碧血尊者继续解决犀皇局的难题，争取获得传承。
 
 mysteries:
-  - id: 预言之谜
-    text: "‘即使这次你未曾得到传承，将来也会得到我圣地最好的栽培。’"
-    context: 断东河对碧血尊者的承诺。
-```
+- id: 预言之谜
+  text: "‘即使这次你未曾得到传承，将来也会得到我圣地最好的栽培。’"
+  context: 断东河对碧血尊者的承诺。

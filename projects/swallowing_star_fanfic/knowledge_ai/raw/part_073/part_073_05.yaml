@@ -1,99 +1,97 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 主角，拥有极高实力的宇宙霸主。
-    attributes:
-      实力: 极高的宇宙高等尊者
-      性格: 智慧、谨慎
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 主角，拥有极高实力的宇宙霸主。
+  attributes:
+    实力: 极高的宇宙高等尊者
+    性格: 智慧、谨慎
 
-  - id: 星河之主
-    type: Character
-    name: 星河之主
-    aliases: []
-    description: 宇宙中地位极高的存在。
-    attributes:
-      实力: 极高，拥有时空逆转的能力
-      性格: 威严、神秘
+- id: 星河之主
+  type: Character
+  name: 星河之主
+  aliases: []
+  description: 宇宙中地位极高的存在。
+  attributes:
+    实力: 极高，拥有时空逆转的能力
+    性格: 威严、神秘
 
-  - id: 梵挪堡主
-    type: Character
-    name: 梵挪堡主
-    aliases: []
-    description: 刺环联盟的宇宙霸主。
-    attributes:
-      实力: 顶尖宇宙霸主
-      性格: 狡猾、贪婪
+- id: 梵挪堡主
+  type: Character
+  name: 梵挪堡主
+  aliases: []
+  description: 刺环联盟的宇宙霸主。
+  attributes:
+    实力: 顶尖宇宙霸主
+    性格: 狡猾、贪婪
 
-  - id: 北疆联盟宫殿群
-    type: Location
-    name: 北疆联盟宫殿群
-    aliases: []
-    description: 燃烧着无尽黑色火焰的宏伟建筑群，星河之主的居所。
+- id: 北疆联盟宫殿群
+  type: Location
+  name: 北疆联盟宫殿群
+  aliases: []
+  description: 燃烧着无尽黑色火焰的宏伟建筑群，星河之主的居所。
 
-  - id: 混沌城
-    type: Location
-    name: 混沌城
-    aliases: []
-    description: 宇宙中重要的城市之一。
+- id: 混沌城
+  type: Location
+  name: 混沌城
+  aliases: []
+  description: 宇宙中重要的城市之一。
 
-  - id: 神国
-    type: Location
-    name: 神国
-    aliases: []
-    description: 罗峰的起源地，拥有强大的虚拟宇宙系统。
+- id: 神国
+  type: Location
+  name: 神国
+  aliases: []
+  description: 罗峰的起源地，拥有强大的虚拟宇宙系统。
 
-  - id: 原始星
-    type: Location
-    name: 原始星
-    aliases: []
-    description: 罗峰经常活动的一个星球。
+- id: 原始星
+  type: Location
+  name: 原始星
+  aliases: []
+  description: 罗峰经常活动的一个星球。
 
-  - id: 木之究化晶
-    type: Item
-    name: 木之究化晶
-    aliases: []
-    description: 一种具有高价值的金属。
-    attributes:
-      宝点数: 18重宝点
+- id: 木之究化晶
+  type: Item
+  name: 木之究化晶
+  aliases: []
+  description: 一种具有高价值的金属。
+  attributes:
+    宝点数: 18重宝点
 
 relationships:
-  - 主体: 罗峰
-    关系类型: 领属关系
-    目标: 混沌城
-    描述: 罗峰在混沌城里有府邸。
+- 主体: 罗峰
+  关系类型: 领属关系
+  目标: 混沌城
+  描述: 罗峰在混沌城里有府邸。
 
 events:
-  - 名称: 星河之主的时空回溯
-    时间线位置: 远古时期
-    参与者: 星河之主, 多名宇宙尊者
-    地点: 北疆联盟宫殿群
-    描述: 星河之主通过时空逆转能力复活多位宇宙高等尊者。
+- 名称: 星河之主的时空回溯
+  时间线位置: 远古时期
+  参与者: 星河之主, 多名宇宙尊者
+  地点: 北疆联盟宫殿群
+  描述: 星河之主通过时空逆转能力复活多位宇宙高等尊者。
 
-  - 名称: 罗峰辨认宝物
-    时间线位置: 当前时期
-    参与者: 罗峰, 虚拟宇宙系统
-    地点: 混沌城偏殿
-    描述: 罗峰试图通过虚拟宇宙系统辨别自己拥有的未知金属的价值。
+- 名称: 罗峰辨认宝物
+  时间线位置: 当前时期
+  参与者: 罗峰, 虚拟宇宙系统
+  地点: 混沌城偏殿
+  描述: 罗峰试图通过虚拟宇宙系统辨别自己拥有的未知金属的价值。
 
 dialogues:
-  - 对话人1: 星河之主
-    对话人2: 多名宇宙尊者
-    内容: "回答我，人类罗峰的帮手是谁！"
-  
-  - 对话人1: 罗峰
-    对话人2: 虚拟宇宙系统
-    内容: "金属‘木之究化晶’一颗，献给族群可得到18重宝点，罗峰，是否愿将这宝物献给族群？"
+- 对话人1: 星河之主
+  对话人2: 多名宇宙尊者
+  内容: "回答我，人类罗峰的帮手是谁！"
+
+- 对话人1: 罗峰
+  对话人2: 虚拟宇宙系统
+  内容: "金属‘木之究化晶’一颗，献给族群可得到18重宝点，罗峰，是否愿将这宝物献给族群？"
 
 timeline:
-  - 时间节点: 星河之主的时空回溯
-    描述: 远古时期星河之主复活多名宇宙高等尊者。
+- 时间节点: 星河之主的时空回溯
+  描述: 远古时期星河之主复活多名宇宙高等尊者。
 
 mysteries:
-  - 内容: 罗峰的金属中究竟包含什么未知的宝物？
-```
+- 内容: 罗峰的金属中究竟包含什么未知的宝物？

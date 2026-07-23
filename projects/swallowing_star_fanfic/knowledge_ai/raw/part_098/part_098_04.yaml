@@ -1,83 +1,81 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有真神实力，能够施展乌启神第二重，掌握血影刀和多种强大招数。
-    attributes:
-      实力: 真神
-      武器: 血影刀
-      能力: 无尽金海、一念虚空、星辰塔、千丝泽
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有真神实力，能够施展乌启神第二重，掌握血影刀和多种强大招数。
+  attributes:
+    实力: 真神
+    武器: 血影刀
+    能力: 无尽金海、一念虚空、星辰塔、千丝泽
 
-  - id: 界兽贝迪
-    type: Character
-    name: 界兽贝迪
-    aliases: []
-    description: 拥有五阶实力，擅长施展毁灭本源的招数。
-    attributes:
-      实力: 五阶
-      秘法: 燃血秘术、轮回通道
+- id: 界兽贝迪
+  type: Character
+  name: 界兽贝迪
+  aliases: []
+  description: 拥有五阶实力，擅长施展毁灭本源的招数。
+  attributes:
+    实力: 五阶
+    秘法: 燃血秘术、轮回通道
 
 items:
-  - id: 血影刀
-    type: Item
-    name: 血影刀
-    description: 罗峰持有的武器，具有强大的空间湮灭能力。
-    attributes: []
+- id: 血影刀
+  type: Item
+  name: 血影刀
+  description: 罗峰持有的武器，具有强大的空间湮灭能力。
+  attributes: []
 
-  - id: 星辰塔
-    type: Item
-    name: 星辰塔
-    description: 可以产生无尽黑暗漩涡，吸收目标。
-    attributes: []
+- id: 星辰塔
+  type: Item
+  name: 星辰塔
+  description: 可以产生无尽黑暗漩涡，吸收目标。
+  attributes: []
 
-  - id: 千丝泽
-    type: Item
-    name: 千丝泽
-    description: 念力兵器类的束缚类宝物，可以将敌人包裹起来。
-    attributes: []
+- id: 千丝泽
+  type: Item
+  name: 千丝泽
+  description: 念力兵器类的束缚类宝物，可以将敌人包裹起来。
+  attributes: []
 
 abilities:
-  - id: 毁灭本源
-    type: Ability
-    name: 毁灭本源
-    description: 界兽贝迪施展的强大招数之一，能够轻易湮灭小型宇宙。
+- id: 毁灭本源
+  type: Ability
+  name: 毁灭本源
+  description: 界兽贝迪施展的强大招数之一，能够轻易湮灭小型宇宙。
 
-  - id: 轮回通道
-    type: Ability
-    name: 轮回通道
-    description: 界兽贝迪掌握的招数之一，由两条漩涡通道缠绕形成无限映照世界。
-    attributes: []
+- id: 轮回通道
+  type: Ability
+  name: 轮回通道
+  description: 界兽贝迪掌握的招数之一，由两条漩涡通道缠绕形成无限映照世界。
+  attributes: []
 
 relationships:
 
 events:
-  - id: 战斗
-    type: Event
-    name: 罗峰与界兽贝迪的战斗
-    description: 罗峰使用多种强大能力对抗五阶界兽贝迪，将其困住并试图消灭。
-    timeline:
-      - 时间点: 初始
-        描述: 界兽贝迪施展轮回通道攻击罗峰，被罗峰的空间湮灭招数反制。
-      - 时间点: 中期
-        描述: 罗峰使用星辰塔和千丝泽将界兽贝迪困住。
-      - 时间点: 结束
-        描述: 面临无法逃出的绝境，界兽贝迪施展出毁灭本源招数试图自救。
+- id: 战斗
+  type: Event
+  name: 罗峰与界兽贝迪的战斗
+  description: 罗峰使用多种强大能力对抗五阶界兽贝迪，将其困住并试图消灭。
+  timeline:
+  - 时间点: 初始
+    描述: 界兽贝迪施展轮回通道攻击罗峰，被罗峰的空间湮灭招数反制。
+  - 时间点: 中期
+    描述: 罗峰使用星辰塔和千丝泽将界兽贝迪困住。
+  - 时间点: 结束
+    描述: 面临无法逃出的绝境，界兽贝迪施展出毁灭本源招数试图自救。
 
 dialogues:
 
 timeline:
-  - 时间点: 战斗开始
-    描述: 界兽贝迪施展轮回通道攻击罗峰。
-  - 时间点: 中期战斗
-    描述: 罗峰使用星辰塔和千丝泽将界兽贝迪困住。
-  - 时间点: 最终决战
-    描述: 面临绝境，界兽贝迪施展出毁灭本源招数。
+- 时间点: 战斗开始
+  描述: 界兽贝迪施展轮回通道攻击罗峰。
+- 时间点: 中期战斗
+  描述: 罗峰使用星辰塔和千丝泽将界兽贝迪困住。
+- 时间点: 最终决战
+  描述: 面临绝境，界兽贝迪施展出毁灭本源招数。
 
 mysteries:
-  - 描述: 界兽贝迪施展的“毁灭”招数是否能真正杀死罗峰？
-```
+- 描述: 界兽贝迪施展的“毁灭”招数是否能真正杀死罗峰？

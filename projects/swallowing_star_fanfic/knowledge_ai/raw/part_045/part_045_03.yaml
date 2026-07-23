@@ -1,61 +1,59 @@
-```yaml
 source:
   id: secret_tower_floor_999
 
 entities:
-  - id: rofei
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 拥有极高地位的人类成员，来到金角族秘典塔的第999层。
-    attributes:
-      - 实力: 不朽神灵
-      - 身份: 人类罗峰殿下
+- id: rofei
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 拥有极高地位的人类成员，来到金角族秘典塔的第999层。
+  attributes:
+  - 实力: 不朽神灵
+  - 身份: 人类罗峰殿下
 
-  - id: golden_horn_race
-    type: species
-    name: 金角巨兽
-    aliases: []
-    description: 拥有极高向心力和贡献点体系的种族，居住于秘典塔。
+- id: golden_horn_race
+  type: species
+  name: 金角巨兽
+  aliases: []
+  description: 拥有极高向心力和贡献点体系的种族，居住于秘典塔。
 
-  - id: secret_tower_floor_999_overseer
-    type: character
-    name: 第999层接待看管者
-    aliases: []
-    description: 监督挑选秘典过程的老者。
-    attributes:
-      - 实力: 不朽神灵
+- id: secret_tower_floor_999_overseer
+  type: character
+  name: 第999层接待看管者
+  aliases: []
+  description: 监督挑选秘典过程的老者。
+  attributes:
+  - 实力: 不朽神灵
 
-  - id: golden_soul
-    type: ability
-    name: 《金魂》
-    aliases: []
-    description: 描述了从金之法则入手深入空间本源法则，最终创出的战斗秘法。
+- id: golden_soul
+  type: ability
+  name: 《金魂》
+  aliases: []
+  description: 描述了从金之法则入手深入空间本源法则，最终创出的战斗秘法。
 
 relationships:
 
 events:
-  - id: rofei_arrives_secret_tower_999_floor
-    type: event
-    name: 罗峰到达第999层
-    description: 罗峰殿下抵达金角族秘典塔最顶层，准备选择秘典试读本。
-    timeline:
-      - time: 未指定时间
-        order: 到达
+- id: rofei_arrives_secret_tower_999_floor
+  type: event
+  name: 罗峰到达第999层
+  description: 罗峰殿下抵达金角族秘典塔最顶层，准备选择秘典试读本。
+  timeline:
+  - time: 未指定时间
+    order: 到达
 
 dialogues:
-  - id: rofei_greeting_secret_tower_999_overseer
-    type: dialogue
-    participants:
-      - 罗峰殿下
-      - 第999层接待看管者
-    content: "人类罗峰殿下。"
-    context: 接待看管者的问候。
+- id: rofei_greeting_secret_tower_999_overseer
+  type: dialogue
+  participants:
+  - 罗峰殿下
+  - 第999层接待看管者
+  content: "人类罗峰殿下。"
+  context: 接待看管者的问候。
 
 timeline:
 
 mysteries:
-  - id: golden_soul_power
-    type: mystery
-    description: 《金魂》秘典试读本的价格与内容之间的关系，以及其是否对罗峰的修行有所帮助。
-```
+- id: golden_soul_power
+  type: mystery
+  description: 《金魂》秘典试读本的价格与内容之间的关系，以及其是否对罗峰的修行有所帮助。

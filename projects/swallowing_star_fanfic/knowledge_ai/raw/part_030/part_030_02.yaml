@@ -1,107 +1,105 @@
-```yaml
 source:
   id: 网络小说《星辰与黑暗》节选
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 黑龙山帝国出身的天才，目前宇宙总排名第三。
-    attributes:
-      实力: 宇宙级强者
-      身份: 银河系领主
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 黑龙山帝国出身的天才，目前宇宙总排名第三。
+  attributes:
+    实力: 宇宙级强者
+    身份: 银河系领主
 
-  - id: 帝皇
-    type: Character
-    name: 洪（黑龙山帝国帝皇）
-    aliases: []
-    description: 黑龙山帝国的最高统治者。
-    attributes:
-      实力: 不详
+- id: 帝皇
+  type: Character
+  name: 洪（黑龙山帝国帝皇）
+  aliases: []
+  description: 黑龙山帝国的最高统治者。
+  attributes:
+    实力: 不详
 
-  - id: 布罗林
-    type: Character
-    name: 布罗林
-    aliases: []
-    description: 黑龙山帝国九皇子，试图对罗峰不利。
-    attributes:
-      关系: 对立
-      实力: 不详
+- id: 布罗林
+  type: Character
+  name: 布罗林
+  aliases: []
+  description: 黑龙山帝国九皇子，试图对罗峰不利。
+  attributes:
+    关系: 对立
+    实力: 不详
 
-  - id: 洪
-    type: Character
-    name: 洪（青年）
-    aliases: []
-    description: 生活在原始星球的黑衣青年，是时光界主洛的朋友。
-    attributes:
-      实力: 宇宙级强者
+- id: 洪
+  type: Character
+  name: 洪（青年）
+  aliases: []
+  description: 生活在原始星球的黑衣青年，是时光界主洛的朋友。
+  attributes:
+    实力: 宇宙级强者
 
-  - id: 洛
-    type: Character
-    name: 洛（时光界主）
-    aliases: []
-    description: 训练罗峰、雷神等人的宇宙强者。
-    attributes:
-      身份: 界主
+- id: 洛
+  type: Character
+  name: 洛（时光界主）
+  aliases: []
+  description: 训练罗峰、雷神等人的宇宙强者。
+  attributes:
+    身份: 界主
 
-  - id: 雷神
-    type: Character
-    name: 雷神
-    aliases: []
-    description: 按照雾大人的训练计划不断进步的宇宙级强者。
-    attributes:
-      实力: 宇宙级强者
+- id: 雷神
+  type: Character
+  name: 雷神
+  aliases: []
+  description: 按照雾大人的训练计划不断进步的宇宙级强者。
+  attributes:
+    实力: 宇宙级强者
 
-  - id: 戎钧
-    type: Character
-    name: 戎钧
-    aliases: []
-    description: 罗峰的朋友，同为鳞甲战袍巨人训话对象之一。
-    attributes:
-      关系: 友好
+- id: 戎钧
+  type: Character
+  name: 戎钧
+  aliases: []
+  description: 罗峰的朋友，同为鳞甲战袍巨人训话对象之一。
+  attributes:
+    关系: 友好
 
 locations:
-  - id: 黑龙山帝国
-    type: Organization
-    name: 黑龙山帝国
-    aliases: []
-    description: 罗峰的出生地，一个不值得一提的小星域。
+- id: 黑龙山帝国
+  type: Organization
+  name: 黑龙山帝国
+  aliases: []
+  description: 罗峰的出生地，一个不值得一提的小星域。
 
-  - id: 银河星系
-    type: Location
-    name: 银河星系
-    aliases: [银河系]
-    description: 被黑龙山帝国帝皇赠予罗峰作为领地。
-    
+- id: 银河星系
+  type: Location
+  name: 银河星系
+  aliases: [ 银河系 ]
+  description: 被黑龙山帝国帝皇赠予罗峰作为领地。
+
 organizations:
-  - id: 黑龙山帝国皇室
-    type: Organization
-    name: 黄龙山帝国皇室
-    aliases: []
-    description: 黑龙山帝国的统治高层。
+- id: 黑龙山帝国皇室
+  type: Organization
+  name: 黄龙山帝国皇室
+  aliases: []
+  description: 黑龙山帝国的统治高层。
 
 abilities:
-  - id: 宇宙级强者
-    type: Ability
-    name: 宇宙级强者
-    attributes:
-      描述: 在虚拟宇宙公司中排名前20的存在。
-      
+- id: 宇宙级强者
+  type: Ability
+  name: 宇宙级强者
+  attributes:
+    描述: 在虚拟宇宙公司中排名前20的存在。
+
 events:
-  - id: 银河系领地授予仪式
-    type: Event
-    description: 黑龙山帝国帝皇公开宣布将银河星系赠予罗峰作为领地。
+- id: 银河系领地授予仪式
+  type: Event
+  description: 黑龙山帝国帝皇公开宣布将银河星系赠予罗峰作为领地。
 
 dialogues:
-  - content: "罗峰，是我黑龙山帝国的英雄。"
-    speaker: 洪（黑龙山帝国帝皇）
-    listener: 罗峰
+- content: "罗峰，是我黑龙山帝国的英雄。"
+  speaker: 洪（黑龙山帝国帝皇）
+  listener: 罗峰
 
 timeline:
-  - 时间点: 黑龙山帝国公开授予仪式
-    描述: 帝王宣布将银河系赠予罗峰作为领地。
+- 时间点: 黑龙山帝国公开授予仪式
+  描述: 帝王宣布将银河系赠予罗峰作为领地。
 
 mysteries:
-  - 内容: 罗峰在宇宙中的真实排名和影响未知。
-```
+- 内容: 罗峰在宇宙中的真实排名和影响未知。

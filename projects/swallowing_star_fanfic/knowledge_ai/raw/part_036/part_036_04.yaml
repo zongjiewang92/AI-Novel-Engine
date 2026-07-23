@@ -1,85 +1,82 @@
-```yaml
 source:
   id: 文本内容
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: 黑衣罗峰, 金角巨兽
-    description: 主人公，实力强大，融合大量血洛晶。三个分身分别为地球人本尊、魔杀族分身和金角巨兽。
-    attributes:
-      - 实力: 能够抵抗界主的攻击，并且在血洛世界中不断修炼提高自己实力
-      - 特性: 通过《飘血秘典》《时空随笔》研究九宇混沌碑《细雨图》，磨砺自我心境，融合大量血洛晶提升金角巨兽实力
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: 黑衣罗峰, 金角巨兽
+  description: 主人公，实力强大，融合大量血洛晶。三个分身分别为地球人本尊、魔杀族分身和金角巨兽。
+  attributes:
+  - 实力: 能够抵抗界主的攻击，并且在血洛世界中不断修炼提高自己实力
+  - 特性: 通过《飘血秘典》《时空随笔》研究九宇混沌碑《细雨图》，磨砺自我心境，融合大量血洛晶提升金角巨兽实力
 
-  - id: 恶魔巴巴塔
-    type: Character
-    name: 恶魔巴巴塔
-    aliases: 
-    description: 罗峰的辅助机械生命体，提供指导和建议。
-    attributes:
-      - 功能: 提供战斗策略、修炼方法等建议
+- id: 恶魔巴巴塔
+  type: Character
+  name: 恶魔巴巴塔
+  aliases:
+  description: 罗峰的辅助机械生命体，提供指导和建议。
+  attributes:
+  - 功能: 提供战斗策略、修炼方法等建议
 
-  - id: 魔杀族分身
-    type: Character
-    name: 魔杀族分身
-    aliases: 
-    description: 罗峰的一个分身，通过不断狩猎提升实力。
-    attributes:
-      - 实力: 在血洛世界中进行血腥杀戮磨练意志和战斗技巧
+- id: 魔杀族分身
+  type: Character
+  name: 魔杀族分身
+  aliases:
+  description: 罗峰的一个分身，通过不断狩猎提升实力。
+  attributes:
+  - 实力: 在血洛世界中进行血腥杀戮磨练意志和战斗技巧
 
-  - id: 地球人本尊
-    type: Character
-    name: 地球人本尊
-    aliases: 
-    description: 罗峰的地球身份，通过听不朽们讲课提升自己。
-    attributes:
-      - 实力: 在煞气环境中不断改善自身身体和心境
+- id: 地球人本尊
+  type: Character
+  name: 地球人本尊
+  aliases:
+  description: 罗峰的地球身份，通过听不朽们讲课提升自己。
+  attributes:
+  - 实力: 在煞气环境中不断改善自身身体和心境
 
-  - id: 城主府城主
-    type: Character
-    name: 领地主城城主
-    aliases: 
-    description: 血洛大陆中的一名界主，因儿子被杀而愤怒。
-    attributes:
-      - 实力: 界主级别的实力
+- id: 城主府城主
+  type: Character
+  name: 领地主城城主
+  aliases:
+  description: 血洛大陆中的一名界主，因儿子被杀而愤怒。
+  attributes:
+  - 实力: 界主级别的实力
 
 relationships:
 
 events:
-  - id: 融合血洛晶
-    type: Event
-    name: 融合血洛晶
-    description: 罗峰的金角巨兽融合大量血洛晶，提升自身战斗能力。
-    timeline: 漫长岁月中不断完善自己
+- id: 融合血洛晶
+  type: Event
+  name: 融合血洛晶
+  description: 罗峰的金角巨兽融合大量血洛晶，提升自身战斗能力。
+  timeline: 漫长岁月中不断完善自己
 
-  - id: 血杀之旅
-    type: Event
-    name: 魔杀族分身狩猎之旅
-    description: 魔杀族分身在血洛世界进行血腥杀戮磨练内心。
+- id: 血杀之旅
+  type: Event
+  name: 魔杀族分身狩猎之旅
+  description: 魔杀族分身在血洛世界进行血腥杀戮磨练内心。
 
-  - id: 破坏领地主城
-    type: Event
-    name: 黑衣罗峰袭击城主府
-    description: 愤怒的黑衣罗峰发现有人敢杀害他的孩子，于是展开报复行动。
-    timeline: 三十年后
+- id: 破坏领地主城
+  type: Event
+  name: 黑衣罗峰袭击城主府
+  description: 愤怒的黑衣罗峰发现有人敢杀害他的孩子，于是展开报复行动。
+  timeline: 三十年后
 
 dialogues:
-  - id: 融合血洛晶对话
-    type: Dialogue
-    name: 罗峰与恶魔巴巴塔关于融合血洛晶的讨论
-    content: |
-      恶魔巴巴塔：罗峰，你别太在乎。随着你意志的提高，以后还能融合的。
-      黑衣罗峰：我不是不在乎这个。
+- id: 融合血洛晶对话
+  type: Dialogue
+  name: 罗峰与恶魔巴巴塔关于融合血洛晶的讨论
+  content: |
+    恶魔巴巴塔：罗峰，你别太在乎。随着你意志的提高，以后还能融合的。
+    黑衣罗峰：我不是不在乎这个。
 
 timeline:
-  - id: 三十年后
-    description: 罗峰在血洛世界中修炼了三十年时间
+- id: 三十年后
+  description: 罗峰在血洛世界中修炼了三十年时间
 
 mysteries:
-  - id: 血洛晶特殊功效
-    type: Mystery
-    name: 融合100颗血洛晶后的特殊效果
-    description: 融合第100颗血洛晶后，罗峰相信会有特殊的功效显现。
-```
-注意：以上YAML格式严格按照要求输出，没有额外的Markdown或解释。
+- id: 血洛晶特殊功效
+  type: Mystery
+  name: 融合100颗血洛晶后的特殊效果
+  description: 融合第100颗血洛晶后，罗峰相信会有特殊的功效显现。

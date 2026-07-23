@@ -1,115 +1,113 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 罗峰
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 武者，与陈谷等人一起参加悼念活动。
-    attributes:
-      实力: 战士级或以上
-      性格: 积极向上
+- id: 罗峰
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 武者，与陈谷等人一起参加悼念活动。
+  attributes:
+    实力: 战士级或以上
+    性格: 积极向上
 
-  - id: 陈谷
-    type: character
-    name: 陈谷
-    aliases: []
-    description: 火锤小队成员，与罗峰等人一起参加悼念活动。
-    attributes:
-      实力: 战士级或以上
-      性格: 幽默
+- id: 陈谷
+  type: character
+  name: 陈谷
+  aliases: []
+  description: 火锤小队成员，与罗峰等人一起参加悼念活动。
+  attributes:
+    实力: 战士级或以上
+    性格: 幽默
 
-  - id: 高风
-    type: character
-    name: 高风
-    aliases: []
-    description: 火锤小队成员，与罗峰等人一起参加悼念活动。
-    attributes:
-      实力: 战士级或以上
-      性格: 谨慎
+- id: 高风
+  type: character
+  name: 高风
+  aliases: []
+  description: 火锤小队成员，与罗峰等人一起参加悼念活动。
+  attributes:
+    实力: 战士级或以上
+    性格: 谨慎
 
-  - id: 朱喜
-    type: character
-    name: 朱喜
-    aliases: []
-    description: 华夏国最顶层大人物，疑似超越战神的存在。
-    attributes:
-      实力: 超越战神级
-      性格: 不详
+- id: 朱喜
+  type: character
+  name: 朱喜
+  aliases: []
+  description: 华夏国最顶层大人物，疑似超越战神的存在。
+  attributes:
+    实力: 超越战神级
+    性格: 不详
 
-  - id: 陆纲
-    type: character
-    name: 陆纲
-    aliases: []
-    description: 已故战神强者，英雄堂殡仪馆悼念对象。
-    attributes:
-      实力: 战神级
-      性格: 正直勇敢
+- id: 陆纲
+  type: character
+  name: 陆纲
+  aliases: []
+  description: 已故战神强者，英雄堂殡仪馆悼念对象。
+  attributes:
+    实力: 战神级
+    性格: 正直勇敢
 
-  - id: 徐家族长
-    type: character
-    name: 徐家族长
-    aliases: []
-    description: HR联盟国内十二家族之一，江南徐家的族长。
-    attributes:
-      实力: 不详
-      性格: 高位者气质
+- id: 徐家族长
+  type: character
+  name: 徐家族长
+  aliases: []
+  description: HR联盟国内十二家族之一，江南徐家的族长。
+  attributes:
+    实力: 不详
+    性格: 高位者气质
 
-  - id: 南基地市市长
-    type: character
-    name: 江南基地市市长
-    aliases: []
-    description: 政府高官，前来悼念陆纲。
-    attributes:
-      实力: 不详
-      性格: 权威
+- id: 南基地市市长
+  type: character
+  name: 江南基地市市长
+  aliases: []
+  description: 政府高官，前来悼念陆纲。
+  attributes:
+    实力: 不详
+    性格: 权威
 
 organizations:
-  - id: HR联盟国内十二家族
-    type: organization
-    name: HR联盟国内十二家族
-    members:
-      - 徐家族长
+- id: HR联盟国内十二家族
+  type: organization
+  name: HR联盟国内十二家族
+  members:
+  - 徐家族长
 
 locations:
-  - id: 英雄堂殡仪馆
-    type: location
-    name: 英雄堂殡仪馆
-    description: 悼念陆纲的场所，吸引了大量武者和高层人物。
+- id: 英雄堂殡仪馆
+  type: location
+  name: 英雄堂殡仪馆
+  description: 悼念陆纲的场所，吸引了大量武者和高层人物。
 
 abilities:
-  - id: 超越战神级存在
-    type: ability
-    name: 超越战神级存在
-    attributes:
-      实力: 极度强大
+- id: 超越战神级存在
+  type: ability
+  name: 超越战神级存在
+  attributes:
+    实力: 极度强大
 
 items:
 
 events:
-  - id: 悼念陆纲活动
-    type: event
-    name: 悼念陆纲活动
-    description: 武者和高层人物参加的悼念仪式。
-    timeline:
-      start_date: 当天
-      end_date: 七天后
+- id: 悼念陆纲活动
+  type: event
+  name: 悼念陆纲活动
+  description: 武者和高层人物参加的悼念仪式。
+  timeline:
+    start_date: 当天
+    end_date: 七天后
 
 dialogues:
-  - id: 关于朱喜身份的讨论
-    type: dialogue
-    participants:
-      - 高风
-      - 不明人士
-    content: |
-      "对面有人说刚才那位存在，名叫‘朱喜’，朱喜这名字我听过，当年是位名气极大的战神级强者，不过后来就没听说过他的消息，很少露面了。我在网络上听人说，这朱喜已经超越了战神级，成为最巅峰的存在之一了。”
+- id: 关于朱喜身份的讨论
+  type: dialogue
+  participants:
+  - 高风
+  - 不明人士
+  content: |
+    "对面有人说刚才那位存在，名叫‘朱喜’，朱喜这名字我听过，当年是位名气极大的战神级强者，不过后来就没听说过他的消息，很少露面了。我在网络上听人说，这朱喜已经超越了战神级，成为最巅峰的存在之一了。”
 
 timeline:
 
 mysteries:
-  - id: 朱喜身份
-    type: mystery
-    description: 朱喜的真实身份及其目前的实力状况。
-```
+- id: 朱喜身份
+  type: mystery
+  description: 朱喜的真实身份及其目前的实力状况。

@@ -1,92 +1,90 @@
-```yaml
 source:
   id: "1302"
 
 entities:
-  - id: "梦妖祖"
-    type: Character
-    name: 梦妖祖
-    aliases: []
-    description: 妖族的最高存在之一，拥有操控宝物和幻影的能力。
-    attributes:
-      实力: 宇宙之主级别
-      能力: 幻术、灵魂攻击、念力兵器攻击
+- id: "梦妖祖"
+  type: Character
+  name: 梦妖祖
+  aliases: []
+  description: 妖族的最高存在之一，拥有操控宝物和幻影的能力。
+  attributes:
+    实力: 宇宙之主级别
+    能力: 幻术、灵魂攻击、念力兵器攻击
 
-  - id: "震妖祖"
-    type: Character
-    name: 震妖祖
-    aliases: []
-    description: 妖族的最高存在之一，负责指挥其他宇宙之主。
-    attributes:
-      实力: 宇宙之主级别
-      能力: 控制宝物“碎域锥”，发出黑色风暴
+- id: "震妖祖"
+  type: Character
+  name: 震妖祖
+  aliases: []
+  description: 妖族的最高存在之一，负责指挥其他宇宙之主。
+  attributes:
+    实力: 宇宙之主级别
+    能力: 控制宝物“碎域锥”，发出黑色风暴
 
-  - id: "罗峰"
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 人类族群的重要成员，持有血影刀。
-    attributes:
-      实力: 宇宙之主级别
-      能力: 使用念力兵器“血影刀”，对抗梦妖祖
+- id: "罗峰"
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 人类族群的重要成员，持有血影刀。
+  attributes:
+    实力: 宇宙之主级别
+    能力: 使用念力兵器“血影刀”，对抗梦妖祖
 
-  - id: "黑暗之主"
-    type: Character
-    name: 黑暗之主
-    aliases: []
-    description: 人类族群的重要成员，持有宝物黑狱塔。
-    attributes:
-      实力: 宇宙之主级别
-      能力: 使用镇压类宝物“黑狱塔”
+- id: "黑暗之主"
+  type: Character
+  name: 黑暗之主
+  aliases: []
+  description: 人类族群的重要成员，持有宝物黑狱塔。
+  attributes:
+    实力: 宇宙之主级别
+    能力: 使用镇压类宝物“黑狱塔”
 
-  - id: "彭工之主"
-    type: Character
-    name: 彭工之主
-    aliases: []
-    description: 人类族群的重要成员，持有延钧棍。
-    attributes:
-      实力: 宇宙之主级别
-      能力: 使用念力兵器“延钧棍”，与罗峰共同对抗梦妖祖
+- id: "彭工之主"
+  type: Character
+  name: 彭工之主
+  aliases: []
+  description: 人类族群的重要成员，持有延钧棍。
+  attributes:
+    实力: 宇宙之主级别
+    能力: 使用念力兵器“延钧棍”，与罗峰共同对抗梦妖祖
 
 organizations:
-  - id: "人类族群"
-    type: Organization
-    name: 人类族群
-    description: 在这场战斗中与妖族对立的势力。
+- id: "人类族群"
+  type: Organization
+  name: 人类族群
+  description: 在这场战斗中与妖族对立的势力。
 
 abilities:
-  - id: "幻术攻击"
-    type: Ability
-    description: 梦妖祖和震妖祖使用的一种能够迷惑敌人的技能。
-  
-  - id: "碎域锥"
-    type: Item
-    name: 碎域锥
-    attributes:
-      描述: 震妖祖持有的宝物，可以形成破坏空间的黑色风暴。
+- id: "幻术攻击"
+  type: Ability
+  description: 梦妖祖和震妖祖使用的一种能够迷惑敌人的技能。
 
-  - id: "黑狱塔"
-    type: Item
-    name: 黑狱塔
-    attributes:
-      描述: 黑暗之主持有的镇压类宝物，能够产生强大的吞噬力。
+- id: "碎域锥"
+  type: Item
+  name: 碎域锥
+  attributes:
+    描述: 震妖祖持有的宝物，可以形成破坏空间的黑色风暴。
+
+- id: "黑狱塔"
+  type: Item
+  name: 黑狱塔
+  attributes:
+    描述: 黑暗之主持有的镇压类宝物，能够产生强大的吞噬力。
 
 events:
-  - id: "妖族与人类族群战斗"
-    type: Event
-    description: 在这场战斗中，人类族群使用多种策略试图逃脱或反击。
-    timeline: 
-      开始时间: 罗峰等人被围攻时
-      结束时间: 黑狱塔吞噬力量作用于下方的妖族一方
+- id: "妖族与人类族群战斗"
+  type: Event
+  description: 在这场战斗中，人类族群使用多种策略试图逃脱或反击。
+  timeline:
+    开始时间: 罗峰等人被围攻时
+    结束时间: 黑狱塔吞噬力量作用于下方的妖族一方
 
 dialogues:
-  - id: "梦妖祖的声音"
-    type: Dialogue
-    content: "该死的人类！"
+- id: "梦妖祖的声音"
+  type: Dialogue
+  content: "该死的人类！"
 
 timeline:
 
 mysteries:
-  - id: "人类族群逃脱的可能性"
-    description: 尽管遭受重大打击，人类族群是否能够成功逃离？
-```
+- id: "人类族群逃脱的可能性"
+  description: 尽管遭受重大打击，人类族群是否能够成功逃离？

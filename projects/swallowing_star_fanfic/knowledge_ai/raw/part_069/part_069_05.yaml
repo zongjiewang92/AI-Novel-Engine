@@ -1,78 +1,75 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 宇宙之主级别的存在，以公无私著称，并且有耐心处理族群事务。
-    attributes:
-      实力: 宇宙之主
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 宇宙之主级别的存在，以公无私著称，并且有耐心处理族群事务。
+  attributes:
+    实力: 宇宙之主
 
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: ["刀河王"]
-    description: 刚刚加入最高会议的人类宇宙初等尊者，得到了混沌城主赐予的至宝。
-    attributes:
-      实力: 宇宙初等尊者
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: [ "刀河王" ]
+  description: 刚刚加入最高会议的人类宇宙初等尊者，得到了混沌城主赐予的至宝。
+  attributes:
+    实力: 宇宙初等尊者
 
-  - id: 原始星
-    type: Location
-    name: 原始星
-    aliases: []
-    description: 神秘的地方，共有10081颗，环绕宇宙本源之地。每隔漫长岁月开启一次，持续一千纪元。
-    attributes:
-      特点: 危险与宝物并存
+- id: 原始星
+  type: Location
+  name: 原始星
+  aliases: []
+  description: 神秘的地方，共有10081颗，环绕宇宙本源之地。每隔漫长岁月开启一次，持续一千纪元。
+  attributes:
+    特点: 危险与宝物并存
 
 organizations:
-  - id: 人类族群
-    type: Organization
-    name: 人类族群
-    aliases: []
-    description: 拥有最高会议的组织，成员贡献值可以换取资源。
+- id: 人类族群
+  type: Organization
+  name: 人类族群
+  aliases: []
+  description: 拥有最高会议的组织，成员贡献值可以换取资源。
 
 abilities:
-  - id: 贡献值
-    type: Ability
-    name: 贡献值
-    attributes:
-      描述: 强者为族群作出贡献后可获得的数值，可用于交换宝物和资源。
-      来源: 宇宙强者在原始星或其他地方获取宝物后贡献给族群。
+- id: 贡献值
+  type: Ability
+  name: 贡献值
+  attributes:
+    描述: 强者为族群作出贡献后可获得的数值，可用于交换宝物和资源。
+    来源: 宇宙强者在原始星或其他地方获取宝物后贡献给族群。
 
 items:
-  - id: 刑弑吴羽翼
-    type: Item
-    name: 刑弑吴羽翼
-    attributes:
-      描述: 混沌城主赐予罗峰的至宝。
-      功能: 增强战斗力，具备特殊功能
+- id: 刑弑吴羽翼
+  type: Item
+  name: 刑弑吴羽翼
+  attributes:
+    描述: 混沌城主赐予罗峰的至宝。
+    功能: 增强战斗力，具备特殊功能
 
 dialogues:
-  - speaker: 混沌城主
-    dialogue: "他界主级时有三件至宝，唯有那弑吴羽翼是我赐予，其他两件……都是我这弟子际遇神奇，运气逆天。"
-    
-  - speaker: 不明人士
-    dialogue: "啊？他自己得到的至宝？这至宝可不是别的，不是际遇神奇想得到就得到的。一般都是些超级存在刻意留下的，留给传人的。管他什么超级存在……反正这宝物落到我们人类族群手里，就是好事。"
+- speaker: 混沌城主
+  dialogue: "他界主级时有三件至宝，唯有那弑吴羽翼是我赐予，其他两件……都是我这弟子际遇神奇，运气逆天。"
+
+- speaker: 不明人士
+  dialogue: "啊？他自己得到的至宝？这至宝可不是别的，不是际遇神奇想得到就得到的。一般都是些超级存在刻意留下的，留给传人的。管他什么超级存在……反正这宝物落到我们人类族群手里，就是好事。"
 
 events:
-  - id: 最高会议
-    type: Event
-    name: 最高会议
-    attributes:
-      描述: 关于原始星即将开启的重要会议。
-      时间点: 原始星开启前夕
+- id: 最高会议
+  type: Event
+  name: 最高会议
+  attributes:
+    描述: 关于原始星即将开启的重要会议。
+    时间点: 原始星开启前夕
 
 timeline:
-  - event_id: 最高会议
-    time: 原始星开启前夕
+- event_id: 最高会议
+  time: 原始星开启前夕
 
 mysteries:
-  - id: 刑弑吴羽翼的来源
-    type: Mystery
-    attributes:
-      描述: 罗峰得到的刑弑吴羽翼的具体来历和其背后的超级存在。
-
-```
+- id: 刑弑吴羽翼的来源
+  type: Mystery
+  attributes:
+    描述: 罗峰得到的刑弑吴羽翼的具体来历和其背后的超级存在。

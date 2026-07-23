@@ -1,72 +1,70 @@
-```yaml
 source:
   id: chapter_145
 
 entities:
-  - id: li_yao
-    type: Character
-    name: 秃鹫李耀
-    aliases: []
-    description: 全副武装，拥有黑神套装的强大力量。
-    attributes:
-      - 实力: 强大
-      - 装备: 黑神套装
+- id: li_yao
+  type: Character
+  name: 秃鹫李耀
+  aliases: []
+  description: 全副武装，拥有黑神套装的强大力量。
+  attributes:
+  - 实力: 强大
+  - 装备: 黑神套装
 
-  - id: klayne
-    type: Character
-    name: 克莱恩
-    aliases: []
-    description: 李耀的专业小组成员，负责激光炮的组装和操作。
-    attributes:
-      - 实力: 中等
-      - 职责: 激光炮专业人员
+- id: klayne
+  type: Character
+  name: 克莱恩
+  aliases: []
+  description: 李耀的专业小组成员，负责激光炮的组装和操作。
+  attributes:
+  - 实力: 中等
+  - 职责: 激光炮专业人员
 
-  - id: rofe
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 强大的精神念师，拥有飞刀攻击能力。
-    attributes:
-      - 实力: 极强
-      - 能力: 飞刀、精神念术
+- id: rofe
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 强大的精神念师，拥有飞刀攻击能力。
+  attributes:
+  - 实力: 极强
+  - 能力: 飞刀、精神念术
 
 relationships:
-  - id: li_yao_to_klayne
-    type: 上级与下级关系
-    description: 李耀是克莱恩的上级，指挥激光炮的专业人员。
-    
-  - id: rofe_vs_li_yao
-    type: 敌对关系
-    description: 罗峰和李耀之间存在敌对状态。
+- id: li_yao_to_klayne
+  type: 上级与下级关系
+  description: 李耀是克莱恩的上级，指挥激光炮的专业人员。
+
+- id: rofe_vs_li_yao
+  type: 敌对关系
+  description: 罗峰和李耀之间存在敌对状态。
 
 events:
-  - id: laser_cannon_assembly
-    type: Assembly
-    description: 李耀命令克莱恩和他的小组在荒原中组装激光炮。
-    
-  - id: damaged_energy_box
-    type: Incident
-    description: 激光炮的能源箱被罗峰的飞刀穿透，导致部分损坏。
+- id: laser_cannon_assembly
+  type: Assembly
+  description: 李耀命令克莱恩和他的小组在荒原中组装激光炮。
+
+- id: damaged_energy_box
+  type: Incident
+  description: 激光炮的能源箱被罗峰的飞刀穿透，导致部分损坏。
 
 dialogues:
-  - speaker: 秃鹫李耀
-    listener: 克莱恩
-    content: "你带的专业小组，死伤怎么样？"
-  
-  - speaker: 克莱恩
-    listener: 李耀
-    content: "我们小组连我一共九人，刚才死去两人，伤两人。"
+- speaker: 秃鹫李耀
+  listener: 克莱恩
+  content: "你带的专业小组，死伤怎么样？"
 
-  - speaker: 秃鹫李耀
-    listener: 克莱恩
-    content: "能不能组装好激光炮，并且进行操作？"
+- speaker: 克莱恩
+  listener: 李耀
+  content: "我们小组连我一共九人，刚才死去两人，伤两人。"
+
+- speaker: 秃鹫李耀
+  listener: 克莱恩
+  content: "能不能组装好激光炮，并且进行操作？"
 
 timeline:
-  - event_id: laser_cannon_assembly
-    timestamp: 当前时间
+- event_id: laser_cannon_assembly
+  timestamp: 当前时间
 
 mysteries:
-  - id: rofe_location
-    type: Unresolved
-    description: 罗峰的具体位置仍未被发现，但李耀相信他会回到山头。
-```
+- id: rofe_location
+  type: Unresolved
+  description: 罗峰的具体位置仍未被发现，但李耀相信他会回到山头。

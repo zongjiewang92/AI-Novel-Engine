@@ -1,69 +1,67 @@
-```yaml
 source:
   id: 第1401章神王界
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 地球人本尊，驾驭银色战船前往神王谷的虚空真神。
-    attributes:
-      实力: 虚空真神
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 地球人本尊，驾驭银色战船前往神王谷的虚空真神。
+  attributes:
+    实力: 虚空真神
 
-  - id: 北苍
-    type: Character
-    name: 北苍
-    aliases: []
-    description: 神王界守卫之一，带领罗峰去往神王谷。
-    attributes:
-      实力: 虚空真神
+- id: 北苍
+  type: Character
+  name: 北苍
+  aliases: []
+  description: 神王界守卫之一，带领罗峰去往神王谷。
+  attributes:
+    实力: 虚空真神
 
-  - id: 银河
-    type: Character
-    name: 银河
-    aliases: [军士银河]
-    description: 罗峰在东军蟒河军的身份，执行封号任务。
-    attributes:
-      实力: 虚空真神（罗峰的别名）
+- id: 银河
+  type: Character
+  name: 银河
+  aliases: [ 军士银河 ]
+  description: 罗峰在东军蟒河军的身份，执行封号任务。
+  attributes:
+    实力: 虚空真神（罗峰的别名）
 
-  - id: 神王界
-    type: Location
-    name: 神王界
-    aliases: []
-    description: 晋之世界的五大陆地之一，是神王生活的地方。
-    attributes:
-      特点: 处处有危险法则之纹，由机械流至宝组成。
+- id: 神王界
+  type: Location
+  name: 神王界
+  aliases: []
+  description: 晋之世界的五大陆地之一，是神王生活的地方。
+  attributes:
+    特点: 处处有危险法则之纹，由机械流至宝组成。
 
 relationships:
-  - id: 罗峰与北苍
-    type: Encounter
-    name: ""
-    description: 罗峰被北苍守卫引导进入神王谷。
-    attributes:
-      时间: 飞行过程中
+- id: 罗峰与北苍
+  type: Encounter
+  name: ""
+  description: 罗峰被北苍守卫引导进入神王谷。
+  attributes:
+    时间: 飞行过程中
 
 events:
-  - id: 封号任务开始
-    type: MissionStart
-    name: 封号任务开始
-    description: 罗峰申请封号任务，前往神王界执行。
+- id: 封号任务开始
+  type: MissionStart
+  name: 封号任务开始
+  description: 罗峰申请封号任务，前往神王界执行。
 
 dialogues:
-  - speaker: 北苍
-    content: "我为神王界守卫之一，名北苍。你要进行封号任务，那便随我来，我带你去神王谷。若是无我引导……你根本无法抵达神王谷。"
+- speaker: 北苍
+  content: "我为神王界守卫之一，名北苍。你要进行封号任务，那便随我来，我带你去神王谷。若是无我引导……你根本无法抵达神王谷。"
 
 timeline:
-  - id: 罗峰到达神王界
-    type: Arrival
-    name: 罗峰到达神王界
-    description: 罗峰驾驶银色战船飞临神王界的上方。
-    attributes:
-      时间: 文章开头
+- id: 罗峰到达神王界
+  type: Arrival
+  name: 罗峰到达神王界
+  description: 罗峰驾驶银色战船飞临神王界的上方。
+  attributes:
+    时间: 文章开头
 
 mysteries:
-  - id: 神王界的秘密
-    type: Mystery
-    name: 神王界的秘密
-    description: 神王界大陆处处有法则之纹，整个大陆是超级机械流至宝。
-```
+- id: 神王界的秘密
+  type: Mystery
+  name: 神王界的秘密
+  description: 神王界大陆处处有法则之纹，整个大陆是超级机械流至宝。

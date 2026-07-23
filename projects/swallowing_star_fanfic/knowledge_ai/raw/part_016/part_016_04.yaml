@@ -1,63 +1,60 @@
-```yaml
 source:
   id: 罗峰的宇宙
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 行星级三阶精神念师，来自地球上一个基地市的高中生。
-    attributes:
-      实力: 行星级三阶精神念师
-      性格: 坚毅果敢
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 行星级三阶精神念师，来自地球上一个基地市的高中生。
+  attributes:
+    实力: 行星级三阶精神念师
+    性格: 坚毅果敢
 
-  - id: 巴巴塔
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的智能机器人，拥有超凡智慧。
-    attributes:
-      职能: 提供信息与建议
+- id: 巴巴塔
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的智能机器人，拥有超凡智慧。
+  attributes:
+    职能: 提供信息与建议
 
-  - id: 吞噬兽
-    type: Species
-    name: 吞噬兽
-    aliases: 金角巨兽, 星空巨兽
-    description: 属于星空巨兽中的一种，拥有极高血统和凶残暴虐的特点。
-    attributes:
-      等级: 界主级
+- id: 吞噬兽
+  type: Species
+  name: 吞噬兽
+  aliases: 金角巨兽, 星空巨兽
+  description: 属于星空巨兽中的一种，拥有极高血统和凶残暴虐的特点。
+  attributes:
+    等级: 界主级
 
-  - id: 地球人类
-    type: Civilization
-    name: 地球人类
-    aliases: []
-    description: 生活在地球上的所有人类。
+- id: 地球人类
+  type: Civilization
+  name: 地球人类
+  aliases: []
+  description: 生活在地球上的所有人类。
 
 relationships:
-  - 主体: 罗峰
-    关系类型: 拥有
-    客体: 巴巴塔
+- 主体: 罗峰
+  关系类型: 拥有
+  客体: 巴巴塔
 
 events:
-  - 名称: 吞噬兽袭击地球
-    时间线: 近期
-    描述: 太空中出现的神秘怪兽开始在地球上进行杀戮。
+- 名称: 吞噬兽袭击地球
+  时间线: 近期
+  描述: 太空中出现的神秘怪兽开始在地球上进行杀戮。
 
 dialogues:
-  - 主体: 罗峰
-    对象: 巴巴塔
-    内容: "巴巴塔，金角巨兽一定得死！"
-    
-  - 主体: 巴巴塔
-    对象: 罗峰
-    内容: "你发烧了么？想杀恒星级金角巨兽简直就是在做梦。"
+- 主体: 罗峰
+  对象: 巴巴塔
+  内容: "巴巴塔，金角巨兽一定得死！"
+
+- 主体: 巴巴塔
+  对象: 罗峰
+  内容: "你发烧了么？想杀恒星级金角巨兽简直就是在做梦。"
 
 timeline:
-  - 时间点: 近期
-    描述: 吞噬兽开始袭击地球
+- 时间点: 近期
+  描述: 吞噬兽开始袭击地球
 
 mysteries:
-  - 描述: 地球人类如何应对这头强大的怪兽？
-
-```
+- 描述: 地球人类如何应对这头强大的怪兽？

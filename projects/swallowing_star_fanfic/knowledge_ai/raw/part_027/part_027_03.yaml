@@ -1,105 +1,104 @@
-```yaml
 source:
   id: "罗峰宇宙巅峰天才战"
 
 entities:
-  - id: "罗峰"
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 恒星级人类，乾巫拍卖会竞拍者。
-    attributes:
-      实力: 领域五重
-      年龄: 不详
-      性格: 追求极致的强者
+- id: "罗峰"
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 恒星级人类，乾巫拍卖会竞拍者。
+  attributes:
+    实力: 领域五重
+    年龄: 不详
+    性格: 追求极致的强者
 
-  - id: "洪"
-    type: Character
-    name: 洪
-    aliases: []
-    description: 界主级存在，罗峰的大哥。
-    attributes:
-      实力: 界主级
-      年龄: 不详
-      性格: 冷静睿智
+- id: "洪"
+  type: Character
+  name: 洪
+  aliases: []
+  description: 界主级存在，罗峰的大哥。
+  attributes:
+    实力: 界主级
+    年龄: 不详
+    性格: 冷静睿智
 
-  - id: "雷神"
-    type: Character
-    name: 雷神
-    aliases: []
-    description: 罗峰的三哥，界主。
-    attributes:
-      实力: 界主级
-      年度: 不详
-      性格: 冷静果断
+- id: "雷神"
+  type: Character
+  name: 雷神
+  aliases: []
+  description: 罗峰的三哥，界主。
+  attributes:
+    实力: 界主级
+    年度: 不详
+    性格: 冷静果断
 
-  - id: "巴巴塔"
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: 虚拟宇宙飞船上的智能生命体。
-    attributes:
-      实力: 智能生命体
-      年龄: 不详
-      性格: 严谨认真
+- id: "巴巴塔"
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: 虚拟宇宙飞船上的智能生命体。
+  attributes:
+    实力: 智能生命体
+    年龄: 不详
+    性格: 严谨认真
 
-  - id: "虚拟宇宙公司"
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 组织举办“巅峰天才战”的企业。
-    attributes:
-      目的: 推动恒星级人类的发展与竞争
+- id: "虚拟宇宙公司"
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 组织举办“巅峰天才战”的企业。
+  attributes:
+    目的: 推动恒星级人类的发展与竞争
 
-  - id: "乾巫拍卖会"
-    type: Event
-    name: 乾巫拍卖会
-    aliases: []
-    description: 拍卖会中争夺进入初始宇宙参悟名额。
+- id: "乾巫拍卖会"
+  type: Event
+  name: 乾巫拍卖会
+  aliases: []
+  description: 拍卖会中争夺进入初始宇宙参悟名额。
 
 locations:
-  - id: "乾巫宇宙国"
-    type: Location
-    name: 乾巫宇宙国
-    aliases: []
-    description: 宇宙的一部分，拥有众多星系。
-    attributes:
-      特点: 拥有众多恒星级天才
+- id: "乾巫宇宙国"
+  type: Location
+  name: 乾巫宇宙国
+  aliases: []
+  description: 宇宙的一部分，拥有众多星系。
+  attributes:
+    特点: 拥有众多恒星级天才
 
 events:
-  - id: "巅峰天才战"
-    type: Event
-    name: 尖峰天才战
-    aliases: ["宇宙人类——巅峰天才战"]
-    description: 宇宙中所有恒星级人类参加的比赛。
-    attributes:
-      时间周期: 每五千年举办一次，一万年内两次（虚拟宇宙公司和巨斧斗武场各一次）
-      奖励: 排名前1000的参赛者将获得奖金、进入初始宇宙参悟以及成为虚拟宇宙公司的核心成员
-      参赛条件: 仅限恒星级人类
+- id: "巅峰天才战"
+  type: Event
+  name: 尖峰天才战
+  aliases: [ "宇宙人类——巅峰天才战" ]
+  description: 宇宙中所有恒星级人类参加的比赛。
+  attributes:
+    时间周期: 每五千年举办一次，一万年内两次（虚拟宇宙公司和巨斧斗武场各一次）
+    奖励: 排名前1000的参赛者将获得奖金、进入初始宇宙参悟以及成为虚拟宇宙公司的核心成员
+    参赛条件: 仅限恒星级人类
 
 dialogues:
-  - id: "罗峰与洪"
-    type: Dialogue
-    content: |
-      洪: "巅峰天才战？"
-      罗峰: "整个宇宙所有宇宙国，亿万天才对战？"
+- id: "罗峰与洪"
+  type: Dialogue
+  content: |
+    洪: "巅峰天才战？"
+    罗峰: "整个宇宙所有宇宙国，亿万天才对战？"
 
-  - id: "巴巴塔建议"
-    type: Dialogue
-    content: |
-      巴巴塔: "罗峰,机会不错,你得去试试。"
+- id: "巴巴塔建议"
+  type: Dialogue
+  content: |
+    巴巴塔: "罗峰,机会不错,你得去试试。"
 
 relationships:
-  - id: "罗峰和洪的关系"
-    type: Relationship
-    description: 罗峰是洪的弟弟。
-    
+- id: "罗峰和洪的关系"
+  type: Relationship
+  description: 罗峰是洪的弟弟。
+
 mysteries:
-  - id: "前1000名参赛者的挑战性"
-    type: Mystery
-    content: |
-      巴巴塔表示：要进入宇宙亿万天才总排名的前1000极其困难，尤其是对于罗峰这样的年轻恒星级选手。
+- id: "前1000名参赛者的挑战性"
+  type: Mystery
+  content: |
+    巴巴塔表示：要进入宇宙亿万天才总排名的前1000极其困难，尤其是对于罗峰这样的年轻恒星级选手。
 
 timeline:
 
-```
+

@@ -1,116 +1,113 @@
-```yaml
 source:
   id: 第659章拉斯奥世界（第二更）
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 使用衍神兵的强者，对希罗多元老表示钦佩。
-    attributes:
-      实力: 境界主
-      身份: 殿下
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 使用衍神兵的强者，对希罗多元老表示钦佩。
+  attributes:
+    实力: 境界主
+    身份: 殿下
 
-  - id: 寺番祁长老
-    type: Character
-    name: 寺番祁长老
-    aliases: []
-    description: 金角族群的长老，提议罗峰观摩希罗多圣碑。
-    attributes:
-      实力: 封侯级不朽神灵
-      身份: 长老
+- id: 寺番祁长老
+  type: Character
+  name: 寺番祁长老
+  aliases: []
+  description: 金角族群的长老，提议罗峰观摩希罗多圣碑。
+  attributes:
+    实力: 封侯级不朽神灵
+    身份: 长老
 
-  - id: 希罗多
-    type: Character
-    name: 希罗多
-    aliases: []
-    description: 金角族群最受尊敬的存在，创造了衍神兵。
-    attributes:
-      实力: 不详
-      身份: 多元老
+- id: 希罗多
+  type: Character
+  name: 希罗多
+  aliases: []
+  description: 金角族群最受尊敬的存在，创造了衍神兵。
+  attributes:
+    实力: 不详
+    身份: 多元老
 
-  - id: 第九军主
-    type: Character
-    name: 第九军主
-    aliases: []
-    description: 指挥宇宙军队的将领，在罗峰的任务中给予支持。
-    attributes:
-      实力: 封侯级不朽神灵
-      身份: 军主
+- id: 第九军主
+  type: Character
+  name: 第九军主
+  aliases: []
+  description: 指挥宇宙军队的将领，在罗峰的任务中给予支持。
+  attributes:
+    实力: 封侯级不朽神灵
+    身份: 军主
 
-  - id: 迪伦
-    type: Character
-    name: 迪伦
-    aliases: []
-    description: 罗峰的随从，对金角族群文化和希罗多之名表示兴趣。
-    attributes:
-      实力: 不详
-      身份: 随从
+- id: 迪伦
+  type: Character
+  name: 迪伦
+  aliases: []
+  description: 罗峰的随从，对金角族群文化和希罗多之名表示兴趣。
+  attributes:
+    实力: 不详
+    身份: 随从
 
-  - id: 乾巫宇宙国
-    type: Civilization
-    name: 乾巫宇宙国
-    aliases: []
-    description: 罗峰前往金角族群家乡所在的宇宙国度。
+- id: 乾巫宇宙国
+  type: Civilization
+  name: 乾巫宇宙国
+  aliases: []
+  description: 罗峰前往金角族群家乡所在的宇宙国度。
 
 locations:
-  - id: 拉斯奥世界
-    type: Location
-    name: 拉斯奥世界
-    aliases: [金角族群生存之地]
-    description: 位于乾巫宇宙国边缘地带的危险宇宙秘境，是金角族群的家乡。
-    attributes:
-      特点: 宇宙秘境中的一片浩瀚大陆
+- id: 拉斯奥世界
+  type: Location
+  name: 拉斯奥世界
+  aliases: [ 金角族群生存之地 ]
+  description: 位于乾巫宇宙国边缘地带的危险宇宙秘境，是金角族群的家乡。
+  attributes:
+    特点: 宇宙秘境中的一片浩瀚大陆
 
 organizations:
-  - id: 人类阵营
-    type: Organization
-    name: 人类阵营
-    aliases: []
-    description: 在罗峰任务中的支持方。
+- id: 人类阵营
+  type: Organization
+  name: 人类阵营
+  aliases: []
+  description: 在罗峰任务中的支持方。
 
 items:
-  - id: 衍神兵
-    type: Item
-    name: 衍神兵
-    aliases: [希罗多元老的创造]
-    description: 希罗多元老创造出的适合界主使用的神兵。
-    attributes:
-      特性: 结合了空间和金路线
+- id: 衍神兵
+  type: Item
+  name: 衍神兵
+  aliases: [ 希罗多元老的创造 ]
+  description: 希罗多元老创造出的适合界主使用的神兵。
+  attributes:
+    特性: 结合了空间和金路线
 
 events:
-  - id: 参观圣碑
-    type: Event
-    name: 参观希罗多圣碑
-    aliases: [观摩圣碑]
-    description: 罗峰前往金角族群家乡，希望参悟希罗多元老留下的圣碑。
-    attributes:
-      时间: 一个月后
+- id: 参观圣碑
+  type: Event
+  name: 参观希罗多圣碑
+  aliases: [ 观摩圣碑 ]
+  description: 罗峰前往金角族群家乡，希望参悟希罗多元老留下的圣碑。
+  attributes:
+    时间: 一个月后
 
 dialogues:
-  - id: 观摩圣碑提议
-    type: Dialogue
-    name: 寺番祁长老提议观摩圣碑
-    aliases: []
-    description: "寺番祁长老向罗峰提议参悟希罗多元老的圣碑。"
-    attributes:
-      时间: 宴席结束时
+- id: 观摩圣碑提议
+  type: Dialogue
+  name: 寺番祁长老提议观摩圣碑
+  aliases: []
+  description: "寺番祁长老向罗峰提议参悟希罗多元老的圣碑。"
+  attributes:
+    时间: 宴席结束时
 
 timeline:
-  - id: 晚宴后安排出行
-    type: Timeline
-    name: 罗峰晚宴后的安排和出行准备
-    aliases: []
-    description: 罗峰会见第九军主并进行后续任务安排，随后与金角族群塔文部一起前往其家乡。
-    attributes:
-      时间点: 宴席结束
+- id: 晚宴后安排出行
+  type: Timeline
+  name: 罗峰晚宴后的安排和出行准备
+  aliases: []
+  description: 罗峰会见第九军主并进行后续任务安排，随后与金角族群塔文部一起前往其家乡。
+  attributes:
+    时间点: 宴席结束
 
 mysteries:
-  - id: 附庸族群数量
-    type: Mystery
-    name: 人类疆域内的附庸族群数目
-    aliases: []
-    description: 寺番祁长老表示这是机密，只有少数人清楚。
-```
-以上是根据提供的文本内容提取的信息。
+- id: 附庸族群数量
+  type: Mystery
+  name: 人类疆域内的附庸族群数目
+  aliases: []
+  description: 寺番祁长老表示这是机密，只有少数人清楚。

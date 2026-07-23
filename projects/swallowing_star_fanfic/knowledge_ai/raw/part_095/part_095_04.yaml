@@ -1,96 +1,93 @@
-```yaml
 source:
   id: 原始宇宙第1440章至第1441章
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 银河领主，原始宇宙时代人类族群强者，拥有魔杀族分身。
-    attributes:
-      实力: 宇宙之主, 能量类生命第二层次基因
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 银河领主，原始宇宙时代人类族群强者，拥有魔杀族分身。
+  attributes:
+    实力: 宇宙之主, 能量类生命第二层次基因
 
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 统治混沌城，对罗峰十分信任。
-    attributes:
-      实力: 真神及以上
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 统治混沌城，对罗峰十分信任。
+  attributes:
+    实力: 真神及以上
 
-  - id: 境兽
-    type: Species
-    name: 界兽
-    aliases: [界兽]
-    description: 宇宙海孕育的超级生命体，真神阶段。
+- id: 境兽
+  type: Species
+  name: 界兽
+  aliases: [ 界兽 ]
+  description: 宇宙海孕育的超级生命体，真神阶段。
 
-  - id: 震迦王
-    type: Character
-    name: 震迦王
-    aliases: []
-    description: 宇宙海真神。
-    attributes:
-      实力: 真神
+- id: 震迦王
+  type: Character
+  name: 震迦王
+  aliases: []
+  description: 宇宙海真神。
+  attributes:
+    实力: 真神
 
-  - id: 虬岩祖神
-    type: Character
-    name: 虬岩祖神
-    aliases: []
-    description: 宇宙海真神。
-    attributes:
-      实力: 真神
+- id: 虬岩祖神
+  type: Character
+  name: 虬岩祖神
+  aliases: []
+  description: 宇宙海真神。
+  attributes:
+    实力: 真神
 
 organizations:
-  - id: 宇宙海
-    type: Organization
-    name: 宇宙海
-    description: 包含众多势力和种族的广阔宇宙区域。
+- id: 宇宙海
+  type: Organization
+  name: 宇宙海
+  description: 包含众多势力和种族的广阔宇宙区域。
 
 locations:
-  - id: 倾峰界核心区域昏暗之地
-    type: Location
-    name: 昏暗之地
-    description: 拥有神秘力量的黑暗地带，位于倾峰界的核心区域内。
-    
+- id: 倾峰界核心区域昏暗之地
+  type: Location
+  name: 昏暗之地
+  description: 拥有神秘力量的黑暗地带，位于倾峰界的核心区域内。
+
 abilities:
-  - id: 魔杀族分身
-    type: Ability
-    name: 魔杀族分身
-    description: 罗峰的能量类生命分身，无灵魂。
+- id: 魔杀族分身
+  type: Ability
+  name: 魔杀族分身
+  description: 罗峰的能量类生命分身，无灵魂。
 
 items:
-  - id: 洪、瞳魔神
-    type: Item
-    name: 洪、瞳魔神
-    description: 宇宙海内的强敌，被罗峰的分身击败。
-    
+- id: 洪、瞳魔神
+  type: Item
+  name: 洪、瞳魔神
+  description: 宇宙海内的强敌，被罗峰的分身击败。
+
 events:
-  - id: 去往界兽巢穴计划
-    type: Event
-    name: 前往界兽巢穴计划
-    description: 罗峰将使用魔杀族分身前往界兽巢穴执行任务。
+- id: 去往界兽巢穴计划
+  type: Event
+  name: 前往界兽巢穴计划
+  description: 罗峰将使用魔杀族分身前往界兽巢穴执行任务。
 
 dialogues:
-  - speaker1: 混沌城主
-    speaker2: 罗峰
-    content: "罗峰，你去对付那头界兽。"
-    
-  - speaker1: 震迦王
-    speaker2: 界兽
-    content: "现在的宇宙海比当初强大的多，因为有了晋之世界。"
+- speaker1: 混沌城主
+  speaker2: 罗峰
+  content: "罗峰，你去对付那头界兽。"
+
+- speaker1: 震迦王
+  speaker2: 界兽
+  content: "现在的宇宙海比当初强大的多，因为有了晋之世界。"
 
 mysteries:
-  - id: 界兽的意图
-    type: Mystery
-    name: 界兽的目标和计划未知。
-    description: 界兽可能想要前往宇宙海获取力量或资源。
+- id: 界兽的意图
+  type: Mystery
+  name: 界兽的目标和计划未知。
+  description: 界兽可能想要前往宇宙海获取力量或资源。
 
 timeline:
-  - event: 宇宙海制定对付界兽巢穴计划
-    date: 原始宇宙纪元万亿年
+- event: 宇宙海制定对付界兽巢穴计划
+  date: 原始宇宙纪元万亿年
 
-  - event: 潜入昏暗之地的界兽准备离开
-    date: 倾峰界核心区域昏暗之地
-
-```
+- event: 潜入昏暗之地的界兽准备离开
+  date: 倾峰界核心区域昏暗之地

@@ -1,74 +1,72 @@
-```yaml
 source:
   id: 大战海域怪兽
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 监察使，身穿黑神套装，拥有极强的战斗能力。
-    attributes:
-      实力: 高等兽将级及以上
-      能力: 速度极快，攻击力强大
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 监察使，身穿黑神套装，拥有极强的战斗能力。
+  attributes:
+    实力: 高等兽将级及以上
+    能力: 速度极快，攻击力强大
 
-  - id: 李达威
-    type: Character
-    name: 李达威
-    aliases: []
-    description: 战争基地的司令员。
-    attributes:
-      实力: 高级将领
-      职位: 军方高层
+- id: 李达威
+  type: Character
+  name: 李达威
+  aliases: []
+  description: 战争基地的司令员。
+  attributes:
+    实力: 高级将领
+    职位: 军方高层
 
-  - id: 透明水母类怪兽
-    type: Species
-    name: 透明水母类怪兽
-    aliases: []
-    description: 具有大量柔软触手的透明水母，能够进入战争基地。
-    attributes:
-      类型: 领主级水域怪兽
+- id: 透明水母类怪兽
+  type: Species
+  name: 透明水母类怪兽
+  aliases: []
+  description: 具有大量柔软触手的透明水母，能够进入战争基地。
+  attributes:
+    类型: 领主级水域怪兽
 
 relationships:
-  - id: 罗峰与李达威的关系
-    type: Relationship
-    name: 指挥与执行关系
-    description: 李司令员指挥罗峰击杀上岸的领主级水域怪兽。
-    attributes: []
+- id: 罗峰与李达威的关系
+  type: Relationship
+  name: 指挥与执行关系
+  description: 李司令员指挥罗峰击杀上岸的领主级水域怪兽。
+  attributes: []
 
 events:
-  - id: 击杀巨型龟鳖类怪兽
-    type: Event
-    name: 罗峰迅速杀死了一头巨大的龟鳖类领主级怪兽。
-    description: 利用六道冰冷刀光斩杀了冲向战争基地的龟鳖怪物，表现出了惊人的战斗能力。
-    attributes:
-      时间: 未知
-      地点: 黄浦江
+- id: 击杀巨型龟鳖类怪兽
+  type: Event
+  name: 罗峰迅速杀死了一头巨大的龟鳖类领主级怪兽。
+  description: 利用六道冰冷刀光斩杀了冲向战争基地的龟鳖怪物，表现出了惊人的战斗能力。
+  attributes:
+    时间: 未知
+    地点: 黄浦江
 
-  - id: 透明水母进入基地
-    type: Event
-    name: 透明水母类怪兽进入了最外围的战争基地区域。
-    description: 这一事件触发了警报，李达威司令员立即做出了应对措施。
-    attributes:
-      时间: 未知
-      地点: 战争基地最外围
+- id: 透明水母进入基地
+  type: Event
+  name: 透明水母类怪兽进入了最外围的战争基地区域。
+  description: 这一事件触发了警报，李达威司令员立即做出了应对措施。
+  attributes:
+    时间: 未知
+    地点: 战争基地最外围
 
 dialogues:
-  - id: 李达威指挥罗峰
-    type: Dialogue
-    name: "李司令：罗峰、雷猛，请两位击杀一些上岸的领主级水域怪兽。"
-    description: 李达威通过通讯手表直接向罗峰下达命令。
-    attributes: []
+- id: 李达威指挥罗峰
+  type: Dialogue
+  name: "李司令：罗峰、雷猛，请两位击杀一些上岸的领主级水域怪兽。"
+  description: 李达威通过通讯手表直接向罗峰下达命令。
+  attributes: []
 
 timeline:
-  - 时间点: 开始
-    描述: 罗峰俯冲下去准备战斗。
-  - 时间点: 击杀巨型龟鳖类怪兽
-    描述: 罗峰迅速击杀了一头领主级龟鳖怪物。
+- 时间点: 开始
+  描述: 罗峰俯冲下去准备战斗。
+- 时间点: 击杀巨型龟鳖类怪兽
+  描述: 罗峰迅速击杀了一头领主级龟鳖怪物。
 
 mysteries:
-  - id: 怪兽数量和种类未知
-    type: Mystery
-    name: 海域怪兽数量与种类的不确定性。
-    description: 大涅槃时期之后，海域中具体的怪兽数量及种类无人知晓，给战斗带来巨大挑战。
-```
+- id: 怪兽数量和种类未知
+  type: Mystery
+  name: 海域怪兽数量与种类的不确定性。
+  description: 大涅槃时期之后，海域中具体的怪兽数量及种类无人知晓，给战斗带来巨大挑战。

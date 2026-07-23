@@ -1,99 +1,95 @@
-```yaml
 source:
   id: 第291章至第292章
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 购买了1016名奴隶，包括1000名行星级九阶和16名恒星级。
-    attributes:
-      实力: 行星级九阶精神念师以上
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 购买了1016名奴隶，包括1000名行星级九阶和16名恒星级。
+  attributes:
+    实力: 行星级九阶精神念师以上
 
-  - id: 巴巴塔
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的辅助光脑，提供了奴隶购买的信息讲解。
+- id: 巴巴塔
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的辅助光脑，提供了奴隶购买的信息讲解。
 
-  - id: 黑龙飞船
-    type: Item
-    name: 黑龙飞船
-    aliases: []
-    description: 飞船等级为A级，在虬龙星起飞前往银河系。
-    attributes:
-      等级: A级
+- id: 黑龙飞船
+  type: Item
+  name: 黑龙飞船
+  aliases: []
+  description: 飞船等级为A级，在虬龙星起飞前往银河系。
+  attributes:
+    等级: A级
 
-  - id: 奴隶商
-    type: Character
-    name: 奴隶商
-    aliases: [绿发中年人]
-    description: 提供奴隶交易服务，有1016名行星级九阶和恒星级的奴隶。
-    attributes:
-      实力: 不详
+- id: 奴隶商
+  type: Character
+  name: 奴隶商
+  aliases: [ 绿发中年人 ]
+  description: 提供奴隶交易服务，有1016名行星级九阶和恒星级的奴隶。
+  attributes:
+    实力: 不详
 
-  - id: 蒙一至蒙六
-    type: Character
-    name: 黑蒙族恒星级七阶及五阶奴隶
-    aliases: ["埃博拉*沙德尼恩尼塔斯娜", "尾田剌*科德泥森图拉德"]
-    description: 罗峰购买的16名恒星级奴隶中最强者，分为六个黑蒙族。
-    attributes:
-      实力: 恒星级七阶及五阶
-      种族: 黑蒙族
+- id: 蒙一至蒙六
+  type: Character
+  name: 黑蒙族恒星级七阶及五阶奴隶
+  aliases: [ "埃博拉*沙德尼恩尼塔斯娜", "尾田剌*科德泥森图拉德" ]
+  description: 罗峰购买的16名恒星级奴隶中最强者，分为六个黑蒙族。
+  attributes:
+    实力: 恒星级七阶及五阶
+    种族: 黑蒙族
 
-  - id: 虬龙星停泊港工作人员
-    type: Character
-    name: 绿皮肤壮汉
-    aliases: []
-    description: 帮助罗峰完成飞船起降手续。
-    attributes:
-      实力: 不详
+- id: 虬龙星停泊港工作人员
+  type: Character
+  name: 绿皮肤壮汉
+  aliases: []
+  description: 帮助罗峰完成飞船起降手续。
+  attributes:
+    实力: 不详
 
 locations:
-  - id: 虬龙星
-    type: Location
-    name: 虬龙星
-    aliases: []
-    description: 罗峰购买奴隶的地方，星球停泊港位于此。
+- id: 虬龙星
+  type: Location
+  name: 虬龙星
+  aliases: []
+  description: 罗峰购买奴隶的地方，星球停泊港位于此。
 
 organizations:
-  - id: 奴隶商行
-    type: Organization
-    name: 奴隶商行
-    aliases: [绿发中年人的公司]
-    description: 提供奴隶交易服务。
-    attributes:
-      规模: 中等规模
+- id: 奴隶商行
+  type: Organization
+  name: 奴隶商行
+  aliases: [ 绿发中年人的公司 ]
+  description: 提供奴隶交易服务。
+  attributes:
+    规模: 中等规模
 
 species:
-  - id: 黑蒙族
-    type: Species
-    name: 黒蒙族
-    aliases: []
-    description: 身材魁梧，长相接近地球人。男性非常帅气，女性也漂亮。
+- id: 黑蒙族
+  type: Species
+  name: 黒蒙族
+  aliases: []
+  description: 身材魁梧，长相接近地球人。男性非常帅气，女性也漂亮。
 
 dialogues:
-  - speaker1: 罗峰
-    speaker2: 奴隶商
-    text: "兀剌先生，那我就直接转账了。"
-    context: 支付余款给奴隶商人。
-  - speaker1: 绿发中年人
-    speaker2: 罗峰
-    text: "罗先生，和你的合作真是愉快，这是我的虚拟宇宙网络编号。"
-    context: 奴隶商提供联系方式，并表示将给予优惠。
+- speaker1: 罗峰
+  speaker2: 奴隶商
+  text: "兀剌先生，那我就直接转账了。"
+  context: 支付余款给奴隶商人。
+- speaker1: 绿发中年人
+  speaker2: 罗峰
+  text: "罗先生，和你的合作真是愉快，这是我的虚拟宇宙网络编号。"
+  context: 奴隶商提供联系方式，并表示将给予优惠。
 
 timeline:
-  - event: 罗峰购买1016名奴隶
-    time: 文章开始时
-    description: 绿发中年人带领罗峰前往飞船下层大厅，完成奴隶的认主过程。
-  - event: 黑龙飞船起飞离开虬龙星
-    time: 文章结束前
-    description: 飞船进入暗宇宙，准备返回银河系。
+- event: 罗峰购买1016名奴隶
+  time: 文章开始时
+  description: 绿发中年人带领罗峰前往飞船下层大厅，完成奴隶的认主过程。
+- event: 黑龙飞船起飞离开虬龙星
+  time: 文章结束前
+  description: 飞船进入暗宇宙，准备返回银河系。
 
 mysteries:
-  - mystery1: 奴隶商的真实背景和实力
-    explanation: 没有具体说明奴隶商的具体背景信息。
-```
-
-以上是根据提供的文本自动抽取的YAML数据。
+- mystery1: 奴隶商的真实背景和实力
+  explanation: 没有具体说明奴隶商的具体背景信息。

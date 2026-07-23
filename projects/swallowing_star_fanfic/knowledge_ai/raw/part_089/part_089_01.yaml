@@ -1,120 +1,117 @@
-```yaml
 source:
   id: 第二十六篇它的到来
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 鸿盟强者之一，人类族群的重要成员。
-    attributes:
-      实力: 强者
-      性格: 没有具体描述
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 鸿盟强者之一，人类族群的重要成员。
+  attributes:
+    实力: 强者
+    性格: 没有具体描述
 
-  - id: 东帝始祖
-    type: Character
-    name: 东帝始祖
-    aliases: []
-    description: 原始宇宙的势力领袖，对人类族群的发展不满。
-    attributes:
-      实力: 强者
-      性格: 不满、愤怒
+- id: 东帝始祖
+  type: Character
+  name: 东帝始祖
+  aliases: []
+  description: 原始宇宙的势力领袖，对人类族群的发展不满。
+  attributes:
+    实力: 强者
+    性格: 不满、愤怒
 
-  - id: 紫月始祖
-    type: Character
-    name: 紫月始祖
-    aliases: []
-    description: 原始宇宙的超脱轮回的存在，拥有给予传承的能力。
-    attributes:
-      实力: 强者
-      性格: 有远见、慷慨
+- id: 紫月始祖
+  type: Character
+  name: 紫月始祖
+  aliases: []
+  description: 原始宇宙的超脱轮回的存在，拥有给予传承的能力。
+  attributes:
+    实力: 强者
+    性格: 有远见、慷慨
 
-  - id: 觉化真神
-    type: Character
-    name: 觉化真神
-    aliases: []
-    description: 紫月始祖的助手，执行紫月始祖的指令。
-    attributes:
-      实力: 强者
-      性格: 敬业、恭顺
+- id: 觉化真神
+  type: Character
+  name: 觉化真神
+  aliases: []
+  description: 紫月始祖的助手，执行紫月始祖的指令。
+  attributes:
+    实力: 强者
+    性格: 敬业、恭顺
 
-  - id: 鸿盟
-    type: Organization
-    name: 鸿盟
-    aliases: []
-    description: 由人类族群主导，包括多个宇宙之主的联盟。
-    attributes:
-      规模: 多个宇宙之主加入
-      目标: 加强自身实力
+- id: 鸿盟
+  type: Organization
+  name: 鸿盟
+  aliases: []
+  description: 由人类族群主导，包括多个宇宙之主的联盟。
+  attributes:
+    规模: 多个宇宙之主加入
+    目标: 加强自身实力
 
 locations:
-  - id: 原始宇宙
-    type: Location
-    name: 原始宇宙
-    aliases: []
-    description: 宇宙海的核心区域，众多宇宙势力的中心。
-    attributes:
-      特点: 危险、广阔
+- id: 原始宇宙
+  type: Location
+  name: 原始宇宙
+  aliases: []
+  description: 宇宙海的核心区域，众多宇宙势力的中心。
+  attributes:
+    特点: 危险、广阔
 
-  - id: 初始宇宙
-    type: Location
-    name: 初始宇宙
-    aliases: []
-    description: 鸿盟的重要基地，用于安顿新加入的宇宙之主。
+- id: 初始宇宙
+  type: Location
+  name: 初始宇宙
+  aliases: []
+  description: 鸿盟的重要基地，用于安顿新加入的宇宙之主。
 
 civilizations:
-  - id: 人类文明
-    type: Civilization
-    name: 人类文明
-    aliases: []
-    description: 原始宇宙中的主要势力之一。
-    attributes:
-      目标: 扩大自身影响力
+- id: 人类文明
+  type: Civilization
+  name: 人类文明
+  aliases: []
+  description: 原始宇宙中的主要势力之一。
+  attributes:
+    目标: 扩大自身影响力
 
 species:
-  - id: 宇宙之主
-    type: Species
-    name: 宇宙之主
-    aliases: []
-    description: 在原始宇宙中具有极高地位的强者。
+- id: 宇宙之主
+  type: Species
+  name: 宇宙之主
+  aliases: []
+  description: 在原始宇宙中具有极高地位的强者。
 
 relationships:
-  - 主体: 罗峰
-    相关对象: 鸿盟
-    关系类型: 成员
+- 主体: 罗峰
+  相关对象: 鸿盟
+  关系类型: 成员
 
-  - 主体: 东帝始祖
-    相关对象: 原始宇宙势力
-    关系类型: 领导者
+- 主体: 东帝始祖
+  相关对象: 原始宇宙势力
+  关系类型: 领导者
 
-  - 主体: 紫月始祖
-    相关对象: 祖神教
-    关系类型: 超脱轮回的存在
+- 主体: 紫月始祖
+  相关对象: 祖神教
+  关系类型: 超脱轮回的存在
 
 events:
-  - id: 人类族群赢得战争
-    type: Event
-    name: 人类族群赢得战争
-    description: 人类阵营在联军一方的战斗中取得胜利。
-    attributes:
-      时间点: 文章提到的时间线内
-      影响: 原始宇宙势力对局势不满
+- id: 人类族群赢得战争
+  type: Event
+  name: 人类族群赢得战争
+  description: 人类阵营在联军一方的战斗中取得胜利。
+  attributes:
+    时间点: 文章提到的时间线内
+    影响: 原始宇宙势力对局势不满
 
 dialogues:
-  - 主体: 紫月始祖
-    相关对象: 觉化真神
-    对话内容: "给，当然给。答应了自然做到，我紫月……还不至于在这些小家伙们面前失信。"
-    attributes:
-      场景: 决定是否给予传承
+- 主体: 紫月始祖
+  相关对象: 觉化真神
+  对话内容: "给，当然给。答应了自然做到，我紫月……还不至于在这些小家伙们面前失信。"
+  attributes:
+    场景: 决定是否给予传承
 
 timeline:
-  - 时间点: 文章提到的时间线内
-    事件类型: 战争胜利
-    详情描述: 人类阵营赢得战争，势力得到增强。
+- 时间点: 文章提到的时间线内
+  事件类型: 战争胜利
+  详情描述: 人类阵营赢得战争，势力得到增强。
 
 mysteries:
-  - id: 紫月始祖为何决定给予联军各族传承?
-    description: 尽管没有直接承诺,紫月始祖为什么选择帮助联军的各个种族?
-
-```
+- id: 紫月始祖为何决定给予联军各族传承?
+  description: 尽管没有直接承诺,紫月始祖为什么选择帮助联军的各个种族?

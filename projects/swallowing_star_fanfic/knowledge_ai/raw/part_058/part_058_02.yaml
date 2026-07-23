@@ -1,45 +1,43 @@
-```yaml
 source:
   id: 炎祭大陆文明遗产
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 炎祭大陆原住民后代，拥有世界戒指和秘纹武器锁空之臂。
-    attributes:
-      实力: 不朽神灵
-      性格: 聪明机智
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 炎祭大陆原住民后代，拥有世界戒指和秘纹武器锁空之臂。
+  attributes:
+    实力: 不朽神灵
+    性格: 聪明机智
 
-  - id: 秘纹武器
-    type: Item
-    name: 锁空之臂
-    aliases: []
-    description: 宇宙级秘纹武器，能封锁空间波动。
-    attributes:
-      功能: 封锁指定区域内空间波动，阻止瞬移等技能的使用
+- id: 秘纹武器
+  type: Item
+  name: 锁空之臂
+  aliases: []
+  description: 宇宙级秘纹武器，能封锁空间波动。
+  attributes:
+    功能: 封锁指定区域内空间波动，阻止瞬移等技能的使用
 
-  - id: 祭塔
-    type: Location
-    name: 传承祭塔
-    aliases: []
-    description: 存放炎祭大陆原住民文明遗产的地方。
+- id: 祭塔
+  type: Location
+  name: 传承祭塔
+  aliases: []
+  description: 存放炎祭大陆原住民文明遗产的地方。
 
 relationships:
 
 events:
-  - id: 罗峰获得秘纹武器
-    type: Event
-    description: 罗峰在炎祭大陆传承祭塔内获得了锁空之臂这件秘纹武器。
-    timeline: []
+- id: 罗峰获得秘纹武器
+  type: Event
+  description: 罗峰在炎祭大陆传承祭塔内获得了锁空之臂这件秘纹武器。
+  timeline: []
 
 dialogues:
 
 timeline:
 
 mysteries:
-  - id: 秘纹武器的来源
-    type: Mystery
-    description: '秘纹武器是炎祭大陆原住民先祖强者在宇宙秘境中偶然发现并领悟出的一种特殊前进道路。'
-```
+- id: 秘纹武器的来源
+  type: Mystery
+  description: '秘纹武器是炎祭大陆原住民先祖强者在宇宙秘境中偶然发现并领悟出的一种特殊前进道路。'

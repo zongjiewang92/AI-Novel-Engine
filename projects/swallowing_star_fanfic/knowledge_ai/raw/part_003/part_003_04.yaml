@@ -1,82 +1,80 @@
-```yaml
 source:
   id: 第45章兽将级怪兽
 
 entities:
-  - id: 火锤小队
-    type: Organization
-    name: 火锤小队
-    aliases: []
-    description: 江南市的猎杀怪兽数字排名第三的小队，拥有六名成员。
-    attributes:
-      - 实力强于一般团队
-      - 五人使用望远镜搜寻兽将级怪兽
-      - 队员陈谷携带重型狙击枪待命
+- id: 火锤小队
+  type: Organization
+  name: 火锤小队
+  aliases: []
+  description: 江南市的猎杀怪兽数字排名第三的小队，拥有六名成员。
+  attributes:
+  - 实力强于一般团队
+  - 五人使用望远镜搜寻兽将级怪兽
+  - 队员陈谷携带重型狙击枪待命
 
-  - id: 老韩
-    type: Character
-    name: 老韩
-    aliases: []
-    description: 虎牙小队中的一员，使用热武器并且是战将级武者。
-    attributes:
-      - 使用定位信号弹追踪目标兽将级怪兽
+- id: 老韩
+  type: Character
+  name: 老韩
+  aliases: []
+  description: 虎牙小队中的一员，使用热武器并且是战将级武者。
+  attributes:
+  - 使用定位信号弹追踪目标兽将级怪兽
 
-  - id: 张泽虎
-    type: Character
-    name: 张泽虎
-    aliases: []
-    description: 虎牙小队成员，高级战士级武者。
-    attributes:
-      - 猎杀目标为受伤的猎杀者兽将级怪兽
+- id: 张泽虎
+  type: Character
+  name: 张泽虎
+  aliases: []
+  description: 虎牙小队成员，高级战士级武者。
+  attributes:
+  - 猎杀目标为受伤的猎杀者兽将级怪兽
 
-  - id: 老家伙
-    type: Species
-    name: 老家伙
-    aliases: [猎杀者]
-    description: 狼类变异形成的高级兽将级或接近领主级怪兽。
-    attributes:
-      - 实力强大，独行且喜欢猎杀其他生物
+- id: 老家伙
+  type: Species
+  name: 老家伙
+  aliases: [ 猎杀者 ]
+  description: 狼类变异形成的高级兽将级或接近领主级怪兽。
+  attributes:
+  - 实力强大，独行且喜欢猎杀其他生物
 
-  - id: 银月狼族
-    type: Species
-    name: 银月狼族
-    aliases: [猎杀者]
-    description: 狼类变异形成的高级兽将级或接近领主级怪兽族群。
-    attributes:
-      - 每一头银月凶狼都是独行，实力强大且难以对付
+- id: 银月狼族
+  type: Species
+  name: 银月狼族
+  aliases: [ 猎杀者 ]
+  description: 狼类变异形成的高级兽将级或接近领主级怪兽族群。
+  attributes:
+  - 每一头银月凶狼都是独行，实力强大且难以对付
 
 relationships:
 
 events:
-  - id: 火锤小队搜索
-    type: Event
-    name: 火锤小队在天台搜寻兽将级怪兽
-    description: 六名队员躲在二十一层住宅区的天台上使用望远镜寻找目标。
-    timeline:
-      start: 文本开始时
-      end: 未提及
+- id: 火锤小队搜索
+  type: Event
+  name: 火锤小队在天台搜寻兽将级怪兽
+  description: 六名队员躲在二十一层住宅区的天台上使用望远镜寻找目标。
+  timeline:
+    start: 文本开始时
+    end: 未提及
 
-  - id: 老韩定位追踪
-    type: Event
-    name: 老韩通过信号弹定位兽将级怪兽
-    description: 使用特殊仪器追踪受伤的猎杀者兽将级怪兽的位置。
-    timeline:
-      start: 文本开始时
-      end: 未提及
+- id: 老韩定位追踪
+  type: Event
+  name: 老韩通过信号弹定位兽将级怪兽
+  description: 使用特殊仪器追踪受伤的猎杀者兽将级怪兽的位置。
+  timeline:
+    start: 文本开始时
+    end: 未提及
 
 dialogues:
-  - id: 张泽虎询问老韩
-    type: Dialogue
-    name: 张泽虎询问定位信号弹情况
-    text: "老韩，发现那头老家伙的位置了吗？"
-    speaker: 张泽虎
-    listener: 老韩
+- id: 张泽虎询问老韩
+  type: Dialogue
+  name: 张泽虎询问定位信号弹情况
+  text: "老韩，发现那头老家伙的位置了吗？"
+  speaker: 张泽虎
+  listener: 老韩
 
 timeline:
 
 mysteries:
-  - id: 捕杀猎杀者时机
-    type: Mystery
-    name: 捕杀受伤的猎杀者兽将级怪兽的最佳机会
-    description: 猎杀者被重伤后，虎牙小队准备抓住机会进行捕杀。
-```
+- id: 捕杀猎杀者时机
+  type: Mystery
+  name: 捕杀受伤的猎杀者兽将级怪兽的最佳机会
+  description: 猎杀者被重伤后，虎牙小队准备抓住机会进行捕杀。

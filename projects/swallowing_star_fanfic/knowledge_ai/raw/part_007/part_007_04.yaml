@@ -1,77 +1,75 @@
-```yaml
 source:
   id: 原文
 
 entities:
-  - id: zhang_ge_tao
-    type: character
-    name: 诸葛韬
-    aliases: []
-    description: 火锤小队的成员，邀请罗峰去全球总部进行特等培训。
-    attributes:
-      role: 队员
-      organization: 极限总会馆
+- id: zhang_ge_tao
+  type: character
+  name: 诸葛韬
+  aliases: []
+  description: 火锤小队的成员，邀请罗峰去全球总部进行特等培训。
+  attributes:
+    role: 队员
+    organization: 极限总会馆
 
-  - id: yang_hui
-    type: character
-    name: 杨辉
-    aliases: []
-    description: 总会馆的主管，负责安排罗峰去全球总部进行特等培训。
-    attributes:
-      role: 主管
-      organization: 极限总会馆
+- id: yang_hui
+  type: character
+  name: 杨辉
+  aliases: []
+  description: 总会馆的主管，负责安排罗峰去全球总部进行特等培训。
+  attributes:
+    role: 主管
+    organization: 极限总会馆
 
-  - id: zhou_zheng_yong
-    type: character
-    name: 周正永
-    aliases: []
-    description: 江南基地市极限总会馆的会长，人称“铁手”。
-    attributes:
-      role: 会长
-      organization: 极限总会馆
+- id: zhou_zheng_yong
+  type: character
+  name: 周正永
+  aliases: []
+  description: 江南基地市极限总会馆的会长，人称“铁手”。
+  attributes:
+    role: 会长
+    organization: 极限总会馆
 
-  - id: lu_feng
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 主角，被邀请去全球总部进行特等培训。
-    attributes:
-      strength_level: 战神预备营候选人
+- id: lu_feng
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 主角，被邀请去全球总部进行特等培训。
+  attributes:
+    strength_level: 战神预备营候选人
 
 relationships:
-  - source_id: zhou_zheng_yong
-    target_id: yang_hui
-    type: 合作关系
-    description: 周正永和杨辉讨论罗峰的安排。
+- source_id: zhou_zheng_yong
+  target_id: yang_hui
+  type: 合作关系
+  description: 周正永和杨辉讨论罗峰的安排。
 
 events:
-  - id: lu_feng_beitao
-    type: 训练营选拔
-    description: 罗峰被邀请参加全球总部的基础训练营或精英训练营。
-    timeline: []
+- id: lu_feng_beitao
+  type: 训练营选拔
+  description: 罗峰被邀请参加全球总部的基础训练营或精英训练营。
+  timeline: []
 
 dialogues:
-  - speaker_id: zhou_zheng_yong
-    listener_ids: [lu_feng, yang_hui]
-    content: "罗峰，我极限武馆全球总部那，一共有两大训练营，分别是基础训练营和精英训练营。"
-    context: 介绍两个训练营。
+- speaker_id: zhou_zheng_yong
+  listener_ids: [ lu_feng, yang_hui ]
+  content: "罗峰，我极限武馆全球总部那，一共有两大训练营，分别是基础训练营和精英训练营。"
+  context: 介绍两个训练营。
 
-  - speaker_id: zhou_zheng_yong
-    listener_ids: [lu_feng, yang_hui]
-    content: "精英训练营是吸纳天才中的天才，师资力量也是战神级别。"
-    context: 描述精英训练营的特点。
+- speaker_id: zhou_zheng_yong
+  listener_ids: [ lu_feng, yang_hui ]
+  content: "精英训练营是吸纳天才中的天才，师资力量也是战神级别。"
+  context: 描述精英训练营的特点。
 
-  - speaker_id: yang_hui
-    listener_ids: [lu_feng]
-    content: "罗峰，你现在有机会进入全球第一训练营，唯一条件是你必须通过B级考验！"
-    context: 鼓励罗峰通过考核以获得机会。
+- speaker_id: yang_hui
+  listener_ids: [ lu_feng ]
+  content: "罗峰，你现在有机会进入全球第一训练营，唯一条件是你必须通过B级考验！"
+  context: 鼓励罗峰通过考核以获得机会。
 
 timeline:
-  - event_id: lu_feng_beitao
-    date: []
+- event_id: lu_feng_beitao
+  date: []
 
 mysteries:
-  - id: ancient_ruins
-    type: 神秘事件
-    description: 古文明遗迹中发掘出的宝贝作为训练营器材。
-```
+- id: ancient_ruins
+  type: 神秘事件
+  description: 古文明遗迹中发掘出的宝贝作为训练营器材。

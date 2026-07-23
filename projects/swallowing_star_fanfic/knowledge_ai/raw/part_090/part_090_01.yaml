@@ -1,81 +1,79 @@
-```yaml
 source:
   id: "第1356章声威"
 
 entities:
-  - id: "罗峰"
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 人类族群成员，与浩雷星主战斗并取得胜利。
-    attributes:
-      实力: 宇宙之主
-  - id: "黑暗之主"
-    type: Character
-    name: 黑暗之主
-    aliases: []
-    description: 罗峰的师侄，参与收刮浩雷星主的小型宇宙。
-    attributes:
-      实力: 宇宙最强者
-  - id: "混沌城主"
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 人类族群成员，在虚拟宇宙中等待罗峰消息。
-    attributes:
-      实力: 宇宙之主
-  - id: "虚金之主"
-    type: Character
-    name: 虚金之主
-    aliases: []
-    description: 人类族群成员，在虚拟宇宙中等待罗峰消息。
-    attributes:
-      实力: 宇宙之主
-  - id: "横行魔神"
-    type: Character
-    name: 横行魔神
-    aliases: []
-    description: 异族强者，赶往浩雷星主的小型宇宙收刮宝物。
-    attributes:
-      外观: 全身金色光芒
-  - id: "浩雷星主"
-    type: Character
-    name: 浩雷星主
-    aliases: []
-    description: 雷暴星一族的宇宙最强者，被罗峰击败并死亡。
-    attributes:
-      实力: 宇宙最强者
+- id: "罗峰"
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 人类族群成员，与浩雷星主战斗并取得胜利。
+  attributes:
+    实力: 宇宙之主
+- id: "黑暗之主"
+  type: Character
+  name: 黑暗之主
+  aliases: []
+  description: 罗峰的师侄，参与收刮浩雷星主的小型宇宙。
+  attributes:
+    实力: 宇宙最强者
+- id: "混沌城主"
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 人类族群成员，在虚拟宇宙中等待罗峰消息。
+  attributes:
+    实力: 宇宙之主
+- id: "虚金之主"
+  type: Character
+  name: 虚金之主
+  aliases: []
+  description: 人类族群成员，在虚拟宇宙中等待罗峰消息。
+  attributes:
+    实力: 宇宙之主
+- id: "横行魔神"
+  type: Character
+  name: 横行魔神
+  aliases: []
+  description: 异族强者，赶往浩雷星主的小型宇宙收刮宝物。
+  attributes:
+    外观: 全身金色光芒
+- id: "浩雷星主"
+  type: Character
+  name: 浩雷星主
+  aliases: []
+  description: 雷暴星一族的宇宙最强者，被罗峰击败并死亡。
+  attributes:
+    实力: 宇宙最强者
 
 relationships:
-  - 主体: 罗峰
-    对象: 混沌城主
-    关系类型: 同属人类族群成员
-  - 主体: 黑暗之主
-    对象: 罗峰
-    关系类型: 师侄关系
+- 主体: 罗峰
+  对象: 混沌城主
+  关系类型: 同属人类族群成员
+- 主体: 黑暗之主
+  对象: 罗峰
+  关系类型: 师侄关系
 
 events:
-  - id: "罗峰击败浩雷星主"
-    type: Battle
-    description: 罗峰成功击败并杀死宇宙最强者浩雷星主。
-    timeline: 第1356章声威
-  - id: "黑暗之主收刮小型宇宙"
-    type: Scavenging
-    description: 黑暗之主赶到浩雷星主的小型宇宙，将所有宝物收刮一空。
-    timeline: 第1356章声威
+- id: "罗峰击败浩雷星主"
+  type: Battle
+  description: 罗峰成功击败并杀死宇宙最强者浩雷星主。
+  timeline: 第1356章声威
+- id: "黑暗之主收刮小型宇宙"
+  type: Scavenging
+  description: 黑暗之主赶到浩雷星主的小型宇宙，将所有宝物收刮一空。
+  timeline: 第1356章声威
 
 dialogues:
-  - speaker: 混沌城主
-    dialogue: "也不知罗峰能不能成功。"
-  - speaker: 未提及
-    dialogue: "浩雷已死，扫荡吧！"
+- speaker: 混沌城主
+  dialogue: "也不知罗峰能不能成功。"
+- speaker: 未提及
+  dialogue: "浩雷已死，扫荡吧！"
 
 timeline:
-  - event_id: "罗峰击败浩雷星主"
-    time: 过去不久
-  - event_id: "黑暗之主收刮小型宇宙"
-    time: 罗峰击败浩雷星主后
+- event_id: "罗峰击败浩雷星主"
+  time: 过去不久
+- event_id: "黑暗之主收刮小型宇宙"
+  time: 罗峰击败浩雷星主后
 
 mysteries:
-  - content: 谁先一步到达并收刮了浩雷星主的小型宇宙。
-```
+- content: 谁先一步到达并收刮了浩雷星主的小型宇宙。

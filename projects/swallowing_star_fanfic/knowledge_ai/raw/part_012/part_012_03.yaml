@@ -1,77 +1,75 @@
-```yaml
 source:
   id: 第177章五万年的尸体降临
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 极限武馆的强者，拥有智能战机。
-    attributes:
-      实力: 极致战神级
-      身份: 徐欣男朋友,妹夫
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 极限武馆的强者，拥有智能战机。
+  attributes:
+    实力: 极致战神级
+    身份: 徐欣男朋友,妹夫
 
-  - id: 徐欣
-    type: Character
-    name: 徐欣
-    aliases: []
-    description: 徐刚的妹妹，徐家成员之一。
-    attributes:
-      关系: 罗峰的女朋友
+- id: 徐欣
+  type: Character
+  name: 徐欣
+  aliases: []
+  description: 徐刚的妹妹，徐家成员之一。
+  attributes:
+    关系: 罗峰的女朋友
 
-  - id: 徐刚
-    type: Character
-    name: 徐刚
-    aliases: []
-    description: 徐欣的哥哥，家族高层。
-    attributes:
-      实力: 不详
-      身份: 家族成员,徐欣的哥哥
+- id: 徐刚
+  type: Character
+  name: 徐刚
+  aliases: []
+  description: 徐欣的哥哥，家族高层。
+  attributes:
+    实力: 不详
+    身份: 家族成员,徐欣的哥哥
 
-  - id: 孙超
-    type: Character
-    name: 孙超
-    aliases: []
-    description: 徐刚的朋友，徐家在美利坚负责部分生意。
-    attributes:
-      实力: 不详
-      关系: 对罗峰的态度从敌对转为忌惮
+- id: 孙超
+  type: Character
+  name: 孙超
+  aliases: []
+  description: 徐刚的朋友，徐家在美利坚负责部分生意。
+  attributes:
+    实力: 不详
+    关系: 对罗峰的态度从敌对转为忌惮
 
-  - id: 战神级强者(孙超的父亲)
-    type: Character
-    name: 孙超的父亲
-    aliases: []
-    description: 徐家的客卿身份战神。
-    attributes:
-      实力: 战神级
+- id: 战神级强者(孙超的父亲)
+  type: Character
+  name: 孙超的父亲
+  aliases: []
+  description: 徐家的客卿身份战神。
+  attributes:
+    实力: 战神级
 
 relationships:
-  - 主体: 罗峰
-    客体: 徐欣
-    关系类型: 男女朋友关系,妹夫与妹妹的关系
-  - 主体: 徐刚
-    客体: 孙超
-    关系类型: 同学、同事关系
+- 主体: 罗峰
+  客体: 徐欣
+  关系类型: 男女朋友关系,妹夫与妹妹的关系
+- 主体: 徐刚
+  客体: 孙超
+  关系类型: 同学、同事关系
 
 events:
-  - 名称: 罗峰送徐欣回家
-    时间线: 晚上八点多
-    地点: 基地市富人区
-    描述: 徐刚在机场介绍罗峰为徐欣男朋友，并承认他作为妹夫的身份。
+- 名称: 罗峰送徐欣回家
+  时间线: 晚上八点多
+  地点: 基地市富人区
+  描述: 徐刚在机场介绍罗峰为徐欣男朋友，并承认他作为妹夫的身份。
 
 dialogues:
-  - 主体: 罗峰
-    客体: 徐欣
-    内容: "这有钱人家就是不一样，基地市土地这么紧张，可是有钱人住的地方却这么安静，人这么少。"
-  - 主体: 徐欣
-    客体: 罗峰
-    内容: "你说有钱人家？你没钱？我们家族的流动资产全部加起来，还没你那一架智能战机多！"
+- 主体: 罗峰
+  客体: 徐欣
+  内容: "这有钱人家就是不一样，基地市土地这么紧张，可是有钱人住的地方却这么安静，人这么少。"
+- 主体: 徐欣
+  客体: 罗峰
+  内容: "你说有钱人家？你没钱？我们家族的流动资产全部加起来，还没你那一架智能战机多！"
 
 timeline:
-  - 时间点: 晚上八点多
-    事件: 罗峰送徐欣回家的路上
+- 时间点: 晚上八点多
+  事件: 罗峰送徐欣回家的路上
 
 mysteries:
-  - 徐家如何得知罗峰与徐欣的关系以及罗峰的身份背景信息。
-```
+- 徐家如何得知罗峰与徐欣的关系以及罗峰的身份背景信息。

@@ -1,115 +1,113 @@
-```yaml
 source:
   id: 第490章宇宙秘境修复陨墨星号？
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙公司的核心成员，拥有众多高级别的修炼资源。
-    attributes:
-      实力: 强者
-      性格: 沉着冷静
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙公司的核心成员，拥有众多高级别的修炼资源。
+  attributes:
+    实力: 强者
+    性格: 沉着冷静
 
-  - id: 巴巴塔
-    type: Character
-    name: 巴巴塔
-    aliases: [小恶魔]
-    description: 罗峰的助手，曾经是陨墨星传人的选择者。
-    attributes:
-      实力: 强大（辅助角色）
-      性格: 聪明、直接
+- id: 巴巴塔
+  type: Character
+  name: 巴巴塔
+  aliases: [ 小恶魔 ]
+  description: 罗峰的助手，曾经是陨墨星传人的选择者。
+  attributes:
+    实力: 强大（辅助角色）
+    性格: 聪明、直接
 
-  - id: 宇宙国主
-    type: Character
-    name: 宇宙国主
-    aliases: []
-    description: 给太初区成员进行公开课的超级强者之一。
-    attributes:
-      实力: 强大（宇宙级）
-      性格: 威严
+- id: 宇宙国主
+  type: Character
+  name: 宇宙国主
+  aliases: []
+  description: 给太初区成员进行公开课的超级强者之一。
+  attributes:
+    实力: 强大（宇宙级）
+    性格: 威严
 
-  - id: 虚拟宇宙公司
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 提供给核心成员丰富的学习和修炼资源。
-    attributes:
-      规模: 高级别
-      特点: 积分系统、多样化资源
+- id: 虚拟宇宙公司
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 提供给核心成员丰富的学习和修炼资源。
+  attributes:
+    规模: 高级别
+    特点: 积分系统、多样化资源
 
-  - id: 通天桥
-    type: Location
-    name: 通天桥
-    aliases: []
-    description: 考核宇宙本源法则感悟的虚拟测试地。
-    attributes:
-      功能: 测试法则悟性
-      特点: 层级积分制
+- id: 通天桥
+  type: Location
+  name: 通天桥
+  aliases: []
+  description: 考核宇宙本源法则感悟的虚拟测试地。
+  attributes:
+    功能: 测试法则悟性
+    特点: 层级积分制
 
-  - id: 幻境海
-    type: Location
-    name: 幻境海
-    aliases: []
-    description: 考核意识强度和意志的虚拟测试地。
-    attributes:
-      功能: 测试意识与意志
-      特点: 层级积分制
+- id: 幻境海
+  type: Location
+  name: 幻境海
+  aliases: []
+  description: 考核意识强度和意志的虚拟测试地。
+  attributes:
+    功能: 测试意识与意志
+    特点: 层级积分制
 
-  - id: 不朽祭坛
-    type: Location
-    name: 不朽祭坛
-    aliases: []
-    description: 考核身体发力的特殊测试地。
-    attributes:
-      功能: 测试身体力量
-      特点: 积分系统、独特环境
+- id: 不朽祭坛
+  type: Location
+  name: 不朽祭坛
+  aliases: []
+  description: 考核身体发力的特殊测试地。
+  attributes:
+    功能: 测试身体力量
+    特点: 积分系统、独特环境
 
 relationships:
-  - id: 罗峰与巴巴塔
-    type: Relationship
-    name: 协作关系
-    description: 巴巴塔作为助手，帮助罗峰更好地利用虚拟宇宙公司的资源。
+- id: 罗峰与巴巴塔
+  type: Relationship
+  name: 协作关系
+  description: 巴巴塔作为助手，帮助罗峰更好地利用虚拟宇宙公司的资源。
 
 events:
-  - id: 查看生活学习栏
-    type: Event
-    name: 查看生活和学习栏
-    description: 罗峰查看虚拟宇宙公司提供的生活和学习资源。
-    attributes:
-      时间点: 文章开始
+- id: 查看生活学习栏
+  type: Event
+  name: 查看生活和学习栏
+  description: 罗峰查看虚拟宇宙公司提供的生活和学习资源。
+  attributes:
+    时间点: 文章开始
 
-  - id: 探索修炼任务
-    type: Event
-    name: 探索修炼任务
-    description: 罗峰查看并思考关于挑战的五个级别难度的修炼任务。
+- id: 探索修炼任务
+  type: Event
+  name: 探索修炼任务
+  description: 罗峰查看并思考关于挑战的五个级别难度的修炼任务。
 
 dialogues:
-  - id: 生活学习栏评价
-    type: Dialogue
-    participants:
-      - 罗峰
-      - 巴巴塔
-    content: |
-      "竟然没有丝毫强迫。"罗峰露出笑容，"这个好，想去听课就去听，不想去就自己修炼。倒也人性化。"
+- id: 生活学习栏评价
+  type: Dialogue
+  participants:
+  - 罗峰
+  - 巴巴塔
+  content: |
+    "竟然没有丝毫强迫。"罗峰露出笑容，"这个好，想去听课就去听，不想去就自己修炼。倒也人性化。"
 
-  - id: 安全环境讨论
-    type: Dialogue
-    participants:
-      - 罗峰
-      - 巴巴塔
-    content: |
-      "温室里的花朵看似美丽却经受不住风吹雨打。"
-      "说的对，百炼成钢，你们地球普通人打了疫苗才能抵御一些传染病，都一个道理。不过罗峰，就跟地球人用疫苗一样，你一开始别弄太狠的，先从难度低点的开始试试，逐渐的提高难度。"
+- id: 安全环境讨论
+  type: Dialogue
+  participants:
+  - 罗峰
+  - 巴巴塔
+  content: |
+    "温室里的花朵看似美丽却经受不住风吹雨打。"
+    "说的对，百炼成钢，你们地球普通人打了疫苗才能抵御一些传染病，都一个道理。不过罗峰，就跟地球人用疫苗一样，你一开始别弄太狠的，先从难度低点的开始试试，逐渐的提高难度。"
 
 timeline:
-  - id: 第一阶段
-    name: 查看和了解资源
-    description: 罗峰查看虚拟宇宙公司提供的生活、学习以及修炼相关的信息。
+- id: 第一阶段
+  name: 查看和了解资源
+  description: 罗峰查看虚拟宇宙公司提供的生活、学习以及修炼相关的信息。
 
 mysteries:
-  - id: 通天桥幻境海不朽祭坛来历
-    type: Mystery
-    content: "怎么弄出来的？"
-```
+- id: 通天桥幻境海不朽祭坛来历
+  type: Mystery
+  content: "怎么弄出来的？"

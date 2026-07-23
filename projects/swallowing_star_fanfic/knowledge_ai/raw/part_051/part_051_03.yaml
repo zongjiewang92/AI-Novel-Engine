@@ -1,83 +1,80 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 主角，修炼兽神变等秘法。
-    attributes:
-      实力: 境界不详但实力强大
-      性格: 不详
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 主角，修炼兽神变等秘法。
+  attributes:
+    实力: 境界不详但实力强大
+    性格: 不详
 
-  - id: 金角巨兽分身
-    type: Character
-    name: 金角巨兽分身
-    aliases: []
-    description: 罗峰的分身，能够使用本尊天地和天赋秘法‘强化’。
-    attributes:
-      实力: 身体攻击力振幅10倍于普通人类界主巅峰
+- id: 金角巨兽分身
+  type: Character
+  name: 金角巨兽分身
+  aliases: []
+  description: 罗峰的分身，能够使用本尊天地和天赋秘法‘强化’。
+  attributes:
+    实力: 身体攻击力振幅10倍于普通人类界主巅峰
 
-  - id: 希罗多
-    type: Character
-    name: 希罗多
-    aliases: []
-    description: 宇宙霸主，兽神变的创造者。
-    attributes:
-      实力: 极为强大，宇宙法则的极限存在
+- id: 希罗多
+  type: Character
+  name: 希罗多
+  aliases: []
+  description: 宇宙霸主，兽神变的创造者。
+  attributes:
+    实力: 极为强大，宇宙法则的极限存在
 
-  - id: 魔音神将传承
-    type: Ability
-    name: 魔音神将传承
-    aliases: []
-    description: 罗峰接受的一种能够提高灵魂振幅的秘法。
-    attributes:
-      振幅上限: 100倍
+- id: 魔音神将传承
+  type: Ability
+  name: 魔音神将传承
+  aliases: []
+  description: 罗峰接受的一种能够提高灵魂振幅的秘法。
+  attributes:
+    振幅上限: 100倍
 
-  - id: 本尊天地
-    type: Ability
-    name: 本尊天地
-    aliases: []
-    description: 金角巨兽修炼的一种绝学，能瞬间缩小身体并加强密度以提高战斗力。
-    attributes:
-      振幅上限: 36倍
+- id: 本尊天地
+  type: Ability
+  name: 本尊天地
+  aliases: []
+  description: 金角巨兽修炼的一种绝学，能瞬间缩小身体并加强密度以提高战斗力。
+  attributes:
+    振幅上限: 36倍
 
-  - id: 天赋秘法‘强化’
-    type: Ability
-    name: 天赋秘法‘强化’
-    aliases: []
-    description: 全方位增强金角巨兽的能力，包括力量的两倍增加。
-    attributes:
-      振幅上限: 2倍
+- id: 天赋秘法‘强化’
+  type: Ability
+  name: 天赋秘法‘强化’
+  aliases: []
+  description: 全方位增强金角巨兽的能力，包括力量的两倍增加。
+  attributes:
+    振幅上限: 2倍
 
-  - id: 虚空之塔
-    type: Ability
-    name: 虚空之塔
-    aliases: []
-    description: 罗峰修炼的一种灵魂防御秘法。
-    attributes:
-      类型: 灵魂防御类
+- id: 虚空之塔
+  type: Ability
+  name: 虚空之塔
+  aliases: []
+  description: 罗峰修炼的一种灵魂防御秘法。
+  attributes:
+    类型: 灵魂防御类
 
 relationships:
 
 events:
 
 dialogues:
-  - speaker: 巴巴塔
-    listener: 罗峰
-    content: "罗峰，怎么没有灵魂振幅类秘法？"
+- speaker: 巴巴塔
+  listener: 罗峰
+  content: "罗峰，怎么没有灵魂振幅类秘法？"
 
 timeline:
 
 mysteries:
-  - id: black_plate_secret_scroll
-    type: Mystery
-    name: 黑色金属板中的无名秘典
-    description: 可以令基因进化，但只有第一层。
-    attributes:
-      振幅效果: 提升基础三倍
-      宇宙法则违逆程度: 非常高
-
-```
+- id: black_plate_secret_scroll
+  type: Mystery
+  name: 黑色金属板中的无名秘典
+  description: 可以令基因进化，但只有第一层。
+  attributes:
+    振幅效果: 提升基础三倍
+    宇宙法则违逆程度: 非常高

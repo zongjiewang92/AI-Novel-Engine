@@ -1,55 +1,51 @@
-```yaml
 source:
   id: 晋之世界探险
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 地球人，获得了封号，在晋之世界有极高的地位和权力。
-    attributes:
-      实力: 宇宙之主, 拥有借用晋之世界世界之力的能力
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 罗峰的老师，人类族群地位最高的成员之一。
-    attributes:
-      实力: 宇宙之主, 接受了罗峰赠予的机械流宝物
-  - id: 虫族女皇
-    type: Character
-    name: 虫族女皇
-    aliases: []
-    description: 控制虫族疆域，对晋之世界有所了解。
-    attributes:
-      实力: 宇宙之主, 对真神的冒险持谨慎态度
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 地球人，获得了封号，在晋之世界有极高的地位和权力。
+  attributes:
+    实力: 宇宙之主, 拥有借用晋之世界世界之力的能力
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 罗峰的老师，人类族群地位最高的成员之一。
+  attributes:
+    实力: 宇宙之主, 接受了罗峰赠予的机械流宝物
+- id: 虫族女皇
+  type: Character
+  name: 虫族女皇
+  aliases: []
+  description: 控制虫族疆域，对晋之世界有所了解。
+  attributes:
+    实力: 宇宙之主, 对真神的冒险持谨慎态度
 
 relationships:
-  - id: 罗峰与混沌城主的关系
-    type: Teacher-Student
-    description: 混沌城主是罗峰的老师，两人关系密切。
+- id: 罗峰与混沌城主的关系
+  type: Teacher-Student
+  description: 混沌城主是罗峰的老师，两人关系密切。
 
 events:
-  - id: 罗峰返回原始宇宙
-    type: Return
-    description: 罗峰从晋之世界返回原始宇宙，并带回大量宝物。
-    timeline:
-      time: 不详, 定在一年后进行大扫荡行动
+- id: 罗峰返回原始宇宙
+  type: Return
+  description: 罗峰从晋之世界返回原始宇宙，并带回大量宝物。
+  timeline:
+    time: 不详, 定在一年后进行大扫荡行动
 
 dialogues:
-  - id: 混沌城主对罗峰的评价
-    content: "罗峰，你对我人类之功，可媲美原祖。"
-  - id: 罗峰回答混沌城主
-    content: "老师一直坐镇我族群中枢, 守护我族群, 管理族群, 令我族群不断发达强盛, 这才是最大的功德。"
+- id: 混沌城主对罗峰的评价
+  content: "罗峰，你对我人类之功，可媲美原祖。"
+- id: 罗峰回答混沌城主
+  content: "老师一直坐镇我族群中枢, 守护我族群, 管理族群, 令我族群不断发达强盛, 这才是最大的功德。"
 
 timeline:
-  - time: 不详, 按照计划进行大扫荡行动
-    event_id: 罗峰返回原始宇宙
+- time: 不详, 按照计划进行大扫荡行动
+  event_id: 罗峰返回原始宇宙
 
 mysteries:
-  - id: 虫族女皇的后续动向
-    description: 虫族女皇是否会在第四纪元进入晋之世界，目前未知。
-```
-
-请注意，此YAML数据格式严格按照提供的要求生成，不包含任何额外的解释或总结。
+- id: 虫族女皇的后续动向
+  description: 虫族女皇是否会在第四纪元进入晋之世界，目前未知。

@@ -1,56 +1,54 @@
-```yaml
 source:
   id: "第557章原始新人罗峰（第五更）"
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙公司的成员，拥有剑之世界和衍神兵的能力。
-    attributes:
-      实力: 宇宙级九阶
-      特长: 掌控剑之世界的初级阶段
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙公司的成员，拥有剑之世界和衍神兵的能力。
+  attributes:
+    实力: 宇宙级九阶
+    特长: 掌控剑之世界的初级阶段
 
-  - id: 巴芬
-    type: Character
-    name: 巴芬
-    aliases: []
-    description: 监守者，负责通天桥的监控。
-    attributes:
-      职位: 监守者
+- id: 巴芬
+  type: Character
+  name: 巴芬
+  aliases: []
+  description: 监守者，负责通天桥的监控。
+  attributes:
+    职位: 监守者
 
-  - id: 伯兰
-    type: Character
-    name: 伯兰
-    aliases: []
-    description: 罗峰超越的目标人物。
-    attributes:
-      实力: 宇宙级九阶
+- id: 伯兰
+  type: Character
+  name: 伯兰
+  aliases: []
+  description: 罗峰超越的目标人物。
+  attributes:
+    实力: 宇宙级九阶
 
 relationships:
 
 events:
-  - id: 第七层通过
-    type: Event
-    description: 罗峰成功通过通天桥第七层。
-    timeline: []
+- id: 第七层通过
+  type: Event
+  description: 罗峰成功通过通天桥第七层。
+  timeline: []
 
-  - id: 对战蓝衣人失败
-    type: Event
-    description: 在第八层，罗峰被蓝衣人的剑之世界击败。
-    timeline: []
+- id: 对战蓝衣人失败
+  type: Event
+  description: 在第八层，罗峰被蓝衣人的剑之世界击败。
+  timeline: []
 
 dialogues:
-  - speaker: 蓝衣人
-    listener: 罗峰
-    content: "你回去再修炼修炼，你和我实力相近，再修炼三年，或许能压制我。再修炼十年，才能击败我。"
-    context: 第八层战斗前
+- speaker: 蓝衣人
+  listener: 罗峰
+  content: "你回去再修炼修炼，你和我实力相近，再修炼三年，或许能压制我。再修炼十年，才能击败我。"
+  context: 第八层战斗前
 
 timeline:
 
 mysteries:
-  - id: 剑之世界的掌控难度
-    type: Mystery
-    description: 罗峰需要达到何种程度的剑之世界掌控才能够令剑气无处不在。
-```
+- id: 剑之世界的掌控难度
+  type: Mystery
+  description: 罗峰需要达到何种程度的剑之世界掌控才能够令剑气无处不在。

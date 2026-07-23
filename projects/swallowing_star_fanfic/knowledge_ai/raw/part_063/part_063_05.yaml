@@ -1,105 +1,101 @@
-```yaml
 source:
   id: 第954章蛰伏的两千年
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      主角，具有强大实力和智慧，面对混沌城主有深厚恩情。
-    attributes:
-      - 实力：高强
-      - 恩情：铭记于心
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    主角，具有强大实力和智慧，面对混沌城主有深厚恩情。
+  attributes:
+  - 实力：高强
+  - 恩情：铭记于心
 
-  - id: 天狼
-    type: Character
-    name: 天狼
-    aliases: []
-    description: >
-      冰狱中五大巨头之一，擅长排名编撰和维护冰狱秩序。
-    attributes:
-      - 实力：高强
-      - 性格：好脾气但不轻易饶恕
+- id: 天狼
+  type: Character
+  name: 天狼
+  aliases: []
+  description: >
+    冰狱中五大巨头之一，擅长排名编撰和维护冰狱秩序。
+  attributes:
+  - 实力：高强
+  - 性格：好脾气但不轻易饶恕
 
-  - id: 银眸
-    type: Character
-    name: 银眸
-    aliases: []
-    description: >
-      冰狱中五大巨头之一，拥有银色眼睛的独特能力。
-    attributes:
-      - 实力：高强
-      - 特殊技能：死神一指
+- id: 银眸
+  type: Character
+  name: 银眸
+  aliases: []
+  description: >
+    冰狱中五大巨头之一，拥有银色眼睛的独特能力。
+  attributes:
+  - 实力：高强
+  - 特殊技能：死神一指
 
-  - id: 奔雷王
-    type: Character
-    name: 奔雷王
-    aliases: []
-    description: >
-      冰狱中强者之一，擅长速度和战斗。
-    attributes:
-      - 实力：高强
-      - 特殊技能：燃烧神体
+- id: 奔雷王
+  type: Character
+  name: 奔雷王
+  aliases: []
+  description: >
+    冰狱中强者之一，擅长速度和战斗。
+  attributes:
+  - 实力：高强
+  - 特殊技能：燃烧神体
 
-  - id: 血猧
-    type: Character
-    name: 血猧
-    aliases: []
-    description: >
-      冰狱中排名靠前的强者，实力强大。
-    attributes:
-      - 实力：高强
+- id: 血猧
+  type: Character
+  name: 血猧
+  aliases: []
+  description: >
+    冰狱中排名靠前的强者，实力强大。
+  attributes:
+  - 实力：高强
 
-  - id: 茨黯
-    type: Character
-    name: 茨黯
-    aliases: []
-    description: >
-      妖族中的一个族群名，在冰狱中代表整个种族的实力。
-    attributes:
-      - 实力：未知
+- id: 茨黯
+  type: Character
+  name: 茨黯
+  aliases: []
+  description: >
+    妖族中的一个族群名，在冰狱中代表整个种族的实力。
+  attributes:
+  - 实力：未知
 
 relationships:
 
 events:
-  - id: 罗峰与银眸的战斗
-    type: Event
-    description: >
-      罗峰在银眸面前成功破解“死神一指”，并扛过“银色眼睛”攻击，最终成功逃脱。
-    timeline: 大半年前
+- id: 罗峰与银眸的战斗
+  type: Event
+  description: >
+    罗峰在银眸面前成功破解“死神一指”，并扛过“银色眼睛”攻击，最终成功逃脱。
+  timeline: 大半年前
 
-  - id: 冰狱排名变动
-    type: Event
-    description: >
-      因为罗峰的战斗表现，冰狱排名中人类被新列第六名，天狼宣布对带他来见的人永远护佑。
-    timeline: 当前时间
+- id: 冰狱排名变动
+  type: Event
+  description: >
+    因为罗峰的战斗表现，冰狱排名中人类被新列第六名，天狼宣布对带他来见的人永远护佑。
+  timeline: 当前时间
 
 dialogues:
-  - speaker: 天狼
-    listener: 仆从
-    content: "就算这人类下次再现身，等我得到消息要去找他时，恐怕这人类又隐匿消失了。"
-    
-  - speaker: 天狼
-    listener: 仆从
-    content: "准备冰块。"
+- speaker: 天狼
+  listener: 仆从
+  content: "就算这人类下次再现身，等我得到消息要去找他时，恐怕这人类又隐匿消失了。"
 
-  - speaker: 仆从
-    listener: 天狼
-    content: "是，主人。"
+- speaker: 天狼
+  listener: 仆从
+  content: "准备冰块。"
+
+- speaker: 仆从
+  listener: 天狼
+  content: "是，主人。"
 
 timeline:
-  - 时间点: 大半年前
-    事件: 罗峰与银眸的战斗
+- 时间点: 大半年前
+  事件: 罗峰与银眸的战斗
 
 mysteries:
 
 locations:
-  - id: 冰狱
-    type: Location
-    description: >
-      偏僻之地，乌华秘境冰狱星带内。这里是妖族强者聚集地之一。
-```
-  
-以上为第954章蛰伏的两千年中所涉及的人物、地点及事件等信息的提取和整理结果。
+- id: 冰狱
+  type: Location
+  description: >
+    偏僻之地，乌华秘境冰狱星带内。这里是妖族强者聚集地之一。

@@ -1,148 +1,146 @@
-```yaml
 source:
   id: 界主级强者
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 一名地球人类，正努力理解宇宙文明的等级和实力。
-    attributes:
-      力量境界: 宇宙级以下
-      目标: 成为界主或更高境界
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 一名地球人类，正努力理解宇宙文明的等级和实力。
+  attributes:
+    力量境界: 宇宙级以下
+    目标: 成为界主或更高境界
 
-  - id: 巴巴塔
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的智能辅助机器人，拥有解释宇宙文明等级的能力。
-    attributes:
-      力量境界: 不详
-      职责: 协助罗峰理解宇宙知识
+- id: 巴巴塔
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的智能辅助机器人，拥有解释宇宙文明等级的能力。
+  attributes:
+    力量境界: 不详
+    职责: 协助罗峰理解宇宙知识
 
-  - id: 银蓝帝国
-    type: Organization
-    name: 银蓝帝国
-    aliases: []
-    description: 由银河星系等八大星系组成的一个宇宙初等文明国度。
-    attributes:
-      属国类型: 宇宙初等文明国度
-      所属帝国: 黑龙山帝国
+- id: 银蓝帝国
+  type: Organization
+  name: 银蓝帝国
+  aliases: []
+  description: 由银河星系等八大星系组成的一个宇宙初等文明国度。
+  attributes:
+    属国类型: 宇宙初等文明国度
+    所属帝国: 黑龙山帝国
 
-  - id: 黑龙山帝国
-    type: Organization
-    name: 黑龙山帝国
-    aliases: []
-    description: 统治黑龙山星域的宇宙中等文明国度。
-    attributes:
-      直接控制的星系数量: 超过六千个
-      属国数量: 五百多个
+- id: 黑龙山帝国
+  type: Organization
+  name: 黑龙山帝国
+  aliases: []
+  description: 统治黑龙山星域的宇宙中等文明国度。
+  attributes:
+    直接控制的星系数量: 超过六千个
+    属国数量: 五百多个
 
-  - id: 宇宙级强者
-    type: Character
-    name: 宇宙级强者
-    aliases: []
-    description: 强者等级，相对罕见。
-    attributes:
-      所属星系数量: 每个星系一个宇宙级
-      可能性: 人类可能成为宇宙级的几率极低
+- id: 宇宙级强者
+  type: Character
+  name: 宇宙级强者
+  aliases: []
+  description: 强者等级，相对罕见。
+  attributes:
+    所属星系数量: 每个星系一个宇宙级
+    可能性: 人类可能成为宇宙级的几率极低
 
-  - id: 域主
-    type: Character
-    name: 域主
-    aliases: []
-    description: 强者等级，比宇宙级更强。
-    attributes:
-      能力范围: 控制一方世界，可以自己建造势力
-      寿命: 最多活100纪元
+- id: 域主
+  type: Character
+  name: 域主
+  aliases: []
+  description: 强者等级，比宇宙级更强。
+  attributes:
+    能力范围: 控制一方世界，可以自己建造势力
+    寿命: 最多活100纪元
 
-  - id: 界主
-    type: Character
-    name: 界主
-    aliases: []
-    description: 强者等级，比域主更强。
-    attributes:
-      能力范围: 可以轻易得到一个星系作为领地
-      寿命: 最多活1000纪元
+- id: 界主
+  type: Character
+  name: 界主
+  aliases: []
+  description: 强者等级，比域主更强。
+  attributes:
+    能力范围: 可以轻易得到一个星系作为领地
+    寿命: 最多活1000纪元
 
-  - id: 不朽强者
-    type: Character
-    name: 不朽强者
-    aliases: []
-    description: 强者等级，超越界主。
-    attributes:
-      特殊本领: 拥有无限寿命
-      寿命: 理论上可以无限生存
+- id: 不朽强者
+  type: Character
+  name: 不朽强者
+  aliases: []
+  description: 强者等级，超越界主。
+  attributes:
+    特殊本领: 拥有无限寿命
+    寿命: 理论上可以无限生存
 
-  - id: 学徒级武者
-    type: Character
-    name: 学徒级武者
-    aliases: []
-    description: 武者的起步阶段。
-    attributes:
-      实力等级: 初级
+- id: 学徒级武者
+  type: Character
+  name: 学徒级武者
+  aliases: []
+  description: 武者的起步阶段。
+  attributes:
+    实力等级: 初级
 
-  - id: 行星级强者
-    type: Character
-    name: 行星级强者
-    aliases: []
-    description: 强者等级，比学徒强得多。
-    attributes:
-      能力范围: 可以在宇宙中流浪当打手、仆人或炮灰
+- id: 行星级强者
+  type: Character
+  name: 行星级强者
+  aliases: []
+  description: 强者等级，比学徒强得多。
+  attributes:
+    能力范围: 可以在宇宙中流浪当打手、仆人或炮灰
 
-  - id: 恒星级强者
-    type: Character
-    name: 恒星级强者
-    aliases: []
-    description: 强者等级，比行星级强得多。
-    attributes:
-      能力范围: 在宇宙中生存，可以在边陲行星上成为大人物
+- id: 恒星级强者
+  type: Character
+  name: 恒星级强者
+  aliases: []
+  description: 强者等级，比行星级强得多。
+  attributes:
+    能力范围: 在宇宙中生存，可以在边陲行星上成为大人物
 
-  - id: 蛮卡星人
-    type: Species
-    name: 蛮卡星人
-    aliases: []
-    description: 排名前十的人类血统种族。
-    attributes:
-      出生时等级: 行星级
-      童年时期等级: 恒星级
-      少年时期等级: 宇宙级
-      成年后等级: 域主级
+- id: 蛮卡星人
+  type: Species
+  name: 蛮卡星人
+  aliases: []
+  description: 排名前十的人类血统种族。
+  attributes:
+    出生时等级: 行星级
+    童年时期等级: 恒星级
+    少年时期等级: 宇宙级
+    成年后等级: 域主级
 
 relationships:
-  - id: 巴巴塔与罗峰的关系
-    type: Relationship
-    description: 巴巴塔是罗峰的智能辅助机器人，负责解释宇宙知识。
-    attributes:
-      关系类型: 协助关系
+- id: 巴巴塔与罗峰的关系
+  type: Relationship
+  description: 巴巴塔是罗峰的智能辅助机器人，负责解释宇宙知识。
+  attributes:
+    关系类型: 协助关系
 
 events:
-  - id: 罗峰询问巴巴塔关于强者等级的信息
-    type: Event
-    description: 罗峰向巴巴塔询问有关武者、精神念师等领域的基础知识和宇宙中的不同文明等级信息。
-    attributes:
-      时间线位置: 开始阶段
+- id: 罗峰询问巴巴塔关于强者等级的信息
+  type: Event
+  description: 罗峰向巴巴塔询问有关武者、精神念师等领域的基础知识和宇宙中的不同文明等级信息。
+  attributes:
+    时间线位置: 开始阶段
 
 dialogues:
-  - id: 巴巴塔解释银蓝帝国和黑龙山帝国的关系
-    type: Dialogue
-    description: "主人的强大，你根本无法想象。银河星系、贝塔星系等八大星系组成银蓝帝国，一个宇宙初等文明国度！按照宇宙地图上描述，你们这银河系是属于‘黑龙山星域’的一部分，黑龙山星域一共包含8000多星系！而统治‘黑龙山星域’的……就是宇宙中算是比较不错的一个宇宙中等文明国度——黑龙山帝国。"
-    attributes:
-      对话双方: 巴巴塔和罗峰
+- id: 巴巴塔解释银蓝帝国和黑龙山帝国的关系
+  type: Dialogue
+  description: "主人的强大，你根本无法想象。银河星系、贝塔星系等八大星系组成银蓝帝国，一个宇宙初等文明国度！按照宇宙地图上描述，你们这银河系是属于‘黑龙山星域’的一部分，黑龙山星域一共包含8000多星系！而统治‘黑龙山星域’的……就是宇宙中算是比较不错的一个宇宙中等文明国度——黑龙山帝国。"
+  attributes:
+    对话双方: 巴巴塔和罗峰
 
-  - id: 罗峰询问界主级强者
-    type: Dialogue
-    description: "什么叫界主级？我从9号古文明遗迹内只知道……武者分为学徒、行星级、恒星级、宇宙级，以及宇宙级之上的强者。"
-    attributes:
-      对话双方: 罗峰和巴巴塔
+- id: 罗峰询问界主级强者
+  type: Dialogue
+  description: "什么叫界主级？我从9号古文明遗迹内只知道……武者分为学徒、行星级、恒星级、宇宙级，以及宇宙级之上的强者。"
+  attributes:
+    对话双方: 罗峰和巴巴塔
 
 timeline:
 
 mysteries:
-  - id: 成为不朽强者的可能性
-    type: Mystery
-    description: 即使有主人的传承和巴巴塔的帮助，罗峰成为不朽强者的可能几乎为零。
-    attributes:
-      可能性: 极低
-```
+- id: 成为不朽强者的可能性
+  type: Mystery
+  description: 即使有主人的传承和巴巴塔的帮助，罗峰成为不朽强者的可能几乎为零。
+  attributes:
+    可能性: 极低

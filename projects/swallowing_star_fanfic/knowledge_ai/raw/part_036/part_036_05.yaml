@@ -1,68 +1,66 @@
-```yaml
 source:
   id: 罗峰的宇宙之旅-第540章
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 地球人，拥有金角巨兽分身。
-    attributes:
-      实力: 不朽之前的最高境界
-      年龄: 成年
-      性格: 专注、谨慎
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 地球人，拥有金角巨兽分身。
+  attributes:
+    实力: 不朽之前的最高境界
+    年龄: 成年
+    性格: 专注、谨慎
 
-  - id: 金色光线
-    type: Ability
-    name: 金色光线
-    aliases: []
-    description: 来自煞气漩涡核心的神秘光线，能加速身体细胞改造。
+- id: 金色光线
+  type: Ability
+  name: 金色光线
+  aliases: []
+  description: 来自煞气漩涡核心的神秘光线，能加速身体细胞改造。
 
-  - id: 血洛晶
-    type: Item
-    name: 血洛晶
-    aliases: []
-    description: 硬如金属、血红颜色的晶体，拥有特殊效果。
+- id: 血洛晶
+  type: Item
+  name: 血洛晶
+  aliases: []
+  description: 硬如金属、血红颜色的晶体，拥有特殊效果。
 
 locations:
-  - id: 恶魔城堡
-    type: Location
-    name: 恶魔城堡
-    aliases: [恶魔城堡]
-    description: 巨坑之府所在的地方。
-    
-  - id: 煞气漩涡核心
-    type: Location
-    name: 煞气漩涡核心
-    aliases: []
-    description: 隐藏着金色光线的神秘地方。
+- id: 恶魔城堡
+  type: Location
+  name: 恶魔城堡
+  aliases: [ 恶魔城堡 ]
+  description: 巨坑之府所在的地方。
+
+- id: 煞气漩涡核心
+  type: Location
+  name: 煞气漩涡核心
+  aliases: []
+  description: 隐藏着金色光线的神秘地方。
 
 abilities:
-  - id: 法则秘纹
-    type: Ability
-    name: 法则秘纹
-    aliases: [法则秘纹]
-    description: 复杂且深奥的空间法则相关能力。
-    
+- id: 法则秘纹
+  type: Ability
+  name: 法则秘纹
+  aliases: [ 法则秘纹 ]
+  description: 复杂且深奥的空间法则相关能力。
+
 items:
-  - id: 撕天一爪
-    type: Ability
-    name: 撕天一爪
-    aliases: []
-    description: 远古图影中展现的强力招式。
+- id: 撕天一爪
+  type: Ability
+  name: 撕天一爪
+  aliases: []
+  description: 远古图影中展现的强力招式。
 
 timeline:
   events:
-    - 时间: 不详
-      描述: 罗峰在煞气漩涡核心内受到金色光线照射，身体改造加速。
-      
+  - 时间: 不详
+    描述: 罗峰在煞气漩涡核心内受到金色光线照射，身体改造加速。
+
 mysteries:
-  - id: 金色光线的秘密
-    type: Mystery
-    description: 关于金色光线的来源及作用仍是一个谜。
+- id: 金色光线的秘密
+  type: Mystery
+  description: 关于金色光线的来源及作用仍是一个谜。
 
 dialogues:
 
 relationships:
-```

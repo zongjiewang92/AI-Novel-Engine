@@ -1,63 +1,61 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: rofei
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 距离上次蜕变后，实力大增。拥有黑神套装。
-    attributes:
-      实力等级: 高等战神巅峰精神念师
-      特殊能力: 变异眼睛（视力增强）
-  - id: katei
-    type: character
-    name: 卡特兰
-    aliases: []
-    description: 黑神套装拥有者，带领三人组。
-    attributes:
-      实力等级: 高等战神巅峰精神念师
-      特殊能力: 精神念师天赋
-  - id: yiwan
-    type: character
-    name: 伊凡
-    aliases: []
-    description: 黑神套装拥有者，三人组成员。
-    attributes:
-      实力等级: 高等战神巅峰精神念师
-      特殊能力: 精神念师天赋
-  - id: leeao
-    type: character
-    name: 李耀
-    aliases: []
-    description: 黑神套装拥有者，三人组成员。
-    attributes:
-      实力等级: 高等战神巅峰精神念师
-      特殊能力: 精神念师天赋
+- id: rofei
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 距离上次蜕变后，实力大增。拥有黑神套装。
+  attributes:
+    实力等级: 高等战神巅峰精神念师
+    特殊能力: 变异眼睛（视力增强）
+- id: katei
+  type: character
+  name: 卡特兰
+  aliases: []
+  description: 黑神套装拥有者，带领三人组。
+  attributes:
+    实力等级: 高等战神巅峰精神念师
+    特殊能力: 精神念师天赋
+- id: yiwan
+  type: character
+  name: 伊凡
+  aliases: []
+  description: 黑神套装拥有者，三人组成员。
+  attributes:
+    实力等级: 高等战神巅峰精神念师
+    特殊能力: 精神念师天赋
+- id: leeao
+  type: character
+  name: 李耀
+  aliases: []
+  description: 黑神套装拥有者，三人组成员。
+  attributes:
+    实力等级: 高等战神巅峰精神念师
+    特殊能力: 精神念师天赋
 
 relationships:
-  - id: rofei_vs_kateteam
-    type: 对抗关系
-    description: 罗峰与卡特兰三人组对抗。
+- id: rofei_vs_kateteam
+  type: 对抗关系
+  description: 罗峰与卡特兰三人组对抗。
 
 events:
-  - id: osuwood_attack
-    type: 战斗事件
-    description: 罗峰攻击砍伐柳树王的黑神套装三人组。
-    timeline: 观察超过十分钟后的行动
+- id: osuwood_attack
+  type: 战斗事件
+  description: 罗峰攻击砍伐柳树王的黑神套装三人组。
+  timeline: 观察超过十分钟后的行动
 
 dialogues:
-  - speaker: 卡特兰
-    dialogue: "罗峰？你如果躲在地底以你精神念师能力,我也抓不到你。不过你竟然来到陆地上，真是愚蠢。"
-  - speaker: 罗峰
-    dialogue: "谢谢你们帮忙砍掉柳树王。让我省掉很多事情。"
+- speaker: 卡特兰
+  dialogue: "罗峰？你如果躲在地底以你精神念师能力,我也抓不到你。不过你竟然来到陆地上，真是愚蠢。"
+- speaker: 罗峰
+  dialogue: "谢谢你们帮忙砍掉柳树王。让我省掉很多事情。"
 
 timeline:
-  - event: 蜕变后观看黑神套装三人组砍伐柳树王
-    time: 十分钟以上
+- event: 蜕变后观看黑神套装三人组砍伐柳树王
+  time: 十分钟以上
 
 mysteries:
-  - id: rofei_transformation
-    mystery: 罗峰是如何在短时间内完成蜕变并增强实力的？
-```
+- id: rofei_transformation
+  mystery: 罗峰是如何在短时间内完成蜕变并增强实力的？

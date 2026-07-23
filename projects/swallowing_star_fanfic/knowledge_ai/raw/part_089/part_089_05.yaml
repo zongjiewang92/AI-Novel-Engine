@@ -1,80 +1,78 @@
-```yaml
 source:
   id: 海上方的战斗与海底之战
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 星辰塔主人，银河领主化身金之兽神试图逃进旋泽海。
-    attributes:
-      实力: 宇宙之主
-      特殊能力: 墓陵之舟, 变身为兽神形态
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 星辰塔主人，银河领主化身金之兽神试图逃进旋泽海。
+  attributes:
+    实力: 宇宙之主
+    特殊能力: 墓陵之舟, 变身为兽神形态
 
-  - id: 浩雷星主
-    type: Character
-    name: 浩雷星主
-    aliases: []
-    description: 雷电巨人，宇宙最强者，欲为雷梭之主复仇。
-    attributes:
-      实力: 宇宙最强者
-      特殊能力: 强大的雷电攻击, 神甲神体
+- id: 浩雷星主
+  type: Character
+  name: 浩雷星主
+  aliases: []
+  description: 雷电巨人，宇宙最强者，欲为雷梭之主复仇。
+  attributes:
+    实力: 宇宙最强者
+    特殊能力: 强大的雷电攻击, 神甲神体
 
-  - id: 星辰塔
-    type: Item
-    name: 星辰塔
-    aliases: []
-    description: 罗峰的居所，可以缩小为掌心大小。
-    attributes:
-      功能: 储物功能
+- id: 星辰塔
+  type: Item
+  name: 星辰塔
+  aliases: []
+  description: 罗峰的居所，可以缩小为掌心大小。
+  attributes:
+    功能: 储物功能
 
-  - id: 雷梭之主
-    type: Character
-    name: 雷梭之主
-    aliases: []
-    description: 浩雷星主想救回的人。
+- id: 雷梭之主
+  type: Character
+  name: 雷梭之主
+  aliases: []
+  description: 浩雷星主想救回的人。
 
-  - id: 旋泽海
-    type: Location
-    name: 旋泽海
-    aliases: []
-    description: 宇宙舟内域危险之地，海底漩涡众多。
-    attributes:
-      危险度: 极高
+- id: 旋泽海
+  type: Location
+  name: 旋泽海
+  aliases: []
+  description: 宇宙舟内域危险之地，海底漩涡众多。
+  attributes:
+    危险度: 极高
 
 relationships:
-  - 主体: 罗峰
-    关系类型: 对立
-    目标: 浩雷星主
-    描述: 罗峰拒绝交出雷梭之主，浩雷星主欲为雷梭之主复仇。
+- 主体: 罗峰
+  关系类型: 对立
+  目标: 浩雷星主
+  描述: 罗峰拒绝交出雷梭之主，浩雷星主欲为雷梭之主复仇。
 
 events:
-  - id: 战斗开始
-    type: Event
-    name: 海上方的战斗与海底之战
-    description: 浩雷星主追击罗峰进入旋泽海展开大战。
-    timeline:
-      时间点: 第一章结束至第二章
-      地点: 宇宙舟内的礁石及旋泽海
+- id: 战斗开始
+  type: Event
+  name: 海上方的战斗与海底之战
+  description: 浩雷星主追击罗峰进入旋泽海展开大战。
+  timeline:
+    时间点: 第一章结束至第二章
+    地点: 宇宙舟内的礁石及旋泽海
 
 dialogues:
-  - 主体: 罗峰
-    目标: 浩雷星主
-    对话内容: "你要跪在我面前，向我磕头赔礼！"
-    时间点: 战斗开始前
+- 主体: 罗峰
+  目标: 浩雷星主
+  对话内容: "你要跪在我面前，向我磕头赔礼！"
+  时间点: 战斗开始前
 
-  - 主体: 浩雷星主
-    目标: 罗峰
-    对话内容: "侮辱一名宇宙最强者，该死。"
-    时间点: 战斗开始后
+- 主体: 浩雷星主
+  目标: 罗峰
+  对话内容: "侮辱一名宇宙最强者，该死。"
+  时间点: 战斗开始后
 
 timeline:
-  - 时间点1: 海上方的战斗准备阶段
-    描述: 浩雷星主要求罗峰交出雷梭之主。
-  - 时间点2: 罗峰拒绝并激怒浩雷星主，大战即将展开。
+- 时间点1: 海上方的战斗准备阶段
+  描述: 浩雷星主要求罗峰交出雷梭之主。
+- 时间点2: 罗峰拒绝并激怒浩雷星主，大战即将展开。
 
 mysteries:
-  - 伏笔内容: 罗峰是否真的知道巨斧的死因和浩雷星主有关？
-    描述: 浩雷星主认为罗峰侮辱自己，是因为知道巨斧死亡真相。
-```
+- 伏笔内容: 罗峰是否真的知道巨斧的死因和浩雷星主有关？
+  描述: 浩雷星主认为罗峰侮辱自己，是因为知道巨斧死亡真相。

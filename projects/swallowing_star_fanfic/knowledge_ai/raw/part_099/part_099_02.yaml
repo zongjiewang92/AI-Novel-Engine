@@ -1,26 +1,25 @@
-```yaml
 source:
   id: unknown
 
 entities:
-  - id: lofeng
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 拥有小型宇宙，能够超远距离瞬移，具备强大的战斗力。
-    attributes:
-      实力: 超强
-      性格: 果断
+- id: lofeng
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 拥有小型宇宙，能够超远距离瞬移，具备强大的战斗力。
+  attributes:
+    实力: 超强
+    性格: 果断
 
-  - id: zhenjia
-    type: character
-    name: 震迦王
-    aliases: []
-    description: 界兽的主要阴谋者之一。
-    attributes:
-      实力: 强大
-      关系: 虬岩祖神的同伴
+- id: zhenjia
+  type: character
+  name: 震迦王
+  aliases: []
+  description: 界兽的主要阴谋者之一。
+  attributes:
+    实力: 强大
+    关系: 虬岩祖神的同伴
 
-  - id: qiyuanzushen
-    type: character
-    name:
+- id: qiyuanzushen
+  type: character
+  name:

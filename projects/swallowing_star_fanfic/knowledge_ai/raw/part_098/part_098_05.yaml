@@ -1,61 +1,55 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有弑吴羽翼的银河领主，正面临界兽浩劫。
-    attributes:
-      实力: 超级强者
-      能力: 无形无相, 使用"源"
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有弑吴羽翼的银河领主，正面临界兽浩劫。
+  attributes:
+    实力: 超级强者
+    能力: 无形无相, 使用"源"
 
-  - id: 摩罗撒
-    type: Character
-    name: 摩罗撒
-    aliases: []
-    description: 控制昏暗之地模型，为罗峰提供信息。
-    attributes:
-      实力: 界兽
-      能力: 感应界兽数量和位置
+- id: 摩罗撒
+  type: Character
+  name: 摩罗撒
+  aliases: []
+  description: 控制昏暗之地模型，为罗峰提供信息。
+  attributes:
+    实力: 界兽
+    能力: 感应界兽数量和位置
 
-  - id: 昏暗之地
-    type: Location
-    name: 昏暗之地
-    aliases: []
-    description: 罗峰面对大量界兽的地方。
+- id: 昏暗之地
+  type: Location
+  name: 昏暗之地
+  aliases: []
+  description: 罗峰面对大量界兽的地方。
 
-  - id: 界兽
-    type: Species
-    name: 界兽
-    aliases: []
-    description: 被银河领主罗峰所控制，数量超过九百万。
-    attributes:
-      实力范围: 三阶到四阶
+- id: 界兽
+  type: Species
+  name: 界兽
+  aliases: []
+  description: 被银河领主罗峰所控制，数量超过九百万。
+  attributes:
+    实力范围: 三阶到四阶
 
 relationships:
-  - 主人: 罗峰, 控制者: 摩罗撒
-  - 对手: 界兽, 追捕者: 罗峰
+- 主体: 罗峰
+- 对手: 界兽
 
 events:
-  - 名称: 使用"源"
-    时间线: 现在
-    描述: 罗峰准备使用弑吴羽翼中的"源"来对抗界兽。
-    
-  - 名称: 寻找银河领主
-    时间线: 过去几分钟内
-    描述: 数百万界兽数量的搜索和追捕罗峰。
+- 名称: 使用"源"
+  时间线: 现在
+  描述: 罗峰准备使用弑吴羽翼中的"源"来对抗界兽。
 
-dialogues:
-  - 角色1: 摩罗撒, 角色2: 罗峰
-    内容: "主人，离你最近的蒙塔！应该是三阶巅峰，当然也可能是四阶，当初也和我厮杀过多次。"
+- 名称: 寻找银河领主
+  时间线: 过去几分钟内
+  描述: 数百万界兽数量的搜索和追捕罗峰。
 
 timeline:
-  - 时间点1: 现在
-    描述: 数百万界兽正全力搜寻罗峰所在位置。
-    
+- 时间点1: 现在
+  描述: 数百万界兽正全力搜寻罗峰所在位置。
+
 mysteries:
-  - 揭示银河领主藏身之处为何如此困难？
-```
+- 揭示银河领主藏身之处为何如此困难？

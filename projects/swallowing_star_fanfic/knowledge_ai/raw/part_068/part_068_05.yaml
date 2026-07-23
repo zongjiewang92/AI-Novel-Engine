@@ -1,68 +1,66 @@
-```yaml
 source:
   id: chapter_1031
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 地球人，实力强大，即将成为不朽的存在。
-    attributes:
-      实力: 即将跨入宇宙尊者级
-      秘密: 拥有比表露出来的更强百倍千倍的秘密
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 地球人，实力强大，即将成为不朽的存在。
+  attributes:
+    实力: 即将跨入宇宙尊者级
+    秘密: 拥有比表露出来的更强百倍千倍的秘密
 
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 罗峰的师傅，见识广博。
-    attributes:
-      观察力: 高超，能够洞察罗峰的实力变化
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 罗峰的师傅，见识广博。
+  attributes:
+    观察力: 高超，能够洞察罗峰的实力变化
 
-  - id: 千宝河境地
-    type: Location
-    name: 千宝河境地
-    aliases: []
-    description: 宇宙中的一片区域，位于混沌城主的领地中。
+- id: 千宝河境地
+  type: Location
+  name: 千宝河境地
+  aliases: []
+  description: 宇宙中的一片区域，位于混沌城主的领地中。
 
-  - id: 无尽幽海
-    type: Item
-    name: 无尽幽海
-    aliases: []
-    description: 罗峰拥有的强大能量源泉。
-    attributes:
-      能量密度: 高于普通宇宙尊者的亿万倍
+- id: 无尽幽海
+  type: Item
+  name: 无尽幽海
+  aliases: []
+  description: 罗峰拥有的强大能量源泉。
+  attributes:
+    能量密度: 高于普通宇宙尊者的亿万倍
 
-  - id: 天阵王
-    type: Character
-    name: 天阵王
-    aliases: []
-    description: 混沌城主的追随者之一。
+- id: 天阵王
+  type: Character
+  name: 天阵王
+  aliases: []
+  description: 混沌城主的追随者之一。
 
-  - id: 极虹王
-    type: Character
-    name: 极虹王
-    aliases: []
-    description: 混沌城主的追随者之一。
-    
+- id: 极虹王
+  type: Character
+  name: 极虹王
+  aliases: []
+  description: 混沌城主的追随者之一。
+
 relationships:
-  - 主角与师傅关系:
-      关系类型: 师徒
-      参与实体: 罗峰, 混沌城主
+- 主角与师傅关系:
+    关系类型: 师徒
+    参与实体: 罗峰, 混沌城主
 
 events:
-  - id: 十字章不朽神威如狱
-    type: Event
-    description: 罗峰吸收无尽神力，跨入宇宙尊者级时产生的巨大能量波动。
-    timeline: []
-    
+- id: 十字章不朽神威如狱
+  type: Event
+  description: 罗峰吸收无尽神力，跨入宇宙尊者级时产生的巨大能量波动。
+  timeline: []
+
 dialogues:
-  - 对话内容: "罗峰, 身上还有大秘密。"
-    参与实体: 混沌城主
+- 对话内容: "罗峰, 身上还有大秘密。"
+  参与实体: 混沌城主
 
 timeline:
 
 mysteries:
-  - 罗峰的真正实力到底有多强？
-```
+- 罗峰的真正实力到底有多强？

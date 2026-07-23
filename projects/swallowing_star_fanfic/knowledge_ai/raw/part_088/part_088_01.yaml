@@ -1,117 +1,114 @@
-```yaml
 source:
   id: 文本内容
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: |
-      拥有断东河一脉传承的宇宙之主，具有强大的战斗能力和战略头脑。
-    attributes:
-      实力: 宇宙最强者
-      身份: 自由联盟始化岛主、人类族群领袖
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: |
+    拥有断东河一脉传承的宇宙之主，具有强大的战斗能力和战略头脑。
+  attributes:
+    实力: 宇宙最强者
+    身份: 自由联盟始化岛主、人类族群领袖
 
-  - id: 星空始祖
-    type: Character
-    name: 星空始祖
-    aliases: []
-    description: |
-      星空巨兽联盟的领导者，具有极高的智慧和影响力。
-    attributes:
-      实力: 宇宙最强者
-      身份: 星空巨兽联盟盟主
+- id: 星空始祖
+  type: Character
+  name: 星空始祖
+  aliases: []
+  description: |
+    星空巨兽联盟的领导者，具有极高的智慧和影响力。
+  attributes:
+    实力: 宇宙最强者
+    身份: 星空巨兽联盟盟主
 
-  - id: 黑暗之主
-    type: Character
-    name: 黑暗之主
-    aliases: []
-    description: |
-      自由联盟的重要成员，宇宙之主级别。
-    attributes:
-      实力: 宇宙之主
-      身份: 自由联盟重要人物
+- id: 黑暗之主
+  type: Character
+  name: 黑暗之主
+  aliases: []
+  description: |
+    自由联盟的重要成员，宇宙之主级别。
+  attributes:
+    实力: 宇宙之主
+    身份: 自由联盟重要人物
 
-  - id: 始祖山
-    type: Location
-    name: 始祖山
-    aliases: []
-    description: |
-      星空神山顶峰，星空巨兽讨论重大事务的地方。
-    attributes:
-      地点类型: 山峰
+- id: 始祖山
+  type: Location
+  name: 始祖山
+  aliases: []
+  description: |
+    星空神山顶峰，星空巨兽讨论重大事务的地方。
+  attributes:
+    地点类型: 山峰
 
-  - id: 千宝河
-    type: Location
-    name: 千宝河
-    aliases: []
-    description: |
-      原始秘境中的一条河流，罗峰居住宫殿的附近。
+- id: 千宝河
+  type: Location
+  name: 千宝河
+  aliases: []
+  description: |
+    原始秘境中的一条河流，罗峰居住宫殿的附近。
 
 organizations:
-  - id: 自由联盟
-    type: Organization
-    name: 自由联盟
-    aliases: []
-    description: |
-      人类族群中的一个强大势力，具有重要的战略地位。
-    attributes:
-      成员构成: 宇宙之主
+- id: 自由联盟
+  type: Organization
+  name: 自由联盟
+  aliases: []
+  description: |
+    人类族群中的一个强大势力，具有重要的战略地位。
+  attributes:
+    成员构成: 宇宙之主
 
-  - id: 星空巨兽联盟
-    type: Organization
-    name: 星空巨兽联盟
-    aliases: []
-    description: |
-      多个星空巨兽组成的联盟，有强大的战斗力和影响力。
+- id: 星空巨兽联盟
+  type: Organization
+  name: 星空巨兽联盟
+  aliases: []
+  description: |
+    多个星空巨兽组成的联盟，有强大的战斗力和影响力。
 
 species:
-  - id: 人类
-    type: Species
-    name: 人类
-    aliases: []
-    description: |
-      拥有智慧和文明的物种。
-    
-  - id: 星空巨兽
-    type: Species
-    name: 星空巨兽
-    aliases: []
-    description: |
-      生活在星空中的强大生物。
+- id: 人类
+  type: Species
+  name: 人类
+  aliases: []
+  description: |
+    拥有智慧和文明的物种。
+
+- id: 星空巨兽
+  type: Species
+  name: 星空巨兽
+  aliases: []
+  description: |
+    生活在星空中的强大生物。
 
 dialogues:
-  - speaker: 罗峰
-    dialogue: "人类族群，给自由联盟、祖神教、星空巨兽联盟、独行最强者们，都一一答复了。"
-  
-  - speaker: 星空始祖
-    dialogue: "人类！好大的野心！"
+- speaker: 罗峰
+  dialogue: "人类族群，给自由联盟、祖神教、星空巨兽联盟、独行最强者们，都一一答复了。"
 
-  - speaker: 黑暗之主
-    dialogue: "对，所以情况应该不会太糟糕，估计还是会有势力投靠我们的。"
+- speaker: 星空始祖
+  dialogue: "人类！好大的野心！"
+
+- speaker: 黑暗之主
+  dialogue: "对，所以情况应该不会太糟糕，估计还是会有势力投靠我们的。"
 
 events:
-  - id: 自由联盟内部争议
-    type: Event
-    name: 内部派系之争
-    description: |
-      关于如何处理与外部势力的关系，自由联盟内部存在不同意见。
-    
-  - id: 星空始祖的决策过程
-    type: Event
-    name: 等待时机
-    description: |
-      星空始祖决定等待合适的时机再采取行动。
+- id: 自由联盟内部争议
+  type: Event
+  name: 内部派系之争
+  description: |
+    关于如何处理与外部势力的关系，自由联盟内部存在不同意见。
+
+- id: 星空始祖的决策过程
+  type: Event
+  name: 等待时机
+  description: |
+    星空始祖决定等待合适的时机再采取行动。
 
 timeline:
-  - 时间点: 当前事件发生之时
+- 时间点: 当前事件发生之时
 
 mysteries:
-  - id: 联盟成员的选择
-    type: Mystery
-    name: 势力选择谜团
-    description: |
-      各大势力在面对人类族群的答复时，将如何做出最终决定。
-
-```
+- id: 联盟成员的选择
+  type: Mystery
+  name: 势力选择谜团
+  description: |
+    各大势力在面对人类族群的答复时，将如何做出最终决定。

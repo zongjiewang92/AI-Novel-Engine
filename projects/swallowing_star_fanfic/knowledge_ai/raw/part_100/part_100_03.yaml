@@ -1,91 +1,89 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: rofei
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 创造幽海一脉和地球一脉，是银河国度的至高领袖。
-    attributes:
-      实力: 虚空真神极限
-      关系: 坐山客老师的学生, 洪的朋友, 西莫的父亲
-  - id: xiemo
-    type: Character
-    name: 西莫
-    aliases: []
-    description: 幽海一脉的第一位真神，银河国度的领导者。
-    attributes:
-      实力: 真神
-      关系: 罗峰的儿子, 银河国度的领导
-  - id: nake
-    type: Character
-    name: 纳可
-    aliases: []
-    description: 血洛世界出身，罗峰暗中帮助成长的人。
-    attributes:
-      实力: 封王不朽
-      关系: 罗峰的弟子, 西莫的学生
-  - id: suozhanke
-    type: Character
-    name: 坐山客
-    aliases: []
-    description: 罗峰的老师，创造了地球一脉。
-    attributes:
-      实力: 不详
-      关系: 罗峰的老师, 地球一脉的创造者
-  - id: morosa
-    type: Character
-    name: 摩罗撒
-    aliases: []
-    description: 主人公之一，帮助罗峰参悟毁灭本源。
-    attributes:
-      实力: 相当于永恒真神阶段
-      关系: 罗峰的主人
-  - id: huang
-    type: Character
-    name: 洪
-    aliases: []
-    description: 与罗峰关系密切，实力强大。
-    attributes:
-      实力: 不详
-      关系: 罗峰的朋友
+- id: rofei
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 创造幽海一脉和地球一脉，是银河国度的至高领袖。
+  attributes:
+    实力: 虚空真神极限
+    关系: 坐山客老师的学生, 洪的朋友, 西莫的父亲
+- id: xiemo
+  type: Character
+  name: 西莫
+  aliases: []
+  description: 幽海一脉的第一位真神，银河国度的领导者。
+  attributes:
+    实力: 真神
+    关系: 罗峰的儿子, 银河国度的领导
+- id: nake
+  type: Character
+  name: 纳可
+  aliases: []
+  description: 血洛世界出身，罗峰暗中帮助成长的人。
+  attributes:
+    实力: 封王不朽
+    关系: 罗峰的弟子, 西莫的学生
+- id: suozhanke
+  type: Character
+  name: 坐山客
+  aliases: []
+  description: 罗峰的老师，创造了地球一脉。
+  attributes:
+    实力: 不详
+    关系: 罗峰的老师, 地球一脉的创造者
+- id: morosa
+  type: Character
+  name: 摩罗撒
+  aliases: []
+  description: 主人公之一，帮助罗峰参悟毁灭本源。
+  attributes:
+    实力: 相当于永恒真神阶段
+    关系: 罗峰的主人
+- id: huang
+  type: Character
+  name: 洪
+  aliases: []
+  description: 与罗峰关系密切，实力强大。
+  attributes:
+    实力: 不详
+    关系: 罗峰的朋友
 
 relationships:
-  - 主体: rofei
-    客体: xiemo
-    关系类型: 父子
-  - 主体: rofei
-    客体: suozhanke
-    关系类型: 师徒
-  - 主体: rofei
-    客体: huang
-    关系类型: 友人
-  - 主体: xiemo
-    客体: nake
-    关系类型: 导师与弟子
+- 主体: rofei
+  客体: xiemo
+  关系类型: 父子
+- 主体: rofei
+  客体: suozhanke
+  关系类型: 师徒
+- 主体: rofei
+  客体: huang
+  关系类型: 友人
+- 主体: xiemo
+  客体: nake
+  关系类型: 导师与弟子
 
 events:
-  - 名称: 罗峰参悟毁灭本源
-    时间线: 六万多亿纪元后
-    地点: 原始宇宙附近星域
-    描述: 罗峰等待原始宇宙进入末世，准备参悟毁灭。
+- 名称: 罗峰参悟毁灭本源
+  时间线: 六万多亿纪元后
+  地点: 原始宇宙附近星域
+  描述: 罗峰等待原始宇宙进入末世，准备参悟毁灭。
 
 dialogues:
-  - 对话双方: rofei, xiemo
-    内容: "最近我们银河国度又有一位突破成为宇宙之主。"
-    上下文关系: 西莫向罗峰汇报银河国度的最新进展。
-  - 对话双方: rofei, xiemo
-    内容: "纳可小师弟虽然宇宙尊者极限，可是这一轮回时代，怕是没时间让他成宇宙之主了。"
-    上下文关系: 西莫提到纳可的实力和未来潜力。
+- 对话双方: rofei, xiemo
+  内容: "最近我们银河国度又有一位突破成为宇宙之主。"
+  上下文关系: 西莫向罗峰汇报银河国度的最新进展。
+- 对话双方: rofei, xiemo
+  内容: "纳可小师弟虽然宇宙尊者极限，可是这一轮回时代，怕是没时间让他成宇宙之主了。"
+  上下文关系: 西莫提到纳可的实力和未来潜力。
 
 timeline:
-  - 时间点: 当年界兽浩劫
-    描述: 罗峰与界兽战斗时达到虚空真神顶级。
-  - 时间点: 六万多亿纪元后
-    描述: 原始宇宙进入末世阶段，罗峰准备参悟毁灭本源。
+- 时间点: 当年界兽浩劫
+  描述: 罗峰与界兽战斗时达到虚空真神顶级。
+- 时间点: 六万多亿纪元后
+  描述: 原始宇宙进入末世阶段，罗峰准备参悟毁灭本源。
 
 mysteries:
-  - 内容: 坐山客老师要罗峰做什么？
-```
+- 内容: 坐山客老师要罗峰做什么？

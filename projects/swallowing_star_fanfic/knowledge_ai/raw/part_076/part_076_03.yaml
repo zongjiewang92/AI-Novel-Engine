@@ -1,41 +1,39 @@
-```yaml
 source:
   id: 星辰与海洋-1149
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: 血云殿主, 地球人本尊
-    description: 拥有至强至宝星辰塔的宇宙之主，曾在原始星上击败沉火之主。
-    attributes:
-      - 实力: 宇宙之主
-      - 装备: 星辰塔、至宝神锤、至宝铠甲、绿色种子状至宝
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: 血云殿主, 地球人本尊
+  description: 拥有至强至宝星辰塔的宇宙之主，曾在原始星上击败沉火之主。
+  attributes:
+  - 实力: 宇宙之主
+  - 装备: 星辰塔、至宝神锤、至宝铠甲、绿色种子状至宝
 
-  - id: 沉火之主
-    type: Character
-    name: 沉火之主
-    aliases:
-    description: 九霍族的领袖，宇宙秘法第二分身拥有者。
-    attributes:
-      - 实力: 宇宙之主
-      - 特殊能力: 第二分身
+- id: 沉火之主
+  type: Character
+  name: 沉火之主
+  aliases:
+  description: 九霍族的领袖，宇宙秘法第二分身拥有者。
+  attributes:
+  - 实力: 宇宙之主
+  - 特殊能力: 第二分身
 
 relationships:
 
 events:
-  - id: 血云殿主击败沉火之主
-    type: Event
-    description: 在编号08625号原始星上，血云殿主（罗峰）击败了九霍族的领袖沉火之主。
-    timeline:
-      time: 不详
+- id: 血云殿主击败沉火之主
+  type: Event
+  description: 在编号08625号原始星上，血云殿主（罗峰）击败了九霍族的领袖沉火之主。
+  timeline:
+    time: 不详
 
 dialogues:
 
 timeline:
 
 mysteries:
-  - id: 血云殿主未来晋升鸿盟殿主
-    type: Mystery
-    description: 罗峰期待经过鸿盟内部商议，自己会有资格成为鸿盟殿的一位殿主。
-```
+- id: 血云殿主未来晋升鸿盟殿主
+  type: Mystery
+  description: 罗峰期待经过鸿盟内部商议，自己会有资格成为鸿盟殿的一位殿主。

@@ -1,62 +1,59 @@
-```yaml
 source:
   id: 第698章尊者的惩罚魇烛王（三更完毕）
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 混沌宇宙中的重要人物，疑似拥有神秘能力或背景。
-    attributes:
-      实力: 强大界主, 使用火神源晶逃脱刺杀
-  - id: 宇宙尊者
-    type: Character
-    name: 宇宙尊者
-    aliases: []
-    description: 混沌宇宙中具有极高地位的存在，负责处理重要事务。
-    attributes:
-      实力: 封王级不朽神灵及以上, 管理混沌宇宙中的星域及事件
-  - id: 隆厥王
-    type: Character
-    name: 隆厥王
-    aliases: []
-    description: 毋窿星域的管理者，负责处理星域内的事务。
-    attributes:
-      实力: 封王级不朽神灵, 负责毋窿星域的安全及管理
-  - id: 迪伦
-    type: Character
-    name: 迪伦
-    aliases: []
-    description: 隆厥王的下属，负责保护罗峰。
-    attributes:
-      实力: 界主级, 忠诚于隆厥王和师祖
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 混沌宇宙中的重要人物，疑似拥有神秘能力或背景。
+  attributes:
+    实力: 强大界主, 使用火神源晶逃脱刺杀
+- id: 宇宙尊者
+  type: Character
+  name: 宇宙尊者
+  aliases: []
+  description: 混沌宇宙中具有极高地位的存在，负责处理重要事务。
+  attributes:
+    实力: 封王级不朽神灵及以上, 管理混沌宇宙中的星域及事件
+- id: 隆厥王
+  type: Character
+  name: 隆厥王
+  aliases: []
+  description: 毋窿星域的管理者，负责处理星域内的事务。
+  attributes:
+    实力: 封王级不朽神灵, 负责毋窿星域的安全及管理
+- id: 迪伦
+  type: Character
+  name: 迪伦
+  aliases: []
+  description: 隆厥王的下属，负责保护罗峰。
+  attributes:
+    实力: 界主级, 忠诚于隆厥王和师祖
 
 relationships:
-  - id: 罗峰与迪伦的关系
-    type: Relationship
-    description: 迪伦受命保护罗峰，对未能履行职责感到自责。
+- id: 罗峰与迪伦的关系
+  type: Relationship
+  description: 迪伦受命保护罗峰，对未能履行职责感到自责。
 
 events:
-  - id: 科斯尔刺杀事件
-    type: Event
-    description: 毋窿星域内部成员科斯尔试图刺杀罗峰，但被火神源晶爆炸所阻止。
-    timeline:
-      时间点1: 罗峰逃脱并使用火神源晶引爆杀死科斯尔及十名界主护卫。
-      时间点2: 宇宙尊者到场确认情况，并将事件记录发送给毋窿星域的警戒管理系统。
+- id: 科斯尔刺杀事件
+  type: Event
+  description: 毋窿星域内部成员科斯尔试图刺杀罗峰，但被火神源晶爆炸所阻止。
+  timeline:
+    时间点1: 罗峰逃脱并使用火神源晶引爆杀死科斯尔及十名界主护卫。
+    时间点2: 宇宙尊者到场确认情况，并将事件记录发送给毋窿星域的警戒管理系统。
 
 dialogues:
-  - id: 战后隆厥王询问罗峰
-    type: Dialogue
-    description: 隆厥王和迪伦与罗峰讨论刺杀事件的原因及后续处理。
-    content:
-      "殿下这次是在毋窿星域遭到刺杀，是毋窿星域内部管理不力。" - 迪伦
-      "我也是虚拟宇宙公司的，当然是向着罗峰。不过，这件事是要五个负责人来决定。" - 隆厥王
+- id: 战后隆厥王询问罗峰
+  type: Dialogue
+  description: 隆厥王和迪伦与罗峰讨论刺杀事件的原因及后续处理。
+  content: >
+    "殿下这次是在毋窿星域遭到刺杀，是毋窿星域内部管理不力。" - 迪伦 "我也是虚拟宇宙公司的，当然是向着罗峰。不过，这件事是要五个负责人来决定。" - 隆厥王
 
 timeline:
 
 mysteries:
-  - id: 谁是真正的幕后黑手？
-    type: Mystery
-    description: 科斯尔已经死亡，无法确认刺杀事件的真正幕后操纵者。
-```
+- id: 谁是真正的幕后黑手？
+  type: Mystery
+  description: 科斯尔已经死亡，无法确认刺杀事件的真正幕后操纵者。

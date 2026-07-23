@@ -1,73 +1,70 @@
-```yaml
 source:
   id: "original_text"
 
 entities:
-  - id: "罗峰"
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 混沌城主门下的超级强者，刚刚闯过界主级原始通天山。
-    attributes:
-      实力: 领域主
-      名声: 极大
+- id: "罗峰"
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 混沌城主门下的超级强者，刚刚闯过界主级原始通天山。
+  attributes:
+    实力: 领域主
+    名声: 极大
 
-  - id: "梦燧王"
-    type: Character
-    name: 梦燧王
-    aliases: []
-    description: 陀马族年轻一代最优秀的封王之一，与南释王是生死好友。
-    attributes:
-      实力: 封王极限
-      性格: 友善
+- id: "梦燧王"
+  type: Character
+  name: 梦燧王
+  aliases: []
+  description: 陀马族年轻一代最优秀的封王之一，与南释王是生死好友。
+  attributes:
+    实力: 封王极限
+    性格: 友善
 
-  - id: "南释王"
-    type: Character
-    name: 南释王
-    aliases: []
-    description: 陀马族年轻一代最优秀的封王之一，以凶残闻名。
-    attributes:
-      实力: 封王极限
-      性格: 凶残
+- id: "南释王"
+  type: Character
+  name: 南释王
+  aliases: []
+  description: 陀马族年轻一代最优秀的封王之一，以凶残闻名。
+  attributes:
+    实力: 封王极限
+    性格: 凶残
 
-  - id: "混沌城"
-    type: Location
-    name: 混沌城
-    aliases: []
-    description: 鸿盟中诸多小区中排名前三的小区之一，居住着许多人类最强封王。
+- id: "混沌城"
+  type: Location
+  name: 混沌城
+  aliases: []
+  description: 鸿盟中诸多小区中排名前三的小区之一，居住着许多人类最强封王。
 
-  - id: "太阳系神殿"
-    type: Location
-    name: 太阳系神殿
-    aliases: []
-    description: 神殿远超过地球大小，在第一层有固定的传送通道连接虚拟宇宙公司大本营等地方。
-    
-  - id: "界主"
-    type: Character
-    name: 界主
-    aliases: []
-    description: 守候在太阳系万年的界主，数十名界主守候在神殿的传送通道旁。
+- id: "太阳系神殿"
+  type: Location
+  name: 太阳系神殿
+  aliases: []
+  description: 神殿远超过地球大小，在第一层有固定的传送通道连接虚拟宇宙公司大本营等地方。
+
+- id: "界主"
+  type: Character
+  name: 界主
+  aliases: []
+  description: 守候在太阳系万年的界主，数十名界主守候在神殿的传送通道旁。
 
 organizations:
-  - id: "虚拟宇宙公司"
-    type: Organization
-    name: 虚拟宇宙公司
+- id: "虚拟宇宙公司"
+  type: Organization
+  name: 虚拟宇宙公司
 
 timeline:
   events:
-    - event_id: "罗峰离开混沌城"
-      description: 罗峰处理完战利品和花费后，离开混沌城。
-      
+  - event_id: "罗峰离开混沌城"
+    description: 罗峰处理完战利品和花费后，离开混沌城。
+
 dialogues:
   dialogues:
-    - speaker: 梦燧王
-      content: "您小区，现在进内城了。"
+  - speaker: 梦燧王
+    content: "您小区，现在进内城了。"
 
-    - speaker: 南释王
-      content: "过谦了，在罗峰殿下面前夸我，我可会惭愧的。"
-      
+  - speaker: 南释王
+    content: "过谦了，在罗峰殿下面前夸我，我可会惭愧的。"
+
 mysteries:
   mysteries:
-    - description: 罗峰离开混沌城后直接返回太阳系神殿。
-    
-```
+  - description: 罗峰离开混沌城后直接返回太阳系神殿。

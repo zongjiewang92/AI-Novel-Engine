@@ -1,103 +1,101 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: rofei_18
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 一名普通人家出身的武者，18岁就通过了实战考核。家庭背景一般，父亲是装饰工人，母亲在超市工作。
-    attributes:
-      年龄: 18
-      家庭情况: 普通人家
-      实力: 武者（战士级）
-      关系: 杨武的朋友
+- id: rofei_18
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 一名普通人家出身的武者，18岁就通过了实战考核。家庭背景一般，父亲是装饰工人，母亲在超市工作。
+  attributes:
+    年龄: 18
+    家庭情况: 普通人家
+    实力: 武者（战士级）
+    关系: 杨武的朋友
 
-  - id: yangwu_20
-    type: Character
-    name: 杨武
-    aliases: []
-    description: 罗峰的朋友，同样通过了实战考核。身体素质强。
-    attributes:
-      年龄: 不详（比罗峰年长）
-      实力: 武者
-      关系: 罗峰的朋友
+- id: yangwu_20
+  type: Character
+  name: 杨武
+  aliases: []
+  description: 罗峰的朋友，同样通过了实战考核。身体素质强。
+  attributes:
+    年龄: 不详（比罗峰年长）
+    实力: 武者
+    关系: 罗峰的朋友
 
-  - id: wanding_18
-    type: Character
-    name: 万冬
-    aliases: []
-    description: 提前被招募的天才准武者，通过实战考核。身体素质强。
-    attributes:
-      年龄: 不详（和罗峰同批次）
-      实力: 武者
-      关系: 罗峰的竞争者
+- id: wanding_18
+  type: Character
+  name: 万冬
+  aliases: []
+  description: 提前被招募的天才准武者，通过实战考核。身体素质强。
+  attributes:
+    年龄: 不详（和罗峰同批次）
+    实力: 武者
+    关系: 罗峰的竞争者
 
-  - id: wangheng_50
-    type: Character
-    name: 王衡
-    aliases: []
-    description: 雷电武馆江南基地市的主管，雷电总会馆的主管。地位相当于战神级强者。
-    attributes:
-      年龄: 不详（估计在50岁以上）
-      身份: 主管
-      实力: 高级别战神
+- id: wangheng_50
+  type: Character
+  name: 王衡
+  aliases: []
+  description: 雷电武馆江南基地市的主管，雷电总会馆的主管。地位相当于战神级强者。
+  attributes:
+    年龄: 不详（估计在50岁以上）
+    身份: 主管
+    实力: 高级别战神
 
-  - id: leidianwuguan_2018
-    type: Organization
-    name: 雷电武馆
-    aliases: []
-    description: 提前招募准武者，为罗峰提供特等培训合同。
-    attributes:
-      地点: 江南基地市
+- id: leidianwuguan_2018
+  type: Organization
+  name: 雷电武馆
+  aliases: []
+  description: 提前招募准武者，为罗峰提供特等培训合同。
+  attributes:
+    地点: 江南基地市
 
-  - id: jiangnanjiedishe_2018
-    type: Location
-    name: 江南基地市
-    aliases: []
-    description: 罗峰和杨武进行实战考核的地方，是雷电武馆所在的城市。
+- id: jiangnanjiedishe_2018
+  type: Location
+  name: 江南基地市
+  aliases: []
+  description: 罗峰和杨武进行实战考核的地方，是雷电武馆所在的城市。
 
 relationships:
-  - source_id: rofei_18
-    target_id: yangwu_20
-    type: 友谊关系
+- source_id: rofei_18
+  target_id: yangwu_20
+  type: 友谊关系
 
-  - source_id: rofei_18
-    target_id: wanding_18
-    type: 竞争关系
+- source_id: rofei_18
+  target_id: wanding_18
+  type: 竞争关系
 
-  - source_id: leidianwuguan_2018
-    target_id: wangheng_50
-    type: 上下级关系
+- source_id: leidianwuguan_2018
+  target_id: wangheng_50
+  type: 上下级关系
 
 events:
-  - id: shizhandakuang_2018
-    name: 实战考核
-    description: 罗峰、杨武和万冬参加的实战考核，通过后成为真正的武者。
-    timeline: 某年夏天
+- id: shizhandakuang_2018
+  name: 实战考核
+  description: 罗峰、杨武和万冬参加的实战考核，通过后成为真正的武者。
+  timeline: 某年夏天
 
 dialogues:
-  - speaker_id: wangheng_50
-    listener_id: rofei_18
-    content: "我叫王衡，雷电总会馆的主管。罗峰，坐。"
-    context: 王衡邀请罗峰加入雷电武馆，并提供优厚待遇。
+- speaker_id: wangheng_50
+  listener_id: rofei_18
+  content: "我叫王衡，雷电总会馆的主管。罗峰，坐。"
+  context: 王衡邀请罗峰加入雷电武馆，并提供优厚待遇。
 
-  - speaker_id: wangheng_50
-    listener_id: rofei_18
-    content: "我很欣赏你，我也认为你非常有前途。正式邀请罗峰你，加入我雷电武馆！"
-    context: 王衡提出希望罗峰加入雷电武馆，并愿意支付违约金。
+- speaker_id: wangheng_50
+  listener_id: rofei_18
+  content: "我很欣赏你，我也认为你非常有前途。正式邀请罗峰你，加入我雷电武馆！"
+  context: 王衡提出希望罗峰加入雷电武馆，并愿意支付违约金。
 
-  - speaker_id: rofei_18
-    listener_id: wangheng_50
-    content: "我已经和极限武馆签了合同。"
-    context: 罗峰已经与极限武馆签订合同，因此犹豫是否加入雷电武馆。
+- speaker_id: rofei_18
+  listener_id: wangheng_50
+  content: "我已经和极限武馆签了合同。"
+  context: 罗峰已经与极限武馆签订合同，因此犹豫是否加入雷电武馆。
 
 timeline:
-  - event_id: shizhandakuang_2018
-    date: 某年夏天
+- event_id: shizhandakuang_2018
+  date: 某年夏天
 
 mysteries:
-  - id: rofei_jiaxiao
-    content: 罗峰的家庭背景和教育经历未详细说明。
-```
+- id: rofei_jiaxiao
+  content: 罗峰的家庭背景和教育经历未详细说明。

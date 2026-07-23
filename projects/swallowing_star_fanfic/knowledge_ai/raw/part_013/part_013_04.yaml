@@ -1,49 +1,47 @@
-```yaml
 source:
   id: text195
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 身穿黑色战衣，手持飞刀攻击李耀。实力强大。
-    attributes:
-      - 实力超越战神
-      - 使用遁天梭和金线网
-  - id: 李耀
-    type: Character
-    name: 李耀
-    aliases: []
-    description: 穿着黑神套装，被罗峰攻击。实力强大但处于下风。
-    attributes:
-      - 高等战神巅峰
-      - 使用遁天梭和金线网
-  - id: 黑寡妇蛛王的金线网
-    type: Item
-    name: 金线网
-    aliases: []
-    description: 王级怪兽黑寡妇蛛王遗留下来用来困住其他王级怪兽。
-    attributes:
-      - 足以束缚高等战神巅峰
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 身穿黑色战衣，手持飞刀攻击李耀。实力强大。
+  attributes:
+  - 实力超越战神
+  - 使用遁天梭和金线网
+- id: 李耀
+  type: Character
+  name: 李耀
+  aliases: []
+  description: 穿着黑神套装，被罗峰攻击。实力强大但处于下风。
+  attributes:
+  - 高等战神巅峰
+  - 使用遁天梭和金线网
+- id: 黑寡妇蛛王的金线网
+  type: Item
+  name: 金线网
+  aliases: []
+  description: 王级怪兽黑寡妇蛛王遗留下来用来困住其他王级怪兽。
+  attributes:
+  - 足以束缚高等战神巅峰
 
 relationships:
 
 events:
-  - id: 追击李耀
-    type: Event
-    name: 李耀被罗峰追杀
-    description: 罗峰用飞刀和金线网攻击李耀，导致李耀重伤。
-    timeline: []
+- id: 追击李耀
+  type: Event
+  name: 李耀被罗峰追杀
+  description: 罗峰用飞刀和金线网攻击李耀，导致李耀重伤。
+  timeline: []
 
 dialogues:
-  - speaker: 李耀
-    content: "我不能死！"
+- speaker: 李耀
+  content: "我不能死！"
 
 timeline:
 
 mysteries:
-  - id: 罗峰的实力突破
-    type: Mystery
-    description: 罗峰是否已经突破成为超越战神的存在。
-```
+- id: 罗峰的实力突破
+  type: Mystery
+  description: 罗峰是否已经突破成为超越战神的存在。

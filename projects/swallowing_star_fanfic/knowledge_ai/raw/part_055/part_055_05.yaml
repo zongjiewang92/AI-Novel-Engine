@@ -1,94 +1,92 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: LuoFeng
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有神国传送能力的强者，正在建造自己的神国。
-    attributes:
-      - 实力: 不朽神灵级别
-      - 装备: 黑色战铠
-      - 物品: 食星草、空间戒指
+- id: LuoFeng
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有神国传送能力的强者，正在建造自己的神国。
+  attributes:
+  - 实力: 不朽神灵级别
+  - 装备: 黑色战铠
+  - 物品: 食星草、空间戒指
 
-  - id: ShiXingCao
-    type: Item
-    name: 食星草
-    aliases: []
-    description: 可以通过神国传送进行长距离瞬间移动的植物。
-    attributes:
-      - 功能: 神国传送, 坐标信物
+- id: ShiXingCao
+  type: Item
+  name: 食星草
+  aliases: []
+  description: 可以通过神国传送进行长距离瞬间移动的植物。
+  attributes:
+  - 功能: 神国传送, 坐标信物
 
-  - id: MoYunTeng
-    type: Item
-    name: 摩云藤
-    aliases: []
-    description: 协助罗峰建造神国的特殊植物。
-    attributes:
-      - 功能: 建造神国
+- id: MoYunTeng
+  type: Item
+  name: 摩云藤
+  aliases: []
+  description: 协助罗峰建造神国的特殊植物。
+  attributes:
+  - 功能: 建造神国
 
 locations:
-  - id: Space_Crystal_Layer
-    type: Location
-    name: 空间碎片层
-    aliases: []
-    description: 位于空间夹层中，距离原始宇宙空间最近的一层。
+- id: Space_Crystal_Layer
+  type: Location
+  name: 空间碎片层
+  aliases: []
+  description: 位于空间夹层中，距离原始宇宙空间最近的一层。
 
-  - id: God_Domain_Space
-    type: Location
-    name: 神国空间
-    aliases: []
-    description: 不朽神灵建造的私人领域。
-    attributes:
-      - 直径: 不足十万公里
+- id: God_Domain_Space
+  type: Location
+  name: 神国空间
+  aliases: []
+  description: 不朽神灵建造的私人领域。
+  attributes:
+  - 直径: 不足十万公里
 
 organizations:
-  - id: Virtual_Universe_Company
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 提供各种服务和资源给成员，包括皮毛鳞甲等罕见物品的兑换。
+- id: Virtual_Universe_Company
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 提供各种服务和资源给成员，包括皮毛鳞甲等罕见物品的兑换。
 
 abilities:
-  - id: God_Domain_Transfer
-    type: Ability
-    name: 神国传送
-    aliases: []
-    description: 使用信物在两个神国内直接进行长距离瞬移。
-    attributes:
-      - 需要条件: 形成两个点并稳定空间通道
+- id: God_Domain_Transfer
+  type: Ability
+  name: 神国传送
+  aliases: []
+  description: 使用信物在两个神国内直接进行长距离瞬移。
+  attributes:
+  - 需要条件: 形成两个点并稳定空间通道
 
-  - id: Space_Crystal_Layer_Structure
-    type: Ability
-    name: 空间碎片层结构认知
-    aliases: []
-    description: 对于空间夹层中的不同层次的认知。
+- id: Space_Crystal_Layer_Structure
+  type: Ability
+  name: 空间碎片层结构认知
+  aliases: []
+  description: 对于空间夹层中的不同层次的认知。
 
 timeline:
   events:
-    - event_name: 建造神国
-      date: 宇宙纪元未知
-      description: "罗峰通过摩云藤在偏僻的空间碎片区域建造自己的神国。"
-      
-mysteries:
-  - id: LuoFeng_Becoming_Unending
-    type: Mystery
-    name: 罗峰何时能成为不朽
-    aliases: []
-    description: 罗峰对何时能够突破成为不朽感到不确定。
-  
-dialogues:
-  - speaker: 罗峰
-    listener: 摩云藤
-    dialogue: "摩云，这里如何？周围10万光年范围内没有一颗生命星球。"
-    
-  - speaker: 罗峰
-    listener: 自己
-    dialogue: "不知，什么时候我能成为不朽。"
+  - event_name: 建造神国
+    date: 宇宙纪元未知
+    description: "罗峰通过摩云藤在偏僻的空间碎片区域建造自己的神国。"
 
-  - speaker: 摩云藤
-    listener: 罗峰
-    dialogue: "主人的法则感悟很高，只要愿意恐怕很快就能悟透整个金之法则，以主人能耐，打破原核桎梏估计也不难。"
-```
+mysteries:
+- id: LuoFeng_Becoming_Unending
+  type: Mystery
+  name: 罗峰何时能成为不朽
+  aliases: []
+  description: 罗峰对何时能够突破成为不朽感到不确定。
+
+dialogues:
+- speaker: 罗峰
+  listener: 摩云藤
+  dialogue: "摩云，这里如何？周围10万光年范围内没有一颗生命星球。"
+
+- speaker: 罗峰
+  listener: 自己
+  dialogue: "不知，什么时候我能成为不朽。"
+
+- speaker: 摩云藤
+  listener: 罗峰
+  dialogue: "主人的法则感悟很高，只要愿意恐怕很快就能悟透整个金之法则，以主人能耐，打破原核桎梏估计也不难。"

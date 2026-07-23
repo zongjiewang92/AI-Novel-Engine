@@ -1,91 +1,89 @@
-```yaml
 source:
   id: chapter128
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 极限武馆精英训练营的学员，因优异战绩和战力振幅被召见。
-    attributes:
-      实力: 战力振幅为优等初入阶段，媲美第四年老学员平均水平
-      成绩排名: 68
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 极限武馆精英训练营的学员，因优异战绩和战力振幅被召见。
+  attributes:
+    实力: 战力振幅为优等初入阶段，媲美第四年老学员平均水平
+    成绩排名: 68
 
-  - id: 江芳
-    type: Character
-    name: 江芳
-    aliases: []
-    description: 罗峰的导师，在极限武馆精英训练营中任教。
-    attributes:
-      身份: 导师
+- id: 江芳
+  type: Character
+  name: 江芳
+  aliases: []
+  description: 罗峰的导师，在极限武馆精英训练营中任教。
+  attributes:
+    身份: 导师
 
-  - id: 弗拉基米尔
-    type: Character
-    name: 弗拉基米尔
-    aliases: [王巡察使]
-    description: 极限武馆五大巡察使之一，负责处理罗峰的召见事宜。
-    attributes:
-      身份: 巡察使
+- id: 弗拉基米尔
+  type: Character
+  name: 弗拉基米尔
+  aliases: [ 王巡察使 ]
+  description: 极限武馆五大巡察使之一，负责处理罗峰的召见事宜。
+  attributes:
+    身份: 巡察使
 
-  - id: 洪宁基地市
-    type: Location
-    name: 洪宁基地市
-    aliases: []
-    description: 极限武馆精英训练营所在的城市。
+- id: 洪宁基地市
+  type: Location
+  name: 洪宁基地市
+  aliases: []
+  description: 极限武馆精英训练营所在的城市。
 
-  - id: 精英训练营
-    type: Organization
-    name: 精英训练营
-    aliases: []
-    description: 极限武馆的内部培训组织，用于培养优秀学员。
-    attributes:
-      所属组织: 极限武馆
+- id: 精英训练营
+  type: Organization
+  name: 精英训练营
+  aliases: []
+  description: 极限武馆的内部培训组织，用于培养优秀学员。
+  attributes:
+    所属组织: 极限武馆
 
 relationships:
-  - id: 江芳与罗峰的关系
-    type: Mentorship
-    source: 罗峰
-    target: 江芳
-    description: 罗峰是江芳的学生，江芳负责指导和培养罗峰。
+- id: 江芳与罗峰的关系
+  type: Mentorship
+  source: 罗峰
+  target: 江芳
+  description: 罗峰是江芳的学生，江芳负责指导和培养罗峰。
 
 events:
-  - id: 召见罗峰
-    type: Event
-    name: 召见罗峰
-    attributes:
-      时间: 四月的最后一天上午时分
-      地点: 洪宁基地市精英训练营
-      关键人物: 罗峰, 江芳, 弗拉基米尔
+- id: 召见罗峰
+  type: Event
+  name: 召见罗峰
+  attributes:
+    时间: 四月的最后一天上午时分
+    地点: 洪宁基地市精英训练营
+    关键人物: 罗峰, 江芳, 弗拉基米尔
 
 dialogues:
-  - id: 江芳与弗拉基米尔对话
-    type: Dialogue
-    content: "弗拉基米尔，我认为我给的待遇，不高。"
-    participants:
-      - name: 弗拉基米尔
-        role: 巡察使
+- id: 江芳与弗拉基米尔对话
+  type: Dialogue
+  content: "弗拉基米尔，我认为我给的待遇，不高。"
+  participants:
+  - name: 弗拉基米尔
+    role: 巡察使
 
-  - id: 王巡察使通知江芳
-    type: Dialogue
-    content: "江芳，你去通知你的弟子罗峰，并且带他到我这来。"
-    participants:
-      - name: 王巡察使
-        role: 巡察使
-      - name: 江芳
-        role: 导师
+- id: 王巡察使通知江芳
+  type: Dialogue
+  content: "江芳，你去通知你的弟子罗峰，并且带他到我这来。"
+  participants:
+  - name: 王巡察使
+    role: 巡察使
+  - name: 江芳
+    role: 导师
 
 timeline:
-  - id: 召见罗峰事件的时间线
-    type: Timeline
-    events:
-      - time: 四月的最后一天上午时分
-        description: 王巡察使通知江芳，召见罗峰。
-      - time: 不详
-        description: 江芳通知罗峰并带他到王巡察使处。
+- id: 召见罗峰事件的时间线
+  type: Timeline
+  events:
+  - time: 四月的最后一天上午时分
+    description: 王巡察使通知江芳，召见罗峰。
+  - time: 不详
+    description: 江芳通知罗峰并带他到王巡察使处。
 
 mysteries:
-  - id: 极限武馆最高会议的讨论内容
-    type: Mystery
-    content: 圆桌会议上关于罗峰的具体讨论和决定未明。
-```
+- id: 极限武馆最高会议的讨论内容
+  type: Mystery
+  content: 圆桌会议上关于罗峰的具体讨论和决定未明。

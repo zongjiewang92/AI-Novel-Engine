@@ -1,52 +1,50 @@
-```yaml
 source:
   id: origin_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 顶尖宇宙霸主实力，得到歧镜石。
-    attributes:
-      实力: 顶尖宇宙霸主
-      装备: 高等至宝铠甲,星辰塔
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 顶尖宇宙霸主实力，得到歧镜石。
+  attributes:
+    实力: 顶尖宇宙霸主
+    装备: 高等至宝铠甲,星辰塔
 
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 罗峰的老师，人类族群的重要人物。
-    attributes:
-      实力: 宇宙之主
-      关系: 罗峰的老师
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 罗峰的老师，人类族群的重要人物。
+  attributes:
+    实力: 宇宙之主
+    关系: 罗峰的老师
 
-  - id: 歧神殿
-    type: Location
-    name: 歧神殿
-    aliases: []
-    description: 涉及到超级至宝争夺的地方。
+- id: 歧神殿
+  type: Location
+  name: 歧神殿
+  aliases: []
+  description: 涉及到超级至宝争夺的地方。
 
 dialogues:
-  - speaker1: 混沌城主
-    speaker2: 罗峰
-    content:
-      - "你愿意不愿意。"
-      - "弟子不愿。"
-      - "你知道什么是宇宙最强者？"
-      - "去。"
-      - "顶尖宇宙霸主实力？我知道你的神体媲美宇宙尊者，又有‘九幽分身’为根基堪称无穷无尽的神力供应，你的‘金角巨兽分身’也有上千公里神体，再配合高等至宝铠甲……顶尖宇宙霸主都难击杀你。"
-      - "那传说中因你而陨落的一些异族尊者，是你亲手所杀？"
-      - "老师希望你交出歧镜石。"
+- speaker1: 混沌城主
+  speaker2: 罗峰
+  content:
+  - "你愿意不愿意。"
+  - "弟子不愿。"
+  - "你知道什么是宇宙最强者？"
+  - "去。"
+  - "顶尖宇宙霸主实力？我知道你的神体媲美宇宙尊者，又有‘九幽分身’为根基堪称无穷无尽的神力供应，你的‘金角巨兽分身’也有上千公里神体，再配合高等至宝铠甲……顶尖宇宙霸主都难击杀你。"
+  - "那传说中因你而陨落的一些异族尊者，是你亲手所杀？"
+  - "老师希望你交出歧镜石。"
 
 events:
-  - id: 罗峰拒绝交出歧镜石
-    type: Event
-    description: 罗峰坚持自己的决定不交出得到的歧镜石。
+- id: 罗峰拒绝交出歧镜石
+  type: Event
+  description: 罗峰坚持自己的决定不交出得到的歧镜石。
 
 timeline:
-  - 时间点: 当前时间
+- 时间点: 当前时间
 
 mysteries:
-  - "传说中因罗峰而陨落的一些异族尊者，是否真由他亲手所杀。"
-```
+- "传说中因罗峰而陨落的一些异族尊者，是否真由他亲手所杀。"

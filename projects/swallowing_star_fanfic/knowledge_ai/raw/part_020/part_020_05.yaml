@@ -1,142 +1,140 @@
-```yaml
 source:
   id: 第301章目标，地球宝藏
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 地球上的三大巅峰强者之一，拥有金角巨兽的身体。
-    attributes:
-      实力: 行星级以上
-      性格: 冷静果断
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 地球上的三大巅峰强者之一，拥有金角巨兽的身体。
+  attributes:
+    实力: 行星级以上
+    性格: 冷静果断
 
-  - id: 洪
-    type: Character
-    name: 洪
-    aliases: []
-    description: 地球上的三大巅峰强者之一，擅长精神力量运用。
-    attributes:
-      实力: 行星级以上
-      性格: 冷静理智
+- id: 洪
+  type: Character
+  name: 洪
+  aliases: []
+  description: 地球上的三大巅峰强者之一，擅长精神力量运用。
+  attributes:
+    实力: 行星级以上
+    性格: 冷静理智
 
-  - id: 雷神
-    type: Character
-    name: 雷神
-    aliases: []
-    description: 地球上的三大巅峰强者之一，拥有强大的雷电能力。
-    attributes:
-      实力: 行星级以上
-      性格: 直率果断
+- id: 雷神
+  type: Character
+  name: 雷神
+  aliases: []
+  description: 地球上的三大巅峰强者之一，拥有强大的雷电能力。
+  attributes:
+    实力: 行星级以上
+    性格: 直率果断
 
-  - id: 拉里女士
-    type: Character
-    name: 拉里女士
-    aliases: []
-    description: 联系地球三大巅峰强者的人员之一。
-    attributes:
-      身份: 国家联系人
+- id: 拉里女士
+  type: Character
+  name: 拉里女士
+  aliases: []
+  description: 联系地球三大巅峰强者的人员之一。
+  attributes:
+    身份: 国家联系人
 
-  - id: 王将军
-    type: Character
-    name: 王将军
-    aliases: []
-    description: 和罗峰保持联系的国家代表。
-    attributes:
-      身份: 军事指挥官
+- id: 王将军
+  type: Character
+  name: 王将军
+  aliases: []
+  description: 和罗峰保持联系的国家代表。
+  attributes:
+    身份: 军事指挥官
 
-  - id: 巴巴塔
-    type: Item
-    name: 巴巴塔
-    aliases: [智能光脑]
-    description: 罗峰的私人助手，可以帮助侵入飞船系统。
-    attributes:
-      功能: 智能控制, 系统入侵
+- id: 巴巴塔
+  type: Item
+  name: 巴巴塔
+  aliases: [ 智能光脑 ]
+  description: 罗峰的私人助手，可以帮助侵入飞船系统。
+  attributes:
+    功能: 智能控制, 系统入侵
 
-  - id: 蒙一和蒙二
-    type: Character
-    name: 蒙一和蒙二
-    aliases: []
-    description: 罗峰的护卫，负责审问俘虏。
-    attributes:
-      实力: 行星级以上
-      性格: 忠诚
+- id: 蒙一和蒙二
+  type: Character
+  name: 蒙一和蒙二
+  aliases: []
+  description: 罗峰的护卫，负责审问俘虏。
+  attributes:
+    实力: 行星级以上
+    性格: 忠诚
 
-  - id: 战舰
-    type: Item
-    name: 战舰
-    aliases: [宇宙飞船]
-    description: 来自诺岚山家族的大型战舰，携带大量恒星级和行星级战士。
-    attributes:
-      装备: 完全控制, 武器装备
+- id: 战舰
+  type: Item
+  name: 战舰
+  aliases: [ 宇宙飞船 ]
+  description: 来自诺岚山家族的大型战舰，携带大量恒星级和行星级战士。
+  attributes:
+    装备: 完全控制, 武器装备
 
-  - id: 诺岚卫
-    type: Character
-    name: 诺岚卫
-    aliases: []
-    description: 诺岚山家族最精英的战士，实力均为恒星级九阶。
-    attributes:
-      实力: 恒星级九阶
-      性格: 忠诚
+- id: 诺岚卫
+  type: Character
+  name: 诺岚卫
+  aliases: []
+  description: 诺岚山家族最精英的战士，实力均为恒星级九阶。
+  attributes:
+    实力: 恒星级九阶
+    性格: 忠诚
 
-  - id: 卡罗帝国
-    type: Organization
-    name: 卡罗帝国
-    aliases: []
-    description: 宇宙中的一个国家，诺岚山家族所属。
-    attributes:
-      种族: 不详
-      文化: 不详
+- id: 卡罗帝国
+  type: Organization
+  name: 卡罗帝国
+  aliases: []
+  description: 宇宙中的一个国家，诺岚山家族所属。
+  attributes:
+    种族: 不详
+    文化: 不详
 
-  - id: 诺岚山家族
-    type: Organization
-    name: 诺岚山家族
-    aliases: [卡罗帝国]
-    description: 卡罗帝国内的一个大家族，由宇宙级强者诺岚山建立。
-    attributes:
-      种族: 不详
-      文化: 不详
+- id: 诺岚山家族
+  type: Organization
+  name: 诺岚山家族
+  aliases: [ 卡罗帝国 ]
+  description: 卡罗帝国内的一个大家族，由宇宙级强者诺岚山建立。
+  attributes:
+    种族: 不详
+    文化: 不详
 
 relationships:
-  - 主人与助手: 罗峰与巴巴塔
-  - 上下级关系: 洪、雷神与王将军
-  - 朋友关系: 罗峰、洪和雷神
-  - 敌对关系: 地球人类与诺岚山家族
+- 主人与助手: 罗峰与巴巴塔
+- 上下级关系: 洪、雷神与王将军
+- 朋友关系: 罗峰、洪和雷神
+- 敌对关系: 地球人类与诺岚山家族
 
 events:
-  - 名称: 宇宙冒险者小队入侵地球
-    时间线: 近千名行星级强者突然出现在罗峰城堡附近，引发紧张局势。
-    参与者: 罗峰、洪、雷神和王将军
-    描述: 地球上的三大巅峰强者的反应以及后续处理措施。
+- 名称: 宇宙冒险者小队入侵地球
+  时间线: 近千名行星级强者突然出现在罗峰城堡附近，引发紧张局势。
+  参与者: 罗峰、洪、雷神和王将军
+  描述: 地球上的三大巅峰强者的反应以及后续处理措施。
 
-  - 名称: 诺岚山家族征服地球计划启动
-    时间线: 发现冒险者小队前锋后，确认诺岚山家族舰队即将抵达。
-    参与者: 罗峰、洪和雷神
-    描述: 收到巴巴塔从飞船智能系统中获取的信息，分析敌方实力。
+- 名称: 诺岚山家族征服地球计划启动
+  时间线: 发现冒险者小队前锋后，确认诺岚山家族舰队即将抵达。
+  参与者: 罗峰、洪和雷神
+  描述: 收到巴巴塔从飞船智能系统中获取的信息，分析敌方实力。
 
-  - 名称: 千名恒星级强者登陆地球
-    时间线: 航天器起飞后不久，确认诺岚山家族舰队规模及战斗力。
-    参与者: 罗峰、洪和雷神
-    描述: 推测敌对势力的详细资料并评估潜在威胁。
+- 名称: 千名恒星级强者登陆地球
+  时间线: 航天器起飞后不久，确认诺岚山家族舰队规模及战斗力。
+  参与者: 罗峰、洪和雷神
+  描述: 推测敌对势力的详细资料并评估潜在威胁。
 
 dialogues:
-  - 对话人: 王将军, 罗峰
-    内容: "罗峰先生，刚刚收到情报……"
-    场景: 航天器起飞后，地球人类开始担忧外来者入侵。
-  
-  - 对话人: 洪、雷神, 国家联系人
-    内容: "没事。已经没事了。"
-    场景: 确认安全后的安抚电话。
+- 对话人: 王将军, 罗峰
+  内容: "罗峰先生，刚刚收到情报……"
+  场景: 航天器起飞后，地球人类开始担忧外来者入侵。
+
+- 对话人: 洪、雷神, 国家联系人
+  内容: "没事。已经没事了。"
+  场景: 确认安全后的安抚电话。
 
 timeline:
-  - 时间点1: 发现冒险者小队前锋
-  - 时间点2: 收到王将军的电话询问情况
-  - 时间点3: 接受巴巴塔从飞船智能系统中获取的信息
-  - 时间点4: 确认诺岚山家族舰队规模及战斗力
+- 时间点1: 发现冒险者小队前锋
+- 时间点2: 收到王将军的电话询问情况
+- 时间点3: 接受巴巴塔从飞船智能系统中获取的信息
+- 时间点4: 确认诺岚山家族舰队规模及战斗力
 
 mysteries:
-  - 王将军和国家联系人如何得知罗峰城堡突然出现强者的消息？
-  - 诺岚山家族为何选择在地球上发动征服计划？
-  - 地球人类是否有足够的力量应对即将到来的威胁？
-```
+- 王将军和国家联系人如何得知罗峰城堡突然出现强者的消息？
+- 诺岚山家族为何选择在地球上发动征服计划？
+- 地球人类是否有足够的力量应对即将到来的威胁？

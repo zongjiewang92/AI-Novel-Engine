@@ -1,97 +1,94 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: zhenyanwang
-    type: Character
-    name: 真衍王
-    aliases: []
-    description: 封王极限不朽者，罗峰的老师。
-    attributes:
-      实力: 封王无敌近宇宙尊者
-      性格: 经验丰富
+- id: zhenyanwang
+  type: Character
+  name: 真衍王
+  aliases: []
+  description: 封王极限不朽者，罗峰的老师。
+  attributes:
+    实力: 封王无敌近宇宙尊者
+    性格: 经验丰富
 
-  - id: luofeng
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 封侯不朽，真衍王的弟子。
-    attributes:
-      实力: 封侯不朽
-      性格: 明心见性直指本心
+- id: luofeng
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 封侯不朽，真衍王的弟子。
+  attributes:
+    实力: 封侯不朽
+    性格: 明心见性直指本心
 
-  - id: zizhongwang
-    type: Character
-    name: 紫钟王
-    aliases: []
-    description: 机械族阵营强者，擅长空间法则。
-    attributes:
-      实力: 封王极限不朽者
-      性格: 阴险、狠辣
+- id: zizhongwang
+  type: Character
+  name: 紫钟王
+  aliases: []
+  description: 机械族阵营强者，擅长空间法则。
+  attributes:
+    实力: 封王极限不朽者
+    性格: 阴险、狠辣
 
-  - id: baba_ta
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的虚拟宇宙生命助手。
-    attributes:
-      能力: 探测定位
+- id: baba_ta
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的虚拟宇宙生命助手。
+  attributes:
+    能力: 探测定位
 
-  - id: yilina
-    type: Character
-    name: 伊琳娜
-    aliases: [母皇]
-    description: 虫族母巢，罗峰的坐骑兼战斗指挥。
-    attributes:
-      种族: 虫族
-      等级: 母皇
+- id: yilina
+  type: Character
+  name: 伊琳娜
+  aliases: [ 母皇 ]
+  description: 虫族母巢，罗峰的坐骑兼战斗指挥。
+  attributes:
+    种族: 虫族
+    等级: 母皇
 
 locations:
-  - id: yanhijia_land
-    type: Location
-    name: 焱祭大陆
-    description: 地点不明，有冰雪洞窟存在。
+- id: yanhijia_land
+  type: Location
+  name: 焱祭大陆
+  description: 地点不明，有冰雪洞窟存在。
 
 organizations:
-  - id: renlei_zhengzhi_quyu
-    type: Organization
-    name: 人类阵营
-    description: 参与战争的阵营之一
+- id: renlei_zhengzhi_quyu
+  type: Organization
+  name: 人类阵营
+  description: 参与战争的阵营之一
 
 abilities:
-  - id: zhanyi
-    type: Ability
-    name: 瞬移
-    description: 法则掌握者的能力，可以瞬间传送。
+- id: zhanyi
+  type: Ability
+  name: 瞬移
+  description: 法则掌握者的能力，可以瞬间传送。
 
 items:
-  - id: weixing_tezhanqi
-    type: Item
-    name: 微型探测仪
-    description: 探测定位仪器
+- id: weixing_tezhanqi
+  type: Item
+  name: 微型探测仪
+  description: 探测定位仪器
 
 events:
-  - id: zizhongwang_xianxing
-    type: Event
-    name: 紫钟王现身
-    description: 封侯不朽通过微型探测仪发现紫钟王的位置。
-    
+- id: zizhongwang_xianxing
+  type: Event
+  name: 紫钟王现身
+  description: 封侯不朽通过微型探测仪发现紫钟王的位置。
+
 dialogues:
-  - speaker: luofeng
-    listener: baba_ta
-    content: "巴巴塔，情报确认正确，将悬赏金给那位幸运的封侯不朽。"
-  
-  - speaker: zizhongwang
-    listener: unknown
-    content: "发现我了？一个封侯不朽的小家伙。"
+- speaker: luofeng
+  listener: baba_ta
+  content: "巴巴塔，情报确认正确，将悬赏金给那位幸运的封侯不朽。"
+
+- speaker: zizhongwang
+  listener: unknown
+  content: "发现我了？一个封侯不朽的小家伙。"
 
 timeline:
-  - event_id: zizhongwang_xianxing
-    time: 紫钟王被人类阵营的封侯不朽通过探测仪定位
+- event_id: zizhongwang_xianxing
+  time: 紫钟王被人类阵营的封侯不朽通过探测仪定位
 
 mysteries:
-  - question: 罗峰为何能够如此准确地针对紫钟王？
-    hint: 巴巴塔提供的精准情报和罗峰本身对敌人的了解。
-```
-此YAML文档按照要求提取了原文中的信息，涵盖了人物、地点、组织、能力、物品、事件、对话等关键要素，并保留了上下文关系。
+- question: 罗峰为何能够如此准确地针对紫钟王？
+  hint: 巴巴塔提供的精准情报和罗峰本身对敌人的了解。

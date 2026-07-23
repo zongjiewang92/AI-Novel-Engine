@@ -1,84 +1,82 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: 罗峰
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 求拜师匠神之主的异族强者之一，实力强大但对炼器一窍不通。
-    attributes:
-      实力: 宇宙尊者或宇宙霸主级别
+- id: 罗峰
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 求拜师匠神之主的异族强者之一，实力强大但对炼器一窍不通。
+  attributes:
+    实力: 宇宙尊者或宇宙霸主级别
 
-  - id: 金眼尊者
-    type: character
-    name: 金眼尊者
-    aliases: []
-    description: 向匠神之主求学的异族炼器天才，认为自己有十足信心能炼制普通重宝。
-    attributes:
-      实力: 宇宙尊者级别
+- id: 金眼尊者
+  type: character
+  name: 金眼尊者
+  aliases: []
+  description: 向匠神之主求学的异族炼器天才，认为自己有十足信心能炼制普通重宝。
+  attributes:
+    实力: 宇宙尊者级别
 
-  - id: 妖族不朽
-    type: character
-    name: 妖族不朽
-    aliases: []
-    description: 已经被匠神之主收为弟子的妖族强者，实力仅达不朽级但能炼制普通重宝。
-    attributes:
-      实力: 不朽级别
+- id: 妖族不朽
+  type: character
+  name: 妖族不朽
+  aliases: []
+  description: 已经被匠神之主收为弟子的妖族强者，实力仅达不朽级但能炼制普通重宝。
+  attributes:
+    实力: 不朽级别
 
-  - id: 蚕岩族
-    type: civilization
-    name: 蚕岩族
-    aliases: []
-    description: 希望通过匠神之主获取资源让族群发展的宇宙级文明。
+- id: 蚕岩族
+  type: civilization
+  name: 蚕岩族
+  aliases: []
+  description: 希望通过匠神之主获取资源让族群发展的宇宙级文明。
 
-  - id: 蛹合尊者
-    type: character
-    name: 蛹合尊者
-    aliases: []
-    description: 蚕岩族的伟大领袖，担心自己陨落后的族群命运。
-    attributes:
-      实力: 宇宙霸主级别
+- id: 蛹合尊者
+  type: character
+  name: 蛹合尊者
+  aliases: []
+  description: 蚕岩族的伟大领袖，担心自己陨落后的族群命运。
+  attributes:
+    实力: 宇宙霸主级别
 
-  - id: 匠神山
-    type: location
-    name: 匠神山
-    aliases: []
-    description: 匠神之主居住的地方，只有弟子和少数强者能上山。
+- id: 匠神山
+  type: location
+  name: 匠神山
+  aliases: []
+  description: 匠神之主居住的地方，只有弟子和少数强者能上山。
 
 organizations:
-  - id: 九域联盟
-    type: organization
-    name: 九域联盟
-    aliases: []
-    description: 异族的联盟组织，提供资源兑换服务。
-    
+- id: 九域联盟
+  type: organization
+  name: 九域联盟
+  aliases: []
+  description: 异族的联盟组织，提供资源兑换服务。
+
 abilities:
-  - 天赋: 炼器天赋
+- 天赋: 炼器天赋
 
 items:
-  - 黑色金属板: unknown
+- 黑色金属板: unknown
 
 relationships:
-  - 蛹合尊者和罗峰的关系: 友好关系
+- 蛹合尊者和罗峰的关系: 友好关系
 
 dialogues:
-  - speaker: 罗峰
-    listener: ""
-    content: "我只是好奇，若是有希望，我当然会努力。"
-  
-  - speaker: 金眼尊者
-    listener: 罗峰
-    content: "你也来试试吧。匠神之主招收弟子条件很苛刻……"
+- speaker: 罗峰
+  listener: ""
+  content: "我只是好奇，若是有希望，我当然会努力。"
+
+- speaker: 金眼尊者
+  listener: 罗峰
+  content: "你也来试试吧。匠神之主招收弟子条件很苛刻……"
 
 timeline:
-  - 时间点: 半年前
-    描述: 罗峰和其他求拜师的强者一样去匠神山下等待机会。
-  
-  - 时间点: 目前时间
-    描述: 匠神之主的弟子们从匠神山上下来，询问何时能见到匠神之主。
+- 时间点: 半年前
+  描述: 罗峰和其他求拜师的强者一样去匠神山下等待机会。
+
+- 时间点: 目前时间
+  描述: 匠神之主的弟子们从匠神山上下来，询问何时能见到匠神之主。
 
 mysteries:
-  - 黑色金属板如何获得: 罗峰想知道如何得到黑色金属板但尚未找到办法。
-```
+- 黑色金属板如何获得: 罗峰想知道如何得到黑色金属板但尚未找到办法。

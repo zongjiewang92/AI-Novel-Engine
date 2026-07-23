@@ -1,125 +1,122 @@
-```yaml
 source:
   id: 沧澜星事件
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 冒险者大军中的一员，拥有宇宙级实力。
-    attributes:
-      实力: 宇宙级
-      身份: 冒险者
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 冒险者大军中的一员，拥有宇宙级实力。
+  attributes:
+    实力: 宇宙级
+    身份: 冒险者
 
-  - id: 洪
-    type: Character
-    name: 洪
-    aliases: []
-    description: 罗峰的同伴之一。
-    attributes:
-      实力: 不详
-      身份: 冒险者
+- id: 洪
+  type: Character
+  name: 洪
+  aliases: []
+  description: 罗峰的同伴之一。
+  attributes:
+    实力: 不详
+    身份: 冒险者
 
-  - id: 雷神
-    type: Character
-    name: 雷神
-    aliases: []
-    description: 罗峰的同伴之一。
-    attributes:
-      实力: 不详
-      身份: 冒险者
+- id: 雷神
+  type: Character
+  name: 雷神
+  aliases: []
+  description: 罗峰的同伴之一。
+  attributes:
+    实力: 不详
+    身份: 冒险者
 
-  - id: 诺岚山
-    type: Character
-    name: 诺岚山
-    aliases: []
-    description: 百虎楼组织成员，对罗峰怀有敌意。
-    attributes:
-      实力: 宇宙级
-      身份: 百虎楼成员
+- id: 诺岚山
+  type: Character
+  name: 诺岚山
+  aliases: []
+  description: 百虎楼组织成员，对罗峰怀有敌意。
+  attributes:
+    实力: 宇宙级
+    身份: 百虎楼成员
 
-  - id: 冥昱
-    type: Character
-    name: 冥昱
-    aliases: []
-    description: 拥有一定势力的域主，宇宙二星佣兵。
-    attributes:
-      实力: 域主
-      身份: 宇宙二星佣兵
+- id: 冥昱
+  type: Character
+  name: 冥昱
+  aliases: []
+  description: 拥有一定势力的域主，宇宙二星佣兵。
+  attributes:
+    实力: 域主
+    身份: 宇宙二星佣兵
 
-  - id: 三斧山组织
-    type: Organization
-    name: 三斧山组织
-    aliases: []
-    description: 沧澜星上的一个实力强大的组织。
-    attributes:
-      实力范围: 多名宇宙级及域主成员
+- id: 三斧山组织
+  type: Organization
+  name: 三斧山组织
+  aliases: []
+  description: 沧澜星上的一个实力强大的组织。
+  attributes:
+    实力范围: 多名宇宙级及域主成员
 
-  - id: 百虎楼
-    type: Organization
-    name: 百虎楼
-    aliases: []
-    description: 诺岚山所属的组织，与三斧山组织对立。
-    attributes:
-      实力范围: 不详
+- id: 百虎楼
+  type: Organization
+  name: 百虎楼
+  aliases: []
+  description: 诺岚山所属的组织，与三斧山组织对立。
+  attributes:
+    实力范围: 不详
 
-  - id: 沧澜星
-    type: Location
-    name: 沧澜星
-    aliases: []
-    description: 罗峰等人参与冒险的地方。
+- id: 沧澜星
+  type: Location
+  name: 沧澜星
+  aliases: []
+  description: 罗峰等人参与冒险的地方。
 
 items:
-  - id: 宽柄战刀
-    type: Item
-    name: 宽柄战刀
-    aliases: []
-    description: 罗峰从界中界的宝物中兑换的一件五阶原力兵器。
-    attributes:
-      品级: 五阶
-      功能: 攻击
+- id: 宽柄战刀
+  type: Item
+  name: 宽柄战刀
+  aliases: []
+  description: 罗峰从界中界的宝物中兑换的一件五阶原力兵器。
+  attributes:
+    品级: 五阶
+    功能: 攻击
 
 relationships:
-  - id: rofeng_to_no_lan_shan
-    type: Enemy
-    description: 罗峰与诺岚山之间存在敌意。
+- id: rofeng_to_no_lan_shan
+  type: Enemy
+  description: 罗峰与诺岚山之间存在敌意。
 
 events:
-  - id: 冒险者大军撤离
-    type: Event
-    name: 冒险者大军撤离
-    description: 冒险者大军从沧澜星撤离，众多冒险者领取宝物。
-    attributes:
-      时间: 文本中未明确时间
+- id: 冒险者大军撤离
+  type: Event
+  name: 冒险者大军撤离
+  description: 冒险者大军从沧澜星撤离，众多冒险者领取宝物。
+  attributes:
+    时间: 文本中未明确时间
 
 dialogues:
-  - id: rofeng_meets_no_lan_shan
-    type: Dialogue
-    name: 罗峰遇到诺岚山
-    description: "罗峰在军队中见到仇人诺岚山，但被三斧山组织的宇宙级强者阻止。"
-    attributes:
-      对话内容: "你来我们这边干什么？"
+- id: rofeng_meets_no_lan_shan
+  type: Dialogue
+  name: 罗峰遇到诺岚山
+  description: "罗峰在军队中见到仇人诺岚山，但被三斧山组织的宇宙级强者阻止。"
+  attributes:
+    对话内容: "你来我们这边干什么？"
 
-  - id: rofeng_meets_ming_yu
-    type: Dialogue
-    name: 罗峰遇到冥昱大人
-    description: 冥昱接见罗峰一行人，并询问他们的收获。
-    attributes:
-      对话内容: "你们这次在界中界的收获，怎么样？"
+- id: rofeng_meets_ming_yu
+  type: Dialogue
+  name: 罗峰遇到冥昱大人
+  description: 冥昱接见罗峰一行人，并询问他们的收获。
+  attributes:
+    对话内容: "你们这次在界中界的收获，怎么样？"
 
 timeline:
-  - id: rofeng_encounters_no_lan_shan
-    type: Timeline
-    name: 罗峰遇到诺岚山
-    description: 罗峰在撤离的冒险者大军中遇见仇人诺岚山。
-    attributes:
-      时间: 文本未具体说明
+- id: rofeng_encounters_no_lan_shan
+  type: Timeline
+  name: 罗峰遇到诺岚山
+  description: 罗峰在撤离的冒险者大军中遇见仇人诺岚山。
+  attributes:
+    时间: 文本未具体说明
 
 mysteries:
-  - id: rofeng_and_no_lan_shan_fate
-    type: Mystery
-    name: 罗峰和诺岚园山的命运未知
-    description: 罗峰能否找到机会解决诺岚山，二人之间的敌意是否会化解。
-```
-注意：以上 YAML 数据完全依据给定的文本内容提取与整理。
+- id: rofeng_and_no_lan_shan_fate
+  type: Mystery
+  name: 罗峰和诺岚园山的命运未知
+  description: 罗峰能否找到机会解决诺岚山，二人之间的敌意是否会化解。

@@ -1,88 +1,84 @@
-```yaml
 source:
   id: 第310章至第311章
 
 entities:
-  - id: 御柯*诺岚山
-    type: Character
-    name: 御柯*诺岚山
-    aliases: []
-    description: 当前诺岚山家族的族长，对家族的发展有着不同的看法。
-    attributes:
-      position: 家族现任族长
+- id: 御柯*诺岚山
+  type: Character
+  name: 御柯*诺岚山
+  aliases: []
+  description: 当前诺岚山家族的族长，对家族的发展有着不同的看法。
+  attributes:
+    position: 家族现任族长
 
-  - id: 德温*诺岚山
-    type: Character
-    name: 德温*诺岚山
-    aliases: []
-    description: 老族长，曾经带领诺岚山家族走向辉煌。
-    attributes:
-      position: 家族老族长
-  
-  - id: 未知男子（族祖）
-    type: Character
-    name: 无名氏（族祖）
-    aliases: []
-    description: 诺岚山家族的创立者，当前持有巨斧勋章，对家族的发展有着自己的想法。
-    attributes:
-      position: 家族创始人
-      power_level: 宇宙级九阶
+- id: 德温*诺岚山
+  type: Character
+  name: 德温*诺岚山
+  aliases: []
+  description: 老族长，曾经带领诺岚山家族走向辉煌。
+  attributes:
+    position: 家族老族长
 
-  - id: 普拉
-    type: Character
-    name: 普拉
-    aliases: []
-    description: 御柯*诺岚山的亲传弟子，负责指挥舰队。
-    attributes:
-      position: 舰队指挥官
-  
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: [罗氏家族后代]
-    description: 地球人类英雄，成功抵御了诺岚山家族的入侵。
-    attributes:
-      power_level: 宇宙级一阶
+- id: 未知男子（族祖）
+  type: Character
+  name: 无名氏（族祖）
+  aliases: []
+  description: 诺岚山家族的创立者，当前持有巨斧勋章，对家族的发展有着自己的想法。
+  attributes:
+    position: 家族创始人
+    power_level: 宇宙级九阶
+
+- id: 普拉
+  type: Character
+  name: 普拉
+  aliases: []
+  description: 御柯*诺岚山的亲传弟子，负责指挥舰队。
+  attributes:
+    position: 舰队指挥官
+
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: [ 罗氏家族后代 ]
+  description: 地球人类英雄，成功抵御了诺岚山家族的入侵。
+  attributes:
+    power_level: 宇宙级一阶
 
 organizations:
-  - id: 诺岚山家族
-    type: Organization
-    name: 诺岚山家族
-    aliases: []
-    description: 拥有强大实力和广阔领土的宇宙势力，曾经试图侵略地球。
-    
+- id: 诺岚山家族
+  type: Organization
+  name: 诺岚山家族
+  aliases: []
+  description: 拥有强大实力和广阔领土的宇宙势力，曾经试图侵略地球。
+
 items:
-  - id: 巨斧勋章
-    type: Item
-    name: 巨斧勋章
-    aliases: []
-    description: 宇宙级最强战士的荣誉象征，通过巨斧斗武场获得。
+- id: 巨斧勋章
+  type: Item
+  name: 巨斧勋章
+  aliases: []
+  description: 宇宙级最强战士的荣誉象征，通过巨斧斗武场获得。
 
 locations:
-  - id: 地球
-    type: Location
-    name: 地球
-    aliases: []
-    description: 被诺岚山家族入侵，但最终得以自由。
-    
+- id: 地球
+  type: Location
+  name: 地球
+  aliases: []
+  description: 被诺岚山家族入侵，但最终得以自由。
+
 events:
-  - id: 地球抵御入侵事件
-    type: Event
-    name: 地球抵御入侵事件
-    description: 罗峰等人成功击退了诺岚山家族的入侵，保护了地球。
+- id: 地球抵御入侵事件
+  type: Event
+  name: 地球抵御入侵事件
+  description: 罗峰等人成功击退了诺岚山家族的入侵，保护了地球。
 
 dialogues:
-  - speaker_id: 未知男子（族祖）
-    listener_ids: [御柯*诺岚山, 德温*诺岚山]
-    content: "家族又算什么，当年我白手起家，创造出家族来！将来照样能创造！最重要的是实力！是实力，你们明白吗？"
+- speaker_id: 未知男子（族祖）
+  listener_ids: [ 御柯*诺岚山, 德温*诺岚山 ]
+  content: "家族又算什么，当年我白手起家，创造出家族来！将来照样能创造！最重要的是实力！是实力，你们明白吗？"
 
 timeline:
-  - event_id: 地球抵御入侵事件
-    time: 罗峰等人得知诺岚山家族即将到达消息后
+- event_id: 地球抵御入侵事件
+  time: 罗峰等人得知诺岚山家族即将到达消息后
 
 mysteries:
-  - id: 家族未来走向
-    description: 在未知男子（族祖）的强烈反对下，诺岚山家族未来的走向充满不确定性。
-```
-
-以上是根据提供的文本内容提取出的主要人物、组织、物品和事件等信息。请注意，上述YAML格式仅包含原文中明确出现的信息，并没有进行推测或总结剧情。
+- id: 家族未来走向
+  description: 在未知男子（族祖）的强烈反对下，诺岚山家族未来的走向充满不确定性。

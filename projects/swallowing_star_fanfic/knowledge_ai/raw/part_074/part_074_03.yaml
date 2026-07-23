@@ -1,68 +1,66 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: rofei
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 拥有九幽分身的强者，准备离开人类疆域探险。
-    attributes:
-      - 实力强大
-      - 谦逊恭敬
-      - 面对危险时冷静
+- id: rofei
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 拥有九幽分身的强者，准备离开人类疆域探险。
+  attributes:
+  - 实力强大
+  - 谦逊恭敬
+  - 面对危险时冷静
 
-  - id: zhengyanzunzhe
-    type: character
-    name: 真衍尊者
-    aliases: []
-    description: 罗峰的老师，宇宙霸主之一，性格直爽。
-    attributes:
-      - 直率坦诚
-      - 强烈保护学生
+- id: zhengyanzunzhe
+  type: character
+  name: 真衍尊者
+  aliases: []
+  description: 罗峰的老师，宇宙霸主之一，性格直爽。
+  attributes:
+  - 直率坦诚
+  - 强烈保护学生
 
-  - id: hundunchengzhu
-    type: character
-    name: 混沌城主
-    aliases: []
-    description: 罗峰的另一位老师，负责整个人类大局。
-    attributes:
-      - 客观公正
-      - 为族群着想
+- id: hundunchengzhu
+  type: character
+  name: 混沌城主
+  aliases: []
+  description: 罗峰的另一位老师，负责整个人类大局。
+  attributes:
+  - 客观公正
+  - 为族群着想
 
 relationships:
-  - entity1_id: rofei
-    entity2_id: zhengyanzunzhe
-    type: 师徒关系
-  - entity1_id: rofei
-    entity2_id: hundunchengzhu
-    type: 师徒关系
+- entity1_id: rofei
+  entity2_id: zhengyanzunzhe
+  type: 师徒关系
+- entity1_id: rofei
+  entity2_id: hundunchengzhu
+  type: 师徒关系
 
 events:
-  - id: rouzhongxiangjiedaofan
-    name: 拜见真衍尊者
-    description: 罗峰向老师汇报即将离开人类疆域。
-    timeline: []
+- id: rouzhongxiangjiedaofan
+  name: 拜见真衍尊者
+  description: 罗峰向老师汇报即将离开人类疆域。
+  timeline: []
 
-  - id: rouzhongxiangjiehundunchengzhu
-    name: 拜见混沌城主
-    description: 向另一位老师说明自己将要离开的情况。
-    timeline: []
+- id: rouzhongxiangjiehundunchengzhu
+  name: 拜见混沌城主
+  description: 向另一位老师说明自己将要离开的情况。
+  timeline: []
 
 dialogues:
-  - speaker_id: rofei
-    listener_id: zhengyanzunzhe
-    content: "弟子即将离开人类疆域出去一趟。若是不出弟子所料，怕是会有一场腥风血雨！老师是弟子的老师，弟子怕给老师带来一些麻烦，这三件至宝也能帮助老师，万望老师别推却。"
-  - speaker_id: hundunchengzhu
-    listener_id: rofei
-    content: "你已不是弱者，什么决定都该你自己来做。只要你记住，你不单单代表你自己，还代表你的家人，你地球人一脉。记住这些，就够了。"
+- speaker_id: rofei
+  listener_id: zhengyanzunzhe
+  content: "弟子即将离开人类疆域出去一趟。若是不出弟子所料，怕是会有一场腥风血雨！老师是弟子的老师，弟子怕给老师带来一些麻烦，这三件至宝也能帮助老师，万望老师别推却。"
+- speaker_id: hundunchengzhu
+  listener_id: rofei
+  content: "你已不是弱者，什么决定都该你自己来做。只要你记住，你不单单代表你自己，还代表你的家人，你地球人一脉。记住这些，就够了。"
 
 timeline:
-  - event_id: rouzhongxiangjiedaofan
-    time: 没有具体时间
+- event_id: rouzhongxiangjiedaofan
+  time: 没有具体时间
 
 mysteries:
-  - id: chuyuqijingji
-    description: 罗峰离开人类疆域后将前往何处探险。
-```
+- id: chuyuqijingji
+  description: 罗峰离开人类疆域后将前往何处探险。

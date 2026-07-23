@@ -1,107 +1,105 @@
-```yaml
 source:
   id: 文本来源
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 行星级强者，极限武馆新任巡察使。
-    attributes:
-      实力: 超越战神的存在
-      年龄: 不详
-      身份: 议员、极限武馆第六巡察使
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 行星级强者，极限武馆新任巡察使。
+  attributes:
+    实力: 超越战神的存在
+    年龄: 不详
+    身份: 议员、极限武馆第六巡察使
 
-  - id: 罗洪国
-    type: Character
-    name: 罗洪国
-    aliases: []
-    description: 罗峰的父亲，身体虚弱。
-    attributes:
-      年龄: 不详
+- id: 罗洪国
+  type: Character
+  name: 罗洪国
+  aliases: []
+  description: 罗峰的父亲，身体虚弱。
+  attributes:
+    年龄: 不详
 
-  - id: 李耀夫妇
-    type: Character
-    name: 李耀夫妇
-    aliases: []
-    description: 曾伤害罗家人的敌人。
+- id: 李耀夫妇
+  type: Character
+  name: 李耀夫妇
+  aliases: []
+  description: 曾伤害罗家人的敌人。
 
-  - id: 雷神
-    type: Character
-    name: 雷神
-    aliases: []
-    description: 洪的战友，实力强大。
-    attributes:
-      实力: 强大
+- id: 雷神
+  type: Character
+  name: 雷神
+  aliases: []
+  description: 洪的战友，实力强大。
+  attributes:
+    实力: 强大
 
-  - id: 洪
-    type: Character
-    name: 洪
-    aliases: []
-    description: 极限武馆第五巡察使，行星级强者。
-    attributes:
-      实力: 在行星级中无敌的存在
+- id: 洪
+  type: Character
+  name: 洪
+  aliases: []
+  description: 极限武馆第五巡察使，行星级强者。
+  attributes:
+    实力: 在行星级中无敌的存在
 
-  - id: 摩云藤
-    type: Item
-    name: 摩云藤
-    aliases: []
-    description: 非常珍贵的草木之灵。
+- id: 摩云藤
+  type: Item
+  name: 摩云藤
+  aliases: []
+  description: 非常珍贵的草木之灵。
 
 locations:
-  - id: 扬州城明月小区
-    type: Location
-    name: 扬州城明月小区
-    description: 罗峰家所在的地方。
-    attributes:
-      地址: 扬州
+- id: 扬州城明月小区
+  type: Location
+  name: 扬州城明月小区
+  description: 罗峰家所在的地方。
+  attributes:
+    地址: 扬州
 
 organizations:
-  - id: 极限武馆
-    type: Organization
-    name: 极限武馆
-    aliases: []
-    description: 强者聚集地，设有巡察使制度。
+- id: 极限武馆
+  type: Organization
+  name: 极限武馆
+  aliases: []
+  description: 强者聚集地，设有巡察使制度。
 
 abilities:
-  - id: 遁天梭第一形态
-    type: Ability
-    name: 遁天梭第一形态
-    aliases: []
-    description: 罗峰修炼的秘法。
-    attributes:
-      境界: 第一、第二、第三层
+- id: 遁天梭第一形态
+  type: Ability
+  name: 遁天梭第一形态
+  aliases: []
+  description: 罗峰修炼的秘法。
+  attributes:
+    境界: 第一、第二、第三层
 
 events:
-  - id: 接任巡察使大典
-    type: Event
-    name: 接任巡察使大典
-    description: 罗峰接任极限武馆第六巡察使的大典。
-    timeline: 1月5号
+- id: 接任巡察使大典
+  type: Event
+  name: 接任巡察使大典
+  description: 罗峰接任极限武馆第六巡察使的大典。
+  timeline: 1月5号
 
 relationships:
-  - id: 父子关系
-    source_id: 罗洪国
-    target_id: 罗峰
-    type: Relationship
-    attributes:
-      关系类型: 父亲与儿子
+- id: 父子关系
+  source_id: 罗洪国
+  target_id: 罗峰
+  type: Relationship
+  attributes:
+    关系类型: 父亲与儿子
 
 dialogues:
-  - speaker: 雷神
-    listener: 洪
-    content: "雾岛出现一个摩云藤，这次又冒出了一头我们从未见过的厉害怪兽，肯定是因为雾岛有宝物，所以才吸引那么多怪兽。"
-    context: 谈论关于雾岛的猜测和好处。
+- speaker: 雷神
+  listener: 洪
+  content: "雾岛出现一个摩云藤，这次又冒出了一头我们从未见过的厉害怪兽，肯定是因为雾岛有宝物，所以才吸引那么多怪兽。"
+  context: 谈论关于雾岛的猜测和好处。
 
 timeline:
-  - date: 1月2号
-    event: 失败学习《遁天》第一形态第二层。
-  - date: 1月5号
-    event: 罗峰接任极限武馆第六巡察使大典的日子。
+- date: 1月2号
+  event: 失败学习《遁天》第一形态第二层。
+- date: 1月5号
+  event: 罗峰接任极限武馆第六巡察使大典的日子。
 
 mysteries:
-  - id: 雾岛的秘密
-    type: Mystery
-    description: 摩云藤和未知怪兽皇者的出现是否与雾岛的宝物有关。
-```
+- id: 雾岛的秘密
+  type: Mystery
+  description: 摩云藤和未知怪兽皇者的出现是否与雾岛的宝物有关。

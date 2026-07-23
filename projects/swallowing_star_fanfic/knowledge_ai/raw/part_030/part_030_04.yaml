@@ -1,82 +1,80 @@
-```yaml
 source:
   id: "text"
 
 entities:
-  - id: "罗峰"
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      来自乾巫宇宙国的天才，擅长精神念师掌控者，拥有暗云梭和衍神兵。
-    attributes:
-      实力: 强大不朽
-      特点: 身体精瘦、灵活运用多种秘法
+- id: "罗峰"
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    来自乾巫宇宙国的天才，擅长精神念师掌控者，拥有暗云梭和衍神兵。
+  attributes:
+    实力: 强大不朽
+    特点: 身体精瘦、灵活运用多种秘法
 
-  - id: "陇云"
-    type: Character
-    name: 陇云
-    aliases: []
-    description: >
-      来自澜霆宇宙国，低调且实力强大的天才。擅长使用巨斧战斗。
-    attributes:
-      实力: 强大不朽
-      特点: 厚重战衣、牛角战盔、土之本源法则
+- id: "陇云"
+  type: Character
+  name: 陇云
+  aliases: []
+  description: >
+    来自澜霆宇宙国，低调且实力强大的天才。擅长使用巨斧战斗。
+  attributes:
+    实力: 强大不朽
+    特点: 厚重战衣、牛角战盔、土之本源法则
 
-  - id: "戎钧"
-    type: Character
-    name: 戎钧
-    aliases: []
-    description: >
-      来自乾巫宇宙国的野人青年，创造秘法并擅长使用刀法。
-    attributes:
-      实力: 强大不朽
-      特点: 自创秘法、土和空间本源法则
+- id: "戎钧"
+  type: Character
+  name: 戎钧
+  aliases: []
+  description: >
+    来自乾巫宇宙国的野人青年，创造秘法并擅长使用刀法。
+  attributes:
+    实力: 强大不朽
+    特点: 自创秘法、土和空间本源法则
 
-  - id: "伯兰"
-    type: Character
-    name: 死神伯兰
-    aliases: []
-    description: >
-      参与战斗的强者，实力强大。
-    attributes:
-      实力: 强大不朽
-      特点: 风和空间本源法则
+- id: "伯兰"
+  type: Character
+  name: 死神伯兰
+  aliases: []
+  description: >
+    参与战斗的强者，实力强大。
+  attributes:
+    实力: 强大不朽
+    特点: 风和空间本源法则
 
-  - id: "中央广场"
-    type: Location
-    name: 中央广场
-    aliases: []
-    description: >
-      宇宙人类族群举行巅峰天才战的地方，拥有五座精美奢华的擂台。
+- id: "中央广场"
+  type: Location
+  name: 中央广场
+  aliases: []
+  description: >
+    宇宙人类族群举行巅峰天才战的地方，拥有五座精美奢华的擂台。
 
 relationships:
-  - entity1_id: "罗峰"
-    entity2_id: "陇云"
-    type: 对手
+- entity1_id: "罗峰"
+  entity2_id: "陇云"
+  type: 对手
 
 events:
-  - id: "巅峰对决开始"
-    type: Event
-    description: >
-      十名强大不朽青年在中央广场展开对决，其中一场是罗峰对战陇云。
-    timeline: 半个小时后
+- id: "巅峰对决开始"
+  type: Event
+  description: >
+    十名强大不朽青年在中央广场展开对决，其中一场是罗峰对战陇云。
+  timeline: 半个小时后
 
 dialogues:
-  - speaker_id: "戎钧"
-    listener_ids: ["罗峰"]
-    content: >
-      “小心陇云。”据我观察和之前搜集资料得知，陇云只感悟一种本源法则，土之本源法则，防御极强。
-    type: 原力传音
+- speaker_id: "戎钧"
+  listener_ids: [ "罗峰" ]
+  content: >
+    “小心陇云。”据我观察和之前搜集资料得知，陇云只感悟一种本源法则，土之本源法则，防御极强。
+  type: 原力传音
 
-  - speaker_id: "罗峰"
-    listener_ids: ["戎钧"]
-    content: >
-      “谢了。”
-    type: 原力传音
+- speaker_id: "罗峰"
+  listener_ids: [ "戎钧" ]
+  content: >
+    “谢了。”
+  type: 原力传音
 
 mysteries:
-  - id: "陇云的实力来源"
-    description: >
-      陇云仅凭土之本源法则就能冲击前十，这显示他对这一领域的深度感悟。
-```
+- id: "陇云的实力来源"
+  description: >
+    陇云仅凭土之本源法则就能冲击前十，这显示他对这一领域的深度感悟。

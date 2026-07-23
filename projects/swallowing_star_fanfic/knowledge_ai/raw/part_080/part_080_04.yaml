@@ -1,102 +1,100 @@
-```yaml
 source:
   id: 第1216章急，急，急
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 新生代原始宇宙的年轻强者，拥有弑吴羽翼等强大宝物。
-    attributes:
-      - 实力强
-      - 极度自信
-      - 勇敢无畏
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 新生代原始宇宙的年轻强者，拥有弑吴羽翼等强大宝物。
+  attributes:
+  - 实力强
+  - 极度自信
+  - 勇敢无畏
 
-  - id: 五浑之主
-    type: Character
-    name: 五浑之主
-    aliases: []
-    description: 新生代原始宇宙中的顶尖强者，领域类至宝五兽大灭绝的掌控者。
-    attributes:
-      - 实力强大
-      - 冷静从容
+- id: 五浑之主
+  type: Character
+  name: 五浑之主
+  aliases: []
+  description: 新生代原始宇宙中的顶尖强者，领域类至宝五兽大灭绝的掌控者。
+  attributes:
+  - 实力强大
+  - 冷静从容
 
-  - id: 究箭之主
-    type: Character
-    name: 究箭之主
-    aliases: []
-    description: 参与和罗峰战斗的宇宙之主之一，实力未知。
-    attributes:
-      - 担心逃跑
+- id: 究箭之主
+  type: Character
+  name: 究箭之主
+  aliases: []
+  description: 参与和罗峰战斗的宇宙之主之一，实力未知。
+  attributes:
+  - 担心逃跑
 
-  - id: 金色独角蜥蜴
-    type: Character
-    name: 金色独角蜥蜴
-    aliases: []
-    description: 新生代原始宇宙中的强者，具有一定的智慧和力量。
-    attributes:
-      - 畏惧五浑之主
-      - 惊恐逃跑
+- id: 金色独角蜥蜴
+  type: Character
+  name: 金色独角蜥蜴
+  aliases: []
+  description: 新生代原始宇宙中的强者，具有一定的智慧和力量。
+  attributes:
+  - 畏惧五浑之主
+  - 惊恐逃跑
 
-  - id: 水波狱
-    type: Item
-    name: 水波狱
-    aliases: []
-    description: 属于领域类至宝，由五浑之主操控。
+- id: 水波狱
+  type: Item
+  name: 水波狱
+  aliases: []
+  description: 属于领域类至宝，由五浑之主操控。
 
-  - id: 熔岩魔神
-    type: Character
-    name: 熔岩魔神
-    aliases: []
-    description: 原始宇宙中的强大存在，体型庞大，力量惊人的生物。
-    attributes:
-      - 力量极大
+- id: 熔岩魔神
+  type: Character
+  name: 熔岩魔神
+  aliases: []
+  description: 原始宇宙中的强大存在，体型庞大，力量惊人的生物。
+  attributes:
+  - 力量极大
 
 relationships:
 
 events:
-  - id: 水波狱的攻击
-    type: Event
-    description: 罗峰面对五浑之主操控的水波狱进行了激烈的抵抗。
+- id: 水波狱的攻击
+  type: Event
+  description: 罗峰面对五浑之主操控的水波狱进行了激烈的抵抗。
 
-  - id: 微型宇宙与金色国度的反击
-    type: Event
-    description: 罗峰利用微型宇宙和弑吴羽翼的力量，成功抵御了五浑之主的攻击。
+- id: 微型宇宙与金色国度的反击
+  type: Event
+  description: 罗峰利用微型宇宙和弑吴羽翼的力量，成功抵御了五浑之主的攻击。
 
-  - id: 水波狱被驱散
-    type: Event
-    description: 罗峰突然发力，使得水波狱瞬间消失无踪。
+- id: 水波狱被驱散
+  type: Event
+  description: 罗峰突然发力，使得水波狱瞬间消失无踪。
 
-  - id: 五浑界和水波狱的第二次攻击
-    type: Event
-    description: 五浑之主再次利用五兽大灭绝的力量发动了更为猛烈的攻势。
+- id: 五浑界和水波狱的第二次攻击
+  type: Event
+  description: 五浑之主再次利用五兽大灭绝的力量发动了更为猛烈的攻势。
 
-  - id: 溶岩魔神的出现与战斗
-    type: Event
-    description: 罗峰召唤熔岩魔神，对五浑之主等敌人发起致命反击。
+- id: 溶岩魔神的出现与战斗
+  type: Event
+  description: 罗峰召唤熔岩魔神，对五浑之主等敌人发起致命反击。
 
 dialogues:
-  - speaker: 五浑之主
-    content: "交出羽翼！我再给你最后一次机会。"
+- speaker: 五浑之主
+  content: "交出羽翼！我再给你最后一次机会。"
 
-  - speaker: 罗峰
-    content: "要打就打，别废话。"
+- speaker: 罗峰
+  content: "要打就打，别废话。"
 
-  - speaker: 五浑之主
-    content: "那人类真是走运，如果不是这熔岩魔神出现，我定要让他尝尝我的五兽大灭绝。"
+- speaker: 五浑之主
+  content: "那人类真是走运，如果不是这熔岩魔神出现，我定要让他尝尝我的五兽大灭绝。"
 
 timeline:
-  - event: 罗峰和水波狱的第一次交锋
-    time: 前期
+- event: 罗峰和水波狱的第一次交锋
+  time: 前期
 
-  - event: 水波狱被驱散
-    time: 中期
+- event: 水波狱被驱散
+  time: 中期
 
-  - event: 第二次攻击与反击
-    time: 后期
+- event: 第二次攻击与反击
+  time: 后期
 
 mysteries:
-  - question: 罗峰为何能突然增强力量？
-    answer: 未明确说明，但可能是因为他完全爆发了弑吴羽翼的威能。
-```
+- question: 罗峰为何能突然增强力量？
+  answer: 未明确说明，但可能是因为他完全爆发了弑吴羽翼的威能。

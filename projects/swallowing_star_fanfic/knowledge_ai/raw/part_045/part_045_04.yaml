@@ -1,92 +1,90 @@
-```yaml
 source:
   id: you神殿内
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 人类天才，拥有惊人的实力进步速度。
-    attributes:
-      实力: 达到通天桥第八层以上
-      身份: 监察特使
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 人类天才，拥有惊人的实力进步速度。
+  attributes:
+    实力: 达到通天桥第八层以上
+    身份: 监察特使
 
-  - id: 底牀
-    type: Character
-    name: 底牀
-    aliases: []
-    description: 金角族域主级九阶天才，被罗峰击败。
-    attributes:
-      实力: 法则感悟达到通天桥第九层能力
-      身份: 金角族天才
+- id: 底牀
+  type: Character
+  name: 底牀
+  aliases: []
+  description: 金角族域主级九阶天才，被罗峰击败。
+  attributes:
+    实力: 法则感悟达到通天桥第九层能力
+    身份: 金角族天才
 
-  - id: no.9
-    type: Character
-    name: 罗峰（编号）
-    aliases: []
-    description: 在虫族眼中的重要目标，被列为no.3。
-    attributes:
-      排名: 原始秘境候选者
-      实力: 法则感悟超过之前宇宙级天才最强者
+- id: no.9
+  type: Character
+  name: 罗峰（编号）
+  aliases: []
+  description: 在虫族眼中的重要目标，被列为no.3。
+  attributes:
+    排名: 原始秘境候选者
+    实力: 法则感悟超过之前宇宙级天才最强者
 
-  - id: 虫族母巢
-    type: Location
-    name: 虫族母巢
-    aliases: []
-    description: 神殿最高层的虫族建筑。
-    attributes:
-      高度: 十余公里
-      地点: 最高层中央
+- id: 虫族母巢
+  type: Location
+  name: 虫族母巢
+  aliases: []
+  description: 神殿最高层的虫族建筑。
+  attributes:
+    高度: 十余公里
+    地点: 最高层中央
 
-  - id: 金角族群拉斯奥世界
-    type: Location
-    name: 拉斯奥世界
-    aliases: []
-    description: 人类虚拟宇宙公司中的一个隐藏地点。
-    attributes:
-      归属: 金角族群
-      特殊性: 秘密保护地
+- id: 金角族群拉斯奥世界
+  type: Location
+  name: 拉斯奥世界
+  aliases: []
+  description: 人类虚拟宇宙公司中的一个隐藏地点。
+  attributes:
+    归属: 金角族群
+    特殊性: 秘密保护地
 
-  - id: 元老神宫
-    type: Location
-    name: 元老神宫
-    aliases: []
-    description: 位于拉斯奥世界的神秘建筑，罗峰需要拜访的地方。
-    attributes:
-      地点: 拉斯奥世界圣城内
+- id: 元老神宫
+  type: Location
+  name: 元老神宫
+  aliases: []
+  description: 位于拉斯奥世界的神秘建筑，罗峰需要拜访的地方。
+  attributes:
+    地点: 拉斯奥世界圣城内
 
 organizations:
-  - id: 虫族
-    type: Civilization
-    name: 虫族
-    aliases: []
-    description: 宇宙中与人类对立的种族，拥有强大的灵魂侵袭能力。
-    attributes:
-      目标: 罗峰等人类天才
-      动作: 提升罗峰目标级别
+- id: 虫族
+  type: Civilization
+  name: 虫族
+  aliases: []
+  description: 宇宙中与人类对立的种族，拥有强大的灵魂侵袭能力。
+  attributes:
+    目标: 罗峰等人类天才
+    动作: 提升罗峰目标级别
 
-  - id: 金角族群
-    type: Species
-    name: 金角族群
-    aliases: []
-    description: 人类的附庸族群，居住在拉斯奥世界。
-    attributes:
-      地点: 拉斯奥世界
-      特殊性: 隐藏保护地
+- id: 金角族群
+  type: Species
+  name: 金角族群
+  aliases: []
+  description: 人类的附庸族群，居住在拉斯奥世界。
+  attributes:
+    地点: 拉斯奥世界
+    特殊性: 隐藏保护地
 
 dialogues:
-  - speaker: 主人
-    content: "罗峰正在拉斯奥世界的圣城中。"
-    context: 虫族与人类的暗中较量
+- speaker: 主人
+  content: "罗峰正在拉斯奥世界的圣城中。"
+  context: 虫族与人类的暗中较量
 
-  - speaker: no.9
-    content: "我来拜访元老神宫，长老可以帮我出面吗？"
+- speaker: no.9
+  content: "我来拜访元老神宫，长老可以帮我出面吗？"
 
 timeline:
-  - 时间点: 罗峰击败底牀后不久
-    描述: 虫族提升罗峰为no.3目标，并命令暗杀
+- 时间点: 罗峰击败底牀后不久
+  描述: 虫族提升罗峰为no.3目标，并命令暗杀
 
 mysteries:
-  - 内容: 在拉斯奥世界中隐藏的虫族特工如何行动？
-```
+- 内容: 在拉斯奥世界中隐藏的虫族特工如何行动？

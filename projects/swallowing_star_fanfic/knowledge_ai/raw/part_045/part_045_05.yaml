@@ -1,126 +1,124 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 刚刚踏入界主级，拥有体内世界和巴巴塔辅助的绝世天才。
-    attributes:
-      实力: 界主级
-      特殊能力: 体内世界、辅助机器人巴巴塔
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 刚刚踏入界主级，拥有体内世界和巴巴塔辅助的绝世天才。
+  attributes:
+    实力: 界主级
+    特殊能力: 体内世界、辅助机器人巴巴塔
 
-  - id: 迪伦
-    type: Character
-    name: 迪伦
-    aliases: []
-    description: 守护罗峰的人类界主之一。
-    attributes:
-      实力: 界主级
+- id: 迪伦
+  type: Character
+  name: 迪伦
+  aliases: []
+  description: 守护罗峰的人类界主之一。
+  attributes:
+    实力: 界主级
 
-  - id: 寺番祁
-    type: Character
-    name: 寺番祁
-    aliases: []
-    description: 守护罗峰的人类界主之一，对巨型兽神雕像进行过研究。
-    attributes:
-      实力: 界主级
+- id: 寺番祁
+  type: Character
+  name: 寺番祁
+  aliases: []
+  description: 守护罗峰的人类界主之一，对巨型兽神雕像进行过研究。
+  attributes:
+    实力: 界主级
 
-  - id: 卡什那
-    type: Character
-    name: 卡什那
-    aliases: []
-    description: 寺番祁的弟子，与寺番祁一起守护罗峰。
-    attributes:
-      实力: 界主级以下
+- id: 卡什那
+  type: Character
+  name: 卡什那
+  aliases: []
+  description: 寺番祁的弟子，与寺番祁一起守护罗峰。
+  attributes:
+    实力: 界主级以下
 
-  - id: 克布长老
-    type: Character
-    name: 克布长老
-    aliases: []
-    description: 来自兽神峡谷的好友，拜访后离开。
-    attributes:
-      身份: 长老
+- id: 克布长老
+  type: Character
+  name: 克布长老
+  aliases: []
+  description: 来自兽神峡谷的好友，拜访后离开。
+  attributes:
+    身份: 长老
 
-  - id: 巴巴塔
-    type: Item
-    name: 巴巴塔
-    aliases: [辅助机器人]
-    description: 协助罗峰进行各种计算和投影的智能机器人。
-    attributes:
-      功能: 计算、投影
+- id: 巴巴塔
+  type: Item
+  name: 巴巴塔
+  aliases: [ 辅助机器人 ]
+  description: 协助罗峰进行各种计算和投影的智能机器人。
+  attributes:
+    功能: 计算、投影
 
-  - id: 内体世界
-    type: Location
-    name: 内体世界
-    aliases: []
-    description: 罗峰的身体内部空间，可以容纳陨墨星号飞船。
+- id: 内体世界
+  type: Location
+  name: 内体世界
+  aliases: []
+  description: 罗峰的身体内部空间，可以容纳陨墨星号飞船。
 
-  - id: 巨型兽神雕像
-    type: Item
-    name: 巨型兽神雕像
-    aliases: [巨型雕像]
-    description: 长达上万公里的沉睡状态兽神雕像。
-    attributes:
-      特殊效果: 强大威压
+- id: 巨型兽神雕像
+  type: Item
+  name: 巨型兽神雕像
+  aliases: [ 巨型雕像 ]
+  description: 长达上万公里的沉睡状态兽神雕像。
+  attributes:
+    特殊效果: 强大威压
 
-  - id: 小型兽神雕像
-    type: Item
-    name: 小型兽神雕像
-    aliases: []
-    description: 四蹄站立，独角昂然刺天的小型兽神雕像。
-    attributes:
-      特殊效果: 活生生的生物感
+- id: 小型兽神雕像
+  type: Item
+  name: 小型兽神雕像
+  aliases: []
+  description: 四蹄站立，独角昂然刺天的小型兽神雕像。
+  attributes:
+    特殊效果: 活生生的生物感
 
-  - id: 金角巨兽
-    type: Species
-    name: 金角巨兽
-    aliases: [山脉般的巨兽]
-    description: 非常巨大的类兽族，可以进行雕刻工作。
-    attributes:
-      特殊能力: 大型雕刻
-      实力: 界主级以上
+- id: 金角巨兽
+  type: Species
+  name: 金角巨兽
+  aliases: [ 山脉般的巨兽 ]
+  description: 非常巨大的类兽族，可以进行雕刻工作。
+  attributes:
+    特殊能力: 大型雕刻
+    实力: 界主级以上
 
 relationships:
-  - id: 守护关系
-    type: Relationship
-    participants:
-      - 罗峰
-      - 迪伦
-      - 寺番祁
-      - 卡什那
-    description: 迪伦、寺番祁和卡什那守护罗峰。
+- id: 守护关系
+  type: Relationship
+  participants:
+  - 罗峰
+  - 迪伦
+  - 寺番祁
+  - 卡什那
+  description: 迪伦、寺番祁和卡什那守护罗峰。
 
 events:
-  - id: 沉思研究
-    type: Event
-    name: 沉思研究巨型兽神雕像
-    participants:
-      - 罗峰
-    timeline: 三个月内，罗峰在巨型兽神雕像前沉思。
-    description: 研究巨型兽神雕像的威压来源和意义。
+- id: 沉思研究
+  type: Event
+  name: 沉思研究巨型兽神雕像
+  participants:
+  - 罗峰
+  timeline: 三个月内，罗峰在巨型兽神雕像前沉思。
+  description: 研究巨型兽神雕像的威压来源和意义。
 
 dialogues:
-  - id: 长呼一口气
-    type: Dialogue
-    speaker: 罗峰
-    text: "没什么。"
-    context: 罗峰在思考后长叹一口气，迪伦、寺番祁询问是否需要帮助。
-    timeline: 第三个月末。
+- id: 长呼一口气
+  type: Dialogue
+  speaker: 罗峰
+  text: "没什么。"
+  context: 罗峰在思考后长叹一口气，迪伦、寺番祁询问是否需要帮助。
+  timeline: 第三个月末。
 
 timeline:
-  - id: 沉思开始
-    event_id: 沉思研究
-    time_marker: 开始沉思
+- id: 沉思开始
+  event_id: 沉思研究
+  time_marker: 开始沉思
 
-  - id: 深度研究
-    event_id: 沉思研究
-    time_marker: 研究开始后的三个月内
+- id: 深度研究
+  event_id: 沉思研究
+  time_marker: 研究开始后的三个月内
 
 mysteries:
-  - id: 巨型兽神雕像的秘密
-    type: Mystery
-    description: 关于巨型兽神雕像的威压来源和结构秘密，至今未有人完全理解。
-```
+- id: 巨型兽神雕像的秘密
+  type: Mystery
+  description: 关于巨型兽神雕像的威压来源和结构秘密，至今未有人完全理解。

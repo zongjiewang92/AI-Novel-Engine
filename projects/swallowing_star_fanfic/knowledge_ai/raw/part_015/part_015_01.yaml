@@ -1,140 +1,136 @@
-```yaml
 source:
   id: 第216章-木伢晶争夺
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有黑神套装，能够使用精神念力搜寻和控制物品。
-    attributes:
-      实力: 行星级精神念师
-      能力: 快速搜索地下，无形精神念力操控物品
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有黑神套装，能够使用精神念力搜寻和控制物品。
+  attributes:
+    实力: 行星级精神念师
+    能力: 快速搜索地下，无形精神念力操控物品
 
-  - id: 洪
-    type: Character
-    name: 洪
-    aliases: []
-    description: 极限武馆的馆主，实力强大。
-    attributes:
-      实力: 行星级强者
+- id: 洪
+  type: Character
+  name: 洪
+  aliases: []
+  description: 极限武馆的馆主，实力强大。
+  attributes:
+    实力: 行星级强者
 
-  - id: 雷神
-    type: Character
-    name: 雷神
-    aliases: []
-    description: 获得两颗木伢晶的强大行星级强者。
-    attributes:
-      实力: 行星级强者
+- id: 雷神
+  type: Character
+  name: 雷神
+  aliases: []
+  description: 获得两颗木伢晶的强大行星级强者。
+  attributes:
+    实力: 行星级强者
 
-  - id: 默汉德森
-    type: Character
-    name: 默汉德森
-    aliases: [冰雪大帝]
-    description: 欧盟国的第三议长，实力强大但对罗峰有所顾忌。
-    attributes:
-      实力: 议员强者
+- id: 默汉德森
+  type: Character
+  name: 默汉德森
+  aliases: [ 冰雪大帝 ]
+  description: 欧盟国的第三议长，实力强大但对罗峰有所顾忌。
+  attributes:
+    实力: 议员强者
 
-  - id: 地龙
-    type: Species
-    name: 地龙
-    aliases: []
-    description: 吞食木伢晶后发生变异的地底生物。
+- id: 地龙
+  type: Species
+  name: 地龙
+  aliases: []
+  description: 吞食木伢晶后发生变异的地底生物。
 
-  - id: 第四议长伊斯特
-    type: Character
-    name: 第四议长伊斯特
-    aliases: [伊斯特]
-    description: 拥有行星级精神念师实力的国家代表。
-    attributes:
-      实力: 行星级精神念师
+- id: 第四议长伊斯特
+  type: Character
+  name: 第四议长伊斯特
+  aliases: [ 伊斯特 ]
+  description: 拥有行星级精神念师实力的国家代表。
+  attributes:
+    实力: 行星级精神念师
 
 organizations:
-  - id: 极限武馆
-    type: Organization
-    name: 极限武馆
-    aliases: []
-    description: 培养行星级强者的武馆。
+- id: 极限武馆
+  type: Organization
+  name: 极限武馆
+  aliases: []
+  description: 培养行星级强者的武馆。
 
 items:
-  - id: 木伢晶
-    type: Item
-    name: 木伢晶
-    aliases: [米香味的光点]
-    description: 稀有晶体，具有强大能量，能够帮助生物进化。
-    attributes:
-      特性: 米香味
+- id: 木伢晶
+  type: Item
+  name: 木伢晶
+  aliases: [ 米香味的光点 ]
+  description: 稀有晶体，具有强大能量，能够帮助生物进化。
+  attributes:
+    特性: 米香味
 
 locations:
-  - id: 雾岛
-    type: Location
-    name: 雾岛
-    aliases: []
-    description: 地下洞穴中出现木伢晶的地点。
+- id: 雾岛
+  type: Location
+  name: 雾岛
+  aliases: []
+  description: 地下洞穴中出现木伢晶的地点。
 
 events:
-  - id: 第一枚木伢晶争夺
-    type: Event
-    name: 第一枚木伢晶争夺
-    description: 地龙发现并吞食第一枚木伢晶，随后被洪击杀。
-    attributes:
-      时间: 深夜10:56
+- id: 第一枚木伢晶争夺
+  type: Event
+  name: 第一枚木伢晶争夺
+  description: 地龙发现并吞食第一枚木伢晶，随后被洪击杀。
+  attributes:
+    时间: 深夜10:56
 
-  - id: 第二枚木伢晶争夺
-    type: Event
-    name: 第二枚木伢晶争夺
-    description: 雷神发现第二枚木伢晶并获得。
-    attributes:
-      时间: 深夜11:31
+- id: 第二枚木伢晶争夺
+  type: Event
+  name: 第二枚木伢晶争夺
+  description: 雷神发现第二枚木伢晶并获得。
+  attributes:
+    时间: 深夜11:31
 
-  - id: 第三枚木伢晶争夺
-    type: Event
-    name: 第三枚木伢晶争夺
-    description: 欧盟国一方得到第三枚木伢晶，出现首次死亡事件。
-    attributes:
-      时间: 深夜11:47
+- id: 第三枚木伢晶争夺
+  type: Event
+  name: 第三枚木伢晶争夺
+  description: 欧盟国一方得到第三枚木伢晶，出现首次死亡事件。
+  attributes:
+    时间: 深夜11:47
 
-  - id: 第四枚木伢晶争夺
-    type: Event
-    name: 第四枚木伢晶争夺
-    description: 美利坚一方得到第四枚木伢晶，双方议员强者重伤。
-    attributes:
-      时间: 深夜0:12
+- id: 第四枚木伢晶争夺
+  type: Event
+  name: 第四枚木伢晶争夺
+  description: 美利坚一方得到第四枚木伢晶，双方议员强者重伤。
+  attributes:
+    时间: 深夜0:12
 
-  - id: 第五、六枚木伢晶争夺
-    type: Event
-    name: 第五、六枚木伢晶争夺
-    description: 雷神获得第五和第六颗木伢晶。
-    attributes:
-      时间: 凌晨1:56
+- id: 第五、六枚木伢晶争夺
+  type: Event
+  name: 第五、六枚木伢晶争夺
+  description: 雷神获得第五和第六颗木伢晶。
+  attributes:
+    时间: 凌晨1:56
 
 dialogues:
-  - speaker: 罗峰
-    listener: 洪
-    content: "洪馆主，我先领先一步了。"
-    context: 发现两枚木伢晶后告知洪。
+- speaker: 罗峰
+  listener: 洪
+  content: "洪馆主，我先领先一步了。"
+  context: 发现两枚木伢晶后告知洪。
 
 timeline:
-  - event_id: 第一枚木伢晶争夺
-    time: 深夜10:56
+- event_id: 第一枚木伢晶争夺
+  time: 深夜10:56
 
-  - event_id: 第二枚木伢晶争夺
-    time: 深夜11:31
+- event_id: 第二枚木伢晶争夺
+  time: 深夜11:31
 
-  - event_id: 第三枚木伢晶争夺
-    time: 深夜11:47
+- event_id: 第三枚木伢晶争夺
+  time: 深夜11:47
 
-  - event_id: 第四枚木伢晶争夺
-    time: 深夜0:12
+- event_id: 第四枚木伢晶争夺
+  time: 深夜0:12
 
-  - event_id: 第五、六枚木伢晶争夺
-    time: 凌晨1:56
+- event_id: 第五、六枚木伢晶争夺
+  time: 凌晨1:56
 
 mysteries:
-  - id: 默汉德森的转变
-    type: Mystery
-    description: 冰雪大帝默汉德森在面对罗峰时态度的变化，未解释其原因。
-```
-
-此YAML文件准确提取了原文中提到的关键人物、地点、物品和事件等信息。
+- id: 默汉德森的转变
+  type: Mystery
+  description: 冰雪大帝默汉德森在面对罗峰时态度的变化，未解释其原因。

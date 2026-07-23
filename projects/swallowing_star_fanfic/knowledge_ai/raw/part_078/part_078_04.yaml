@@ -1,86 +1,83 @@
-```yaml
 source:
   id: origin_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有弑吴羽翼，牵丝图碎片等至宝，并且实力强大。
-    attributes:
-      实力: 宇宙之主层次
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有弑吴羽翼，牵丝图碎片等至宝，并且实力强大。
+  attributes:
+    实力: 宇宙之主层次
 
-  - id: 冰峰之主
-    type: Character
-    name: 冰峰之主
-    aliases: []
-    description: 罗峰的师兄，在宇宙海中有一定地位。
-    attributes: []
+- id: 冰峰之主
+  type: Character
+  name: 冰峰之主
+  aliases: []
+  description: 罗峰的师兄，在宇宙海中有一定地位。
+  attributes: []
 
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 给予罗峰进入宇宙海的机会，并评价其实力强大。
-    attributes: []
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 给予罗峰进入宇宙海的机会，并评价其实力强大。
+  attributes: []
 
-  - id: 牵丝图碎片
-    type: Item
-    name: 牵丝图碎片
-    aliases: []
-    description: 罗峰在垣奥秘境中取得的重要物品，用于贡献值的评定。
+- id: 牵丝图碎片
+  type: Item
+  name: 牵丝图碎片
+  aliases: []
+  description: 罗峰在垣奥秘境中取得的重要物品，用于贡献值的评定。
 
-  - id: 弑吴羽翼
-    type: Item
-    name: 弑吴羽翼
-    aliases: [弑吴羽翼部件]
-    description: 老师赠与罗峰的特殊至宝，拥有掌控时空的能力。
-    attributes:
-      威能: 掌控一方时空
+- id: 弑吴羽翼
+  type: Item
+  name: 弑吴羽翼
+  aliases: [ 弑吴羽翼部件 ]
+  description: 老师赠与罗峰的特殊至宝，拥有掌控时空的能力。
+  attributes:
+    威能: 掌控一方时空
 
-  - id: 火焰沙杯
-    type: Item
-    name: 火焰沙杯
-    aliases: []
-    description: 天狼之主争夺的物品，罗峰从中获得了贡献值。
+- id: 火焰沙杯
+  type: Item
+  name: 火焰沙杯
+  aliases: []
+  description: 天狼之主争夺的物品，罗峰从中获得了贡献值。
 
-  - id: 宇宙海
-    type: Location
-    name: 宇宙海
-    aliases: [宇宙海]
-    description: 危险且充满机遇的地方，孕育大量至宝和珍贵资源。
-    attributes:
-      危险度: 高
+- id: 宇宙海
+  type: Location
+  name: 宇宙海
+  aliases: [ 宇宙海 ]
+  description: 危险且充满机遇的地方，孕育大量至宝和珍贵资源。
+  attributes:
+    危险度: 高
 
 relationships:
-  - 主体: 罗峰
-    对象: 冰峰之主
-    关系类型: 师兄弟关系
+- 主体: 罗峰
+  对象: 冰峰之主
+  关系类型: 师兄弟关系
 
 events:
-  - id: 罗峰获得进入宇宙海的机会
-    type: Event
-    name: 罗峰获得进入宇宙海的机会
-    description: 混沌城主根据罗峰的实力评估，允许他进入宇宙海。
-    timeline:
-      时间点: 文中所述
+- id: 罗峰获得进入宇宙海的机会
+  type: Event
+  name: 罗峰获得进入宇宙海的机会
+  description: 混沌城主根据罗峰的实力评估，允许他进入宇宙海。
+  timeline:
+    时间点: 文中所述
 
 dialogues:
-  - 主体: 冰峰之主
-    对象: 混沌城主
-    内容: 罗峰立了大功劳，并且压制了天狼之主夺得了火焰沙杯。
+- 主体: 冰峰之主
+  对象: 混沌城主
+  内容: 罗峰立了大功劳，并且压制了天狼之主夺得了火焰沙杯。
 
-  - 主体: 混沌城主
-    对象: 罗峰
-    内容: 表扬罗峰实力强大，可以进入宇宙海进行磨砺。
-    
+- 主体: 混沌城主
+  对象: 罗峰
+  内容: 表扬罗峰实力强大，可以进入宇宙海进行磨砺。
+
 timeline:
-  - 时间点: 文中所述
-    描述: 罗峰获得进入宇宙海的机会。
+- 时间点: 文中所述
+  描述: 罗峰获得进入宇宙海的机会。
 
 mysteries:
-  - id: 弑吴羽翼的完整部件
-    content: 到底弑吴羽翼还有多少完整的部件，未来罗峰会否得到第三件。
-```
-重要说明：只输出 YAML 数据。
+- id: 弑吴羽翼的完整部件
+  content: 到底弑吴羽翼还有多少完整的部件，未来罗峰会否得到第三件。

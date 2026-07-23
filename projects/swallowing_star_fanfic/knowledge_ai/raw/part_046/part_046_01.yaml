@@ -1,82 +1,81 @@
-```yaml
 source:
   id: 罗峰修炼秘法
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 地球人，通过多次转世和传承提升实力。当前境界为界主级精神念师。
-    attributes:
-      实力: 界主级精神念师
-      念力振幅强度: 3200多
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 地球人，通过多次转世和传承提升实力。当前境界为界主级精神念师。
+  attributes:
+    实力: 界主级精神念师
+    念力振幅强度: 3200多
 
-  - id: 魔音神将传承
-    type: Ability
-    name: 魔音神将传承
-    aliases: []
-    description: 包含多个阶段的修炼秘法，最高境界难度极大。
-    attributes:
-      先决条件: 念力振幅强度达到1万
+- id: 魔音神将传承
+  type: Ability
+  name: 魔音神将传承
+  aliases: []
+  description: 包含多个阶段的修炼秘法，最高境界难度极大。
+  attributes:
+    先决条件: 念力振幅强度达到1万
 
-  - id: 万心控魂秘法
-    type: Ability
-    name: 万心控魂秘法
-    aliases: []
-    description: 分为五个层次的修炼秘法，主要作用是多任务精神控制。
-    attributes:
-      第一层: 一心境（操控1名灵魂奴仆）
-      第二层: 十心境（操控10名灵魂奴仆）
-      第三层: 百心境（操控100名灵魂奴仆）
-      第四层: 千心境（操控1000名灵魂奴仆）
-      第五层: 万心境（操控1万名灵魂奴仆）
+- id: 万心控魂秘法
+  type: Ability
+  name: 万心控魂秘法
+  aliases: []
+  description: 分为五个层次的修炼秘法，主要作用是多任务精神控制。
+  attributes:
+    第一层: 一心境（操控1名灵魂奴仆）
+    第二层: 十心境（操控10名灵魂奴仆）
+    第三层: 百心境（操控100名灵魂奴仆）
+    第四层: 千心境（操控1000名灵魂奴仆）
+    第五层: 万心境（操控1万名灵魂奴仆）
 
-  - id: 克布长老
-    type: Character
-    name: 克布长老
-    aliases: []
-    description: 在兽神峡谷中观察罗峰的修炼情况。
-    attributes:
-      实力: 不详
+- id: 克布长老
+  type: Character
+  name: 克布长老
+  aliases: []
+  description: 在兽神峡谷中观察罗峰的修炼情况。
+  attributes:
+    实力: 不详
 
-  - id: 虫族母巢
-    type: Item
-    name: 虫族母巢
-    aliases: []
-    description: 控制虫族战士和孵化后代的重要设施。
+- id: 虫族母巢
+  type: Item
+  name: 虫族母巢
+  aliases: []
+  description: 控制虫族战士和孵化后代的重要设施。
 
 relationships:
 
 events:
-  - id: 罗峰修炼万心控魂秘法
-    type: Cultivation
-    description: 罗峰开始修炼《万心控魂秘法》，目标是提升对灵魂奴仆的控制能力。
-    attributes:
-      进度: 计划修炼到第四层
+- id: 罗峰修炼万心控魂秘法
+  type: Cultivation
+  description: 罗峰开始修炼《万心控魂秘法》，目标是提升对灵魂奴仆的控制能力。
+  attributes:
+    进度: 计划修炼到第四层
 
-  - id: 克布长老观察罗峰
-    type: Observation
-    description: 克布长老持续关注罗峰在兽神峡谷中的修炼情况，一百年过去仍未见变化。
+- id: 克布长老观察罗峰
+  type: Observation
+  description: 克布长老持续关注罗峰在兽神峡谷中的修炼情况，一百年过去仍未见变化。
 
 locations:
-  - id: 兽神峡谷
-    name: 兽神峡谷
-    aliases: []
-    description: 广袤寂静的地方，有许多苦修者在此修行。
-    attributes:
+- id: 兽神峡谷
+  name: 兽神峡谷
+  aliases: []
+  description: 广袤寂静的地方，有许多苦修者在此修行。
+  attributes:
+
 
 organizations:
-  - id: 虚拟宇宙公司
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 确认并贩卖《万心控魂秘法》的机构。
+- id: 虚拟宇宙公司
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 确认并贩卖《万心控魂秘法》的机构。
 
 dialogues:
 
 timeline:
 
 mysteries:
-  - 克布长老对罗峰的关注原因不明。
-```
+- 克布长老对罗峰的关注原因不明。

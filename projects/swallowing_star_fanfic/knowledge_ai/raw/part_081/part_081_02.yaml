@@ -1,73 +1,71 @@
-```yaml
 source:
   id: 第1225章赶往宇宙舟
 
 entities:
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: 虚拟宇宙雷霆岛最高之巅的人物，似乎对罗峰的境遇表示关心。
-    attributes:
-      - 实力强
-      - 关心罗峰
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: 虚拟宇宙雷霆岛最高之巅的人物，似乎对罗峰的境遇表示关心。
+  attributes:
+  - 实力强
+  - 关心罗峰
 
-  - id: 龙行之主
-    type: Character
-    name: 龙行之主
-    aliases: []
-    description: 虚拟宇宙雷霆岛最高之巅的人物，喝着酒并且暗笑混沌城主。
-    attributes:
-      - 悠闲
+- id: 龙行之主
+  type: Character
+  name: 龙行之主
+  aliases: []
+  description: 虚拟宇宙雷霆岛最高之巅的人物，喝着酒并且暗笑混沌城主。
+  attributes:
+  - 悠闲
 
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 正在第九深渊追寻黑色信物的宇宙强者。
-    attributes:
-      - 冷静
-      - 勇敢
-      - 智慧
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 正在第九深渊追寻黑色信物的宇宙强者。
+  attributes:
+  - 冷静
+  - 勇敢
+  - 智慧
 
-  - id: 第九深渊
-    type: Location
-    name: 第九深渊
-    aliases: []
-    description: 罗峰正在探索的地方，充满了危险和未知。
+- id: 第九深渊
+  type: Location
+  name: 第九深渊
+  aliases: []
+  description: 罗峰正在探索的地方，充满了危险和未知。
 
-  - id: 黑色挂件
-    type: Item
-    name: 黑色挂件
-    aliases: []
-    description: 是罗峰追寻的目标之一。
-    attributes:
-      - 材质特殊
-      - 内含生命印记
+- id: 黑色挂件
+  type: Item
+  name: 黑色挂件
+  aliases: []
+  description: 是罗峰追寻的目标之一。
+  attributes:
+  - 材质特殊
+  - 内含生命印记
 
 relationships:
 
 events:
-  - id: 罗峰进入第九深渊
-    type: Event
-    summary: 罗峰进入了危险的第九深渊，追逐黑色挂件，并且遇到了各种吞吸力量。
+- id: 罗峰进入第九深渊
+  type: Event
+  summary: 罗峰进入了危险的第九深渊，追逐黑色挂件，并且遇到了各种吞吸力量。
 
 dialogues:
-  - speaker: 混沌城主
-    listener: 龙行之主
-    content: "你就不去见见罗峰？"
-    context: 在虚拟宇宙雷霆岛最高之巅的一次交谈。
-  - speaker: 龙行之主
-    listener: 混沌城主
-    content: (暗笑)
-    context: 对混沌城主表示关心的反应。
+- speaker: 混沌城主
+  listener: 龙行之主
+  content: "你就不去见见罗峰？"
+  context: 在虚拟宇宙雷霆岛最高之巅的一次交谈。
+- speaker: 龙行之主
+  listener: 混沌城主
+  content: (暗笑)
+  context: 对混沌城主表示关心的反应。
 
 timeline:
-  - date: 六天前
-    event: 罗峰开始进入第九深渊。
-  - date: 当时
-    event: 罗峰追捕黑色挂件，经历了吞吸力量的冲击。
+- date: 六天前
+  event: 罗峰开始进入第九深渊。
+- date: 当时
+  event: 罗峰追捕黑色挂件，经历了吞吸力量的冲击。
 
 mysteries:
-  - 黑色密室空间内是否有宝藏
-```
+- 黑色密室空间内是否有宝藏

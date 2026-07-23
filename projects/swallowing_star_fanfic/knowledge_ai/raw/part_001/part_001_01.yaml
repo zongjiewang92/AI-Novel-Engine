@@ -1,123 +1,121 @@
-```yaml
 source:
   id: 文本来源ID
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 大涅盘时期后的幸存者，知晓人类历史变迁。
-    attributes:
-      - 家庭成员：罗华（弟弟）
-      - 居住地：江南市扬州城宜安区
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 大涅盘时期后的幸存者，知晓人类历史变迁。
+  attributes:
+  - 家庭成员：罗华（弟弟）
+  - 居住地：江南市扬州城宜安区
 
-  - id: 罗华
-    type: Character
-    name: 罗华
-    aliases: []
-    description: 罗峰的弟弟，对大涅盘时期前的世界感到难以想象。
-    attributes:
-      - 家庭成员：罗峰（哥哥）
+- id: 罗华
+  type: Character
+  name: 罗华
+  aliases: []
+  description: 罗峰的弟弟，对大涅盘时期前的世界感到难以想象。
+  attributes:
+  - 家庭成员：罗峰（哥哥）
 
-  - id: 华夏国
-    type: Organization
-    name: 华夏国
-    aliases: [中国]
-    description: 大涅盘时期的五大强国之一，拥有六大人类基地。
+- id: 华夏国
+  type: Organization
+  name: 华夏国
+  aliases: [ 中国 ]
+  description: 大涅盘时期的五大强国之一，拥有六大人类基地。
 
-  - id: 印度
-    type: Organization
-    name: 印度
-    aliases: []
-    description: 大涅盘时期的五大强国之一，崇尚古瑜伽。
+- id: 印度
+  type: Organization
+  name: 印度
+  aliases: []
+  description: 大涅盘时期的五大强国之一，崇尚古瑜伽。
 
-  - id: 美利坚
-    type: Organization
-    name: 美利坚
-    aliases: [美国]
-    description: 大涅盘时期的五大强国之一，在科技上领先。
+- id: 美利坚
+  type: Organization
+  name: 美利坚
+  aliases: [ 美国 ]
+  description: 大涅盘时期的五大强国之一，在科技上领先。
 
-  - id: 欧盟国
-    type: Organization
-    name: 欧盟国
-    aliases: []
-    description: 大涅盘时期的五大强国之一。
+- id: 欧盟国
+  type: Organization
+  name: 欧盟国
+  aliases: []
+  description: 大涅盘时期的五大强国之一。
 
-  - id: 苏俄国
-    type: Organization
-    name: 苏俄国
-    aliases: [俄罗斯]
-    description: 大涅盘时期的五大强国之一。
+- id: 苏俄国
+  type: Organization
+  name: 苏俄国
+  aliases: [ 俄罗斯 ]
+  description: 大涅盘时期的五大强国之一。
 
-  - id: 地球联盟联军
-    type: Organization
-    name: 地球联盟联军
-    aliases: []
-    description: 在怪兽战争中，以五大国为核心建立的地球防御组织。
+- id: 地球联盟联军
+  type: Organization
+  name: 地球联盟联军
+  aliases: []
+  description: 在怪兽战争中，以五大国为核心建立的地球防御组织。
 
-  - id: 克罗合金
-    type: Item
-    name: 克罗合金
-    aliases: [克罗德森纳发明]
-    description: 比金刚石更加坚硬的合金材料，用于制造对抗怪兽的武器。
+- id: 克罗合金
+  type: Item
+  name: 克罗合金
+  aliases: [ 克罗德森纳发明 ]
+  description: 比金刚石更加坚硬的合金材料，用于制造对抗怪兽的武器。
 
-  - id: 超高频激光炮
-    type: Item
-    name: 超高频激光炮
-    aliases: []
-    description: 高科技武器，能有效击杀大型怪兽。
+- id: 超高频激光炮
+  type: Item
+  name: 超高频激光炮
+  aliases: []
+  description: 高科技武器，能有效击杀大型怪兽。
 
-  - id: 血妖天狼
-    type: Species
-    name: 血妖天狼
-    aliases: []
-    description: 当年可怕的怪兽之一，有飞行能力，屠戮人类超过百万。
+- id: 血妖天狼
+  type: Species
+  name: 血妖天狼
+  aliases: []
+  description: 当年可怕的怪兽之一，有飞行能力，屠戮人类超过百万。
 
-  - id: 雷神
-    type: Character
-    name: 雷神
-    aliases: [国际排名第二的超级强者]
-    description: 能够飞翔的人类超级强者，击败血妖天狼。
+- id: 雷神
+  type: Character
+  name: 雷神
+  aliases: [ 国际排名第二的超级强者 ]
+  description: 能够飞翔的人类超级强者，击败血妖天狼。
 
 relationships:
-  - 主题: 罗峰与罗华的关系
-    关系类型: 兄弟
-    描述: 罗峰是哥哥，罗华是弟弟
+- 主题: 罗峰与罗华的关系
+  关系类型: 兄弟
+  描述: 罗峰是哥哥，罗华是弟弟
 
 events:
-  - id: RR病毒的出现和传播
-    type: Event
-    name: RR病毒的出现和传播
-    description: 2015年1月，RR型病毒感染全球所有生命，死亡率极高。
-    timeline: 公元2015年1月
+- id: RR病毒的出现和传播
+  type: Event
+  name: RR病毒的出现和传播
+  description: 2015年1月，RR型病毒感染全球所有生命，死亡率极高。
+  timeline: 公元2015年1月
 
-  - id: 怪兽战争开始
-    type: Event
-    name: 怪兽战争开始
-    description: 2015年9月起，海洋中的怪兽开始攻击人类居住地。
-    timeline: 公元2015年9月至2021年3月
+- id: 怪兽战争开始
+  type: Event
+  name: 怪兽战争开始
+  description: 2015年9月起，海洋中的怪兽开始攻击人类居住地。
+  timeline: 公元2015年9月至2021年3月
 
 dialogues:
-  - 发言人: 罗峰
-    对话内容: "从2013年到2021年，这八年时间，便是人类历史上的大涅盘时期！"
+- 发言人: 罗峰
+  对话内容: "从2013年到2021年，这八年时间，便是人类历史上的大涅盘时期！"
 
-  - 发言人: 罗华
-    对话内容: "哥，实话说，我还真的有点无法想象，大涅盘时期之前，全球的国家地区竟然超过两百个。那时候人口才多少？70亿而已。有些小国，真的太小了。恐怕一头厉害的怪兽，就能将当初的小国给灭国。"
+- 发言人: 罗华
+  对话内容: "哥，实话说，我还真的有点无法想象，大涅盘时期之前，全球的国家地区竟然超过两百个。那时候人口才多少？70亿而已。有些小国，真的太小了。恐怕一头厉害的怪兽，就能将当初的小国给灭国。"
 
 timeline:
-  - 时间点: 公元2013年
-    描述: 大涅盘时期的开始
+- 时间点: 公元2013年
+  描述: 大涅盘时期的开始
 
-  - 时间点: 公元2015年1月
-    描述: RR病毒出现并迅速传播全球，导致大量死亡。
+- 时间点: 公元2015年1月
+  描述: RR病毒出现并迅速传播全球，导致大量死亡。
 
-  - 时间点: 公元2015年9月至2021年3月
-    描述: 怪兽战争期间
+- 时间点: 公元2015年9月至2021年3月
+  描述: 怪兽战争期间
 
-  - 时间点: 公元2021年3月
-    描述: 超高频激光炮的研制成功，标志着怪兽和人类大规模战争结束。
+- 时间点: 公元2021年3月
+  描述: 超高频激光炮的研制成功，标志着怪兽和人类大规模战争结束。
 
 mysteries:
-  - 神秘点: 没有提及大涅盘时期前详细的社会结构和个人生活。
-```
+- 神秘点: 没有提及大涅盘时期前详细的社会结构和个人生活。

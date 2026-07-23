@@ -1,87 +1,85 @@
-```yaml
 source:
   id: 罗峰宇宙
 
 entities:
-  - id: 安梦王
-    type: Character
-    name: 安梦王
-    aliases: []
-    description: 机械族阵营的封王强者之一，拥有瞬移能力。
-    attributes:
-      affiliation: 机械族阵营
-      status: 封王
-      abilities: 瞬移
-  - id: 血兽王
-    type: Character
-    name: 血兽王
-    aliases: []
-    description: 机械族阵营的封王强者之一，神体损失严重。
-    attributes:
-      affiliation: 机械族阵营
-      status: 封王
-      abilities: 独眼、瞬移
-  - id: 重箭王
-    type: Character
-    name: 重箭王
-    aliases: []
-    description: 机械族阵营的封王强者之一，实力受损严重。
-    attributes:
-      affiliation: 机械族阵营
-      status: 封王
-      abilities: 瞬移
-  - id: 紫钟王
-    type: Character
-    name: 紫钟王
-    aliases: []
-    description: 机械族阵营的封王强者，因宇宙爆炸而陨落。
-    attributes:
-      affiliation: 机械族阵营
-      status: 已陨落
-      abilities: 拥有紫钟
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 主角，拥有毒影战刀和银甲银翼。
-    attributes:
-      affiliation: 人类阵营
-      status: 封王极限
-      abilities: 毒影战刀、瞬移
+- id: 安梦王
+  type: Character
+  name: 安梦王
+  aliases: []
+  description: 机械族阵营的封王强者之一，拥有瞬移能力。
+  attributes:
+    affiliation: 机械族阵营
+    status: 封王
+    abilities: 瞬移
+- id: 血兽王
+  type: Character
+  name: 血兽王
+  aliases: []
+  description: 机械族阵营的封王强者之一，神体损失严重。
+  attributes:
+    affiliation: 机械族阵营
+    status: 封王
+    abilities: 独眼、瞬移
+- id: 重箭王
+  type: Character
+  name: 重箭王
+  aliases: []
+  description: 机械族阵营的封王强者之一，实力受损严重。
+  attributes:
+    affiliation: 机械族阵营
+    status: 封王
+    abilities: 瞬移
+- id: 紫钟王
+  type: Character
+  name: 紫钟王
+  aliases: []
+  description: 机械族阵营的封王强者，因宇宙爆炸而陨落。
+  attributes:
+    affiliation: 机械族阵营
+    status: 已陨落
+    abilities: 拥有紫钟
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 主角，拥有毒影战刀和银甲银翼。
+  attributes:
+    affiliation: 人类阵营
+    status: 封王极限
+    abilities: 毒影战刀、瞬移
 
 relationships:
-  - type: 同盟关系
-    entities:
-      - id: 血兽王
-      - id: 重箭王
-      - id: 紫钟王
-    description: 均属于机械族阵营封王强者。
+- type: 同盟关系
+  entities:
+  - id: 血兽王
+  - id: 重箭王
+  - id: 紫钟王
+  description: 均属于机械族阵营封王强者。
 
 events:
-  - id: 封王陨落
-    type: Event
-    name: 封王陨落
-    description: 紫钟王因宇宙爆炸而陨落。
-    timeline: 虚拟世界系统确认紫钟王死亡后，消息迅速在机械族阵营中传播开来。
-  - id: 封王聚集
-    type: Event
-    name: 封王聚集
-    description: 大量封王强者从各个地方聚集到战斗现场。
-    timeline: 许多封王强者通过瞬移能力到达战场，准备救援或报复。
+- id: 封王陨落
+  type: Event
+  name: 封王陨落
+  description: 紫钟王因宇宙爆炸而陨落。
+  timeline: 虚拟世界系统确认紫钟王死亡后，消息迅速在机械族阵营中传播开来。
+- id: 封王聚集
+  type: Event
+  name: 封王聚集
+  description: 大量封王强者从各个地方聚集到战斗现场。
+  timeline: 许多封王强者通过瞬移能力到达战场，准备救援或报复。
 
 dialogues:
-  - speaker: 血兽王
-    content: "我的神体损失42%，而那个人类竟然能硬抗过那般逆天的火神源晶爆炸，简直不可思议。"
-  - speaker: 罗峰
-    content: "紫钟王，谢了。"
+- speaker: 血兽王
+  content: "我的神体损失42%，而那个人类竟然能硬抗过那般逆天的火神源晶爆炸，简直不可思议。"
+- speaker: 罗峰
+  content: "紫钟王，谢了。"
 
 timeline:
-  - event: 封王陨落
-    time: 虚拟世界系统确认紫钟王死亡后
-  - event: 封王聚集
-    time: 消息传播开来后
+- event: 封王陨落
+  time: 虚拟世界系统确认紫钟王死亡后
+- event: 封王聚集
+  time: 消息传播开来后
 
 mysteries:
-  - id: 紫钟王之死
-    description: 究竟是什么原因导致紫钟王的宇宙爆炸，以及他为何没有及时逃脱。
-```
+- id: 紫钟王之死
+  description: 究竟是什么原因导致紫钟王的宇宙爆炸，以及他为何没有及时逃脱。

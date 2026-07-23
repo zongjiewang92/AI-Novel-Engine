@@ -1,77 +1,74 @@
-```yaml
 source:
   id: 罗峰与垣奥之主战斗
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 人类族群的绝世天才，拥有金色的国度和九虓河辅助。
-    attributes:
-      实力: 强大，但不如垣奥之主
-      能力: 使用血影刀和绝客战刀战斗
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 人类族群的绝世天才，拥有金色的国度和九虓河辅助。
+  attributes:
+    实力: 强大，但不如垣奥之主
+    能力: 使用血影刀和绝客战刀战斗
 
-  - id: 垣奥之主
-    type: Character
-    name: 垣奥之主
-    aliases: []
-    description: 拥有巨大圆锤的神体，能够施展强大秘法。
-    attributes:
-      实力: 强大，远超罗峰
-      能力: 使用焚灭秘法和神秘黑色木头战斗
+- id: 垣奥之主
+  type: Character
+  name: 垣奥之主
+  aliases: []
+  description: 拥有巨大圆锤的神体，能够施展强大秘法。
+  attributes:
+    实力: 强大，远超罗峰
+    能力: 使用焚灭秘法和神秘黑色木头战斗
 
-  - id: 美丽、梦幻、璀璨的火焰漩涡
-    type: Ability
-    name: 焚灭
-    aliases: []
-    description: 漩涡形态的能量攻击，威力巨大。
-    attributes:
-      威力: 超强
-      效果: 无视防御直接冲击意志
+- id: 美丽、梦幻、璀璨的火焰漩涡
+  type: Ability
+  name: 焚灭
+  aliases: []
+  description: 漩涡形态的能量攻击，威力巨大。
+  attributes:
+    威力: 超强
+    效果: 无视防御直接冲击意志
 
-  - id: 目标之一的黑色木头
-    type: Item
-    name: 黑色木头
-    aliases: []
-    description: 源自垣奥秘境，具有强大威能。
-    attributes:
-      威力: 超强
-      效果: 可能是生命湮灭的源头
+- id: 目标之一的黑色木头
+  type: Item
+  name: 黑色木头
+  aliases: []
+  description: 源自垣奥秘境，具有强大威能。
+  attributes:
+    威力: 超强
+    效果: 可能是生命湮灭的源头
 
-  - id: 九虓河
-    type: Item
-    name: 金色的国度和九虓河
-    aliases: []
-    description: 协助罗峰战斗的重要力量。
+- id: 九虓河
+  type: Item
+  name: 金色的国度和九虓河
+  aliases: []
+  description: 协助罗峰战斗的重要力量。
 
 locations:
-  - id: 垣奥秘境
-    type: Location
-    name: 垣奥秘境
-    aliases: []
-    description: 罗峰调查的目标地点，存在生命湮灭事件。
-    attributes:
-      特点: 生命消失的神秘区域
+- id: 垣奥秘境
+  type: Location
+  name: 垣奥秘境
+  aliases: []
+  description: 罗峰调查的目标地点，存在生命湮灭事件。
+  attributes:
+    特点: 生命消失的神秘区域
 
 relationships:
 
 events:
-  - id: 罗峰与垣奥之主战斗
-    type: Event
-    name: 罗峰与垣奥之主战斗
-    description: 罗峰和垣奥之主在垣奥秘境展开激烈战斗。
-    attributes:
-      时间线: 文章描述的时间顺序
+- id: 罗峰与垣奥之主战斗
+  type: Event
+  name: 罗峰与垣奥之主战斗
+  description: 罗峰和垣奥之主在垣奥秘境展开激烈战斗。
+  attributes:
+    时间线: 文章描述的时间顺序
 
 dialogues:
 
 timeline:
 
 mysteries:
-  - id: 黑色木头的来源和作用
-    type: Mystery
-    name: 黑色木头的来源和作用
-    description: 罗峰怀疑黑色木头可能是生命湮灭事件的源头。
-```
-此YAML文件仅包含原文明确出现的信息，严格按照要求提取，并未进行推测或总结。
+- id: 黑色木头的来源和作用
+  type: Mystery
+  name: 黑色木头的来源和作用
+  description: 罗峰怀疑黑色木头可能是生命湮灭事件的源头。

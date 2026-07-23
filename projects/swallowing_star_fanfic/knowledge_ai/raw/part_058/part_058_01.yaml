@@ -1,80 +1,78 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: 紫钟王
-    type: Character
-    name: 紫钟王
-    aliases: []
-    description: 宇宙尊者，拥有紫色钟形神器。
-    attributes:
-      实力: 宇宙尊者
-      性格: 阴冷贪婪
+- id: 紫钟王
+  type: Character
+  name: 紫钟王
+  aliases: []
+  description: 宇宙尊者，拥有紫色钟形神器。
+  attributes:
+    实力: 宇宙尊者
+    性格: 阴冷贪婪
 
-  - id: 苍金王
-    type: Character
-    name: 苍金王
-    aliases: []
-    description: 拥有雷电之矛，宇宙尊者。
-    attributes:
-      实力: 宇宙尊者
-      
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: 魔杀族分身
-    description: 具备魔杀族分身的能力，拥有弑吴羽翼。
-    attributes:
-      实力: 封王高等
-      性格: 机智
+- id: 苍金王
+  type: Character
+  name: 苍金王
+  aliases: []
+  description: 拥有雷电之矛，宇宙尊者。
+  attributes:
+    实力: 宇宙尊者
 
-  - id: 普埃
-    type: Character
-    name: 普埃
-    aliases: []
-    description: 土著文明强者。
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: 魔杀族分身
+  description: 具备魔杀族分身的能力，拥有弑吴羽翼。
+  attributes:
+    实力: 封王高等
+    性格: 机智
 
-  - id: 拉蒂默
-    type: Character
-    name: 拉蒂默
-    aliases: []
-    description: 土著文明强者。
-    
-  - id: 门布
-    type: Character
-    name: 门布
-    aliases: []
-    description: 土著文明强者。
+- id: 普埃
+  type: Character
+  name: 普埃
+  aliases: []
+  description: 土著文明强者。
+
+- id: 拉蒂默
+  type: Character
+  name: 拉蒂默
+  aliases: []
+  description: 土著文明强者。
+
+- id: 门布
+  type: Character
+  name: 门布
+  aliases: []
+  description: 土著文明强者。
 
 relationships:
-  - 主体: 紫钟王
-    目标: 苍金王
-    关系类型: 对抗
+- 主体: 紫钟王
+  目标: 苍金王
+  关系类型: 对抗
 
-  - 主体: 罗峰
-    目标: 锁链宝箱
-    关系类型: 获取
+- 主体: 罗峰
+  目标: 锁链宝箱
+  关系类型: 获取
 
 events:
-  - 名称: 藏宝室争夺战
-    类型: Event
-    描述: 紫钟王与罗峰在藏宝室内争夺宝藏。
-    
-  - 名称: 宝物消失
-    类型: Event
-    描述: 大量宝物被神秘力量带走。
+- 名称: 藏宝室争夺战
+  类型: Event
+  描述: 紫钟王与罗峰在藏宝室内争夺宝藏。
+
+- 名称: 宝物消失
+  类型: Event
+  描述: 大量宝物被神秘力量带走。
 
 dialogues:
-  - 主体: 罗峰
-    对象: 紫钟王
-    内容: "紫钟王，谢了。"
-    
+- 主体: 罗峰
+  对象: 紫钟王
+  内容: "紫钟王，谢了。"
+
 timeline:
-  - 时间点1: 苍金王自爆宝藏室
-  - 时间点2: 紫钟王收刮宝物
-  - 时间点3: 罗峰出现并带走锁链宝箱
+- 时间点1: 苍金王自爆宝藏室
+- 时间点2: 紫钟王收刮宝物
+- 时间点3: 罗峰出现并带走锁链宝箱
 
 mysteries:
-  - 问题: 锁链宝箱的具体位置和如何获取？
-```
+- 问题: 锁链宝箱的具体位置和如何获取？

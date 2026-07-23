@@ -1,61 +1,57 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 靠巴巴塔的指导，以最高效率提升身体进化程度。计划在地球建造多座不同规模的生存基地。
-    attributes:
-      实力: 战神宫高层
-  - id: 白巴塔
-    type: Item
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的重要辅助工具，指导罗峰提升实力和效率。
-    attributes: []
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 靠巴巴塔的指导，以最高效率提升身体进化程度。计划在地球建造多座不同规模的生存基地。
+  attributes:
+    实力: 战神宫高层
+- id: 白巴塔
+  type: Item
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的重要辅助工具，指导罗峰提升实力和效率。
+  attributes: []
 
 relationships:
-  - 主体: 罗峰
-    关系类型: 指导
-    客体: 白巴塔
+- 主体: 罗峰
+  关系类型: 指导
+  客体: 白巴塔
 
 events:
-  - id: 在地球建造生存基地计划
-    type: Event
-    name: 在地球建造生存基地计划
-    description: 罗峰计划在不同地区建造多个规模不等的生存基地，以应对可能出现的宇宙级威胁。
-    timeline:
-      开始时间: 华夏时间 2062年12月24日
+- id: 在地球建造生存基地计划
+  type: Event
+  name: 在地球建造生存基地计划
+  description: 罗峰计划在不同地区建造多个规模不等的生存基地，以应对可能出现的宇宙级威胁。
+  timeline:
+    开始时间: 华夏时间 2062年12月24日
 
 locations:
-  - id: 地球
-    type: Location
-    name: 地球
-    aliases: []
-    description: 多个国家的人口迁移到生存基地，以应对宇宙级威胁。
-    attributes:
-      生存基地数量: 多个
-      规模不等的生存基地计划: 包括500万人标准、1000万人标准等
+- id: 地球
+  type: Location
+  name: 地球
+  aliases: []
+  description: 多个国家的人口迁移到生存基地，以应对宇宙级威胁。
+  attributes:
+    生存基地数量: 多个
+    规模不等的生存基地计划: 包括500万人标准、1000万人标准等
 
 organizations:
-  - id: 铁洛公司
-    type: Organization
-    name: 铁洛公司
-    aliases: []
-    description: 负责提供罗峰建造生存基地所需的材料，遭到投诉后更换负责人。
-    attributes:
-      分支机构: 黑龙山帝国分公司
+- id: 铁洛公司
+  type: Organization
+  name: 铁洛公司
+  aliases: []
+  description: 负责提供罗峰建造生存基地所需的材料，遭到投诉后更换负责人。
+  attributes:
+    分支机构: 黑龙山帝国分公司
 
 timeline:
-  - 时间点: 华夏时间2063年2月21日
-    描述: 诺岚山家族舰队抵达太阳系。
+- 时间点: 华夏时间2063年2月21日
+  描述: 诺岚山家族舰队抵达太阳系。
 
 mysteries:
-  - id: 生存基地的坚固程度
-    description: 不同地区的生存基地使用不同的标准（C2或C3），具体差距未知。
-```
-
-此 YAML 文件仅包含文本中明确提到的信息。
+- id: 生存基地的坚固程度
+  description: 不同地区的生存基地使用不同的标准（C2或C3），具体差距未知。

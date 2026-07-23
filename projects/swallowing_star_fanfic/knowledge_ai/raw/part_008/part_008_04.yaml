@@ -1,79 +1,77 @@
-```yaml
 source:
   id: 第123章战神罗峰在训练营的日子（三章完毕）
 
 entities:
-  - id: 江芳
-    type: Character
-    name: 江芳
-    aliases: []
-    description: 罗峰的女战神老师，负责向他介绍九重楼内的设施。
-    attributes:
-      - 身份: 女战神老师
-      - 实力: 未知（高于罗峰）
+- id: 江芳
+  type: Character
+  name: 江芳
+  aliases: []
+  description: 罗峰的女战神老师，负责向他介绍九重楼内的设施。
+  attributes:
+  - 身份: 女战神老师
+  - 实力: 未知（高于罗峰）
 
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 主角，地球的预备学员。
-    attributes:
-      - 身份: 预备学员
-      - 力量: 初等战将级
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 主角，地球的预备学员。
+  attributes:
+  - 身份: 预备学员
+  - 力量: 初等战将级
 
-  - id: 洪
-    type: Character
-    name: 洪
-    aliases: []
-    description: 地球第一强者，超越战神的级别。
-    attributes:
-      - 实力: 超越战神的存在
+- id: 洪
+  type: Character
+  name: 洪
+  aliases: []
+  description: 地球第一强者，超越战神的级别。
+  attributes:
+  - 实力: 超越战神的存在
 
-  - id: 古文明遗迹重力室
-    type: Location
-    name: 古文明遗迹重力室
-    aliases: [九重楼第九层重力室]
-    description: 发现于古文明遗迹，可以设置从1倍到1000倍的重力。
-    attributes:
-      - 功能: 提升武者身体素质
+- id: 古文明遗迹重力室
+  type: Location
+  name: 古文明遗迹重力室
+  aliases: [ 九重楼第九层重力室 ]
+  description: 发现于古文明遗迹，可以设置从1倍到1000倍的重力。
+  attributes:
+  - 功能: 提升武者身体素质
 
-  - id: 雷电武馆精英训练营
-    type: Organization
-    name: 雷电武馆精英训练营
-    aliases: []
-    description: 训练高等战神级精神念师的地方。
-    attributes:
-      - 地点: 九重楼
+- id: 雷电武馆精英训练营
+  type: Organization
+  name: 雷电武馆精英训练营
+  aliases: []
+  description: 训练高等战神级精神念师的地方。
+  attributes:
+  - 地点: 九重楼
 
 relationships:
-  - id: 江芳与罗峰
-    type: 教育关系
-    name: 江芳教导罗峰使用古文明遗迹重力室
-    description: 江芳指导罗峰如何在重力室内进行训练，以提升身体素质。
+- id: 江芳与罗峰
+  type: 教育关系
+  name: 江芳教导罗峰使用古文明遗迹重力室
+  description: 江芳指导罗峰如何在重力室内进行训练，以提升身体素质。
 
 events:
-  - id: 参观重力室
-    type: 训练活动
-    name: 罗峰参观并体验九重楼第九层的古文明遗迹重力室
-    description: 江芳带领罗峰进入房间内体验9倍重力，并讲解其重要性。
-    timeline:
-      - 时间点: 未定
-        描述: 罗峰首次使用重力室，经历了一次艰难的身体极限测试。
+- id: 参观重力室
+  type: 训练活动
+  name: 罗峰参观并体验九重楼第九层的古文明遗迹重力室
+  description: 江芳带领罗峰进入房间内体验9倍重力，并讲解其重要性。
+  timeline:
+  - 时间点: 未定
+    描述: 罗峰首次使用重力室，经历了一次艰难的身体极限测试。
 
 dialogues:
-  - id: 关于古文明遗迹重力室
-    type: 对话
-    name: 江芳解释重力室的重要性及功能
-    description: "江芳向罗峰详细介绍了重力室的功能以及它对武者身体素质提升的重要作用，还提到地球最强者洪在墙壁上留下的拳印。"
-    timeline:
-      - 时间点: 未定
-        描述: 江芳带领罗峰进入重力室并解释其功能。
+- id: 关于古文明遗迹重力室
+  type: 对话
+  name: 江芳解释重力室的重要性及功能
+  description: "江芳向罗峰详细介绍了重力室的功能以及它对武者身体素质提升的重要作用，还提到地球最强者洪在墙壁上留下的拳印。"
+  timeline:
+  - 时间点: 未定
+    描述: 江芳带领罗峰进入重力室并解释其功能。
 
 timeline:
 
 mysteries:
-  - id: 1000倍重力的极限挑战
-    type: 神秘事件
-    name: 谁能承受1000倍重力？
-    description: 江芳提到古文明遗迹中的重力室设置可以达到1000倍，但是没有提及任何人类能达到这个极限。
-```
+- id: 1000倍重力的极限挑战
+  type: 神秘事件
+  name: 谁能承受1000倍重力？
+  description: 江芳提到古文明遗迹中的重力室设置可以达到1000倍，但是没有提及任何人类能达到这个极限。

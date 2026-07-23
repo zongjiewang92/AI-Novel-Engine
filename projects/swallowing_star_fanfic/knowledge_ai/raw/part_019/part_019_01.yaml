@@ -1,82 +1,80 @@
-```yaml
 source:
   id: rof
 
 entities:
-  - id: rf01
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      拥有传承记忆，能够乘坐黑龙飞船离开地球前往火星的强者。
-    attributes:
-      实力: 强者
-      性格: 冒险、好奇
+- id: rf01
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    拥有传承记忆，能够乘坐黑龙飞船离开地球前往火星的强者。
+  attributes:
+    实力: 强者
+    性格: 冒险、好奇
 
-  - id: bt01
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: >
-      黑龙山帝国飞船上的智能系统，为罗峰服务。
-    attributes:
-      身份: 智能系统
-      性格: 得意、幽默
+- id: bt01
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: >
+    黑龙山帝国飞船上的智能系统，为罗峰服务。
+  attributes:
+    身份: 智能系统
+    性格: 得意、幽默
 
-  - id: bh01
-    type: Location
-    name: 地球
-    aliases: []
-    description: >
-      罗峰出发前往火星之前所在的星球。
+- id: bh01
+  type: Location
+  name: 地球
+  aliases: []
+  description: >
+    罗峰出发前往火星之前所在的星球。
 
-  - id: fh02
-    type: Item
-    name: 黑龙飞船
-    aliases: []
-    description: >
-      直径100米，印有翅膀巨龙的飞碟型飞船。可以隐形，离开地球大气层飞行。
-    attributes:
-      等级: C5
+- id: fh02
+  type: Item
+  name: 黑龙飞船
+  aliases: []
+  description: >
+    直径100米，印有翅膀巨龙的飞碟型飞船。可以隐形，离开地球大气层飞行。
+  attributes:
+    等级: C5
 
-  - id: bh03
-    type: Species
-    name: 金角巨兽
-    aliases: []
-    description: >
-      可以通过吞噬金属来进化成长的生物。
+- id: bh03
+  type: Species
+  name: 金角巨兽
+  aliases: []
+  description: >
+    可以通过吞噬金属来进化成长的生物。
 
 relationships:
-  - 主体: rf01
-    客体: bt01
-    关系类型: 指挥与服务
+- 主体: rf01
+  客体: bt01
+  关系类型: 指挥与服务
 
 events:
-  - id: ev01
-    type: Event
-    name: 罗峰乘坐黑龙飞船离开地球前往火星
-    description: >
-      在巴巴塔的帮助下，罗峰乘着高级别的黑龙飞船离开了地球大气层。
-    timeline: []
+- id: ev01
+  type: Event
+  name: 罗峰乘坐黑龙飞船离开地球前往火星
+  description: >
+    在巴巴塔的帮助下，罗峰乘着高级别的黑龙飞船离开了地球大气层。
+  timeline: []
 
 dialogues:
-  - 主体: bt01
-    客体: rf01
-    对话内容: "恶魔巴巴塔为你服务！"
-    context: 控制室内
+- 主体: bt01
+  客体: rf01
+  对话内容: "恶魔巴巴塔为你服务！"
+  context: 控制室内
 
-  - 主体: rf01
-    客体: bt01
-    对话内容: "我们出发！"
-    context: 控制室内
+- 主体: rf01
+  客体: bt01
+  对话内容: "我们出发！"
+  context: 控制室内
 
 timeline:
-  - 时间点: 罗峰离开地球前
-    描述: 罗峰准备乘坐飞船前往火星。
-  - 时间点: 黑龙飞船起飞后
-    描述: 飞船迅速飞离大气层，罗峰在控制室中观察外景模拟。
+- 时间点: 罗峰离开地球前
+  描述: 罗峰准备乘坐飞船前往火星。
+- 时间点: 黑龙飞船起飞后
+  描述: 飞船迅速飞离大气层，罗峰在控制室中观察外景模拟。
 
 mysteries:
-  - id: mys01
-    内容: 坐飞船离开地球时的真实场景与三维投影的比较。
-```
+- id: mys01
+  内容: 坐飞船离开地球时的真实场景与三维投影的比较。

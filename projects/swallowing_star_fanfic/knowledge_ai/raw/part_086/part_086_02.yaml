@@ -1,89 +1,87 @@
-```yaml
 source:
   id: 第1298章至第1299章
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 银河领主，得到断东河传承的人类宇宙之主。
-    attributes:
-      实力: 宇宙之主
-      能力: 水系能量、冰封领域等
-  - id: 彭工之主
-    type: Character
-    name: 彭工之主
-    aliases: []
-    description: 人类宇宙之主，拥有延钧棍。
-    attributes:
-      实力: 宇宙之主
-      能力: 延钧棍攻击
-  - id: 黑暗之主
-    type: Character
-    name: 黑暗之主
-    aliases: []
-    description: 人类宇宙之主，拥有黑狱塔。
-    attributes:
-      实力: 宇宙之主
-      能力: 黑狱塔攻击
-  - id: 梦妖祖
-    type: Character
-    name: 梦妖祖
-    aliases: []
-    description: 妖族的宇宙之主，实力强大。
-    attributes:
-      实力: 宇宙之主
-      能力: 控制梦魇等能力
-  - id: 冰峰之主
-    type: Character
-    name: 冰峰之主
-    aliases: []
-    description: 人类宇宙之主，拥有冰封领域。
-    attributes:
-      实力: 宇宙之主
-      能力: 冰封领域攻击
-  - id: 青东之主
-    type: Character
-    name: 青东之主
-    aliases: []
-    description: 人类宇宙之主，参与战斗。
-    attributes:
-      实力: 宇宙之主
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 银河领主，得到断东河传承的人类宇宙之主。
+  attributes:
+    实力: 宇宙之主
+    能力: 水系能量、冰封领域等
+- id: 彭工之主
+  type: Character
+  name: 彭工之主
+  aliases: []
+  description: 人类宇宙之主，拥有延钧棍。
+  attributes:
+    实力: 宇宙之主
+    能力: 延钧棍攻击
+- id: 黑暗之主
+  type: Character
+  name: 黑暗之主
+  aliases: []
+  description: 人类宇宙之主，拥有黑狱塔。
+  attributes:
+    实力: 宇宙之主
+    能力: 黑狱塔攻击
+- id: 梦妖祖
+  type: Character
+  name: 梦妖祖
+  aliases: []
+  description: 妖族的宇宙之主，实力强大。
+  attributes:
+    实力: 宇宙之主
+    能力: 控制梦魇等能力
+- id: 冰峰之主
+  type: Character
+  name: 冰峰之主
+  aliases: []
+  description: 人类宇宙之主，拥有冰封领域。
+  attributes:
+    实力: 宇宙之主
+    能力: 冰封领域攻击
+- id: 青东之主
+  type: Character
+  name: 青东之主
+  aliases: []
+  description: 人类宇宙之主，参与战斗。
+  attributes:
+    实力: 宇宙之主
 
 relationships:
-  - 主体: 罗峰
-    对象: 彭工之主
-    关系类型: 同盟关系
-    描述: 共同对抗妖族的联盟伙伴。
-  - 主体: 罗峰
-    对象: 黑暗之主
-    关系类型: 同盟关系
-    描述: 共同对抗妖族的联盟伙伴。
+- 主体: 罗峰
+  对象: 彭工之主
+  关系类型: 同盟关系
+  描述: 共同对抗妖族的联盟伙伴。
+- 主体: 罗峰
+  对象: 黑暗之主
+  关系类型: 同盟关系
+  描述: 共同对抗妖族的联盟伙伴。
 
 events:
-  - id: 妖族与人类宇宙之主战斗
-    type: Event
-    name: 妖族与人类宇宙之主战斗
-    description: 罗峰等人联手对抗梦妖祖及其部下的激烈战斗。
-    timeline: 第1298章至第1299章
+- id: 妖族与人类宇宙之主战斗
+  type: Event
+  name: 妖族与人类宇宙之主战斗
+  description: 罗峰等人联手对抗梦妖祖及其部下的激烈战斗。
+  timeline: 第1298章至第1299章
 
 dialogues:
-  - 主体: 罗峰
-    对象: 彭工之主、黑暗之主
-    内容: "杀！"
-    描述: 指挥人类宇宙之主展开攻击。
-  - 主体: 黑暗之主
-    对象: 妖族
-    内容: "杀！"
-    描述: 发起攻击命令。
+- 主体: 罗峰
+  对象: 彭工之主、黑暗之主
+  内容: "杀！"
+  描述: 指挥人类宇宙之主展开攻击。
+- 主体: 黑暗之主
+  对象: 妖族
+  内容: "杀！"
+  描述: 发起攻击命令。
 
 timeline:
-  - 时间点: 梦妖祖被黑狱塔和延钧棍击中，开始人类宇宙之主的集体围攻。
-    事件描述: 罗峰等人利用各自能力对梦妖祖展开狂轰滥炸。
-  - 时间点: 罗峰拔出血影刀
-    事件描述: 血影刀首次出鞘，威力惊人。
+- 时间点: 梦妖祖被黑狱塔和延钧棍击中，开始人类宇宙之主的集体围攻。
+  事件描述: 罗峰等人利用各自能力对梦妖祖展开狂轰滥炸。
+- 时间点: 罗峰拔出血影刀
+  事件描述: 血影刀首次出鞘，威力惊人。
 
 mysteries:
-  - 描述: 妖族宇宙之主为何无法抵挡血影刀的攻击？
-```
+- 描述: 妖族宇宙之主为何无法抵挡血影刀的攻击？

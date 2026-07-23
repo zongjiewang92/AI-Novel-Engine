@@ -1,103 +1,101 @@
-```yaml
 source:
   id: 文本1
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 四阶顶级强者，能够轻易抵挡灵魂攻击的宇宙之主。
-    attributes:
-      实力: 四阶顶级
-      能力: 拥有疯魔灭神甲和星辰塔双重防御
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 四阶顶级强者，能够轻易抵挡灵魂攻击的宇宙之主。
+  attributes:
+    实力: 四阶顶级
+    能力: 拥有疯魔灭神甲和星辰塔双重防御
 
-  - id: 净眼之主
-    type: Character
-    name: 净眼之主
-    aliases: []
-    description: 强大的宇宙之主，擅长灵魂攻击。
-    attributes:
-      实力: 宇宙之主
-      能力: 使用领域类至宝进行压制
+- id: 净眼之主
+  type: Character
+  name: 净眼之主
+  aliases: []
+  description: 强大的宇宙之主，擅长灵魂攻击。
+  attributes:
+    实力: 宇宙之主
+    能力: 使用领域类至宝进行压制
 
-  - id: 星辰塔
-    type: Item
-    name: 星辰塔
-    aliases: []
-    description: 强大的防御性至宝，能够抵挡净眼之主的灵魂攻击。
-    attributes:
-      功能: 防御灵魂攻击
+- id: 星辰塔
+  type: Item
+  name: 星辰塔
+  aliases: []
+  description: 强大的防御性至宝，能够抵挡净眼之主的灵魂攻击。
+  attributes:
+    功能: 防御灵魂攻击
 
-  - id: 疯魔灭神甲
-    type: Item
-    name: 疯魔灭神甲
-    aliases: []
-    description: 强大的防御性至宝，能够抵挡净眼之主的灵魂攻击。
-    attributes:
-      功能: 防御灵魂攻击
+- id: 疯魔灭神甲
+  type: Item
+  name: 疯魔灭神甲
+  aliases: []
+  description: 强大的防御性至宝，能够抵挡净眼之主的灵魂攻击。
+  attributes:
+    功能: 防御灵魂攻击
 
-  - id: 黑纹石柱空间
-    type: Location
-    name: 黑纹石柱空间
-    aliases: []
-    description: 包含16根黑纹石柱的广袤奇异的空间，拥有众多宇宙之主的秘密空间密室。
-    attributes:
-      特点: 宇宙之主的秘密空间
+- id: 黑纹石柱空间
+  type: Location
+  name: 黑纹石柱空间
+  aliases: []
+  description: 包含16根黑纹石柱的广袤奇异的空间，拥有众多宇宙之主的秘密空间密室。
+  attributes:
+    特点: 宇宙之主的秘密空间
 
-  - id: 空间密室
-    type: Location
-    name: 空间密室
-    aliases: []
-    description: 只有持有黑色信物的宇宙之主才能进入的空间，极为安全。
-    attributes:
-      特点: 绝对的安全性
+- id: 空间密室
+  type: Location
+  name: 空间密室
+  aliases: []
+  description: 只有持有黑色信物的宇宙之主才能进入的空间，极为安全。
+  attributes:
+    特点: 绝对的安全性
 
-  - id: 宇宙舟内域
-    type: Location
-    name: 宇宙舟内域
-    aliases: []
-    description: 浩瀚无垠的茫茫雪地区域，宇宙之主们进行观察的地方。
-    attributes:
-      特点: 极端危险
+- id: 宇宙舟内域
+  type: Location
+  name: 宇宙舟内域
+  aliases: []
+  description: 浩瀚无垠的茫茫雪地区域，宇宙之主们进行观察的地方。
+  attributes:
+    特点: 极端危险
 
-  - id: 五浑之主
-    type: Character
-    name: 五浑之主
-    aliases: []
-    description: 强大的宇宙之主，对罗峰感到烦恼。
-    attributes:
-      实力: 宇宙之主
+- id: 五浑之主
+  type: Character
+  name: 五浑之主
+  aliases: []
+  description: 强大的宇宙之主，对罗峰感到烦恼。
+  attributes:
+    实力: 宇宙之主
 
-  - id: 安永之主
-    type: Character
-    name: 安永之母
-    aliases: []
-    description: 和五浑之主一起寻找空间密室的宇宙之主。
-    attributes:
-      实力: 宇宙之主
+- id: 安永之主
+  type: Character
+  name: 安永之母
+  aliases: []
+  description: 和五浑之主一起寻找空间密室的宇宙之主。
+  attributes:
+    实力: 宇宙之主
 
 relationships:
 
 events:
-  - id: 罗峰与净眼之主战斗
-    type: Event
-    name: 罗峰与净眼之主战斗
-    description: 罗峰轻松抵挡住净眼之主的灵魂攻击，并在近战中占据优势。
-    timeline:
-      时间: 未明确给出
+- id: 罗峰与净眼之主战斗
+  type: Event
+  name: 罗峰与净眼之主战斗
+  description: 罗峰轻松抵挡住净眼之主的灵魂攻击，并在近战中占据优势。
+  timeline:
+    时间: 未明确给出
 
 dialogues:
-  - id: 对话1
-    type: Dialogue
-    content: "你怎么挡住我的灵魂攻击的？"
-    speaker: 净眼之主
-    responder: 罗峰轻声一笑。
+- id: 对话1
+  type: Dialogue
+  content: "你怎么挡住我的灵魂攻击的？"
+  speaker: 净眼之主
+  responder: 罗峰轻声一笑。
 
 timeline:
 
 mysteries:
-  - id: 王者空间密室的秘密
-    type: Mystery
-    description: 黑色信物的空间密室内究竟留下了什么秘密。
-```
+- id: 王者空间密室的秘密
+  type: Mystery
+  description: 黑色信物的空间密室内究竟留下了什么秘密。

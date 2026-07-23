@@ -1,95 +1,93 @@
-```yaml
 source:
   id: 文本来源
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙公司第九军主，拥有强大的实力。
-    attributes:
-      实力: 封王级不朽神灵及以上
-      角色身份: 第九军主
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙公司第九军主，拥有强大的实力。
+  attributes:
+    实力: 封王级不朽神灵及以上
+    角色身份: 第九军主
 
-  - id: 巴巴塔
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的智能辅助设备，能够进行探测和转播。
-    attributes:
-      能力: 探测、转播战斗情景
+- id: 巴巴塔
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的智能辅助设备，能够进行探测和转播。
+  attributes:
+    能力: 探测、转播战斗情景
 
-  - id: 杰弗里斯
-    type: Character
-    name: 杰弗里斯
-    aliases: []
-    description: 人类皇族成员，参与了叛变。
-    attributes:
-      实力: 封侯级不朽神灵
-      关系: 曜亥的老师
+- id: 杰弗里斯
+  type: Character
+  name: 杰弗里斯
+  aliases: []
+  description: 人类皇族成员，参与了叛变。
+  attributes:
+    实力: 封侯级不朽神灵
+    关系: 曜亥的老师
 
-  - id: 隆赤尔
-    type: Character
-    name: 隆赤尔
-    aliases: []
-    description: 白发老者，封王级不朽神灵。
-    attributes:
-      实力: 封王级不朽神灵
-      角色身份: 人类强者
+- id: 隆赤尔
+  type: Character
+  name: 隆赤尔
+  aliases: []
+  description: 白发老者，封王级不朽神灵。
+  attributes:
+    实力: 封王级不朽神灵
+    角色身份: 人类强者
 
-  - id: 曜亥
-    type: Character
-    name: 曜亥
-    aliases: []
-    description: 穿着碧绿战铠的少年，参与叛变。
-    attributes:
-      实力: 封侯级不朽神灵
-      关系: 杰弗里斯的学生
+- id: 曜亥
+  type: Character
+  name: 曜亥
+  aliases: []
+  description: 穿着碧绿战铠的少年，参与叛变。
+  attributes:
+    实力: 封侯级不朽神灵
+    关系: 杰弗里斯的学生
 
-  - id: 塔文部金角巨兽封侯级不朽神灵
-    type: Character
-    name: 塔文部金角巨兽封侯级不朽神灵
-    aliases: []
-    description: 来自塔文部的金角巨兽，参与战斗。
-    attributes:
-      实力: 封侯级不朽神灵
+- id: 塔文部金角巨兽封侯级不朽神灵
+  type: Character
+  name: 塔文部金角巨兽封侯级不朽神灵
+  aliases: []
+  description: 来自塔文部的金角巨兽，参与战斗。
+  attributes:
+    实力: 封侯级不朽神灵
 
-  - id: 虚拟宇宙公司
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 组织名称。
+- id: 虚拟宇宙公司
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 组织名称。
 
 locations:
-  - id: 帝都星
-    type: Location
-    name: 帝都星
-    aliases: []
+- id: 帝都星
+  type: Location
+  name: 帝都星
+  aliases: []
 
 organizations:
-  - id: 第九军
-    type: Organization
-    name: 第九军
-    aliases: []
-    description: 虚拟宇宙公司的第九军。
+- id: 第九军
+  type: Organization
+  name: 第九军
+  aliases: []
+  description: 虚拟宇宙公司的第九军。
 
 events:
-  - id: 曜亥叛变事件
-    type: Event
-    name: 曜亥叛变事件
-    description: 曜亥带领外族入侵帝都星，引发战斗。
-    timeline: 帝国皇宫内
+- id: 曜亥叛变事件
+  type: Event
+  name: 曜亥叛变事件
+  description: 曜亥带领外族入侵帝都星，引发战斗。
+  timeline: 帝国皇宫内
 
 dialogues:
-  - speaker: 杰弗里斯
-    listener: 隆赤尔
-    content: "隆赤尔大人，请帮我救下老师，杀死那群外族。"
+- speaker: 杰弗里斯
+  listener: 隆赤尔
+  content: "隆赤尔大人，请帮我救下老师，杀死那群外族。"
 
-  - speaker: 隆赤尔
-    listener: 
-    content: "背叛人族？没想到竟然被你们发现了。"
+- speaker: 隆赤尔
+  listener:
+  content: "背叛人族？没想到竟然被你们发现了。"
 
 mysteries:
-  - 内容: 杰弗里斯为什么会背叛人类。
-```
+- 内容: 杰弗里斯为什么会背叛人类。

@@ -1,67 +1,65 @@
-```yaml
 source:
   id: 星辰变-第603章
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙公司核心层的天才之一，参加资格战，并在原始秘境名额争夺战中表现出色。
-    attributes:
-      实力: 宇宙级
-      经历: 天才战3胜0平0负
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙公司核心层的天才之一，参加资格战，并在原始秘境名额争夺战中表现出色。
+  attributes:
+    实力: 宇宙级
+    经历: 天才战3胜0平0负
 
-  - id: 克罗夫
-    type: Character
-    name: 克罗夫
-    aliases: []
-    description: 虚拟宇宙公司核心层的天才之一，参加资格战，并在原始秘境名额争夺战中表现出色。
-    attributes:
-      实力: 宇宙级
+- id: 克罗夫
+  type: Character
+  name: 克罗夫
+  aliases: []
+  description: 虚拟宇宙公司核心层的天才之一，参加资格战，并在原始秘境名额争夺战中表现出色。
+  attributes:
+    实力: 宇宙级
 
-  - id: 愚风
-    type: Character
-    name: 愚风
-    aliases: []
-    description: 药剂师，虚拟宇宙公司核心层的成员之一，在资格战中与罗峰对战。
-    attributes:
-      实力: 宇宙级
+- id: 愚风
+  type: Character
+  name: 愚风
+  aliases: []
+  description: 药剂师，虚拟宇宙公司核心层的成员之一，在资格战中与罗峰对战。
+  attributes:
+    实力: 宇宙级
 
-  - id: 雨相山公共区餐厅
-    type: Location
-    name: 雨相山公共区餐厅
-    aliases: []
-    description: 虚拟宇宙公司核心层天才们观看资格战的地方。
+- id: 雨相山公共区餐厅
+  type: Location
+  name: 雨相山公共区餐厅
+  aliases: []
+  description: 虚拟宇宙公司核心层天才们观看资格战的地方。
 
 relationships:
-  - entity1_id: 罗峰
-    entity2_id: 克罗夫
-    relation_type: 竞争对手
+- entity1_id: 罗峰
+  entity2_id: 克罗夫
+  relation_type: 竞争对手
 
 events:
-  - id: 原始秘境名额争夺战
-    type: Event
-    description: 虚拟宇宙公司核心层天才间为争取进入原始秘境的资格而进行的比赛。
-    timeline:
-      start_date: 百年一次的资格战周期内
-      end_date: 第六名被淘汰
+- id: 原始秘境名额争夺战
+  type: Event
+  description: 虚拟宇宙公司核心层天才间为争取进入原始秘境的资格而进行的比赛。
+  timeline:
+    start_date: 百年一次的资格战周期内
+    end_date: 第六名被淘汰
 
 dialogues:
-  - speaker_id: 不明青年
-    listener_ids: []
-    content: "这届资格战的争夺战，到现在这六人，也就两个人还没有败绩！罗峰和克罗夫，都没有输过！这次进原始秘境的应该是他们俩人中的一个。"
-    context: 雨相山公共区餐厅内观看比赛
+- speaker_id: 不明青年
+  listener_ids: []
+  content: "这届资格战的争夺战，到现在这六人，也就两个人还没有败绩！罗峰和克罗夫，都没有输过！这次进原始秘境的应该是他们俩人中的一个。"
+  context: 雨相山公共区餐厅内观看比赛
 
-  - speaker_id: 赤瞳男子
-    listener_ids: []
-    content: "罗峰？输给克罗夫是肯定的。更何况他恐怕连愚风这关都过不去！"
-    context: 雨相山公共区餐厅内观看比赛
+- speaker_id: 赤瞳男子
+  listener_ids: []
+  content: "罗峰？输给克罗夫是肯定的。更何况他恐怕连愚风这关都过不去！"
+  context: 雨相山公共区餐厅内观看比赛
 
 mysteries:
-  - question: 罗峰如何击败药剂师愚风？
-    answer: 尚未揭晓
+- question: 罗峰如何击败药剂师愚风？
+  answer: 尚未揭晓
 
-  - question: 克罗夫与罗峰之间的最终对决结果会怎样？
-    answer: 尚未揭晓
-```
+- question: 克罗夫与罗峰之间的最终对决结果会怎样？
+  answer: 尚未揭晓

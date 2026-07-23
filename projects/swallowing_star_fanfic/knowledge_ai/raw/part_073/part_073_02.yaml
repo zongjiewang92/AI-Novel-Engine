@@ -1,60 +1,59 @@
-```yaml
 source:
   id: 罗峰的领域
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 来自人类族群，擅长使用斩玥刀进行战斗。
-    attributes:
-      实力: 宇宙之主
-      特殊能力: 兽神变, 斩玥刀法
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 来自人类族群，擅长使用斩玥刀进行战斗。
+  attributes:
+    实力: 宇宙之主
+    特殊能力: 兽神变, 斩玥刀法
 
-  - id: 金角巨兽分身
-    type: Character
-    name: 金角巨兽分身
-    aliases: []
-    description: 罗峰的分身，具有强大的杀戮能力。
-    attributes:
-      特殊能力: 兽神变, 战斗力强大
+- id: 金角巨兽分身
+  type: Character
+  name: 金角巨兽分身
+  aliases: []
+  description: 罗峰的分身，具有强大的杀戮能力。
+  attributes:
+    特殊能力: 兽神变, 战斗力强大
 
-  - id: 仲斩尊者
-    type: Character
-    name: 仲斩尊者
-    aliases: []
-    description: 虫族联盟的宇宙霸主，擅长近战且灵魂防御极强。
-    attributes:
-      实力: 宇宙霸主
-      特殊能力: 高等至宝铠甲, 命运的仲裁
+- id: 仲斩尊者
+  type: Character
+  name: 仲斩尊者
+  aliases: []
+  description: 虫族联盟的宇宙霸主，擅长近战且灵魂防御极强。
+  attributes:
+    实力: 宇宙霸主
+    特殊能力: 高等至宝铠甲, 命运的仲裁
 
-  - id: 九虓河
-    type: Location
-    name: 九虓河
-    aliases: []
-    description: 神秘河流，具有强大威能。
-    attributes:
-      
-  - id: 虫族联盟
-    type: Civilization
-    name: 虫族联盟
-    aliases: []
-    description: 异族文明之一。
+- id: 九虓河
+  type: Location
+  name: 九虓河
+  aliases: []
+  description: 神秘河流，具有强大威能。
+  attributes:
+
+
+- id: 虫族联盟
+  type: Civilization
+  name: 虫族联盟
+  aliases: []
+  description: 异族文明之一。
 
 relationships:
 
 events:
-  - id: 罗峰杀戮异族尊者
-    type: Event
-    name: 罗峰杀戮异族尊者
-    description: 在九虓河中，罗峰利用兽神变和强大的刀法屠杀被困的宇宙霸主们。
-    attributes:
-      时间顺序: 中间朝外围
+- id: 罗峰杀戮异族尊者
+  type: Event
+  name: 罗峰杀戮异族尊者
+  description: 在九虓河中，罗峰利用兽神变和强大的刀法屠杀被困的宇宙霸主们。
+  attributes:
+    时间顺序: 中间朝外围
 
 dialogues:
 
 timeline:
 
 mysteries:
-```

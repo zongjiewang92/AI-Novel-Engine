@@ -1,88 +1,84 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 武者，能够使用精神念力控制事物。
-    attributes:
-      实力: 高级武者
-      能力: 使用飞刀、精神念力
-  - id: 李威
-    type: Character
-    name: 混血儿青年李威
-    aliases: []
-    description: 武者，拥有战神背景。
-    attributes:
-      实力: 高级武者
-      背景: 父母是战神
-  - id: 王姓男子
-    type: Character
-    name: 王姓男子
-    aliases: []
-    description: 战神，拥有极高的实力。
-    attributes:
-      实力: 高级战神
-      能力: 解剖怪兽尸体、控制庞大兽群
-  - id: 李阚
-    type: Character
-    name: 李阚
-    aliases: ['大力熊']
-    description: 战神，李威的叔叔。
-    attributes:
-      实力: 高级战神
-      能力: 协助王姓男子猎杀高等领主铁甲龙
-  - id: 老刘
-    type: Character
-    name: 刘姓老者
-    aliases: []
-    description: 武者，跟随李威。
-    attributes:
-      实力: 高级武者
-      关系: 李威的同伴
-  - id: 白人壮汉
-    type: Character
-    name: 白人壮汉
-    aliases: []
-    description: 武者，跟随李威。
-    attributes:
-      实力: 高级武者
-      关系: 李威的同伴
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 武者，能够使用精神念力控制事物。
+  attributes:
+    实力: 高级武者
+    能力: 使用飞刀、精神念力
+- id: 李威
+  type: Character
+  name: 混血儿青年李威
+  aliases: []
+  description: 武者，拥有战神背景。
+  attributes:
+    实力: 高级武者
+    背景: 父母是战神
+- id: 王姓男子
+  type: Character
+  name: 王姓男子
+  aliases: []
+  description: 战神，拥有极高的实力。
+  attributes:
+    实力: 高级战神
+    能力: 解剖怪兽尸体、控制庞大兽群
+- id: 李阚
+  type: Character
+  name: 李阚
+  aliases: [ '大力熊' ]
+  description: 战神，李威的叔叔。
+  attributes:
+    实力: 高级战神
+    能力: 协助王姓男子猎杀高等领主铁甲龙
+- id: 老刘
+  type: Character
+  name: 刘姓老者
+  aliases: []
+  description: 武者，跟随李威。
+  attributes:
+    实力: 高级武者
+    关系: 李威的同伴
+- id: 白人壮汉
+  type: Character
+  name: 白人壮汉
+  aliases: []
+  description: 武者，跟随李威。
+  attributes:
+    实力: 高级武者
+    关系: 李威的同伴
 
 relationships:
-  - source_id: 罗峰
-    target_id: 李威
-    type: 观察
-    description: 罗峰观察到李威一行人的行动，并对其猎杀高等领主铁甲龙的行为感到好奇。
-  - source_id: 李阚
-    target_id: 王姓男子
-    type: 合作
-    description: 李阚和王姓男子联手猎杀高等领主铁甲龙。
+- source_id: 罗峰
+  target_id: 李威
+  type: 观察
+  description: 罗峰观察到李威一行人的行动，并对其猎杀高等领主铁甲龙的行为感到好奇。
+- source_id: 李阚
+  target_id: 王姓男子
+  type: 合作
+  description: 李阚和王姓男子联手猎杀高等领主铁甲龙。
 
 events:
-  - id: 高等领主铁甲龙产卵事件
-    type: Event
-    description: 罗峰得知高等领主铁甲龙刚刚产卵，实力减弱不少。
-    timeline: 白天
+- id: 高等领主铁甲龙产卵事件
+  type: Event
+  description: 罗峰得知高等领主铁甲龙刚刚产卵，实力减弱不少。
+  timeline: 白天
 
 dialogues:
-  - speaker_id: 李威
-    listener_ids: []
-    content: "好了，赶紧走吧。那头铁甲龙距离这也就十里地左右，一旦我们动手，它控制的那庞大的兽群很可能发生动荡……周围一带都会受到波及，所以你们逃出这上海市，逃到那高速公路上去最是安全。"
-  - speaker_id: 王姓男子
-    listener_ids: [李威]
-    content: "哈哈，那头铁甲龙刚刚产卵，实力减弱不少。正是最佳良机！"
+- speaker_id: 李威
+  listener_ids: []
+  content: "好了，赶紧走吧。那头铁甲龙距离这也就十里地左右，一旦我们动手，它控制的那庞大的兽群很可能发生动荡……周围一带都会受到波及，所以你们逃出这上海市，逃到那高速公路上去最是安全。"
+- speaker_id: 王姓男子
+  listener_ids: [ 李威 ]
+  content: "哈哈，那头铁甲龙刚刚产卵，实力减弱不少。正是最佳良机！"
 
 timeline:
-  - event_id: 高等领主铁甲龙产卵事件
-    time: 白天
+- event_id: 高等领主铁甲龙产卵事件
+  time: 白天
 
 mysteries:
-  - id: 王姓男子和李阚身份之谜
-    description: 王姓男子和李阚是否是传说中的影刀二兄弟的'影刀'王通和'大力熊'李阚。
-```
-
-此YAML数据涵盖了人物、事件、对话以及时间线等信息，保持了文本原有的设定和情节。
+- id: 王姓男子和李阚身份之谜
+  description: 王姓男子和李阚是否是传说中的影刀二兄弟的'影刀'王通和'大力熊'李阚。

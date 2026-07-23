@@ -1,61 +1,58 @@
-```yaml
 source:
   id: qidian_com_2024
 
 entities:
-  - id: rofei
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 黑甲人，穿着黑色战甲，脚踏战靴，带着战盔、面罩。
-    attributes:
-      实力: 领域级（至少七八阶）
-      武器: 未知但威力巨大
+- id: rofei
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 黑甲人，穿着黑色战甲，脚踏战靴，带着战盔、面罩。
+  attributes:
+    实力: 领域级（至少七八阶）
+    武器: 未知但威力巨大
 
-  - id: shi_feng_xiong
-    type: Character
-    name: 石风雄
-    aliases: []
-    description: 身份不明，但在燕岗城拥有权势。
-    attributes:
-      实力: 领域级（不详）
-      命运: 死亡
+- id: shi_feng_xiong
+  type: Character
+  name: 石风雄
+  aliases: []
+  description: 身份不明，但在燕岗城拥有权势。
+  attributes:
+    实力: 领域级（不详）
+    命运: 死亡
 
-  - id: chun_yu_tao
-    type: Character
-    name: 淳羽陶
-    aliases: []
-    description: 燕岗城淳羽家族的族长，心思细腻且谨慎。
-    attributes:
-      实力: 领域级（不详）
-      命运: 观望中
+- id: chun_yu_tao
+  type: Character
+  name: 淳羽陶
+  aliases: []
+  description: 燕岗城淳羽家族的族长，心思细腻且谨慎。
+  attributes:
+    实力: 领域级（不详）
+    命运: 观望中
 
-  - id: xing_xing_te_shi
-    type: Character
-    name: 不朽神殿特使
-    aliases: []
-    description: 穿着银灰色战衣，实力强大。
-    attributes:
-      实力: 领域级巅峰（至少七八阶）
-      人数: 2
+- id: xing_xing_te_shi
+  type: Character
+  name: 不朽神殿特使
+  aliases: []
+  description: 穿着银灰色战衣，实力强大。
+  attributes:
+    实力: 领域级巅峰（至少七八阶）
+    人数: 2
 
 relationships:
 
 events:
-  - id: rofei_vs_shi_feng_xiong
-    type: Event
-    name: 罗峰与石风雄的战斗
-    description: 短暂而激烈的战斗，罗峰杀死石风雄。
-    timeline: 数十秒钟内完成
+- id: rofei_vs_shi_feng_xiong
+  type: Event
+  name: 罗峰与石风雄的战斗
+  description: 短暂而激烈的战斗，罗峰杀死石风雄。
+  timeline: 数十秒钟内完成
 
 dialogues:
-  - speaker: 不朽神殿特使之一
-    content: "哈哈，你都杀了我师弟，难不成还要让我放了你吗？"
+- speaker: 不朽神殿特使之一
+  content: "哈哈，你都杀了我师弟，难不成还要让我放了你吗？"
 
 timeline:
 
 mysteries:
-  - id: 神殿使者实力
-    description: 神殿使者具体的实力等级未知。
-```
-此段为从给定文本中提取的关键信息和人物关系。
+- id: 神殿使者实力
+  description: 神殿使者具体的实力等级未知。

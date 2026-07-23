@@ -1,57 +1,55 @@
-```yaml
 source:
   id: 第572章追杀
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有坚定意志的探险者，正在探索魔山。
-    attributes:
-      实力: 境界未知（推测为较高阶）
-      能力: 抵抗幻惑音波的能力
-  - id: 黑色弯角精瘦男子
-    type: Character
-    name: 巫祁
-    aliases: []
-    description: 界主六阶强者，正在进行黑色令牌的收集任务。
-    attributes:
-      实力: 境界六阶（界主）
-      能力: 使用世界之力搜索目标
-  - id: 洞窟口呈八边形幽深洞窟
-    type: Location
-    name: 八边形洞窟
-    aliases: []
-    description: 在魔山中显得特别，可能藏有重要线索。
-    attributes:
-      特性: 呈现八边形的特殊形状
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有坚定意志的探险者，正在探索魔山。
+  attributes:
+    实力: 境界未知（推测为较高阶）
+    能力: 抵抗幻惑音波的能力
+- id: 黑色弯角精瘦男子
+  type: Character
+  name: 巫祁
+  aliases: []
+  description: 界主六阶强者，正在进行黑色令牌的收集任务。
+  attributes:
+    实力: 境界六阶（界主）
+    能力: 使用世界之力搜索目标
+- id: 洞窟口呈八边形幽深洞窟
+  type: Location
+  name: 八边形洞窟
+  aliases: []
+  description: 在魔山中显得特别，可能藏有重要线索。
+  attributes:
+    特性: 呈现八边形的特殊形状
 
 relationships:
 
 events:
-  - id: 罗峰遭遇幻惑音波
-    type: Event
-    name: 遭遇幻惑音波
-    description: 罗峰在探索过程中遇到极强的幻惑音波，但凭借坚定意志抵抗。
-  - id: 巫祁杀死域主级八阶中年人
-    type: Event
-    name: 杀死目标
-    description: 黑色弯角精瘦男子发现并击杀一名逃跑中的域主级八阶中年人。
+- id: 罗峰遭遇幻惑音波
+  type: Event
+  name: 遭遇幻惑音波
+  description: 罗峰在探索过程中遇到极强的幻惑音波，但凭借坚定意志抵抗。
+- id: 巫祁杀死域主级八阶中年人
+  type: Event
+  name: 杀死目标
+  description: 黑色弯角精瘦男子发现并击杀一名逃跑中的域主级八阶中年人。
 
 dialogues:
-  - speaker: 祖父
-    listener: 孙子
-    dialogue: "爷爷，我们只要再坚持两天就到一个月了！"
-  - speaker: 爷孙二人
-    listener: 巫祁
-    dialogue: "什么人！"
+- speaker: 祖父
+  listener: 孙子
+  dialogue: "爷爷，我们只要再坚持两天就到一个月了！"
+- speaker: 爷孙二人
+  listener: 巫祁
+  dialogue: "什么人！"
 
 timeline:
 
 mysteries:
-  - id: 幻惑音波的来源
-    type: Mystery
-    name: 幻惑音波的来源
-    description: 幻惑音波是从何而来，为何如此强大。
-```
+- id: 幻惑音波的来源
+  type: Mystery
+  name: 幻惑音波的来源
+  description: 幻惑音波是从何而来，为何如此强大。

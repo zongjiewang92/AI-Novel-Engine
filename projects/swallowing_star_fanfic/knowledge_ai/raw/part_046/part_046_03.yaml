@@ -1,95 +1,93 @@
-```yaml
 source:
   id: 第686章尊者的惩罚九大星域（三更完毕）
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 主角，实力强大，有金融投资的弟弟罗华。
-    attributes:
-      实力: 强大
-      关系: 哥哥
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 主角，实力强大，有金融投资的弟弟罗华。
+  attributes:
+    实力: 强大
+    关系: 哥哥
 
-  - id: 伊琳娜
-    type: Character
-    name: 母皇伊琳娜
-    aliases: []
-    description: 虫族母皇，被罗峰收服。
-    attributes:
-      种族: 虫族
-      关系: 主人
+- id: 伊琳娜
+  type: Character
+  name: 母皇伊琳娜
+  aliases: []
+  description: 虫族母皇，被罗峰收服。
+  attributes:
+    种族: 虫族
+    关系: 主人
 
-  - id: 巴巴塔
-    type: Character
-    name: 巴巴塔
-    aliases: []
-    description: 智能生命，帮助罗峰处理各种事务。
-    attributes:
-      类型: 智能生命
-      职责: 计算最优折扣
+- id: 巴巴塔
+  type: Character
+  name: 巴巴塔
+  aliases: []
+  description: 智能生命，帮助罗峰处理各种事务。
+  attributes:
+    类型: 智能生命
+    职责: 计算最优折扣
 
-  - id: 罗华
-    type: Character
-    name: 罗华
-    aliases: []
-    description: 罗峰的弟弟，金融投资天才。
-    attributes:
-      实力: 高级金融投资能力
-      关系: 弟弟
+- id: 罗华
+  type: Character
+  name: 罗华
+  aliases: []
+  description: 罗峰的弟弟，金融投资天才。
+  attributes:
+    实力: 高级金融投资能力
+    关系: 弟弟
 
 organizations:
-  - id: 虚拟宇宙公司
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 提供虚拟宇宙项目
-    attributes:
-      
-  - id: 巨斧斗武场
-    type: Organization
-    name: 巨斧斗武场
-    aliases: []
-    description: 提供斗武场项目
-    attributes:
+- id: 虚拟宇宙公司
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 提供虚拟宇宙项目
+  attributes:
+
+
+- id: 巨斧斗武场
+  type: Organization
+  name: 巨斧斗武场
+  aliases: []
+  description: 提供斗武场项目
+  attributes:
+
 
 locations:
-  - id: 扬州城
-    type: Location
-    name: 扬州城
-    aliases: []
-    description: 罗峰的老家所在地
+- id: 扬州城
+  type: Location
+  name: 扬州城
+  aliases: []
+  description: 罗峰的老家所在地
 
 abilities:
-  - id: 虫族战士制造数据
-    type: Ability
-    name: 制造虫族战士的数据
-    aliases: []
-    description: 记录在智能光脑上的制造数据，包括金属合金残骸、血液等资源。
+- id: 虫族战士制造数据
+  type: Ability
+  name: 制造虫族战士的数据
+  aliases: []
+  description: 记录在智能光脑上的制造数据，包括金属合金残骸、血液等资源。
 
 items:
-  - id: 智能光脑
-    type: Item
-    name: 智能光脑
-    aliases: []
-    description: 存储虫族战士制造所需的数据
+- id: 智能光脑
+  type: Item
+  name: 智能光脑
+  aliases: []
+  description: 存储虫族战士制造所需的数据
 
 dialogues:
-  - participants: [罗峰, 巴巴塔]
-    content: "巴巴塔，你在网络上查阅资料怎么样了？"
-  - participants: [罗华, 罗峰]
-    content: "哥你上次回地球，给了我50万混元单位进行操作。虽然我已经暗中模拟操作过不少次，可真正投入资金去操作的时候，才真正感受到可怕。"
+- participants: [ 罗峰, 巴巴塔 ]
+  content: "巴巴塔，你在网络上查阅资料怎么样了？"
+- participants: [ 罗华, 罗峰 ]
+  content: "哥你上次回地球，给了我50万混元单位进行操作。虽然我已经暗中模拟操作过不少次，可真正投入资金去操作的时候，才真正感受到可怕。"
 
 timeline:
   events:
-    - id: 收服虫族母皇
-      time: 最近一次闭关
-      description: 罗峰收服了虫族母皇伊琳娜
+  - id: 收服虫族母皇
+    time: 最近一次闭关
+    description: 罗峰收服了虫族母皇伊琳娜
 
 mysteries:
-  - question: 弟弟罗华亏损的严重程度？
-    clues: 没有明确提到具体数值，但50万混元单位全部投资进去后开始不断亏损。
-
-```
-重要：确保输出仅包含 YAML 数据格式。
+- question: 弟弟罗华亏损的严重程度？
+  clues: 没有明确提到具体数值，但50万混元单位全部投资进去后开始不断亏损。

@@ -1,84 +1,82 @@
-```yaml
 source:
   id: text_1
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 刚刚跨入不朽的宇宙强者，拥有弑吴羽翼和塔珠等至宝。
-    attributes:
-      实力: 不朽
-      装备: 弑吴羽翼, 塔珠
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 刚刚跨入不朽的宇宙强者，拥有弑吴羽翼和塔珠等至宝。
+  attributes:
+    实力: 不朽
+    装备: 弑吴羽翼, 塔珠
 
-  - id: 沛风尊者
-    type: Character
-    name: 沛风尊者
-    aliases: []
-    description: 北疆联盟候选神将，宇宙霸主级别的强者。
-    attributes:
-      实力: 宇宙之主
-      装备: 法则领域
+- id: 沛风尊者
+  type: Character
+  name: 沛风尊者
+  aliases: []
+  description: 北疆联盟候选神将，宇宙霸主级别的强者。
+  attributes:
+    实力: 宇宙之主
+    装备: 法则领域
 
-  - id: 吠镜王
-    type: Character
-    name: 吠镜王
-    aliases: []
-    description: 北疆联盟的超级存在，自爆后遗留下诸多重宝。
-    attributes:
-      实力: 宇宙之主
-      装备: 空间戒指, 至宝战铠
+- id: 吠镜王
+  type: Character
+  name: 吠镜王
+  aliases: []
+  description: 北疆联盟的超级存在，自爆后遗留下诸多重宝。
+  attributes:
+    实力: 宇宙之主
+    装备: 空间戒指, 至宝战铠
 
-  - id: 塔珠
-    type: Item
-    name: 塔珠
-    aliases: []
-    description: 拥有保护灵魂的强大功能，可以抵抗沛风尊者的攻击。
-    attributes:
-      类型: 灵魂类至宝
+- id: 塔珠
+  type: Item
+  name: 塔珠
+  aliases: []
+  description: 拥有保护灵魂的强大功能，可以抵抗沛风尊者的攻击。
+  attributes:
+    类型: 灵魂类至宝
 
-  - id: 弑吴羽翼
-    type: Item
-    name: 弑吴羽翼
-    aliases: []
-    description: 能够快速飞行的神器装备。
-    attributes:
-      功能: 高速移动, 抗灵魂攻击
+- id: 弑吴羽翼
+  type: Item
+  name: 弑吴羽翼
+  aliases: []
+  description: 能够快速飞行的神器装备。
+  attributes:
+    功能: 高速移动, 抗灵魂攻击
 
 relationships:
-  - 主体: 罗峰
-    关系类型: 拥有
-    对象: 塔珠
+- 主体: 罗峰
+  关系类型: 拥有
+  对象: 塔珠
 
-  - 主体: 罗峰
-    关系类型: 拥有
-    对象: 弑吴羽翼
+- 主体: 罗峰
+  关系类型: 拥有
+  对象: 弑吴羽翼
 
 events:
-  - id: 吠镜王自爆
-    type: Event
-    description: "吠镜王在战斗中自爆，留下众多重宝给罗峰。"
-    timeline: []
+- id: 吠镜王自爆
+  type: Event
+  description: "吠镜王在战斗中自爆，留下众多重宝给罗峰。"
+  timeline: []
 
-  - id: 罗峰逃逸
-    type: Event
-    description: "沛风尊者追杀罗峰，罗峰利用弑吴羽翼逃离现场。"
-    timeline: []
+- id: 罗峰逃逸
+  type: Event
+  description: "沛风尊者追杀罗峰，罗峰利用弑吴羽翼逃离现场。"
+  timeline: []
 
 dialogues:
-  - 主体: 沛风尊者
-    内容: 刀河王，你太贪婪了！
-    对象: 罗峰
+- 主体: 沛风尊者
+  内容: 刀河王，你太贪婪了！
+  对象: 罗峰
 
-  - 主体: 罗峰
-    内容: 愚蠢的家伙！你实在太过自大了。
-    对象: 沛风尊者
+- 主体: 罗峰
+  内容: 愚蠢的家伙！你实在太过自大了。
+  对象: 沛风尊者
 
 timeline:
-  - 时间点: 吠镜王自爆后
-    描述: 罗峰迅速收起吠镜王留下的重宝。
+- 时间点: 吠镜王自爆后
+  描述: 罗峰迅速收起吠镜王留下的重宝。
 
 mysteries:
-  - 描述: 沛风尊者为何没有预料到罗峰会拥有强大的灵魂类至宝。
-```
+- 描述: 沛风尊者为何没有预料到罗峰会拥有强大的灵魂类至宝。

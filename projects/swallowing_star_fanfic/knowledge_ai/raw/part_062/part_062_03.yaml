@@ -1,71 +1,70 @@
-```yaml
 source:
   id: "第932章重伤的魔手王"
 
 entities:
-  - id: rofei
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 强者，拥有十二名奴仆，包括天阵王等。
-    attributes:
-      实力: 极限强者
-      装备: 摩云战衣,弑吴羽翼
+- id: rofei
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 强者，拥有十二名奴仆，包括天阵王等。
+  attributes:
+    实力: 极限强者
+    装备: 摩云战衣,弑吴羽翼
 
-  - id: babata
-    type: character
-    name: 巴巴塔
-    aliases: []
-    description: 罗峰的智能生命，拥有进化之心。
-    attributes:
-      性格: 悲愤,失去控制
+- id: babata
+  type: character
+  name: 巴巴塔
+  aliases: []
+  description: 罗峰的智能生命，拥有进化之心。
+  attributes:
+    性格: 悲愤,失去控制
 
-  - id: tianzhenwang
-    type: character
-    name: 天阵王
-    aliases: []
-    description: 罗峰麾下的奴仆之一。
+- id: tianzhenwang
+  type: character
+  name: 天阵王
+  aliases: []
+  description: 罗峰麾下的奴仆之一。
 
-  - id: mochuangxing
-    type: location
-    name: 魔手星
-    aliases: [魔手王老巢]
-    description: 古轮宇宙国的禁地，由魔手王占据。
-    attributes:
-      特点: 巨大生命波动,九个星系范围
+- id: mochuangxing
+  type: location
+  name: 魔手星
+  aliases: [ 魔手王老巢 ]
+  description: 古轮宇宙国的禁地，由魔手王占据。
+  attributes:
+    特点: 巨大生命波动,九个星系范围
 
-  - id: weihuozhang
-    type: civilization
-    name: 虚拟宇宙公司
-    aliases: []
-    description: 提供情报和虚拟现实服务的组织。
+- id: weihuozhang
+  type: civilization
+  name: 虚拟宇宙公司
+  aliases: []
+  description: 提供情报和虚拟现实服务的组织。
 
 relationships:
-  - 主人: 罗峰, 奴仆: 天阵王
-  - 主人: 罗峰, 智能生命: 巴巴塔
+- id: 罗峰_天阵王
+  type: 奴仆
+  description: 天阵王是罗峰的奴仆。
 
 events:
-  - name: 寻找魔手星
-    description: 罗峰使用生物飞船和神国传送寻找魔手星。
-    attributes:
-      时间: 半个月时间
-      结果: 成功找到魔手星
+- name: 寻找魔手星
+  description: 罗峰使用生物飞船和神国传送寻找魔手星。
+  attributes:
+    时间: 半个月时间
+    结果: 成功找到魔手星
 
-  - name: 对付魔手王
-    description: 罗峰准备对付重伤的魔手王。
+- name: 对付魔手王
+  description: 罗峰准备对付重伤的魔手王。
 
 dialogues:
-  - speaker: 巴巴塔
-    listener: 罗峰
-    content: "我要看着那娑罗普死！"
-  - speaker: 罗峰
-    listener: 巴巴塔
-    content: "可以，不过你得在我身边。"
+- speaker: 巴巴塔
+  listener: 罗峰
+  content: "我要看着那娑罗普死！"
+- speaker: 罗峰
+  listener: 巴巴塔
+  content: "可以，不过你得在我身边。"
 
 timeline:
-  - 时间点: 十月第一天
-    描述: 开始双倍月票活动
+- 时间点: 十月第一天
+  描述: 开始双倍月票活动
 
 mysteries:
-  - 内容: 虚拟宇宙公司的情报是否准确。
-```
+- 内容: 虚拟宇宙公司的情报是否准确。

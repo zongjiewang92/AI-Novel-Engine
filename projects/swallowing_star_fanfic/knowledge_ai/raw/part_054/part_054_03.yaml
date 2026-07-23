@@ -1,79 +1,77 @@
-```yaml
 source:
   id: original_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      绝学《银河挂长空》的创造者，虚拟宇宙雷霆岛最高处神殿中混沌城主的学生。曾为了守护亲人和家乡，踏上冒险之路。
-    attributes:
-      实力: 强者
-      性格: 勇敢、坚定
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    绝学《银河挂长空》的创造者，虚拟宇宙雷霆岛最高处神殿中混沌城主的学生。曾为了守护亲人和家乡，踏上冒险之路。
+  attributes:
+    实力: 强者
+    性格: 勇敢、坚定
 
-  - id: 混沌城主
-    type: Character
-    name: 混沌城主
-    aliases: []
-    description: >
-      虚拟宇宙雷霆岛最高处神殿中的存在，指导罗峰创造巅峰绝学的老师。
-    attributes:
-      实力: 宇宙霸主级别
+- id: 混沌城主
+  type: Character
+  name: 混沌城主
+  aliases: []
+  description: >
+    虚拟宇宙雷霆岛最高处神殿中的存在，指导罗峰创造巅峰绝学的老师。
+  attributes:
+    实力: 宇宙霸主级别
 
-  - id: 初始宇宙混沌城中人物
-    type: Character
-    name: 初始宇宙混沌城中人物
-    aliases: []
-    description: >
-      混沌城中的一个存在，与罗峰的老师长相不同但眼神一样。
-    attributes:
-      实力: 未知
+- id: 初始宇宙混沌城中人物
+  type: Character
+  name: 初始宇宙混沌城中人物
+  aliases: []
+  description: >
+    混沌城中的一个存在，与罗峰的老师长相不同但眼神一样。
+  attributes:
+    实力: 未知
 
 relationships:
-  - id: 罗峰-混沌城主
-    type: 师徒关系
-    source_id: 罗峰
-    target_id: 混沌城主
-    description: 罗峰是混沌城主的学生，由其指导创造巅峰绝学。
+- id: 罗峰-混沌城主
+  type: 师徒关系
+  source_id: 罗峰
+  target_id: 混沌城主
+  description: 罗峰是混沌城主的学生，由其指导创造巅峰绝学。
 
 events:
-  - id: 罗峰创造《银河挂长空》
-    type: Ability
-    name: 创造《银河挂长空》
-    source_id: 罗峰
-    description: >
-      罗峰成功创造出第一式为《银河挂长空》的巅峰绝学，这是一套以鳞甲翅膀运用之法和转化为刀法为基础的秘法。
-    timeline:
-      发生时间: 未具体说明
+- id: 罗峰创造《银河挂长空》
+  type: Ability
+  name: 创造《银河挂长空》
+  source_id: 罗峰
+  description: >
+    罗峰成功创造出第一式为《银河挂长空》的巅峰绝学，这是一套以鳞甲翅膀运用之法和转化为刀法为基础的秘法。
+  timeline:
+    发生时间: 未具体说明
 
-  - id: 罗峰向混沌城主汇报
-    type: Dialogue
-    name: 汇报创造成果
-    source_id: 罗峰
-    target_id: 混沌城主
-    description: >
-      罗峰成功创造出《银河挂长空》后，前往神殿汇报给混沌城主。
-    timeline:
-      发生时间: 未具体说明
+- id: 罗峰向混沌城主汇报
+  type: Dialogue
+  name: 汇报创造成果
+  source_id: 罗峰
+  target_id: 混沌城主
+  description: >
+    罗峰成功创造出《银河挂长空》后，前往神殿汇报给混沌城主。
+  timeline:
+    发生时间: 未具体说明
 
-  - id: 研究绝学命名
-    type: Dialogue
-    name: 绝学命名讨论
-    source_id: 混沌城主
-    target_id: 罗峰
-    description: >
-      混沌城主询问罗峰是否给新创造的巅峰绝学起名字，双方进行探讨。
-    timeline:
-      发生时间: 未具体说明
+- id: 研究绝学命名
+  type: Dialogue
+  name: 绝学命名讨论
+  source_id: 混沌城主
+  target_id: 罗峰
+  description: >
+    混沌城主询问罗峰是否给新创造的巅峰绝学起名字，双方进行探讨。
+  timeline:
+    发生时间: 未具体说明
 
 timeline:
 
 mysteries:
-  - id: 绝学命名灵感来源
-    type: Mystery
-    name: 灵感来源
-    description: >
-      罗峰在思考绝学的名字时突然获得心灵的力量，最终决定以“明月”为名。
-```
+- id: 绝学命名灵感来源
+  type: Mystery
+  name: 灵感来源
+  description: >
+    罗峰在思考绝学的名字时突然获得心灵的力量，最终决定以“明月”为名。

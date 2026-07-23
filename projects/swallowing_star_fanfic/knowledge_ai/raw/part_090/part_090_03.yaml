@@ -1,87 +1,85 @@
-```yaml
 source:
   id: 第1362章桀梵子的宝藏
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 主角，修炼者。
-    attributes:
-      实力: 宇宙之主
-      目标: 获取桀梵子遗留的宝藏
-  - id: 楚盟
-    type: Organization
-    name: 鸿盟
-    aliases: []
-    description: 罗峰所属的强大组织。
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 主角，修炼者。
+  attributes:
+    实力: 宇宙之主
+    目标: 获取桀梵子遗留的宝藏
+- id: 楚盟
+  type: Organization
+  name: 鸿盟
+  aliases: []
+  description: 罗峰所属的强大组织。
 
 locations:
-  - id: 宇宙舟
-    type: Location
-    name: 宇宙舟
-    description: 包含三个绝地，有大量危险区域。
-  - id: 青色密室空间区域
-    type: Location
-    name: 青色信物空间密室
-    aliases:
-      - 青色信物密室空间区域
-    description: 罗峰需要进入的特定空间。
+- id: 宇宙舟
+  type: Location
+  name: 宇宙舟
+  description: 包含三个绝地，有大量危险区域。
+- id: 青色密室空间区域
+  type: Location
+  name: 青色信物空间密室
+  aliases:
+  - 青色信物密室空间区域
+  description: 罗峰需要进入的特定空间。
 
 items:
-  - id: 墓陵之舟
-    type: Item
-    name: 墓陵之舟
-    aliases: []
-    description: 一种交通工具，能穿越危险区域。
-  - id: 桀梵子遗留的宝藏
-    type: Item
-    name: 桀梵子遗留的宝藏
-    aliases:
-      - 藏宝
-    description: 罗峰要获取的目标。
+- id: 墓陵之舟
+  type: Item
+  name: 墓陵之舟
+  aliases: []
+  description: 一种交通工具，能穿越危险区域。
+- id: 桀梵子遗留的宝藏
+  type: Item
+  name: 桀梵子遗留的宝藏
+  aliases:
+  - 藏宝
+  description: 罗峰要获取的目标。
 
 abilities:
-  - id: 星辰塔
-    type: Ability
-    name: 星辰塔
-    aliases: []
-    description: 可以抓取敌人，罗峰用来对付紫月圣地的强者。
-  - id: 水火本源
-    type: Ability
-    name: 水火本源
-    aliases:
-      - 新绝学
-    description: 桀梵子创出的新流派。
+- id: 星辰塔
+  type: Ability
+  name: 星辰塔
+  aliases: []
+  description: 可以抓取敌人，罗峰用来对付紫月圣地的强者。
+- id: 水火本源
+  type: Ability
+  name: 水火本源
+  aliases:
+  - 新绝学
+  description: 桀梵子创出的新流派。
 
 relationships:
-  - from_id: 罗峰
-    to_id: 鸿盟
-    type: 属于
+- from_id: 罗峰
+  to_id: 鸿盟
+  type: 属于
 
 dialogues:
-  - speaker: 罗峰
-    listener: 混沌城主
-    content: |
-      老师，我这羽翼宝物还欠缺最后一部件，也就是最后一对羽翼！而且我已经知晓……最后一对羽翼就在紫月圣地！
-  - speaker: 混沌城主
-    listener: 罗峰
-    content: |
-      把握不大，也比没把握好。
-      去吧，桀梵子遗留的宝藏，你都去取了好几次了。
+- speaker: 罗峰
+  listener: 混沌城主
+  content: |
+    老师，我这羽翼宝物还欠缺最后一部件，也就是最后一对羽翼！而且我已经知晓……最后一对羽翼就在紫月圣地！
+- speaker: 混沌城主
+  listener: 罗峰
+  content: |
+    把握不大，也比没把握好。
+    去吧，桀梵子遗留的宝藏，你都去取了好几次了。
 
 timeline:
-  - event_id: 获取最后一对羽翼信息
-    time: 近900年之前
-    description: 罗峰发现最后一对羽翼的信息，并决定寻求鸿盟帮助。
-  - event_id: 探索宇宙舟
-    time: 近900年之后
-    description: 罗峰乘坐墓陵之舟进入宇宙舟内部区域，寻找青色信物密室空间。
+- event_id: 获取最后一对羽翼信息
+  time: 近900年之前
+  description: 罗峰发现最后一对羽翼的信息，并决定寻求鸿盟帮助。
+- event_id: 探索宇宙舟
+  time: 近900年之后
+  description: 罗峰乘坐墓陵之舟进入宇宙舟内部区域，寻找青色信物密室空间。
 
 mysteries:
-  - id: 桀梵子的宝藏具体内容
-    content: 不清楚桀梵子遗留的具体内容是什么。
-  - id: 最后一对羽翼的位置
-    content: 罗峰推测最后一对羽翼可能在某个强者的藏宝库内，但具体位置未知。
-```
+- id: 桀梵子的宝藏具体内容
+  content: 不清楚桀梵子遗留的具体内容是什么。
+- id: 最后一对羽翼的位置
+  content: 罗峰推测最后一对羽翼可能在某个强者的藏宝库内，但具体位置未知。

@@ -1,53 +1,51 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: LuoFeng
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      观察和接近白色羽翼核心的宇宙之主。
-    attributes:
-      - 实力: 宇宙之主层次
-      - 能力: 星辰塔拥有镇守灵魂的作用，能抵挡物质攻击与意志冲击
+- id: LuoFeng
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    观察和接近白色羽翼核心的宇宙之主。
+  attributes:
+  - 实力: 宇宙之主层次
+  - 能力: 星辰塔拥有镇守灵魂的作用，能抵挡物质攻击与意志冲击
 
-  - id: WhiteWing
-    type: Item
-    name: 白色羽翼
-    aliases: []
-    description: >
-      构成巨大光翼的核心部分。周围有一圈真空般的虚无区域。
-    attributes:
-      - 形状: 约百米高
-      - 特性: 产生大量刀刃光芒，形成刀刃风暴
+- id: WhiteWing
+  type: Item
+  name: 白色羽翼
+  aliases: []
+  description: >
+    构成巨大光翼的核心部分。周围有一圈真空般的虚无区域。
+  attributes:
+  - 形状: 约百米高
+  - 特性: 产生大量刀刃光芒，形成刀刃风暴
 
 relationships:
-  - source_id: LuoFeng
-    target_id: WhiteWing
-    type: 追求
+- source_id: LuoFeng
+  target_id: WhiteWing
+  type: 追求
 
 events:
-  - id: ApproachWhiteWing
-    name: 接近白色羽翼
-    description: >
-      罗峰驾驶星辰塔接近白色羽翼，遭遇意志冲击。
-    timeline:
-      start: 开始接近时
-      end: 100公里附近
-    attributes:
-      - 意志强度变化: 随距离减小而显著增加
+- id: ApproachWhiteWing
+  name: 接近白色羽翼
+  description: >
+    罗峰驾驶星辰塔接近白色羽翼，遭遇意志冲击。
+  timeline:
+    start: 开始接近时
+    end: 100公里附近
+  attributes:
+  - 意志强度变化: 随距离减小而显著增加
 
 dialogues:
-  - speaker_id: LuoFeng
-    content: "滚开，杂碎，给我滚开，否则我一定会杀了你，并将你的灵魂剥离。"
-    context: 意志冲击的恐吓内容
+- speaker_id: LuoFeng
+  content: "滚开，杂碎，给我滚开，否则我一定会杀了你，并将你的灵魂剥离。"
+  context: 意志冲击的恐吓内容
 
 timeline:
 
 mysteries:
-  - id: WillOrigin
-    description: >
-      白色羽翼周围的意志冲击来源及作用机制尚不清楚。
-```
+- id: WillOrigin
+  description: >
+    白色羽翼周围的意志冲击来源及作用机制尚不清楚。

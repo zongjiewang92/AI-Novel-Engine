@@ -1,52 +1,50 @@
-```yaml
 source:
   id: qidian_com_451
 
 entities:
-  - id: luofeng
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 天才战宇宙总排名前一千名的成员，得到虚拟宇宙公司的核心待遇。
-    attributes:
-      实力: 得到本源法则承认的界主
-      身份: 太初区正式成员
+- id: luofeng
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 天才战宇宙总排名前一千名的成员，得到虚拟宇宙公司的核心待遇。
+  attributes:
+    实力: 得到本源法则承认的界主
+    身份: 太初区正式成员
 
-  - id: shawu
-    type: Character
-    name: 沙戊
-    aliases: []
-    description: 引导罗峰进入太初区的精瘦老者。
-    attributes:
-      实力: 界主
+- id: shawu
+  type: Character
+  name: 沙戊
+  aliases: []
+  description: 引导罗峰进入太初区的精瘦老者。
+  attributes:
+    实力: 界主
 
-  - id: fusi
-    type: Character
-    name: 福斯夫人
-    aliases: [福斯]
-    description: 太初区专门管理各种琐事的人，带领罗峰熟悉庄园环境。
-    attributes:
-      实力: 界主
-      职务: 管理太初区的各种琐事
+- id: fusi
+  type: Character
+  name: 福斯夫人
+  aliases: [ 福斯 ]
+  description: 太初区专门管理各种琐事的人，带领罗峰熟悉庄园环境。
+  attributes:
+    实力: 界主
+    职务: 管理太初区的各种琐事
 
-  - id: aoduli_ke
-    type: Character
-    name: 奥多里克*文*圣来索
-    aliases: [奥多]
-    description: 担任罗峰护卫队的将军，得到本源法则承认的界主。
-    attributes:
-      实力: 界主
+- id: aoduli_ke
+  type: Character
+  name: 奥多里克*文*圣来索
+  aliases: [ 奥多 ]
+  description: 担任罗峰护卫队的将军，得到本源法则承认的界主。
+  attributes:
+    实力: 界主
 
-  - id: taichuqu
-    type: Location
-    name: 太初区
-    aliases: []
-    description: 雨相山五大区之一，占地极大，比整个地球面积还要大，供一千多成员居住。
+- id: taichuqu
+  type: Location
+  name: 太初区
+  aliases: []
+  description: 雨相山五大区之一，占地极大，比整个地球面积还要大，供一千多成员居住。
 
 organizations:
-  - id: virtual_universe_company
-    type: Organization
-    name: 虚拟宇宙公司
-    aliases: [虚拟宇宙]
-    description: 统治着虚拟世界的核心企业。
-```
+- id: virtual_universe_company
+  type: Organization
+  name: 虚拟宇宙公司
+  aliases: [ 虚拟宇宙 ]
+  description: 统治着虚拟世界的核心企业。

@@ -1,79 +1,77 @@
-```yaml
 source:
   id: 罗峰逃脱宇宙尊者
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有魔杀族分身的修炼者，擅长瞬移。
-    attributes:
-      - 实力: 封王
-      - 能力: 瞬移
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有魔杀族分身的修炼者，擅长瞬移。
+  attributes:
+  - 实力: 封王
+  - 能力: 瞬移
 
-  - id: 塔拉莎
-    type: Character
-    name: 塔拉莎
-    aliases: []
-    description: 宇宙尊者，使用灵魂攻击的强者。
-    attributes:
-      - 实力: 宇宙尊者
-      - 能力: 灵魂冻结
+- id: 塔拉莎
+  type: Character
+  name: 塔拉莎
+  aliases: []
+  description: 宇宙尊者，使用灵魂攻击的强者。
+  attributes:
+  - 实力: 宇宙尊者
+  - 能力: 灵魂冻结
 
-  - id: 青色身影
-    type: Character
-    name: 青兠寇尊者
-    aliases: []
-    description: 宇宙尊者，精通空间法则。
-    attributes:
-      - 实力: 宇宙尊者
-      - 能力: 空间波动干扰
+- id: 青色身影
+  type: Character
+  name: 青兠寇尊者
+  aliases: []
+  description: 宇宙尊者，精通空间法则。
+  attributes:
+  - 实力: 宇宙尊者
+  - 能力: 空间波动干扰
 
 relationships:
-  - id: 塔拉莎和罗峰
-    type: 追捕
-    description: 塔拉莎试图用灵魂攻击捕捉罗峰，但失败了。
+- id: 塔拉莎和罗峰
+  type: 追捕
+  description: 塔拉莎试图用灵魂攻击捕捉罗峰，但失败了。
 
-  - id: 青色身影和罗峰
-    type: 追捕
-    description: 宇宙尊者青兠寇通过空间波动干扰成功锁定并追捕到罗峰。
+- id: 青色身影和罗峰
+  type: 追捕
+  description: 宇宙尊者青兠寇通过空间波动干扰成功锁定并追捕到罗峰。
 
 events:
-  - id: 灵魂冻结攻击
-    type: Event
-    description: 塔拉莎使用灵魂冻结指击向罗峰，但未能捕捉到。
-    timeline: 第一个事件
+- id: 灵魂冻结攻击
+  type: Event
+  description: 塔拉莎使用灵魂冻结指击向罗峰，但未能捕捉到。
+  timeline: 第一个事件
 
-  - id: 瞬移逃跑
-    type: Event
-    description: 罗峰连续多次瞬移逃脱宇宙尊者。
-    timeline: 第二个事件
+- id: 瞬移逃跑
+  type: Event
+  description: 罗峰连续多次瞬移逃脱宇宙尊者。
+  timeline: 第二个事件
 
-  - id: 干扰空间波动
-    type: Event
-    description: 青兠寇尊者燃烧少许神力干扰十光年的空间波动，成功锁定罗峰位置。
-    timeline: 第三个事件
+- id: 干扰空间波动
+  type: Event
+  description: 青兠寇尊者燃烧少许神力干扰十光年的空间波动，成功锁定罗峰位置。
+  timeline: 第三个事件
 
 dialogues:
-  - id: 罗峰与青色身影对话
-    type: Dialogue
-    content:
-      - "变回你原来的样子，我不喜欢杀我的族人。"
-      - "见过尊者。"
+- id: 罗峰与青色身影对话
+  type: Dialogue
+  content:
+  - "变回你原来的样子，我不喜欢杀我的族人。"
+  - "见过尊者。"
 
 timeline:
-  - id: 塔拉莎的攻击失败
-    timeline: 第一个时间点
+- id: 塔拉莎的攻击失败
+  timeline: 第一个时间点
 
-  - id: 罗峰连续瞬移逃脱
-    timeline: 第二个时间点
+- id: 罗峰连续瞬移逃脱
+  timeline: 第二个时间点
 
-  - id: 青兠寇干扰空间波动成功锁定罗峰位置
-    timeline: 第三个时间点
+- id: 青兠寇干扰空间波动成功锁定罗峰位置
+  timeline: 第三个时间点
 
 mysteries:
-  - id: 塔拉莎未能捕捉到罗峰的原因
-    type: Mystery
-    content: 塔拉莎的攻击范围和感应能力无法覆盖瞬移的距离。
-```
+- id: 塔拉莎未能捕捉到罗峰的原因
+  type: Mystery
+  content: 塔拉莎的攻击范围和感应能力无法覆盖瞬移的距离。

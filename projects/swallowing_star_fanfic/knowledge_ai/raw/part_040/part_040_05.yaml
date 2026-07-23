@@ -1,107 +1,107 @@
-```yaml
 source:
   id: 原著章节
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙公司的成员，实力强劲。
-    attributes:
-      实力: 太初秘境前三名
-      性格: 冷漠
-      角色地位: 争夺战主角之一
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙公司的成员，实力强劲。
+  attributes:
+    实力: 太初秘境前三名
+    性格: 冷漠
+    角色地位: 争夺战主角之一
 
-  - id: 克罗夫
-    type: Character
-    name: 克罗夫
-    aliases: []
-    description: 狼人，虚拟宇宙公司的成员。
-    attributes:
-      实力: 太初秘境前三名
-      性格: 冷静
-      角色地位: 争夺战参与者
+- id: 克罗夫
+  type: Character
+  name: 克罗夫
+  aliases: []
+  description: 狼人，虚拟宇宙公司的成员。
+  attributes:
+    实力: 太初秘境前三名
+    性格: 冷静
+    角色地位: 争夺战参与者
 
-  - id: 莫洛
-    type: Character
-    name: 莫洛
-    aliases: []
-    description: 帝国第一幻术师，虚拟宇宙公司的成员。
-    attributes:
-      实力: 原始秘境后三名
-      性格: 热情自信
-      角色地位: 争夺战参与者
+- id: 莫洛
+  type: Character
+  name: 莫洛
+  aliases: []
+  description: 帝国第一幻术师，虚拟宇宙公司的成员。
+  attributes:
+    实力: 原始秘境后三名
+    性格: 热情自信
+    角色地位: 争夺战参与者
 
-  - id: 隆云
-    type: Character
-    name: 隆云
-    aliases: []
-    description: 虚拟宇宙公司的成员，原始秘境后三名。
-    attributes:
-      实力: 原始秘境后三名
-      性格: 冷静
-      角色地位: 争夺战参与者
+- id: 隆云
+  type: Character
+  name: 隆云
+  aliases: []
+  description: 虚拟宇宙公司的成员，原始秘境后三名。
+  attributes:
+    实力: 原始秘境后三名
+    性格: 冷静
+    角色地位: 争夺战参与者
 
-  - id: 愚风
-    type: Character
-    name: 愚风
-    aliases: []
-    description: 药剂师，虚拟宇宙公司的成员。
-    attributes:
-      实力: 太初秘境前三名
-      性格: 冷静
-      角色地位: 争夺战参与者
+- id: 愚风
+  type: Character
+  name: 愚风
+  aliases: []
+  description: 药剂师，虚拟宇宙公司的成员。
+  attributes:
+    实力: 太初秘境前三名
+    性格: 冷静
+    角色地位: 争夺战参与者
 
-  - id: 伯兰
-    type: Character
-    name: 伯兰
-    aliases: []
-    description: 虚拟宇宙公司的成员，原始秘境后三名。
-    attributes:
-      实力: 原始秘境后三名
-      性格: 冷静
-      角色地位: 争夺战参与者
+- id: 伯兰
+  type: Character
+  name: 伯兰
+  aliases: []
+  description: 虚拟宇宙公司的成员，原始秘境后三名。
+  attributes:
+    实力: 原始秘境后三名
+    性格: 冷静
+    角色地位: 争夺战参与者
 
 relationships:
-  - id: 罗峰_克罗夫
-    type: Competition
-    description: 参加争夺战的对手关系
-    attributes:
+- id: 罗峰_克罗夫
+  type: Competition
+  description: 参加争夺战的对手关系
+  attributes:
 
-  - id: 罗峰_莫洛
-    type: Competition
-    description: 参加争夺战的对手关系
-    attributes:
 
-  - id: 莫洛_伯兰
-    type: Competition
-    description: 原始秘境后三名之间的竞争关系
-    attributes:
+- id: 罗峰_莫洛
+  type: Competition
+  description: 参加争夺战的对手关系
+  attributes:
+
+
+- id: 莫洛_伯兰
+  type: Competition
+  description: 原始秘境后三名之间的竞争关系
+  attributes:
+
 
 events:
-  - id: 争夺战准备
-    type: CompetitionPreparation
-    description: 太初秘境前三名和原始秘境后三名的成员参加争夺战准备会议。
-    timeline: 雨相山公共区的榕庄顶层
+- id: 争夺战准备
+  type: CompetitionPreparation
+  description: 太初秘境前三名和原始秘境后三名的成员参加争夺战准备会议。
+  timeline: 雨相山公共区的榕庄顶层
 
 dialogues:
-  - characters: [罗峰, 克罗夫]
-    content: "克罗夫！"
-    context: 罗峰微笑着走过去打招呼。
+- characters: [ 罗峰, 克罗夫 ]
+  content: "克罗夫！"
+  context: 罗峰微笑着走过去打招呼。
 
-  - characters: [莫洛, 罗峰]
-    content: "罗峰，这批新人中我最佩服的就是你，你的进步真得是让人吃惊，能见到你真是太让我开心了。"
-    context: 莫洛对罗峰表示赞赏和尊敬。
+- characters: [ 莫洛, 罗峰 ]
+  content: "罗峰，这批新人中我最佩服的就是你，你的进步真得是让人吃惊，能见到你真是太让我开心了。"
+  context: 莫洛对罗峰表示赞赏和尊敬。
 
 timeline:
-  - id: 争夺战准备时间
-    description: 罗峰等人在榕庄顶层进行争夺战的准备会议。
-    start_time: 晚上
+- id: 争夺战准备时间
+  description: 罗峰等人在榕庄顶层进行争夺战的准备会议。
+  start_time: 晚上
 
 mysteries:
-  - id: 争夺战结果未知
-    type: CompetitionResultUnknown
-    description: 六人的争夺战最终结果尚未揭晓，谁将获得原始秘境名额仍不确定。
-
-```
+- id: 争夺战结果未知
+  type: CompetitionResultUnknown
+  description: 六人的争夺战最终结果尚未揭晓，谁将获得原始秘境名额仍不确定。

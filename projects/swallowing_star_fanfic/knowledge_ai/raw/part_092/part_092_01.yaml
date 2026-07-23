@@ -1,70 +1,68 @@
-```yaml
 source:
   id: origin_text
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有超强实力的军人，执行任务时展现高超战斗技巧和战术规划能力。
-    attributes:
-      实力: 超级真神
-      任务目标: 获取九烟泽一方的一尊真神异兽尸体
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有超强实力的军人，执行任务时展现高超战斗技巧和战术规划能力。
+  attributes:
+    实力: 超级真神
+    任务目标: 获取九烟泽一方的一尊真神异兽尸体
 
-  - id: 队长
-    type: Character
-    name: 队长
-    aliases: []
-    description: 经验丰富的军人，负责带领一批军士执行任务。
-    attributes:
-      实力: 超级真神
-      特点: 决策果断且谨慎
+- id: 队长
+  type: Character
+  name: 队长
+  aliases: []
+  description: 经验丰富的军人，负责带领一批军士执行任务。
+  attributes:
+    实力: 超级真神
+    特点: 决策果断且谨慎
 
-  - id: 异兽真神尸体
-    type: Item
-    name: 异兽真神尸体
-    aliases: []
-    description: 获取目标，用于完成任务获得军功。
+- id: 异兽真神尸体
+  type: Item
+  name: 异兽真神尸体
+  aliases: []
+  description: 获取目标，用于完成任务获得军功。
 
 locations:
-  - id: 真神级战场
-    type: Location
-    name: 真神级战场
-    description: 虚空真神掌控的九烟泽区域内的战斗场所。
-    attributes:
-      特点: 战斗激烈，混乱
+- id: 真神级战场
+  type: Location
+  name: 真神级战场
+  description: 虚空真神掌控的九烟泽区域内的战斗场所。
+  attributes:
+    特点: 战斗激烈，混乱
 
 relationships:
-  - id: 罗峰与队长关系
-    type: Relationship
-    entities:
-      - 罗峰
-      - 队长
-    description: 合作与竞争的关系。罗峰是任务执行者之一，而队长带领着其他军士共同完成任务。
-  
+- id: 罗峰与队长关系
+  type: Relationship
+  entities:
+  - 罗峰
+  - 队长
+  description: 合作与竞争的关系。罗峰是任务执行者之一，而队长带领着其他军士共同完成任务。
+
 events:
-  - id: 获取异兽真神尸体
-    type: Event
-    name: 获取异兽真神尸体
-    participants:
-      - 罗峰
-    description: 罗峰在混乱的战场中寻找机会，准备夺取目标异兽真神尸体。
+- id: 获取异兽真神尸体
+  type: Event
+  name: 获取异兽真神尸体
+  participants:
+  - 罗峰
+  description: 罗峰在混乱的战场中寻找机会，准备夺取目标异兽真神尸体。
 
 dialogues:
-  - id: 队长传音提醒军士们
-    type: Dialogue
-    participants:
-      - 队长
-    content: "记住，可一不可二，第一次大意，第二次肯定警惕。那些真神没抓住我，可不会再让我得手，你们切不可冒险，若是谁冒险，我立即便离开这战场。"
+- id: 队长传音提醒军士们
+  type: Dialogue
+  participants:
+  - 队长
+  content: "记住，可一不可二，第一次大意，第二次肯定警惕。那些真神没抓住我，可不会再让我得手，你们切不可冒险，若是谁冒险，我立即便离开这战场。"
 
 timeline:
-  - id: 罗峰观察战场等待时机
-    type: Timeline
-    description: 罗峰在混乱的战场上耐心地寻找机会，确保最佳行动时间。
-  
+- id: 罗峰观察战场等待时机
+  type: Timeline
+  description: 罗峰在混乱的战场上耐心地寻找机会，确保最佳行动时间。
+
 mysteries:
-  - id: 其他军士获取尸体的机会
-    type: Mystery
-    description: 队长带领下的其他军士能否成功获得目标异兽真神尸体？
-```
+- id: 其他军士获取尸体的机会
+  type: Mystery
+  description: 队长带领下的其他军士能否成功获得目标异兽真神尸体？

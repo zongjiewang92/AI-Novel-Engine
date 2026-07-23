@@ -1,63 +1,60 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: rofei
-    type: character
-    name: 罗峰
-    aliases: []
-    description: 人类中的天才，穿着银色战铠。
-    attributes:
-      - 实力: 超3200的念力振幅
-      - 技能: 衍神兵第六重剑之世界
-  - id: biqing
-    type: character
-    name: 卑牀
-    aliases: []
-    description: 金角族天才，穿着青色战铠。
-    attributes:
-      - 实力: 使用衍神兵第六重剑之世界，并掌握震空剑术
-      - 身份: 金角族的天才
+- id: rofei
+  type: character
+  name: 罗峰
+  aliases: []
+  description: 人类中的天才，穿着银色战铠。
+  attributes:
+  - 实力: 超3200的念力振幅
+  - 技能: 衍神兵第六重剑之世界
+- id: biqing
+  type: character
+  name: 卑牀
+  aliases: []
+  description: 金角族天才，穿着青色战铠。
+  attributes:
+  - 实力: 使用衍神兵第六重剑之世界，并掌握震空剑术
+  - 身份: 金角族的天才
 
 organizations:
-  - id: jinjiao
-    type: civilization
-    name: 金角族
-    description: 拥有强大的战斗传统和智慧，创造了衍神兵。
+- id: jinjiao
+  type: civilization
+  name: 金角族
+  description: 拥有强大的战斗传统和智慧，创造了衍神兵。
 
 locations:
-  - id: douwuchang
-    type: battlefield
-    name: 斗武场
-    description: 进行人类与金角族之间比试的地方
+- id: douwuchang
+  type: battlefield
+  name: 斗武场
+  description: 进行人类与金角族之间比试的地方
 
 items:
-  - id: yanshenbing
-    type: item
-    name: 衍神兵
-    description: 可以通过念力和法则力量创造的世界兵器，分为多个层次。
-    attributes:
-      - 第六重技能名称: 剑之世界
-      - 超越常规的强化方法: 利用超3200的念力振幅
+- id: yanshenbing
+  type: item
+  name: 衍神兵
+  description: 可以通过念力和法则力量创造的世界兵器，分为多个层次。
+  attributes:
+  - 第六重技能名称: 剑之世界
+  - 超越常规的强化方法: 利用超3200的念力振幅
 
 dialogues:
-  - speaker: 卑牀
-    content: "人类天才，如果做不到这一步，才奇怪。"
-  - speaker: 罗峰
-    content: "世界之剑！凝！"
+- speaker: 卑牀
+  content: "人类天才，如果做不到这一步，才奇怪。"
+- speaker: 罗峰
+  content: "世界之剑！凝！"
 
 events:
-  - id: douzheng
-    type: event
-    name: 对战
-    description: 人类的罗峰和金角族的卑牀进行对决。
-    timeline: 开始于斗武场内，双方使用衍神兵第六重剑之世界对战。
+- id: douzheng
+  type: event
+  name: 对战
+  description: 人类的罗峰和金角族的卑牀进行对决。
+  timeline: 开始于斗武场内，双方使用衍神兵第六重剑之世界对战。
 
 mysteries:
-  - id: jingjiu
-    type: mystery
-    name: 最终胜负
-    description: 罗峰和卑牀的战斗中，罗峰在水晶巨剑内的稳定性面临崩溃。
-```
-注意：文档仅提取原文信息，并未进行推测或总结。
+- id: jingjiu
+  type: mystery
+  name: 最终胜负
+  description: 罗峰和卑牀的战斗中，罗峰在水晶巨剑内的稳定性面临崩溃。

@@ -1,70 +1,70 @@
-```yaml
 source:
   id: 第918章至第919章
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 主人，掌控着炼心王、悲魅王、屈灿王三位封王巅峰灵魂类大师。
-    attributes:
-      实力: 封王强者
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 主人，掌控着炼心王、悲魅王、屈灿王三位封王巅峰灵魂类大师。
+  attributes:
+    实力: 封王强者
 
-  - id: 天阵王
-    type: Character
-    name: 天阵王
-    aliases: []
-    description: 使用分解塔的战斗者，被极虹王联手重伤。
-    attributes:
-      实力: 封王极限强者
-      特殊技能: 分解塔
+- id: 天阵王
+  type: Character
+  name: 天阵王
+  aliases: []
+  description: 使用分解塔的战斗者，被极虹王联手重伤。
+  attributes:
+    实力: 封王极限强者
+    特殊技能: 分解塔
 
-  - id: 极虹王
-    type: Character
-    name: 极虹王
-    aliases: []
-    description: 使用紫钟的战斗者，极虹王是罗峰选择的最适合使用紫钟的人选。
-    attributes:
-      实力: 封王极限强者
-      特殊技能: 魔音火神钟
+- id: 极虹王
+  type: Character
+  name: 极虹王
+  aliases: []
+  description: 使用紫钟的战斗者，极虹王是罗峰选择的最适合使用紫钟的人选。
+  attributes:
+    实力: 封王极限强者
+    特殊技能: 魔音火神钟
 
-  - id: 覆水王
-    type: Character
-    name: 覆水王
-    aliases: []
-    description: 使用冰浑丝网的战斗者。
-    attributes:
-      实力: 封王极限强者
-      特殊技能: 水覆九击
+- id: 覆水王
+  type: Character
+  name: 覆水王
+  aliases: []
+  description: 使用冰浑丝网的战斗者。
+  attributes:
+    实力: 封王极限强者
+    特殊技能: 水覆九击
 
-  - id: 魑芒王
-    type: Character
-    name: 魑芒王
-    aliases: []
-    description: 天阵王的仆从之一。
-    attributes:
-      实力: 封王极限强者以下
+- id: 魑芒王
+  type: Character
+  name: 魑芒王
+  aliases: []
+  description: 天阵王的仆从之一。
+  attributes:
+    实力: 封王极限强者以下
 
 relationships:
-  - 主人: 罗峰, 奴仆: 极虹王、覆水王、山吼王
-  - 上级: 天阵王, 下属: 魑芒王及其他两位未提及姓名的仆从
+- 主人: >
+    罗峰, 奴仆: 极虹王、覆水王、山吼王
+- 上级: >
+    天阵王, 下属: 魑芒王及其他两位未提及姓名的仆从
 
 events:
-  - id: 战斗开始
-    type: Event
-    description: 天阵王与极虹王等七人发生战斗，使用分解塔攻击。
-    timeline:
-      时间点: 文中描述的时间段内
+- id: 战斗开始
+  type: Event
+  description: 天阵王与极虹王等七人发生战斗，使用分解塔攻击。
+  timeline:
+    时间点: 文中描述的时间段内
 
 dialogues:
-  - 主角: 极虹王, 对手: 罗峰, 内容: "主人，天阵王已经重伤，预计他的不朽神体只剩下30%——50%。"
-    
+- 主角: >
+    极虹王, 对手: 罗峰, 内容: "主人，天阵王已经重伤，预计他的不朽神体只剩下30%——50%。"
+
 timeline:
-  - 时间点: 文中描述的时间段内
-    事件: 天阵王使用分解塔攻击极虹王等人
+- 时间点: 文中描述的时间段内
+  事件: 天阵王使用分解塔攻击极虹王等人
 
 mysteries:
-  - 内容: 极虹王等人的具体实力和来历未详细说明。
-```
-注意：本YAML数据仅为文中主要信息的提取，可能未覆盖全部细节。
+- 内容: 极虹王等人的具体实力和来历未详细说明。

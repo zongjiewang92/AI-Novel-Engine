@@ -1,93 +1,89 @@
-```yaml
 source:
   id: 罗峰的宇宙级二阶摩云藤狩猎
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有一只宇宙级二阶的‘摩云藤’，进行狩猎行动。
-    attributes:
-      实力: 宇宙级
-      能力: 使用摩云藤进行远程攻击和掠夺
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有一只宇宙级二阶的‘摩云藤’，进行狩猎行动。
+  attributes:
+    实力: 宇宙级
+    能力: 使用摩云藤进行远程攻击和掠夺
 
-  - id: 摩云藤
-    type: Item
-    name: 摩云藤
-    aliases: []
-    description: 罗峰的宇宙级二阶生物兵器，用于狩猎界中界的军队。
-    attributes:
-      等级: 宇宙级二阶
-      功能: 远程攻击、掠夺空间储存器物
+- id: 摩云藤
+  type: Item
+  name: 摩云藤
+  aliases: []
+  description: 罗峰的宇宙级二阶生物兵器，用于狩猎界中界的军队。
+  attributes:
+    等级: 宇宙级二阶
+    功能: 远程攻击、掠夺空间储存器物
 
-  - id: 布罗林
-    type: Character
-    name: 布罗林
-    aliases: []
-    description: 九皇子殿下，控制超过22万大军。
-    attributes:
-      实力: 超级文明（界主级别）
-      地位: 界中界的领军人物之一
+- id: 布罗林
+  type: Character
+  name: 布罗林
+  aliases: []
+  description: 九皇子殿下，控制超过22万大军。
+  attributes:
+    实力: 超级文明（界主级别）
+    地位: 界中界的领军人物之一
 
-  - id: 查克托
-    type: Character
-    name: 查克托
-    aliases: []
-    description: 黑龙山岛屿的猿人，参与袭击布罗林麾下第四大队。
-    attributes:
-      实力: 恒星级九阶
-      身份: 猿人
+- id: 查克托
+  type: Character
+  name: 查克托
+  aliases: []
+  description: 黑龙山岛屿的猿人，参与袭击布罗林麾下第四大队。
+  attributes:
+    实力: 恒星级九阶
+    身份: 猿人
 
-  - id: 第四大队
-    type: Organization
-    name: 第四大队
-    aliases: []
-    description: 布罗林控制的200万大军中的一支，人数3万人。
-    attributes:
-      规模: 3万人
-      状态: 被袭击后人数锐减
+- id: 第四大队
+  type: Organization
+  name: 第四大队
+  aliases: []
+  description: 布罗林控制的200万大军中的一支，人数3万人。
+  attributes:
+    规模: 3万人
+    状态: 被袭击后人数锐减
 
 relationships:
-  - id: 罗峰-摩云藤
-    type: 使用
-    description: 罗峰使用摩云藤进行远程攻击和掠夺。
+- id: 罗峰-摩云藤
+  type: 使用
+  description: 罗峰使用摩云藤进行远程攻击和掠夺。
 
-  - id: 布罗林-第四大队
-    type: 控制
-    description: 布罗林控制第四大队，但遭到袭击后损失惨重。
+- id: 布罗林-第四大队
+  type: 控制
+  description: 布罗林控制第四大队，但遭到袭击后损失惨重。
 
 events:
-  - id: 摩云藤狩猎
-    type: Event
-    name: 摩云藤狩猎
-    description: 罗峰利用宇宙级二阶的摩云藤进行远程攻击和掠夺界中界的军队。
-    timeline: 开始于小说情节初期
+- id: 摩云藤狩猎
+  type: Event
+  name: 摩云藤狩猎
+  description: 罗峰利用宇宙级二阶的摩云藤进行远程攻击和掠夺界中界的军队。
+  timeline: 开始于小说情节初期
 
-  - id: 第四大队被袭击
-    type: Event
-    name: 第四大队被袭击
-    description: 布罗林麾下的第四大队遭到三支队伍的围攻，损失惨重。
-    timeline: 小说情节中期
+- id: 第四大队被袭击
+  type: Event
+  name: 第四大队被袭击
+  description: 布罗林麾下的第四大队遭到三支队伍的围攻，损失惨重。
+  timeline: 小说情节中期
 
 dialogues:
-  - id: 罗峰-摩云藤对话
-    content: "成功猎杀9名队长，获得12个空间储存器物。"
-    context: 摩云藤返回飞船后与罗峰的交流
+- id: 罗峰-摩云藤对话
+  content: "成功猎杀9名队长，获得12个空间储存器物。"
+  context: 摩云藤返回飞船后与罗峰的交流
 
-  - id: 查克托与队友对话
-    content: "相信那布罗林一定气的冒火。"
-    context: 查克托等人在袭击第四大队后庆祝胜利并讨论下一步计划
+- id: 查克托与队友对话
+  content: "相信那布罗林一定气的冒火。"
+  context: 查克托等人在袭击第四大队后庆祝胜利并讨论下一步计划
 
 timeline:
-  - event: 摩云藤狩猎
-    date: 小说情节初期
-  - event: 第四大队被袭击
-    date: 小说情节中期
+- event: 摩云藤狩猎
+  date: 小说情节初期
+- event: 第四大队被袭击
+  date: 小说情节中期
 
 mysteries:
-  - id: 布罗林的反应
-    content: "布罗林会采取什么行动应对第四大队被袭击的情况？"
-```
-
-注意：以上信息严格按照原文内容提取，不包含推测或假设。
+- id: 布罗林的反应
+  content: "布罗林会采取什么行动应对第四大队被袭击的情况？"

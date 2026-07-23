@@ -1,94 +1,91 @@
-```yaml
 source:
   id: 第354章生命果实
 
 entities:
-  - id: 布罗林
-    type: Character
-    name: 布罗林
-    aliases: []
-    description: >
-      贵为九皇子，母亲一脉极其强势。占据优势：一是他是九皇子，在圣地“黑龙山”中皇族控制的势力支持他；二是他的外公在圣地“黑龙山”地位极高，有一批人支持他。
-    attributes:
-      - 实力: 宇宙级
-      - 身份: 九皇子
+- id: 布罗林
+  type: Character
+  name: 布罗林
+  aliases: []
+  description: >
+    贵为九皇子，母亲一脉极其强势。占据优势：一是他是九皇子，在圣地“黑龙山”中皇族控制的势力支持他；二是他的外公在圣地“黑龙山”地位极高，有一批人支持他。
+  attributes:
+  - 实力: 宇宙级
+  - 身份: 九皇子
 
-  - id: 白胡子老头
-    type: Character
-    name: 白胡子老头
-    aliases: []
-    description: >
-      古老城堡中的智能生命，跟随过卡布界主，并且孤独生活超过千万年。
-    attributes:
-      - 实力: 智能生命
+- id: 白胡子老头
+  type: Character
+  name: 白胡子老头
+  aliases: []
+  description: >
+    古老城堡中的智能生命，跟随过卡布界主，并且孤独生活超过千万年。
+  attributes:
+  - 实力: 智能生命
 
-  - id: 瘦小男子
-    type: Character
-    name: 瘦小男子
-    aliases: []
-    description: >
-      百虎楼一方人群中的一员，对布罗林持有敌意。
-    attributes:
-      - 性格: 冷漠、不满
+- id: 瘦小男子
+  type: Character
+  name: 瘦小男子
+  aliases: []
+  description: >
+    百虎楼一方人群中的一员，对布罗林持有敌意。
+  attributes:
+  - 性格: 冷漠、不满
 
 items:
-  - id: 雷霆石
-    type: Item
-    name: 雷霆石
-    aliases: []
-    description: >
-      考核世界中的流通货币，用于兑换各种宝物。
-    attributes:
-      - 数量: 281万颗
+- id: 雷霆石
+  type: Item
+  name: 雷霆石
+  aliases: []
+  description: >
+    考核世界中的流通货币，用于兑换各种宝物。
+  attributes:
+  - 数量: 281万颗
 
-  - id: 冰魂刃
-    type: Item
-    name: 冰魂刃
-    aliases: []
-    description: >
-      五阶原力兵器，需要13万雷霆石兑换。
+- id: 冰魂刃
+  type: Item
+  name: 冰魂刃
+  aliases: []
+  description: >
+    五阶原力兵器，需要13万雷霆石兑换。
 
-  - id: 镇空鼎
-    type: Item
-    name: 镇空鼎
-    aliases: []
-    description: >
-      五阶念力兵器，需要18万雷霆石兑换。
-      
-  - id: 生命果实
-    type: Item
-    name: 生命果实
-    aliases: []
-    description: >
-      需要80万雷霆石兑换。在外界价格极高。
+- id: 镇空鼎
+  type: Item
+  name: 镇空鼎
+  aliases: []
+  description: >
+    五阶念力兵器，需要18万雷霆石兑换。
+
+- id: 生命果实
+  type: Item
+  name: 生命果实
+  aliases: []
+  description: >
+    需要80万雷霆石兑换。在外界价格极高。
 
 organizations:
-  - id: 黑龙山
-    type: Organization
-    name: 黑龙山
-    aliases: []
-    description: >
-      圣地，有50万大军。
-      
+- id: 黑龙山
+  type: Organization
+  name: 黑龙山
+  aliases: []
+  description: >
+    圣地，有50万大军。
+
 locations:
-  - id: 古老城堡
-    type: Location
-    name: 古老城堡
-    aliases: []
-    description: >
-      考核世界中的兑换宝物场所。
+- id: 古老城堡
+  type: Location
+  name: 古老城堡
+  aliases: []
+  description: >
+    考核世界中的兑换宝物场所。
 
 dialogues:
-  - speaker: 白胡子老头
-    content: "你有雷霆石吗？这些日子已经有很多人故意跑到这，却没有雷霆石兑换。"
-  
-  - speaker: 瘦小男子
-    content: "布罗林占据的优势太大，一来，他是九皇子......"
+- speaker: 白胡子老头
+  content: "你有雷霆石吗？这些日子已经有很多人故意跑到这，却没有雷霆石兑换。"
+
+- speaker: 瘦小男子
+  content: "布罗林占据的优势太大，一来，他是九皇子......"
 
 timeline:
   events: []
 
 mysteries:
-  - question: 如何获得281万颗雷霆石？
-```
-注：文档中的时间线和伏笔信息暂无具体内容。
+- question: 如何获得281万颗雷霆石？

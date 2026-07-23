@@ -1,57 +1,55 @@
-```yaml
 source:
   id: 第485章基础（第二更）
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 拥有强大的意识和念力，能够操控图腾金柱进行战斗。
-    attributes:
-      实力: 域主级六阶金角巨兽的意识
-      能力: 图腾金柱, 九线循环, 雨滴图悟透
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 拥有强大的意识和念力，能够操控图腾金柱进行战斗。
+  attributes:
+    实力: 域主级六阶金角巨兽的意识
+    能力: 图腾金柱, 九线循环, 雨滴图悟透
 
-  - id: 银衣人
-    type: Character
-    name: 银衣人
-    aliases: []
-    description: 穿着银色衣服，使用衍神兵第五重空间切割的暗金色长剑进行攻击。
-    attributes:
-      能力: 衍神兵第五重, 暗金色长剑
+- id: 银衣人
+  type: Character
+  name: 银衣人
+  aliases: []
+  description: 穿着银色衣服，使用衍神兵第五重空间切割的暗金色长剑进行攻击。
+  attributes:
+    能力: 衍神兵第五重, 暗金色长剑
 
-  - id: 图腾金柱
-    type: Item
-    name: 图腾金柱
-    aliases: []
-    description: 可以将图腾领域完全包裹，直接砸死对手。
-    attributes:
-      功能: 攻击和防御
+- id: 图腾金柱
+  type: Item
+  name: 图腾金柱
+  aliases: []
+  description: 可以将图腾领域完全包裹，直接砸死对手。
+  attributes:
+    功能: 攻击和防御
 
-  - id: 暗云梭
-    type: Item
-    name: 暗云梭
-    aliases: []
-    description: 罗峰使用的飞行工具。
+- id: 暗云梭
+  type: Item
+  name: 暗云梭
+  aliases: []
+  description: 罗峰使用的飞行工具。
 
 relationships:
-  - 主体: 罗峰
-    客体: 银衣人
-    关系类型: 对手
+- 主体: 罗峰
+  客体: 银衣人
+  关系类型: 对手
 
 events:
-  - 名称: 图腾金柱被撞击
-    时间: 第五重衍神兵攻击下
-    描述: 暗金色长剑不断撞击图腾金柱，罗峰消耗大量念力维持图腾金柱的完整性。
+- 名称: 图腾金柱被撞击
+  时间: 第五重衍神兵攻击下
+  描述: 暗金色长剑不断撞击图腾金柱，罗峰消耗大量念力维持图腾金柱的完整性。
 
 dialogues:
-  - 对话者1: 银衣人
-    对话者2: 罗峰
-    内容: "给我破！！！" (银衣人)
-    时间: 图腾金柱被撞击时
+- 对话者1: 银衣人
+  对话者2: 罗峰
+  内容: "给我破！！！"
+  时间: 图腾金柱被撞击时
 
 timeline:
 
 mysteries:
-  - 描述: 罗峰悟透了《雨滴图》上的九滴雨滴，但没有悟透整个《雨滴图》。
-```
+- 描述: 罗峰悟透了《雨滴图》上的九滴雨滴，但没有悟透整个《雨滴图》。

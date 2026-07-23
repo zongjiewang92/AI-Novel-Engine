@@ -1,71 +1,70 @@
-```yaml
 source:
   id: 小说原文
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 极限会馆的成员，曾为巡察使，在12号古文明遗迹中得到流银护卫。
-    attributes:
-      实力: 强大武者
-      身份: 极限会馆成员
-  - id: 徐欣
-    type: Character
-    name: 徐欣
-    aliases: []
-    description: 罗峰的妻子，怀孕中。
-    attributes:
-      关系: 罗峰妻子
-  - id: 洪
-    type: Character
-    name: 洪
-    aliases: []
-    description: 黑衣领域强者，人类最巅峰的武者之一。
-    attributes:
-      实力: 领域强者
-      特殊能力: 燃烧灵魂绝招
-  - id: 雷神
-    type: Character
-    name: 雷神
-    aliases: []
-    description: 白衣领域强者，人类最巅峰的武者之一。
-    attributes:
-      实力: 领域强者
-      特殊能力: 燃烧灵魂绝招
-  - id: 吞噬兽
-    type: Species
-    name: 吞噬兽
-    aliases: []
-    description: 恐怖的金角巨兽，人类最可怕的敌人。
-    attributes:
-      实力: 强大生物
-      特征: 鳞甲、翅膀、四蹄爪、有力尾巴和金色尖角
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 极限会馆的成员，曾为巡察使，在12号古文明遗迹中得到流银护卫。
+  attributes:
+    实力: 强大武者
+    身份: 极限会馆成员
+- id: 徐欣
+  type: Character
+  name: 徐欣
+  aliases: []
+  description: 罗峰的妻子，怀孕中。
+  attributes:
+    关系: 罗峰妻子
+- id: 洪
+  type: Character
+  name: 洪
+  aliases: []
+  description: 黑衣领域强者，人类最巅峰的武者之一。
+  attributes:
+    实力: 领域强者
+    特殊能力: 燃烧灵魂绝招
+- id: 雷神
+  type: Character
+  name: 雷神
+  aliases: []
+  description: 白衣领域强者，人类最巅峰的武者之一。
+  attributes:
+    实力: 领域强者
+    特殊能力: 燃烧灵魂绝招
+- id: 吞噬兽
+  type: Species
+  name: 吞噬兽
+  aliases: []
+  description: 恐怖的金角巨兽，人类最可怕的敌人。
+  attributes:
+    实力: 强大生物
+    特征: 鳞甲、翅膀、四蹄爪、有力尾巴和金色尖角
 
 relationships:
-  - id: 罗峰与徐欣的关系
-    type: Relationship
-    description: 夫妻关系，罗峰的妻子正在怀孕。
-    attributes:
+- id: 罗峰与徐欣的关系
+  type: Relationship
+  description: 夫妻关系，罗峰的妻子正在怀孕。
+  attributes:
+
 
 events:
-  - id: 洪雷神挑战吞噬兽
-    type: Event
-    description: 洪和雷神面对强大的吞噬兽，准备燃烧灵魂绝招进行战斗。
-    timeline:
-      时间点: 不详
+- id: 洪雷神挑战吞噬兽
+  type: Event
+  description: 洪和雷神面对强大的吞噬兽，准备燃烧灵魂绝招进行战斗。
+  timeline:
+    时间点: 不详
 
 dialogues:
-  - speaker: 雷神
-    listener: 洪
-    content: "哈哈，洪哥，你说这时候世界上多少人在看着咱们俩。"
-    context: 战斗前的对话，展现轻松心态。
+- speaker: 雷神
+  listener: 洪
+  content: "哈哈，洪哥，你说这时候世界上多少人在看着咱们俩。"
+  context: 战斗前的对话，展现轻松心态。
 
 timeline:
 
 mysteries:
-  - id: 吞噬兽的具体实力和弱点
-    type: Mystery
-    description: 关于吞噬兽的真实实力以及可能存在的弱点尚未完全揭示。
-```
+- id: 吞噬兽的具体实力和弱点
+  type: Mystery
+  description: 关于吞噬兽的真实实力以及可能存在的弱点尚未完全揭示。

@@ -1,56 +1,54 @@
-```yaml
 source:
   id: 封王无敌
 
 entities:
-  - id: 真衍王
-    type: Character
-    name: 真衍王
-    aliases: []
-    description: 成为宇宙尊者，曾是刀河王的师父。
-    attributes:
-      实力: 宇宙尊者
-      性格: 暴虐、火爆
-  - id: 武汤尊者
-    type: Character
-    name: 武汤尊者
-    aliases: []
-    description: 和真衍王交情深厚，也是宇宙尊者。
-    attributes:
-      实力: 宇宙尊者
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: 刀河王
-    description: 武汤尊者的徒弟，被吠镜王逼入绝境。
-    attributes:
-      实力: 封王无敌
+- id: 真衍王
+  type: Character
+  name: 真衍王
+  aliases: []
+  description: 成为宇宙尊者，曾是刀河王的师父。
+  attributes:
+    实力: 宇宙尊者
+    性格: 暴虐、火爆
+- id: 武汤尊者
+  type: Character
+  name: 武汤尊者
+  aliases: []
+  description: 和真衍王交情深厚，也是宇宙尊者。
+  attributes:
+    实力: 宇宙尊者
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: 刀河王
+  description: 武汤尊者的徒弟，被吠镜王逼入绝境。
+  attributes:
+    实力: 封王无敌
 
 relationships:
-  - 主体: 真衍王
-    对象: 武汤尊者
-    关系类型: 友谊
+- 主体: 真衍王
+  对象: 武汤尊者
+  关系类型: 友谊
 
 events:
-  - 名称: 刀河王被刺杀
-    时间线: 不详
-    描述: 罗峰（刀河王）在九幽时空遭遇吠镜王，陷入绝境。
-  - 名称: 真衍王准备前往九幽时空
-    时间线: 文章描述的时间点
-    描述: 真衍王决定去九幽时空保护徒弟罗峰，并寻求帮助。
+- 名称: 刀河王被刺杀
+  时间线: 不详
+  描述: 罗峰（刀河王）在九幽时空遭遇吠镜王，陷入绝境。
+- 名称: 真衍王准备前往九幽时空
+  时间线: 文章描述的时间点
+  描述: 真衍王决定去九幽时空保护徒弟罗峰，并寻求帮助。
 
 dialogues:
-  - 主体: 武汤尊者
-    对象: 真衍王
-    内容: "难道刀河王真的是你徒弟？"
-  - 主体: 真衍王
-    对象: 武汤尊者
-    内容: "别废话了。"
+- 主体: 武汤尊者
+  对象: 真衍王
+  内容: "难道刀河王真的是你徒弟？"
+- 主体: 真衍王
+  对象: 武汤尊者
+  内容: "别废话了。"
 
 timeline:
-  - 时间点: 文章描述的时间段
-    描述: 罗峰在九幽时空不断逃亡。
+- 时间点: 文章描述的时间段
+  描述: 罗峰在九幽时空不断逃亡。
 
 mysteries:
-  - 未解决信息: 刀河王是否真的是真衍王的徒弟。
-```
+- 未解决信息: 刀河王是否真的是真衍王的徒弟。

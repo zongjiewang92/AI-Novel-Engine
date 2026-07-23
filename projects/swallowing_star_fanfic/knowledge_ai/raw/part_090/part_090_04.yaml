@@ -1,43 +1,41 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: 妖兽始祖
-    type: Character
-    name: 妖兽始祖
-    aliases: []
-    description: 拥有强大的实力，企图控制妖族和星空巨兽联盟的野心家。
-    attributes:
-      实力: 宇宙最强者
-      野心: 统一妖族和星空巨兽联盟
+- id: 妖兽始祖
+  type: Character
+  name: 妖兽始祖
+  aliases: []
+  description: 拥有强大的实力，企图控制妖族和星空巨兽联盟的野心家。
+  attributes:
+    实力: 宇宙最强者
+    野心: 统一妖族和星空巨兽联盟
 
-  - id: 庞然大物
-    type: Item
-    name: 庞然大物
-    aliases: []
-    description: 形状类似人形生物，大小超过小型宇宙。
-    attributes:
-      大小: 超过一亿光年
-      速度: 极其快速
+- id: 庞然大物
+  type: Item
+  name: 庞然大物
+  aliases: []
+  description: 形状类似人形生物，大小超过小型宇宙。
+  attributes:
+    大小: 超过一亿光年
+    速度: 极其快速
 
 relationships:
 
 events:
-  - id: 追踪庞然大物
-    type: Event
-    name: 追踪庞然大物
-    description: 妖兽始祖试图通过连续攻击来改变庞然大物的飞行方向。
-    timeline:
-      开始时间: 文本开始
-      结束时间: 六千五百年后
+- id: 追踪庞然大物
+  type: Event
+  name: 追踪庞然大物
+  description: 妖兽始祖试图通过连续攻击来改变庞然大物的飞行方向。
+  timeline:
+    开始时间: 文本开始
+    结束时间: 六千五百年后
 
 dialogues:
 
 timeline:
-  - 时间点1: 追踪开始，持续一百多年，妖兽始祖每日进行数百次攻击。
-  - 时间点2: 继续追踪六千五百多年，终于改变庞然大物的方向。
+- 时间点1: 追踪开始，持续一百多年，妖兽始祖每日进行数百次攻击。
+- 时间点2: 继续追踪六千五百多年，终于改变庞然大物的方向。
 
 mysteries:
-  - 神秘的庞然大物是否为生灵或奇物？
-```
+- 神秘的庞然大物是否为生灵或奇物？

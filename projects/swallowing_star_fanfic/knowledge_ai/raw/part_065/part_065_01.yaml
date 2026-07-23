@@ -1,94 +1,90 @@
-```yaml
 source:
   id: 第972章他是刀河王
 
 entities:
-  - id: 贝山尊者
-    type: Character
-    name: 贝山尊者
-    aliases: []
-    description: 瓬锤神族的宇宙尊者，仇视人类。
-    attributes:
-      实力: 宇宙尊者
-      性格: 仇视人类，嚣张
+- id: 贝山尊者
+  type: Character
+  name: 贝山尊者
+  aliases: []
+  description: 瓬锤神族的宇宙尊者，仇视人类。
+  attributes:
+    实力: 宇宙尊者
+    性格: 仇视人类，嚣张
 
-  - id: 逐虫王
-    type: Character
-    name: 逐虫王
-    aliases: []
-    description: 紫荆岛上亿封王传承者中排名前三的强者之一。
-    attributes:
-      实力: 封王不朽
-      性格: 正义，保护弱小
+- id: 逐虫王
+  type: Character
+  name: 逐虫王
+  aliases: []
+  description: 紫荆岛上亿封王传承者中排名前三的强者之一。
+  attributes:
+    实力: 封王不朽
+    性格: 正义，保护弱小
 
-  - id: 千雨
-    type: Character
-    name: 千雨
-    aliases: []
-    description: 暗雾族成员，在五彩极光湖附近。
-    attributes:
-      实力: 封王
-      性格: 谨慎，胆小
+- id: 千雨
+  type: Character
+  name: 千雨
+  aliases: []
+  description: 暗雾族成员，在五彩极光湖附近。
+  attributes:
+    实力: 封王
+    性格: 谨慎，胆小
 
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 刀河王，人类族群中的超级天才。
-    attributes:
-      实力: 境界未明（但至少是封王）
-      性格: 不卑不亢
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 刀河王，人类族群中的超级天才。
+  attributes:
+    实力: 境界未明（但至少是封王）
+    性格: 不卑不亢
 
 organizations:
-  - id: 祖神教
-    type: Organization
-    name: 祖神教
-    description: 招收全宇宙精英天才，重点培养特殊生命逐虫王。
-    attributes:
-      目标: 培养强大的封王和不朽
+- id: 祖神教
+  type: Organization
+  name: 祖神教
+  description: 招收全宇宙精英天才，重点培养特殊生命逐虫王。
+  attributes:
+    目标: 培养强大的封王和不朽
 
 locations:
-  - id: 五彩极光湖
-    type: Location
-    name: 五彩极光湖
-    description: 祖神秘境的一部分，禁止杀戮。
+- id: 五彩极光湖
+  type: Location
+  name: 五彩极光湖
+  description: 祖神秘境的一部分，禁止杀戮。
 
 abilities:
-  - id: 特殊生命天赋秘法
-    type: Ability
-    attributes:
-      影响力: 强大到可以越级搏杀
+- id: 特殊生命天赋秘法
+  type: Ability
+  attributes:
+    影响力: 强大到可以越级搏杀
 
 items:
-  - id: 至宝
-    type: Item
-    description: 祖神教赐予逐虫王的两件至宝，增强其实力。
+- id: 至宝
+  type: Item
+  description: 祖神教赐予逐虫王的两件至宝，增强其实力。
 
 relationships:
-  - id: 贝山尊者与罗峰
-    type: Relationship
-    attributes:
-      关系类型: 敌对
+- id: 贝山尊者与罗峰
+  type: Relationship
+  attributes:
+    关系类型: 敌对
 
 events:
-  - id: 罗峰与贝山尊者的冲突
-    type: Event
-    description: 贝山尊者试图逼迫罗峰燃烧神体，被逐虫王阻止。
-    timeline: 在五彩极光湖附近发生。
+- id: 罗峰与贝山尊者的冲突
+  type: Event
+  description: 贝山尊者试图逼迫罗峰燃烧神体，被逐虫王阻止。
+  timeline: 在五彩极光湖附近发生。
 
 dialogues:
-  - id: 贝山尊者对罗峰说
-    content: "记住，我是贝山尊者，有本事你就一直躲在五彩极光湖，躲在人类老巢内。"
-    speaker: 贝山尊者
+- id: 贝山尊者对罗峰说
+  content: "记住，我是贝山尊者，有本事你就一直躲在五彩极光湖，躲在人类老巢内。"
+  speaker: 贝山尊者
 
-  - id: 罗峰回应逐虫王
-    content: "谢逐虫王。"
-    speaker: 罗峰
+- id: 罗峰回应逐虫王
+  content: "谢逐虫王。"
+  speaker: 罗峰
 
 mysteries:
-  - id: 逐虫王的真实实力和背景
-    type: Mystery
-    description: 宇宙独一无二的生命，其本体高度据说有六万多公里。
-```
-
-此YAML数据结构仅包含原文明确出现的信息，并且没有进行推测或总结。
+- id: 逐虫王的真实实力和背景
+  type: Mystery
+  description: 宇宙独一无二的生命，其本体高度据说有六万多公里。

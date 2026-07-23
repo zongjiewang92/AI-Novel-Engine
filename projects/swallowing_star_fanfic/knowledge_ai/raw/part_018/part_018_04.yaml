@@ -1,71 +1,69 @@
-```yaml
 source:
   id: text
 
 entities:
-  - id: xuxin
-    type: Character
-    name: 徐欣
-    aliases: []
-    description: >
-      在家族的竞争环境中长大，遇到罗峰后完全没有了竞争压力。喜欢与罗峰一起生活的日子，并且为自己的事业奋斗。
-    attributes:
-      - 性格温柔体贴，对家庭充满爱意
-      - 家族背景复杂，从小受尽竞争的压力
+- id: xuxin
+  type: Character
+  name: 徐欣
+  aliases: []
+  description: >
+    在家族的竞争环境中长大，遇到罗峰后完全没有了竞争压力。喜欢与罗峰一起生活的日子，并且为自己的事业奋斗。
+  attributes:
+  - 性格温柔体贴，对家庭充满爱意
+  - 家族背景复杂，从小受尽竞争的压力
 
-  - id: luofeng
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: >
-      徐欣的爱人，为她遮风挡雨，让她没有压力。
-    attributes:
-      - 对徐欣充满爱意和关怀
+- id: luofeng
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: >
+    徐欣的爱人，为她遮风挡雨，让她没有压力。
+  attributes:
+  - 对徐欣充满爱意和关怀
 
-  - id: babata
-    type: Item
-    name: 巴巴塔
-    aliases: [智能]
-    description: >
-      罗峰的助手，曾保证过徐欣不会有事，并且告知了关于“情侣平安符”的真实信息。
-    attributes:
-      - 具有模拟罗峰声音的能力
+- id: babata
+  type: Item
+  name: 巴巴塔
+  aliases: [ 智能 ]
+  description: >
+    罗峰的助手，曾保证过徐欣不会有事，并且告知了关于“情侣平安符”的真实信息。
+  attributes:
+  - 具有模拟罗峰声音的能力
 
-  - id: eternal_love_symbol
-    type: Item
-    name: 永恒之恋符号
-    aliases: ['情侣平安符']
-    description: >
-      实际上是叫做“永恒之恋”的宝物，能够救活徐欣。
-    attributes:
-      - 救生功能
+- id: eternal_love_symbol
+  type: Item
+  name: 永恒之恋符号
+  aliases: [ '情侣平安符' ]
+  description: >
+    实际上是叫做“永恒之恋”的宝物，能够救活徐欣。
+  attributes:
+  - 救生功能
 
 relationships:
-  - id: xuxin_and_luofeng_relationship
-    type: Relationship
-    name: 徐欣和罗峰的关系
-    description: >
-      罗峰对徐欣充满爱意与关怀，是她的支柱。
+- id: xuxin_and_luofeng_relationship
+  type: Relationship
+  name: 徐欣和罗峰的关系
+  description: >
+    罗峰对徐欣充满爱意与关怀，是她的支柱。
 
 events:
-  - id: xuxin_suicide_attempt
-    type: Event
-    name: 徐欣自杀尝试
-    description: >
-      在罗峰去世后，徐欣感到世界失去色彩，在痛苦中决定结束生命。
-    timeline: []
+- id: xuxin_suicide_attempt
+  type: Event
+  name: 徐欣自杀尝试
+  description: >
+    在罗峰去世后，徐欣感到世界失去色彩，在痛苦中决定结束生命。
+  timeline: []
 
 dialogues:
-  - speaker: 徐欣
-    dialogue: "爸妈，哥哥，公公婆婆，你们都不要伤心，因为，我现在很开心。"
-    context: 决定自杀前对家人的遗言
+- speaker: 徐欣
+  dialogue: "爸妈，哥哥，公公婆婆，你们都不要伤心，因为，我现在很开心。"
+  context: 决定自杀前对家人的遗言
 
 timeline:
 
 mysteries:
-  - id: mystery_of_eternal_love_symbol
-    type: Mystery
-    name: 永恒之恋符号的真正功能
-    description: >
-      巴巴塔告知罗峰，所谓的“情侣平安符”其实是叫做“永恒之恋”的宝物，并且在徐欣自杀时救了她。
-```
+- id: mystery_of_eternal_love_symbol
+  type: Mystery
+  name: 永恒之恋符号的真正功能
+  description: >
+    巴巴塔告知罗峰，所谓的“情侣平安符”其实是叫做“永恒之恋”的宝物，并且在徐欣自杀时救了她。

@@ -1,106 +1,104 @@
-```yaml
 source:
   id: text1
 
 entities:
-  - id: 罗峰
-    type: Character
-    name: 罗峰
-    aliases: []
-    description: 虚拟宇宙领主，地球上的妻子是徐欣。
-    attributes:
-      实力: 恒星级九阶
-      性格: 冷静理智
+- id: 罗峰
+  type: Character
+  name: 罗峰
+  aliases: []
+  description: 虚拟宇宙领主，地球上的妻子是徐欣。
+  attributes:
+    实力: 恒星级九阶
+    性格: 冷静理智
 
-  - id: 徐欣
-    type: Character
-    name: 徐欣
-    aliases: []
-    description: 罗峰的妻子，经常使用虚拟宇宙网络。
-    attributes:
-      关系: 罗峰妻子
-      性格: 温柔善良
+- id: 徐欣
+  type: Character
+  name: 徐欣
+  aliases: []
+  description: 罗峰的妻子，经常使用虚拟宇宙网络。
+  attributes:
+    关系: 罗峰妻子
+    性格: 温柔善良
 
-  - id: 陀雷武
-    type: Character
-    name: 陀雷武
-    aliases: []
-    description: 宇宙冒险小队队长，诺岚山家族精英。
-    attributes:
-      实力: 高于恒星级九阶
-      性格: 冷酷无情
+- id: 陀雷武
+  type: Character
+  name: 陀雷武
+  aliases: []
+  description: 宇宙冒险小队队长，诺岚山家族精英。
+  attributes:
+    实力: 高于恒星级九阶
+    性格: 冷酷无情
 
-  - id: 戎至
-    type: Character
-    name: 戎至
-    aliases: []
-    description: 宇宙冒险小队队长，负责催眠审问。
-    attributes:
-      实力: 高于恒星级九阶
-      性格: 冷静
+- id: 戎至
+  type: Character
+  name: 戎至
+  aliases: []
+  description: 宇宙冒险小队队长，负责催眠审问。
+  attributes:
+    实力: 高于恒星级九阶
+    性格: 冷静
 
-  - id: 罗华
-    type: Character
-    name: 罗华
-    aliases: []
-    description: 罗峰的弟弟，瘫痪多年。
-    attributes:
-      关系: 罗峰弟弟
-      状态: 被抓走
+- id: 罗华
+  type: Character
+  name: 罗华
+  aliases: []
+  description: 罗峰的弟弟，瘫痪多年。
+  attributes:
+    关系: 罗峰弟弟
+    状态: 被抓走
 
 organizations:
-  - id: 诺岚山家族
-    type: Organization
-    name: 诺岚山家族
-    aliases: []
-    description: 排名前十的宇宙冒险组织。
-    attributes:
-      实力: 强大
-      目标: 寻找金角巨兽尸体
+- id: 诺岚山家族
+  type: Organization
+  name: 诺岚山家族
+  aliases: []
+  description: 排名前十的宇宙冒险组织。
+  attributes:
+    实力: 强大
+    目标: 寻找金角巨兽尸体
 
 locations:
-  - id: 地球
-    type: Location
-    name: 地球
-    aliases: []
-    description: 罗峰等人的居住地。
+- id: 地球
+  type: Location
+  name: 地球
+  aliases: []
+  description: 罗峰等人的居住地。
 
 items:
-  - id: 吞噬兽尸体
-    type: Item
-    name: 吞噬兽尸体
-    aliases: []
-    description: 被误认为金角巨兽尸体。
-    attributes:
-      地点: 不详
+- id: 吞噬兽尸体
+  type: Item
+  name: 吞噬兽尸体
+  aliases: []
+  description: 被误认为金角巨兽尸体。
+  attributes:
+    地点: 不详
 
 events:
-  - id: 审问地球领导人
-    type: Event
-    name: 宇宙冒险小队审问地球领导人
-    description: 陀雷武带领队员审问地球五大强国的领导人，以寻找金角巨兽尸体。
-    timeline:
-      时间: 不详
+- id: 审问地球领导人
+  type: Event
+  name: 宇宙冒险小队审问地球领导人
+  description: 陀雷武带领队员审问地球五大强国的领导人，以寻找金角巨兽尸体。
+  timeline:
+    时间: 不详
 
 dialogues:
-  - id: 罗峰与徐欣对话
-    type: Dialogue
-    characters: [罗峰, 徐欣]
-    dialogue: "徐欣询问罗峰关于吞噬兽尸体的下落，罗峰暗示她自己被抓住了。"
-    timeline:
-      时间: 不详
+- id: 罗峰与徐欣对话
+  type: Dialogue
+  characters: [ 罗峰, 徐欣 ]
+  dialogue: "徐欣询问罗峰关于吞噬兽尸体的下落，罗峰暗示她自己被抓住了。"
+  timeline:
+    时间: 不详
 
-  - id: 罗峰与陀雷武对话
-    type: Dialogue
-    characters: [罗峰, 陀雷武]
-    dialogue: "罗峰利用弟弟作为谈判筹码，要求一手交人一手交金角巨兽尸体的坐标。"
-    timeline:
-      时间: 不详
+- id: 罗峰与陀雷武对话
+  type: Dialogue
+  characters: [ 罗峰, 陀雷武 ]
+  dialogue: "罗峰利用弟弟作为谈判筹码，要求一手交人一手交金角巨兽尸体的坐标。"
+  timeline:
+    时间: 不详
 
 timeline:
 
 mysteries:
-  - id: 吞噬兽与金角巨兽的关系
-    type: Mystery
-    description: 领导人们被审问时提到吞噬兽，但其实是寻找金角巨兽尸体。
-```
+- id: 吞噬兽与金角巨兽的关系
+  type: Mystery
+  description: 领导人们被审问时提到吞噬兽，但其实是寻找金角巨兽尸体。
