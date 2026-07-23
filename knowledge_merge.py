@@ -2,9 +2,7 @@ from pathlib import Path
 
 from database.knowledge_merge_agent import KnowledgeMergeAgent
 
-
 PROJECT_NAME = "swallowing_star_fanfic"
-
 
 
 def main():
@@ -21,26 +19,13 @@ def main():
     #     output_dir=project_dir / "merged",
     # )
 
-
     agent = KnowledgeMergeAgent(
-
-        Path(
-            "projects/swallowing_star_fanfic/knowledge_ai/raw"
-        ),
-
-        Path(
-            "projects/swallowing_star_fanfic/knowledge_ai/knowledge"
-        ),
-
-        Path(
-            "projects/swallowing_star_fanfic/knowledge_ai/reports"
-        )
-
+        Path("projects/swallowing_star_fanfic/knowledge_ai/raw"),
+        Path("projects/swallowing_star_fanfic/knowledge_ai/knowledge"),
+        Path("projects/swallowing_star_fanfic/knowledge_ai/reports"),
     )
 
-
     agent.merge()
-
 
     agent.merge()
 
