@@ -1,0 +1,357 @@
+part: part_089
+generated_time: '2026-07-23T15:46:34.815242'
+count: 5
+items:
+- source: part_089_01.yaml
+  data:
+    source:
+      id: 第二十六篇它的到来
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 鸿盟强者之一，人类族群的重要成员。
+      attributes:
+        实力: 强者
+        性格: 没有具体描述
+    - id: 东帝始祖
+      type: Character
+      name: 东帝始祖
+      aliases: []
+      description: 原始宇宙的势力领袖，对人类族群的发展不满。
+      attributes:
+        实力: 强者
+        性格: 不满、愤怒
+    - id: 紫月始祖
+      type: Character
+      name: 紫月始祖
+      aliases: []
+      description: 原始宇宙的超脱轮回的存在，拥有给予传承的能力。
+      attributes:
+        实力: 强者
+        性格: 有远见、慷慨
+    - id: 觉化真神
+      type: Character
+      name: 觉化真神
+      aliases: []
+      description: 紫月始祖的助手，执行紫月始祖的指令。
+      attributes:
+        实力: 强者
+        性格: 敬业、恭顺
+    - id: 鸿盟
+      type: Organization
+      name: 鸿盟
+      aliases: []
+      description: 由人类族群主导，包括多个宇宙之主的联盟。
+      attributes:
+        规模: 多个宇宙之主加入
+        目标: 加强自身实力
+    locations:
+    - id: 原始宇宙
+      type: Location
+      name: 原始宇宙
+      aliases: []
+      description: 宇宙海的核心区域，众多宇宙势力的中心。
+      attributes:
+        特点: 危险、广阔
+    - id: 初始宇宙
+      type: Location
+      name: 初始宇宙
+      aliases: []
+      description: 鸿盟的重要基地，用于安顿新加入的宇宙之主。
+    civilizations:
+    - id: 人类文明
+      type: Civilization
+      name: 人类文明
+      aliases: []
+      description: 原始宇宙中的主要势力之一。
+      attributes:
+        目标: 扩大自身影响力
+    species:
+    - id: 宇宙之主
+      type: Species
+      name: 宇宙之主
+      aliases: []
+      description: 在原始宇宙中具有极高地位的强者。
+    relationships:
+    - 主体: 罗峰
+      相关对象: 鸿盟
+      关系类型: 成员
+    - 主体: 东帝始祖
+      相关对象: 原始宇宙势力
+      关系类型: 领导者
+    - 主体: 紫月始祖
+      相关对象: 祖神教
+      关系类型: 超脱轮回的存在
+    events:
+    - id: 人类族群赢得战争
+      type: Event
+      name: 人类族群赢得战争
+      description: 人类阵营在联军一方的战斗中取得胜利。
+      attributes:
+        时间点: 文章提到的时间线内
+        影响: 原始宇宙势力对局势不满
+    dialogues:
+    - 主体: 紫月始祖
+      相关对象: 觉化真神
+      对话内容: 给，当然给。答应了自然做到，我紫月……还不至于在这些小家伙们面前失信。
+      attributes:
+        场景: 决定是否给予传承
+    timeline:
+    - 时间点: 文章提到的时间线内
+      事件类型: 战争胜利
+      详情描述: 人类阵营赢得战争，势力得到增强。
+    mysteries:
+    - id: 紫月始祖为何决定给予联军各族传承?
+      description: 尽管没有直接承诺,紫月始祖为什么选择帮助联军的各个种族?
+- source: part_089_02.yaml
+  data:
+    source:
+      id: unknown
+    entities:
+    - id: rofei
+      type: character
+      name: 罗峰
+      aliases: []
+      description: 拥有极高实力的宇宙之主，曾参与原始宇宙的大战。
+      attributes:
+      - 实力: 宇宙之主
+      - 特点: 创造了强大的刀法《涅槃新生》
+    - id: shuangmianzushen
+      type: character
+      name: 双面祖神
+      aliases: []
+      description: 祖神教中的重要成员，曾帮助罗峰。
+      attributes:
+      - 实力: 祖神
+      - 特点: 能够保护罗峰
+    - id: zushenjiao
+      type: organization
+      name: 祖神教
+      aliases: []
+      description: 在原始宇宙中拥有重要地位的宗教组织。
+    locations:
+    - id: yinjiangdao
+      type: location
+      name: 紫荆岛
+      aliases:
+      - 祖神秘境
+      description: 祖神教的重要地点，罗峰居住的地方。
+    items:
+    - id: xingcengtacai
+      type: item
+      name: 星辰塔
+      aliases: []
+      description: 罗峰持有的神秘宝物。
+    dialogues:
+    - speaker: 双面祖神
+      listener: 罗峰
+      content: 到我这一叙，我有你人类重要事情告知于你。
+    timeline:
+    - event: 祖神教召唤罗峰
+      time: 大战之后一段时间
+    mysteries:
+    - question: 双面祖神为何突然召唤罗峰？
+      hint: 涉及到罗峰的族人的重要信息。
+- source: part_089_03.yaml
+  data:
+    source:
+      id: 第1347章罗峰降临（第二更）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 宇宙之主，银河领主，得到断东河一脉传承。
+      attributes:
+        实力: 宇宙之主
+        能力: 星辰塔、灵魂冲击之宝
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 罗峰的老师，传授远古文明传承。
+      attributes:
+        实力: 宇宙最强者
+        能力: 授业解惑
+    - id: 星辰塔
+      type: Item
+      name: 星辰塔
+      aliases: []
+      description: 至强至宝，可吞吸宇宙之主。
+      attributes:
+        功能: 吞吸、防御、移动
+    organizations:
+    - id: 宇宙海各大势力
+      type: Organization
+      name: 宇宙海各大势力
+      aliases: []
+      description: 包括各个种族和文明的联盟与对立派系。
+    locations:
+    - id: 宇宙舟
+      type: Location
+      name: 宇宙舟
+      aliases: []
+      description: 超大型宇宙空间站，内部环境复杂。
+      attributes:
+        特点: 内部包含无数区域和通道
+    events:
+    - id: 罗峰进入宇宙舟
+      type: Event
+      name: 罗峰乘坐星辰塔进入宇宙舟
+      description: 罗峰带着星辰塔光明正大地进入了宇宙舟，引起各方关注。
+      attributes:
+        时间: 不详
+        地点: 宇宙舟
+        结果: 引起人类阵营和各大势力的注意
+    dialogues:
+    - id: 混沌城主与罗峰对话
+      type: Dialogue
+      name: 老师，我将去宇宙海。
+      description: 罗峰告知老师自己要去宇宙海搜集奇物，并表达决心。
+    timeline: null
+    mysteries:
+    - id: 巨斧陨落之谜
+      type: Mystery
+      name: 巨斧陨落背后阴谋
+      description: 混沌城主提示罗峰留意当初使巨斧陨落的三个阴谋者，推测他们动机不明。
+- source: part_089_04.yaml
+  data:
+    source:
+      id: 第1350章紫月圣地的格杀令
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 银河领主，具有强大的实力和一定的影响力。
+      attributes:
+        实力: 宇宙之主以上
+        性格: 冷静、果断
+    - id: 紫濮之主
+      type: Character
+      name: 紫濮之主
+      aliases: []
+      description: 紫月圣地的宇宙之主，拥有一定的实力和地位。
+      attributes:
+        实力: 宇宙之主
+        性格: 冷漠、傲慢
+    - id: 雷梭之主
+      type: Character
+      name: 雷梭之主
+      aliases: []
+      description: 旋泽海礁石上的宇宙之主之一。
+      attributes:
+        实力: 宇宙之主
+        性格: 不详
+    organizations:
+    - id: 紫月圣地
+      type: Organization
+      name: 紫月圣地
+      aliases: []
+      description: 一个与人类对立的强大势力，拥有宇宙之主级别的成员。
+      attributes:
+        成员数量: 不足400位宇宙之主
+    locations:
+    - id: 旋泽海中央
+      type: Location
+      name: 旋泽海中央
+      aliases: []
+      description: 紫月圣地的活动区域，位于一处巨大礁石上。
+    - id: 星辰塔
+      type: Location
+      name: 星辰塔
+      aliases: []
+      description: 巨大的建筑结构，内部设有镇封空间。
+    abilities:
+    - id: 分身之能
+      type: Ability
+      name: 分身之能
+      description: 可以制造分身的能力。
+    timeline:
+      events:
+      - id: 罗峰抓紫濮之主
+        time: 同一天
+        description: 在旋泽海中央的礁石上，罗峰抓住了紫月圣地的宇宙之主紫濮之主，并将其镇封在星辰塔内。
+    dialogues:
+    - characters:
+      - 罗峰
+      - 紫濮之主
+      text: '"你也敢在我面前出现？"
+
+        "怎么不敢，这是宇宙舟，又不是你人类的疆域。即便是你人类的疆域，若是原始宇宙允许，我照样敢去闯。银河领主……怎么？你也要对我动手？你和我动手，便是和我紫月圣地为敌！"
+
+        '
+    mysteries:
+    - id: 紫月圣地始祖之令
+      description: 关于始祖的命令意图以及后续行动。
+- source: part_089_05.yaml
+  data:
+    source:
+      id: 海上方的战斗与海底之战
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 星辰塔主人，银河领主化身金之兽神试图逃进旋泽海。
+      attributes:
+        实力: 宇宙之主
+        特殊能力: 墓陵之舟, 变身为兽神形态
+    - id: 浩雷星主
+      type: Character
+      name: 浩雷星主
+      aliases: []
+      description: 雷电巨人，宇宙最强者，欲为雷梭之主复仇。
+      attributes:
+        实力: 宇宙最强者
+        特殊能力: 强大的雷电攻击, 神甲神体
+    - id: 星辰塔
+      type: Item
+      name: 星辰塔
+      aliases: []
+      description: 罗峰的居所，可以缩小为掌心大小。
+      attributes:
+        功能: 储物功能
+    - id: 雷梭之主
+      type: Character
+      name: 雷梭之主
+      aliases: []
+      description: 浩雷星主想救回的人。
+    - id: 旋泽海
+      type: Location
+      name: 旋泽海
+      aliases: []
+      description: 宇宙舟内域危险之地，海底漩涡众多。
+      attributes:
+        危险度: 极高
+    relationships:
+    - 主体: 罗峰
+      关系类型: 对立
+      目标: 浩雷星主
+      描述: 罗峰拒绝交出雷梭之主，浩雷星主欲为雷梭之主复仇。
+    events:
+    - id: 战斗开始
+      type: Event
+      name: 海上方的战斗与海底之战
+      description: 浩雷星主追击罗峰进入旋泽海展开大战。
+      timeline:
+        时间点: 第一章结束至第二章
+        地点: 宇宙舟内的礁石及旋泽海
+    dialogues:
+    - 主体: 罗峰
+      目标: 浩雷星主
+      对话内容: 你要跪在我面前，向我磕头赔礼！
+      时间点: 战斗开始前
+    - 主体: 浩雷星主
+      目标: 罗峰
+      对话内容: 侮辱一名宇宙最强者，该死。
+      时间点: 战斗开始后
+    timeline:
+    - 时间点1: 海上方的战斗准备阶段
+      描述: 浩雷星主要求罗峰交出雷梭之主。
+    - 时间点2: 罗峰拒绝并激怒浩雷星主，大战即将展开。
+    mysteries:
+    - 伏笔内容: 罗峰是否真的知道巨斧的死因和浩雷星主有关？
+      描述: 浩雷星主认为罗峰侮辱自己，是因为知道巨斧死亡真相。

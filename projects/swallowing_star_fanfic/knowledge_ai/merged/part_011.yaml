@@ -1,0 +1,385 @@
+part: part_011
+generated_time: '2026-07-23T15:46:33.817608'
+count: 5
+items:
+- source: part_011_01.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: rofei
+      type: character
+      name: 罗峰
+      aliases: []
+      description: 距离上次蜕变后，实力大增。拥有黑神套装。
+      attributes:
+        实力等级: 高等战神巅峰精神念师
+        特殊能力: 变异眼睛（视力增强）
+    - id: katei
+      type: character
+      name: 卡特兰
+      aliases: []
+      description: 黑神套装拥有者，带领三人组。
+      attributes:
+        实力等级: 高等战神巅峰精神念师
+        特殊能力: 精神念师天赋
+    - id: yiwan
+      type: character
+      name: 伊凡
+      aliases: []
+      description: 黑神套装拥有者，三人组成员。
+      attributes:
+        实力等级: 高等战神巅峰精神念师
+        特殊能力: 精神念师天赋
+    - id: leeao
+      type: character
+      name: 李耀
+      aliases: []
+      description: 黑神套装拥有者，三人组成员。
+      attributes:
+        实力等级: 高等战神巅峰精神念师
+        特殊能力: 精神念师天赋
+    relationships:
+    - id: rofei_vs_kateteam
+      type: 对抗关系
+      description: 罗峰与卡特兰三人组对抗。
+    events:
+    - id: osuwood_attack
+      type: 战斗事件
+      description: 罗峰攻击砍伐柳树王的黑神套装三人组。
+      timeline: 观察超过十分钟后的行动
+    dialogues:
+    - speaker: 卡特兰
+      dialogue: 罗峰？你如果躲在地底以你精神念师能力,我也抓不到你。不过你竟然来到陆地上，真是愚蠢。
+    - speaker: 罗峰
+      dialogue: 谢谢你们帮忙砍掉柳树王。让我省掉很多事情。
+    timeline:
+    - event: 蜕变后观看黑神套装三人组砍伐柳树王
+      time: 十分钟以上
+    mysteries:
+    - id: rofei_transformation
+      mystery: 罗峰是如何在短时间内完成蜕变并增强实力的？
+- source: part_011_02.yaml
+  data:
+    source:
+      id: 文本来源
+    entities:
+    - id: 洪
+      type: 组织领导者
+      name: 极限武馆‘洪’的总馆主
+      aliases: []
+      description: 手下有五大巡察使及三大亲卫，是极限武馆的核心人物。
+      attributes:
+        实力: 超越战神的存在
+    - id: 法尔议员
+      type: 政治领袖
+      name: 议员
+      aliases: []
+      description: 在雾岛上遇到罗峰，并与他进行战斗。
+      attributes:
+        实力: 战神
+    - id: 罗峰
+      type: 角色
+      name: 罗峰
+      aliases: []
+      description: 极限武馆的学员，表现出色，被赞誉为精神念师天才。
+      attributes:
+        年龄: 19周岁
+        实力: 高等战神巅峰精神念师
+    - id: 柳巡察使
+      type: 组织成员
+      name: 极限武馆的柳河
+      aliases: []
+      description: 负责指导罗峰，给予他重要信息。
+      attributes:
+        实力: 超越战神的存在
+    - id: 冰山
+      type: 角色
+      name: 洪的亲卫之一
+      aliases: []
+      description: 具有寻找草木之灵的能力，代号为“冰山”。
+      attributes:
+        实力: 超越战神的存在
+    - id: 法尔议员
+      type: 政治领袖
+      name: 议员
+      aliases: []
+      description: 在雾岛上与罗峰发生冲突的人。
+      attributes:
+        实力: 战神
+    relationships:
+    - 主体: 罗峰
+      对象: 极限武馆‘洪’
+      关系类型: 学员-组织
+      描述: 罗峰是极限武馆的一员，受到总馆主洪的栽培。
+    events:
+    - id: 雾岛事件
+      type: 战斗
+      name: 在雾岛上与法尔议员发生冲突
+      description: 罗峰在雾岛上遇到法尔议员，并与其展开战斗。
+      timeline: []
+    dialogues:
+    - 主体: 法尔议员
+      对象: 柳巡察使
+      内容: 你很聪明嘛，的确是冰山。
+      上下文: 在发现罗峰身后有超越战神存在的“冰山”之后的对话。
+    - 主体: 罗峰
+      对象: 柳巡察使
+      内容: 19周岁，高等战神巅峰精神念师。
+      上下文: 罗峰回答柳巡察使关于他目前的精神念力等级的问题。
+    timeline: []
+    mysteries:
+    - 冰山的真面目：未知。
+- source: part_011_03.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: rofei1
+      type: character
+      name: 罗峰
+      aliases: []
+      description: 极限武馆学员，发现并报告了雾岛。
+      attributes:
+        身份: 极限武馆学员
+        功劳: 发现并报告雾岛，开采时立下功劳
+    - id: liu_xunchashi
+      type: character
+      name: 柳巡察使
+      aliases: []
+      description: 极限武馆高层官员，负责分配收获。
+      attributes:
+        身份: 极限武馆巡察使
+        功劳: 分配资源
+    - id: bingshan_qingwei
+      type: character
+      name: 冰山亲卫
+      aliases: []
+      description: 极限武馆高层的亲卫。
+      attributes:
+        身份: 高层亲卫
+        功劳: 未知
+    - id: gang
+      type: character
+      name: 洪
+      aliases: []
+      description: 极限武馆馆主，身份神秘。
+      attributes:
+        身份: 极限武馆馆主
+        特点: 威严冷峻
+    organizations:
+    - id: jixian_wuguan
+      type: organization
+      name: 极限武馆
+      description: 一个拥有高度军事化管理的机构，主要任务是培养精英。
+      attributes:
+        性质: 军事化训练组织
+        地点: 多地有基地
+    locations:
+    - id: jingying_junyiying_zhengmen
+      type: location
+      name: 精英训练营正门
+      description: 罗峰被召见前等待的地方。
+      attributes:
+        特点: 黑色豪华加长轿车接应
+    - id: jixian_wuguan_true_headquarters
+      type: location
+      name: 极限武馆总部
+      description: 极限武馆的真正中心，一个巨大的飞船式建筑。
+      attributes:
+        特点: 巨型飞船式建筑, 高度森严
+    items:
+    - id: caiquan
+      type: item
+      name: 草木之灵
+      description: 稀有资源，珍贵无比。
+      attributes:
+        数量: 总共95个草木之灵
+        分配额度: 罗峰15%
+    dialogues:
+    - id: dialog1
+      characters:
+      - rofei1
+      - liu_xunchashi
+      content:
+        柳巡察使: 罗峰，这次你的收获可是不小啊。
+        rofei1: 运气,刚好发现那雾岛而已。
+        liu_xunchashi: 运气也是实力一部分。
+    - id: dialog2
+      characters:
+      - gang
+      - rofei1
+      content:
+        洪: 这次你发现了雾岛并且禀报，功劳不小。可以获得所有草木之灵,10%的份额。在开采的时候，你也立下功劳，可分得5%的分配额度。
+    timeline:
+      events:
+      - id: rofei_shouhou
+        type: event
+        description: 罗峰被召见并获得草木之灵的奖励。
+        time: 十分钟后
+    mysteries:
+    - id: gang_qingbao
+      type: mystery
+      name: 洪的奇宝
+      content: 有些真正奇宝，馆主恐怕是舍不得拿出来的。
+- source: part_011_04.yaml
+  data:
+    source:
+      id: text1
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 极限武馆的学员，有着智能战机和特殊装备。
+      attributes:
+        实力: 超越战神存在
+        年龄: 不详
+        性格: 小心谨慎
+    - id: 智能战机
+      type: Item
+      name: 深蓝色三角形战机
+      aliases: []
+      description: 可以自主飞行，携带物品方便快速到达目的地。
+      attributes:
+        功能: 自主飞行,虚拟地图确认地址,极速移动
+    - id: 黑神套装
+      type: Item
+      name: 黑色手套等
+      aliases: []
+      description: 能自动渗透皮肤，吸收鲜血变异，变成与身体非常契合的一部分。
+      attributes:
+        使用方法: 穿在身上后自动适应人体,随心意变化
+    - id: 遁天梭
+      type: Item
+      name: 梭形飞行物
+      aliases: []
+      description: 可以高速飞行，形成流线型气罩减少空气阻力。
+      attributes:
+        速度优势: 足够快时可以达到两倍以上
+    - id: 极限武馆总部
+      type: Location
+      name: 极限武馆总部
+      aliases: []
+      description: 罗峰起飞的地方，智能战机引起不少人的注目。
+    - id: 洪宁基地市精英训练营
+      type: Location
+      name: 洪宁基地市精英训练营
+      aliases: []
+      description: 学员们进行生死冒险月的地点，战神老师们休假。
+      attributes:
+        安静程度: 非常宁静
+    relationships: null
+    events:
+    - id: 罗峰前往精英训练营取装备
+      type: Event
+      name: 取智能战机与黑神套装,遁天梭
+      description: 罗峰前往洪宁基地市精英训练营，取出包括遁天梭、黑神套装在内的装备。
+      timeline:
+        时间: 天已黑
+    dialogues: null
+    timeline:
+    - 罗峰使用智能战机从极限武馆总部出发到洪宁基地市精英训练营
+    - 罗峰在精英训练营内取回黑神套装和遁天梭
+    mysteries:
+    - id: 智能战机权限
+      type: Mystery
+      name: 特别权限
+      description: 罗峰的智能战机具有进入洪宁基地市精英训练营的特别权限。
+- source: part_011_05.yaml
+  data:
+    source:
+      id: 原文
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 江南基地市极限总会馆新任监察使，19岁，拥有飞行战机。
+      attributes:
+        年龄: 19
+        实力: 无敌战神
+        身份: 监察使
+    - id: 周正永
+      type: Character
+      name: 周正永
+      aliases: []
+      description: 极限总会馆会长。
+      attributes:
+        身份: 会长
+    - id: 诸葛韬
+      type: Character
+      name: 诸葛韬
+      aliases: []
+      description: 极限总会馆主管，曾经帮助过罗峰。
+      attributes:
+        关系: 曾经帮助过罗峰
+    - id: 俞森
+      type: Character
+      name: 俞森
+      aliases: []
+      description: 极限总会馆主管。
+      attributes: []
+    - id: 魏通
+      type: Character
+      name: 邬通
+      aliases: []
+      description: 明月小区居民，给周正永打电话的人。
+    - id: 罗华
+      type: Character
+      name: 罗华
+      aliases: []
+      description: 罗峰的弟弟。
+      attributes:
+        关系: 兄弟
+    - id: 极限总会馆
+      type: Organization
+      name: 极限总会馆
+      aliases:
+      - 极限武馆
+      - 总会馆
+      description: 江南基地市的极限总会馆，罗峰被任命为监察使。
+      attributes:
+        地点: 扬州城明月小区
+    - id: 飞行战机
+      type: Item
+      name: 飞行战机
+      aliases:
+      - 三角形飞行战机
+      description: 王级智能战机，价格超过1000亿。
+      attributes:
+        价值: 超过1000亿
+    relationships:
+    - id: 周正永与罗峰的关系
+      type: 上下级关系
+      source: 罗峰
+      target: 周正永
+      description: 罗峰成为监察使后，周正永变成了他的下属。
+    - id: 罗峰与诸葛韬的关系
+      type: 关系变化
+      source: 罗峰
+      target: 诸葛韬
+      description: 诸葛韬曾经帮助过罗峰，并且现在是罗峰的顶头上司。
+    - id: 罗华和罗峰的关系
+      type: 家庭关系
+      source: 罗华
+      target: 罗峰
+      description: 兄弟
+    dialogues:
+    - id: 周正永与俞森的对话
+      type: 对话
+      speaker1: 周正永
+      speaker2: 俞森
+      content: 你才受到任命，怎么买得起？
+    - id: 罗峰和父母弟弟的对话
+      type: 家庭对话
+      speaker1: 罗华
+      speaker2: 罗峰
+      content: 哥，你说你这次回来就不走了？为什么？
+    timeline:
+    - id: 周正永打给魏通电话的时间线
+      description: 周正永打电话询问罗峰的情况。
+      time: 预定
+    mysteries:
+    - id: 罗峰如何获得飞行战机的谜团
+      description: 文中未提及罗峰是如何购买到超过1000亿的飞行战机，但提到是靠雾岛上的草木之灵发了一笔。

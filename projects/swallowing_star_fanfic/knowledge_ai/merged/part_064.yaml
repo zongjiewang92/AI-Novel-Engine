@@ -1,0 +1,315 @@
+part: part_064
+generated_time: '2026-07-23T15:46:34.509369'
+count: 5
+items:
+- source: part_064_01.yaml
+  data:
+    source:
+      id: 第957章算计
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有强大的实力，对宇宙中的势力有所了解。
+      attributes:
+        实力: 强大
+        权限: 高级
+    - id: 天狼
+      type: Character
+      name: 天狼
+      aliases: []
+      description: 冰狱的强者，拥有珍贵的宝物兽神传承令。
+      attributes:
+        力量: 强大
+        身份: 冰狱中的强者
+    - id: 祖神教
+      type: Organization
+      name: 祖神教
+      aliases: []
+      description: 宇宙第一大势力，拥有三大祖神、八大兽神、72神将和3000神使。
+      attributes:
+        成立时间: 宇宙诞生时
+        固定成员数量: 8个兽神, 72个神将, 3000个神使
+    - id: 兽神传承令
+      type: Item
+      name: 兽神传承令
+      aliases: []
+      description: 土、空间融合法则之兽神传承令。
+      attributes:
+        材质: 石牌
+        大小: 巴掌大小的六棱石牌
+    relationships: null
+    events:
+    - id: 冰狱交易
+      type: Event
+      name: 冰狱中的宝物交换
+      description: 罗峰与天狼在冰狱中通过一个不记名账号感应器进行交流，讨论用两件重宝换取一件祖神教的兽神传承令。
+    dialogues:
+    - speaker: 天狼
+      content: 你实力这般强大，在人类族群地位肯定极高，在外界得到重宝，可比在冰狱中容易得多。两件重宝……不让你动心，也不奇怪。好……我便将我天狼最重要的一件宝物给你，拿这件宝物和你换！！！
+      context: 罗峰与天狼讨论交换条件
+    - speaker: 罗峰
+      content: 当然不会是至宝，传说中的至宝，可是令宇宙尊者们都疯狂的，我这一件虽不如至宝，却也比重宝珍贵多了。
+      context: 对兽神传承令价值表示怀疑
+    timeline:
+    - event: 冰狱交易
+      date: 这一章中
+    mysteries:
+    - content: 罗峰是否决定交换兽神传承令。
+- source: part_064_02.yaml
+  data:
+    source:
+      id: 第960章混沌城主降临
+    entities:
+    - id: 天狼之主
+      type: Character
+      name: 天狼之主
+      aliases: []
+      description: 妖族皇族之一‘天狼族’最伟大的存在，拥有极强的威压和实力。
+      attributes:
+        实力: 宇宙之主级别
+        特征: 全身毛发腾绕着火焰，通体漆黑如墨的巨大天狼
+    - id: 青兠寇尊者
+      type: Character
+      name: 青兠寇尊者
+      aliases: []
+      description: 冰狱星带的管理者之一。
+      attributes:
+        实力: 封王无敌不朽级别
+        特征: 紫色身影，掌心能出现冰柱
+    - id: 紫兠寇尊者
+      type: Character
+      name: 紫兠寇尊者
+      aliases: []
+      description: 冰狱星带的管理者之一。
+      attributes:
+        实力: 封王无敌不朽级别
+        特征: 青色身影，与天狼之主有过过节
+    - id: 斯卜瓦
+      type: Character
+      name: 斯卜瓦
+      aliases: []
+      description: 天狼族中被关押在冰狱中的族人。
+      attributes:
+        实力: 排在冰狱前五的不朽级别
+        特征: 通体雪白，对天狼之主极其恭敬
+    locations:
+    - id: 冰狱星带
+      type: Location
+      name: 冰狱星带
+      description: 在乌华秘境中，是一个被火焰笼罩的区域。
+    items:
+    - id: 天狼殿
+      type: Item
+      name: 天狼殿
+      aliases: []
+      description: 天狼族最伟大的至宝。
+      attributes:
+        属性: 宫殿凭空消失，具有极强威压
+    abilities:
+    - id: 冰狱
+      type: Ability
+      name: 冰狱
+      description: 青兠寇尊者和紫兠寇尊者的镇压封印类重宝。
+    dialogues:
+    - speaker: 天狼之主
+      content: 我天狼族有一族人被关押在你等冰狱中。放出来吧。
+      context: 对青兠寇尊者、紫兠寇尊者下达命令。
+    - speaker: 紫兠寇尊者
+      content: 天狼之主，这小家伙实力倒是颇为了得，在冰狱中排在前五，若是再增添几件适合的重宝，足以媲美其他封王无敌不朽。
+      context: 对斯卜瓦的实力评价。
+    - speaker: 天狼之主
+      content: 你知道是我天狼族人，有此天赋，你还关押？
+      context: 质问紫兠寇尊者为何关押天狼族人。
+    timeline:
+      events:
+      - id: 天狼之主降临冰狱星带
+        date: 文中提到的时间点
+        description: 天狼之主为了带走被囚禁的斯卜瓦而降临冰狱星带。
+    mysteries:
+    - question: 冰狱中的人类身份及其重要性为何？
+      context: 紫兠寇尊者和青兠寇尊者不愿交出人类，声称无此人。
+- source: part_064_03.yaml
+  data:
+    source:
+      id: 原文
+    entities:
+    - id: 真衍王
+      type: Character
+      name: 真衍王
+      aliases: []
+      description: 封王强者，修炼兽神之道的老师，收到罗峰赠送的兽神传承令。
+      attributes:
+        实力: 封王巅峰或极限（渴望突破至宇宙尊者）
+        性格: 感激、忧虑
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 真衍王的弟子，修炼兽神之道，并通过某种途径得到了兽神传承令。
+      attributes:
+        实力: 不朽神灵（混沌城主肯定能为他申请到）
+        性格: 尊师重道、慷慨
+    - id: 紫衣使者
+      type: Character
+      name: 紫衣使者
+      aliases: []
+      description: 混沌城主府的使者，负责传送重要信息。
+      attributes:
+        身份: 混沌城主府的下属
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 混沌城主，人类族群虚拟宇宙公司的掌权人。
+      attributes:
+        身份: 掌权人、强者（可为罗峰申请到传承令）
+    - id: 兽神传承令
+      type: Item
+      name: 兽神传承令
+      aliases: []
+      description: 用于突破至宇宙尊者的特殊传承令，极其珍贵。
+      attributes:
+        来源: 罗峰获得并赠送
+    organizations:
+    - id: 混沌城主府
+      type: Organization
+      name: 混沌城主府
+      aliases: []
+      description: 负责传递族群命令和重要信息的机构。
+    relationships:
+    - 主体: 真衍王
+      客体: 罗峰
+      关系类型: 师徒关系
+    dialogues:
+    - 对话者1: 真衍王
+      对话者2: 紫衣使者
+      内容: 恭喜，兽神传承令终于到了。
+    - 对话者1: 罗峰
+      对话者2: 老师
+      内容: 这是弟子自己得到的，并不是族群赐予的。
+    timeline:
+    - 时间点: 紫衣使者送达真衍王府
+      描述: 混沌城主府派来的紫衣使者送来了兽神传承令。
+    mysteries:
+    - 未解决信息1: 罗峰是如何获得兽神传承令的。
+- source: part_064_04.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 意志极强的强者，拥有兽神传承令。
+      attributes:
+        实力: 强者, 拥有宇宙尊者的实力
+    - id: 真衍王
+      type: Character
+      name: 真衍王
+      aliases: []
+      description: 罗峰老师，意志极强的强者，拥有兽神传承令。
+      attributes:
+        实力: 强者, 拥有宇宙尊者的实力
+    - id: 斐沧族尊者
+      type: Character
+      name: 斐沧族尊者
+      aliases: []
+      description: 宇宙中的岩石生命，祖神教的接引者。
+      attributes:
+        实力: 强大, 拥有宇宙尊者的实力
+    - id: 祖神秘境传说中的五彩极光湖
+      type: Location
+      name: 五彩极光湖
+      aliases: []
+      description: 祖神教的护教至宝，直径最大为10光年。
+      attributes:
+        威能: 强大, 单独一道极光足以重伤宇宙尊者
+    organizations:
+    - id: 祖神教
+      type: Organization
+      name: 祖神教
+      aliases: []
+      description: 宇宙第一大势力，拥有五彩极光湖作为护教至宝。
+    dialogues:
+    - speaker: 斐沧族尊者
+      listener: 罗峰、真衍王
+      content: 人类，拿出兽神传承令，若是没有兽神传承令，擅闯我祖神教重地，死。
+    - speaker: 斐沧族尊者
+      listener: 真衍王
+      content: 你倒是有点见识。
+    - speaker: 斐沧族尊者
+      listener: 罗峰、真衍王
+      content: 你们四大族群的域外战场上不就有一件宇宙最强至宝之一的‘星辰塔’？那可是无数强者都无法撼动、强行带走的至宝，至今宇宙中无数强者都不知道它真正的威能，总之，它还没有主人。
+    timeline:
+    - event: 罗峰和真衍王被斐沧族尊者发现
+      date: null
+    mysteries:
+    - question: 星辰塔为何没有主人？
+      answer: null
+- source: part_064_05.yaml
+  data:
+    source:
+      id: 源文件ID
+    entities:
+    - id: jufeng_zunzhe
+      type: Character
+      name: 鸠风尊者
+      aliases: []
+      description: 祖神教的传承重地守护者，赐予罗峰和真衍王进入传承之地的机会。
+      attributes:
+      - 实力: 强大
+    - id: luofeng
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 获得祖神教的兽神传承，接受第三次传承后有所领悟。
+      attributes:
+      - 实力: 封王以下（未完全突破）
+      - 修炼功法: 衍神七变（第三篇正在研究中）
+    - id: zhenyanwang
+      type: Character
+      name: 真衍王
+      aliases: []
+      description: 罗峰的老师，获得祖神教的兽神传承，有突破的迹象。
+      attributes:
+      - 实力: 封王以下（未完全突破）
+    - id: zhenshentao
+      type: Organization
+      name: 祖神教
+      aliases: []
+      description: 拥有强大的传承之地，能够进行深层次的灵魂和法则传授。
+    relationships:
+    - source_id: luofeng
+      target_id: jufeng_zunzhe
+      type: 教导与被教导
+    - source_id: zhenyanwang
+      target_id: luofeng
+      type: 师徒关系
+    events:
+    - id: chuansheng_di
+      name: 传承之地
+      description: 祖神教的传承重地，能够传授深层次的灵魂和法则知识。
+      attributes:
+      - 类型: 秘境
+      - 地点: 黑雾笼罩的空间
+      - 特性: 对灵魂有强大威压
+    dialogues:
+    - speaker_id: jufeng_zunzhe
+      listener_ids:
+      - luofeng
+      - zhenyanwang
+      content: 进入黑雾，接受传承吧。你们俩分开，别在一处。
+    - speaker_id: luofeng
+      listener_ids: []
+      content: 是。
+    timeline:
+    - 时间点: 刚刚进入黑雾中
+      描述: 罗峰和真衍王被神秘力量控制，开始接受传承。
+    - 时间点: 传承结束时
+      描述: 鸠风尊者询问罗峰和真衍王的传承进度。
+    mysteries:
+    - 内容: 祖神教传承之地的力量如何操控灵魂？
+    - 内容: 罗峰和真衍王能否成功突破封王境界？

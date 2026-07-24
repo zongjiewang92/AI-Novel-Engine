@@ -1,0 +1,482 @@
+part: part_020
+generated_time: '2026-07-23T15:46:33.931015'
+count: 5
+items:
+- source: part_020_01.yaml
+  data:
+    source:
+      id: 第289章心中冰凉
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 黑发年轻人，实际是一个土著星球的最强者（行星级）。
+      attributes:
+        实力: 行星级
+        目标: 增加自己和地球的实力
+    - id: 高升
+      type: Character
+      name: 高升
+      aliases: []
+      description: 黑发青年，看起来有大背景。
+      attributes:
+        身份: 流银护卫的队长，高阶域主
+    - id: 莎莎
+      type: Character
+      name: 莎莎
+      aliases: []
+      description: 梦贝族女仆，曾被贩卖为奴隶。
+    - id: 梦贝族
+      type: Species
+      name: 梦贝族
+      aliases: []
+      description: 美丽妖娆的碧发少女种族。
+      attributes:
+        实力: 弱小种族，成年后实力弱于恒星级
+    relationships:
+    - id: 罗峰与莎莎
+      type: 雇佣关系
+      description: 莎莎是罗峰雇佣的女仆。
+    - id: 梦贝族奴隶
+      type: 同种族关系
+      description: 莎莎与其他梦贝族奴隶的关系。
+    events:
+    - id: 罗峰遇见高升
+      type: 遇见
+      description: 罗峰在餐厅遇到高升，并被邀请参观奴隶市场。
+    - id: 梦贝族贩卖事件
+      type: 奴隶贩卖
+      description: 梦贝族人被抓捕并卖给奴隶贩子。
+    dialogues:
+    - speaker: 高升
+      listener: 罗峰
+      content: 看，那边也有梦贝族的。莎莎，那些都跟你一个种族的吧！
+    - speaker: 莎莎
+      listener: 罗峰
+      content: 认识，认识的。主人，她们是跟我来自同一个家乡，同一批被领主抓住，卖给奴隶贩子的。
+    timeline:
+    - event: 高升邀请罗峰参观奴隶市场
+      time: 当前章节
+    mysteries:
+    - id: 地球的命运
+      description: 如果地球被发现会怎样？
+- source: part_020_02.yaml
+  data:
+    source:
+      id: 第291章至第292章
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 购买了1016名奴隶，包括1000名行星级九阶和16名恒星级。
+      attributes:
+        实力: 行星级九阶精神念师以上
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的辅助光脑，提供了奴隶购买的信息讲解。
+    - id: 黑龙飞船
+      type: Item
+      name: 黑龙飞船
+      aliases: []
+      description: 飞船等级为A级，在虬龙星起飞前往银河系。
+      attributes:
+        等级: A级
+    - id: 奴隶商
+      type: Character
+      name: 奴隶商
+      aliases:
+      - 绿发中年人
+      description: 提供奴隶交易服务，有1016名行星级九阶和恒星级的奴隶。
+      attributes:
+        实力: 不详
+    - id: 蒙一至蒙六
+      type: Character
+      name: 黑蒙族恒星级七阶及五阶奴隶
+      aliases:
+      - 埃博拉*沙德尼恩尼塔斯娜
+      - 尾田剌*科德泥森图拉德
+      description: 罗峰购买的16名恒星级奴隶中最强者，分为六个黑蒙族。
+      attributes:
+        实力: 恒星级七阶及五阶
+        种族: 黑蒙族
+    - id: 虬龙星停泊港工作人员
+      type: Character
+      name: 绿皮肤壮汉
+      aliases: []
+      description: 帮助罗峰完成飞船起降手续。
+      attributes:
+        实力: 不详
+    locations:
+    - id: 虬龙星
+      type: Location
+      name: 虬龙星
+      aliases: []
+      description: 罗峰购买奴隶的地方，星球停泊港位于此。
+    organizations:
+    - id: 奴隶商行
+      type: Organization
+      name: 奴隶商行
+      aliases:
+      - 绿发中年人的公司
+      description: 提供奴隶交易服务。
+      attributes:
+        规模: 中等规模
+    species:
+    - id: 黑蒙族
+      type: Species
+      name: 黒蒙族
+      aliases: []
+      description: 身材魁梧，长相接近地球人。男性非常帅气，女性也漂亮。
+    dialogues:
+    - speaker1: 罗峰
+      speaker2: 奴隶商
+      text: 兀剌先生，那我就直接转账了。
+      context: 支付余款给奴隶商人。
+    - speaker1: 绿发中年人
+      speaker2: 罗峰
+      text: 罗先生，和你的合作真是愉快，这是我的虚拟宇宙网络编号。
+      context: 奴隶商提供联系方式，并表示将给予优惠。
+    timeline:
+    - event: 罗峰购买1016名奴隶
+      time: 文章开始时
+      description: 绿发中年人带领罗峰前往飞船下层大厅，完成奴隶的认主过程。
+    - event: 黑龙飞船起飞离开虬龙星
+      time: 文章结束前
+      description: 飞船进入暗宇宙，准备返回银河系。
+    mysteries:
+    - mystery1: 奴隶商的真实背景和实力
+      explanation: 没有具体说明奴隶商的具体背景信息。
+- source: part_020_03.yaml
+  data:
+    source:
+      id: 第295章定计
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有行星级九阶实力，地球三大巅峰强者之一。
+      attributes:
+        实力等级: 行星级九阶
+        年龄: 成年男性
+        身份: 地球人类进化的重要会议召集者
+    - id: 上将王将军
+      type: Character
+      name: 王将军
+      aliases: []
+      description: 华夏国专门与罗峰联系的上将军衔中年人。
+      attributes:
+        实力等级: 未知
+        年龄: 成年男性
+        身份: 与罗峰联络的官员
+    - id: 徐欣
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 罗峰的妻子。
+      attributes:
+        实力等级: 未知
+        年龄: 成年女性
+        身份: 罗峰妻子，徐家成员
+    - id: 母亲龚心兰
+      type: Character
+      name: 龚心兰
+      aliases: []
+      description: 罗峰的母亲。
+      attributes:
+        实力等级: 未知
+        年龄: 成年女性
+        身份: 家庭成员
+    - id: 弟弟罗华
+      type: Character
+      name: 罗华
+      aliases: []
+      description: 罗峰的弟弟。
+      attributes:
+        实力等级: 未知
+        年龄: 成年男性
+        身份: 家庭成员
+    - id: 弟媳甄楠
+      type: Character
+      name: 甄楠
+      aliases: []
+      description: 罗华的妻子。
+      attributes:
+        实力等级: 未知
+        年龄: 成年女性
+        身份: 家庭成员
+    locations:
+    - id: 扬州城西湖别院
+      type: Location
+      name: 西湖别院
+      aliases: []
+      description: 占地超过一公里的豪奢小区。
+      attributes:
+        地点类型: 小区
+    organizations:
+    - id: 华夏国最高决策层
+      type: Organization
+      name: 华夏国最高决策层
+      aliases: []
+      description: 华夏国的高层管理机构。
+    items:
+    - id: 城堡
+      type: Item
+      name: 精灵城堡
+      aliases: []
+      description: 被植物藤蔓覆盖，高近六十米。
+      attributes:
+        特点: 植物藤蔓覆盖, 高度近60米
+    abilities:
+    - id: 行星级九阶力量
+      type: Ability
+      name: 行星级九阶力量
+      aliases: []
+      description: 强大的物理能力。
+      attributes:
+        属性类型: 身体素质
+    dialogues:
+    - content: 你好，罗峰先生。
+      speaker: 王将军
+      listener: 罗峰
+      context: 确认电话联络
+      timeline: 打电话前
+    - content: 王将军，我希望你们能在扬州城内提供给我长宽超过一公里的土地。
+      speaker: 罗峰
+      listener: 王将军
+      context: 请求土地
+      timeline: 打电话时
+    - content: 没问题，半个小时内给你答复。
+      speaker: 王将军
+      listener: 罗峰
+      context: 同意请求
+      timeline: 打电话时
+    - content: 谢谢，并且三天后的华夏时间上午九点，我会召集全球各国、各个基地市高层抵达扬州，召开一次关系到整个地球人类进化的重要会议。
+      speaker: 罗峰
+      listener: 王将军
+      context: 召开重要会议的通知
+      timeline: 打电话时
+    - content: 爸爸,这四个字叫西湖别院，对不对？
+      speaker: 小海
+      listener: 罗峰
+      context: 指出小区名字
+      timeline: 到达西湖别院后
+    timeline:
+    - event: 王将军接到罗峰电话并同意提供土地
+      time: 不到半个小时前
+    mysteries:
+    - content: 这命令,来自于华夏国最高决策层。
+      context: 西湖别院住户被紧急疏散的原因
+    relationships:
+    - type: 家庭关系
+      from: 罗峰
+      to: 徐欣
+      description: 夫妻关系
+    - type: 家庭关系
+      from: 罗峰
+      to: 龚心兰
+      description: 母子关系
+    - type: 家庭关系
+      from: 罗华
+      to: 罗峰
+      description: 兄弟关系
+- source: part_020_04.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 洪
+      type: Character
+      name: 洪
+      aliases: []
+      description: 大战兽皇，使用摩云藤。
+      attributes:
+        实力: 行星级武者
+    - id: 雷神
+      type: Character
+      name: 雷神
+      aliases: []
+      description: 流银护卫之一，在地球上活跃对抗怪兽。
+    - id: 船长
+      type: Character
+      name: 船长
+      aliases: []
+      description: 来自诺岚山家族的船长，对金角巨兽尸体极为关注。
+      attributes:
+        家族: 诺岚山家族
+    - id: 诺岚山家族
+      type: Organization
+      name: 诺岚山家族
+      aliases: []
+      description: 船长所属的强大家族。
+    - id: 吞噬兽
+      type: Species
+      name: 吞噬兽
+      aliases: []
+      description: 地球上出现的致命怪兽，被人类八英雄以牺牲为代价消灭。
+      attributes:
+        实力: 恒星级
+    - id: 金角巨兽
+      type: Species
+      name: 金角巨兽
+      aliases:
+      - 星空巨兽
+      description: 稀有且强大的星空巨兽，幼年期价值极高。
+    - id: 阿图卡
+      type: Character
+      name: 阿图卡
+      aliases: []
+      description: 宇宙冒险飞船的智能系统。
+      attributes:
+        职位: 飞船智能
+    relationships: null
+    events:
+    - id: 地球上的八英雄牺牲击杀吞噬兽
+      type: Event
+      name: 地球上的八英雄牺牲击杀吞噬兽
+      description: 八名地球人以生命为代价，使用念力秘法消灭了吞食怪兽。
+    dialogues:
+    - speaker: 船长
+      listener: 阿图卡
+      content: 那怪兽是生是死？
+    - speaker: 阿图卡
+      listener: 船长
+      content: 吞噬兽被杀死后，人类派遣行星级武者进入海底，但尸体未能获取。至今仍是谜团。
+    timeline:
+    - 时间点: 华夏时间中午11点42分
+      描述: 宇宙冒险飞船收集地球资料完毕。
+    mysteries:
+    - id: 吞噬兽的尸体去向不明
+      type: Mystery
+      name: 吞噬兽的尸体去向不明
+      description: 吞噬兽被杀后，其尸体至今下落不明。
+- source: part_020_05.yaml
+  data:
+    source:
+      id: 第301章目标，地球宝藏
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 地球上的三大巅峰强者之一，拥有金角巨兽的身体。
+      attributes:
+        实力: 行星级以上
+        性格: 冷静果断
+    - id: 洪
+      type: Character
+      name: 洪
+      aliases: []
+      description: 地球上的三大巅峰强者之一，擅长精神力量运用。
+      attributes:
+        实力: 行星级以上
+        性格: 冷静理智
+    - id: 雷神
+      type: Character
+      name: 雷神
+      aliases: []
+      description: 地球上的三大巅峰强者之一，拥有强大的雷电能力。
+      attributes:
+        实力: 行星级以上
+        性格: 直率果断
+    - id: 拉里女士
+      type: Character
+      name: 拉里女士
+      aliases: []
+      description: 联系地球三大巅峰强者的人员之一。
+      attributes:
+        身份: 国家联系人
+    - id: 王将军
+      type: Character
+      name: 王将军
+      aliases: []
+      description: 和罗峰保持联系的国家代表。
+      attributes:
+        身份: 军事指挥官
+    - id: 巴巴塔
+      type: Item
+      name: 巴巴塔
+      aliases:
+      - 智能光脑
+      description: 罗峰的私人助手，可以帮助侵入飞船系统。
+      attributes:
+        功能: 智能控制, 系统入侵
+    - id: 蒙一和蒙二
+      type: Character
+      name: 蒙一和蒙二
+      aliases: []
+      description: 罗峰的护卫，负责审问俘虏。
+      attributes:
+        实力: 行星级以上
+        性格: 忠诚
+    - id: 战舰
+      type: Item
+      name: 战舰
+      aliases:
+      - 宇宙飞船
+      description: 来自诺岚山家族的大型战舰，携带大量恒星级和行星级战士。
+      attributes:
+        装备: 完全控制, 武器装备
+    - id: 诺岚卫
+      type: Character
+      name: 诺岚卫
+      aliases: []
+      description: 诺岚山家族最精英的战士，实力均为恒星级九阶。
+      attributes:
+        实力: 恒星级九阶
+        性格: 忠诚
+    - id: 卡罗帝国
+      type: Organization
+      name: 卡罗帝国
+      aliases: []
+      description: 宇宙中的一个国家，诺岚山家族所属。
+      attributes:
+        种族: 不详
+        文化: 不详
+    - id: 诺岚山家族
+      type: Organization
+      name: 诺岚山家族
+      aliases:
+      - 卡罗帝国
+      description: 卡罗帝国内的一个大家族，由宇宙级强者诺岚山建立。
+      attributes:
+        种族: 不详
+        文化: 不详
+    relationships:
+    - 主人与助手: 罗峰与巴巴塔
+    - 上下级关系: 洪、雷神与王将军
+    - 朋友关系: 罗峰、洪和雷神
+    - 敌对关系: 地球人类与诺岚山家族
+    events:
+    - 名称: 宇宙冒险者小队入侵地球
+      时间线: 近千名行星级强者突然出现在罗峰城堡附近，引发紧张局势。
+      参与者: 罗峰、洪、雷神和王将军
+      描述: 地球上的三大巅峰强者的反应以及后续处理措施。
+    - 名称: 诺岚山家族征服地球计划启动
+      时间线: 发现冒险者小队前锋后，确认诺岚山家族舰队即将抵达。
+      参与者: 罗峰、洪和雷神
+      描述: 收到巴巴塔从飞船智能系统中获取的信息，分析敌方实力。
+    - 名称: 千名恒星级强者登陆地球
+      时间线: 航天器起飞后不久，确认诺岚山家族舰队规模及战斗力。
+      参与者: 罗峰、洪和雷神
+      描述: 推测敌对势力的详细资料并评估潜在威胁。
+    dialogues:
+    - 对话人: 王将军, 罗峰
+      内容: 罗峰先生，刚刚收到情报……
+      场景: 航天器起飞后，地球人类开始担忧外来者入侵。
+    - 对话人: 洪、雷神, 国家联系人
+      内容: 没事。已经没事了。
+      场景: 确认安全后的安抚电话。
+    timeline:
+    - 时间点1: 发现冒险者小队前锋
+    - 时间点2: 收到王将军的电话询问情况
+    - 时间点3: 接受巴巴塔从飞船智能系统中获取的信息
+    - 时间点4: 确认诺岚山家族舰队规模及战斗力
+    mysteries:
+    - 王将军和国家联系人如何得知罗峰城堡突然出现强者的消息？
+    - 诺岚山家族为何选择在地球上发动征服计划？
+    - 地球人类是否有足够的力量应对即将到来的威胁？

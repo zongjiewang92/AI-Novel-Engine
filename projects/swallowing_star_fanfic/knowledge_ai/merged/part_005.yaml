@@ -1,0 +1,393 @@
+part: part_005
+generated_time: '2026-07-23T15:46:33.747197'
+count: 5
+items:
+- source: part_005_01.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: character
+      name: 罗峰
+      aliases: []
+      description: 武者，与陈谷等人一起参加悼念活动。
+      attributes:
+        实力: 战士级或以上
+        性格: 积极向上
+    - id: 陈谷
+      type: character
+      name: 陈谷
+      aliases: []
+      description: 火锤小队成员，与罗峰等人一起参加悼念活动。
+      attributes:
+        实力: 战士级或以上
+        性格: 幽默
+    - id: 高风
+      type: character
+      name: 高风
+      aliases: []
+      description: 火锤小队成员，与罗峰等人一起参加悼念活动。
+      attributes:
+        实力: 战士级或以上
+        性格: 谨慎
+    - id: 朱喜
+      type: character
+      name: 朱喜
+      aliases: []
+      description: 华夏国最顶层大人物，疑似超越战神的存在。
+      attributes:
+        实力: 超越战神级
+        性格: 不详
+    - id: 陆纲
+      type: character
+      name: 陆纲
+      aliases: []
+      description: 已故战神强者，英雄堂殡仪馆悼念对象。
+      attributes:
+        实力: 战神级
+        性格: 正直勇敢
+    - id: 徐家族长
+      type: character
+      name: 徐家族长
+      aliases: []
+      description: HR联盟国内十二家族之一，江南徐家的族长。
+      attributes:
+        实力: 不详
+        性格: 高位者气质
+    - id: 南基地市市长
+      type: character
+      name: 江南基地市市长
+      aliases: []
+      description: 政府高官，前来悼念陆纲。
+      attributes:
+        实力: 不详
+        性格: 权威
+    organizations:
+    - id: HR联盟国内十二家族
+      type: organization
+      name: HR联盟国内十二家族
+      members:
+      - 徐家族长
+    locations:
+    - id: 英雄堂殡仪馆
+      type: location
+      name: 英雄堂殡仪馆
+      description: 悼念陆纲的场所，吸引了大量武者和高层人物。
+    abilities:
+    - id: 超越战神级存在
+      type: ability
+      name: 超越战神级存在
+      attributes:
+        实力: 极度强大
+    items: null
+    events:
+    - id: 悼念陆纲活动
+      type: event
+      name: 悼念陆纲活动
+      description: 武者和高层人物参加的悼念仪式。
+      timeline:
+        start_date: 当天
+        end_date: 七天后
+    dialogues:
+    - id: 关于朱喜身份的讨论
+      type: dialogue
+      participants:
+      - 高风
+      - 不明人士
+      content: '"对面有人说刚才那位存在，名叫‘朱喜’，朱喜这名字我听过，当年是位名气极大的战神级强者，不过后来就没听说过他的消息，很少露面了。我在网络上听人说，这朱喜已经超越了战神级，成为最巅峰的存在之一了。”
+
+        '
+    timeline: null
+    mysteries:
+    - id: 朱喜身份
+      type: mystery
+      description: 朱喜的真实身份及其目前的实力状况。
+- source: part_005_02.yaml
+  data:
+    source:
+      id: 罗峰杀怪兽篇
+    entities:
+    - id: luofeng
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有精神念力，擅长使用血影战刀的战士。
+      attributes:
+        实力: 初级以上
+        能力: 飞刀、刀法（霹雳）、身法
+    - id: gaofeng
+      type: Character
+      name: 高风
+      aliases: []
+      description: 火锤小队队长，精神念师。
+      attributes:
+        实力: 中级战将级
+        能力: 解剖怪兽尸体获取重要材料
+    - id: chengu
+      type: Character
+      name: 陈谷
+      aliases: []
+      description: 火锤小队成员，负责警戒。
+    - id: weitie
+      type: Character
+      name: 魏铁
+      aliases: []
+      description: 火锤小队成员，负责警戒。
+    - id: weiqing
+      type: Character
+      name: 魏青
+      aliases: []
+      description: 火锤小队成员，负责警戒。
+    relationships:
+    - 主要队员关系: luofeng 和 gaofeng, chengu, weitie, weiqing 彼此之间有合作关系。
+    - 身份关系: luofeng 是火锤小队的核心力量。 gaofeng 是火锤小队的队长。
+    events:
+    - id: 猎杀初级兽将级怪兽
+      type: Event
+      description: 罗峰等人在003号城市内猎杀大量的初级兽将级怪兽，获取重要材料出售。
+      timeline:
+        开始时间: 十几天前
+        结束时间: 暂未结束
+    dialogues:
+    - id: 资源分配讨论
+      speaker1: gaofeng
+      dialogue: 队长，我们这段时间杀的比较狠。不过不用急，怪兽是大量流窜的……据我估计，十天内，这小区中的怪兽数量又会多起来！我们要做的只是安静守在这，毕竟我们对这的环境最熟悉。
+    - id: 功劳分享
+      speaker1: luofeng
+      dialogue: 赚钱多？不多不多。一名精神念师，一年赚几十亿，是很正常的。我们敢在这混，主要也是靠罗峰。
+    timeline:
+    - 开始时间: 十几天前
+      结束时间: 暂未结束
+    mysteries:
+    - id: 怪兽数量减少的原因
+      description: 罗峰等人发现周围一带初级兽将级怪兽数量明显少了不少，推测可能是因为他们这段时间杀的比较狠。
+- source: part_005_03.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有精神念力，是火锤小队成员之一。
+      attributes:
+      - 实力强于普通人类
+      - 能够飞行
+      - 善于追踪和隐蔽行动
+    - id: 张科
+      type: Character
+      name: 张科
+      aliases: []
+      description: 火锤小队成员，与罗峰关系亲密。
+      attributes:
+      - 已牺牲
+      - 曾是明月小区出身的队员
+    - id: 高风
+      type: Character
+      name: 高风
+      aliases: []
+      description: 罗峰所属火锤小队队长，有组织能力。
+      attributes:
+      - 战斗经验丰富
+      - 能够分析局势并做出决策
+    - id: 陈谷
+      type: Character
+      name: 陈谷
+      aliases: []
+      description: 火锤小队成员，与罗峰关系密切。
+      attributes:
+      - 对张科感情深厚
+      - 坚持要为张科报仇的决心
+    - id: 张泽虎
+      type: Character
+      name: 张泽虎
+      aliases: []
+      description: 虎牙小队队长，寻找火锤小队藏身之处。
+      attributes:
+      - 冷静决策能力较强
+      - 领导力强
+    - id: 李晓
+      type: Character
+      name: 李晓
+      aliases: []
+      description: 虎牙小队枪手，帮助队长寻找目标。
+      attributes:
+      - 精通使用望远镜观察
+      - 对任务执行认真细致
+    organizations:
+    - id: 火锤小队
+      type: Organization
+      name: 火锤小队
+      aliases: []
+      description: 拥有强大的战斗能力，成员包括罗峰、张科等。
+      attributes:
+      - 高效的团队合作
+      - 善于隐匿和追踪
+    - id: 虎牙小队
+      type: Organization
+      name: 虎牙小队
+      aliases: []
+      description: 与火锤小队有仇，成员包括张泽虎、李晓等。
+      attributes:
+      - 寻找报复的机会
+      - 力图消灭对方
+    locations:
+    - id: 明月小区
+      type: Location
+      name: 明月小区
+      aliases: []
+      description: 罗峰和陈谷的出身地。
+    - id: 万科梦想城小区
+      type: Location
+      name: 万科梦想城小区
+      aliases: []
+      description: 当时火锤小队蹲守的位置。
+    - id: 锦江连锁酒店
+      type: Location
+      name: 锦江连锁酒店
+      aliases: []
+      description: 虎牙小队藏身之处。
+    events:
+    - id: 罗峰为张科报仇的决心行动
+      type: Event
+      description: 罗峰决定独自一人追踪虎牙小队，准备进行报复。
+    dialogues:
+    - speaker: 高风
+      listener: 火锤小队成员
+      content: 罗峰说的有道理，你去只是累赘！
+    - speaker: 张泽虎
+      listener: 虎牙小队队员
+      content: 你们俩给我看仔细了！一定要找到火锤小队的藏身之所！
+    timeline:
+    - event: 罗峰等人追踪虎牙小队成员
+      date: 当天
+    mysteries:
+    - description: 虎牙小队的真实位置和行动计划。
+- source: part_005_04.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: LuoFeng
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 武者，独自在荒野区追杀其他人。拥有耐心毅力和精神念力。
+      attributes:
+      - 实力强
+      - 耐心毅力好
+    - id: LuoHua
+      type: Character
+      name: 罗华
+      aliases: []
+      description: 罗峰的弟弟，擅长炒股赚钱。拥有大量资金进行股票交易。
+      attributes:
+      - 善于炒股
+      - 资金充裕
+    - id: Thunder Squad
+      type: Organization
+      name: 雷霆小队
+      aliases: []
+      description: 由潘亚领导的队伍，怀疑罗峰并决定换地方狩猎。
+      attributes:
+      - 猎杀目标是混血儿少爷
+      - 拥有成员七人
+    relationships:
+    - type: 兄弟关系
+      from: LuoFeng
+      to: LuoHua
+      description: 罗峰和罗华的兄弟关系，互相支持帮助。
+    dialogues:
+    - speaker: LuoHua
+      content: 哥，最近我炒股又赚了一笔，大赚一笔啊，太爽了。
+    - speaker: LuoFeng
+      content: 这么厉害，比你哥强多了。你现在资金不是有一亿多了？
+    timeline:
+    - event: 罗峰用望远镜观察雷霆小队的去向。
+      time: 第一天至第三天
+    mysteries:
+    - description: 不知道罗峰布置下的陷阱是否能起到作用，只能听天由命。
+- source: part_005_05.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 武者，能够使用精神念力控制事物。
+      attributes:
+        实力: 高级武者
+        能力: 使用飞刀、精神念力
+    - id: 李威
+      type: Character
+      name: 混血儿青年李威
+      aliases: []
+      description: 武者，拥有战神背景。
+      attributes:
+        实力: 高级武者
+        背景: 父母是战神
+    - id: 王姓男子
+      type: Character
+      name: 王姓男子
+      aliases: []
+      description: 战神，拥有极高的实力。
+      attributes:
+        实力: 高级战神
+        能力: 解剖怪兽尸体、控制庞大兽群
+    - id: 李阚
+      type: Character
+      name: 李阚
+      aliases:
+      - 大力熊
+      description: 战神，李威的叔叔。
+      attributes:
+        实力: 高级战神
+        能力: 协助王姓男子猎杀高等领主铁甲龙
+    - id: 老刘
+      type: Character
+      name: 刘姓老者
+      aliases: []
+      description: 武者，跟随李威。
+      attributes:
+        实力: 高级武者
+        关系: 李威的同伴
+    - id: 白人壮汉
+      type: Character
+      name: 白人壮汉
+      aliases: []
+      description: 武者，跟随李威。
+      attributes:
+        实力: 高级武者
+        关系: 李威的同伴
+    relationships:
+    - source_id: 罗峰
+      target_id: 李威
+      type: 观察
+      description: 罗峰观察到李威一行人的行动，并对其猎杀高等领主铁甲龙的行为感到好奇。
+    - source_id: 李阚
+      target_id: 王姓男子
+      type: 合作
+      description: 李阚和王姓男子联手猎杀高等领主铁甲龙。
+    events:
+    - id: 高等领主铁甲龙产卵事件
+      type: Event
+      description: 罗峰得知高等领主铁甲龙刚刚产卵，实力减弱不少。
+      timeline: 白天
+    dialogues:
+    - speaker_id: 李威
+      listener_ids: []
+      content: 好了，赶紧走吧。那头铁甲龙距离这也就十里地左右，一旦我们动手，它控制的那庞大的兽群很可能发生动荡……周围一带都会受到波及，所以你们逃出这上海市，逃到那高速公路上去最是安全。
+    - speaker_id: 王姓男子
+      listener_ids:
+      - 李威
+      content: 哈哈，那头铁甲龙刚刚产卵，实力减弱不少。正是最佳良机！
+    timeline:
+    - event_id: 高等领主铁甲龙产卵事件
+      time: 白天
+    mysteries:
+    - id: 王姓男子和李阚身份之谜
+      description: 王姓男子和李阚是否是传说中的影刀二兄弟的'影刀'王通和'大力熊'李阚。

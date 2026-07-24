@@ -1,0 +1,453 @@
+part: part_088
+generated_time: '2026-07-23T15:46:34.802535'
+count: 5
+items:
+- source: part_088_01.yaml
+  data:
+    source:
+      id: 文本内容
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '拥有断东河一脉传承的宇宙之主，具有强大的战斗能力和战略头脑。
+
+        '
+      attributes:
+        实力: 宇宙最强者
+        身份: 自由联盟始化岛主、人类族群领袖
+    - id: 星空始祖
+      type: Character
+      name: 星空始祖
+      aliases: []
+      description: '星空巨兽联盟的领导者，具有极高的智慧和影响力。
+
+        '
+      attributes:
+        实力: 宇宙最强者
+        身份: 星空巨兽联盟盟主
+    - id: 黑暗之主
+      type: Character
+      name: 黑暗之主
+      aliases: []
+      description: '自由联盟的重要成员，宇宙之主级别。
+
+        '
+      attributes:
+        实力: 宇宙之主
+        身份: 自由联盟重要人物
+    - id: 始祖山
+      type: Location
+      name: 始祖山
+      aliases: []
+      description: '星空神山顶峰，星空巨兽讨论重大事务的地方。
+
+        '
+      attributes:
+        地点类型: 山峰
+    - id: 千宝河
+      type: Location
+      name: 千宝河
+      aliases: []
+      description: '原始秘境中的一条河流，罗峰居住宫殿的附近。
+
+        '
+    organizations:
+    - id: 自由联盟
+      type: Organization
+      name: 自由联盟
+      aliases: []
+      description: '人类族群中的一个强大势力，具有重要的战略地位。
+
+        '
+      attributes:
+        成员构成: 宇宙之主
+    - id: 星空巨兽联盟
+      type: Organization
+      name: 星空巨兽联盟
+      aliases: []
+      description: '多个星空巨兽组成的联盟，有强大的战斗力和影响力。
+
+        '
+    species:
+    - id: 人类
+      type: Species
+      name: 人类
+      aliases: []
+      description: '拥有智慧和文明的物种。
+
+        '
+    - id: 星空巨兽
+      type: Species
+      name: 星空巨兽
+      aliases: []
+      description: '生活在星空中的强大生物。
+
+        '
+    dialogues:
+    - speaker: 罗峰
+      dialogue: 人类族群，给自由联盟、祖神教、星空巨兽联盟、独行最强者们，都一一答复了。
+    - speaker: 星空始祖
+      dialogue: 人类！好大的野心！
+    - speaker: 黑暗之主
+      dialogue: 对，所以情况应该不会太糟糕，估计还是会有势力投靠我们的。
+    events:
+    - id: 自由联盟内部争议
+      type: Event
+      name: 内部派系之争
+      description: '关于如何处理与外部势力的关系，自由联盟内部存在不同意见。
+
+        '
+    - id: 星空始祖的决策过程
+      type: Event
+      name: 等待时机
+      description: '星空始祖决定等待合适的时机再采取行动。
+
+        '
+    timeline:
+    - 时间点: 当前事件发生之时
+    mysteries:
+    - id: 联盟成员的选择
+      type: Mystery
+      name: 势力选择谜团
+      description: '各大势力在面对人类族群的答复时，将如何做出最终决定。
+
+        '
+- source: part_088_02.yaml
+  data:
+    source:
+      id: chapter_1330
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有断东河一脉传承的宇宙之主，实力强大。
+      attributes:
+      - 实力: 宇宙之主
+      - 身份: 人类阵营成员
+    - id: 彭工之主
+      type: Character
+      name: 彭工之主
+      aliases: []
+      description: 人类宇宙之主，擅长策略制定。
+      attributes:
+      - 实力: 宇宙之主
+      - 身份: 人类阵营成员
+    - id: 黑暗之主
+      type: Character
+      name: 黑暗之主
+      aliases: []
+      description: 人类宇宙之主，身份未详细描述。
+      attributes:
+      - 实力: 宇宙之主
+      - 身份: 人类阵营成员
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 人类宇宙之主，主要负责传递紧急信息。
+      attributes:
+      - 实力: 宇宙之主
+      - 身份: 人类阵营成员
+    - id: 震妖祖
+      type: Character
+      name: 震妖祖
+      aliases: []
+      description: 联军势力的领袖之一。
+      attributes:
+      - 实力: 宇宙最强者
+      - 身份: 星空巨兽联盟成员
+    - id: 梦妖祖
+      type: Character
+      name: 梦妖祖
+      aliases: []
+      description: 联军势力的领袖之一。
+      attributes:
+      - 实力: 宇宙最强者
+      - 身份: 星空巨兽联盟成员
+    - id: 机械族父神
+      type: Character
+      name: 机械族父神
+      aliases: []
+      description: 机械族的领袖，参与联军作战。
+      attributes:
+      - 实力: 宇宙最强者
+      - 身份: 机械族领袖
+    - id: 星空始祖
+      type: Character
+      name: 星空始祖
+      aliases: []
+      description: 星空巨兽联盟的首领。
+      attributes:
+      - 实力: 宇宙最强者
+      - 身份: 星空巨兽联盟领袖
+    - id: 自由联盟
+      type: Organization
+      name: 自由联盟
+      aliases: []
+      description: 包括原始宇宙中的神秘力量和文明。
+      attributes:
+      - 成员: 坐山客、始化岛主等
+    relationships: null
+    events:
+    - id: 联军进攻计划
+      type: Event
+      description: 联军阵营决定快速行动，攻打人类的核心之地——原始秘境。
+    dialogues:
+    - speaker: 混沌城主
+      dialogue: 立即集合，所有宇宙之主，立即集合，准备迎战！！！
+    timeline:
+    - 时间点: 立即
+      描述: 联军阵营同时进行神国传送，聚集在血牙星周围星空区域。
+    mysteries: null
+- source: part_088_03.yaml
+  data:
+    source:
+      id: 第1332章-第1333章
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '新人类族群的领袖，实力强大。
+
+        '
+      attributes:
+      - 实力: 非常强
+      - 性格: 冷静机智
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: '虚拟宇宙的主宰之一，实力强大。
+
+        '
+      attributes:
+      - 实力: 非常强
+    - id: 彭工之主
+      type: Character
+      name: 彭工之主
+      aliases: []
+      description: '自由联盟的一员，对祖神教态度不满。
+
+        '
+      attributes:
+      - 性格: 不满和谨慎
+    - id: 光行之主
+      type: Character
+      name: 光行之主
+      aliases: []
+      description: '自由联盟的新盟主，代表自由联盟的决策者之一。
+
+        '
+      attributes:
+      - 实力: 强大
+      - 性格: 冷静
+    - id: 始化岛主
+      type: Character
+      name: 始化岛主
+      aliases: []
+      description: '自由联盟的前任盟主，对自由联盟内决策感到不满。
+
+        '
+      attributes:
+      - 性格: 愤怒和困惑
+    - id: 联军阵营
+      type: Organization
+      name: 联军阵营
+      aliases: []
+      description: '与人类族群对抗的组织。
+
+        '
+    - id: 自由联盟
+      type: Organization
+      name: 自由联盟
+      aliases: []
+      description: '新成立的宇宙之主组成的联盟，意图寻找新的盟友。
+
+        '
+      attributes:
+      - 成员数: 约400名
+    - id: 祖神教
+      type: Organization
+      name: 祖神教
+      aliases: []
+      description: '新加入人类阵营的神秘组织。
+
+        '
+    relationships: null
+    events:
+    - id: 自由联盟观看传承讯息
+      type: Event
+      description: 自由联盟的所有宇宙之主都在仔细研究人类族群提供的传承讯息。
+    - id: 光行之主代表决策
+      type: Event
+      description: 光行之主被自由联盟的大部分成员一致推举为新的盟主和决策者，代表所有宇宙之主向人类提出进一步的要求。
+    dialogues:
+    - speaker1: 罗峰
+      dialogue: 这倒算不得错。
+      context: 对祖神教态度不满
+    - speaker1: 彭工之主
+      dialogue: 拒绝？哼，也不看看进来的都是谁，九幽之主、落蚕之主、烽天之主……对，这一个个是厉害。可是，这些都是分身！来到星辰塔的，都是分身。
+      context: 对自由联盟不满
+    - speaker1: 光行之主
+      dialogue: 现在，我自由联盟所有宇宙之主全部看完传承讯息，诸位，都说说看……这传承讯息，感觉如何？
+      context: 向其他成员询问对传承讯息的看法
+    timeline: null
+    mysteries:
+    - id: 自由联盟的真实意图
+      type: Mystery
+      description: 自由联盟的真实想法和下一步行动是什么？
+- source: part_088_04.yaml
+  data:
+    source:
+      id: 第1336章血战，罗峰的疯狂（下）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 银河领主，六阶顶尖战力拥有者。
+      attributes:
+        实力: 六阶顶尖
+        能力: 分身天赋、金角巨兽分身
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 异族宇宙之主，拥有强大战力。
+      attributes:
+        实力: 六阶顶尖
+        能力: 高强战斗技巧
+    - id: 北疆盟主
+      type: Character
+      name: 北疆盟主
+      aliases: []
+      description: 联军一方的领导者，指挥联军攻击。
+      attributes:
+        实力: 六阶顶尖
+        能力: 精湛战略思维
+    - id: 梦妖祖
+      type: Character
+      name: 梦妖祖
+      aliases: []
+      description: 妖族的高级存在，指挥一支分队。
+      attributes:
+        实力: 六阶顶尖
+        能力: 控制梦魇能力
+    - id: 震妖祖
+      type: Character
+      name: 震妖祖
+      aliases: []
+      description: 妖族的高级存在，指挥一支分队。
+      attributes:
+        实力: 六阶顶尖
+        能力: 强大震波能力
+    - id: 机械族父神
+      type: Character
+      name: 机械族父神
+      aliases: []
+      description: 机械种族的高级存在，拥有至强至宝。
+      attributes:
+        实力: 六阶顶尖
+        能力: 至强至宝能力
+    relationships:
+    - id: 罗峰与混沌城主
+      type: 合作关系
+      name: null
+      description: 双方联合攻击联军一方。
+    - id: 北疆盟主与梦妖祖等
+      type: 领导关系
+      name: null
+      description: 北疆盟主指挥梦妖祖等人发起灵魂攻击。
+    events:
+    - id: 罗峰的神力海洋抵挡联军攻击
+      type: Event
+      name: 神力海洋防御战
+      description: 罗峰利用庞大的神体吸引并阻挡联军阵营的集体灵魂攻击，人类阵营则集中力量对付其中一座宫殿至宝。
+    - id: 联合灵魂攻击
+      type: Event
+      name: 集体灵魂攻击
+      description: 北疆盟主指挥800多名宇宙之主和10多名最强者对罗峰的神力海洋发动集体灵魂攻击，试图击杀罗峰。
+    dialogues:
+    - speaker: 混沌城主
+      listener: 异族宇宙之主们
+      content: 所有宇宙之主，开始联合集体攻击。
+    - speaker: 北疆盟主
+      listener: 联军阵营
+      content: 所有宇宙之主，所有最强者，全部施展灵魂攻击，全部！！！对着周围的神力海洋，集体施展灵魂攻击！
+    timeline:
+    - id: 罗峰号召人类阵营开始进攻
+      time: null
+      description: 罗峰指示人类阵营集中力量攻打最近的一座宫殿至宝。
+    - id: 北疆盟主下令联军发动联合灵魂攻击
+      time: null
+      description: 北疆盟主命令联军对罗峰的神力海洋进行大规模的灵魂攻击，企图一举击杀他。
+    mysteries:
+    - id: 罗峰是否能够抵挡住800多名宇宙之主和10多位最强者的灵魂攻击
+      question: 如此庞大的联合灵魂攻击下，罗峰会否陨落？
+- source: part_088_05.yaml
+  data:
+    source:
+      id: 第1339章垂死挣扎
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 宇宙之主，使用无尽幽海等手段帮助人类阵营俘获敌方宇宙之主。
+      attributes:
+        实力: 宇宙之主
+    - id: 黑暗之主
+      type: Character
+      name: 黑暗之主
+      aliases: []
+      description: 联合罗峰共同对抗敌人，利用多种手段俘获敌方宇宙之主。
+      attributes:
+        实力: 宇宙最强者
+    - id: 古神眼
+      type: Item
+      name: 古神眼
+      aliases: []
+      description: 意志冲击宝物，能削弱敌人数量优势。
+    - id: 黑狱塔
+      type: Item
+      name: 黑狱塔
+      aliases: []
+      description: 用于捕捉敌方宇宙之主的特殊工具。
+    - id: 神力海水
+      type: Item
+      name: 神力海水
+      aliases: []
+      description: 对敌人进行限制，使得他们难以逃脱。
+    - id: 联军阵营
+      type: Organization
+      name: 联军阵营
+      aliases: []
+      description: 包括机械族父神、震妖祖等12位宇宙最强者及其率领的众多宇宙之主。
+      attributes:
+        实力: 强大
+    - id: 自由联盟
+      type: Organization
+      name: 自由联盟
+      aliases: []
+      description: 被联军阵营和人类共同争夺的力量，包括始化岛主在内的72名被俘宇宙之主。
+      attributes:
+        实力: 强大
+    relationships: null
+    events:
+    - id: 捕获敌方分队
+      type: Event
+      name: 捕获敌方分队
+      description: 罗峰和黑暗之主利用多种手段成功捕获联军阵营的一个分队。
+      timeline:
+        时间: 文本描述中
+    dialogues: null
+    timeline: null
+    mysteries:
+    - id: 联盟成员的去向
+      type: Mystery
+      name: 联盟成员的去向
+      description: 自由联盟其他宇宙之主会如何应对人类和联军阵营的争斗，是否会投靠一方。

@@ -1,0 +1,336 @@
+part: part_053
+generated_time: '2026-07-23T15:46:34.382748'
+count: 5
+items:
+- source: part_053_01.yaml
+  data:
+    source:
+      id: 第786章妖族的特殊奖励
+    entities:
+    - id: 夫威撒
+      type: Character
+      name: 夫威撒
+      aliases: []
+      description: 虬嗜族不朽神灵，曾在域外战场上被人类小队击败后设计了一枚带有暗手的空间戒指以备复仇。
+      attributes:
+        实力: 不朽军主（普通不朽）
+        性格: 狡猾
+    - id: 雷克亚
+      type: Character
+      name: 雷克亚
+      aliases: []
+      description: 虬嗜族界主，曾被夫威撒邀请共同对付人类小队。
+      attributes:
+        实力: 界主
+        性格: 有点迟疑但谨慎
+    - id: 蒙维纳
+      type: Character
+      name: 蒙维纳
+      aliases: []
+      description: ’兹潜万蛇‘王族成员，妖族殿下。
+      attributes:
+        实力: 普通不朽高等（天赋爆发接近封侯级）
+        性格: 未详述
+    organizations:
+    - id: 虬嗜族
+      type: Organization
+      name: 蟒嗜族
+      description: 不明，但为妖族的一部分
+      attributes: null
+    events:
+    - id: 布置暗手
+      type: Event
+      description: 夫威撒在被人类小队击败后布置了一枚带有暗手的空间戒指。
+      timeline: 现阶段
+    dialogues:
+    - speaker: 雷克亚
+      listener: 夫威撒
+      content: 你真狡猾。
+    - speaker: 夫威撒
+      listener: 雷克亚
+      content: 杀我兄弟手下，我当然得报复。
+    - speaker: 雷克亚
+      listener: 夫威撒
+      content: 人类队伍实力怎么样？
+    - speaker: 夫威撒
+      listener: 雷克亚
+      content: 人类队伍有一名不朽神灵，九名界主。其中的两名界主拥有超强战斗力，完全能媲美不朽……
+    - speaker: 夫威撒
+      listener: 雷克亚
+      content: 蒙维纳殿下正常形态虽然仅仅普通不朽高等，可以他天赋爆发下来，战力接近封侯级。有他在，绝对有十足把握。
+    mysteries:
+    - id: 蒙维纳是否出手
+      type: Mystery
+      description: 夫威撒能否成功邀请蒙维纳殿下与他们一同出马对付人类小队。
+- source: part_053_02.yaml
+  data:
+    source:
+      id: 第789章速战速决（第二更）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 黑色战铠的人类界主，拥有不朽食星草。
+      attributes:
+        军功目标: 10亿军功
+    - id: 蒙维纳
+      type: Character
+      name: 蒙维纳
+      aliases: 兹潜万蛇
+      description: 妖族领头的不朽神灵，实力强大。
+      attributes:
+        实力等级: 不朽神灵
+        特殊能力: 强烈的空间法则掌控
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的智能分身，提供信息和军功统计。
+      attributes:
+        功能: 军功计算、战斗辅助
+    relationships:
+    - 主体: 罗峰
+      关系类型: 拥有
+      客体: 不朽食星草
+      描述: 使用不朽食星草杀死异族不朽神灵，获得军功。
+    events:
+    - 名称: 食星草攻击
+      时间: 当前时间
+      地点: 碎星带
+      参与者: 罗峰, 蒙维纳等五名不朽神灵
+      描述: 不朽食星草围攻异族不朽神灵，杀死四名。
+    - 名称: 呼救信息传播
+      时间: 当前时间
+      地点: 碎星带
+      参与者: 蒙维纳等妖族及其盟友
+      描述: 遇难的异族通过传讯系统呼救，告知周围盟友有不朽食星草。
+    dialogues:
+    - 主体: 巴巴塔
+      客体: 罗峰
+      内容: 罗峰，四名异族不朽神灵身死，你的军功增加了4亿军功。
+    - 主体: 蒙维纳
+      客体: 不明对象
+      内容: 呼救，呼救，遇到拥有不朽百藤食星草的人类界主！
+    timeline:
+    - 时间点: 当前时间之前两天
+      描述: 罗峰带领小队从老巢出发前往碎星带。
+    mysteries:
+    - 内容: 妖族及其盟友是否会在100亿公里范围内赶来支援蒙维纳。
+- source: part_053_03.yaml
+  data:
+    source:
+      id: 炎祭大陆
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 地球人本尊，拥有不朽神体初等封侯的水准。
+      attributes:
+        实力: 不朽神灵初等封侯
+        目标: 成为焱祭大陆霸主
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的智能辅助设备。
+      attributes:
+        职责: 探测仪器操作和警报系统
+    - id: 赤黯族
+      type: Species
+      name: 赤黯族
+      aliases: []
+      description: 在焱祭大陆09号陆地上空飞行时观察到的异族，外表可爱但实际非常可怕。
+    - id: 炎祭大陆
+      type: Location
+      name: 炎祭大陆
+      aliases:
+      - 炎祭大陆主大陆
+      - 炎祭大陆01号陆地
+      - 炎祭大陆09号陆地碎片
+      description: 分为主大陆和环绕其周围的诸多陆地碎片，是不朽神灵战斗的重要战场。
+      attributes:
+        地理位置: 域外战场上
+    - id: E9级宇宙飞船
+      type: Item
+      name: E9级宇宙飞船
+      aliases: []
+      description: 罗峰前往炎祭大陆的交通工具，拥有先进的探测仪器。
+    - id: 诺岚山
+      type: Character
+      name: 诺岚山
+      aliases: []
+      description: 被巴巴塔发现并传送给罗峰查看的人影图像。
+      attributes:
+        穿着: 深绿色战服
+    relationships: null
+    events:
+    - id: 发现诺岚山
+      type: Event
+      name: 发现诺岚山
+      description: 在焱祭大陆09号陆地碎片上空飞行时，巴巴塔发现并传送给罗峰查看的人影图像。
+      timeline:
+        时间点: 大半个月后
+    dialogues: null
+    timeline: null
+    mysteries:
+    - id: 诺岚山身份
+      type: Mystery
+      name: 诺岚山的身份和目的
+      description: 巴巴塔发现诺岚山的照片，暗示罗峰可能与诺岚山有关联。
+- source: part_053_04.yaml
+  data:
+    source:
+      id: 炎祭大陆篇
+    entities:
+    - id: 博野铸
+      type: 人物
+      name: 博野铸
+      aliases: []
+      description: 不朽军主，罗峰在焱祭大陆中的战友之一。
+      attributes:
+        身份: 军队成员, 不朽军主
+    - id: 舒凡
+      type: 人物
+      name: 舒凡
+      aliases: []
+      description: 不朽军主，罗峰在焱祭大陆中的战友之一。
+      attributes:
+        身份: 军队成员, 不朽军主
+    - id: 罗峰
+      type: 人物
+      name: 罗峰
+      aliases: 扬
+      description: 主角，虚拟宇宙公司派遣到焱祭大陆执行任务的人类战士。
+      attributes:
+        身份: 军队成员, 战士
+    - id: 诺岚山
+      type: 人物
+      name: 诺岚山
+      aliases: []
+      description: 罗峰在军队中的敌人，计划解决的对手。
+      attributes:
+        身份: 军队成员
+    - id: 雾沙岛
+      type: 地点
+      name: 雾沙岛
+      aliases: []
+      description: 炎祭大陆上的一座岛屿，罗峰所在军队的驻地。
+      attributes:
+        特性: 三分之一区域常年被雾气笼罩
+    relationships:
+    - id: 博野铸-舒凡关系
+      type: 同伴
+      name: 博野铸和舒凡
+      description: 不朽军主博野铸与不朽军主舒凡互为战友。
+      attributes: []
+    - id: 罗峰-舒凡关系
+      type: 战友
+      name: 罗峰和舒凡
+      description: 舒凡邀请罗峰加入其团队，共同对抗异族敌人。
+      attributes: []
+    - id: 罗峰-博野铸关系
+      type: 同伴
+      name: 罗峰和博野铸
+      description: 博野铸同样视罗峰为战友，并协助他适应战场环境。
+      attributes: []
+    - id: 罗峰-诺岚山敌对
+      type: 敌人
+      name: 罗峰会见诺岚山
+      description: 罗峰在军队中遇见了敌人诺岚山，计划解决对方。
+    events:
+    - id: 合影
+      type: 聚会
+      name: 军队聚会
+      description: 博野铸和舒凡为罗峰举行欢迎宴会。
+      attributes: []
+    timeline:
+    - id: 罗峰加入军队
+      type: 时间点
+      name: 加入军队
+      description: 罗峰加入了博野铸和舒凡所在的队伍。
+      attributes: []
+    mysteries:
+    - id: 封侯不朽神灵威胁
+      type: 威胁
+      name: 封侯不朽神灵的危险性
+      mystery: 在雾沙岛上，存在至少12个封侯级不朽神灵，他们极其强大且难以对付。
+- source: part_053_05.yaml
+  data:
+    source:
+      id: 吞噬星空
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，修炼兽神之道，拥有地球人本尊、金角巨兽等多种形态。
+      attributes:
+        实力: 封王初等不朽神灵
+        技能: 新七绝刀, 兽神兵秘法
+    - id: 虫族母皇
+      type: Character
+      name: 虫族母皇
+      aliases: []
+      description: 异种族群领袖，拥有大量随从。
+      attributes:
+        实力: 封王初等不朽神灵
+    - id: 步刺牙
+      type: Character
+      name: 步刺牙
+      aliases: []
+      description: 妖族封侯不朽神灵之一，在战斗中被食星界主杀死。
+      attributes:
+        实力: 封侯不朽神灵
+    - id: 食星草
+      type: Item
+      name: 食星草
+      aliases: []
+      description: 罗峰的宝物，可缩小化为金色小草融入罗峰手臂中。
+      attributes:
+        功能: 提供能量, 缩小化
+    - id: 希罗多
+      type: Character
+      name: 希罗多
+      aliases: []
+      description: 金角族群历史上最伟大的存在，宇宙霸主级人物。
+      attributes:
+        实力: 封王不朽神灵
+        技能: 四大绝学
+    relationships:
+    - id: 罗峰与食星草的关系
+      type: 拥有
+      description: 罗峰拥有食星草，并可将其缩小融入手臂中。
+    events:
+    - id: 虫族母皇率领异族攻打罗峰基地
+      type: Event
+      description: 在域外战场，虫族母皇与大量随从试图攻击罗峰所在的山脉。
+      timeline:
+        时间: 不详
+    - id: 罗峰逃离战斗现场
+      type: Event
+      description: 面对异族的强大力量，罗峰迅速离开，并用探测仪器发现敌方指挥者为躲在界主奴仆体内世界的虫族母皇。
+      timeline:
+        时间: 不详
+    - id: 罗峰参悟混沌城1200年
+      type: Event
+      description: 在混沌城中，罗峰长时间修炼兽神之道，并创造出新七绝刀法。
+      timeline:
+        时间: 之前
+    - id: 步刺牙被食星界主杀死
+      type: Event
+      description: 妖族不朽封侯强者步刺牙在与食星界的战斗中被击杀，导致妖族内部士气低落。
+      timeline:
+        时间: 近期
+    dialogues:
+    - id: 罗峰自言自语
+      type: Dialogue
+      description: 如今我刀法初成，再去找那三个妖族不朽简直是蹂躏他们……
+      timeline:
+        时间: 最近
+    timeline: null
+    mysteries:
+    - id: 妖族为什么不朽神灵频繁遇到食星界主
+      type: Mystery
+      description: 在短短六十年内，妖族不朽神灵多次碰上食星界主。

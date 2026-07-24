@@ -1,0 +1,328 @@
+part: part_012
+generated_time: '2026-07-23T15:46:33.828532'
+count: 5
+items:
+- source: part_012_01.yaml
+  data:
+    source:
+      id: 文本来源
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 新晋高等战神，第一次来到战神宫。
+      attributes:
+        国籍: 华夏国
+        实力等级: 战神级（高等）
+    - id: 弗拉洛蒂
+      type: Character
+      name: 弗拉洛蒂
+      aliases: []
+      description: 认识地球上大部分战神的白人男子。
+      attributes:
+        性格: 自信、友好
+    - id: 战神宫
+      type: Location
+      name: 战神宫
+      aliases: []
+      description: 地球上所有战神集散地，大厅内有30米挑高，长宽超过100米。
+    - id: 杨辉
+      type: Character
+      name: 杨辉
+      aliases: []
+      description: 精英训练营老师。
+      attributes:
+        关系: 认识罗峰
+    - id: 维特
+      type: Character
+      name: 维特
+      aliases: []
+      description: 精英训练营老师。
+      attributes:
+        关系: 认识罗峰
+    relationships:
+    - 主体: 罗峰
+      对象: 弗拉洛蒂
+      类型: 相遇
+    - 主体: 罗峰
+      对象: 杨辉
+      类型: 师生关系
+    events:
+    - 名称: 战神宫欢迎罗峰
+      时间线位置: 第一次来到战神宫
+      描述: 当罗峰步入大厅时，虚拟空间自动介绍并热烈欢迎他。
+    dialogues:
+    - 主体: 弗拉洛蒂
+      对象: 罗峰
+      内容: 你好。
+      情境: 相遇
+    - 主体: 杨辉
+      对象: 罗峰
+      内容: 罗峰，你来这，按照老规矩，我给你介绍一下。
+      情境: 介绍新晋战神给其他战神认识
+    timeline:
+    - 时间点1: 罗峰第一次来到战神宫
+      描述: 虚拟空间欢迎并介绍罗峰
+    mysteries:
+    - 内容: 弗拉洛蒂是否知道之前大厅的灯光和音乐变化？
+- source: part_012_02.yaml
+  data:
+    source:
+      id: 第三篇五万年的尸体第五章9号古文明遗迹
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 监察使，收到关于9号古文明遗迹的通知邮件。
+      attributes:
+        实力: 战神级
+        性格: 谨慎、认真
+    - id: 极限武馆
+      type: Organization
+      name: 极限武馆
+      aliases: []
+      description: 发出关于9号古文明遗迹的通知邮件，要求罗峰参与。
+      attributes:
+        地点: 洪宁基地市
+        目的: 探索9号古文明遗迹
+    - id: 黑神套装
+      type: Item
+      name: 黑神套装
+      aliases: []
+      description: 特殊防护器具，不允许在进入9号古文明遗迹时使用。
+    relationships:
+    - 罗峰与极限武馆有工作关系
+    - 极限武馆发出关于黑神套装的限制通知
+    events:
+    - id: 古文明遗迹探索任务
+      type: Event
+      description: 极限武馆要求战神们前往9号古文明遗迹，以获得黑神套装。
+      attributes:
+        时间: 2057年8月31日
+        地点: 洪宁基地市极限武馆全球总部
+        风险: 死亡伤残率高达72%
+    dialogues:
+    - id: 罗峰与极限武馆内部人员对话
+      type: Dialogue
+      content: '"你好，我是罗峰。"
+
+        "我知道是你，罗峰监察使，你有什么事？"
+
+        "我刚刚收到一份《古文明遗迹出通知》的邮件... 此次目标是9号古文明遗迹，而且死伤率达到72%，并且无法使用黑神套装等器具，是么？"
+
+        "对。"
+
+        "我想知道战神们进去遇到的挑战、危险是一样吗？"
+
+        "不一样！"
+
+        "只要身体素质达到战神级即可进入9号古文明遗迹... 难度不一。有的高等战神可能丧命，而初等战神反而有成功的例子！"
+
+        "不过按照比例，高等战神成功比例是比中等战神要高，中等战神成功比例是比初等战神要高。"
+
+        '
+    timeline:
+    - 时间: 2057年8月31日
+      事件描述: 极限武馆发出关于9号古文明遗迹的通知邮件
+    mysteries:
+    - id: 黑神套装为何不能进入9号古文明遗迹时使用？
+      type: Mystery
+      description: 究竟为什么禁止穿上黑神套装？是否因为黑神套装可能带来额外风险或限制探索任务的成功率？
+- source: part_012_03.yaml
+  data:
+    source:
+      id: 第177章五万年的尸体降临
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 极限武馆的强者，拥有智能战机。
+      attributes:
+        实力: 极致战神级
+        身份: 徐欣男朋友,妹夫
+    - id: 徐欣
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 徐刚的妹妹，徐家成员之一。
+      attributes:
+        关系: 罗峰的女朋友
+    - id: 徐刚
+      type: Character
+      name: 徐刚
+      aliases: []
+      description: 徐欣的哥哥，家族高层。
+      attributes:
+        实力: 不详
+        身份: 家族成员,徐欣的哥哥
+    - id: 孙超
+      type: Character
+      name: 孙超
+      aliases: []
+      description: 徐刚的朋友，徐家在美利坚负责部分生意。
+      attributes:
+        实力: 不详
+        关系: 对罗峰的态度从敌对转为忌惮
+    - id: 战神级强者(孙超的父亲)
+      type: Character
+      name: 孙超的父亲
+      aliases: []
+      description: 徐家的客卿身份战神。
+      attributes:
+        实力: 战神级
+    relationships:
+    - 主体: 罗峰
+      客体: 徐欣
+      关系类型: 男女朋友关系,妹夫与妹妹的关系
+    - 主体: 徐刚
+      客体: 孙超
+      关系类型: 同学、同事关系
+    events:
+    - 名称: 罗峰送徐欣回家
+      时间线: 晚上八点多
+      地点: 基地市富人区
+      描述: 徐刚在机场介绍罗峰为徐欣男朋友，并承认他作为妹夫的身份。
+    dialogues:
+    - 主体: 罗峰
+      客体: 徐欣
+      内容: 这有钱人家就是不一样，基地市土地这么紧张，可是有钱人住的地方却这么安静，人这么少。
+    - 主体: 徐欣
+      客体: 罗峰
+      内容: 你说有钱人家？你没钱？我们家族的流动资产全部加起来，还没你那一架智能战机多！
+    timeline:
+    - 时间点: 晚上八点多
+      事件: 罗峰送徐欣回家的路上
+    mysteries:
+    - 徐家如何得知罗峰与徐欣的关系以及罗峰的身份背景信息。
+- source: part_012_04.yaml
+  data:
+    source:
+      id: 文本来源ID
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 极限武馆监察使，被特别授予陆军少将军衔。
+      attributes:
+        实力: 战神级
+        身份: 极限武馆监察使
+    - id: 徐欣
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 罗峰的女友，关心罗峰的状态。
+      attributes:
+        关系: 罗峰的女友
+    organizations:
+    - id: 极限武馆
+      type: Organization
+      name: 极限武馆
+      description: 提供战神级训练和资源，发布古文明遗迹探险任务。
+      attributes:
+        负责人: 洪（馆主）
+    locations:
+    - id: 明月小区
+      type: Location
+      name: 明月小区
+      description: 小区内有飞行战机停放区域，周围由军人守卫。
+    items:
+    - id: 黑神套装
+      type: Item
+      name: 黑神套装
+      attributes:
+        特性: 禁止进入9号古文明遗迹时穿戴
+    abilities:
+    - id: 战神级实力
+      type: Ability
+      name: 战神级实力
+      description: 高于人类战士的战斗能力，包含多种技能和身体素质。
+    events:
+    - id: 古文明遗迹探险任务发布
+      type: Event
+      name: 古文明遗迹探险任务发布
+      description: 极限武馆发布的9号古文明遗迹探险任务。
+      timeline:
+        时间点: 2057年8月31日
+        结果: 罗峰收到任务通知，需决定是否参与。
+    dialogues:
+    - id: 罗峰与神秘人物通话
+      type: Dialogue
+      participants:
+      - 罗峰
+      - 神秘人物
+      content: 罗峰向极限武馆内部人员询问关于9号古文明遗迹的详细信息。
+      timeline:
+        时间点: 2057年8月31日
+    mysteries:
+    - id: 古文明遗迹的秘密
+      type: Mystery
+      description: 9号古文明遗迹的具体情况未知，包括危险性、挑战难度等。
+- source: part_012_05.yaml
+  data:
+    source:
+      id: 大战海域怪兽
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 监察使，身穿黑神套装，拥有极强的战斗能力。
+      attributes:
+        实力: 高等兽将级及以上
+        能力: 速度极快，攻击力强大
+    - id: 李达威
+      type: Character
+      name: 李达威
+      aliases: []
+      description: 战争基地的司令员。
+      attributes:
+        实力: 高级将领
+        职位: 军方高层
+    - id: 透明水母类怪兽
+      type: Species
+      name: 透明水母类怪兽
+      aliases: []
+      description: 具有大量柔软触手的透明水母，能够进入战争基地。
+      attributes:
+        类型: 领主级水域怪兽
+    relationships:
+    - id: 罗峰与李达威的关系
+      type: Relationship
+      name: 指挥与执行关系
+      description: 李司令员指挥罗峰击杀上岸的领主级水域怪兽。
+      attributes: []
+    events:
+    - id: 击杀巨型龟鳖类怪兽
+      type: Event
+      name: 罗峰迅速杀死了一头巨大的龟鳖类领主级怪兽。
+      description: 利用六道冰冷刀光斩杀了冲向战争基地的龟鳖怪物，表现出了惊人的战斗能力。
+      attributes:
+        时间: 未知
+        地点: 黄浦江
+    - id: 透明水母进入基地
+      type: Event
+      name: 透明水母类怪兽进入了最外围的战争基地区域。
+      description: 这一事件触发了警报，李达威司令员立即做出了应对措施。
+      attributes:
+        时间: 未知
+        地点: 战争基地最外围
+    dialogues:
+    - id: 李达威指挥罗峰
+      type: Dialogue
+      name: 李司令：罗峰、雷猛，请两位击杀一些上岸的领主级水域怪兽。
+      description: 李达威通过通讯手表直接向罗峰下达命令。
+      attributes: []
+    timeline:
+    - 时间点: 开始
+      描述: 罗峰俯冲下去准备战斗。
+    - 时间点: 击杀巨型龟鳖类怪兽
+      描述: 罗峰迅速击杀了一头领主级龟鳖怪物。
+    mysteries:
+    - id: 怪兽数量和种类未知
+      type: Mystery
+      name: 海域怪兽数量与种类的不确定性。
+      description: 大涅槃时期之后，海域中具体的怪兽数量及种类无人知晓，给战斗带来巨大挑战。

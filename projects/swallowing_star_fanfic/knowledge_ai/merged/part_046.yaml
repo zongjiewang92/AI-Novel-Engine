@@ -1,0 +1,366 @@
+part: part_046
+generated_time: '2026-07-23T15:46:34.291055'
+count: 5
+items:
+- source: part_046_01.yaml
+  data:
+    source:
+      id: 罗峰修炼秘法
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 地球人，通过多次转世和传承提升实力。当前境界为界主级精神念师。
+      attributes:
+        实力: 界主级精神念师
+        念力振幅强度: 3200多
+    - id: 魔音神将传承
+      type: Ability
+      name: 魔音神将传承
+      aliases: []
+      description: 包含多个阶段的修炼秘法，最高境界难度极大。
+      attributes:
+        先决条件: 念力振幅强度达到1万
+    - id: 万心控魂秘法
+      type: Ability
+      name: 万心控魂秘法
+      aliases: []
+      description: 分为五个层次的修炼秘法，主要作用是多任务精神控制。
+      attributes:
+        第一层: 一心境（操控1名灵魂奴仆）
+        第二层: 十心境（操控10名灵魂奴仆）
+        第三层: 百心境（操控100名灵魂奴仆）
+        第四层: 千心境（操控1000名灵魂奴仆）
+        第五层: 万心境（操控1万名灵魂奴仆）
+    - id: 克布长老
+      type: Character
+      name: 克布长老
+      aliases: []
+      description: 在兽神峡谷中观察罗峰的修炼情况。
+      attributes:
+        实力: 不详
+    - id: 虫族母巢
+      type: Item
+      name: 虫族母巢
+      aliases: []
+      description: 控制虫族战士和孵化后代的重要设施。
+    relationships: null
+    events:
+    - id: 罗峰修炼万心控魂秘法
+      type: Cultivation
+      description: 罗峰开始修炼《万心控魂秘法》，目标是提升对灵魂奴仆的控制能力。
+      attributes:
+        进度: 计划修炼到第四层
+    - id: 克布长老观察罗峰
+      type: Observation
+      description: 克布长老持续关注罗峰在兽神峡谷中的修炼情况，一百年过去仍未见变化。
+    locations:
+    - id: 兽神峡谷
+      name: 兽神峡谷
+      aliases: []
+      description: 广袤寂静的地方，有许多苦修者在此修行。
+      attributes: null
+    organizations:
+    - id: 虚拟宇宙公司
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 确认并贩卖《万心控魂秘法》的机构。
+    dialogues: null
+    timeline: null
+    mysteries:
+    - 克布长老对罗峰的关注原因不明。
+- source: part_046_02.yaml
+  data:
+    source:
+      id: 第683章尊者的惩罚奴仆虫族母皇
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，有着《万心控魂秘法》第三层修炼成果，拥有虫族母巢。
+      attributes:
+        实力: 恒星级
+        能力: 修炼《万心控魂秘法》，控制灵魂奴隶
+    - id: 迪伦
+      type: Character
+      name: 迪伦
+      aliases: []
+      description: 罗峰的追随者，负责辅助罗峰。
+      attributes:
+        实力: 宇宙级
+        能力: 辅助罗峰控制虫族母巢
+    - id: 徐欣
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 罗峰的伴侣，家族聚会的组织者。
+      attributes:
+        实力: 宇宙级
+        能力: 组织家族活动
+    - id: 狄梵
+      type: Character
+      name: 狄梵
+      aliases: []
+      description: 灵魂奴隶，罗峰的手下之一。
+      attributes:
+        实力: 境界主级
+        能力: 守护罗家
+    - id: 百卡罗
+      type: Character
+      name: 百卡罗
+      aliases: []
+      description: 灵魂奴隶，罗峰的手下之一。
+      attributes:
+        实力: 境界主级
+        能力: 守护罗家
+    - id: 神农架古堡
+      type: Location
+      name: 神农架古堡
+      aliases: []
+      description: 古堡占地近十公里方圆，是宇宙级奴隶军团驻防的地方。
+      attributes:
+        尺寸: 十公里方圆
+    - id: 虫族母巢
+      type: Item
+      name: 虫族母巢
+      aliases: []
+      description: 大宝物，直径超800米的圆球。
+      attributes:
+        状态: 沉睡中
+    relationships:
+    - 主人: 罗峰, 迪伦
+    - 隶属关系: 狄梵、百卡罗 -> 罗峰
+    - 联络: 徐欣 -> 家族聚会组织者
+    events:
+    - type: Family Gathering
+      name: 家族聚会
+      description: 家族成员聚在一起。
+      timeline: 在罗峰刚从老家回来时举行。
+    dialogues:
+    - speaker: 徐欣
+      content: 这才刚回来当然得家族聚会。
+    - speaker: 罗峰
+      content: 法子，人太多。这才近500年，罗家男子就有数十万了。
+    - speaker: 徐欣
+      content: 华夏国历史上像三国时期征战杀伐，整个华夏人口当时才多少点？可繁衍过千年，照样人口超过10亿。
+    timeline:
+    - 时间节点: 罗峰500年前从老家回来
+    - 时间节点: 家族聚会举行
+    mysteries:
+    - 未知信息: 控制虫族母巢中的那头母皇需要多久时间。
+- source: part_046_03.yaml
+  data:
+    source:
+      id: 第686章尊者的惩罚九大星域（三更完毕）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，实力强大，有金融投资的弟弟罗华。
+      attributes:
+        实力: 强大
+        关系: 哥哥
+    - id: 伊琳娜
+      type: Character
+      name: 母皇伊琳娜
+      aliases: []
+      description: 虫族母皇，被罗峰收服。
+      attributes:
+        种族: 虫族
+        关系: 主人
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 智能生命，帮助罗峰处理各种事务。
+      attributes:
+        类型: 智能生命
+        职责: 计算最优折扣
+    - id: 罗华
+      type: Character
+      name: 罗华
+      aliases: []
+      description: 罗峰的弟弟，金融投资天才。
+      attributes:
+        实力: 高级金融投资能力
+        关系: 弟弟
+    organizations:
+    - id: 虚拟宇宙公司
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 提供虚拟宇宙项目
+      attributes: null
+    - id: 巨斧斗武场
+      type: Organization
+      name: 巨斧斗武场
+      aliases: []
+      description: 提供斗武场项目
+      attributes: null
+    locations:
+    - id: 扬州城
+      type: Location
+      name: 扬州城
+      aliases: []
+      description: 罗峰的老家所在地
+    abilities:
+    - id: 虫族战士制造数据
+      type: Ability
+      name: 制造虫族战士的数据
+      aliases: []
+      description: 记录在智能光脑上的制造数据，包括金属合金残骸、血液等资源。
+    items:
+    - id: 智能光脑
+      type: Item
+      name: 智能光脑
+      aliases: []
+      description: 存储虫族战士制造所需的数据
+    dialogues:
+    - participants:
+      - 罗峰
+      - 巴巴塔
+      content: 巴巴塔，你在网络上查阅资料怎么样了？
+    - participants:
+      - 罗华
+      - 罗峰
+      content: 哥你上次回地球，给了我50万混元单位进行操作。虽然我已经暗中模拟操作过不少次，可真正投入资金去操作的时候，才真正感受到可怕。
+    timeline:
+      events:
+      - id: 收服虫族母皇
+        time: 最近一次闭关
+        description: 罗峰收服了虫族母皇伊琳娜
+    mysteries:
+    - question: 弟弟罗华亏损的严重程度？
+      clues: 没有明确提到具体数值，但50万混元单位全部投资进去后开始不断亏损。
+- source: part_046_04.yaml
+  data:
+    source:
+      id: 第689章尊者的惩罚中型世界（三更完毕）
+    entities:
+    - id: 罗峰
+      type: character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司成员，曾前往金角族家乡学习。
+      attributes:
+        实力: 不详
+        年龄: 成年期
+        性格: 淡定、谨慎
+    - id: 迪伦
+      type: character
+      name: 迪伦
+      aliases: []
+      description: 真衍王的手下，保护罗峰。
+      attributes:
+        实力: 不详
+        年龄: 成年期
+        性格: 忠诚、谨慎
+    - id: 洪
+      type: character
+      name: 洪
+      aliases: []
+      description: 罗峰的哥哥，乾巫宇宙国天才战入选者。
+      attributes:
+        实力: 巨斧斗武场核心层成员
+        年龄: 成年期
+        性格: 冷静、低调
+    - id: 雷神
+      type: character
+      name: 雷神
+      aliases: []
+      description: 罗峰的二哥，白袍光头。
+      attributes:
+        实力: 不详
+        年龄: 成年期
+        性格: 直率、关心兄弟
+    - id: 巴巴塔
+      type: character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的飞船控制辅助设备。
+      attributes:
+        实力: 不详
+        年龄: 虚拟存在
+    - id: 毋窿星域
+      type: location
+      name: 毋窿星域
+      aliases: []
+      description: 九大垃圾星域之一，实际为宝地。
+      attributes:
+        特点: 远离乾巫宇宙国银河系，拥有宫殿群
+    relationships:
+    - 主体: 罗峰
+      对象: 迪伦
+      关系类型: 保护与被保护
+    - 主体: 洪
+      对象: 巨斧斗武场核心层
+      关系类型: 成员
+    events:
+    - 名称: 见田睘
+      时间线位置: 当前
+      描述: 罗峰一行人抵达毋窿星域后，准备与田睘见面。
+    dialogues:
+    - 对话双方: 罗峰, 迪伦
+      内容: 罗峰，已经抵达空间坐标位置，宇宙穿梭完毕。我们现在离宫殿群距离很近，飞行只需要25分钟就能抵达。
+      场景描述: 飞船控制室中
+    timeline:
+    - 时间点: 第九个月
+      描述: 罗峰、洪和雷神在黑龙山岛屿九星湾内聚会。
+    mysteries:
+    - 内容: 洪进入巨斧斗武场核心层的详细过程。
+- source: part_046_05.yaml
+  data:
+    source:
+      id: 第692章尊者的惩罚生死90秒
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 漂浮在星空中的虫族尸体区寻找界主巅峰级的虫族战士尸体。
+      attributes:
+        实力: 城市领主
+    - id: 高个白袍人
+      type: Character
+      name: 高个白袍人
+      aliases: []
+      description: 向罗峰介绍虫族尸体残骸单位的情况。
+      attributes:
+        职位: 销售人员？
+    - id: 毋窿星域观察员6号
+      type: Character
+      name: 观察员6号
+      aliases: 科斯尔
+      description: 在毋窿星域内部使用淘宝机会，准备前往垃圾山碰运气。
+      attributes:
+        实力: 未明确说明
+    relationships:
+    - 主体: 罗峰
+      客体: 高个白袍人
+      关系类型: 购买者与销售者
+    - 主体: 毋窿星域观察员6号
+      客体: 白袍人
+      关系类型: 请求领取世界戒指和淘宝机会
+    events:
+    - id: 界主巅峰级虫族尸体区的探索
+      type: Event
+      description: 罗峰与两位同伴在虫族尸体区进行探索，寻找界主巅峰级的虫族战士尸体。
+      timeline:
+        时间点: 整整八天后
+    - id: 淘宝机会的使用
+      type: Event
+      description: 毋窿星域观察员6号使用淘宝机会前往垃圾山碰运气。
+      timeline:
+        时间点: 第十二篇尊者的惩罚第十一章中
+    dialogues:
+    - 主体: 观察员6号
+      客体: 白袍人
+      内容: 我来领取世界戒指，我还有三次淘宝机会。
+    mysteries:
+    - id: 虫族尸体区的监控情况
+      type: Mystery
+      description: 毋窿星域内部如何实现对虫族尸体区的全面监控和定位。

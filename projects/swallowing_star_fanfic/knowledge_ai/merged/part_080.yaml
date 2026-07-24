@@ -1,0 +1,268 @@
+part: part_080
+generated_time: '2026-07-23T15:46:34.695862'
+count: 5
+items:
+- source: part_080_01.yaml
+  data:
+    source:
+      id: 第1206章闯轮回
+    entities:
+    - id: 星辰塔
+      type: Item
+      name: 星辰塔
+      aliases: []
+      description: '镇封宫殿式至强至宝，同时具备物质和灵魂双重防御功能。
+
+        '
+      attributes:
+        功能: 物质攻击防御、灵魂镇守
+    - id: 火焰浆流洞窟
+      type: Location
+      name: 火焰浆流洞窟
+      aliases: []
+      description: '被炽热的火焰浆流环绕的巨大溶洞，其中充斥着各种未知危险。
+
+        '
+      attributes:
+        温度: 极高
+        危险程度: 非常危险
+    relationships: null
+    events:
+    - id: 罗峰进入火焰浆流洞窟
+      type: Event
+      name: 罗峰通过星辰塔进入火焰浆流洞窟
+      description: '罗峰携带星辰塔，沿着洞穴通道深入到火焰浆流溶洞中。
+
+        '
+    - id: 发现带有爪印的石柱
+      type: Event
+      name: 发现有带爪印标记的特殊石柱
+      description: '在火焰浆流洞窟内罗峰发现了一条特殊的石柱，上面刻有疑似宇宙最强者留下的爪印。
+
+        '
+    - id: 触碰并进入砂砾空间
+      type: Event
+      name: 星辰塔触碰带有气息的砂砾被吸入内部空间
+      description: '罗峰通过星辰塔接触石柱上特殊砂砾，整个星辰塔和分身被吸收到该砂砾内隐藏的空间中。
+
+        '
+    dialogues: null
+    timeline:
+    - 探索洞穴通道
+    - 进入火焰浆流洞窟
+    - 发现带有爪印的石柱
+    - 触碰砂砾并进入内部空间
+    mysteries:
+    - 爪印背后的故事和留下的宇宙最强者是谁？
+    - 石柱与其中砂砾的独特构成及其功能是什么？
+- source: part_080_02.yaml
+  data:
+    source:
+      id: 吞噬星空_第1209章
+    entities:
+    - id: 巨斧创始者
+      type: 人物
+      name: 巨斧创始者
+      aliases: []
+      description: 人类族群的领袖，宇宙之主级别。
+      attributes:
+        实力: 宇宙之主
+        身份: 人类族群领袖
+    - id: 混沌城主
+      type: 人物
+      name: 混沌城主
+      aliases: []
+      description: 人类族群的领袖之一，宇宙最强者级别。
+      attributes:
+        实力: 宇宙最强者
+        身份: 人类族群领袖
+    - id: 罗峰
+      type: 人物
+      name: 罗峰
+      aliases: []
+      description: 人类族群成员，拥有强大实力和贡献。
+      attributes:
+        实力: 宇宙之主
+        贡献度: 高
+        特殊物品: 牵丝图
+    - id: 宇宙舟
+      type: 地点
+      name: 宇宙舟
+      aliases: []
+      description: 人类族群探索的神秘领域，包含三大绝地之一。
+      attributes:
+        区域类型: 内域、核心区域
+        危险程度: 极高
+    relationships:
+    - 主体: 罗峰
+      关系: 受到尊敬
+      客体: 巨斧创始者
+      描述: 巨斧创始者对罗峰的贡献给予高度评价。
+    events:
+    - id: 分享地图
+      type: Event
+      name: 分享宇宙舟的地图
+      description: 罗峰将从牵丝图中得到的宇宙舟部分区域地图无偿奉献给族群。
+      timeline: []
+    dialogues:
+    - 主体: 巨斧创始者
+      客体: 罗峰
+      内容: 你无偿奉献地图，且是绝地地图。对族群功劳极大...所以我也只能给你5000至宝点。
+      特殊意义: 表达了巨斧创始者对罗峰贡献的认可和奖励。
+    timeline:
+    - 时间节点: 返回地球第三个月
+      描述: 罗峰再次离开原始宇宙，前往宇宙舟探索。
+    mysteries:
+    - 内容: 桀梵子遗留宝藏的具体位置及其难度级别。
+- source: part_080_03.yaml
+  data:
+    source:
+      id: 第1213章因沱
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases:
+      - 银翼领主
+      description: 新晋宇宙之主，拥有金色国度、火焰刀和星辰塔等至宝。
+      attributes:
+        实力: 宇宙之主
+        特点: 拥有能精确发现安全地的金色国度，能够使用强大的火焰刀，以及可以躲避危险的星辰塔。
+    - id: 熔岩魔神
+      type: Character
+      name: 熔岩魔神
+      description: 高近百亿公里的巨大生物，智慧极低，身体无法损坏。
+      attributes:
+        实力: 强大到宇宙之主几乎必死的程度
+    - id: 黑色海洋噩梦区域
+      type: Location
+      name: 黑色海洋噩梦区域
+      description: 内域的危险区域之一。
+    - id: 灭神涧
+      type: Location
+      name: 灭神涧
+      description: 面临大量熔岩坠落和巨石撞击，以及九头熔岩魔神的威胁。
+      attributes:
+        危险程度: 极高
+    relationships: null
+    events:
+    - id: 进入灭神涧
+      type: Event
+      name: 进入灭神涧
+      description: 罗峰进入内域最危险的区域之一，面对熔岩坠落、巨石撞击及熔岩魔神。
+      timeline:
+        时间: 十一天
+    dialogues: null
+    timeline:
+    - id: 进入黑色海洋噩梦区域
+      time: 前期
+      description: 罗峰轻松应对无尽绳索的攻击，使用金色国度找到安全地点。
+    - id: 进入灭神涧
+      time: 十一天后
+      description: 面对熔岩坠落、巨石撞击及九头熔岩魔神的威胁。
+    mysteries:
+    - id: 熔岩魔神的起源
+      type: Mystery
+      question: 熔岩魔神是如何诞生的？
+      hint: 毫无智慧，但实力强大。
+- source: part_080_04.yaml
+  data:
+    source:
+      id: 第1216章急，急，急
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 新生代原始宇宙的年轻强者，拥有弑吴羽翼等强大宝物。
+      attributes:
+      - 实力强
+      - 极度自信
+      - 勇敢无畏
+    - id: 五浑之主
+      type: Character
+      name: 五浑之主
+      aliases: []
+      description: 新生代原始宇宙中的顶尖强者，领域类至宝五兽大灭绝的掌控者。
+      attributes:
+      - 实力强大
+      - 冷静从容
+    - id: 究箭之主
+      type: Character
+      name: 究箭之主
+      aliases: []
+      description: 参与和罗峰战斗的宇宙之主之一，实力未知。
+      attributes:
+      - 担心逃跑
+    - id: 金色独角蜥蜴
+      type: Character
+      name: 金色独角蜥蜴
+      aliases: []
+      description: 新生代原始宇宙中的强者，具有一定的智慧和力量。
+      attributes:
+      - 畏惧五浑之主
+      - 惊恐逃跑
+    - id: 水波狱
+      type: Item
+      name: 水波狱
+      aliases: []
+      description: 属于领域类至宝，由五浑之主操控。
+    - id: 熔岩魔神
+      type: Character
+      name: 熔岩魔神
+      aliases: []
+      description: 原始宇宙中的强大存在，体型庞大，力量惊人的生物。
+      attributes:
+      - 力量极大
+    relationships: null
+    events:
+    - id: 水波狱的攻击
+      type: Event
+      description: 罗峰面对五浑之主操控的水波狱进行了激烈的抵抗。
+    - id: 微型宇宙与金色国度的反击
+      type: Event
+      description: 罗峰利用微型宇宙和弑吴羽翼的力量，成功抵御了五浑之主的攻击。
+    - id: 水波狱被驱散
+      type: Event
+      description: 罗峰突然发力，使得水波狱瞬间消失无踪。
+    - id: 五浑界和水波狱的第二次攻击
+      type: Event
+      description: 五浑之主再次利用五兽大灭绝的力量发动了更为猛烈的攻势。
+    - id: 溶岩魔神的出现与战斗
+      type: Event
+      description: 罗峰召唤熔岩魔神，对五浑之主等敌人发起致命反击。
+    dialogues:
+    - speaker: 五浑之主
+      content: 交出羽翼！我再给你最后一次机会。
+    - speaker: 罗峰
+      content: 要打就打，别废话。
+    - speaker: 五浑之主
+      content: 那人类真是走运，如果不是这熔岩魔神出现，我定要让他尝尝我的五兽大灭绝。
+    timeline:
+    - event: 罗峰和水波狱的第一次交锋
+      time: 前期
+    - event: 水波狱被驱散
+      time: 中期
+    - event: 第二次攻击与反击
+      time: 后期
+    mysteries:
+    - question: 罗峰为何能突然增强力量？
+      answer: 未明确说明，但可能是因为他完全爆发了弑吴羽翼的威能。
+- source: part_080_05.yaml
+  data:
+    source:
+      id: 第1219章紫月圣地
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '在冰冷水域中穿行，成功抵达焰水湖。对宇宙舟的危险地有详细的了解，并且有信心能够处理这些危险。
+
+        '
+      attributes:
+        实力: 宇宙之主
+        目标: 报复五浑之主
+    - id: 桀梵子
+      type: Character
+      name: null

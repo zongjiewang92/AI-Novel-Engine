@@ -1,0 +1,381 @@
+part: part_048
+generated_time: '2026-07-23T15:46:34.316046'
+count: 5
+items:
+- source: part_048_01.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有强大的念力和武者实力，能够轻易控制恒星级三阶的战士进行搜魂。
+      attributes:
+        实力: 宇宙级强者或更高级别
+    - id: 龙楼
+      type: Character
+      name: 龙楼
+      aliases: []
+      description: 巨木部落的天才，行星级三阶武者，被魔神带走。
+      attributes:
+        实力: 行星级三阶
+        年龄: 少年
+    - id: 拐角鳞甲男子
+      type: Character
+      name: 拐角鳞甲男子
+      aliases: []
+      description: 火凤组成员，带领魔神团队的首领。
+      attributes:
+        实力: 行星级九阶或更高级别
+    - id: 巨木部落族长
+      type: Character
+      name: 巨木部落族长
+      aliases: []
+      description: 被魔神杀死以示警告。
+      attributes:
+        年龄: 老年
+        实力: 普通武者
+    - id: 魔神
+      type: Character
+      name: 魔神
+      aliases:
+      - 犄角魔神般壮汉
+      description: 火凤组成员，行星级九阶或更高级别。
+      attributes:
+        实力: 行星级九阶及以上
+    organizations:
+    - id: 火凤组
+      type: Organization
+      name: 火凤组
+      aliases: []
+      description: 负责在贝斯星球收集奴隶的组织，成员为恒星级和行星级武者。
+      attributes:
+        成员实力范围: 普通武者至宇宙级强者
+    locations:
+    - id: 巨木部落
+      type: Location
+      name: 巨木部落
+      aliases: []
+      description: 被魔神攻击，族长被杀，大量族人被抓走。
+      attributes:
+        居民数量: 1213682名
+    dialogues:
+    - speaker: 拐角鳞甲男子
+      content: 我们是火凤组成员，不知道大人来贝斯星球有什么事，伟大的克拉奇大人就暂时居住在贝斯星球，大人有什么事我可以禀报给克拉奇大人。
+      context: 罗峰出现后，拐角鳞甲男子惊恐地向罗峰解释自己的身份。
+    - speaker: 拐角鳞甲男子
+      content: 你们巨木部落可以换个族长了，老家伙太愚蠢了。上次你们巨木部落诞生一个行星级，是在800年前，估计你们都忘记规矩了。记住！诞生行星级，我们魔神宫必须带走，违反者，部落族长处死！
+      context: 魔神杀死巨木部落的族长后发表警告。
+    timeline:
+    - event: 罗峰出现
+      time: 原文描述中突然降临在地面上
+    mysteries:
+    - question: 这个神秘黑发青年罗峰的真实身份和背景是什么？
+      context: 根据原文，罗峰的威压和实力远超火凤组成员，暗示其拥有非常高的地位和强大的能力。
+- source: part_048_02.yaml
+  data:
+    source:
+      id: text1
+    entities:
+    - id: LuoFeng
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 暗宇宙中的一名强者，能够进行大肆屠戮而不心慈手软。
+      attributes:
+        实力: 强者
+        性格: 冷漠坚决
+    - id: DiLun
+      type: Character
+      name: 迪伦
+      aliases: []
+      description: 罗峰的老师，不朽神灵，在域外战场战斗过。
+      attributes:
+        实力: 不朽神灵
+        性格: 深思熟虑
+    - id: PanXi
+      type: Character
+      name: 潘西
+      aliases: []
+      description: 火凤组的灵魂人物，精神领袖。曾是奴隶出身，后来成为界主强者。
+      attributes:
+        身份: 火凤组灵魂人物, 奴隶出身的逆袭者
+        实力: 界主三阶
+    - id: BeiNeiXingZuoQun
+      type: Location
+      name: 贝恩小行星群
+      aliases: []
+      description: 潘西进行潜修的地方。
+      attributes:
+        地点类型: 小行星群
+    organizations:
+    - id: HuoFengZu
+      type: Organization
+      name: 火凤组
+      aliases: []
+      description: 主要从事奴隶买卖的组织，由潘西领导。
+      attributes:
+        目标: 奴隶贩卖, 资源掠夺
+    events:
+    - id: LuoFengKuShaPariManDe
+      type: Event
+      name: 罗峰屠杀帕里曼德
+      description: 在暗宇宙中，罗峰以极快的速度和冷漠的态度杀死了帕里曼德。
+      attributes:
+        时间: 文本内未明确说明
+    - id: LuoFengPingZhiPanXi
+      type: Event
+      name: 罗峰评价潘西
+      description: 罗峰认为潘西是很有毅力、雄心和手段的人物，但同时也批评其不择手段的行为。
+      attributes:
+        时间: 文本内未明确说明
+    dialogues:
+    - id: LuoFengWeiZhiYingXiangPanXi
+      type: Dialogue
+      name: 罗峰评价潘西的对话
+      description: 罗峰和迪伦在讨论火凤组的灵魂人物潘西，罗峰表示他很欣赏潘西的毅力、雄心以及手段，但也认为他的行为过于狠毒。
+      attributes:
+        对话内容:
+        - 你虽然不像那些腐烂堕落的人，可是，你这种靠这生意赚的无尽金钱的，却更加该死。
+        - 我仅仅是靠火凤组为阶梯，想要获得更多资源来修炼而已。
+    timeline:
+    - id: LuoFengKuShaPariManDe
+      type: Timeline
+      name: 罗峰屠杀帕里曼德的时间线
+      attributes:
+        时间点: 文本内未明确说明
+    mysteries:
+    - id: PanXiXingYun
+      type: Mystery
+      name: 潘西的传奇经历
+      description: 从奴隶出身到成为界主强者，潘西的成长历程充满传奇色彩。
+      attributes:
+        解释未知信息: 火凤组的灵魂人物, 如何在残酷环境中生存并崛起
+    relationships:
+    - id: LuoFengDiLunShiXiaoGuanXi
+      type: Relationship
+      name: 罗峰与迪伦的师生关系
+      attributes:
+        描述: 迪伦是罗峰的老师，教导他关于大肆屠戮时需要有理由。
+- source: part_048_03.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: black_robe_lofeng
+      type: character
+      name: 黑衣罗峰
+      aliases: []
+      description: 能量生命，拥有巴巴塔附属智能辅助。
+      attributes:
+      - 实力: 封侯级不朽神灵
+      - 物资: 洛克神水湖泊（价值63亿混元单位）
+    - id: baba_ta_replica
+      type: item
+      name: 巴巴塔复制体
+      aliases: []
+      description: 附属智能，存储巴巴塔所有记忆。
+    - id: locket_spirit_water_lake
+      type: location
+      name: 潘西的洛克神水湖泊
+      aliases: []
+      description: 地方小世界中的一处超小型湖泊，内含大量的洛克神水。
+      attributes:
+      - 容量: 712立方公里
+      - 价值: 约63亿混元单位
+    - id: pansi
+      type: character
+      name: 潘西
+      aliases: []
+      description: 大奴隶商，拥有大量洛克神水湖泊。
+      attributes:
+      - 身份: 封侯级不朽神灵（未知）
+      - 财富: 隐藏大量洛克神水
+    relationships: null
+    events:
+    - id: discovery_of_locket_spirit_water_lake
+      type: event
+      name: 发现洛克神水湖泊
+      description: 黑衣罗峰在虚拟宇宙中发现潘西隐藏的洛克神水湖泊。
+      timeline: []
+    dialogues:
+    - speaker: 附属智能
+      listener: 黑衣罗峰
+      content: 主人，我见过湖泊中的水。这是洛克神水……
+      context: 查探湖泊信息
+    timeline: null
+    mysteries:
+    - id: pansi_hidden_fortune
+      type: mystery
+      name: 潘西隐藏的财富
+      description: 潘西拥有大量洛克神水，但并未公开这一消息。
+- source: part_048_04.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 监察特使，拥有乾巫分部的特殊地位。
+      attributes:
+        实力: 封王级不朽神灵
+        身份: 乾巫分部监察特使
+        家庭成员: 徐欣、罗华
+    - id: 徐欣
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 罗峰的母亲，居住在地球。
+      attributes:
+        实力: 未知
+        关系: 罗峰母亲
+    - id: 布拿
+      type: Character
+      name: 布拿
+      aliases:
+      - 焚心侯
+      description: 封侯级不朽神灵，来地球挟持罗峰的家人。
+      attributes:
+        实力: 封侯级不朽神灵
+    - id: 魇烛王
+      type: Character
+      name: 魂烛王
+      aliases: []
+      description: 不朽神灵，与布拿同为来地球谈判的人物之一。
+      attributes:
+        实力: 封王级不朽神灵
+    - id: 罗氏家族
+      type: Organization
+      name: 罗氏家族
+      aliases: []
+      description: 拥有庞大人口和影响力的大家族，管理银河系。
+    - id: 虚拟宇宙公司
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 负责虚拟宇宙的运营。
+      attributes:
+        成员: 界主护卫
+    locations:
+    - id: 地球
+      type: Location
+      name: 地球
+      aliases:
+      - 欧亚大陆华夏国，扬州城
+      description: 罗峰及其家族成员居住的地方。
+    - id: 太阳系
+      type: Location
+      name: 太阳系
+      aliases: []
+      description: 包括地球、火星等行星在内的恒星系统。
+    relationships:
+    - entity1_id: 罗峰
+      entity2_id: 徐欣
+      type: 家庭关系
+      attributes:
+        关系类型: 母子
+    events:
+    - id: 布拿挟持徐欣
+      type: Event
+      name: 布拿挟持徐欣
+      description: 封侯级不朽神灵布拿来到地球，挟持了罗峰的母亲徐欣。
+      timeline:
+        发生时间: 文本描述中
+    dialogues:
+    - speaker_id: 不详的界主护卫
+      listener_id: 布拿
+      dialogue: 这里是乾巫分部监察特使‘罗峰’的住处，我等奉虚拟宇宙公司命令，为罗峰特使护卫军一员。不知道不朽……来我们这，所为何事？
+    - speaker_id: 布拿
+      listener_id: 不详的界主护卫
+      dialogue: 我要见罗峰。
+    timeline:
+    - 时间点: 文本描述中
+      事件: 布拿挟持徐欣
+    mysteries:
+    - id: 地球的秘密
+      type: Mystery
+      description: 罗峰疑惑地球到底有何特殊，而呼延博控制地球多年，并未透露地球的特别之处。
+- source: part_048_05.yaml
+  data:
+    source:
+      id: unknown
+    entities:
+    - id: rofe
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙中的天才，受到九剑尊者的重视。
+      attributes:
+        实力: 高级不朽神灵
+        性格: 勤奋聪明
+    - id: xieye
+      type: Character
+      name: 饕餮王（嗜血王）
+      aliases: []
+      description: 封王级别的宇宙强者，拥有强大的实力和世界戒指。
+      attributes:
+        实力: 封王级不朽神灵
+        性格: 强势
+    - id: yanzhu
+      type: Character
+      name: 魈烛王
+      aliases: []
+      description: 来自蚀火尊者家族，拥有强大的底牌。
+      attributes:
+        实力: 封王级不朽神灵
+        性格: 冷静自信
+    - id: dielen
+      type: Character
+      name: 迪伦
+      aliases: []
+      description: 罗峰的朋友和同伴，一同卷入战斗。
+      attributes:
+        实力: 不详
+        性格: 忠诚勇敢
+    - id: jiujian
+      type: Character
+      name: 九剑尊者
+      aliases: []
+      description: 虚拟宇宙中的重要人物，对罗峰极为重视。
+      attributes:
+        实力: 尊者级（高于封王）
+        性格: 威严
+    locations:
+    - id: earth
+      type: Location
+      name: 地球
+      description: 罗峰的家乡。
+    organizations:
+    - id: juafu
+      type: Organization
+      name: 巨斧斗武场
+      description: 九剑尊者麾下的组织，负责派遣力量保护罗峰。
+    items:
+    - id: shijiezhizhu
+      type: Item
+      name: 世界戒指
+      description: 能够将人收进世界的宝物。
+    abilities:
+    - id: linghuliansuo
+      type: Ability
+      name: 灵魂秘法
+      description: 可以穿透飞船阻碍，控制罗峰。
+    events:
+    - id: shizhitaojiu
+      type: Event
+      name: 施展灵魂秘法
+      description: 魈烛王命令使用灵魂秘法来对抗嗜血王。
+    dialogues:
+    - speaker: 嗜血王
+      text: 混蛋！
+    - speaker: 魇烛王
+      text: 我奉我父亲之命来地球，怎么可能就这么走掉？
+    timeline:
+    - event: 罗峰和迪伦被嗜血王抓进飞船。
+      time: 实时
+    mysteries:
+    - question: 嗜血王是否会成功将罗峰带走？

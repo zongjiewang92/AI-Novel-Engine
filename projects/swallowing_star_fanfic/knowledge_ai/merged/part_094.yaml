@@ -1,0 +1,378 @@
+part: part_094
+generated_time: '2026-07-23T15:46:34.873847'
+count: 5
+items:
+- source: part_094_01.yaml
+  data:
+    source:
+      id: 罗峰学习神眼秘术
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 法则之主，正在乌启楼第七层修炼《神眼秘术》。
+      attributes:
+        实力: 虚空真神顶峰
+        记忆: 得到了六卷神眼秘术
+    - id: 军士银河
+      type: Character
+      name: 军士银河
+      aliases: []
+      description: 罗峰，法则之主。
+      attributes:
+        实力: 虚空真神顶峰
+        记忆: 得到了六卷神眼秘术
+    - id: 魁梧统领
+      type: Character
+      name: 魁梧统领
+      aliases: []
+      description: 神王谷四大统领之一，负责监视罗峰的修炼过程。
+      attributes:
+        实力: 不详
+        记忆: 观察并记录了罗峰在乌启楼第七层的表现
+    - id: 黑雾统领
+      type: Character
+      name: 黑雾统领
+      aliases: []
+      description: 神王谷四大统领之一，负责监视罗峰的修炼过程。
+      attributes:
+        实力: 不详
+        记忆: 观察并记录了罗峰在乌启楼第七层的表现
+    - id: 银甲女子统领
+      type: Character
+      name: 银甲女子统领
+      aliases: []
+      description: 神王谷四大统领之一，负责监视罗峰的修炼过程。
+      attributes:
+        实力: 不详
+        记忆: 观察并记录了罗峰在乌启楼第七层的表现
+    relationships: null
+    events:
+    - id: 罗峰学习神眼秘术第五卷至第六卷
+      type: Event
+      description: 在乌启楼第七层，罗峰成功学习了《神眼秘术》前六卷。
+      timeline:
+        时间点: 不详
+    - id: 神王谷四大统领观察记录
+      type: Event
+      description: 四大统领通过屏幕监视并记录罗峰的修炼过程。
+      timeline:
+        时间点: 不详
+    locations:
+    - id: 乌启楼第七层
+      type: Location
+      name: 乌启楼第七层
+      description: 罗峰进行《神眼秘术》修炼的地方，通过意志力挑战极限。
+    abilities:
+    - id: 神眼秘术
+      type: Ability
+      name: 神眼秘术
+      description: 断东河一脉没有的神秘秘法，适合真神修炼。
+      attributes:
+        内容: 共七卷，罗峰得到六卷
+    mysteries:
+    - id: 罗峰能否成功完成乌启楼第八层挑战
+      type: Mystery
+      description: 神王谷四大统领对罗峰在乌启楼第八层的表现充满好奇。
+      timeline:
+        时间点: 不详
+- source: part_094_02.yaml
+  data:
+    source:
+      id: 第1420章罗峰和晋之神王（求票！）
+    entities:
+    - id: 罗峰
+      type: character
+      name: 罗峰
+      aliases: []
+      description: 法则之主，修炼纳引秘术并成功通过乌启楼考验。
+      attributes:
+        实力: 法则之主阶段
+        特殊能力: 修习纳引秘术与列元术
+    - id: 元
+      type: character
+      name: 元
+      aliases: []
+      description: 创造《列元术》的超级存在，逍遥自在不受任何势力束缚。
+      attributes:
+        实力: 超级存在级别
+    - id: 断东河
+      type: character
+      name: 断东河
+      aliases:
+      - 虚拟意识
+      description: 上任乌启楼的管理者。
+    relationships:
+    - 主体: 罗峰
+      客体: 元
+      关系类型: 师承关系（列元术传授者）
+    events:
+    - id: 成功通过乌启楼第八层考验
+      type: event
+      description: 罗峰成功修炼纳引秘术，通过了乌启楼的考验。
+      timeline: []
+    dialogues:
+    - 主体: 华美王袍男子
+      客体: 罗峰
+      内容: 既然来了,先坐。
+      情境: 在第九层相见时
+    mysteries:
+    - id: 元的真实身份和背景
+      type: mystery
+      description: 创造《列元术》的超级存在“元”背后的故事。
+- source: part_094_03.yaml
+  data:
+    source:
+      id: 第1423章紫月圣地的杀局
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，银河军士。正在研究乌启神并返回东军军营。
+      attributes:
+        实力: 尊者极限
+        身份: 军士、远古文明传承受益者
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 罗峰的老师之一，关心人类族群的未来。
+      attributes:
+        实力: 尊者
+    - id: 真衍尊者
+      type: Character
+      name: 真衍尊者
+      aliases: []
+      description: 罗峰最亲近的老师，不计回报喜欢罗峰如亲人一般。
+      attributes:
+        实力: 尊者
+    - id: 坐山客
+      type: Character
+      name: 坐山客
+      aliases: []
+      description: 另一老师，有着自己的计划和想法。
+      attributes:
+        实力: 不详
+    - id: 紫月始祖
+      type: Character
+      name: 紫月始祖
+      aliases: []
+      description: 紫月圣地的领袖，掌控着众多宇宙之主。
+      attributes:
+        实力: 宇宙之主级别
+    - id: 军士银河
+      type: Character
+      name: 军士银河
+      aliases:
+      - 罗峰
+      description: 蟒河军第一大队第六小队的队长，回到东军军营。
+      attributes:
+        实力: 尊者极限
+    - id: 承木
+      type: Character
+      name: 承木
+      aliases: []
+      description: 双面四臂男子，特殊军团的一员，渴望结交罗峰。
+      attributes:
+        实力: 宇宙之主级别
+    locations:
+    - id: 神王谷
+      type: Location
+      name: 神王谷
+      aliases: []
+      description: 罗峰之前前往的地方。
+    - id: 东军军营
+      type: Location
+      name: 东军军营
+      aliases: []
+      description: 军士银河回到的地点，位于蟒河军营地内。
+    organizations:
+    - id: 蟒河军第一大队第六小队
+      type: Organization
+      name: 蟒河军第一大队第六小队
+      aliases:
+      - 六小队
+      description: 罗峰所在的军队单位。
+    items:
+    - id: 乌启神
+      type: Item
+      name: 乌启神
+      aliases: []
+      description: 强大的机械装备，分为三层次。
+      attributes:
+        功能: 提供强大的战斗能力
+    abilities:
+    - id: 断灭第二卷
+      type: Ability
+      name: 断灭第二卷
+      aliases: []
+      description: 神体燃烧技巧，能迅速转化能量。
+    events:
+    - id: 军士银河返回军营
+      type: Event
+      name: 军士银河返回军营
+      aliases:
+      - 罗峰回东军
+      description: 罗峰回到蟒河军营地。
+    dialogues:
+    - speaker: 红脸军士
+      listener: 承木
+      content: 承木！你不是一直要找我们蟒河军那军士银河吗？他刚回军营了。
+      context: 红脸军士告诉承木罗峰已经回到军营的消息。
+    timeline:
+    - event_id: 军士银河返回军营
+      time: 第三个多月后
+    mysteries:
+    - id: 承木的计划
+      type: Mystery
+      name: 承木的计划
+      description: 紫月始祖命令承木等人行动，暗示将有针对罗峰的计划。
+- source: part_094_04.yaml
+  data:
+    source:
+      id: 第1426章一网打尽
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases:
+      - 银河
+      description: 晋之神王的继承人，封号强者。
+      attributes:
+        实力: 封号强者
+        身份: 晋之神王的继承人
+    - id: 雪邕将军
+      type: Character
+      name: 雪邕将军
+      aliases: []
+      description: 罗峰下属，负责处理罗峰交代的事情。
+      attributes:
+        实力: 虚空真神
+        关系: 听命于罗峰
+    - id: 承木
+      type: Character
+      name: 承木
+      aliases: []
+      description: 鹄后军中的一名法则之主，欲要杀害罗峰。
+      attributes:
+        实力: 法则之主
+        身份: 紫月圣地宇宙的成员
+    - id: 鹄后
+      type: Character
+      name: 鹄后
+      aliases: []
+      description: 晋国虚空真神，因不知罗峰身份而误伤。
+      attributes:
+        实力: 虚空真神
+    - id: 火琢午
+      type: Character
+      name: 火琢午
+      aliases: []
+      description: 晋国虚空真神，因不知罗峰身份而误伤。
+      attributes:
+        实力: 虚空真神
+    relationships:
+    - 主体: 雪邕将军
+      宾语: 罗峰
+      关系类型: 听命于
+      描述: 雪邕将军听命于罗峰，负责处理罗峰交代的事情。
+    - 主体: 承木
+      宾语: 晋之世界
+      关系类型: 敌对
+      描述: 承木代表紫月圣地宇宙与晋之世界的敌对关系。
+    events:
+    - 名称: 罗峰处理误伤事件
+      时间: 文中
+      地点: 晋国虚空军队驻地
+      关系人:
+      - 罗峰
+      - 雪邕将军
+      - 鹄后
+      - 火琢午
+      描述: 罗峰处理因误会而误伤的两名晋国虚空真神，并采取措施剥夺他们的一切军功和宝物，以示惩戒。
+    dialogues:
+    - 主体: 罗峰
+      宾语: 雪邕将军
+      对话内容: 你先问他们，他们为何到我这，对我下手。
+      描述: 罗峰指示雪邕将军询问两位虚空真神的原因。
+    - 主体: 火琢午
+      宾语: 鹄后
+      对话内容: 鹄后，你这次害苦我了。
+      描述: 火琢午因误伤罗峰而对鹄后表示愤怒和气愤。
+    timeline:
+    - 时间节点1: 文章开头
+      关系人: 罗峰, 雪邕将军
+      事件描述: 罗峰处理被两名虚空真神误伤的事件。
+    - 时间节点2: 文中
+      关系人: 火琢午、鹄后
+      事件描述: 火琢午和鹄后因误伤罗峰而接受惩罚，失去所有军功和宝物。
+    mysteries:
+    - 描述: 承木为何要刺杀罗峰？承木与紫月圣地宇宙的关系是什么？
+- source: part_094_05.yaml
+  data:
+    source:
+      id: 第1429章界兽（本篇终章）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 银河领主，人类宇宙之主。
+      attributes:
+        实力: 宇宙之主
+        身份: 鸿盟成员
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 宇宙之主，鸿盟重要成员。
+      attributes:
+        实力: 宇宙之主
+        身份: 鸿盟成员
+    - id: 庞然大物
+      type: Species
+      name: 庞然大物
+      aliases: []
+      description: 体内存在小型宇宙“晋之世界”的巨大生物。
+      attributes:
+        特性: 内部广阔，拥有通往小型宇宙的入口。
+    - id: 祖神教
+      type: Organization
+      name: 祖神教
+      aliases: []
+      description: 宇宙海中重要势力之一，由三位祖神领导。
+      attributes:
+        成员数量: 3 (祖神)
+    - id: 第三纪元
+      type: Civilization
+      name: 第三纪元
+      aliases: []
+      description: 原始宇宙时代的别称。
+    events:
+    - id: 庞然大物出现
+      type: Event
+      name: 庞然大物出现在宇宙海
+      attributes:
+        时间: 第三纪元时期
+        描述: 身体中存在小型宇宙“晋之世界”的巨大生物从宇宙深处飞来。
+    dialogues:
+    - id: 祖神教的宣告
+      type: Dialogue
+      speaker: 苍老祖神
+      text: 我等奉本源意志之令，是有一极重要事相告……诸位可知？这体内存有小型宇宙‘晋之世界’的庞然大物为何会突然出现在宇宙海?
+      attributes:
+        时间: 庞然大物出现时
+        场景: 宇宙海各大势力集结地
+    timeline:
+    - id: 第三纪元开始
+      type: Timeline
+      name: 第三纪元时代的到来
+      description: 原始宇宙时代，又称为第三纪元。
+    mysteries:
+    - id: 界兽的威胁
+      type: Mystery
+      name: 界兽的存在及其威胁
+      attributes:
+        描述: 祖神教宣布界兽为毁灭万物的存在，暗示即将来临的巨大灾难。

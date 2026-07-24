@@ -1,0 +1,331 @@
+part: part_036
+generated_time: '2026-07-23T15:46:34.147569'
+count: 5
+items:
+- source: part_036_01.yaml
+  data:
+    source:
+      id: 1
+    entities:
+    - id: 1
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有极高的空间天赋，通过了通天桥第六层，正在尝试闯幻境海第十座岛屿。
+      attributes:
+        实力: 虚空级强者
+        天赋: 高超的空间参悟能力
+    - id: 2
+      type: Character
+      name: 伯兰
+      aliases: []
+      description: 在空间本源法则上有着极高的成就，但因过于骄傲，在尝试通过通天桥第七层时失败。
+      attributes:
+        实力: 虚空级强者
+        天赋: 极强的空间天赋，但在时间参悟上有缺陷
+    - id: 3
+      type: Location
+      name: 雨相山
+      aliases: []
+      description: 幻境海位面的一部分，环境宁静。
+      attributes: null
+    - id: 4
+      type: Location
+      name: 黑龙山岛屿九星湾
+      aliases: []
+      description: 罗峰与家人团聚的地方。
+      attributes: null
+    relationships:
+    - entity1_id: 1
+      entity2_id: 2
+      relationship_type: 竞争关系
+    events:
+    - id: 5
+      type: Event
+      name: 罗峰通过通天桥第六层
+      description: 罗峰成功通过了通天桥的第六层，获得3200积分。
+      timeline: 短短两年多内通过通天桥第六层
+    - id: 6
+      type: Event
+      name: 伯兰尝试通过通天桥第七层失败
+      description: 在挑战通天桥第七层时，因为时间参悟上的缺陷而失败。
+      timeline: 最近一次尝试
+    dialogues:
+    - speaker_id: 1
+      listener_id: ''
+      dialogue_content: 融合第二颗血洛晶成功，悟透第12种玄妙，现在又闯过通天桥第六层。我还真是鸿运当头。
+      context: 刚通过通天桥第六层后的感想
+    timeline:
+    - event_id: 5
+      time: 最近两年内
+    - event_id: 6
+      time: 最近一次尝试
+    mysteries:
+    - id: 7
+      type: Mystery
+      description: 罗峰是否能通过幻境海第十座岛屿，获得五万多积分。
+- source: part_036_02.yaml
+  data:
+    source:
+      id: 文本
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 地球人，实力云霄级，击杀了一头域主一阶的血魔。
+      attributes:
+        实力: 云霄级
+        特殊能力: 法则感悟强
+    - id: 阿一
+      type: Character
+      name: 阿一
+      aliases: []
+      description: 血神卫队长，界主级实力。
+      attributes:
+        身份: 血神卫队长
+        实力: 界主级
+    - id: 古神废墟
+      type: Location
+      name: 古神废墟
+      aliases: []
+      description: 血洛大陆最古老莫测的地方，充满危险。
+      attributes:
+        危险程度: 极高
+        特别区域: 漩涡
+    - id: 巨坑深渊
+      type: Location
+      name: 巨坑深渊
+      aliases: []
+      description: 古神废墟中的一个巨大坑洞，内部充满煞气。
+      attributes:
+        危险程度: 极高
+        煞气浓度: 非常浓
+    - id: 血洛大陆
+      type: Location
+      name: 血洛大陆
+      aliases: []
+      description: 宇宙中的一个星球，古神废墟所在地。
+      attributes: null
+    - id: 智能光脑
+      type: Item
+      name: 智能光脑
+      aliases: []
+      description: 管理整个宫殿的智能系统。
+      attributes:
+        来源: 古神废墟一战中从天外族人那得到的技术
+    relationships:
+    - id: 罗峰-阿一
+      type: 指导关系
+      entities:
+      - 罗峰
+      - 阿一
+      description: 阿一指导罗峰熟悉血神卫的居所和宫殿规则。
+    events:
+    - id: 古神废墟探索警告
+      type: Event
+      name: 古神废墟探索警告
+      description: 血神卫队长阿一向新成员罗峰提醒古神废墟中的危险。
+      timeline:
+        时间: 尚未具体说明
+    dialogues:
+    - id: 阿一介绍古神废墟
+      type: Dialogue
+      participants:
+      - 罗峰
+      - 阿一
+      content: 古神废墟是血洛大陆最古老莫测的地方，充满危险。阿一向罗峰详细介绍了其中的漩涡区域和煞气浓度过高的地方。
+    - id: 关于智能光脑
+      type: Dialogue
+      participants:
+      - 罗峰
+      - 阿一
+      content: 智能光脑是古神废墟战斗中从天外族人处获取的技术，非常珍贵。阿一向罗峰解释了它的用途。
+    timeline: null
+    mysteries:
+    - id: 古神废墟的危险性
+      type: Mystery
+      description: 古神废墟中还有许多未知危险地点，未被发现。
+- source: part_036_03.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 黑衣罗峰
+      type: Character
+      name: 罗峰
+      aliases:
+      - 地球人本尊
+      description: 身穿黑衣的神秘人物，擅长使用分身技巧与空间暗杀流。
+      attributes:
+        实力: 强大
+        性格: 冷静
+    - id: 金角巨兽
+      type: Species
+      name: 金角巨兽
+      aliases: []
+      description: 高大的生物，拥有利爪和强大的力量。通过融合血洛晶获得更加强大的能力。
+      attributes:
+        实力: 强大
+        能力: 物质构成变化、对宇宙本源法则的感应增强
+    relationships:
+    - id: 黑衣罗峰与金角巨兽
+      type: 关系
+      description: 罗峰通过操控金角巨兽，利用其强大的力量和能力进行战斗。
+    items:
+    - id: 血洛晶
+      type: Item
+      name: 血洛晶
+      attributes:
+        功能: 提升融合者的宇宙法则感知、增强战斗力、改变物质构成
+    events:
+    - id: 金角巨兽融合血洛晶
+      type: Event
+      description: 金角巨兽通过不断融合血洛晶获得强大的力量和能力。融合十颗血洛晶后，其右蹄爪的力量可以媲美之前全身的力量。
+    dialogues:
+    - speaker: 罗峰
+      content: 真不知道，这血洛晶到底是怎么产生的。
+    - speaker: 黑衣罗峰
+      content: 幸好我这血洛晶足够的多，那神殿特使供应给我十颗血洛晶，否则金角巨兽还没办法融合十颗血洛晶。
+    timeline:
+    - 时间点1: 开始融合血洛晶的时刻
+      描述: 黑衣罗峰开始操控金角巨兽进行血洛晶融合。
+    - 时间点2: 融合十颗血洛晶后的变化
+      描述: 金角巨兽在完成十颗血洛晶融合后，右蹄爪的力量和能力显著增强。
+    mysteries:
+    - id: 血洛晶的来源
+      type: Mystery
+      description: 文中提到黑衣罗峰不知道血洛晶是如何产生的。
+- source: part_036_04.yaml
+  data:
+    source:
+      id: 文本内容
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: 黑衣罗峰, 金角巨兽
+      description: 主人公，实力强大，融合大量血洛晶。三个分身分别为地球人本尊、魔杀族分身和金角巨兽。
+      attributes:
+      - 实力: 能够抵抗界主的攻击，并且在血洛世界中不断修炼提高自己实力
+      - 特性: 通过《飘血秘典》《时空随笔》研究九宇混沌碑《细雨图》，磨砺自我心境，融合大量血洛晶提升金角巨兽实力
+    - id: 恶魔巴巴塔
+      type: Character
+      name: 恶魔巴巴塔
+      aliases: null
+      description: 罗峰的辅助机械生命体，提供指导和建议。
+      attributes:
+      - 功能: 提供战斗策略、修炼方法等建议
+    - id: 魔杀族分身
+      type: Character
+      name: 魔杀族分身
+      aliases: null
+      description: 罗峰的一个分身，通过不断狩猎提升实力。
+      attributes:
+      - 实力: 在血洛世界中进行血腥杀戮磨练意志和战斗技巧
+    - id: 地球人本尊
+      type: Character
+      name: 地球人本尊
+      aliases: null
+      description: 罗峰的地球身份，通过听不朽们讲课提升自己。
+      attributes:
+      - 实力: 在煞气环境中不断改善自身身体和心境
+    - id: 城主府城主
+      type: Character
+      name: 领地主城城主
+      aliases: null
+      description: 血洛大陆中的一名界主，因儿子被杀而愤怒。
+      attributes:
+      - 实力: 界主级别的实力
+    relationships: null
+    events:
+    - id: 融合血洛晶
+      type: Event
+      name: 融合血洛晶
+      description: 罗峰的金角巨兽融合大量血洛晶，提升自身战斗能力。
+      timeline: 漫长岁月中不断完善自己
+    - id: 血杀之旅
+      type: Event
+      name: 魔杀族分身狩猎之旅
+      description: 魔杀族分身在血洛世界进行血腥杀戮磨练内心。
+    - id: 破坏领地主城
+      type: Event
+      name: 黑衣罗峰袭击城主府
+      description: 愤怒的黑衣罗峰发现有人敢杀害他的孩子，于是展开报复行动。
+      timeline: 三十年后
+    dialogues:
+    - id: 融合血洛晶对话
+      type: Dialogue
+      name: 罗峰与恶魔巴巴塔关于融合血洛晶的讨论
+      content: '恶魔巴巴塔：罗峰，你别太在乎。随着你意志的提高，以后还能融合的。
+
+        黑衣罗峰：我不是不在乎这个。
+
+        '
+    timeline:
+    - id: 三十年后
+      description: 罗峰在血洛世界中修炼了三十年时间
+    mysteries:
+    - id: 血洛晶特殊功效
+      type: Mystery
+      name: 融合100颗血洛晶后的特殊效果
+      description: 融合第100颗血洛晶后，罗峰相信会有特殊的功效显现。
+- source: part_036_05.yaml
+  data:
+    source:
+      id: 罗峰的宇宙之旅-第540章
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 地球人，拥有金角巨兽分身。
+      attributes:
+        实力: 不朽之前的最高境界
+        年龄: 成年
+        性格: 专注、谨慎
+    - id: 金色光线
+      type: Ability
+      name: 金色光线
+      aliases: []
+      description: 来自煞气漩涡核心的神秘光线，能加速身体细胞改造。
+    - id: 血洛晶
+      type: Item
+      name: 血洛晶
+      aliases: []
+      description: 硬如金属、血红颜色的晶体，拥有特殊效果。
+    locations:
+    - id: 恶魔城堡
+      type: Location
+      name: 恶魔城堡
+      aliases:
+      - 恶魔城堡
+      description: 巨坑之府所在的地方。
+    - id: 煞气漩涡核心
+      type: Location
+      name: 煞气漩涡核心
+      aliases: []
+      description: 隐藏着金色光线的神秘地方。
+    abilities:
+    - id: 法则秘纹
+      type: Ability
+      name: 法则秘纹
+      aliases:
+      - 法则秘纹
+      description: 复杂且深奥的空间法则相关能力。
+    items:
+    - id: 撕天一爪
+      type: Ability
+      name: 撕天一爪
+      aliases: []
+      description: 远古图影中展现的强力招式。
+    timeline:
+      events:
+      - 时间: 不详
+        描述: 罗峰在煞气漩涡核心内受到金色光线照射，身体改造加速。
+    mysteries:
+    - id: 金色光线的秘密
+      type: Mystery
+      description: 关于金色光线的来源及作用仍是一个谜。
+    dialogues: null
+    relationships: null

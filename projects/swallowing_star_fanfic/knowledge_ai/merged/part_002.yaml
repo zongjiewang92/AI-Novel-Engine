@@ -1,0 +1,377 @@
+part: part_002
+generated_time: '2026-07-23T15:46:33.709647'
+count: 5
+items:
+- source: part_002_01.yaml
+  data:
+    source:
+      id: origin_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '从小有奇怪头疼病，高考时发作过。在军人疗养小区中觉醒神秘力量。
+
+        '
+      attributes:
+        实力: 强大的精神念师能力（尚未确认）
+        性格: 警惕、好奇
+    - id: 中年人
+      type: Character
+      name: 中年人
+      aliases: []
+      description: '军队的中层领导，下达命令处理罗峰事件。
+
+        '
+      attributes:
+        身份: 军人疗养小区主管军官
+    relationships:
+    - 主体: 罗峰
+      关系类型: 处理方式
+      客体: 中年人
+      描述: '罗峰因为突发疾病被送至军队疗养区，中年人指示将其妥善安置并道歉。
+
+        '
+    events:
+    - id: 突发头疼病事件
+      type: Event
+      description: '罗峰在考试时突然发作头痛病，并因此触发了神秘力量觉醒。
+
+        '
+      timeline: 深夜
+    - id: 力量测试与发现
+      type: Event
+      description: '罗峰发现自己能隔空控制物体，进行了一系列实验并确认自身能力的强度。
+
+        '
+    dialogues:
+    - 主体: 军官
+      客体: 中年人
+      对话内容: '"罗峰从小就有奇怪头疼病，他高考时就发作过，刚刚又发病了。不过现在已经恢复正常，正在医务室中，还处于昏迷状态中。"
+
+        '
+    timeline:
+    - 时间点: 深夜
+      描述: 罗峰在军队疗养区宿舍内觉醒并测试自身神秘力量。
+    mysteries:
+    - id: 精神念力确认
+      type: Mystery
+      description: '罗峰怀疑自己获得了精神念师的能力，但尚未得到最终确认。
+
+        '
+- source: part_002_02.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 武者，性格冷静沉着。
+      attributes:
+        身份: 主角,武者
+        关系: 弟弟罗华,父母
+    - id: 周华阳
+      type: Character
+      name: 周华阳
+      aliases: []
+      description: 社会上人脉广，中间人角色。
+      attributes:
+        身份: 中间人
+        关系: 罗峰(向罗峰道歉并送钱)
+    - id: 南岸小区
+      type: Location
+      name: 南岸小区
+      aliases: []
+      description: 小区位置
+    - id: 扬州浴馆
+      type: Location
+      name: 扬州浴馆
+      aliases: []
+      description: 提供泡澡、休闲娱乐服务的场所，消费较高。
+    - id: 张昊白
+      type: Character
+      name: 张昊白
+      aliases: []
+      description: 罗峰的主要对手。
+      attributes:
+        关系: 周华阳(委托周华阳对付罗峰)
+    relationships:
+    - 主体: 罗峰
+      宾语: 周华阳
+      类型: 对话
+    events:
+    - 名称: 道歉与赔偿
+      时间: 不详
+      描述: 周华阳向罗峰道歉并送100万支票。
+    dialogues:
+    - 主体: 罗哥(周华阳)
+      宾语: 罗峰
+      内容: 罗哥，喝茶。这是小弟的一点意思，希望罗哥能收下。
+    timeline: null
+    mysteries:
+    - 内容: 张昊白对罗峰的敌意来源。
+- source: part_002_03.yaml
+  data:
+    source:
+      id: 第26章诸葛韬
+    entities:
+    - id: 江年
+      type: Character
+      name: 江年
+      aliases: []
+      description: 极限武馆的教官，对罗峰进行考核。
+      attributes:
+        身份: 教官
+        性格: 尊重上级
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 极限武馆的新学员，正在接受考核。
+      attributes:
+        实力: 中级战士级
+    - id: 白伯
+      type: Character
+      name: 白伯
+      aliases: []
+      description: 江年见到的高级别人物。
+      attributes:
+        身份: 主管身边的助手
+    - id: 主管
+      type: Character
+      name: 主管
+      aliases:
+      - 唐装中年人
+      description: 极限总会馆的重要领导。
+      attributes:
+        身份: 管理者
+        实力: 高
+        性格: 温和
+    relationships:
+    - id: 江年_白伯
+      type: 尊敬
+      description: 教官江年对白伯非常恭敬。
+    - id: 白伯_主管
+      type: 听从命令
+      description: 白伯听从主管的指示进行考核。
+    events:
+    - id: 罗峰接受考核
+      type: 考核
+      description: 罗峰在扬州城极限武馆总部大楼内进行实力测试。
+      timeline: 在罗峰进入二楼大厅后，开始进行测试前的准备工作。
+    dialogues:
+    - speaker: 江年
+      listener: 白伯
+      content: 是的，主管。
+      context: 答应白伯对罗峰的实力进行审核。
+    timeline:
+    - 时间点: 刚进入二楼大厅时
+      描述: 教官江年带着罗峰到达扬州城极限武馆总部大楼内的考核场地。
+    - 时间点: 开始准备测试前
+      描述: 拍摄设备开启，准备对罗峰进行实力检测。
+    mysteries:
+    - id: 主管身份
+      type: 身份不明
+      description: 对主管的具体职位和职责仍不清楚。
+- source: part_002_04.yaml
+  data:
+    source:
+      id: 第29章怪兽小镇
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 提前被极限武馆招募的准武者，实力较强。
+      attributes:
+        年龄: 不详
+        性格: 沉稳
+        身份: 准武者
+    - id: 邬通
+      type: Character
+      name: 邬通
+      aliases: []
+      description: 扬州极限会馆的总教官，与罗峰关系亲近。
+      attributes:
+        年龄: 不详
+        身份: 总教官
+    - id: 诸葛韬
+      type: Character
+      name: 诸葛韬
+      aliases: []
+      description: 江南市极限会馆四大巨头之一，与罗峰有对话。
+      attributes:
+        年龄: 不详
+        身份: 极限会馆巨头
+    - id: 魏冬
+      type: Character
+      name: 万冬
+      aliases: []
+      description: 竞争对手，来自雷电武馆的准武者。
+      attributes:
+        年龄: 不详
+        身份: 准武者
+    - id: 马晓
+      type: Character
+      name: 马晓
+      aliases: []
+      description: 竞争对手，来自雷电武馆的准武者。
+      attributes:
+        年龄: 不详
+        身份: 准武者
+    - id: 江南市北军区
+      type: Location
+      name: 江南市北军区
+      aliases: []
+      description: 武者实战考核的举办地。
+      attributes:
+        地点类型: 军事区域
+    organizations:
+    - id: 极限武馆
+      type: Organization
+      name: 极限武馆
+      aliases: []
+      description: 提前招募罗峰等准武者的武馆。
+      attributes:
+        类型: 武馆
+    - id: 雷电武馆
+      type: Organization
+      name: 雷电武馆
+      aliases: []
+      description: 竞争对手所属的武馆，提前招募两名优秀准武者。
+      attributes:
+        类型: 武馆
+    items:
+    - id: 血影战刀2系
+      type: Item
+      name: 血影战刀2系
+      aliases: []
+      description: 准武者的战斗装备之一。
+      attributes:
+        材料: 克罗合金等特殊材料
+        类型: 武器
+    - id: 六棱盾牌
+      type: Item
+      name: 六棱盾牌
+      aliases: []
+      description: 准武者使用的防护性装备。
+      attributes:
+        材料: 不详
+        类型: 盾牌
+    dialogues:
+    - speaker: 邬通
+      content: 罗峰，跟我来。
+      context: 招呼罗峰到小楼二层集合。
+    - speaker: 罗峰
+      content: 去，去，去。
+      context: 对雷电武馆魁梧大汉的玩笑话表示不满。
+    timeline:
+      events:
+      - event_id: 实战考核装备领取
+        description: 准武者们领取作战服和兵器等实战装备。
+        time: 下午时分
+      - event_id: 汇聚小镇外围
+        description: 所有准武者在军人带领下到达一座小镇的外围，准备进行实战考核。
+        time: 傍晚时分
+    mysteries:
+    - mystery_id: 阴沉青年挑战
+      content: 你有没有胆子比一比？今天晚上的武者实战考核，你我积分谁能获得第一！
+      context: 来自雷电武馆的万冬对罗峰发出挑衅。
+    relationships:
+    - id: 罗峰_邬通
+      type: 关系
+      description: 邬通是扬州极限会馆总教官，与罗峰关系亲近。
+    - id: 罗峰_诸葛韬
+      type: 关系
+      description: 诸葛韬是江南市极限会馆四大巨头之一，对罗峰评价较高。
+- source: part_002_05.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: rofei_18
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 一名普通人家出身的武者，18岁就通过了实战考核。家庭背景一般，父亲是装饰工人，母亲在超市工作。
+      attributes:
+        年龄: 18
+        家庭情况: 普通人家
+        实力: 武者（战士级）
+        关系: 杨武的朋友
+    - id: yangwu_20
+      type: Character
+      name: 杨武
+      aliases: []
+      description: 罗峰的朋友，同样通过了实战考核。身体素质强。
+      attributes:
+        年龄: 不详（比罗峰年长）
+        实力: 武者
+        关系: 罗峰的朋友
+    - id: wanding_18
+      type: Character
+      name: 万冬
+      aliases: []
+      description: 提前被招募的天才准武者，通过实战考核。身体素质强。
+      attributes:
+        年龄: 不详（和罗峰同批次）
+        实力: 武者
+        关系: 罗峰的竞争者
+    - id: wangheng_50
+      type: Character
+      name: 王衡
+      aliases: []
+      description: 雷电武馆江南基地市的主管，雷电总会馆的主管。地位相当于战神级强者。
+      attributes:
+        年龄: 不详（估计在50岁以上）
+        身份: 主管
+        实力: 高级别战神
+    - id: leidianwuguan_2018
+      type: Organization
+      name: 雷电武馆
+      aliases: []
+      description: 提前招募准武者，为罗峰提供特等培训合同。
+      attributes:
+        地点: 江南基地市
+    - id: jiangnanjiedishe_2018
+      type: Location
+      name: 江南基地市
+      aliases: []
+      description: 罗峰和杨武进行实战考核的地方，是雷电武馆所在的城市。
+    relationships:
+    - source_id: rofei_18
+      target_id: yangwu_20
+      type: 友谊关系
+    - source_id: rofei_18
+      target_id: wanding_18
+      type: 竞争关系
+    - source_id: leidianwuguan_2018
+      target_id: wangheng_50
+      type: 上下级关系
+    events:
+    - id: shizhandakuang_2018
+      name: 实战考核
+      description: 罗峰、杨武和万冬参加的实战考核，通过后成为真正的武者。
+      timeline: 某年夏天
+    dialogues:
+    - speaker_id: wangheng_50
+      listener_id: rofei_18
+      content: 我叫王衡，雷电总会馆的主管。罗峰，坐。
+      context: 王衡邀请罗峰加入雷电武馆，并提供优厚待遇。
+    - speaker_id: wangheng_50
+      listener_id: rofei_18
+      content: 我很欣赏你，我也认为你非常有前途。正式邀请罗峰你，加入我雷电武馆！
+      context: 王衡提出希望罗峰加入雷电武馆，并愿意支付违约金。
+    - speaker_id: rofei_18
+      listener_id: wangheng_50
+      content: 我已经和极限武馆签了合同。
+      context: 罗峰已经与极限武馆签订合同，因此犹豫是否加入雷电武馆。
+    timeline:
+    - event_id: shizhandakuang_2018
+      date: 某年夏天
+    mysteries:
+    - id: rofei_jiaxiao
+      content: 罗峰的家庭背景和教育经历未详细说明。

@@ -1,0 +1,435 @@
+part: part_082
+generated_time: '2026-07-23T15:46:34.719295'
+count: 5
+items:
+- source: part_082_01.yaml
+  data:
+    source:
+      id: 文本来源ID
+    entities:
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 罗峰的老师，宇宙之主级别的强者。
+      attributes:
+        实力: 宇宙之主
+        特殊身份: 原祖的学生、罗峰的老师
+    - id: 巨斧
+      type: Character
+      name: 巨斧
+      aliases: []
+      description: 罗峰的老师之一，宇宙之主级别的强者。
+      attributes:
+        实力: 宇宙之主
+        特殊身份: 混沌城主的朋友
+    - id: 坐山客
+      type: Character
+      name: 坐山客
+      aliases: []
+      description: 罗峰的老师之一，宇宙之主级别的强者。
+      attributes:
+        实力: 宇宙之主
+        特殊身份: 混沌城主的朋友
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，宇宙尊者级别的强者。
+      attributes:
+        实力: 宇宙尊者（秘纹图流派已达到宇宙之主水平）
+        特殊身份: 混沌城主和巨斧的学生
+    - id: 隐秘空间
+      type: Location
+      name: 隐秘空间
+      aliases: []
+      description: 罗峰曾经在此地看到古老存在最强绝学的遗迹。
+      attributes:
+        地点类型: 秘境
+        特殊性: 存在高深秘纹图
+    - id: 黑纹石柱空间
+      type: Location
+      name: 黑纹石柱空间
+      aliases: []
+      description: 宇宙舟内域的天然遗迹之一，由16根黑纹石柱撑起。
+      attributes:
+        地点类型: 遗迹
+        特殊性: 有极深奥黑色秘纹图分布
+    organizations:
+    - id: 鸿盟
+      type: Organization
+      name: 鸿盟
+      aliases: []
+      description: 文中提及的一个组织。
+      attributes:
+        类型: 组织
+    items:
+    - id: 疯魔灭神甲
+      type: Item
+      name: 疯魔灭神甲
+      aliases:
+      - 宝甲
+      description: 罗峰拥有的仅次于至强至宝的防御性宝物。
+      attributes:
+        类型: 宝物
+        功能: 防御和进攻
+    - id: 雪火界
+      type: Item
+      name: 雪火界
+      aliases: []
+      description: 罗峰在此次宇宙舟闯荡中获得的顶级领域类至宝。
+      attributes:
+        类型: 宝物
+        功能: 属于领域类至宝，有特殊防御和攻击能力
+    abilities:
+    - id: 秘纹图流派
+      type: Ability
+      name: 秘纹图流派
+      aliases: []
+      description: 罗峰擅长的秘法体系。
+      attributes:
+        类型: 秘法
+        特殊性: 达到宇宙之主水平
+    - id: 裂金
+      type: Ability
+      name: 裂金
+      aliases:
+      - 裂金之主
+      description: 罗峰所创的秘法，属于攻击类最强秘法。
+      attributes:
+        类型: 秘法
+        功能: 攻击
+    - id: 灭神
+      type: Ability
+      name: 灭神
+      aliases: []
+      description: 疯魔灭神甲右手第三重秘纹的名称，属于最强招数。
+      attributes:
+        类型: 秘法
+        功能: 攻击
+    events:
+    - id: 波星海一役
+      type: Event
+      name: 波星海一役
+      aliases: []
+      description: 罗峰在此战斗中突破，实力大增。
+      attributes:
+        时间节点: 文章提及的重要转折点
+        类型: 战斗
+    dialogues:
+    - id: 1
+      type: Dialogue
+      speaker: 混沌城主
+      listener: 罗峰
+      content: 我知道你自己有打算，刚失了银翼至宝，又多了另一件仅次于至强至宝的宝甲。明明才是宇宙尊者，在秘纹图流方面却已是宇宙之主造诣。
+      context: 混沌城主对罗峰的实力和进步表示认可，并给予建议。
+    timeline:
+    - id: 罗峰进入宇宙舟
+      type: Timeline
+      description: 罗峰进入宇宙舟，开始闯荡。
+      attributes:
+        时间节点: 文章开头提及的时间点
+    mysteries:
+    - id: 1
+      type: Mystery
+      description: 黑纹石柱空间内是否有可以利用的资源和秘法？
+- source: part_082_02.yaml
+  data:
+    source:
+      id: 文本1
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 四阶顶级强者，能够轻易抵挡灵魂攻击的宇宙之主。
+      attributes:
+        实力: 四阶顶级
+        能力: 拥有疯魔灭神甲和星辰塔双重防御
+    - id: 净眼之主
+      type: Character
+      name: 净眼之主
+      aliases: []
+      description: 强大的宇宙之主，擅长灵魂攻击。
+      attributes:
+        实力: 宇宙之主
+        能力: 使用领域类至宝进行压制
+    - id: 星辰塔
+      type: Item
+      name: 星辰塔
+      aliases: []
+      description: 强大的防御性至宝，能够抵挡净眼之主的灵魂攻击。
+      attributes:
+        功能: 防御灵魂攻击
+    - id: 疯魔灭神甲
+      type: Item
+      name: 疯魔灭神甲
+      aliases: []
+      description: 强大的防御性至宝，能够抵挡净眼之主的灵魂攻击。
+      attributes:
+        功能: 防御灵魂攻击
+    - id: 黑纹石柱空间
+      type: Location
+      name: 黑纹石柱空间
+      aliases: []
+      description: 包含16根黑纹石柱的广袤奇异的空间，拥有众多宇宙之主的秘密空间密室。
+      attributes:
+        特点: 宇宙之主的秘密空间
+    - id: 空间密室
+      type: Location
+      name: 空间密室
+      aliases: []
+      description: 只有持有黑色信物的宇宙之主才能进入的空间，极为安全。
+      attributes:
+        特点: 绝对的安全性
+    - id: 宇宙舟内域
+      type: Location
+      name: 宇宙舟内域
+      aliases: []
+      description: 浩瀚无垠的茫茫雪地区域，宇宙之主们进行观察的地方。
+      attributes:
+        特点: 极端危险
+    - id: 五浑之主
+      type: Character
+      name: 五浑之主
+      aliases: []
+      description: 强大的宇宙之主，对罗峰感到烦恼。
+      attributes:
+        实力: 宇宙之主
+    - id: 安永之主
+      type: Character
+      name: 安永之母
+      aliases: []
+      description: 和五浑之主一起寻找空间密室的宇宙之主。
+      attributes:
+        实力: 宇宙之主
+    relationships: null
+    events:
+    - id: 罗峰与净眼之主战斗
+      type: Event
+      name: 罗峰与净眼之主战斗
+      description: 罗峰轻松抵挡住净眼之主的灵魂攻击，并在近战中占据优势。
+      timeline:
+        时间: 未明确给出
+    dialogues:
+    - id: 对话1
+      type: Dialogue
+      content: 你怎么挡住我的灵魂攻击的？
+      speaker: 净眼之主
+      responder: 罗峰轻声一笑。
+    timeline: null
+    mysteries:
+    - id: 王者空间密室的秘密
+      type: Mystery
+      description: 黑色信物的空间密室内究竟留下了什么秘密。
+- source: part_082_03.yaml
+  data:
+    source:
+      id: unknown
+    entities:
+    - id: rofei
+      type: character
+      name: 罗峰
+      aliases: []
+      description: 拥有星辰塔，实力能媲美冰峰之主。幽海分身驻扎银河系，神力化身参悟秘纹。
+      attributes:
+        strength: 宇宙最强者级别
+        possessions: 星辰塔
+    - id: hundunsheyushi
+      type: character
+      name: 混沌城主
+      aliases: []
+      description: 罗峰的老师，实力接近宇宙最强者。
+      attributes:
+        strength: 接近宇宙最强者级别
+    relationships:
+    - from: rofei
+      to: hundunsheyushi
+      type: 师徒关系
+    events:
+    - id: huangdazhiqianliu
+      name: 黄达之气流变化
+      description: 混沌城主突破后，周围混沌气流发生变化。
+    - id: xinwujiuditu
+      name: 新无极地图的发现和分享
+      description: 罗峰在宇宙舟内域中发现了三大绝地的新地图，并与老师分享。
+    dialogues:
+    - speaker: rofei
+      listener: hundunsheyushi
+      content: 恭喜老师。
+    - speaker: hundunsheyushi
+      listener: rofei
+      content: 只是稍有些突破，可离宇宙最强者却还差一些。
+    - speaker: rofei
+      listener: hundunsheyushi
+      content: 弟子在宇宙舟内域，走了大运，发现了一黑色信物。之后抵达黑纹石柱空间，进入了那黑色信物所对应的密室独立空间，在那独立空间中发现了那地图。
+    - speaker: hundunsheyushi
+      listener: rofei
+      content: 罗峰，你这地图哪里来？这价值无量的地图，没谁会乱放的，而且没足够实力，也不敢带在身边吧。
+    timeline:
+    - event: huangdazhiqianliu
+      time: 最近一次
+    mysteries:
+    - id: xinwuditu
+      description: 罗峰是如何得到如此详细且珍贵的地图的？
+- source: part_082_04.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 银河领主，实力强大，在墓陵之舟争夺中紧跟鹿虫之主。
+      attributes:
+        实力: 五阶宇宙之主
+    - id: 鹿虫之主
+      type: Character
+      name: 鹿虫之主
+      aliases: []
+      description: 携带至强至宝，化身异兽鹿虫，速度和战斗力极强。
+      attributes:
+        实力: 五阶宇宙之主
+    - id: 影埃之主
+      type: Character
+      name: 影埃之主
+      aliases: []
+      description: 神眼族成员，在墓陵之舟争夺中参与围攻鹿虫之主。
+      attributes:
+        实力: 四阶或五阶宇宙之主
+    - id: 巫魉之主
+      type: Character
+      name: 巫魉之主
+      aliases: []
+      description: 神眼族成员，在墓陵之舟争夺中参与围攻鹿虫之主。
+      attributes:
+        实力: 四阶或五阶宇宙之主
+    - id: 琉玖之主
+      type: Character
+      name: 琉玖之主
+      aliases: []
+      description: 第一祖神教成员，在墓陵之舟争夺中参与围攻鹿虫之主。
+      attributes:
+        实力: 四阶或五阶宇宙之主
+    - id: 唬海之主
+      type: Character
+      name: 唥海之主
+      aliases: []
+      description: 骸族成员，在墓陵之舟争夺中参与围攻鹿虫之主。
+      attributes:
+        实力: 四阶或五阶宇宙之主
+    - id: 棺陵之舟
+      type: Location
+      name: 墓陵之舟
+      aliases: []
+      description: 内部结构复杂，藏有宝物。
+    relationships: null
+    events:
+    - id: 鹿虫之主打开墓陵之舟通道
+      type: Event
+      description: 鹿虫之主借助至强至宝力量破开了通往控制核心的通道。
+      timeline: []
+    dialogues:
+    - speaker: 罗峰
+      content: 后悔，有胆尽管进攻我！
+      context: 在鹿虫之主和其他势力争夺时，罗峰对其他势力说。
+    - speaker: 鹿虫之主
+      content: 银河，随我来。
+      context: 招呼跟随自己前进的罗峰。
+    - speaker: 琉玖之主
+      content: 鹿虫才是最危险的，唳海之主你这个白痴，你还分心去攻击银河？那银河对这根本什么都不懂，关键奥秘，鹿虫又岂会告诉他？
+      context: 对骸族成员进行责备。
+    timeline: null
+    mysteries:
+    - id: 墓陵之舟内部结构
+      type: Mystery
+      description: 墓陵之舟内部布局复杂，如何找到控制核心尚不清楚。
+- source: part_082_05.yaml
+  data:
+    source:
+      id: 原文
+    entities:
+    - id: 断东河
+      type: Character
+      name: 断东河
+      aliases: []
+      description: 第一轮回时代的宇宙之主，性格冰冷。拥有能够筛选继承者的神秘魔方仪器。
+      attributes:
+        实力: 强大
+        性格: 冷漠
+    - id: 鹿虫之主
+      type: Character
+      name: 鹿虫之主
+      aliases: []
+      description: 第一轮回时代的宇宙之主，通过了断东河的筛选。
+      attributes:
+        实力: 强大
+        性格: 悠然
+    - id: 琉玖之主
+      type: Character
+      name: 琉玖之主
+      aliases: []
+      description: 第一轮回时代的宇宙之主，女性。通过了断东河的筛选。
+      attributes:
+        实力: 强大
+        性格: 谦逊
+    - id: 巫魉之主
+      type: Character
+      name: 巫魉之主
+      aliases: []
+      description: 第一轮回时代的宇宙之主，女性。通过了断东河的筛选。
+      attributes:
+        实力: 强大
+        性格: 沉默
+    - id: 唳海之主
+      type: Character
+      name: 唱海之主
+      aliases: []
+      description: 第一轮回时代的宇宙之主，主动挑战断东河的筛选但未通过。
+      attributes:
+        实力: 强大
+        性格: 热情
+    - id: 赤鹨之主
+      type: Character
+      name: 赤鹨之主
+      aliases: []
+      description: 第一轮回时代的宇宙之主，未通过断东河的筛选。
+      attributes:
+        实力: 强大
+        性格: 不详
+    - id: 岩巨之主
+      type: Character
+      name: 岩巨之主
+      aliases: []
+      description: 第一轮回时代的宇宙之主，未通过断东河的筛选。
+      attributes:
+        实力: 强大
+        性格: 稳重
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 通过了断东河的筛选，但具体原因未知。
+      attributes:
+        实力: 强大
+        性格: 冷静
+    relationships: null
+    events:
+    - id: 筛选仪式
+      type: Event
+      name: 筛选仪式
+      description: 断东河利用神秘魔方仪器进行继承者筛选，只有部分宇宙之主通过。
+      timeline: []
+    dialogues:
+    - speaker: 断东河
+      listener: 鹿虫之主
+      content: 你，进去。
+    - speaker: 断东河
+      listener: 唱海之主
+      content: 你不符合！
+    timeline: null
+    mysteries:
+    - id: 神秘魔方仪器的工作原理
+      type: Mystery
+      description: 没有人知道神秘魔方仪器是如何筛选继承者的。

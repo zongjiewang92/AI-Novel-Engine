@@ -1,0 +1,461 @@
+part: part_085
+generated_time: '2026-07-23T15:46:34.761682'
+count: 5
+items:
+- source: part_085_01.yaml
+  data:
+    source:
+      id: 炎冰域事件
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 双面祖神的后代，正驾驭着墓陵之舟飞行。
+      attributes:
+        实力: 宇宙最强者级别
+        能力: 控制至强至宝
+    - id: 墓陵之舟
+      type: Item
+      name: 墓陵之舟
+      aliases: []
+      description: 可能是某位前辈改造过的顶级飞行类至强至宝。
+      attributes:
+        特性: 强大的飞行能力，难以摧毁
+    - id: 紫月圣地
+      type: Organization
+      name: 紫月圣地
+      aliases: []
+      description: 在炎冰域活动的一个势力。
+    - id: 北真星主
+      type: Character
+      name: 北真星主
+      aliases: []
+      description: 代表东帝始祖，想要与罗峰做交易。
+      attributes:
+        身份: 东帝圣地的领袖之一
+    - id: 神眼族五大真主
+      type: Organization
+      name: 神眼族五大真主
+      aliases: []
+      description: 想要获取墓陵之舟内的传承者，但未能成功。
+      attributes:
+        组织构成: 第一真主、第二真主、第三真主等五人
+    - id: 坐山客
+      type: Character
+      name: 坐山客
+      aliases: []
+      description: 远处观察着整个事件，对墓陵之舟的力量表示赞叹。
+      attributes:
+        身份: 观察者
+    relationships: null
+    events:
+    - id: 罗峰与神眼族五大真主的对抗
+      type: Event
+      name: 神眼族五大真主试图夺取罗峰手中的墓陵之舟但失败。
+      description: 多个宇宙最强者的攻击未能撼动墓陵之舟，反被其强大的飞行能力带离现场。
+    - id: 北真星主与罗峰的对话
+      type: Event
+      name: 北真星主试图通过交易获得有关断东河一脉传承的信息。
+      description: 虽然没有详细说明具体交易内容，但表明了北真星主希望得到断东河一脉传承的消息。
+    dialogues:
+    - id: 神眼族五大真主的对话
+      type: Dialogue
+      participants:
+      - 神眼族第一真主
+      - 第二真主
+      - 第三真主等
+      content: 我们的机会！动手！
+    - id: 坐山客对墓陵之舟力量的赞叹
+      type: Dialogue
+      participants:
+      - 坐山客
+      content: 那上一任断东河改造的墓陵之舟，都能强成如此，看来我是多虑了。
+    timeline:
+    - 时间点: 罗峰驾驭着墓陵之舟飞行时
+      描述: 许多宇宙最强者试图夺取罗峰手中的至宝但失败。
+    mysteries:
+    - id: 断东河一脉传承的具体内容
+      type: Mystery
+      description: 断东河一脉的传承中可能包含炼宝的讯息，但原始宇宙意志限制了其知晓程度。
+- source: part_085_02.yaml
+  data:
+    source:
+      id: 第1285章收复白色羽翼
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '巨斧创始者的弟子，弑吴的继承者。通过宇宙舟回到了倾峰界。
+
+        '
+      attributes:
+        实力: 宇宙尊者（接近突破至宇宙之主）
+        特性: 擅长机械类宝物，正在参悟《断灭》和《东华》，寻找白色羽翼
+    - id: 创始巨斧
+      type: Character
+      name: 巨斧创始者
+      aliases: []
+      description: 罗峰的老师之一，指导罗峰修炼。
+      attributes:
+        实力: 宇宙最强者及以上层次
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 授予罗峰弑吴羽翼和宇宙舟，教导罗峰的老师之一。
+      attributes:
+        实力: 宇宙最强者及以上层次
+    - id: 星辰塔
+      type: Item
+      name: 星辰塔
+      aliases: 血色宝塔（变形形态）
+      description: '罗峰在宇宙舟中为了躲避追踪，使用星辰塔作为交通工具。变形为血色的三层宝塔。
+
+        '
+      attributes:
+        功能: 传送、飞行
+    - id: 墓陵之舟
+      type: Item
+      name: 墓陵之舟
+      aliases: []
+      description: '罗峰获得的一件宇宙海中的至强至宝，用于在宇宙舟中避难。缩小为核桃大小。
+
+        '
+      attributes:
+        功能: 避险、飞行
+    - id: 白色羽翼
+      type: Item
+      name: 白色羽翼
+      aliases: []
+      description: '羽翼类宝物，是弑吴羽翼中的一部分。极其锋利且威力强大。
+
+        '
+      attributes:
+        属性: 至强至宝
+    - id: 倾峰界
+      type: Location
+      name: 倾峰界
+      aliases: []
+      description: '罗峰要去收复白色羽翼的地点，位于宇宙舟之外的一个地方。
+
+        '
+      attributes:
+        特性: 水域广阔
+    relationships:
+    - id: 师徒关系_罗峰混沌城主
+      type: Relationship
+      name: 师徒关系
+      description: '罗峰是混沌城主的弟子，得到混沌城主赠予的弑吴羽翼和宇宙舟。
+
+        '
+      attributes:
+        深度: 非常深厚
+    - id: 传承_罗峰巨斧创始者
+      type: Relationship
+      name: 传承关系
+      description: '巨斧创始者将秘法传授给罗峰，指导其修炼。
+
+        '
+    events:
+    - id: 罗峰离开宇宙舟
+      type: Event
+      name: 离开宇宙舟
+      description: '经过近千年的时间，罗峰从宇宙舟中成功逃脱。
+
+        '
+      attributes:
+        时间点: 近千年后
+    dialogues: null
+    timeline:
+    - id: 宇宙舟内的经历
+      type: Timeline
+      name: 宇宙舟内岁月
+      description: '罗峰在宇宙舟内部度过近千年的时间，参悟《断灭》和《东华》，获得星辰塔等宝物。
+
+        '
+      attributes:
+        时间长度: 近千年
+    - id: 回到倾峰界
+      type: Timeline
+      name: 返回倾峰界
+      description: '罗峰利用瞬移技术从宇宙舟中逃脱，回到倾峰界寻找白色羽翼。
+
+        '
+      attributes:
+        时间点: 宇宙舟逃离后
+    mysteries:
+    - id: 白色羽翼下落
+      type: Mystery
+      name: 下一阶段的线索
+      description: '罗峰正在寻找另外三对弑吴羽翼中的白色羽翼，但其具体位置未知。
+
+        '
+- source: part_085_03.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 初始宇宙混沌城主，负责人类族群的崛起计划。
+      attributes:
+        实力: 宇宙之主
+        性格: 谨慎且聪明
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 罗峰的老师，负责混沌城的管理。
+      attributes:
+        实力: 宇宙之主
+        性格: 冷静且谨慎
+    - id: 巨斧创始者
+      type: Character
+      name: 巨斧创始者
+      aliases: []
+      description: 初始宇宙人类族群中最强大的存在，被困于倾峰界核心区域的“昏暗之地”。
+      attributes:
+        实力: 宇宙之主
+        性格: 沉稳且果断
+    - id: 倾峰界核心区域
+      type: Location
+      name: 倾峰界核心区域
+      aliases: []
+      description: 具有极高危险性的神秘地带，包括“昏暗之地”。
+      attributes:
+        危险程度: 极高
+    organizations:
+    - id: 初始宇宙人类族群
+      type: Civilization
+      name: 初始宇宙人类族群
+      aliases: []
+      description: 在初始宇宙中的人类族群。
+      attributes:
+        核心人物: 罗峰、巨斧创始者
+        目标: 强化族群实力，对抗外敌
+    abilities:
+    - id: 虚拟宇宙培训系统
+      type: Ability
+      name: 虚拟宇宙培训系统
+      aliases: []
+      description: 利用虚拟宇宙对人类族群进行秘密培训。
+      attributes:
+        安全性: 极高
+        训练内容: 包括记忆之石中的大量讯息
+    items:
+    - id: 冰山
+      type: Item
+      name: 冰山
+      aliases: []
+      description: 用于迷惑敌人，防止培养计划外泄的道具。
+      attributes:
+        数量: 300座
+        功能: 遮掩真实培养基地的位置
+    events:
+    - id: 巨斧创始者被困事件
+      type: Event
+      name: 巨斧创始者被困事件
+      aliases: []
+      description: 巨斧创始者在倾峰界核心区域的“昏暗之地”中被困。
+      attributes:
+        时间点: 文本描述的时间内
+    dialogues:
+    - id: 混沌城主提醒罗峰注意保密
+      type: Dialogue
+      name: 混沌城主提醒罗峰注意保密
+      aliases: []
+      description: 混沌城主提醒罗峰，崛起计划绝不可外泄。
+      attributes:
+        对话双方: 罗峰, 混沌城主
+    timeline:
+    - id: 巨斧创始者被困消息发布
+      type: Timeline
+      name: 巨斧创始者被困消息发布
+      aliases: []
+      description: 初期宇宙中，巨斧神殿前召集19位宇宙之主通报巨斧创始者的困境。
+      attributes:
+        时间点: 文本描述的时间内
+    mysteries:
+    - id: 巨斧创始者能否逃脱“昏暗之地”
+      type: Mystery
+      name: 巨斧创始者能否逃脱“昏暗之地”
+      aliases: []
+      description: 巨斧创始者的命运未知，他能否从“昏暗之地”中逃出？
+      attributes:
+        关键信息: 巨斧创始者被困于倾峰界核心区域的最危险地带
+- source: part_085_04.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 人类族群的支柱强者之一，银河领主。拥有墓陵之舟。
+      attributes:
+        实力: 宇宙最强者级
+        身份: 地球人一脉领袖、罗家核心成员
+        目前任务: 和东帝圣地进行交易以获取至强至宝
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 人类族群的最高层存在，负责指导和决策。
+      attributes:
+        身份: 最高层的一员
+        目前任务: 协调宇宙之主和不朽神灵进行应对浩劫的战略部署
+    - id: 巨斧创始者
+      type: Character
+      name: 巨斧创始者
+      aliases: []
+      description: 人类族群唯一的宇宙最强者，已陨落。
+      attributes:
+        身份: 宇宙最强者
+        实力: 宇宙最强者级
+    - id: 北真星主
+      type: Character
+      name: 北真星主
+      aliases: []
+      description: 东帝圣地的代表，负责与罗峰交易。
+      attributes:
+        身份: 权贵人员
+        目前任务: 协助完成与银河领主的交易
+    organizations:
+    - id: 人类族群
+      type: Civilization
+      name: 人类族群
+      description: 面临宇宙浩劫，急需至强至宝增强实力。
+      attributes:
+        实力现状: 势弱，需要至强至宝以对抗巅峰族群的攻击
+    items:
+    - id: 至强至宝
+      type: Item
+      name: 至强至宝
+      aliases: []
+      description: 能显著提升人类族群实力的宝物。
+      attributes:
+        类型: 宝物
+        功能: 增强战斗力，提供战略优势
+    - id: 棺陵之舟
+      type: Item
+      name: 棺陵之舟
+      aliases: []
+      description: 罗峰的座驾，具备强大防御能力。
+      attributes:
+        类型: 船舰
+        功能: 防御、运输
+    locations:
+    - id: 初始宇宙
+      type: Location
+      name: 初始宇宙
+      aliases: []
+      description: 宇宙海的一个重要区域，人类族群的避难所。
+      attributes:
+        地理位置: 混沌气流中
+        功能: 避难、聚集地
+    dialogues:
+    - id: 罗峰与混沌城主对话1
+      speaker:
+      - name: 罗峰
+        type: Character
+      - name: 混沌城主
+        type: Character
+      content:
+      - 罗峰，务必小心。这两件至强至宝非常重要！
+      - 老师，放心吧，我有墓陵之舟，他们想要硬抢等根本是做梦。
+    - id: 罗海与父亲对话1
+      speaker:
+      - name: 父亲（罗峰）
+        type: Character
+      - name: 罗海、罗平
+        type: Character
+      content:
+      - 你们兄弟俩立即将我罗家核心成员尽皆带走，带在随身的一方世界中。
+    timeline:
+    - id: 宇宙浩劫临近
+      description: 人类族群面临宇宙浩劫，急需至强至宝增强实力。
+      attributes:
+        时间点: 当前
+    mysteries:
+    - id: 巨斧创始者陨落原因
+      description: 巨斧创始者的具体陨落原因未明。
+- source: part_085_05.yaml
+  data:
+    source:
+      id: text1293
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 联系到东帝，拒绝了东帝始祖关于第二颗记忆之石的要求。
+      attributes:
+        实力: 宇宙领主
+        物品: 两件至强至宝, 记忆之石
+    - id: 北真
+      type: Character
+      name: 北真
+      aliases: []
+      description: 罗峰联系的对象，可能是东帝的下属。
+      attributes:
+        关系: 和罗峰有交集
+    - id: 东帝始祖
+      type: Character
+      name: 东帝始祖
+      aliases:
+      - 东帝
+      description: 宇宙海中最古老的存在之一, 对记忆之石感兴趣但不满足于现有的内容。
+      attributes:
+        实力: 超过宇宙最强者
+        物品: 想要第二颗记忆之石
+    - id: 巴狮之主
+      type: Character
+      name: 巴狮之主
+      aliases: []
+      description: 发现巨斧创始者的死亡。
+      attributes:
+        能力: 瞬移, 高级空间移动能力
+    organizations: null
+    locations:
+    - id: 巨斧创始者的小型宇宙
+      type: Location
+      name: 巨斧创始者的小型宇宙
+      description: 显示出小型宇宙崩溃的迹象。
+      attributes:
+        状态: 正在崩溃中
+    items:
+    - id: 记忆之石
+      type: Item
+      name: 记忆之石
+      aliases: []
+      description: 超越宇宙最强者的修炼经验。
+    abilities: null
+    events:
+    - id: 罗峰与东帝始祖的交流
+      type: Event
+      name: 罗峰与东帝始祖的交流
+      description: 罗峰拒绝了东帝对第二颗记忆之石的要求。
+      attributes:
+        时间线: 当前正在进行
+    - id: 巴狮之主发现巨斧创始者的死亡
+      type: Event
+      name: 巴狮之主发现巨斧创始者的死亡
+      description: 巴狮之主在宇宙膜壁外发现了巨斧创始者的小型宇宙崩溃。
+      attributes:
+        时间线: 当前正在进行
+    dialogues:
+    - id: 罗峰和东帝始祖的对话
+      type: Dialogue
+      name: 罗峰和东帝的对话
+      description: 关于第二颗记忆之石的要求与拒绝。
+    timeline: null
+    mysteries:
+    - id: 为什么巨斧创始者会陨落
+      type: Mystery
+      name: 为什么巨斧创始者会陨落
+      description: 巨斧创始者的死亡原因未知。

@@ -1,0 +1,387 @@
+part: part_049
+generated_time: '2026-07-23T15:46:34.328523'
+count: 5
+items:
+- source: part_049_01.yaml
+  data:
+    source:
+      id: origin_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司的天才，受到蚀火尊者特殊对待。
+      attributes:
+        实力: 域主级
+        年龄: 出生至今数百年
+    - id: 蚍烛王
+      type: Character
+      name: 蚩烛王
+      aliases: []
+      description: 魔神蚩尤的后代，巨斧斗武场成员。
+      attributes:
+        实力: 不朽级
+        年龄: 远超罗峰
+    - id: 蚀火尊者
+      type: Character
+      name: 蚀火尊者
+      aliases: []
+      description: 巨斧斗武场的宇宙尊者，对罗峰异常客气。
+      attributes:
+        实力: 宇宙尊者级
+    - id: 霸血王
+      type: Character
+      name: 霸血王
+      aliases: 嗜血王
+      description: 巨斧斗武场成员。
+      attributes:
+        实力: 不朽级
+    - id: 王洛
+      type: Character
+      name: 王洛
+      aliases: []
+      description: 虚拟宇宙公司的天才，真衍王的弟子。
+      attributes:
+        实力: 域主级
+    - id: 真衍王
+      type: Character
+      name: 真衍王
+      aliases: []
+      description: 虚拟宇宙公司的老师，罗峰的师傅。
+      attributes:
+        实力: 宇宙尊者级
+    - id: 龙玉王
+      type: Character
+      name: 龙玉王
+      aliases: 珑玉王
+      description: 九剑尊者的手下之一。
+      attributes:
+        实力: 不朽级
+    organizations:
+    - id: 巨斧斗武场
+      type: Organization
+      name: 巨斧斗武场
+      description: 提供竞技场所的组织，有宇宙尊者成员。
+    - id: 虚拟宇宙公司
+      type: Organization
+      name: 虚拟宇宙公司
+      description: 培养天才的公司，拥有众多资源和强者。
+    locations:
+    - id: 地球
+      type: Location
+      name: 地球
+      description: 拥有数百亿人口的生命星球。
+    - id: 扬州城
+      type: Location
+      name: 扬州城
+      description: 地球上的城市之一，罗峰的老家。
+    events:
+    - id: 魔神蚩尤后代入侵地球
+      type: Event
+      name: 魔神蚩尤后代入侵地球
+      description: 蚩烛王率领不朽大军进攻地球。
+    - id: 罗峰被老师真衍王召唤
+      type: Event
+      name: 罗峰被老师真衍王召唤
+      description: 真衍王通过虚拟宇宙网络召唤罗峰前往雷霆岛。
+    dialogues:
+    - id: 蚩烛王与父亲对话
+      type: Dialogue
+      name: 蚩烛王与父亲对话
+      content: 蚀火尊者：你这些岁月的确惹了不少乱子，也该好好潜心修炼。等你能够掌握那件至宝，尊者之下，你根本不惧他人。就算和那真衍，你都能一拼，毕竟实力才是根本……父亲并不能总庇护着你。
+      participants:
+      - 蚩烛王
+      - 蚀火尊者
+    - id: 罗峰与嗜血王对话
+      type: Dialogue
+      name: 罗峰与嗜血王对话
+      content: 嗜血王：施展神国传送的一定是其中某个不朽神灵的‘不朽奴仆’。而且施展完神国传送，那不朽奴仆肯定会辛辛苦苦转移神国位置，这样神国坐标自然无用了。
+      participants:
+      - 罗峰
+      - 嗜血王
+    timeline:
+    - id: 蚩烛王进攻地球
+      type: Timeline
+      name: 蚩烛王进攻地球
+      description: 蚩烛王率领大军入侵地球，后被罗峰召唤。
+    mysteries:
+    - id: 地球的秘密
+      type: Mystery
+      name: 地球的秘密
+      description: 巨斧斗武场为何会对地球如此感兴趣。
+- source: part_049_02.yaml
+  data:
+    source:
+      id: 文本来源
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司的核心成员，拥有极高实力和潜力。
+      attributes:
+        实力: 宇宙级小家伙
+        性格: 厌恶杀戮但冷静理智
+    - id: 洪
+      type: Character
+      name: 洪
+      aliases: []
+      description: 虚拟宇宙公司的核心成员，拥有极高实力和潜力。
+      attributes:
+        实力: 宇宙级小家伙
+        性格: 不详
+    - id: 巨斧创始者
+      type: Character
+      name: 巨斧创始者
+      aliases: []
+      description: 虚拟宇宙公司最高存在的领导者之一，号称人类族群最强者。
+      attributes:
+        实力: 极强的宇宙级存在
+    - id: 雷神
+      type: Character
+      name: 雷神
+      aliases: []
+      description: 不详
+      attributes: []
+    relationships:
+    - 主体: 罗峰
+      关系类型: 同一星球出生
+      对象: 洪
+    events:
+    - id: 地球的秘密被发现
+      type: Event
+      name: 巨斧创始者查探地球秘密
+      description: 巨斧创始者前往地球调查，发现了关于地球的特殊之处。
+      timeline: 不详
+    dialogues:
+    - 主体: 洪
+      对象: 罗峰、雷神
+      内容: 巨斧创始者认为地球或许有些特殊，否则怎么会这么巧？巨斧创始者直接前往地球进行查探，这一查探……也就发现了地球的秘密。
+      场景: 虚拟宇宙雨相山原始区罗峰的庄园内
+    timeline:
+    - 时间点: 不详
+      事件: 罗峰完成最高积分任务第二环
+      描述: 罗峰完成了虚拟宇宙公司给予的最高积分任务第二环，得到了90%的完成度评判。
+    mysteries:
+    - id: 地球的秘密
+      type: Mystery
+      name: 关于地球的特殊之处
+      description: 巨斧创始者查探地球秘密后发现的信息。
+- source: part_049_03.yaml
+  data:
+    source:
+      id: 第730章挣扎
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '主角，拥有极高的实力和地位。
+
+        '
+      attributes:
+        实力: 强大
+        性格: 善良
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases:
+      - 拳头小
+      description: '罗峰的智能助手，提供决策建议。
+
+        '
+      attributes:
+        职责: 智能辅助
+    - id: 血魔王
+      type: Character
+      name: 血魔王
+      aliases:
+      - 渡拓
+      description: '鸿盟成员，控制着渡拓星域，实行高压统治。
+
+        '
+      attributes:
+        实力: 极强
+        性格: 戎马
+    - id: 迪伦
+      type: Character
+      name: 迪伦
+      aliases: []
+      description: '罗峰的朋友，拥有神国传送能力。
+
+        '
+      attributes:
+        能力: 神国传送
+    organizations:
+    - id: 鸿盟
+      type: Organization
+      name: 鸿盟
+      description: '拥有极高影响力的神秘组织。
+
+        '
+      aliases: []
+    locations:
+    - id: 古轮宇宙国
+      type: Location
+      name: 古轮宇宙国
+      description: '控制着渡拓星域的庞大国家。
+
+        '
+      attributes: 高压统治
+    - id: 渡拓星域
+      type: Location
+      name: 渡拓星域
+      description: '血魔王控制的领地，实行高压统治。
+
+        '
+    - id: 孟牙星系
+      type: Location
+      name: 孟牙星系
+      description: '进行高端血魔试炼的地方。
+
+        '
+      attributes: 高端血魔试炼
+    - id: 维里星系
+      type: Location
+      name: 维里星系
+      description: '进行低端血魔试炼的地方。
+
+        '
+    dialogues:
+    - speaker: 巴巴塔
+      content: 孟牙星系和维里星系，彼此距离很遥远。就算乘坐陨墨星号飞船最短也得8天，而我们还是从乾巫宇宙国赶去... 你必须得请迪伦帮忙，透过神国传送。否则耗费在路途上最起码半年...
+      context: 罗峰需要决定前往哪个地方执行任务。
+    timeline:
+    - event: 罗峰离开地球
+      date: 当天
+    events:
+    - id: 血魔试炼
+      type: Event
+      name: 血魔试炼
+      description: '渡拓星域内的残酷选拔，分为高端和低端两种。
+
+        '
+      attributes:
+        高端血魔试炼: 涉及100万恒星级人类
+        底端血魔试炼: 涉及100亿行星级人类
+    mysteries:
+    - content: 关于鸿盟的信息非常难以查询，权限设置极高。
+      context: 鸿盟的神秘性及其影响力的探讨。
+    relationships:
+    - source_id: 罗峰
+      target_id: 迪伦
+      type: 友情
+    - source_id: 巴巴塔
+      target_id: 罗峰
+      type: 智能辅助
+    - source_id: 血魔王
+      target_id: 鸿盟
+      type: 成员
+- source: part_049_04.yaml
+  data:
+    source:
+      id: 第733章第三环任务
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙最高积分任务参与者，实力强大。
+      attributes:
+        实力: 强大
+        性格: 慈悲且善良
+    - id: 白眉羽翼老者
+      type: Character
+      name: 白眉羽翼老者
+      aliases: []
+      description: 虚拟宇宙公司高层，负责监督罗峰的最高积分任务。
+      attributes:
+        实力: 极强
+        性格: 平和且智慧
+    - id: 血魔王
+      type: Character
+      name: 血魔王
+      aliases: []
+      description: 鸿盟成员，控制着渡拓星域。
+      attributes:
+        实力: 强大
+        性格: 残暴
+    relationships:
+    - 主题: 罗峰
+      对象: 白眉羽翼老者
+      关系类型: 上级与下属
+      描述: 白眉羽翼老者是监督罗峰完成最高积分任务的虚拟宇宙公司高层。
+    events:
+    - id: 第三环任务启动
+      type: Event
+      name: 第三环任务：审判21名罪犯
+      description: 虚拟宇宙公司要求罗峰前往血魔星，对被关押的21人进行审判。
+      timeline:
+        发生时间: 文章所述虚拟事件中
+        顺序: 第三环任务
+    dialogues:
+    - 主题: 罗峰
+      对象: 白眉羽翼老者
+      内容: 罗峰殿下，你这第二环任务完成，第三环任务即将开始。
+      描述: 虚拟宇宙公司高层白眉羽翼老者告知罗峰准备执行新的任务。
+    timeline:
+    - 时间点: 文章所述虚拟时间线中
+      事件描述: 罗峰收到虚拟宇宙公司的邮件，得知第二环完成度为90%，并开始第三环任务。
+      序号: 第三环任务启动
+    mysteries:
+    - 内容: 虚拟宇宙公司如何能够命令血魔王抓捕21名罪犯，并让罗峰进行审判？
+      描述: 这一行为显示了虚拟宇宙公司在鸿盟乃至更大范围内的权力和影响力。
+- source: part_049_05.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: rofei
+      type: character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司的测试任务参与者，完成第三环任务。
+      attributes:
+      - 实力强大
+      - 冷静果断
+    - id: xuewangzuo
+      type: character
+      name: 血魔王
+      aliases: []
+      description: 在血魔星上的统治者，自降身份接待罗峰却因后者的行为愤怒不已。
+      attributes:
+      - 权力极大
+      - 易怒且自负
+    relationships:
+    - id: rofei-to-xuewangzuo
+      type: 对立关系
+      description: 罗峰在血魔星上的公正判决激怒了血魔王。
+    events:
+    - id: xuewangzhao-juwu-jian-dan
+      type: event
+      name: 血魔王自降身份接待罗峰并设宴款待
+      description: 在虚拟宇宙公司的任务下，血魔王热情迎接罗峰，但在餐后罗峰处决了21名罪犯。
+    - id: rofei-qing-gao-wuxing-completion
+      type: event
+      name: 罗峰完成第三环任务并获得高分评价
+      description: 罗峰的公正判决让虚拟宇宙公司成员评判为满分，得到30万积分。
+    dialogues:
+    - id: xuewangzuo-dan-rofei
+      type: dialogue
+      participants:
+      - 血魔王
+      - 罗峰
+      content: 你的判罚真是很公平，很公平啊！既然你的事情已经做完，那我就不留你了。
+    - id: rofei-qing-gao-xuewangzuo
+      type: dialogue
+      participants:
+      - 罗峰
+      - 血魔王
+      content: 血魔王，请见谅这次任务关系重大。
+    timeline:
+    - 时间点1: 罗峰完成第三环任务并获得满分评价
+    mysteries:
+    - id: xuewangzuo-fujin-shijian
+      type: mystery
+      description: 血魔王对罗峰的行为极为愤怒，是否会在未来暗中报复？

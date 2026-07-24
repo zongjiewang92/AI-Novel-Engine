@@ -1,0 +1,397 @@
+part: part_065
+generated_time: '2026-07-23T15:46:34.522771'
+count: 5
+items:
+- source: part_065_01.yaml
+  data:
+    source:
+      id: 第972章他是刀河王
+    entities:
+    - id: 贝山尊者
+      type: Character
+      name: 贝山尊者
+      aliases: []
+      description: 瓬锤神族的宇宙尊者，仇视人类。
+      attributes:
+        实力: 宇宙尊者
+        性格: 仇视人类，嚣张
+    - id: 逐虫王
+      type: Character
+      name: 逐虫王
+      aliases: []
+      description: 紫荆岛上亿封王传承者中排名前三的强者之一。
+      attributes:
+        实力: 封王不朽
+        性格: 正义，保护弱小
+    - id: 千雨
+      type: Character
+      name: 千雨
+      aliases: []
+      description: 暗雾族成员，在五彩极光湖附近。
+      attributes:
+        实力: 封王
+        性格: 谨慎，胆小
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 刀河王，人类族群中的超级天才。
+      attributes:
+        实力: 境界未明（但至少是封王）
+        性格: 不卑不亢
+    organizations:
+    - id: 祖神教
+      type: Organization
+      name: 祖神教
+      description: 招收全宇宙精英天才，重点培养特殊生命逐虫王。
+      attributes:
+        目标: 培养强大的封王和不朽
+    locations:
+    - id: 五彩极光湖
+      type: Location
+      name: 五彩极光湖
+      description: 祖神秘境的一部分，禁止杀戮。
+    abilities:
+    - id: 特殊生命天赋秘法
+      type: Ability
+      attributes:
+        影响力: 强大到可以越级搏杀
+    items:
+    - id: 至宝
+      type: Item
+      description: 祖神教赐予逐虫王的两件至宝，增强其实力。
+    relationships:
+    - id: 贝山尊者与罗峰
+      type: Relationship
+      attributes:
+        关系类型: 敌对
+    events:
+    - id: 罗峰与贝山尊者的冲突
+      type: Event
+      description: 贝山尊者试图逼迫罗峰燃烧神体，被逐虫王阻止。
+      timeline: 在五彩极光湖附近发生。
+    dialogues:
+    - id: 贝山尊者对罗峰说
+      content: 记住，我是贝山尊者，有本事你就一直躲在五彩极光湖，躲在人类老巢内。
+      speaker: 贝山尊者
+    - id: 罗峰回应逐虫王
+      content: 谢逐虫王。
+      speaker: 罗峰
+    mysteries:
+    - id: 逐虫王的真实实力和背景
+      type: Mystery
+      description: 宇宙独一无二的生命，其本体高度据说有六万多公里。
+- source: part_065_02.yaml
+  data:
+    source:
+      id: origin_text
+    entities:
+    - id: rofei
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 刀河王，人类族群未来的支柱强者。
+      attributes:
+        实力: 战胜封王极限的不朽层次实力。
+        目标: 成为宇宙尊者。
+    - id: zhaomanwang
+      type: Character
+      name: 察曼王
+      aliases: []
+      description: 人类族群中的超级存在，曾是绝世天才。
+      attributes:
+        实力: 不朽阶段媲美七剑王的实力，突破为宇宙尊者遇到瓶颈。
+    - id: zitanshezhushou
+      type: Character
+      name: 天狼之主
+      aliases: []
+      description: 妖族中专门负责悬赏刀河王的最高负责人。
+      attributes:
+        实力: 极高，能够轻易得到上亿光年外的信息。
+    - id: lieshuowang
+      type: Character
+      name: 离烁王
+      aliases: []
+      description: 鸿盟中的人类传承者。
+      attributes:
+        实力: 不详
+    organizations:
+    - id: hongmengtu
+      type: Organization
+      name: 鸿盟
+      aliases: []
+      description: 六大巅峰族群之一，吸纳的成员以精英为主。
+    locations:
+    - id: raozuoqishijie
+      type: Location
+      name: 荣耀世界
+      aliases: []
+      description: 在此举行的露天广场上聚集了很多鸿盟的传承者。
+    cultivations:
+    - id: buyouzhizunzhe
+      type: Cultivation
+      name: 不朽之尊者
+      aliases: []
+      description: 宇宙中的一个强大阶段，从不朽突破为宇宙尊者的难度极大。
+    abilities:
+    - id: xianjuejingyan
+      type: Ability
+      name: 眼神洞察力
+      aliases: []
+      description: 天狼之主能够通过眼神辨别罗峰的真实身份。
+    items:
+    - id: chuanxinjiqi
+      type: Item
+      name: 传讯系统
+      aliases: []
+      description: 各族群用于快速传递信息的重要工具，其中妖族的传讯效率远不及人类、机械族。
+    events:
+    - id: jianghuangxianzhi
+      type: Event
+      name: 悬赏刀河王
+      aliases: []
+      description: 妖族悬赏刀河王，天狼之主负责相关信息的汇总与处理。
+    dialogues:
+    - speaker: 察曼王
+      listener: 罗峰
+      content: 我们是精英。
+      context: 在荣耀世界的露天广场上，罗峰和鸿盟的传承者们交谈时察曼王的话语。
+    mysteries:
+    - question: 刀河王能否突破至宇宙尊者的层次？
+      hint: 天狼之主认为刀河王在不朽阶段有100%把握成为不朽，但突破为宇宙尊者却是一个大坎。
+    timeline:
+    - event_id: jianghuangxianzhi
+      time: 同一天
+      description: 妖族、虫族和机械族几乎同时得到了关于刀河王在祖神教宝藏之地出现的消息，并开始制定相应的行动计划。
+- source: part_065_03.yaml
+  data:
+    source:
+      id: 第978章62万场!!!
+    entities:
+    - id: 紫荆岛
+      type: Location
+      name: 紫荆岛
+      aliases: []
+      description: 被无尽的五彩极光环绕，上空演示着宇宙本源法则奥妙的光圈不断扩散。紫荆岛上各族宫殿座落其间。
+      attributes:
+      - 位置：祖神教核心之地
+      - 特征：被五彩极光围绕
+    - id: 七剑王
+      type: Character
+      name: 七剑王
+      aliases: []
+      description: 穿着紫色战甲，眉心有七柄战剑印记的人类刀河王挑战者。在宝藏之地收获惊人，拥有“七剑传承”和“兽神强者传承”，实力强大。
+      attributes:
+      - 实力：人类这一代最优秀的不朽天才之一
+      - 身份：得到祖神教内超级存在留下的宝藏的传承者
+    - id: 刀河王
+      type: Character
+      name: 刀河王
+      aliases: []
+      description: 接受上万场邀战的人类绝世天才。
+      attributes:
+      - 实力：疯狂接受挑战，实力强大，被老师认定为超越七剑王的天才
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 没有详细描述其身份和角色。
+      attributes:
+      - 实力：地位高，有能力将宝物放在宝藏之地留给后来者。
+    - id: 命陨王
+      type: Character
+      name: 命陨王
+      aliases: []
+      description: 被认为应该去刺杀刀河王的人类内部强者。
+      attributes:
+      - 目的：刺杀刀河王
+    - id: 祖神教
+      type: Organization
+      name: 祖神教
+      aliases: []
+      description: 收藏并提供宇宙天才传承的地方，拥有宝藏之地。
+      attributes:
+      - 特征：核心之地有八方兽神殿和时空
+    - id: 雷兽神
+      type: Character
+      name: 雷兽神
+      aliases: []
+      description: 祖神教中管理琐事的兽神之一，居住在雷兽神殿。
+      attributes:
+      - 实力：拥有极强的力量，继承兽神尊位后更为强大
+    - id: 血火神将
+      type: Character
+      name: 血火神将
+      aliases: []
+      description: 祖神教中负责管理琐事的神将之一。
+      attributes:
+      - 实力：能硬拼普通宇宙之主的存在
+    relationships:
+    - id: 七剑王-刀河王
+      type: Competitor
+      description: 七剑王与刀河王在荣耀世界中的竞争关系。
+    events:
+    - id: 刀河王接受邀战
+      type: Event
+      description: 刀河王接受了上万场邀战，并且他的真实身份是界主。
+      timeline: 上万场
+    dialogues:
+    - id: 七剑王询问刀河王的挑战次数
+      type: Dialogue
+      content: 你不知道，我们怎么知道？我们只知道……最起码上万场。
+      participants:
+      - 七剑王
+      - 异族强者
+    timeline:
+    - 时间点：未具体说明 事件：刀河王接受邀战
+    mysteries:
+    - id: 刀河王的真实实力和背景
+      description: 关于刀河王的具体身份和真实实力信息不明。
+- source: part_065_04.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 祖神教的高层，掌控混沌城，负责保护罗峰的安全。
+      attributes:
+      - 职位：祖神教殿主
+      - 实力：未知（但可以预见其实力强大）
+    - id: 阴影君主
+      type: Character
+      name: 阴影君主
+      aliases: []
+      description: 鸿盟情报部门总负责人，虚拟宇宙公司一脉的情报部门负责人。
+      attributes:
+      - 职位：鸿盟情报部门总负责人
+      - 实力：未知（但能成为高层表明其实力强大）
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 刀河王，人类族群中的超级强者候选人。
+      attributes:
+      - 职位：刀河王
+      - 实力：法则感悟极高（胜率超62万场对战）
+    - id: 孔*族觉光
+      type: Character
+      name: 觉光尊者
+      aliases: []
+      description: 源于孔*族的异族强者，虫族宇宙之主选中的刺杀罗峰的人。
+      attributes:
+      - 职位：宇宙尊者
+      - 实力：拥有分身术，擅长灵魂控制之道
+    organizations:
+    - id: 鸿盟
+      type: Organization
+      name: 鸿盟
+      description: 拥有强大的情报部门，与虚拟宇宙公司有着紧密联系。
+    - id: 祖神教
+      type: Organization
+      name: 祖神教
+      description: 超级势力之一，培养超级强者的地方。
+    civilizations:
+    - id: 人类文明
+      type: Civilization
+      name: 人类文明
+      description: 面对其他宇宙族群的威胁，正在努力培养自己的超级强者。
+    - id: 虫族文明
+      type: Civilization
+      name: 虫族文明
+      description: 拥有强大的情报网络和刺杀手段，试图阻止罗峰的成长。
+    locations:
+    - id: 紫荆岛
+      type: Location
+      name: 紫荆岛
+      description: 传承者接受挑战的地方，拥有独特的防御机制。
+    - id: 虫族虚拟世界
+      type: Location
+      name: 虫族虚拟世界
+      description: 存在虫族高层决策的场所。
+    abilities:
+    - id: 分身术
+      type: Ability
+      name: 分身术
+      description: 觉光尊者所掌握的能力，可以制造宇宙尊者分身。
+    - id: 灵魂控制之道
+      type: Ability
+      name: 灵魂控制之道
+      description: 孔*族族人的专长能力。
+    events:
+    - id: 刺杀计划
+      type: Event
+      name: 虫族的刺杀罗峰计划
+      description: 虫族高层决定派遣觉光尊者去刺杀罗峰，以阻止他的成长。
+      timeline:
+      - 时间点：觉光尊者的任务下达时间 事件详情：宇宙之主选择觉光作为刺杀刀河王的执行者。
+    dialogues:
+    - id: 混沌城主与阴影君主对话
+      type: Dialogue
+      speaker1: 混沌城主
+      speaker2: 阴影君主
+      content: 罗峰现在的胜率极强，赚取大量荣耀点，并拥有许多传承机会。
+    - id: 宇宙之主与觉光尊者对话
+      type: Dialogue
+      speaker1: 宇宙之主
+      speaker2: 觉光尊者
+      content: 宇宙之主选中你去刺杀刀河王，因为你拥有分身术和灵魂控制之道。
+    mysteries:
+    - id: 罗峰的特殊际遇
+      type: Mystery
+      name: 罗峰拥有的特殊际遇
+      description: 罗峰可能因为特殊的际遇获得逆转时空复活的可能性。
+- source: part_065_05.yaml
+  data:
+    source:
+      id: text1
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有分身术，体内世界中进行修炼和保护原核。
+      attributes:
+        实力: 异族无法轻易击杀
+        能力: 分身术, 体内世界
+    - id: 护教兽神
+      type: Character
+      name: 护教兽神
+      aliases: []
+      description: 紫荆岛的岛主，祖神教的重要成员。
+      attributes:
+        实力: 极强的威压
+    - id: 觉光尊者
+      type: Character
+      name: 觉光尊者
+      aliases: []
+      description: 孔*族天生圣子，意图夺取刀河王的宝物。
+    locations:
+    - id: 紫荆岛
+      type: Location
+      name: 紫荆岛
+      description: 祖神教的重要重地。
+    abilities:
+    - id: 分身术
+      type: Ability
+      name: 分身术
+    items:
+    - id: 刀河王的宝物
+      type: Item
+      name: 刀河王的宝物
+      description: 罗峰炼化的各种宝物。
+    organizations:
+    - id: 祖神教
+      type: Organization
+      name: 祖神教
+    dialogues:
+    - speaker: 护教兽神
+      content: 竟然有宇宙尊者来刺杀刀河王，哼，在我祖神教重地刺杀，真是有胆色，赤裸裸违背我祖神教之令，就该永远陨落！
+    timeline:
+    - event_id: 刺杀事件
+      time: 罗峰外出时
+    mysteries:
+    - id: 分身术的来源
+      description: 罗峰如何获得分身术的能力。

@@ -1,0 +1,331 @@
+part: part_038
+generated_time: '2026-07-23T15:46:34.175449'
+count: 5
+items:
+- source: part_038_01.yaml
+  data:
+    source:
+      id: 第557章原始新人罗峰（第五更）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司的成员，拥有剑之世界和衍神兵的能力。
+      attributes:
+        实力: 宇宙级九阶
+        特长: 掌控剑之世界的初级阶段
+    - id: 巴芬
+      type: Character
+      name: 巴芬
+      aliases: []
+      description: 监守者，负责通天桥的监控。
+      attributes:
+        职位: 监守者
+    - id: 伯兰
+      type: Character
+      name: 伯兰
+      aliases: []
+      description: 罗峰超越的目标人物。
+      attributes:
+        实力: 宇宙级九阶
+    relationships: null
+    events:
+    - id: 第七层通过
+      type: Event
+      description: 罗峰成功通过通天桥第七层。
+      timeline: []
+    - id: 对战蓝衣人失败
+      type: Event
+      description: 在第八层，罗峰被蓝衣人的剑之世界击败。
+      timeline: []
+    dialogues:
+    - speaker: 蓝衣人
+      listener: 罗峰
+      content: 你回去再修炼修炼，你和我实力相近，再修炼三年，或许能压制我。再修炼十年，才能击败我。
+      context: 第八层战斗前
+    timeline: null
+    mysteries:
+    - id: 剑之世界的掌控难度
+      type: Mystery
+      description: 罗峰需要达到何种程度的剑之世界掌控才能够令剑气无处不在。
+- source: part_038_02.yaml
+  data:
+    source:
+      id: novel
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 新人中最顶尖的天才，实力强大。
+      attributes:
+        身份: 新人成员, 太初秘境参赛者
+        实力: 强大
+        性格: 冷静自信
+    - id: 莫伊林
+      type: Character
+      name: 莫伊林
+      aliases: []
+      description: 来自宇宙人类种族中的绝顶天才，进入太初秘境的挑战者。
+      attributes:
+        实力: 强大
+        性格: 骄傲自负
+    - id: 阿什
+      type: Character
+      name: 阿什
+      aliases: []
+      description: 来自宇宙人类种族中的绝顶天才，进入太初秘境的挑战者。
+      attributes:
+        实力: 强大
+        性格: 骄傲自负
+    - id: 2号厅
+      type: Location
+      name: 2号厅
+      aliases: []
+      description: 太初区的一个大厅，供界主和域主们听课或讨论。
+    relationships:
+    - entity1_id: 罗峰
+      entity2_id: 莫伊林
+      relation_type: 对抗
+    - entity1_id: 罗峰
+      entity2_id: 阿什
+      relation_type: 对抗
+    events:
+    - id: 挑战
+      type: Event
+      description: 莫伊林和阿什对罗峰发起挑战，双方前往擂台准备战斗。
+      timeline:
+        时间: 文中未明确给出具体时间
+        地点: 太初区的某座擂台上
+    - id: 观众
+      type: Event
+      description: 许多界主和域主聚集在擂台周围观看罗峰与莫伊林、阿什之间的战斗。
+      timeline:
+        时间: 文中未明确给出具体时间
+        地点: 太初区的某座擂台上
+    dialogues:
+    - speaker_id: 罗峰
+      listener_ids:
+      - 莫伊林
+      - 阿什
+      content: '前面我不想战，是因为不想在你们身上浪费时间。不过现在，你们让我很不爽，我决定……要蹂躏你们一次。
+
+        '
+    timeline: null
+    mysteries:
+    - id: 罗峰实力
+      description: 罗峰的实力比之前参加天才战时更强很多。
+    - id: 挑战者背景
+      description: 莫伊林和阿什为何会发起对罗峰的挑战，他们的具体来头未知。
+- source: part_038_03.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司的核心天才之一。
+      attributes:
+        实力: 宇宙国主层次
+        性格: 敏捷机智
+    - id: 萨金
+      type: character
+      name: 萨金
+      aliases: []
+      description: 炎婆罗族火龙部的小天才。
+      attributes:
+        实力: 宇宙国主层次
+        性格: 勇猛直接
+    - id: 炎婆罗
+      type: character
+      name: 炎婆罗
+      aliases: []
+      description: 炎婆罗族的创始者，炎晶宇宙国的国主。
+      attributes:
+        实力: 不朽级别
+        性格: 自信
+    - id: 漶牙
+      type: character
+      name: 漭牙
+      aliases: []
+      description: 虚拟宇宙公司的超级存在。
+      attributes:
+        实力: 不朽级别
+        性格: 好奇且乐观
+    items:
+    - id: 九炼拳
+      type: ability
+      name: 九炼拳
+      description: 黑洞衍变中的秘法，威力强大。
+    - id: 匕首
+      type: item
+      name: 匕首
+      description: 炎婆罗拥有的珍贵物品。
+    - id: 金角界石
+      type: item
+      name: 金角界石
+      description: 只有金角巨兽才能孕育的稀有材料，用于制作兵器主材。
+    - id: 紫蓝雷璃
+      type: item
+      name: 紫蓝雷璃
+      description: 来自虫族疆域范围内的雷神殿秘境，重要珍贵材料。
+    locations:
+    - id: 雨相山
+      type: location
+      name: 雨相山
+      aliases: []
+      description: 虚拟宇宙公司核心天才们的聚集地。
+    - id: 雷霆岛
+      type: location
+      name: 雷霆岛
+      aliases: []
+      description: 虚拟宇宙公司的伟大不朽、超级强者们聚集地。
+    organizations:
+    - id: 虚拟宇宙公司
+      type: organization
+      name: 虚拟宇宙公司
+      aliases: []
+    dialogues:
+    - speaker: 漶牙
+      dialogue: 哈哈，炎婆罗，看下面，那擂台上两个小家伙有一个是你的后代啊。
+    - speaker: 炎婆罗
+      dialogue: 他叫萨金，是火龙部的一位小天才。
+    - speaker: 漶牙
+      dialogue: 炎婆罗，你说下面两个小家伙谁会获胜？
+    - speaker: 炎婆罗
+      dialogue: 当然是萨金！
+    - speaker: 漶牙
+      dialogue: 我赌他对手获胜，如果我赢了，你就将那把匕首给我，怎么样？
+    - speaker: 炎婆罗
+      dialogue: 做梦！
+    - speaker: 漶牙
+      dialogue: 不要你的匕首了，赢了，你将那颗‘金角界石’给我。
+    - speaker: 炎婆罗
+      dialogue: 你要一颗金角界石也可以，如果我赢了，你将那块‘紫蓝雷璃’给我。
+    - speaker: 漶牙
+      dialogue: 行！
+    timeline:
+      events: null
+    mysteries:
+    - id: 炎婆罗与漭牙的赌注
+      type: mystery
+      description: 炎婆罗与漭牙对于擂台上两个小天才的胜负进行了一场对赌，赌注分别是金角界石和紫蓝雷璃。
+- source: part_038_04.yaml
+  data:
+    source:
+      id: src_566
+    entities:
+    - id: char_true_derivation
+      type: Character
+      name: 真衍王
+      aliases: []
+      description: 太初秘境的老师，对罗峰非常满意。
+      attributes:
+        lifespan: 亿万年
+    - id: char_rofei
+      type: Character
+      name: 罗峰
+      aliases:
+      - 殿下
+      description: 真衍王的学生，有着极高的天赋和进步速度。
+      attributes:
+        level: 太初秘境成员
+    - id: org_virtual_universe_company
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 提供太初秘境的平台。
+    - id: location_true_mystery
+      type: Location
+      name: 太初秘境
+      aliases:
+      - 绝境级任务
+      description: 包含多个危险级和绝境级的任务，死亡率极高。
+      attributes:
+        task_count:
+          danger_level: 186
+          absolute_danger_level: 18
+    relationships:
+    - id: rel_rofei_true_derivation
+      type: Teacher-Student
+      from: char_rofei
+      to: char_true_derivation
+    events:
+    - id: event_decision_absolute_mission
+      name: 决定执行绝境任务
+      description: 罗峰决定接取绝境级任务，老师劝说后仍坚持。
+    dialogues:
+    - speaker: char_true_derivation
+      listener: char_rofei
+      content: '"你天赋是高！你的进步，也是越来越惊人！你说你……你连第一次资格战都没参加就去参加绝境级。你说，我是该说你是狂妄自大好，还是说你自信十足好？"
+
+        '
+    - speaker: char_rofei
+      listener: char_true_derivation
+      content: '"老师，我已做了决定，而且，信心十足。"
+
+        '
+    timeline:
+    - event_id: event_decision_absolute_mission
+      time: 半年之后
+    mysteries:
+    - id: mystery_absolute_task_detail
+      description: 绝境任务的详细内容和罗峰如何从绝境中活下来。
+- source: part_038_05.yaml
+  data:
+    source:
+      id: 第569章各自准备
+    entities:
+    - id: 美妇人
+      type: Character
+      name: 美妇人
+      aliases: []
+      description: 千星宗的领袖，拥有虚拟宇宙公司中的超级存在实力。
+      attributes:
+        实力: 超级存在
+        性格: 威严冷酷
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 黑发青年，目标被美妇人指定要击杀的人。
+      attributes:
+        实力: 宇宙级九阶
+        特质: 穿戴合金铠甲和摩云藤战衣
+    - id: 千星老人
+      type: Character
+      name: 千星老人
+      aliases: []
+      description: 黑色长角老者，千星宗的长老。
+      attributes:
+        实力: 高强
+        性格: 忠诚恭敬
+    relationships:
+    - id: 美妇人与罗峰
+      type: 敌对关系
+      description: 罗峰是美妇人要击杀的目标。
+    - id: 千星老人与美妇人
+      type: 上下级关系
+      description: 千星老人为美妇人效力，非常忠诚。
+    events:
+    - id: 控制界主域主
+      type: ControlEvent
+      description: 美妇人控制宗内其他强者离开大殿。
+    - id: 指派任务
+      type: AssignTaskEvent
+      description: 美妇人指派六名界主、域主去击杀罗峰。
+    dialogues:
+    - speaker: 千星老人
+      listener: 美妇人
+      content: 为主人效劳是我千星宗的荣幸，主人但有所命，敬请吩咐，我千星宗弟子一定完成。
+    timeline:
+    - event_id: 控制界主域主
+      time: 第569章开始
+    - event_id: 指派任务
+      time: 大殿内对话中
+    mysteries:
+    - id: 罗峰实力
+      content: 尽管罗峰只是宇宙级九阶，却拥有一件域主级九阶的摩云藤战衣。

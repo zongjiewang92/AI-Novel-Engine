@@ -1,0 +1,349 @@
+part: part_010
+generated_time: '2026-07-23T15:46:33.805462'
+count: 5
+items:
+- source: part_010_01.yaml
+  data:
+    source:
+      id: unknown
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，实力强大，能够猎杀高等领主级怪兽。
+      attributes:
+        实力等级: 绝顶强者
+        装备: SS级飞刀, 防护护臂
+    - id: 史江
+      type: Character
+      name: 史江
+      aliases: []
+      description: 罗峰的师兄，正在寻找城镇休息并猎杀怪兽。
+      attributes:
+        实力等级: 未知但至少能猎杀初等领主级怪兽
+    - id: 卫同
+      type: Character
+      name: 卫同
+      aliases: []
+      description: 请求罗峰新电话号码的人，可能是通过卫同请求的。
+      attributes:
+        关系: 罗峰的朋友或同学，可能与坎迪斯有关联
+    - id: 金刚猿领主
+      type: Species
+      name: 金刚猿领主
+      aliases: []
+      description: 高等领主级怪兽，被罗峰杀死。
+      attributes:
+        实力等级: 高等领主级
+        身体特征: 满是鳞甲和肌肉
+    - id: 大力魔猿
+      type: Species
+      name: 大力魔猿
+      aliases: []
+      description: 强大的怪兽，被金刚猿领主控制。
+      attributes:
+        实力等级: 高等领主级以下
+        身体特征: 未知
+    organizations:
+    - id: HR联盟
+      type: Organization
+      name: HR联盟
+      aliases: []
+      description: 可能购买罗峰猎杀的怪兽尸体。
+    events:
+    - id: 罗峰击杀金刚猿领主
+      type: Event
+      name: 罗峰击杀金刚猿领主
+      attributes:
+        时间: 未知但最近
+        地点: 山谷中
+    relationships:
+    - id: 史江与罗峰的关系
+      type: Relationship
+      description: 师兄与师弟关系，互相帮助。
+      attributes:
+        关系性质: 同门师兄妹
+    dialogues:
+    - id: 罗峰与史江的对话
+      dialogue: '"喂，罗峰。""还成，我现在找到一个城镇，每天在一栋破别墅内休息...对了，罗峰。刚才有人从我这要走了你的新号码。"
+
+        '
+      participants:
+      - 史江
+      - 罗峰
+    timeline: null
+    mysteries:
+    - id: 卫同请求电话号码的原因
+      type: Mystery
+      description: 卫同为何需要罗峰的新电话号码，背后可能有坎迪斯的安排。
+- source: part_010_02.yaml
+  data:
+    source:
+      id: chapter_145
+    entities:
+    - id: li_yao
+      type: Character
+      name: 秃鹫李耀
+      aliases: []
+      description: 全副武装，拥有黑神套装的强大力量。
+      attributes:
+      - 实力: 强大
+      - 装备: 黑神套装
+    - id: klayne
+      type: Character
+      name: 克莱恩
+      aliases: []
+      description: 李耀的专业小组成员，负责激光炮的组装和操作。
+      attributes:
+      - 实力: 中等
+      - 职责: 激光炮专业人员
+    - id: rofe
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 强大的精神念师，拥有飞刀攻击能力。
+      attributes:
+      - 实力: 极强
+      - 能力: 飞刀、精神念术
+    relationships:
+    - id: li_yao_to_klayne
+      type: 上级与下级关系
+      description: 李耀是克莱恩的上级，指挥激光炮的专业人员。
+    - id: rofe_vs_li_yao
+      type: 敌对关系
+      description: 罗峰和李耀之间存在敌对状态。
+    events:
+    - id: laser_cannon_assembly
+      type: Assembly
+      description: 李耀命令克莱恩和他的小组在荒原中组装激光炮。
+    - id: damaged_energy_box
+      type: Incident
+      description: 激光炮的能源箱被罗峰的飞刀穿透，导致部分损坏。
+    dialogues:
+    - speaker: 秃鹫李耀
+      listener: 克莱恩
+      content: 你带的专业小组，死伤怎么样？
+    - speaker: 克莱恩
+      listener: 李耀
+      content: 我们小组连我一共九人，刚才死去两人，伤两人。
+    - speaker: 秃鹫李耀
+      listener: 克莱恩
+      content: 能不能组装好激光炮，并且进行操作？
+    timeline:
+    - event_id: laser_cannon_assembly
+      timestamp: 当前时间
+    mysteries:
+    - id: rofe_location
+      type: Unresolved
+      description: 罗峰的具体位置仍未被发现，但李耀相信他会回到山头。
+- source: part_010_03.yaml
+  data:
+    source:
+      id: 第148章战神罗峰主动邀请（四更完毕）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 战神级强者，拥有六棱盾牌和飞刀等装备。
+      attributes:
+        实力: 战神级
+        能力: 六道死亡光线, 飞行能力
+    - id: 李耀
+      type: Character
+      name: 李耀
+      aliases: []
+      description: 罗峰的敌人，因为儿子被罗峰杀死而疯狂。
+      attributes:
+        实力: 不详
+        性格: 愤怒, 狂暴
+    - id: 圆形湖泊
+      type: Location
+      name: 幻影般的浓雾笼罩着百里方圆的圆形湖泊
+      aliases: []
+      description: 被浓雾包围，白天和黑夜都存在浓雾。湖中生活着许多电鳗类水族怪兽。
+    - id: 六棱盾牌
+      type: Item
+      name: 六棱盾牌
+      aliases: []
+      description: 罗峰的飞行工具
+    - id: 飞刀
+      type: Item
+      name: 飞刀
+      aliases: []
+      description: 罗峰使用的攻击武器，可以绕过弧线贯穿怪兽。
+    relationships:
+    - 主体: 罗峰
+      关系类型: 敌对
+      客体: 李耀
+    events:
+    - 名称: 罗峰探索圆形湖泊
+      时间: 白天
+      描述: 罗峰在清晨时分进入浓雾笼罩的湖泊，遭遇电鳗类水族怪兽攻击。
+    dialogues:
+    - 主体: 秃鹫李耀
+      内容: 我的儿子，死了！唯一的儿子死了！拿我当磨刀石？哈哈……洪, 洪, 你看着, 我会让你后悔这个决定！
+    timeline:
+    - 时间点: 夜晚
+      描述: 罗峰在湖泊边缘行走观察。
+    - 时间点: 清晨
+      描述: 罗峰进入浓雾笼罩的湖泊，遭遇电鳗类水族怪兽攻击。
+    mysteries:
+    - 内容: 湖泊中为何会存在如此诡异且强大的电鳗类水族怪兽？
+- source: part_010_04.yaml
+  data:
+    source:
+      id: 第150章-第151章
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '高等战神，正在澳洲大陆地底岩石层中探险。
+
+        '
+      attributes:
+        实力: 高等战神
+        能力: 会使用精神念师的能力
+        性格: 善良但手段阴狠
+    - id: 罗华
+      type: Character
+      name: 罗华
+      aliases: []
+      description: '罗峰的弟弟，因意外受伤坐轮椅。
+
+        '
+      attributes:
+        年龄: 比罗峰小
+        身份: 残疾人
+    - id: 李耀
+      type: Character
+      name: 李耀
+      aliases: []
+      description: '正在追杀罗峰的敌人。
+
+        '
+      attributes:
+        实力: 强于罗峰（拥有精神念师的能力）
+    relationships:
+    - 主体: 罗峰
+      客体: 罗华
+      关系类型: 兄弟
+    - 主体: 李耀
+      客体: 罗峰
+      关系类型: 敌人
+    locations:
+    - 名称: 澳洲大陆
+      类型: 地点
+      描述: '奇特的雾岛所在的巨大陆地，被怪兽占据。
+
+        '
+      特殊属性:
+        环境特征: 雾气弥漫、植物变异
+    items:
+    - 名称: 生命之水
+      类型: Item
+      描述: '能够治疗罗华双腿的神秘液体。
+
+        '
+    events:
+    - 名称: 李耀追杀罗峰
+      时间: 文章中未具体说明
+      地点: 澳洲大陆地底岩石层
+      描述: '罗峰正在躲避李耀和他的手下。
+
+        '
+      特殊属性:
+        结果: 罗峰暂时安全
+    dialogues:
+    - 主体: 罗华
+      客体: 罗峰
+      内容: 你在澳洲大陆怎么样啊？
+    - 主体: 罗峰
+      客体: 罗华
+      内容: 放心，那些怪兽哥杀它们就跟砍瓜切菜一样。
+    - 主体: 罗峰
+      客体: 罗华
+      内容: 今年年底，我就能带一份生命之水回去，到时候弟弟你就能站起来了。
+    timeline:
+    - 时间点: 当前时间
+      描述: '罗峰在澳洲大陆地底岩石层躲避李耀。
+
+        '
+    - 时间点: 年底
+      描述: '罗峰会带回生命之水给罗华。
+
+        '
+    mysteries:
+    - 内容: 澳洲大陆雾岛上大量植被具有攻击性，这是如何发生的？
+- source: part_010_05.yaml
+  data:
+    source:
+      id: 第154章战神罗峰千年柳木心
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 极限武馆的成员，具有超越战神的实力。
+      attributes:
+        实力: 超越战神
+        特点: 竖起耳朵听着声音, 收拢精神念力
+    - id: 李耀
+      type: Character
+      name: 李耀
+      aliases: []
+      description: 四人小队的一员，能够用英语交流。
+      attributes:
+        能力: 对草木之灵有深入了解
+    - id: 卡特兰
+      type: Character
+      name: 卡特兰
+      aliases: []
+      description: 黑袍神秘人物, 领导四人小队, 拥有黑神套装。
+      attributes:
+        实力: 强大
+        武器: 标枪、匕首
+    - id: 波莱纳斯家族
+      type: Organization
+      name: 波莱纳斯家族
+      aliases: []
+      description: 提供人马参与行动的组织。
+    items:
+    - id: 千年柳木心
+      type: Item
+      name: 千年柳木心
+      aliases: []
+      description: 草木之灵的重要宝物，具有特殊的孕育能力。
+      attributes:
+        来源: 柳树类草木之灵
+    - id: 黑神套装
+      type: Item
+      name: 黒神套装
+      aliases: []
+      description: 卡特兰的特殊装备, 能够随意变幻成各种形状。
+    events:
+    - id: 四人小队接近柳树王
+      type: Event
+      name: 四人小队接近柳树王
+      description: 李耀等人接近九棵柳树草木之灵，准备对付它们。
+      timeline:
+        时间点: 夜晚, 雾大时分
+    dialogues:
+    - id: 对话1
+      type: Dialogue
+      characters:
+      - 罗峰
+      - 卡特兰
+      - 李耀
+      content:
+      - 卡特兰，前面就是九棵柳树类草木之灵。
+      - 对付？那柳树王可是直径达到三米，当年孕育着‘千年柳木心’的柳树类草木之灵，也才直径一米。这柳树王可比那棵厉害多了。特别是它的一根根淡金色柳枝条，每一根都非常坚韧，一旦被重重捆缚住，就是我，也必死无疑！
+      - 卡特兰，你看，那九棵柳树……核心的一棵，也是最粗的一棵柳树王是最厉害的。而且它的淡金色柳枝条是足以覆盖周围其他柳树的，所以，我想要攻击其他柳树也是没有办法。
+    timeline:
+    - 时间点: 夜晚, 雾大时分
+      描述: 罗峰在草丛中监听四人小队接近九棵柳树类草木之灵。
+    mysteries:
+    - 卡特兰是否能成功对付柳树王？
+    - 黑神套装的具体能力是什么？

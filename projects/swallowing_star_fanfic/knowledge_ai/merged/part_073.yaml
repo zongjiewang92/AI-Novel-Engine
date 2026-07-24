@@ -1,0 +1,367 @@
+part: part_073
+generated_time: '2026-07-23T15:46:34.618278'
+count: 5
+items:
+- source: part_073_01.yaml
+  data:
+    source:
+      id: 仿紫辰天
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 宇宙霸主，拥有至少六件至宝，包括灵魂类至宝、念力兵器至宝等。
+      attributes:
+        实力: 宇宙霸主
+        特殊能力: 无尽幽海分身
+    - id: 紫冶族群
+      type: Species
+      name: 紫冶族群
+      aliases: []
+      description: 能量类生命，天生不怕灵魂攻击，喜欢贴近大地。
+    - id: 天旸尊者
+      type: Character
+      name: 天旸尊者
+      aliases: []
+      description: 未详细描述，罗峰等待其消息。
+    - id: 繁光领主
+      type: Character
+      name: 繁光领主
+      aliases: []
+      description: 北疆联盟的超级强者，宇宙霸主存在。
+      attributes:
+        实力: 宇宙霸主
+    locations:
+    - id: 原始星
+      type: Location
+      name: 原始星
+      aliases: []
+      description: 集聚了众多强者的星球。
+    organizations:
+    - id: 北疆联盟
+      type: Organization
+      name: 北疆联盟
+      aliases: []
+      description: 繁光领主所在的联盟，罗峰杀的吠镜王是该联盟成员之一。
+    items:
+    - id: 斩玥刀
+      type: Item
+      name: 斩玥刀
+      aliases: []
+      description: 罗峰持有的武器。
+    abilities:
+    - id: 虚拟宇宙连接
+      type: Ability
+      name: 虚拟宇宙连接
+      aliases: []
+      description: 分身可以一直连接虚拟宇宙，等待消息。
+    events:
+    - id: 繁光领主发现罗峰
+      type: Event
+      name: 繁光领主发现罗峰
+      timeline: 原始星第29个小时
+      description: 繁光领主发现了在原始星飞行的罗峰，准备攻击他。
+    dialogues:
+    - id: 繁光领主对罗峰的看法
+      type: Dialogue
+      speaker: 繁光领主
+      content: 这容貌不就是传说中的人类绝世天才罗峰？这，对，至宝羽翼……
+    timeline:
+    - 时间节点1: 罗峰在原始星第29个小时飞行时被繁光领主发现。
+    - 时间节点2: 繁光领主决定迅速行动攻击罗峰。
+    mysteries:
+    - id: 原始星宝物命名
+      type: Mystery
+      content: 为什么原始星中诞生的宝物，本名竟然是‘仿紫辰天’？
+- source: part_073_02.yaml
+  data:
+    source:
+      id: 罗峰的领域
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 来自人类族群，擅长使用斩玥刀进行战斗。
+      attributes:
+        实力: 宇宙之主
+        特殊能力: 兽神变, 斩玥刀法
+    - id: 金角巨兽分身
+      type: Character
+      name: 金角巨兽分身
+      aliases: []
+      description: 罗峰的分身，具有强大的杀戮能力。
+      attributes:
+        特殊能力: 兽神变, 战斗力强大
+    - id: 仲斩尊者
+      type: Character
+      name: 仲斩尊者
+      aliases: []
+      description: 虫族联盟的宇宙霸主，擅长近战且灵魂防御极强。
+      attributes:
+        实力: 宇宙霸主
+        特殊能力: 高等至宝铠甲, 命运的仲裁
+    - id: 九虓河
+      type: Location
+      name: 九虓河
+      aliases: []
+      description: 神秘河流，具有强大威能。
+      attributes: null
+    - id: 虫族联盟
+      type: Civilization
+      name: 虫族联盟
+      aliases: []
+      description: 异族文明之一。
+    relationships: null
+    events:
+    - id: 罗峰杀戮异族尊者
+      type: Event
+      name: 罗峰杀戮异族尊者
+      description: 在九虓河中，罗峰利用兽神变和强大的刀法屠杀被困的宇宙霸主们。
+      attributes:
+        时间顺序: 中间朝外围
+    dialogues: null
+    timeline: null
+    mysteries: null
+- source: part_073_03.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 1
+      type: Character
+      name: 金角罗峰
+      aliases: []
+      description: 拥有弑吴羽翼和兽神甲，飞行速度极快。
+      attributes:
+      - 实力强大
+      - 飞行能力卓越
+    - id: 2
+      type: Character
+      name: 天旸尊者
+      aliases: []
+      description: 八臂光头机械族强者，擅长隐匿和逃逸。
+      attributes:
+      - 拥有流光羽翼
+      - 飞行能力强
+    - id: 3
+      type: Item
+      name: 弑吴羽翼
+      aliases: []
+      description: 对金角罗峰极其重要的至宝羽翼。
+    - id: 4
+      type: Item
+      name: 流光羽翼
+      aliases: []
+      description: 天旸尊者所拥有的重要飞行装备，发出强烈召唤信号。
+    - id: 5
+      type: Location
+      name: 原始星
+      aliases: []
+      description: 宇宙中某个隐秘的星球，宇宙尊者们等待时机的地方。
+      attributes:
+      - 存在多个原始星
+      - 可通过空间漩涡快速转移
+    relationships:
+    - type: 追击
+      source_id: 1
+      target_id: 2
+    events:
+    - id: 1
+      name: 遇见流光羽翼召唤信号
+      description: 金角罗峰在原始星中感应到天旸尊者羽翼的强烈呼唤。
+      timeline: 文本开始
+    - id: 2
+      name: 追击开始
+      description: 金角罗峰迅速展开追击行动，飞向发出召唤信号的方向。
+      timeline: 文本开始
+    - id: 3
+      name: 身份暴露的担忧
+      description: 天旸尊者在感应到呼唤后决定逃逸，并不断变换位置以躲避追踪。
+      timeline: 文本中段
+    - id: 4
+      name: 空间转移
+      description: 天旸尊者和金角罗峰分别通过空间漩涡转移到另一颗原始星。
+      timeline: 文本中间部分
+    dialogues:
+    - speaker_id: 2
+      content: 可恶的家伙，又来烦我吗？
+      context: 感应到金角巨兽到来后的愤怒质问。
+    timeline:
+    - event_1: 遇见流光羽翼召唤信号
+    - event_2: 追击开始
+    - event_3: 身份暴露的担忧
+    - event_4: 空间转移
+    mysteries:
+    - 天旸尊者为何会如此惧怕金角罗峰？
+    - 为什么弑吴羽翼对天旸尊者的流光羽翼有强烈的召唤信号影响？
+- source: part_073_04.yaml
+  data:
+    source:
+      id: 第1106章梵挪堡主和罗峰
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有金角巨兽分身，幽海分身等多个人格。掌握高等至宝。
+      attributes:
+        实力: 宇宙之主
+        关系: 与梵挪堡主为对手关系
+    - id: 幽海分身
+      type: Character
+      name: 幽海分身
+      aliases: []
+      description: 穿着高等至宝铠甲，背负紫色战刀。被派去守护地球。
+      attributes:
+        实力: 类宇宙之主(配备高等至宝后)
+    - id: 金角巨兽分身
+      type: Character
+      name: 金角巨兽分身
+      aliases: []
+      description: 罗峰的战斗化身，神体庞大。
+      attributes:
+        实力: 类宇宙之主(配备高等至宝后)
+    - id: 魔杀族分身
+      type: Character
+      name: 魔杀族分身
+      aliases: []
+      description: 罗峰的人格之一。
+      attributes: null
+    - id: 梵挪堡主
+      type: Character
+      name: 梵挪堡主
+      aliases: []
+      description: 刺环联盟的强者，逆转时空复活了煞雾尊者。
+      attributes:
+        实力: 宇宙之主
+    - id: 煞雾尊者
+      type: Character
+      name: 煞雾尊者
+      aliases: []
+      description: 被梵挪堡主用逆转时空复活，跟踪天旸尊者的对手。
+      attributes:
+        实力: 宇宙霸主
+    organizations:
+    - id: 刺环联盟
+      type: Organization
+      name: 刺环联盟
+      aliases: []
+    locations:
+    - id: 原始星
+      type: Location
+      name: 原始星
+      aliases: []
+    items:
+    - id: 高等至宝铠甲
+      type: Item
+      name: 高等至宝铠甲
+      description: 来自天旸尊者，由幽海分身穿戴。
+    - id: 紫色战刀
+      type: Item
+      name: 紫色战刀
+      description: 罗峰近一年来击杀五名宇宙霸主所得。
+    abilities:
+    - id: 逆转时空
+      type: Ability
+      name: 逆转时空
+      description: 宇宙之主级别的秘法，能将死去的强者复活。
+    dialogues:
+    - characters:
+      - 梵挪堡主
+      - 煞雾尊者
+      content: 梵挪堡主问煞雾尊者的跟踪情况。
+    timeline:
+    - event_id: 幽海分身前往地球
+      time: 近一年后
+      description: 幽海分身离开神国，去守护罗家所在的地球。
+    mysteries:
+    - id: 混沌气流出现原因
+      type: Mystery
+      name: 混沌气流出现的原因
+      description: 煞雾尊者在原始星遭遇混沌气流的场景让梵挪堡主感到疑惑，因为混沌气流不可能出现在原始星。
+- source: part_073_05.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，拥有极高实力的宇宙霸主。
+      attributes:
+        实力: 极高的宇宙高等尊者
+        性格: 智慧、谨慎
+    - id: 星河之主
+      type: Character
+      name: 星河之主
+      aliases: []
+      description: 宇宙中地位极高的存在。
+      attributes:
+        实力: 极高，拥有时空逆转的能力
+        性格: 威严、神秘
+    - id: 梵挪堡主
+      type: Character
+      name: 梵挪堡主
+      aliases: []
+      description: 刺环联盟的宇宙霸主。
+      attributes:
+        实力: 顶尖宇宙霸主
+        性格: 狡猾、贪婪
+    - id: 北疆联盟宫殿群
+      type: Location
+      name: 北疆联盟宫殿群
+      aliases: []
+      description: 燃烧着无尽黑色火焰的宏伟建筑群，星河之主的居所。
+    - id: 混沌城
+      type: Location
+      name: 混沌城
+      aliases: []
+      description: 宇宙中重要的城市之一。
+    - id: 神国
+      type: Location
+      name: 神国
+      aliases: []
+      description: 罗峰的起源地，拥有强大的虚拟宇宙系统。
+    - id: 原始星
+      type: Location
+      name: 原始星
+      aliases: []
+      description: 罗峰经常活动的一个星球。
+    - id: 木之究化晶
+      type: Item
+      name: 木之究化晶
+      aliases: []
+      description: 一种具有高价值的金属。
+      attributes:
+        宝点数: 18重宝点
+    relationships:
+    - 主体: 罗峰
+      关系类型: 领属关系
+      目标: 混沌城
+      描述: 罗峰在混沌城里有府邸。
+    events:
+    - 名称: 星河之主的时空回溯
+      时间线位置: 远古时期
+      参与者: 星河之主, 多名宇宙尊者
+      地点: 北疆联盟宫殿群
+      描述: 星河之主通过时空逆转能力复活多位宇宙高等尊者。
+    - 名称: 罗峰辨认宝物
+      时间线位置: 当前时期
+      参与者: 罗峰, 虚拟宇宙系统
+      地点: 混沌城偏殿
+      描述: 罗峰试图通过虚拟宇宙系统辨别自己拥有的未知金属的价值。
+    dialogues:
+    - 对话人1: 星河之主
+      对话人2: 多名宇宙尊者
+      内容: 回答我，人类罗峰的帮手是谁！
+    - 对话人1: 罗峰
+      对话人2: 虚拟宇宙系统
+      内容: 金属‘木之究化晶’一颗，献给族群可得到18重宝点，罗峰，是否愿将这宝物献给族群？
+    timeline:
+    - 时间节点: 星河之主的时空回溯
+      描述: 远古时期星河之主复活多名宇宙高等尊者。
+    mysteries:
+    - 内容: 罗峰的金属中究竟包含什么未知的宝物？

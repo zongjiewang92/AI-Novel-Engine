@@ -1,0 +1,447 @@
+part: part_027
+generated_time: '2026-07-23T15:46:34.037599'
+count: 5
+items:
+- source: part_027_01.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '在拍卖会上表现出对特定物品的强烈兴趣，如克拉斯古树黄金叶和魔杀族人皮肤。
+
+        '
+      attributes:
+        实力: 界主
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: '罗峰的虚拟助手，提供关于拍卖物品的信息及建议。
+
+        '
+      attributes: {}
+    - id: 克拉斯古树黄金叶
+      type: Item
+      name: 克拉斯古树黄金叶
+      aliases: []
+      description: '在浩瀚宇宙中极为珍贵的稀有物品，具有神奇魔力。在拍卖会上以8990混元单位的价格成交。
+
+        '
+    - id: 魔杀族人皮肤
+      type: Item
+      name: 魔杀族人皮肤
+      aliases: []
+      description: '具备空间本源法则秘纹，价值极高。魔杀族属于能量类生命种族中最顶尖的族群。
+
+        '
+    relationships:
+    - 主体: 罗峰
+      关系类型: 拥有
+      客体: 巴巴塔
+      描述: 虚拟助手关系
+    events:
+    - 名称: 克拉斯古树黄金叶拍卖
+      时间: 压轴物品拍卖开始时
+      描述: '在乾巫拍卖会上以8990混元单位的价格成交，为拍卖会压轴的第一件物品。
+
+        '
+    - 名称: 魔杀族人皮肤拍卖
+      时间: 克拉斯古树黄金叶拍卖之后
+      描述: '拍卖厅内界主强者们沸腾起来，展示了一块奇异的黑色魔杀族皮肤。其价值在于蕴含空间本源法则秘纹。
+
+        '
+    dialogues:
+    - 主体: 巴巴塔
+      对象: 罗峰
+      内容: '"这克拉斯古树的黄金叶，在浩瀚宇宙中，也是无比珍贵的一件物品。没到不朽，你就别问了，这里面牵扯很多。"
+
+        '
+    - 主体: 龟壳老者
+      对象: 拍卖厅内界主
+      内容: '"开始拍卖，底价0！8900混元！还有没有更高的？恭喜编号BUE52522的客人，你得到了这珍贵无比的克拉斯古树的一片黄金叶。"
+
+        '
+    timeline:
+    - 时间点1: 压轴物品拍卖开始
+      描述: '克拉斯古树黄金叶以8990混元单位的价格成交。
+
+        '
+    - 时间点2: 魔杀族人皮肤展示
+      描述: '拍卖厅内界主们沸腾，展示魔杀族人皮肤并拍卖。
+
+        '
+    mysteries:
+    - 内容: 克拉斯古树黄金叶的具体用途和特性未详细说明。
+- source: part_027_02.yaml
+  data:
+    source:
+      id: 罗峰宇宙
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有金角巨兽，修炼陨墨星一脉秘法的三级精英天才。
+      attributes:
+        实力: 宇宙级六阶
+        能力: 天赋——分身, 金之本源参悟
+    - id: 洪
+      type: Character
+      name: 洪
+      aliases: []
+      description: 罗峰的哥哥，陨墨星一脉秘法修炼者。
+      attributes:
+        实力: 宇宙级三阶四阶（目标）
+        能力: 一级精英天才
+    - id: 雷神
+      type: Character
+      name: 雷神
+      aliases: []
+      description: 罗峰的二哥，接受智能生命“雾大人”教导。
+      attributes:
+        实力: 宇宙级（未知）
+        能力: 智能生命指导
+    - id: 澜可果实
+      type: Item
+      name: 澜可果实
+      aliases: []
+      description: 珍稀植物果实，用于培养罗峰的摩云藤。
+      attributes:
+        效果: 提升植物生命力至宇宙级三阶四阶
+    - id: 魔杀族皮肤
+      type: Item
+      name: 魔杀族皮肤
+      aliases: []
+      description: 拥有孕育分身天赋的黑色奇异皮肤。
+      attributes:
+        原主人实力: 宇宙级二阶魔杀族人
+    relationships:
+    - id: 罗峰与洪的关系
+      type: Relationship
+      name: 兄弟关系
+      description: 罗峰是老大，洪和雷神分别是老二、老三。
+    events:
+    - id: 澜可果实的交易
+      type: Event
+      name: 罗峰给予洪100颗澜可果实
+      description: 用于提升洪摩云藤的实力。
+    - id: 决战空间的变化
+      type: Event
+      name: 杀戮场决战空间出现大量天才强者
+      description: 过去罕有现身的强者突然出现在杀戮场决战空间。
+    dialogues:
+    - id: 罗峰与洪关于澜可果实的对话
+      type: Dialogue
+      content: '罗峰连解释道，“这澜可果实，药性比较缓和，你的摩云藤服用肯定能吸收，这100颗澜可果实，每十天服用一颗，花费三年功夫，吃完100颗澜可果实，保证你的摩云藤，能达到宇宙级三阶四阶。”
+
+        洪笑道，“哈哈……好了，我明白。”
+
+        '
+    - id: 罗峰与洪关于雷神的对话
+      type: Dialogue
+      content: '“大哥，主要这次我去参加拍卖会，一开始为了购买念力兵器耗费钱多了些，没能够买生命果实。”罗峰歉意道。
+
+        “哈哈……好了，我明白。”洪笑道，“我们兄弟就别说这么多了。”
+
+        '
+    timeline:
+    - id: 春节
+      type: Timeline
+      content: 寒冬腊月，春节到来。
+    mysteries:
+    - id: 决战空间出现大量天才强者的谜团
+      type: Mystery
+      description: 罗峰不解为何杀戮场决战空间突然出现众多不常见到的强者。
+- source: part_027_03.yaml
+  data:
+    source:
+      id: 罗峰宇宙巅峰天才战
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 恒星级人类，乾巫拍卖会竞拍者。
+      attributes:
+        实力: 领域五重
+        年龄: 不详
+        性格: 追求极致的强者
+    - id: 洪
+      type: Character
+      name: 洪
+      aliases: []
+      description: 界主级存在，罗峰的大哥。
+      attributes:
+        实力: 界主级
+        年龄: 不详
+        性格: 冷静睿智
+    - id: 雷神
+      type: Character
+      name: 雷神
+      aliases: []
+      description: 罗峰的三哥，界主。
+      attributes:
+        实力: 界主级
+        年度: 不详
+        性格: 冷静果断
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 虚拟宇宙飞船上的智能生命体。
+      attributes:
+        实力: 智能生命体
+        年龄: 不详
+        性格: 严谨认真
+    - id: 虚拟宇宙公司
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 组织举办“巅峰天才战”的企业。
+      attributes:
+        目的: 推动恒星级人类的发展与竞争
+    - id: 乾巫拍卖会
+      type: Event
+      name: 乾巫拍卖会
+      aliases: []
+      description: 拍卖会中争夺进入初始宇宙参悟名额。
+    locations:
+    - id: 乾巫宇宙国
+      type: Location
+      name: 乾巫宇宙国
+      aliases: []
+      description: 宇宙的一部分，拥有众多星系。
+      attributes:
+        特点: 拥有众多恒星级天才
+    events:
+    - id: 巅峰天才战
+      type: Event
+      name: 尖峰天才战
+      aliases:
+      - 宇宙人类——巅峰天才战
+      description: 宇宙中所有恒星级人类参加的比赛。
+      attributes:
+        时间周期: 每五千年举办一次，一万年内两次（虚拟宇宙公司和巨斧斗武场各一次）
+        奖励: 排名前1000的参赛者将获得奖金、进入初始宇宙参悟以及成为虚拟宇宙公司的核心成员
+        参赛条件: 仅限恒星级人类
+    dialogues:
+    - id: 罗峰与洪
+      type: Dialogue
+      content: '洪: "巅峰天才战？"
+
+        罗峰: "整个宇宙所有宇宙国，亿万天才对战？"
+
+        '
+    - id: 巴巴塔建议
+      type: Dialogue
+      content: '巴巴塔: "罗峰,机会不错,你得去试试。"
+
+        '
+    relationships:
+    - id: 罗峰和洪的关系
+      type: Relationship
+      description: 罗峰是洪的弟弟。
+    mysteries:
+    - id: 前1000名参赛者的挑战性
+      type: Mystery
+      content: '巴巴塔表示：要进入宇宙亿万天才总排名的前1000极其困难，尤其是对于罗峰这样的年轻恒星级选手。
+
+        '
+    timeline: null
+- source: part_027_04.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: rofei
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 在虚拟宇宙中参加预选赛，目前排名较低。
+      attributes:
+        积分: 92
+        排名: 68942048
+    - id: xuxin
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 罗峰的表妹，观看预选赛直播。
+      attributes:
+        关系: 表姐弟关系
+    - id: hong
+      type: Character
+      name: 洪
+      aliases: []
+      description: 罗峰的好友，在虚拟宇宙中参加预选赛。
+    - id: qianwuwangguo
+      type: Civilization
+      name: 乾巫宇宙国
+      aliases: []
+      description: 参加虚拟宇宙大会的文明之一，疆域辽阔。
+      attributes:
+        高层观战人数: 不计其数
+    - id: caotuer
+      type: Character
+      name: 骆涂儿
+      aliases: []
+      description: 来自鹏羽帝国的年轻人，与乾巫宇宙国世子等贵族为友。
+      attributes:
+        关系: 鹏羽帝国皇位继承人候选人之一
+    - id: shizi
+      type: Character
+      name: 世子殿下
+      aliases: []
+      description: 干巫宇宙国内的年轻贵族，与骆涂儿等人为友。
+    - id: bolin
+      type: Character
+      name: 布罗林
+      aliases: []
+      description: 黑龙山帝国皇子，排名较低。
+      attributes:
+        关系: 龙山黑帝国最强势的皇子
+    - id: nuolanshan
+      type: Character
+      name: 诺岚山
+      aliases: []
+      description: 在虚拟宇宙中观战，关注家族参加预选赛弟子的表现。
+    organizations:
+    - id: qianwuwangguo
+      type: Organization
+      name: 干巫宇宙国
+      aliases: []
+      description: 参加虚拟宇宙大会的文明之一。
+      attributes:
+        疆域辽阔: 拥有大量属国，地位最高的为“国主”，次之为封侯强者。
+    - id: pengyuwangguo
+      type: Organization
+      name: 鹏羽帝国
+      aliases: []
+      description: 干巫宇宙国内的属国之一。
+      attributes:
+        出强者多: 是干巫宇宙国中出强者最多的几个属国之一
+    locations:
+    - id: shijiequ_61
+      type: Location
+      name: 第61世界区
+      aliases: []
+      description: 预选赛的其中一个世界区。
+      attributes:
+        观战人数: 不计其数，很多年轻人在宇宙飞船上观战。
+    - id: shijiequ_82yi
+      type: Location
+      name: 第82亿多人对战的世界区
+      aliases: []
+      description: 预选赛中82亿多参战者所在的战场。
+      attributes:
+        狂热阶段已过: 最疯狂的一段时间已经过去，现在活下来的都是高手。
+    - id: zhuzhai_lou
+      type: Location
+      name: 住宅楼
+      aliases: []
+      description: 第一世界区中罗峰所在的位置。
+      attributes:
+        居住者: 罗峰
+    abilities:
+    - id: xikongzhitai
+      type: Ability
+      name: 虚空之塔
+      aliases: []
+      description: 秘法，用于形成虚空之塔结构。
+    items:
+    - id: huangjian
+      type: Item
+      name: 幻剑
+      aliases: []
+      description: 罗峰使用的衍神兵幻剑式。
+      attributes:
+        组成材料: 大量金色丝线
+    events:
+    - id: yuxingyuanshengqian
+      type: Event
+      name: 虚拟宇宙大会预选赛进行中
+      aliases: []
+      description: 预选赛已经进行了十天，最疯狂的阶段已过。
+      attributes:
+        时间长度: 十天
+    - id: jianghuayanhui
+      type: Event
+      name: 观战聚会
+      aliases: []
+      description: 在第61世界区上空的宇宙飞船上举行观战聚会，贵族们聚在一起吃喝玩乐。
+      attributes:
+        时间长度: 持续进行中
+    dialogues:
+    - id: xuxin_chengxu
+      type: Dialogue
+      name: 徐欣与罗峰对话
+      aliases: []
+      description: 徐欣询问表弟罗峰的预选赛排名。
+      attributes:
+        对话内容: 妈妈，爸爸的排名一直在往下掉。
+    - id: qizi_duihuayanhui
+      type: Dialogue
+      name: 世子与骆涂儿对话
+      aliases: []
+      description: 在观战聚会上贵族们交谈关于预选赛的事情。
+      attributes:
+        对话内容: 鹏羽帝国一直是我们乾巫宇宙国麾下诸多属国中，出强者最多的几个属国之一。
+    relationships:
+    - id: rofei_xuxin
+      type: Relationship
+      name: 罗峰与徐欣的表姐弟关系
+    timeline:
+    - id: yuxingyuanshengqian
+      type: Timeline
+      name: 预选赛进行中的时间线
+      aliases: []
+      description: 虚拟宇宙大会预选赛已经进行了十天，最疯狂的一段时间已过。
+    mysteries:
+    - id: bolin_yixing
+      type: Mystery
+      name: 布罗林的排名问题
+      aliases: []
+      description: 黑龙山帝国皇子布罗林在预选赛中的表现不佳。
+- source: part_027_05.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: rofei
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 排在前十的超级强者，拥有极高的实力和操控念力兵器的能力。
+      attributes:
+        实力: 超级强者前10
+        特长: 操控念力兵器“金色鱼儿”
+    - id: mochui
+      type: Character
+      name: 魔锤
+      aliases: []
+      description: 排在前十的超级强者，暗伽罗族天才，拥有黑色领域和四只手臂。
+      attributes:
+        实力: 超级强者前10
+        特长: 黑色领域、操控四个黑锤
+    relationships: null
+    events:
+    - id: 对战
+      type: Event
+      description: 罗峰与魔锤在街道上进行生死之战，双方都使用各自的最强手段。
+      timeline:
+        时间线: 文本描述的顺序
+    dialogues:
+    - speaker: 魔锤
+      content: 现在动手？
+    - speaker: 罗峰
+      content: 对。现在！
+    - speaker: 魔锤
+      content: 哈哈，那我就要瞧瞧，让无数天才恐惧的‘疯子’到底有多强。
+    timeline:
+      events:
+      - 对战
+    mysteries:
+    - 内容: 罗峰是否能够直接击杀魔锤。

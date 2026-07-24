@@ -1,0 +1,422 @@
+part: part_044
+generated_time: '2026-07-23T15:46:34.265612'
+count: 5
+items:
+- source: part_044_01.yaml
+  data:
+    source:
+      id: 第649章金角族群（第二更）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司的特使，拥有高傲的态度。
+      attributes:
+        实力: 不朽神灵
+    - id: 黑纱少女
+      type: Character
+      name: 黑纱少女
+      aliases: []
+      description: 第九军团的指挥者，来自虚拟宇宙公司。
+      attributes:
+        身份: 第九军主, 特使助手
+    - id: 高瘦男子
+      type: Character
+      name: 高瘦男子
+      aliases: []
+      description: 第九军团的指挥官，负责执行特使的任务。
+      attributes:
+        身份: 第九军团首领, 军职不朽神灵
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的虚拟宇宙助手，提供资料和意见。
+      attributes:
+        职责: 智能辅助, 讯息分析
+    - id: 第九军团
+      type: Organization
+      name: 第九军团
+      aliases: []
+      description: 乾巫宇宙国的军队单位之一，由100个军组成。
+      attributes:
+        规模: 过百万名战士
+        组成: 不朽神灵, 界主, 域主, 宇宙级
+    - id: 金角族群
+      type: Species
+      name: 金角族群
+      aliases: []
+      description: 属于岩石类生命的一种，投靠人类。
+      attributes:
+        实力: 普通族群, 多部落拥有封王及封侯级不朽神灵
+    relationships:
+    - id: 罗峰与第九军团
+      type: 命令关系
+      description: 罗峰作为特使，指挥第九军团执行任务。
+    - id: 第九军主黑纱少女和高瘦男子
+      type: 上下级关系
+      description: 黑纱少女是助手，而高瘦男子为直接领导。
+    events:
+    - id: 金角族群塔文部接触计划
+      type: 计划制定
+      description: 罗峰准备与金角族群的塔文部落进行接触。
+    dialogues:
+    - speaker: 黑纱少女
+      content: 罗峰，这第九军主是来自我虚拟宇宙公司，也是我虚拟宇宙公司成员。
+    - speaker: 高瘦男子
+      content: 特使，不知道这次任务有什么需要我第九军团做的？
+    timeline:
+    - id: 第九军团组建时间
+      time: 不详
+      description: 第九军团由乾巫分部‘军部’管辖。
+    mysteries:
+    - 内容: 罗峰将如何与金角族群塔文部落接触。
+- source: part_044_02.yaml
+  data:
+    source:
+      id: 文本来源
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司第九军主，拥有强大的实力。
+      attributes:
+        实力: 封王级不朽神灵及以上
+        角色身份: 第九军主
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的智能辅助设备，能够进行探测和转播。
+      attributes:
+        能力: 探测、转播战斗情景
+    - id: 杰弗里斯
+      type: Character
+      name: 杰弗里斯
+      aliases: []
+      description: 人类皇族成员，参与了叛变。
+      attributes:
+        实力: 封侯级不朽神灵
+        关系: 曜亥的老师
+    - id: 隆赤尔
+      type: Character
+      name: 隆赤尔
+      aliases: []
+      description: 白发老者，封王级不朽神灵。
+      attributes:
+        实力: 封王级不朽神灵
+        角色身份: 人类强者
+    - id: 曜亥
+      type: Character
+      name: 曜亥
+      aliases: []
+      description: 穿着碧绿战铠的少年，参与叛变。
+      attributes:
+        实力: 封侯级不朽神灵
+        关系: 杰弗里斯的学生
+    - id: 塔文部金角巨兽封侯级不朽神灵
+      type: Character
+      name: 塔文部金角巨兽封侯级不朽神灵
+      aliases: []
+      description: 来自塔文部的金角巨兽，参与战斗。
+      attributes:
+        实力: 封侯级不朽神灵
+    - id: 虚拟宇宙公司
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 组织名称。
+    locations:
+    - id: 帝都星
+      type: Location
+      name: 帝都星
+      aliases: []
+    organizations:
+    - id: 第九军
+      type: Organization
+      name: 第九军
+      aliases: []
+      description: 虚拟宇宙公司的第九军。
+    events:
+    - id: 曜亥叛变事件
+      type: Event
+      name: 曜亥叛变事件
+      description: 曜亥带领外族入侵帝都星，引发战斗。
+      timeline: 帝国皇宫内
+    dialogues:
+    - speaker: 杰弗里斯
+      listener: 隆赤尔
+      content: 隆赤尔大人，请帮我救下老师，杀死那群外族。
+    - speaker: 隆赤尔
+      listener: null
+      content: 背叛人族？没想到竟然被你们发现了。
+    mysteries:
+    - 内容: 杰弗里斯为什么会背叛人类。
+- source: part_044_03.yaml
+  data:
+    source:
+      id: 第655章盘点（第二更）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司特使，实力强大。
+      attributes:
+        实力: 封王级不朽神灵
+    - id: 寺番祁长老
+      type: Character
+      name: 寺番祁长老
+      aliases: []
+      description: 战争指挥官之一。
+      attributes:
+        身份: 长老
+        实力: 不详
+    - id: 迪伦
+      type: Character
+      name: 迪伦
+      aliases: []
+      description: 第九军的成员，参与战斗。
+      attributes:
+        实力: 不朽神灵
+    - id: 卡什那
+      type: Character
+      name: 卡什那
+      aliases: []
+      description: 战甲青年，第九军成员之一。
+      attributes:
+        身份: 第九军战士
+        实力: 封侯级不朽神灵
+    - id: 第九军主
+      type: Character
+      name: 第九军主
+      aliases: []
+      description: 第九军的指挥官，经验丰富。
+      attributes:
+        身份: 军队指挥官
+        实力: 封王级不朽神灵
+    organizations:
+    - id: 第九军
+      type: Organization
+      name: 第九军
+      description: 参与战斗的军队。
+      members:
+      - 罗峰
+      - 迪伦
+      - 卡什那
+      - 第九军主
+    events:
+    - id: 不朽虫族攻击
+      type: Event
+      name: 不朽虫族母巢和虫族战士袭击人类疆域
+      description: 数千名不朽级虫族战士在虫族母皇的指挥下对人类发动了毁灭性的攻击。
+      participants:
+      - 罗峰等人
+      - 虫族母皇及其麾下的不朽虫族战士
+    dialogues:
+    - speaker: 寺番祁长老
+      content: 意识一致、不怕死，还有精准的攻击。
+    - speaker: 迪伦
+      content: 数千不朽神灵同时施展攻击难以成功但威力可怕。
+    - speaker: 第九军主
+      content: 虫族母皇可以控制无数虫族战士并精确攻击，灵魂运用堪称巅峰。
+    timeline:
+    - event: 不朽级虫族母巢袭击帝都星
+      date: 不详
+    mysteries:
+    - question: 虫族为何敢来人类疆域？
+      answer: 可能通过控制的不朽神灵传送，避免追杀。
+    civilizations:
+    - id: 虫族文明
+      type: Civilization
+      name: 虫族文明
+      description: 宇宙巅峰族群之一，数量众多且智慧极高。
+      attributes:
+        实力范围: 界主级至封王级不朽神灵
+    abilities:
+    - id: 法则攻击
+      type: Ability
+      name: 法则攻击
+      description: 不朽虫族战士能够施展出含法则的精妙攻击。
+- source: part_044_04.yaml
+  data:
+    source:
+      id: 第659章拉斯奥世界（第二更）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 使用衍神兵的强者，对希罗多元老表示钦佩。
+      attributes:
+        实力: 境界主
+        身份: 殿下
+    - id: 寺番祁长老
+      type: Character
+      name: 寺番祁长老
+      aliases: []
+      description: 金角族群的长老，提议罗峰观摩希罗多圣碑。
+      attributes:
+        实力: 封侯级不朽神灵
+        身份: 长老
+    - id: 希罗多
+      type: Character
+      name: 希罗多
+      aliases: []
+      description: 金角族群最受尊敬的存在，创造了衍神兵。
+      attributes:
+        实力: 不详
+        身份: 多元老
+    - id: 第九军主
+      type: Character
+      name: 第九军主
+      aliases: []
+      description: 指挥宇宙军队的将领，在罗峰的任务中给予支持。
+      attributes:
+        实力: 封侯级不朽神灵
+        身份: 军主
+    - id: 迪伦
+      type: Character
+      name: 迪伦
+      aliases: []
+      description: 罗峰的随从，对金角族群文化和希罗多之名表示兴趣。
+      attributes:
+        实力: 不详
+        身份: 随从
+    - id: 乾巫宇宙国
+      type: Civilization
+      name: 乾巫宇宙国
+      aliases: []
+      description: 罗峰前往金角族群家乡所在的宇宙国度。
+    locations:
+    - id: 拉斯奥世界
+      type: Location
+      name: 拉斯奥世界
+      aliases:
+      - 金角族群生存之地
+      description: 位于乾巫宇宙国边缘地带的危险宇宙秘境，是金角族群的家乡。
+      attributes:
+        特点: 宇宙秘境中的一片浩瀚大陆
+    organizations:
+    - id: 人类阵营
+      type: Organization
+      name: 人类阵营
+      aliases: []
+      description: 在罗峰任务中的支持方。
+    items:
+    - id: 衍神兵
+      type: Item
+      name: 衍神兵
+      aliases:
+      - 希罗多元老的创造
+      description: 希罗多元老创造出的适合界主使用的神兵。
+      attributes:
+        特性: 结合了空间和金路线
+    events:
+    - id: 参观圣碑
+      type: Event
+      name: 参观希罗多圣碑
+      aliases:
+      - 观摩圣碑
+      description: 罗峰前往金角族群家乡，希望参悟希罗多元老留下的圣碑。
+      attributes:
+        时间: 一个月后
+    dialogues:
+    - id: 观摩圣碑提议
+      type: Dialogue
+      name: 寺番祁长老提议观摩圣碑
+      aliases: []
+      description: 寺番祁长老向罗峰提议参悟希罗多元老的圣碑。
+      attributes:
+        时间: 宴席结束时
+    timeline:
+    - id: 晚宴后安排出行
+      type: Timeline
+      name: 罗峰晚宴后的安排和出行准备
+      aliases: []
+      description: 罗峰会见第九军主并进行后续任务安排，随后与金角族群塔文部一起前往其家乡。
+      attributes:
+        时间点: 宴席结束
+    mysteries:
+    - id: 附庸族群数量
+      type: Mystery
+      name: 人类疆域内的附庸族群数目
+      aliases: []
+      description: 寺番祁长老表示这是机密，只有少数人清楚。
+- source: part_044_05.yaml
+  data:
+    source:
+      id: 文本来源ID
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，人类天才，在拉斯奥世界观察毁娑巨兽。
+      attributes:
+        实力: 域主级九阶
+        目标: 获取毁娑巨兽毛发以备将来作为培育分身的材料
+    - id: 卡什那
+      type: Character
+      name: 卡什那
+      aliases: []
+      description: 拉斯奥世界金角族青年，跟随罗峰。
+      attributes:
+        实力: 不详
+        关系: 跟随者、老师的学生
+    - id: 寺番祁长老
+      type: Character
+      name: 寺番祁长老
+      aliases: []
+      description: 拉斯奥世界的元老级人物，负责向罗峰介绍圣地情况。
+      attributes:
+        实力: 不详
+        职务: 元老
+    - id: 毁娑巨兽
+      type: Species
+      name: 毁娑巨兽
+      aliases: []
+      description: 星空巨兽，拉斯奥世界唯一的毁娑巨兽。
+      attributes:
+        实力: 界主巅峰期
+        特殊能力: 时间静止
+    - id: 圣地
+      type: Location
+      name: 圣地
+      aliases: []
+      description: 拉斯奥世界的圣地，有圣碑供人观摩参悟。
+      attributes:
+        位置: 山脚下
+        特点: 内含秘阵
+    relationships:
+    - id: 罗峰与卡什那关系
+      type: Relationship
+      name: 跟随者
+      description: 卡什那是跟随罗峰的金角族青年。
+      attributes: []
+    events:
+    - id: 观察毁娑巨兽
+      type: Event
+      name: 罗峰观察毁娑巨兽
+      description: 罗峰等人在圣地外围观察拉斯奥世界的唯一一头毁娑巨兽。
+      timeline: 不详
+    dialogues:
+    - id: 寺番祁长老与罗峰对话
+      type: Dialogue
+      content: 寺番祁长老微笑着说道，向元老禀报关于罗峰的事，并安排他进入圣地观摩圣碑。
+      participants:
+      - 寺番祁长老
+      - 罗峰
+    - id: 卡什那与罗峰对话
+      type: Dialogue
+      content: 卡什那一愣，对毁娑巨兽表现出浓厚兴趣。
+      participants:
+      - 卡什那
+      - 罗峰
+    timeline: null
+    mysteries:
+    - id: 毁娑巨兽毛发的用途
+      type: Mystery
+      description: 罗峰计划将来利用毁娑巨兽的毛发培育分身，但目前实力不够。

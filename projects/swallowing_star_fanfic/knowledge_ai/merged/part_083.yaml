@@ -1,0 +1,420 @@
+part: part_083
+generated_time: '2026-07-23T15:46:34.732915'
+count: 5
+items:
+- source: part_083_01.yaml
+  data:
+    source:
+      id: origin_text
+    entities:
+    - id: rofei
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 宇宙尊者，拥有弑吴羽翼等强大装备。
+      attributes:
+        实力: 宇宙尊者
+        装备: 判决之刃、金色的国度、弑吴羽翼
+    - id: duandonghe
+      type: Character
+      name: 断东河
+      aliases: []
+      description: 遗留下的远古文明传承者，拥有强大的力量和智慧。
+      attributes:
+        实力: 宇宙最强者层次
+    - id: wujiongzhushou
+      type: Character
+      name: 巫魉之主
+      aliases: []
+      description: 参与断东河传承的宇宙之主。
+      attributes:
+        实力: 宇宙之主
+    - id: yingeizhushou
+      type: Character
+      name: 影埃之主
+      aliases: []
+      description: 参与断东河传承的宇宙之主，冷酷无情。
+      attributes:
+        实力: 宇宙之主
+    - id: luchongzhushou
+      type: Character
+      name: 鹿虫之主
+      aliases: []
+      description: 参与断东河传承的宇宙之主，对罗峰表示佩服。
+      attributes:
+        实力: 宇宙之主
+    organizations:
+    - id: renlei_zu
+      type: Civilization
+      name: 人类族群
+      description: 拥有众多宇宙之主的强大文明。
+    items:
+    - id: jinguseguo
+      type: Item
+      name: 金色的国度
+      aliases: []
+      description: 罗峰的重要装备，具有保护作用。
+      attributes:
+        功能: 提供保护
+    - id: shiewuyi
+      type: Ability
+      name: 弑吴羽翼
+      aliases: []
+      description: 罗峰的防御手段之一。
+    locations:
+    - id: muling_zhoushi
+      type: Location
+      name: 墓陵之舟
+      aliases: []
+      description: 内含断东河传承的地方。
+      attributes:
+        特性: 拥有考验和挑战
+    dialogues:
+    - speaker: 断东河
+      content: 你已通过，继续前进。
+      context: 对罗峰完成怪物奎洛考验的评价。
+    timeline:
+      events:
+      - id: muling_zhoushi_ketang
+        name: 墓陵之舟挑战
+        description: 罗峰在墓陵之舟内接受断东河传承，面对怪物奎洛。
+        order: 1
+    mysteries:
+    - question: 断东河的真正目的和能力是什么？
+      context: 关于断东河的神秘性以及其传承的未知。
+    relationships:
+    - id: rofei_duandonghe
+      type: Relationship
+      name: 罗峰与断东河的关系
+      description: 罗峰是接受断东河传承者之一，关系密切但不明。
+- source: part_083_02.yaml
+  data:
+    source:
+      id: 原文
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有极高战斗力的强者，正在观察犀皇局。
+      attributes:
+        实力: 宇宙之主级别
+    - id: 影埃之主
+      type: Character
+      name: 影埃之主
+      aliases: []
+      description: 犀皇局游戏参与者之一，已悟出部分规则。
+      attributes:
+        实力: 宇宙之主级别
+    - id: 巫魉之主
+      type: Character
+      name: 巫魉之主
+      aliases: []
+      description: 影埃之主的妻子，对犀皇局游戏有一定了解。
+      attributes:
+        实力: 宇宙之主级别
+    - id: 鹿虫之主
+      type: Character
+      name: 鹿虫之主
+      aliases: []
+      description: 犀皇局游戏参与者之一。
+      attributes:
+        实力: 宇宙之主级别
+    - id: 影钟魔主
+      type: Character
+      name: 影钟魔主
+      aliases: []
+      description: 天钟族强者，为了族人利益阻止他人进入墓陵之舟。
+      attributes:
+        实力: 宇宙最强者级别
+    - id: 唆海之主
+      type: Character
+      name: 唆海之主
+      aliases: []
+      description: 骸族强者，负责守卫墓陵之舟舱门。
+      attributes:
+        实力: 宇宙之主级别
+    - id: 赤鹨之主
+      type: Character
+      name: 赤鹨之主
+      aliases: []
+      description: 骸族强者，与唳海之主一同守卫墓陵之舟舱门。
+      attributes:
+        实力: 宇宙之主级别
+    - id: 岩巨之主
+      type: Character
+      name: 岩巨之主
+      aliases: []
+      description: 骸族强者，与唳海之主、赤鹨之主一同守卫墓陵之舟舱门。
+      attributes:
+        实力: 宇宙之主级别
+    - id: 北真
+      type: Character
+      name: 北真
+      aliases: []
+      description: 来自东帝圣地宇宙的强者，直接进入墓陵之舟争夺传承。
+      attributes:
+        实力: 超过10个轮回时代未曾在宇宙海中闯荡
+    organizations:
+    - id: 天钟族
+      type: Organization
+      name: 天钟族
+      description: 参与争夺墓陵之舟传承的势力之一。
+    locations:
+    - id: 墓陵之舟
+      type: Location
+      name: 墓陵之舟
+      aliases: []
+      description: 拥有无数犀皇局，内藏神秘传承。
+      attributes:
+        特点: 内域深处存在控制室核心殿厅
+    abilities:
+    - id: 犀皇局游戏规则
+      type: Ability
+      name: 犀皇局游戏规则
+      description: 影埃之主与巫魉之主已初步悟出的部分规则。
+    events:
+    - id: 感应到波动
+      type: Event
+      name: 感应到波动
+      description: 六位强者感觉到犀皇局附近有异动。
+    dialogues:
+    - id: 影钟魔主与唳海之主对话
+      type: Dialogue
+      content: 影钟魔主，这次可得谢谢你们传递消息。
+    timeline:
+    - id: 半年后
+      type: Timeline
+      name: 半年后
+      description: 北真率队进入墓陵之舟争夺传承。
+    mysteries:
+    - id: 游戏规则的全貌
+      type: Mystery
+      name: 游戏规则的全貌
+      description: 影埃之主与巫魉之主是否完全理解了犀皇局游戏的所有规则。
+- source: part_083_03.yaml
+  data:
+    source:
+      id: 罗峰传-1258章
+    entities:
+    - id: rofei
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有血色星辰塔至宝，面对宇宙之主和宇宙最强者的攻击。
+      attributes:
+        实力: 高级银河主宰
+        宝物: 血色星辰塔
+    - id: fenghanzhizhu
+      type: Character
+      name: 风犴之主
+      aliases: []
+      description: 拥有三色塔柱镇封至宝。
+      attributes:
+        实力: 宇宙之主
+        能力: 炼制镇封类至强至宝
+    - id: zhengzhi
+      type: Character
+      name: 第七真主
+      aliases: []
+      description: 拥有冰崖堡至强至宝，愿意借出以换取巅峰至宝。
+      attributes:
+        实力: 宇宙最强者
+        能力: 掌握镇封类至强至宝
+    - id: huangkezhuzhi
+      type: Character
+      name: 皇岢之主
+      aliases: []
+      description: 东帝圣地的宇宙之主，愿意牺牲自己为族群换取利益。
+      attributes:
+        实力: 宇宙之主
+        关系: 东帝圣地族人
+    organizations:
+    - id: dongdizheng
+      type: Organization
+      name: 东帝圣地
+      description: 参与闯荡的三大势力之一，主要由宇宙本族成员组成。
+      members:
+      - 罗峰
+      - 风犴之主
+      - 皇岢之主
+    items:
+    - id: xingchetang
+      type: Item
+      name: 血色星辰塔
+      description: 罗峰的至宝，拥有强大的抵抗力量。
+      attributes:
+        类型: 至强至宝
+        功能: 防御、镇封
+    dialogues:
+    - speaker: fenghanzhizhu
+      dialogue: 封！
+      context: 尝试用三色塔柱吞吸罗峰的血色星辰塔，失败后愤怒地催促其他宇宙之主。
+    - speaker: zhengzhi
+      dialogue: 我有宫殿至强至宝‘冰崖堡’，且有镇封之能。不过这件至强至宝认主，对意志要求颇高。若是宇宙之主……那必须得是宇宙最强者的意志。你们两大圣地，宇宙之主们一个个活的无比漫长，意志达到宇宙最强者行列的怕有些，你们随便推举出一位，让他暂时认这至强至宝，让他来镇封罗峰。
+      context: 向紫月圣地和东帝圣地提出借用冰崖堡，并要求以巅峰至宝作为抵押。
+    timeline:
+    - event: 罗峰使用血色星辰塔抵抗宇宙之主的攻击。
+      time: 当前时刻
+      description: 血色星辰塔展现出强大的防御能力，使七名宇宙之主无法将罗峰镇封。
+    mysteries:
+    - mystery: 断东河是否会让真主出手？
+      clue: 真主们接到断东河的指令不能攻击其他候选者。
+- source: part_083_04.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: duan_dong_he
+      type: Character
+      name: 断东河
+      aliases: []
+      description: 宇宙级强者，守护人类银河的秘法。
+      attributes:
+      - 实力强于所有参悟者
+      - 对罗峰另眼相看
+    - id: lu_chong_zhi_zhu
+      type: Character
+      name: 鹿虫之主
+      aliases: []
+      description: 宇宙之主，第一轮回时代势力之一。
+      attributes:
+      - 担心罗峰获得传承会威胁到自己的族群
+    - id: er_dai_zhenzhu
+      type: Character
+      name: 第二真主
+      aliases: []
+      description: 宇宙级强者，第二轮回时代的代表人物。
+      attributes:
+      - 对6000局解局数量持怀疑态度
+      - 神眼族中最高解局记录是1005局
+    - id: ro_feng
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 人类强者，第一个达到断东河最低要求的参悟者。
+      attributes:
+      - 解局数量远超其他参悟者
+      - 被各大势力忌恨
+    - id: jiufa_chuzaizhe
+      type: Character
+      name: 巨斧创始者
+      aliases: []
+      description: 宇宙级强者，人类族群代表人物之一。
+      attributes:
+      - 支持罗峰夺取传承
+      - 认为只要得到传承就能超越两大圣地
+    - id: hundun_chengzhu
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 宇宙级强者，人类族群代表人物之一。
+      attributes:
+      - 支持罗峰一心夺取传承
+      - 鼓励罗峰不被其他势力干扰
+    - id: heimin_zhizhu
+      type: Character
+      name: 黑暗之主
+      aliases: []
+      description: 宇宙级强者，人类族群代表人物之一。
+      attributes:
+      - 对罗峰获得传承表示支持和高兴
+      - 认为这是人类最大的机会
+    relationships:
+    - 主体: 罗峰
+      关系类型: 参悟者
+      目标: 断东河
+      描述: 第一个达到断东河最低要求的参悟者，备受关注。
+    events:
+    - 名称: 解开犀皇局
+      类型: Event
+      时间线位置: 开始
+      描述: 罗峰成为第一个解开足够数量犀皇局的参悟者。
+      关键人物: 罗峰, 断东河
+    dialogues:
+    - 主体: 巨斧创始者
+      目标: 罗峰
+      内容: 你竟然达到那断东河的要求了，你可是第一个达到要求的！
+      场景: 虚拟宇宙内
+      描述: 鼓励罗峰继续参悟并夺取传承。
+    timeline:
+    - 时间点1: 罗峰成为第一个达到断东河最低要求的参悟者。
+    - 时间点2: 巨斧创始者等人类族群代表向罗峰表示祝贺，并鼓励他一心夺取传承。
+    mysteries:
+    - 内容: 最低底线是多少？
+      关键人物: 第二真主
+- source: part_083_05.yaml
+  data:
+    source:
+      id: 犀皇局解题与意志磨砺
+    entities:
+    - id: 断东河
+      type: 角色
+      name: 断东河
+      aliases: []
+      description: 断东河是犀皇局的传人，负责传承给后来者。
+      attributes:
+        实力: 不朽神灵
+        性格: 淡漠、严厉
+    - id: 罗峰
+      type: 角色
+      name: 罗峰
+      aliases: []
+      description: 解开了犀皇局第二瓶颈，拥有极大的潜力。
+      attributes:
+        实力: 宇宙尊者
+        性格: 冷静、坚韧
+    - id: 碧血尊者
+      type: 角色
+      name: 碧血尊者
+      aliases: []
+      description: 来自东帝圣地，解开犀皇局第二瓶颈。
+      attributes:
+        实力: 宇宙尊者
+        性格: 冷静、野心勃勃
+    - id: 黑纹石柱空间
+      type: 地点
+      name: 黑纹石柱空间
+      aliases: []
+      description: 罗峰磨砺意志的地方，有16根黑纹石柱。
+      attributes:
+        特性: 巨大、充满意志冲击
+    - id: 东帝圣地
+      type: 组织
+      name: 东帝圣地
+      aliases: []
+      description: 罗峰所属的宇宙圣地之一，拥有众多强者。
+    events:
+    - id: 犀皇局解题
+      type: 事件
+      description: 罗峰和碧血尊者解开犀皇局第二瓶颈。
+      attributes:
+        时间: 未知
+    - id: 意志磨砺
+      type: 事件
+      description: 罗峰在黑纹石柱空间中磨砺意志，试图突破极限。
+      attributes:
+        地点: 黑纹石柱空间
+        时间: 解锁第二瓶颈后不久
+    relationships:
+    - id: 断东河与罗峰
+      type: 关系
+      description: 断东河认可了罗峰的潜力，并给予了其传承的机会。
+    - id: 罗峰和碧血尊者
+      type: 关系
+      description: 在解题过程中，两人是竞争对手关系。
+    dialogues:
+    - id: 断东河与罗峰对话
+      text: ‘嗯？碧血尊者。’断东河目光看去，微笑点头，看来此次得到我断东河一脉传承希望最大的，便是你和那人类银河了……
+      context: 罗峰解开第二瓶颈后。
+    - id: 碧血尊者内心独白
+      text: ‘成宇宙最强者？不是唯有原始宇宙，才能孕育宇宙最强者吗？难道始祖也有办法？’
+      context: 解开第二瓶颈后的激动与思考。
+    timeline:
+    - id: 持续解题
+      type: 时间线
+      description: 罗峰和碧血尊者继续解决犀皇局的难题，争取获得传承。
+    mysteries:
+    - id: 预言之谜
+      text: ‘即使这次你未曾得到传承，将来也会得到我圣地最好的栽培。’
+      context: 断东河对碧血尊者的承诺。

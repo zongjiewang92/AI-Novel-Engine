@@ -1,0 +1,362 @@
+part: part_028
+generated_time: '2026-07-23T15:46:34.050056'
+count: 5
+items:
+- source: part_028_01.yaml
+  data:
+    source:
+      id: 1
+    entities:
+    - id: 1
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 掌控者九大神兵之一，首次使用衍神兵战斗。
+      attributes:
+        实力: 恒星级
+        能力: 使用金之本源法则、幻剑式
+    - id: 2
+      type: Character
+      name: 绿发青年
+      aliases: 风轮
+      description: 在虚拟宇宙中与罗峰战斗，使用念力兵器残月轮。
+      attributes:
+        实力: 恒星级
+        能力: 使用风之本源法则
+    relationships: null
+    events:
+    - id: 1
+      type: Battle
+      participants:
+      - 罗峰
+      - 绿发青年
+      description: 罗峰使用幻剑式击败绿发青年，赢得大量积分。
+      timeline: 预选最后一天
+    dialogues:
+    - speaker: 绿发青年
+      content: 疯子，这预选最后一天，能遇到你这样的对手，真是让人开心，你就拿出你全部实力，让我好好看看……传说中的衍神兵，到底多强吧！
+    - speaker: 罗峰
+      content: 不会让你失望的。
+    timeline:
+    - 预选30天内每天: 战斗和击杀对手以获取积分
+    - 最后一天: 使用幻剑式击败绿发青年
+    mysteries:
+    - 积分具体数额未明
+    - 罗峰回归现实后的状态未知
+- source: part_028_02.yaml
+  data:
+    source:
+      id: 擂台战文本
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 工作室成员，通过预选赛。
+      attributes:
+        实力: 预选赛通过者
+        关系: 徐刚妹夫, 洪的弟弟
+    - id: 洪
+      type: Character
+      name: 洪
+      aliases: []
+      description: 工作室成员，通过预选赛。
+      attributes:
+        实力: 预选赛通过者
+        关系: 罗峰的大哥, 徐刚的妹夫
+    - id: 雷神
+      type: Character
+      name: 雷神
+      aliases: []
+      description: 工作室成员。
+      attributes:
+        实力: 不详
+        关系: 工作室成员
+    - id: 徐刚
+      type: Character
+      name: 徐刚
+      aliases: []
+      description: 罗峰的妹夫，工作室成员。
+      attributes:
+        实力: 不详
+        关系: 罗峰的妹夫, 工作室成员
+    - id: 平平
+      type: Character
+      name: 平平
+      aliases: []
+      description: 罗峰的孩子。
+      attributes:
+        关系: 罗峰的儿子
+    - id: 小海
+      type: Character
+      name: 小海
+      aliases: []
+      description: 罗峰的孩子。
+      attributes:
+        关系: 罗峰的儿子
+    - id: 纳比尼
+      type: Character
+      name: 纳比尼
+      aliases: []
+      description: 黑龙山帝国的天才，预选赛通过者。
+      attributes:
+        实力: 圣地黑龙山最优秀的天才之一
+        出身: 黑龙山星域土著, 帕里斯家族跟班
+    - id: 隆索
+      type: Character
+      name: 隆索
+      aliases: []
+      description: 波亚帝国的天才，预选赛通过者。
+      attributes:
+        实力: 第82世界区排名第12名
+    organizations:
+    - id: 黑龙山帝国
+      type: Organization
+      name: 黑龙山帝国
+      aliases: []
+      description: 纳比尼所属的帝国。
+    - id: 帕里斯家族
+      type: Organization
+      name: 帕里斯家族
+      aliases: []
+      description: 拥有十几颗生命星球领地的商业家族，发现并培养了纳比尼。
+      attributes:
+        实力: 商业家族, 出现宇宙级强敌时曾濒临崩溃
+    locations:
+    - id: 虚拟宇宙中的斗武场
+      type: Location
+      name: 虚拟宇宙中的斗武场
+      aliases: []
+      description: 擂台战的场地。
+      attributes:
+        容量: 最大可容纳十亿观众
+    dialogues:
+    - id: 徐刚和罗峰对话
+      type: Dialogue
+      participants:
+      - 徐刚
+      - 罗峰
+      content: 妹夫。这擂台战刚出来，我就抢着订门票，可还是没能订到。幸亏你这有门票，否则只能看转播了！
+    timeline:
+    - id: 擂台混战开始第一天
+      type: Timeline
+      description: 第一天进行第1组至第200组的擂台混战。
+- source: part_028_03.yaml
+  data:
+    source:
+      id: novel
+    entities:
+    - id: rofei
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 来自黑龙山帝国，预选排名第1世界区第51名。
+      attributes:
+        实力: 预选排名前100中的强者之一
+        性格: 冷静且不畏惧威胁
+    - id: junzilili
+      type: Character
+      name: 津刺李
+      aliases: []
+      description: 来自乾巫宇宙国，预选排名第13世界区第21名。
+      attributes:
+        实力: 预选排名前100中的强者之一
+        性格: 冷漠阴险
+    - id: puxijin
+      type: Character
+      name: 普希金
+      aliases: []
+      description: 来自乾巫宇宙国，预选排名第89世界区第9名。
+      attributes:
+        实力: 预选排名前100中的强者之一
+        身高: 接近两层楼高
+    - id: bulolin
+      type: Character
+      name: 布罗林
+      aliases: []
+      description: 黑龙山帝国九皇子，对罗峰感到震惊。
+      attributes:
+        实力: 多次试图找罗峰麻烦的皇子
+        性格: 警惕且谨慎
+    - id: diwang
+      type: Character
+      name: 帝皇
+      aliases: []
+      description: 黑龙山帝国皇帝，关注罗峰的表现。
+      attributes:
+        实力: 强大的统治者
+        性格: 关心国家荣誉和实力
+    relationships: null
+    events:
+    - id: duiwuzhan
+      type: Event
+      name: 擂台群战第382组比赛
+      description: 罗峰、普希金、津刺李等人参加的战斗。
+      timeline: []
+    dialogues:
+    - speaker: 津刺李
+      listener: 罗峰
+      content: 你。坐远点！我不喜欢别人靠近我。
+      attributes:
+        场景: 准备厅内
+    timeline: null
+    mysteries:
+    - id: bulolin-ganxie
+      type: Mystery
+      name: 布罗林的顾虑
+      description: 布罗林担心罗峰会因为之前的仇怨报复他。
+- source: part_028_04.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 恒星级别的天才战士，一战成名。
+      attributes:
+        实力: 法则门槛
+        身份: 黑龙山帝国预选赛的胜者
+    - id: 徐欣
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 罗峰的妻子，关注罗峰的实力发展。
+      attributes:
+        身份: 黑龙山岛屿居民
+    - id: 小海
+      type: Character
+      name: 小海
+      aliases: []
+      description: 罗峰的儿子，兴奋于父亲的名声。
+    - id: 银发老者
+      type: Character
+      name: 银发老者
+      aliases: []
+      description: 乾巫宇宙国中势力强者的代表。
+      attributes:
+        身份: 组织派来接触罗峰的人
+    - id: 帝皇
+      type: Character
+      name: 帝皇
+      aliases: []
+      description: 黑龙山帝国的领导者。
+      attributes:
+        实力: 高强
+    - id: 沃特
+      type: Character
+      name: 沃特
+      aliases: []
+      description: 不朽存在之一，寻找传人。
+    - id: 蒙火
+      type: Character
+      name: 蒙火
+      aliases: []
+      description: 神主级别的强者。
+      attributes:
+        实力: 不朽
+    - id: 昆沙罗
+      type: Character
+      name: 昆沙罗
+      aliases: []
+      description: 涉嫌欺诈蒙火的势力代表。
+    relationships:
+    - 主体: 罗峰
+      关系类型: 结婚
+      对象: 徐欣
+    - 主体: 蒙火
+      关系类型: 合作或兄弟关系
+      对象: 沃特
+    locations:
+    - id: 黑龙山岛屿
+      type: Location
+      name: 黑龙山岛屿
+      description: 罗峰成名之地，黑龙山帝国的预选赛举办地。
+    - id: 冰海神国
+      type: Location
+      name: 冰海神国
+      description: 不朽存在的领地之一。
+    organizations:
+    - id: 黑龙山帝国
+      type: Organization
+      name: 黑龙山帝国
+      description: 罗峰成名所在的国度，有两位不朽存在作为支持。
+      attributes:
+        特点: 尊重天才
+    - id: 乾巫宇宙国
+      type: Organization
+      name: 乾巫宇宙国
+      description: 虚拟宇宙公司所属的庞大势力范围。
+    abilities:
+    - 名称: 秘法
+      描述: 高阶强者传授给传人的独特能力。
+    dialogues:
+    - 主体: 罗峰
+      对象: 徐欣
+      内容: 以后出去得伪装了。
+    - 主体: 红瞳男子
+      对象: 沃特
+      内容: '''我的寿命正走向终点。'''
+    timeline:
+    - 时间点: 黑龙山帝国预选赛结束
+      描述: 罗峰一战成名，吸引各方势力关注。
+    mysteries:
+    - 未解决信息: 昆沙罗是否真的欺诈了蒙火？
+- source: part_028_05.yaml
+  data:
+    source:
+      id: 第419章连胜
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 来自黑龙山帝国的天才，实力强大，在擂台群战中表现出色。
+      attributes:
+        实力: 法则强者, 排上流
+        装备: 暗金色长棍
+    - id: 塞瓦罗
+      type: Character
+      name: 塞瓦罗
+      aliases: []
+      description: 来自龙角星域的天才，具有高超技巧。
+      attributes:
+        实力: 法则强者, 排上流
+        装备: 巨型踏板
+    - id: 洪
+      type: Character
+      name: 洪
+      aliases: []
+      description: 罗峰的朋友，给予罗峰建议。
+      attributes:
+        关系: 友人
+    relationships:
+    - entity1_id: 罗峰
+      entity2_id: 塞瓦罗
+      type: 对手
+      description: 在擂台对决中互相竞争。
+    events:
+    - id: 擂台对决开始
+      type: Event
+      name: 擂台对决开始
+      description: 罗峰与塞瓦罗在斗武场内进行一对一战斗。
+      timeline:
+        时间: 华夏时间2066年7月23号
+    - id: 规则讲解
+      type: Event
+      name: 规则讲解
+      description: 解说员向参赛者介绍比赛规则，包括空间缩小机制。
+    dialogues:
+    - speaker_id: 塞瓦罗
+      listener_ids:
+      - 解说员
+      content: 那好，战斗……开始！
+      context: 比赛即将开始时的对话
+    timeline:
+    - 时间点: 华夏时间2066年7月23号
+      描述: 罗峰与塞瓦罗之间的对决正式开始。
+    mysteries:
+    - id: 罗峰反感原因
+      type: Mystery
+      description: 罗峰对塞瓦罗莫名升起的反感具体原因未明。

@@ -1,0 +1,395 @@
+part: part_025
+generated_time: '2026-07-23T15:46:34.000361'
+count: 5
+items:
+- source: part_025_01.yaml
+  data:
+    source:
+      id: 罗峰的宇宙级二阶摩云藤狩猎
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有一只宇宙级二阶的‘摩云藤’，进行狩猎行动。
+      attributes:
+        实力: 宇宙级
+        能力: 使用摩云藤进行远程攻击和掠夺
+    - id: 摩云藤
+      type: Item
+      name: 摩云藤
+      aliases: []
+      description: 罗峰的宇宙级二阶生物兵器，用于狩猎界中界的军队。
+      attributes:
+        等级: 宇宙级二阶
+        功能: 远程攻击、掠夺空间储存器物
+    - id: 布罗林
+      type: Character
+      name: 布罗林
+      aliases: []
+      description: 九皇子殿下，控制超过22万大军。
+      attributes:
+        实力: 超级文明（界主级别）
+        地位: 界中界的领军人物之一
+    - id: 查克托
+      type: Character
+      name: 查克托
+      aliases: []
+      description: 黑龙山岛屿的猿人，参与袭击布罗林麾下第四大队。
+      attributes:
+        实力: 恒星级九阶
+        身份: 猿人
+    - id: 第四大队
+      type: Organization
+      name: 第四大队
+      aliases: []
+      description: 布罗林控制的200万大军中的一支，人数3万人。
+      attributes:
+        规模: 3万人
+        状态: 被袭击后人数锐减
+    relationships:
+    - id: 罗峰-摩云藤
+      type: 使用
+      description: 罗峰使用摩云藤进行远程攻击和掠夺。
+    - id: 布罗林-第四大队
+      type: 控制
+      description: 布罗林控制第四大队，但遭到袭击后损失惨重。
+    events:
+    - id: 摩云藤狩猎
+      type: Event
+      name: 摩云藤狩猎
+      description: 罗峰利用宇宙级二阶的摩云藤进行远程攻击和掠夺界中界的军队。
+      timeline: 开始于小说情节初期
+    - id: 第四大队被袭击
+      type: Event
+      name: 第四大队被袭击
+      description: 布罗林麾下的第四大队遭到三支队伍的围攻，损失惨重。
+      timeline: 小说情节中期
+    dialogues:
+    - id: 罗峰-摩云藤对话
+      content: 成功猎杀9名队长，获得12个空间储存器物。
+      context: 摩云藤返回飞船后与罗峰的交流
+    - id: 查克托与队友对话
+      content: 相信那布罗林一定气的冒火。
+      context: 查克托等人在袭击第四大队后庆祝胜利并讨论下一步计划
+    timeline:
+    - event: 摩云藤狩猎
+      date: 小说情节初期
+    - event: 第四大队被袭击
+      date: 小说情节中期
+    mysteries:
+    - id: 布罗林的反应
+      content: 布罗林会采取什么行动应对第四大队被袭击的情况？
+- source: part_025_02.yaml
+  data:
+    source:
+      id: text1
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有精密探测技术，从界中界的宝藏中获得大量雷霆石和重要宝物。
+      attributes:
+        实力: 境界主层次
+        性格: 警惕且谨慎
+        关系:
+        - 三子(雷神)
+        - 大哥(洪)
+    - id: 白胡子老头
+      type: Character
+      name: 白胡子老头
+      aliases: []
+      description: 界中界的宝藏管理者，提供宝物兑换服务。
+      attributes:
+        实力: 不详
+        性格: 友好且乐于助人
+    - id: 洪
+      type: Character
+      name: 洪
+      aliases:
+      - 大哥
+      description: 罗峰的盟友，谨慎行事。
+    - id: 雷神
+      type: Character
+      name: 雷神
+      aliases:
+      - 二哥
+      description: 罗峰的盟友，对雷霆秘法感兴趣。
+      attributes:
+        实力: 恒星级九阶
+    - id: 卡布界主
+      type: Character
+      name: 卡布界主
+      aliases: []
+      description: 死去的界主，留下雷电秘法。
+    organizations:
+    - id: 三斧山阵营军队
+      type: Organization
+      name: 三斧山阵营军队
+      attributes:
+        规模: 超过50万人
+    items:
+    - id: 雷霆石
+      type: Item
+      name: 雷霆石
+      description: 在界中界的交易货币，最终失去价值。
+    - id: 生命果实
+      type: Item
+      name: 生命果实
+      description: 罕见宝物，可促进生物进化或增强能力。
+      attributes:
+        数量: 三颗之一被罗峰获得
+    locations:
+    - id: 界中界的古老城堡
+      type: Location
+      name: 古老城堡
+      description: 宝藏兑换地点，312件宝物的来源地。
+    events:
+    - id: 雷霆石交易结束
+      type: Event
+      name: 雷霆石交易结束
+      attributes:
+        时间: 兑换后的第五天
+        描述: 古老城堡大门关闭，兑换活动结束
+    dialogues:
+    - speaker: 白胡子老头
+      listener: 联军众人
+      content: 现在，兑换结束！
+- source: part_025_03.yaml
+  data:
+    source:
+      id: 沧澜星事件
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 冒险者大军中的一员，拥有宇宙级实力。
+      attributes:
+        实力: 宇宙级
+        身份: 冒险者
+    - id: 洪
+      type: Character
+      name: 洪
+      aliases: []
+      description: 罗峰的同伴之一。
+      attributes:
+        实力: 不详
+        身份: 冒险者
+    - id: 雷神
+      type: Character
+      name: 雷神
+      aliases: []
+      description: 罗峰的同伴之一。
+      attributes:
+        实力: 不详
+        身份: 冒险者
+    - id: 诺岚山
+      type: Character
+      name: 诺岚山
+      aliases: []
+      description: 百虎楼组织成员，对罗峰怀有敌意。
+      attributes:
+        实力: 宇宙级
+        身份: 百虎楼成员
+    - id: 冥昱
+      type: Character
+      name: 冥昱
+      aliases: []
+      description: 拥有一定势力的域主，宇宙二星佣兵。
+      attributes:
+        实力: 域主
+        身份: 宇宙二星佣兵
+    - id: 三斧山组织
+      type: Organization
+      name: 三斧山组织
+      aliases: []
+      description: 沧澜星上的一个实力强大的组织。
+      attributes:
+        实力范围: 多名宇宙级及域主成员
+    - id: 百虎楼
+      type: Organization
+      name: 百虎楼
+      aliases: []
+      description: 诺岚山所属的组织，与三斧山组织对立。
+      attributes:
+        实力范围: 不详
+    - id: 沧澜星
+      type: Location
+      name: 沧澜星
+      aliases: []
+      description: 罗峰等人参与冒险的地方。
+    items:
+    - id: 宽柄战刀
+      type: Item
+      name: 宽柄战刀
+      aliases: []
+      description: 罗峰从界中界的宝物中兑换的一件五阶原力兵器。
+      attributes:
+        品级: 五阶
+        功能: 攻击
+    relationships:
+    - id: rofeng_to_no_lan_shan
+      type: Enemy
+      description: 罗峰与诺岚山之间存在敌意。
+    events:
+    - id: 冒险者大军撤离
+      type: Event
+      name: 冒险者大军撤离
+      description: 冒险者大军从沧澜星撤离，众多冒险者领取宝物。
+      attributes:
+        时间: 文本中未明确时间
+    dialogues:
+    - id: rofeng_meets_no_lan_shan
+      type: Dialogue
+      name: 罗峰遇到诺岚山
+      description: 罗峰在军队中见到仇人诺岚山，但被三斧山组织的宇宙级强者阻止。
+      attributes:
+        对话内容: 你来我们这边干什么？
+    - id: rofeng_meets_ming_yu
+      type: Dialogue
+      name: 罗峰遇到冥昱大人
+      description: 冥昱接见罗峰一行人，并询问他们的收获。
+      attributes:
+        对话内容: 你们这次在界中界的收获，怎么样？
+    timeline:
+    - id: rofeng_encounters_no_lan_shan
+      type: Timeline
+      name: 罗峰遇到诺岚山
+      description: 罗峰在撤离的冒险者大军中遇见仇人诺岚山。
+      attributes:
+        时间: 文本未具体说明
+    mysteries:
+    - id: rofeng_and_no_lan_shan_fate
+      type: Mystery
+      name: 罗峰和诺岚园山的命运未知
+      description: 罗峰能否找到机会解决诺岚山，二人之间的敌意是否会化解。
+- source: part_025_04.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: rofei
+      type: character
+      name: 罗峰
+      aliases: []
+      description: 成为三星级客户的宇宙强者，拥有参与乾巫拍卖会的资格。
+      attributes:
+      - 实力: 拥有界主级别实力
+      - 身份: 三星级客户
+    - id: ba_ba_ta
+      type: character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的虚拟宇宙智能助手，为罗峰提供信息和建议。
+      attributes:
+      - 性质: 虚拟宇宙公司提供的智能辅助程序
+    - id: yu_zhou_xing_he_yin_hang
+      type: organization
+      name: 宇宙星河银行
+      aliases: []
+      description: 提供金融投资服务，设立三星级客户制度。
+      attributes:
+      - 职能: 管理和提供金融服务
+    - id: ji_wu_douwu_chang
+      type: organization
+      name: 巨斧斗武场
+      aliases: []
+      description: 提供生死决斗直播服务，罗峰成为青铜会员。
+      attributes:
+      - 职能: 组织宇宙级的生死决斗
+    - id: yu_zhou_xin_wu_gong_she
+      type: organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 提供虚拟宇宙服务，举办乾巫拍卖会。
+      attributes:
+      - 职能: 管理虚拟宇宙平台及举办拍卖会
+    relationships:
+    - entity1_id: rofei
+      entity2_id: ba_ba_ta
+      type: 主从关系
+      description: 巴巴塔为罗峰提供辅助和支持。
+    - entity1_id: yu_zhou_xin_wu_gong_she
+      entity2_id: ji_wu_douwu_chang
+      type: 合作关系
+      description: 虚拟宇宙公司与巨斧斗武场有合作关系。
+    events:
+    - id: dai_ji_san_xing_ke_hu
+      name: 第一次成为三星级客户
+      attributes:
+      - 时间: 文章开始提及的时间点
+      - 影响: 罗峰获得参与乾巫拍卖会的资格
+    - id: ji_wu_douwu_chang_bao_ming
+      name: 巨斧斗武场会员赠予
+      attributes:
+      - 时间: 成为三星级客户的同时
+      - 影响: 获得巨斧斗武场青铜会员资格，可免费观看生死决斗直播
+    timeline:
+    - event_id: dai_ji_san_xing_ke_hu
+      time: 文章开始提及的时间点
+    - event_id: ji_wu_douwu_chang_bao_ming
+      time: 成为三星级客户的同时
+    mysteries:
+    - id: qian_wu_aupinghui_baohu
+      description: 下一届乾巫拍卖会将在两年零一个月后举行，其中将会有许多珍贵的宝物。
+- source: part_025_05.yaml
+  data:
+    source:
+      id: rofe_universe_rise
+    entities:
+    - id: luofeng
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '拥有大量财富，成为三星级客户。具有期待参与乾巫拍卖会的兴趣。
+
+        '
+      attributes:
+        wealth: 富裕
+        status: 三星级客户
+    - id: babata
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: '罗峰的虚拟宇宙助手，提供重要信息和建议。
+
+        '
+      attributes:
+        role: 助手
+    relationships:
+    - entity1_id: luofeng
+      entity2_id: babata
+      type: 指导关系
+      description: 巴巴塔为罗峰提供建议和指导。
+    events:
+    - id: auction_invitation
+      type: Event
+      name: 乾巫拍卖会邀请函
+      description: '罗峰收到虚拟宇宙公司的邮件，被邀请参加两年后的乾巫拍卖会。这是重要的交易机会。
+
+        '
+      timeline:
+        year: 未定（两年后）
+        month: 未知
+    dialogues:
+    - speaker1_id: luofeng
+      speaker2_id: babata
+      content: '罗峰：第六封邮件和第七封邮件，你看看，很重要？ 巴巴塔：是的，非常重要。 巴巴塔：在乾巫拍卖会上会出现很多无比珍贵的宝物。
+
+        '
+    - speaker1_id: luofeng
+      speaker2_id: babata
+      content: '罗峰：巨斧斗武场？一个会员，很重要么？ 巴巴塔：会员本身不重要，可巨斧斗武场的‘决战直播’还是很重要的。
+
+        '
+    timeline:
+    - event_id: auction_invitation
+      year: 未定（两年后）
+      month: 未知
+    mysteries:
+    - id: master_death_reason
+      description: '罗峰老师陨墨星主人为某件宝物丧命，具体是什么原因和物品？
+
+        '

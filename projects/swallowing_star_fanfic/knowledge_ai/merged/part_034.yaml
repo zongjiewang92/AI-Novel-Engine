@@ -1,0 +1,375 @@
+part: part_034
+generated_time: '2026-07-23T15:46:34.122349'
+count: 5
+items:
+- source: part_034_01.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司太初区成员，因奕轲的死而受到警示，决定认真对待不朽之路。
+      attributes:
+        实力: 强者
+        性格: 冷静、意志坚定
+    - id: 戎钧
+      type: Character
+      name: 戎钧
+      aliases: []
+      description: 虚拟宇宙公司太初区成员，被罗峰的话所启发，决定认真对待修炼任务。
+      attributes:
+        实力: 强者
+        性格: 冷静、理性
+    - id: 奥帕特拉
+      type: Character
+      name: 奥帕特拉
+      aliases: []
+      description: 虚拟宇宙公司太初区成员，与兰斯洛关系好。
+      attributes:
+        实力: 强者
+        性格: 未知
+    - id: 兰斯洛
+      type: Character
+      name: 兰斯洛
+      aliases: []
+      description: 虚拟宇宙公司太初区成员，被死亡的恐惧所震慑。
+      attributes:
+        实力: 强者
+        性格: 容易受到惊吓
+    - id: 乌卡
+      type: Character
+      name: 乌卡
+      aliases: []
+      description: 虚拟宇宙公司太初区成员，蛮卡星人，热爱战斗。
+      attributes:
+        实力: 强者
+        性格: 热血、好战
+    - id: 将莫
+      type: Character
+      name: 将莫
+      aliases: []
+      description: 虚拟宇宙公司太初区成员，与千水关系好。
+      attributes:
+        实力: 强者
+        性格: 热情
+    - id: 千水
+      type: Character
+      name: 千水
+      aliases: []
+      description: 虚拟宇宙公司太初区成员，跟随哥哥将莫行动。
+      attributes:
+        实力: 强者
+        性格: 稳重
+    - id: 奕轲
+      type: Character
+      name: 奕轲
+      aliases: []
+      description: 虚拟宇宙公司太初区成员，已死亡，给其他成员敲响警钟。
+      attributes:
+        实力: 强者
+        性格: 未知
+    - id: 幻境海位面
+      type: Location
+      name: 幻境海位面
+      aliases: []
+      description: 虚拟宇宙公司提供的修炼任务地点，充满了幻境考验。
+      attributes:
+        危险等级: 困难级
+    relationships:
+    - id: 罗峰-戎钧
+      type: 友谊关系
+      description: 罗峰和戎钧是虚拟宇宙公司太初区成员中的朋友。
+    - id: 奥帕特拉-兰斯洛
+      type: 友谊关系
+      description: 奥帕特拉和兰斯洛是虚拟宇宙公司太初区成员中的朋友。
+    - id: 将莫-千水
+      type: 家庭关系
+      description: 将莫和千水是兄弟姐妹，一起行动。
+    events:
+    - id: 虚拟宇宙公司邮件警告
+      type: Event
+      description: 虚拟宇宙公司通过邮件提醒太初区成员95%的人会陨落。
+      attributes:
+        时间: 文本描述中未明确的时间点
+    dialogues:
+    - id: 罗峰的告诫
+      content: 既然走上这条路，除非选择退出这条路回去过安逸生活，否则只能往前闯，跌跟头可以爬起来，重伤了可以恢复，唯有死了就一切完了！
+      participants:
+      - 罗峰
+    timeline: null
+    mysteries:
+    - id: 不朽之路的最终结果
+      description: 虚拟宇宙公司的不朽之路95%的人会陨落，具体哪些人能成功成为不朽未知。
+- source: part_034_02.yaml
+  data:
+    source:
+      id: 罗峰的宇宙之旅
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司中的一个小人物，拥有强大的修炼秘法和战甲、飞船等装备。
+      attributes:
+        实力: 强大
+        年龄: 不详
+        性格: 谨慎小心
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的虚拟宇宙公司智能生命，拥有强大的辅助功能。
+      attributes:
+        角色: 助手
+        性格: 自信
+    - id: 深紫色短发女子
+      type: Character
+      name: 深紫色短发女子
+      aliases: []
+      description: 虚拟宇宙公司派来协助罗峰前往血洛世界的工作人员。
+      attributes:
+        角色: 协助者
+    - id: 血洛世界
+      type: Location
+      name: 血洛世界
+      aliases: []
+      description: 罗峰修炼任务的目的地，一个拥有强大能量和危险环境的世界。
+    relationships:
+    - 主体: 罗峰
+      关系类型: 拥有
+      客体: 巴巴塔
+    - 主体: 罗峰
+      关系类型: 来自
+      客体: 虚拟宇宙公司
+    events:
+    - id: 进入血洛世界
+      type: Event
+      name: 进入血洛世界
+      description: 罗峰乘坐飞船进入血洛世界的修炼任务，途中经过天蚀宫。
+      timeline: 在虚拟宇宙公司的协助下，罗峰成功进入了血洛世界。
+    dialogues:
+    - 发言人: 深紫色短发女子
+      内容: 殿下,我们前往血洛世界,速度已经达到36倍光速,预估在19小时后抵达。
+    - 发言人: 巴巴塔
+      内容: 靠，我和你老师也是经历诸多生死劫难的，放心啦。
+    timeline:
+    - 时间点: 第二天
+      描述: 罗峰准备前往血洛世界进行修炼任务。
+    mysteries:
+    - id: 虚拟宇宙公司行为
+      type: Mystery
+      name: 虚拟宇宙公司的奇怪行为
+      description: 即使拥有强大的实力，虚拟宇宙公司为何不直接统治血洛世界而是选择监视？
+- source: part_034_03.yaml
+  data:
+    source:
+      id: 第502章
+    entities:
+    - id: 酉炎塔
+      type: Character
+      name: 酉炎塔
+      aliases: []
+      description: 精瘦男子，酉家成员。
+      attributes:
+        实力: 天空级（恒星级）
+        关系: 酉方的叔公
+    - id: 黑胡子老头
+      type: Character
+      name: 黑胡子老头
+      aliases: []
+      description: 酉家队伍领头，一脸黑胡子。
+      attributes:
+        实力: 大地级（行星级）
+        关系: 酉方的长辈
+    - id: 十三斧
+      type: Organization
+      name: 十三斧
+      aliases: []
+      description: 燕岗领内的强大组织，成员包括三位云霄级（宇宙级）、十位天空级巅峰。
+      attributes:
+        实力: 强大
+    - id: 酉方
+      type: Character
+      name: 酉方
+      aliases: []
+      description: 酉家的负责人。
+      attributes:
+        关系: 酉炎塔的长辈
+    events:
+    - id: 十三斧袭击酉家队伍
+      type: Event
+      description: 在燕岗领范围内，十三斧组织对酉家运输货物的队伍进行了猛烈攻击，导致大量人员伤亡。
+    dialogues:
+    - speaker: 黑胡子老头
+      listener: 十三斧成员
+      content: 酉家？交出‘古神废墟’的那件甲衣，饶你们一命。
+      context: 当十三斧要求酉家交出特定物品时
+    timeline:
+    - id: 十三斧袭击前
+      description: 酉家队伍在燕岗领内运送货物。
+    - id: 十三斧袭击中
+      description: 十三斧组织成员从大山山顶快速下冲，对酉家队伍进行攻击和追杀。
+    mysteries:
+    - id: 古神废墟甲衣的真正持有者
+      type: Mystery
+      description: 酉炎塔与黑胡子老头都提到需要交给十三斧的物品，但最终并未找到该物品。
+- source: part_034_04.yaml
+  data:
+    source:
+      id: 第504章燕岗城（第一更）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 宇宙级九阶强者，精通空间、金两大本源法则。
+      attributes:
+        实力: 宇宙级九阶
+        特殊能力: 奴役魂印，类似催眠的能力
+    - id: 穿着黑色毛皮的娇小少女
+      type: Character
+      name: 穿着黑色毛皮的娇小少女
+      aliases: []
+      description: 飞云阁接待人员。
+      attributes:
+        职位: 接待人员
+    - id: 倾城青年仆人
+      type: Character
+      name: 倾城青年仆人
+      aliases: []
+      description: 飞云阁内部服务员，对燕岗城十分熟悉。
+      attributes:
+        年龄: 生活两百多年，在飞云阁呆了近百年
+    - id: 纳家
+      type: Organization
+      name: 纳家
+      aliases: []
+      description: 燕岗领范围内中等势力之一，与酉家实力相当。
+      attributes:
+        势力等级: 中等
+    - id: 十三斧
+      type: Organization
+      name: 十三斧
+      aliases: []
+      description: 上等势力，被罗峰消灭后获得其全副身家。
+      attributes:
+        势力等级: 上等
+    - id: 石风家族
+      type: Organization
+      name: 石风家族
+      aliases: []
+      description: 超等势力之一，燕岗领城主家族。
+      attributes:
+        势力等级: 超等
+    - id: 淳羽家族
+      type: Organization
+      name: 淳羽家族
+      aliases: []
+      description: 燕岗领内第一商人家族，超等势力之一。
+      attributes:
+        势力等级: 超等
+    - id: 虎雷族
+      type: Organization
+      name: 虎雷族
+      aliases: []
+      description: 超等势力之一，野蛮人类族群。
+    relationships:
+    - entity1_id: 罗峰
+      entity2_id: 飞云阁接待人员
+      relationship_type: 客户-服务提供者
+    - entity1_id: 倾城青年仆人
+      entity2_id: 燕岗领居民
+      relationship_type: 居民-导游
+    events:
+    - id: 飞云阁入住
+      type: Event
+      description: 罗峰入住飞云阁，并安排住宿。
+      timeline: 未知时间点，燕岗城内
+    - id: 调查燕岗城
+      type: Event
+      description: 倾城青年仆人向罗峰详细描述燕岗城内的势力情况和重要地点。
+      timeline: 罗峰入住飞云阁后不久
+    dialogues:
+    - speaker_id: 穿着黑色毛皮的娇小少女
+      listener_id: 罗峰
+      content: 我们这有地级、天级、云级，不知道你要住哪一级的？至于价格，那边墙壁上挂着。
+      context: 飞云阁入住时接待罗峰。
+    - speaker_id: 罗峰
+      listener_id: 倾城青年仆人
+      content: 我是第一次来你们燕岗城，你跟我说说，这燕岗城有哪些特殊地方，有哪些大人物。
+      context: 要求了解燕岗城的详细信息。
+    - speaker_id: 纳可
+      listener_id: 纳布
+      content: 峰大哥传音在我脑子里的。
+      context: 接收到罗峰的信息后告知父亲。
+    timeline:
+    - time_point: 第二天早晨
+      description: 罗峰通过念力感应到纳家父子的到来，并与之联系。
+      events:
+      - id: 纳可到来传音
+    mysteries:
+    - mystery_id: 城主石风家族的血洛晶持有情况
+      description: 虽然城主最有可能拥有第二颗血洛晶，但罗峰暂时不去招惹他。
+    - mystery_id: 淳羽家族是否真的有领域级老者潜修
+      description: 这是仆人道听途说的信息，真实性存疑。
+- source: part_034_05.yaml
+  data:
+    source:
+      id: source_id
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 黑袍青年，精神念师。
+      attributes:
+        实力: 领域级及以上
+        目标: 得到血洛晶并成为血武者
+    - id: 淳羽崇
+      type: Character
+      name: 淳羽崇
+      aliases: []
+      description: 淳羽家族家主，被灵魂秘法控制。
+      attributes:
+        实力: 领域级前期
+        关系: 派属罗峰
+    - id: 石风雄
+      type: Character
+      name: 石风雄
+      aliases: []
+      description: 燕岗领领主，城主石风家族的成员。
+      attributes:
+        实力: 领域级后期
+        背景: 世界城城主的学生
+    - id: 淳羽陶
+      type: Character
+      name: 淳羽陶
+      aliases: []
+      description: 淳羽家族老祖，最强者。
+      attributes:
+        实力: 领域级后期
+    relationships:
+    - 主人与仆从关系: 罗峰 -> 淳羽崇
+    - 上下级关系: 石风雄 -> 石风战
+    - 师徒关系: 世界城城主 -> 石风雄
+    events:
+    - id: 灵魂秘法控制
+      type: Event
+      description: 罗峰使用灵魂秘法让淳羽崇透露血洛晶的信息。
+      timeline: 近期事件
+    - id: 淳羽家族处理
+      type: Event
+      description: 处理了淳羽崇的尸体，返回燕岗领飞云阁。
+    dialogues:
+    - speaker1: 罗峰
+      speaker2: 淳羽崇
+      content: 你要钱？行，要多少你尽管拿，别杀我。
+    - speaker1: 淳羽崇
+      speaker2: 罗峰
+      content: 有！
+    mysteries:
+    - id: 血洛晶位置
+      description: 石风雄是否拥有血洛晶以及具体数量未知。

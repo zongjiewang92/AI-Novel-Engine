@@ -1,0 +1,355 @@
+part: part_100
+generated_time: '2026-07-23T15:46:34.946376'
+count: 5
+items:
+- source: part_100_01.yaml
+  data:
+    source:
+      id: 罗峰的星辰塔内界兽摩罗撒的突破
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 成功奴役摩罗撒并将其收入星辰塔，准备见证其成为界兽王者的过程。
+      attributes:
+        实力: 强大神王
+        性格: 冷静理智且充满野心
+    - id: 摩罗撒
+      type: Character
+      name: 摩罗撒
+      aliases: []
+      description: 界兽，被罗峰奴役后即将进化为界兽王者。
+      attributes:
+        实力: 六阶顶尖
+        变化: 从普通界兽变为界兽王者
+    - id: 星辰塔
+      type: Item
+      name: 星辰塔
+      aliases: []
+      description: 神王兵器，能镇压各种强大存在。
+      attributes:
+        能力: 镇压、吞噬、囚禁
+    relationships:
+    - 主体: 罗峰
+      对象: 摩罗撒
+      关系类型: 奴役与被奴役
+      描述: 罗峰成功将摩罗撒奴役，并将其关押在星辰塔内。
+    events:
+    - 名称: 界兽王者的诞生
+      时间: 文中所述时刻
+      地点: 星辰塔内的镇压空间
+      参与者: 罗峰、摩罗撒
+      描述: 摩罗撒吸收所有界兽的力量，进化为界兽王者。
+      重要性: 极高
+    dialogues:
+    - 主体: 罗峰
+      对象: 自己
+      内容: 一切，都存有一丝机会。
+      时间: 文中所述时刻
+      场景: 摩罗撒进化前的思考阶段
+    timeline:
+    - 时间点: 未知纪元之前
+      事件: 界兽的起源与存在
+    - 时间点: 罗峰与摩罗撒的相遇
+      事件: 罗峰成功奴役摩罗撒
+    - 时间点: 文中所述时刻
+      事件: 摩罗撒吸收所有界兽力量，进化为界兽王者
+    mysteries:
+    - 描述: 若摩罗撒在成为界兽王者后摆脱奴役的可能性。
+- source: part_100_02.yaml
+  data:
+    source:
+      id: 罗峰宇宙
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 解决界兽浩劫，拥有《列元术》。
+      attributes:
+        实力: 虚空真神级
+        特点: 意志化圣
+    - id: 原祖
+      type: Character
+      name: 原祖
+      aliases: []
+      description: 人类族群早期的引路者，超脱轮回拥有无限生命。
+      attributes:
+        实力: 超越永恒真神
+        特点: 意志化圣
+    - id: 苍老祖神
+      type: Character
+      name: 苍老祖神
+      aliases: []
+      description: 祖神教成员，管理原始宇宙。
+      attributes:
+        实力: 虚空真神级
+    - id: 少年祖神
+      type: Character
+      name: 少年祖神
+      aliases: []
+      description: 祖神教成员，管理原始宇宙。
+      attributes:
+        实力: 虚空真神级
+    - id: 双面祖神
+      type: Character
+      name: 双面祖神
+      aliases: []
+      description: 祖神教成员，管理原始宇宙。
+      attributes:
+        实力: 虚空真神级
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 原祖的弟子，人类族群管理者。
+      attributes:
+        实力: 超越永恒真神
+        特点: 管理者
+    - id: 银河圣地
+      type: Location
+      name: 银河圣地
+      aliases: []
+      description: 在原始宇宙中，是罗峰的修炼地点。
+    - id: 原始宇宙
+      type: Location
+      name: 原始宇宙
+      aliases: []
+      description: 人类族群所在的主宇宙。
+    organizations:
+    - id: 祖神教
+      type: Organization
+      name: 祖神教
+      aliases: []
+      description: 负责管理原始宇宙的组织，包括界兽浩劫、释放原祖等事务。
+    items:
+    - id: 神斧
+      type: Item
+      name: 神斧
+      aliases: []
+      description: 巨斧的至宝神斧，由罗峰带回。
+    abilities:
+    - id: 列元术
+      type: Ability
+      name: 列元术
+      aliases: []
+      description: 至高意志秘术，能够影响对手意志。
+    relationships:
+    - id: 罗峰与混沌城主关系
+      type: Relationship
+      description: 混沌城主是原祖的弟子，也是罗峰的师尊。
+    events:
+    - id: 原祖释放事件
+      type: Event
+      name: 原祖被释放
+      timeline: 界兽浩劫解决之后
+      description: 罗峰解决了界兽浩劫后，本源意志履行承诺释放原祖。
+    dialogues:
+    - speaker1: 混沌城主
+      speaker2: 祖神教三位祖神
+      content: 请略微等待。
+    - speaker1: 原祖
+      speaker2: 混沌城主
+      content: 别像个孩子。
+    timeline:
+    - id: 界兽浩劫解决之后
+      description: 解决界兽浩劫后，本源意志释放原祖。
+    mysteries:
+    - id: 原祖的位置
+      type: Mystery
+      description: 超脱轮回的原祖具体在哪里？
+- source: part_100_03.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: rofei
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 创造幽海一脉和地球一脉，是银河国度的至高领袖。
+      attributes:
+        实力: 虚空真神极限
+        关系: 坐山客老师的学生, 洪的朋友, 西莫的父亲
+    - id: xiemo
+      type: Character
+      name: 西莫
+      aliases: []
+      description: 幽海一脉的第一位真神，银河国度的领导者。
+      attributes:
+        实力: 真神
+        关系: 罗峰的儿子, 银河国度的领导
+    - id: nake
+      type: Character
+      name: 纳可
+      aliases: []
+      description: 血洛世界出身，罗峰暗中帮助成长的人。
+      attributes:
+        实力: 封王不朽
+        关系: 罗峰的弟子, 西莫的学生
+    - id: suozhanke
+      type: Character
+      name: 坐山客
+      aliases: []
+      description: 罗峰的老师，创造了地球一脉。
+      attributes:
+        实力: 不详
+        关系: 罗峰的老师, 地球一脉的创造者
+    - id: morosa
+      type: Character
+      name: 摩罗撒
+      aliases: []
+      description: 主人公之一，帮助罗峰参悟毁灭本源。
+      attributes:
+        实力: 相当于永恒真神阶段
+        关系: 罗峰的主人
+    - id: huang
+      type: Character
+      name: 洪
+      aliases: []
+      description: 与罗峰关系密切，实力强大。
+      attributes:
+        实力: 不详
+        关系: 罗峰的朋友
+    relationships:
+    - 主体: rofei
+      客体: xiemo
+      关系类型: 父子
+    - 主体: rofei
+      客体: suozhanke
+      关系类型: 师徒
+    - 主体: rofei
+      客体: huang
+      关系类型: 友人
+    - 主体: xiemo
+      客体: nake
+      关系类型: 导师与弟子
+    events:
+    - 名称: 罗峰参悟毁灭本源
+      时间线: 六万多亿纪元后
+      地点: 原始宇宙附近星域
+      描述: 罗峰等待原始宇宙进入末世，准备参悟毁灭。
+    dialogues:
+    - 对话双方: rofei, xiemo
+      内容: 最近我们银河国度又有一位突破成为宇宙之主。
+      上下文关系: 西莫向罗峰汇报银河国度的最新进展。
+    - 对话双方: rofei, xiemo
+      内容: 纳可小师弟虽然宇宙尊者极限，可是这一轮回时代，怕是没时间让他成宇宙之主了。
+      上下文关系: 西莫提到纳可的实力和未来潜力。
+    timeline:
+    - 时间点: 当年界兽浩劫
+      描述: 罗峰与界兽战斗时达到虚空真神顶级。
+    - 时间点: 六万多亿纪元后
+      描述: 原始宇宙进入末世阶段，罗峰准备参悟毁灭本源。
+    mysteries:
+    - 内容: 坐山客老师要罗峰做什么？
+- source: part_100_04.yaml
+  data:
+    source:
+      id: origin_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拯救了原祖，解决了界兽浩劫。正尝试突破至永恒真神层次。
+      attributes:
+        实力: 虚空真神,正在突破到永恒真神
+        小型宇宙直径: 1000亿光年
+    - id: 原祖
+      type: Character
+      name: 原祖
+      aliases: []
+      description: 罗峰帮助其小型宇宙扩张，已经突破到了虚空真神层次。
+      attributes:
+        小型宇宙直径: 52亿光年
+    - id: 徐欣
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 罗峰的家人之一，在罗峰的小型宇宙中等待着他的突破。
+    - id: 坐山客
+      type: Character
+      name: 坐山客
+      aliases: []
+      description: 见证了罗峰小型宇宙扩张的过程，对罗峰的实力表示惊叹。
+      attributes:
+        实力: 宇宙之主
+    relationships:
+    - 主体: 罗峰
+      对象: 徐欣
+      关系类型: 家人
+    events:
+    - id: 小型宇宙扩张
+      type: Event
+      description: 罗峰的小型宇宙从初始直径快速膨胀至1000亿光年，成功突破到永恒真神层次。
+      timeline:
+        时间点: 近一个月
+        持续时间: 大约近一个月
+    - id: 原祖小型宇宙扩张
+      type: Event
+      description: 原祖的小型宇宙在罗峰之前就开始膨胀，最终达到52亿光年直径。
+      timeline:
+        时间点: 罗峰小型宇宙开始前
+        持续时间: 未知
+    dialogues:
+    - 主体: 坐山客
+      对象: null
+      内容: 传说,这就是传说。永恒级的小型宇宙达到这一步，已然是圆满，传说中才存在。
+    timeline:
+    - 时间点1: 罗峰小型宇宙扩张开始
+      事件描述: 站在小型宇宙的本源空间内，罗峰一声大喝！虚空通道接连诞生，小型宇宙迅速膨胀。
+    - 时间点2: 原祖小型宇宙也开始蜕变
+      事件描述: 原祖的小型宇宙体积迅速扩张，达到18亿光年直径后停止扩张。
+    mysteries:
+    - 内容: 罗峰的神力储备是否足以支撑他在未来突破到更高的层次？
+- source: part_100_05.yaml
+  data:
+    source:
+      id: 原始宇宙
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 具有无限潜力和强大实力的战士，曾与坐山客为师徒关系。
+      attributes:
+        实力: 虚空真神级
+        性格: 渴望冒险、追求战斗和美丽风景
+    - id: 坐山客
+      type: Character
+      name: 坐山客
+      aliases: []
+      description: 神王级强者，罗峰的老师。
+      attributes:
+        实力: 神王级
+        性格: 老练、谨慎
+    - id: 原始宇宙
+      type: Location
+      name: 原始宇宙
+      aliases: []
+      description: 许多未知的秘密与起源大陆有关联，是三千维度空间的源头之一。
+    - id: 起源大陆
+      type: Location
+      name: 起源大陆
+      aliases: []
+      description: 是一切维度宇宙的起源之地，孕育着无数珍宝和天才。
+    relationships:
+    - 主体: 罗峰
+      关系类型: 师徒关系
+      客体: 坐山客
+    events:
+    - 名称: 走向起源大陆
+      时间线位置: 最近
+      描述: 穿越轮回通道，前往三千维度空间的起源之地。
+    dialogues:
+    - 主体: 罗峰
+      客体: 坐山客
+      内容: 你不是疑惑，紫月为何要打压人类，为何要杀你么？
+      解释: 原始宇宙背后的许多秘密与三千维度空间有关联。
+    timeline:
+    - 时间点: 进入起源大陆前
+      描述: 罗峰即将进入起源大陆，坐山客给罗峰忠告。
+    mysteries:
+    - 内容: 每个维度都有一个原始宇宙和宇宙海，它们共同的源头是起源大陆。

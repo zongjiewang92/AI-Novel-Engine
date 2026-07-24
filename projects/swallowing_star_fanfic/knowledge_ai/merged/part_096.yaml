@@ -1,0 +1,357 @@
+part: part_096
+generated_time: '2026-07-23T15:46:34.898441'
+count: 5
+items:
+- source: part_096_01.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: nine_headed_overlord
+      type: Character
+      name: 九头魔主
+      aliases: []
+      description: 宇宙海八大霸主之一，拥有金色机械流利爪。
+      attributes:
+      - 实力: 虚空真神极限
+      - 特性: 意志坚定
+    - id: mo_luo_sha
+      type: Character
+      name: 界兽摩罗撒
+      aliases: []
+      description: 具备吞噬能力，可以生成黑雾蚕茧。
+      attributes:
+      - 实力: 高于虚空真神极限
+      - 特性: 无声尖叫、身体韧性
+    - id: fire_insect_true_master
+      type: Character
+      name: 火虫真主
+      aliases: []
+      description: 被界兽摩罗撒吞噬，最终逃脱。
+      attributes:
+      - 实力: 虚空真神
+      - 特性: 高燃烧神力抵抗
+    - id: blood_lan_ancestor
+      type: Character
+      name: 血兰始祖
+      aliases: []
+      description: 支援火虫真主，通过机械流宝物攻击黑雾蚕茧。
+      attributes:
+      - 实力: 虚空真神
+    - id: black_silk_cocoon
+      type: Item
+      name: 黑色蚕茧
+      aliases: []
+      description: 储存和保护被吞噬的真神，具有吸收神力的能力。
+    relationships: null
+    events:
+    - event_id: nine_headed_overlord_vs_mo_luo_sha
+      type: Battle
+      participants:
+      - nine_headed_overlord
+      - mo_luo_sha
+      summary: 九头魔主与界兽摩罗撒激烈战斗，后者试图吞噬火虫真主。
+    - event_id: fire_insect_escape
+      type: Rescue
+      participants:
+      - nine_headed_overlord
+      - blood_lan_ancestor
+      - fire_insect_true_master
+      summary: 火虫真主被界兽摩罗撒吞入黑色蚕茧，通过内外夹击成功逃脱。
+    dialogues: null
+    timeline: null
+    mysteries:
+    - 界兽摩罗撒是否能完全吸收火虫真主的神力。
+    - 黑色蚕茧的具体结构和破坏方法。
+- source: part_096_02.yaml
+  data:
+    source:
+      id: 界兽行动与真神们的反应
+    entities:
+    - id: 罗峰
+      type: 角色
+      name: 罗峰
+      aliases: []
+      description: '星辰塔的拥有者，是宇宙海中的一个关键人物。
+
+        '
+      attributes:
+        实力: 强大的真神实力
+        身份: 真神、星辰塔主人
+    - id: 洪
+      type: 角色
+      name: 洪
+      aliases: []
+      description: '星辰塔的另外一位拥有者，与罗峰一同应对界兽。
+
+        '
+      attributes:
+        实力: 强大的真神实力
+        身份: 真神、星辰塔主人
+    - id: 觉合真神
+      type: 角色
+      name: 觉合真神
+      aliases: []
+      description: '宇宙海中的一名真神，参与对抗界兽。
+
+        '
+      attributes:
+        实力: 真神实力
+        身份: 真神
+    - id: 骸主
+      type: 角色
+      name: 骸主
+      aliases: []
+      description: '宇宙海中的一名真神，参与对抗界兽。
+
+        '
+      attributes:
+        实力: 真神实力
+        身份: 真神
+    - id: 横行魔神
+      type: 角色
+      name: 横行魔神
+      aliases: []
+      description: '受界兽攻击的小型宇宙拥有者。
+
+        '
+      attributes:
+        实力: 强大的小型宇宙掌控者实力
+        身份: 小型宇宙掌控者
+    - id: 瞳魔神
+      type: 角色
+      name: 瞳魔神
+      aliases: []
+      description: '受界兽攻击的小型宇宙拥有者。
+
+        '
+      attributes:
+        实力: 强大的小型宇宙掌控者实力
+        身份: 小型宇宙掌控者
+    - id: 界兽
+      type: 角色
+      name: 界兽
+      aliases: []
+      description: '宇宙海中的一只强大界兽，会吞食小型宇宙本源。
+
+        '
+      attributes:
+        实力: 强大未知的界兽实力
+    relationships: null
+    events:
+    - id: 界兽吞吃横行魔神的小型宇宙
+      type: 事件
+      description: '界兽在一天内吞吃了横行魔神的小型宇宙部分本源，随后消失。
+
+        '
+      timeline:
+        时间点: 半年前
+    - id: 真神们的担忧与对策
+      type: 事件
+      description: '罗峰和其他真神们讨论界兽的行动和应对策略。
+
+        '
+      timeline:
+        时间点: 界兽吞吃横行魔神的小型宇宙之后的一天内
+    - id: 洞察界兽的新行为模式
+      type: 事件
+      description: '在界兽吞食小型宇宙一天后消失一段时间的行为观察，以确定其是否长期如此。
+
+        '
+      timeline:
+        时间点: 界兽吞吃横行魔神的小型宇宙之后
+    - id: 再次出现的界兽
+      type: 事件
+      description: '半年后，界兽再次出现在瞳魔神的小型宇宙附近，开始新一轮攻击。
+
+        '
+      timeline:
+        时间点: 半年之后
+    dialogues: null
+    timeline:
+    - 界兽吞吃横行魔神的小型宇宙一天后消失, 时间点: 半年前
+    - 罗峰与其他真神讨论界兽行动策略, 时间点: 半年前后的几天内
+    - 洞察界兽的新行为模式, 时间点: 半年之内
+    - 再次出现的界兽攻击瞳魔神的小型宇宙, 时间点: 半年之后
+    mysteries:
+    - 界兽为何在吞食完一个小型宇宙后会消失一段时间
+- source: part_096_03.yaml
+  data:
+    source:
+      id: origin_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚空真神，拥有金角巨兽分身和幽海分身。
+      attributes:
+        实力: 虚空真神,89999倍生命基因
+    - id: 海犽真主
+      type: Character
+      name: 海犽真主
+      aliases: []
+      description: 真神，小型宇宙受到界兽威胁。
+      attributes:
+        实力: 真神
+    - id: 摩罗撒
+      type: Species
+      name: 摩罗撒
+      aliases:
+      - 界兽
+      description: 宇宙海中的强大生物，能够吞食小型宇宙本源。
+      attributes:
+        能力: 吞食小型宇宙本源,空间封锁
+    relationships:
+    - 主体: 罗峰
+      关系类型: 敌对
+      对象: 摩罗撒
+      描述: 罗峰希望斩杀界兽摩罗撒。
+    - 主体: 海犽真主
+      关系类型: 请求帮助
+      对象: 罗峰
+      描述: 海犽真主请求罗峰帮忙对付界兽。
+    events:
+    - id: 界兽出现海犽真主小型宇宙外
+      type: Event
+      name: 界兽出现海犽真主小型宇宙外
+      description: 摩罗撒出现在海犽真主的小型宇宙附近，准备吞食其本源。
+      timeline:
+        时间点: 文中第三年
+    dialogues:
+    - 发言人: 海犽真主
+      对象: 罗峰
+      内容: 银河领主,界兽出现海犽真主小型宇宙外。
+      context: 求助罗峰前来应对界兽。
+    timeline:
+    - 时间点: 文章开始时
+      描述: 罗峰得知紫月圣地事件后决定不去帮助紫月圣地。
+    - 时间点: 第三年
+      描述: 海犽真主小型宇宙受到界兽威胁,罗峰接到求救信号。
+    mysteries:
+    - 内容: 摩罗撒是否会被罗峰成功斩杀？
+- source: part_096_04.yaml
+  data:
+    source:
+      id: 文本来源ID
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases:
+      - 银河领主
+      description: 宇宙海第一强者，拥有数个分身。
+      attributes:
+        实力: 宇宙之主, 将成为真神
+        性格: 慷慨决断
+    - id: 界兽摩罗撒
+      type: Species
+      name: 界兽摩罗撒
+      aliases: []
+      description: 来自界兽巢穴，能够吞食小型宇宙本源增强实力。
+      attributes:
+        实力: 强于九头魔主, 能发出红光提升两阶战力
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 真神之一，参与宇宙海防御界兽的事务。
+      attributes:
+        实力: 真神
+    - id: 九头魔主
+      type: Character
+      name: 九头魔主
+      aliases: []
+      description: 曾与界**战过一次。
+      attributes:
+        实力: 强于小型宇宙本源强化前的界兽
+    - id: 神眼真主
+      type: Character
+      name: 神眼真主
+      aliases: []
+      description: 接受罗峰传讯的消息之一。
+      attributes:
+        实力: 真神
+    relationships:
+    - 主体: 罗峰
+      关系类型: 对手
+      客体: 界兽摩罗撒
+    events:
+    - id: 罗峰与界**战
+      type: Event
+      description: 罗峰使用分身和界**战，未能杀死对方。
+      timeline:
+        时间: 没有具体时间, 只是最近发生的事
+        地点: 虚拟宇宙的独属空间
+    - id: 真神们的会议
+      type: Event
+      description: 真神们在罗峰所在的虚拟宇宙空间内聚集，讨论界兽的情况。
+      timeline:
+        时间: 没有具体时间, 在罗峰与界**战之后不久发生
+        地点: 虚拟宇宙的独属空间
+    dialogues:
+    - 对话双方: 罗峰, 混沌城主
+      内容: 诸位！诸位也不必不安。我罗峰会竭尽全力，杀死界兽。
+    timeline: null
+    mysteries:
+    - 描述: 界兽摩罗撒的最终形态和能力是否会被完全揭示？
+- source: part_096_05.yaml
+  data:
+    source:
+      id: 界兽摩罗撒与银河领主的对决
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 银河领主，宇宙海第一强者。
+      attributes:
+        实力: 宇宙海第一强者
+        身份: 星辰塔主人
+    - id: 摩罗撒
+      type: Character
+      name: 界兽摩罗撒
+      aliases: []
+      description: 界兽，拥有分解身体的能力。
+      attributes:
+        实力: 强大界兽
+        能力: 分解身体为99个分身
+    - id: 星辰塔
+      type: Item
+      name: 星辰塔
+      aliases: []
+      description: 罗峰拥有的宝物，能施展出强大的领域类能力。
+      attributes:
+        秘法层次: 第七重（九阶）
+        功能: 形成漩涡世界
+    - id: 弑吴羽翼
+      type: Item
+      name: 弑吴羽翼
+      aliases: []
+      description: 罗峰拥有的宝物，核心中枢为“源”。
+      attributes:
+        秘法层次: 第六重（八阶）
+        功能: 形成一念虚空
+    events:
+    - id: 拦截摩罗撒
+      type: Event
+      name: 罗峰拦截界兽摩罗撒
+      description: 罗峰利用星辰塔的第七重秘法，形成漩涡世界，将分解为99个分身的界兽摩罗撒困住。
+      timeline:
+        时间顺序: 事件发生时
+    dialogues:
+    - id: 摩罗撒投降
+      type: Dialogue
+      speaker:
+      - 界兽摩罗撒
+      dialogue: 银河领主，你知道的，逼急了我，我会引领大群界兽过来。不要逼我，放我走……而且我会发誓，以后绝对不会针对你们人类族群。只要你放了我，我就对宇宙海规则发出誓言！我的要求就一个……放了我，甚至你将来还可以继续对付我，但是现在放过我吧。
+      context: 界兽摩罗撒试图通过威胁让罗峰放自己离开
+    timeline:
+    - 时间点1: 罗峰拦截界兽摩罗撒
+    - 时间点2: 星辰塔第七重秘法形成漩涡世界困住摩罗撒
+    - 时间点3: 摩罗撒提出条件请求放过自己
+    mysteries:
+    - id: 银河领主的反应
+      type: Mystery
+      question: 罗峰是否会放界兽摩罗撒离开？
+      context: 在逼迫下，界兽摩罗撒提出了威胁和交换条件。

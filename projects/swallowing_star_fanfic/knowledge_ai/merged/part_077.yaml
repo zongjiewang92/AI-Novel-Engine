@@ -1,0 +1,406 @@
+part: part_077
+generated_time: '2026-07-23T15:46:34.662873'
+count: 5
+items:
+- source: part_077_01.yaml
+  data:
+    source:
+      id: 罗峰与戎钧关系及银河系改造
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有天赋分身之能，成为宇宙之主。
+      attributes:
+        实力: 宇宙之主
+        能力: 幽海分身
+    - id: 戎钧
+      type: Character
+      name: 戎钧
+      aliases: []
+      description: 当初被宇宙国主收为弟子，与罗峰同期。
+      attributes:
+        实力: 宇宙之主
+        能力: 未知
+    - id: 巨斧创始者
+      type: Character
+      name: 巨斧创始者
+      aliases: []
+      description: 人类族群创始人之一。
+      attributes:
+        实力: 强大宇宙之主或更高级别
+        关系: 罗峰的族长
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 宇宙之主。
+      attributes:
+        实力: 宇宙之主
+    - id: 荒鉴之主
+      type: Character
+      name: 荒鉴之主
+      aliases:
+      - 三根尖角鳞甲巨人
+      description: 宇宙之主，支持付出等价物品。
+      attributes:
+        实力: 宇宙之主
+    - id: 银河系
+      type: Location
+      name: 银河系
+      aliases: []
+      description: 罗峰的家乡星系。
+    - id: 虚拟宇宙公司
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 拥有巨额财产，曾出资购买地球一半所有权。
+      attributes:
+        关系: 属于人类族群
+    relationships:
+    - 主体: 罗峰
+      对象: 巨斧创始者
+      类型: 老师/族长关系
+    - 主体: 罗峰
+      对象: 银河系
+      类型: 家乡星系
+    events:
+    - 名称: 银河北建设
+      时间线: 当前
+      描述: 需要改造银河系，使其更加稳固。
+    dialogues:
+    - 主体: 巨斧创始者
+      对象: 罗峰
+      内容: 罗峰，你有什么要求？
+    - 主体: 混沌城主
+      对象: 荒鉴之主等
+      内容: 既然免费赠与已经给过，银河领主就不能再免费得到什么。地球一半所有权乃是族群的，银河领主既然想要得到，就该付出约莫等价的物品！
+    - 主体: 罗峰
+      对象: 混沌城主
+      内容: 是，老师，弟子愿出这500亿混元单位。
+    timeline:
+    - 时间点: 当前
+      描述: 银河北建设请求被提出。
+    mysteries:
+    - 未知信息: 戎钧是否与巨斧创始者同源或有特殊关系。
+- source: part_077_02.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有无尽财富，控制自家子弟资源，拥有神殿居所和固定通道。
+      attributes:
+        实力: 宇宙之主级
+        年龄: 不详
+        性格: 关心朋友，谨慎行事
+    - id: 罗家
+      type: Organization
+      name: 罗家
+      aliases: []
+      description: 拥有无尽财富，帮助罗峰的好友和家人。
+      attributes:
+        财富: 无尽
+    - id: 乾巫国主
+      type: Character
+      name: 乾巫国主
+      aliases: []
+      description: 罗峰麾下宇宙尊者之一，与罗峰关系良好。
+      attributes:
+        实力: 宇宙尊者级
+        性格: 忠诚
+    - id: 狓宙尊者
+      type: Character
+      name: 狾宙尊者
+      aliases: []
+      description: 罗峰麾下宇宙尊者之一，与罗峰关系良好。
+      attributes:
+        实力: 宇宙尊者级
+        性格: 忠诚
+    - id: 北螟尊者
+      type: Character
+      name: 北螟尊者
+      aliases: []
+      description: 罗峰麾下宇宙尊者之一，与罗峰关系良好。
+      attributes:
+        实力: 宇宙尊者级
+        性格: 忠诚
+    - id: 星辰塔
+      type: Item
+      name: 星辰塔
+      aliases: []
+      description: 罗峰研究的对象之一，难度较高。
+      attributes:
+        类型: 法宝
+        效果: 提升实力
+    - id: 弑吴羽翼
+      type: Item
+      name: 弧吴羽翼
+      aliases: []
+      description: 四翼弑吴羽翼为顶级至宝，比两翼弑吴羽翼更强大。
+      attributes:
+        类型: 法宝
+        效果: 提升实力
+    - id: 神殿居所
+      type: Location
+      name: 神殿居所
+      aliases: []
+      description: 罗峰的住所，拥有宫殿群、侍卫等。
+      attributes:
+        尺寸: 千万公里高
+        安全性: 高
+    - id: 地球
+      type: Location
+      name: 地球
+      aliases: []
+      description: 罗峰的出生地，拥有保护区和人类文明。
+      attributes:
+        特点: 存在大量保护区、翻新建造遗迹
+    relationships:
+    - 主体: 罗峰
+      对象: 罗家
+      关系类型: 家族关系
+      描述: 罗家帮助罗峰的好友和家人，但不干涉他们的生活。
+    - 主体: 罗峰
+      对象: 乾巫国主
+      关系类型: 上下级
+      描述: 乾巫国主是罗峰麾下的宇宙尊者之一。
+    - 主体: 罗峰
+      对象: 狕宙尊者
+      关系类型: 上下级
+      描述: 狳宙尊者是罗峰麾下的宇宙尊者之一。
+    - 主体: 罗峰
+      对象: 北螟尊者
+      关系类型: 上下级
+      描述: 北螟尊者是罗峰麾下的宇宙尊者之一。
+    events:
+    - name: 星辰塔研究
+      description: 罗峰花费多年时间研究星辰塔，但主要精力在弑吴羽翼上。
+      timeline: 前段岁月
+    - name: 弑吴羽翼第二层悟透
+      description: 经过12年的努力，罗峰最终悟透了弑吴羽翼的第二形态。
+      timeline: 过去十二年
+    dialogues:
+    - 主体: 罗峰
+      对象: 乾巫国主、狃宙尊者、北螟尊者
+      内容: 这些日子辛苦你们了。
+      情境: 罗峰见三位宇宙尊者归来时的对话。
+    timeline:
+    - 时间点: 过去十二年
+      描述: 自此期间，罗峰完成了弑吴羽翼第二层的研究。
+    mysteries:
+    - 伏笔: 神殿一个比一个大。
+      描述: 罗峰对此感到疑惑，但未给出解释。
+- source: part_077_03.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: LuoFeng
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '拥有强大的虚化神力和独特的探索方式，对12片大陆进行长期探查。
+
+        '
+      attributes:
+        实力: 强大
+        探查能力: 虚化神力
+    - id: JinSeHaMa
+      type: Item
+      name: 金色蛤蟆
+      aliases: []
+      description: '罗峰用来辅助探测的生物。
+
+        '
+      attributes:
+        感应距离: 需要靠近目标1亿公里才能感应
+        双眼颜色变化: 根据感应情况变色
+    relationships: null
+    events:
+    - id: LuoFengTansuo
+      type: Event
+      name: 罗峰的探查之旅
+      description: '罗峰在广阔的战场和大陆上进行长时间的探索，寻找特定的目标。
+
+        '
+      timeline:
+        start: 半年以前
+        end: 半年后
+    dialogues: null
+    timeline:
+    - id: LuoFengTansuoTimeline
+      type: Timeline
+      events:
+      - name: 探查开始
+        time: 半年前
+        description: 罗峰开始了对12片大陆的探查，每次瞬移保持1亿公里距离。
+      - name: 遇到第一个重要目标
+        time: 今天
+        description: 蛤蟆双眼首次变红，罗峰发现了一个可能的重要地点。
+    mysteries:
+    - id: LuoFengTargetMystery
+      type: Mystery
+      description: '罗峰探查的目标是什么？祖神教的祖神为何如此重视它？
+
+        '
+- source: part_077_04.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 擅长灵魂方面，能够操控并搜查他人记忆。
+      attributes:
+        实力: 极强
+        能力: 控制幻境、搜查记忆
+    - id: 炬炼尊者
+      type: Character
+      name: 炬炼尊者
+      aliases: []
+      description: 拥有20位灵魂仆从，其中16位不朽神灵。
+      attributes:
+        实力: 尊者
+        能力: 未知
+    - id: 垣奥之主
+      type: Character
+      name: 垣奥之主
+      aliases: []
+      description: 拥有强大的灵魂力量，控制着炬炼尊者。
+      attributes:
+        实力: 宇宙之主
+        能力: 灵魂仆从、远距离灵魂交流
+    - id: 不朽神灵13名
+      type: Character
+      name: 不朽神灵13名
+      aliases: []
+      description: 隶属于炬炼尊者，被罗峰搜查记忆。
+      attributes:
+        实力: 不朽
+        能力: 未知
+    locations:
+    - id: 觉暗大陆
+      type: Location
+      name: 觉暗大陆
+      aliases: []
+      description: 罗峰进行调查的地方。
+    - id: 摩高大陆
+      type: Location
+      name: 摩高大陆
+      aliases: []
+      description: 调查之后前往的下一个地点。
+    organizations:
+    - id: 祖神教
+      type: Organization
+      name: 祖神教
+      aliases: []
+    abilities:
+    - id: 控制幻境
+      type: Ability
+      name: 控制幻境
+      description: 可以让目标陷入无法抵抗的幻境。
+    - id: 搜查记忆
+      type: Ability
+      name: 搜查记忆
+      description: 能够搜查他人记忆中的信息。
+    items:
+    - id: 权杖
+      type: Item
+      name: 权杖
+      aliases: []
+      description: 炬炼尊者持有的物品，具体作用未知。
+    events:
+    - id: 搜查记忆事件
+      type: Event
+      name: 搜查记忆事件
+      description: 罗峰搜查不朽神灵和炬炼尊者的记忆。
+      timeline: []
+    relationships:
+    - id: 炬炼与垣奥之主的关系
+      type: Relationship
+      name: 垣奥之主是炬炼的主人
+      description: 灯光
+    dialogues:
+    - speaker: 罗峰
+      listener: 炬炼尊者
+      content: 我问你，你有什么特殊秘密？
+    - speaker: 璧炼尊者
+      listener: 罗峰
+      content: 垣奥之主吩咐过你办什么重要事情没有？
+    mysteries:
+    - id: 搜查结果的谜团
+      type: Mystery
+      name: 搜查结果的谜团
+      description: 虽然搜查了13名不朽神灵，但并没有发现对原始宇宙不利的信息。
+- source: part_077_05.yaml
+  data:
+    source:
+      id: 罗峰与垣奥之主战斗
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 人类族群的绝世天才，拥有金色的国度和九虓河辅助。
+      attributes:
+        实力: 强大，但不如垣奥之主
+        能力: 使用血影刀和绝客战刀战斗
+    - id: 垣奥之主
+      type: Character
+      name: 垣奥之主
+      aliases: []
+      description: 拥有巨大圆锤的神体，能够施展强大秘法。
+      attributes:
+        实力: 强大，远超罗峰
+        能力: 使用焚灭秘法和神秘黑色木头战斗
+    - id: 美丽、梦幻、璀璨的火焰漩涡
+      type: Ability
+      name: 焚灭
+      aliases: []
+      description: 漩涡形态的能量攻击，威力巨大。
+      attributes:
+        威力: 超强
+        效果: 无视防御直接冲击意志
+    - id: 目标之一的黑色木头
+      type: Item
+      name: 黑色木头
+      aliases: []
+      description: 源自垣奥秘境，具有强大威能。
+      attributes:
+        威力: 超强
+        效果: 可能是生命湮灭的源头
+    - id: 九虓河
+      type: Item
+      name: 金色的国度和九虓河
+      aliases: []
+      description: 协助罗峰战斗的重要力量。
+    locations:
+    - id: 垣奥秘境
+      type: Location
+      name: 垣奥秘境
+      aliases: []
+      description: 罗峰调查的目标地点，存在生命湮灭事件。
+      attributes:
+        特点: 生命消失的神秘区域
+    relationships: null
+    events:
+    - id: 罗峰与垣奥之主战斗
+      type: Event
+      name: 罗峰与垣奥之主战斗
+      description: 罗峰和垣奥之主在垣奥秘境展开激烈战斗。
+      attributes:
+        时间线: 文章描述的时间顺序
+    dialogues: null
+    timeline: null
+    mysteries:
+    - id: 黑色木头的来源和作用
+      type: Mystery
+      name: 黑色木头的来源和作用
+      description: 罗峰怀疑黑色木头可能是生命湮灭事件的源头。

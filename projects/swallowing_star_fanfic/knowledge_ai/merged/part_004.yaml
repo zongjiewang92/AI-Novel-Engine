@@ -1,0 +1,450 @@
+part: part_004
+generated_time: '2026-07-23T15:46:33.734734'
+count: 5
+items:
+- source: part_004_01.yaml
+  data:
+    source:
+      id: 第52章银月凶狼
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '拥有精神念师能力，能够使用《九重雷刀》和飞刀，可以瞬间通过精神念力控制合金战靴和盾牌飞行。
+
+        '
+      attributes:
+      - 实力: 精神念师
+      - 能力: 飞行、踏物飞行
+    - id: 高风
+      type: Character
+      name: 高风
+      aliases: []
+      description: '武者小队火锤小队的队长，性格谨慎。
+
+        '
+      attributes:
+      - 实力: 不详
+      - 身份: 火锤小队队长
+    - id: 陈谷
+      type: Character
+      name: 陈谷
+      aliases: []
+      description: '武者小队火锤小队的队员，对银月凶狼有一定了解。
+
+        '
+      attributes:
+      - 实力: 不详
+      - 身份: 火锤小队队员
+    - id: 魏铁
+      type: Character
+      name: 魏铁
+      aliases: []
+      description: '武者小队火锤小队的队员。
+
+        '
+      attributes:
+      - 实力: 不详
+      - 身份: 火锤小队队员
+    - id: 银月凶狼
+      type: Species
+      name: 银月凶狼
+      aliases: []
+      description: '比较稀有且强大的怪兽，属于高级兽将级。毛发通常为灰色，在战斗时会变成银白色或血色。
+
+        '
+      attributes:
+      - 等级: 高级兽将级
+      - 特性: 诡诈阴险、疯狂凶残
+    relationships:
+    - id: 罗峰与火锤小队
+      type: Belongs to
+      description: '火锤小队的成员之一。
+
+        '
+      attributes:
+      - 时间线: 当前时刻
+      - 情感关系: 友好合作
+    events:
+    - id: 银月凶狼出现
+      type: Event
+      description: '夜晚中，银月凶狼在距离火锤小队约两里地的街道上发出狼嚎声。
+
+        '
+      attributes:
+      - 时间线: 当前夜晚
+      - 地点: 未具体说明
+    dialogues:
+    - id: 高风和队员讨论
+      type: Dialogue
+      description: '讨论是否要追击受伤的银月凶狼，高风表示谨慎对待。
+
+        '
+      attributes:
+      - 时间线: 当前夜晚
+      - 地点: 天台
+    timeline:
+    - id: 火锤小队准备休息
+      type: Timeline
+      description: '火锤小队队员开始休息，但被银月凶狼的嚎叫声惊醒。
+
+        '
+      attributes:
+      - 时间线: 当前夜晚
+    mysteries:
+    - id: 银月凶狼的具体行动
+      type: Mystery
+      description: '未知受伤银月凶狼下一步会做什么动作，是否会对火锤小队造成威胁或机会。
+
+        '
+- source: part_004_02.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: high_wind_team
+      type: Organization
+      name: 火锤小队
+      aliases: []
+      description: 极限武馆推荐的一支队伍，由罗峰等人组成。
+      attributes:
+        members:
+        - 高风
+        - 罗峰
+        - 张科
+        - 陈谷
+        - 魏铁
+        - 魏青
+        strength: 强大
+        reputation: 较好
+    - id: tiger_tooth_team
+      type: Organization
+      name: 虎牙小队
+      aliases: []
+      description: 在荒野区内与火锤小队有矛盾的队伍。
+      attributes:
+        strength: 比较弱
+        reputation: 较差
+    - id: lo_feng
+      type: Character
+      name: 罗峰
+      aliases:
+      - 罗
+      description: 极限武馆推荐成员，拥有精神念师身份。
+      attributes:
+        strength: 非常强大
+        personality: 冷静且有策略
+    - id: high_wind
+      type: Character
+      name: 高风
+      aliases: []
+      description: 火锤小队的队长，实力强。
+      attributes:
+        strength: 强大
+        personality: 耐心和冷静
+    - id: chen_gu
+      type: Character
+      name: 陈谷
+      aliases: []
+      description: 火锤小队成员之一。
+      attributes:
+        strength: 中等
+        personality: 不明
+    - id: zhang_ke
+      type: Character
+      name: 张科
+      aliases: []
+      description: 火锤小队成员，曾因公残疾。
+      attributes:
+        strength: 残疾
+        personality: 耐心和冷静
+    relationships:
+    - source_id: high_wind_team
+      target_id: tiger_tooth_team
+      type: 敌对关系
+      description: 火锤小队与虎牙小队存在矛盾，彼此敌视。
+    events:
+    - id: conflict_with_tiger_tooth_team
+      name: 与虎牙小队的冲突
+      timeline: 在补给基地发生的争端。
+      description: 虎牙小队因琐事挑衅火锤小队，并因此产生矛盾。虎牙小队被怀疑对火锤小队成员造成伤害，但没有证据可以证明。
+    dialogues:
+    - speaker_id: lo_feng
+      listener_ids: high_wind_team
+      content: 我兄弟的手臂，就是你们的狙击枪子弹给打断的。
+      context: 在与虎牙小队争端时提到他们可能对火锤小队成员造成伤害。
+    - speaker_id: high_wind
+      listener_ids: high_wind_team
+      content: 大家吃饭休息一下，回头就去卖掉。
+      context: 安排队员处理从荒野区猎杀怪兽所得材料的后续事宜。
+    timeline:
+    - event_id: conflict_with_tiger_tooth_team
+      time: 补给基地内
+    mysteries:
+    - id: evidence_of_injury
+      description: 火锤小队没有足够的证据证明虎牙小队对他们造成伤害，但罗峰相信他们迟早会受到应有的惩罚。
+- source: part_004_03.yaml
+  data:
+    source:
+      id: 超凡学院-第59章
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 极限武馆成员，火锤小队队员。
+      attributes:
+        实力: 武者级
+        能力: 精神念师
+    - id: 高风
+      type: Character
+      name: 高风
+      aliases:
+      - 队长
+      description: 极限武馆成员，火锤小队队长。
+      attributes:
+        实力: 战将级
+    - id: 陈谷
+      type: Character
+      name: 陈谷
+      aliases: []
+      description: 极限武馆成员，火锤小队队员。
+      attributes:
+        实力: 武者级
+    - id: 魏铁
+      type: Character
+      name: 魏铁
+      aliases:
+      - 队长
+      description: 极限武馆成员，火锤小队队员。
+      attributes:
+        实力: 初级战将级
+    - id: 张科
+      type: Character
+      name: 张科
+      aliases: []
+      description: 极限武馆成员，火锤小队队员。
+      attributes:
+        实力: 武者级
+    - id: 罗华
+      type: Character
+      name: 罗华
+      aliases:
+      - 弟弟
+      description: 罗峰的弟弟。
+      attributes:
+        残疾: 腿部残疾，使用轮椅
+    relationships:
+    - 主体: 罗峰
+      客体: 高风
+      关系类型: 上级-下属
+    - 主体: 罗峰
+      客体: 张科
+      关系类型: 同事关系
+    - 主体: 罗峰
+      客体: 陈谷
+      关系类型: 同事关系
+    - 主体: 罗峰
+      客体: 魏铁
+      关系类型: 同事关系
+    events:
+    - 名称: 基因药剂购买讨论
+      时间线: 回家第一天上午
+      参与者: 罗峰, 高风, 陈谷, 魏铁
+      地点: 极限会馆一楼小酒吧
+      描述: 讨论如何购买A级基因药剂，以增强实力。
+    dialogues:
+    - 主体: 高风
+      客体: 罗峰
+      内容: 罗峰，这是你要的两柄9系的飞刀。一共4500万，你这个土豪赶紧汇款过来。
+    - 主体: 陈谷
+      客体: 罗峰
+      内容: 罗峰，你现在这么有钱，怎么不买好的战刀？一套作战服？
+    timeline:
+    - 时间点: 回家第一天上午
+      描述: 讨论购买基因药剂事宜。
+    mysteries:
+    - 名称: 高风的特殊渠道
+      内容: 高风声称有特殊途径可以以较低价格获得A级基因药剂。
+- source: part_004_04.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: rofei
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '初级战将，曾被徐刚劝告不要纠缠他的妹妹。身体素质在服用基因药水后得到了显著提升。
+
+        '
+      attributes:
+        实力: 初级战将
+        年龄: 不详
+        性格: 谦逊谨慎
+    - id: xujiang
+      type: Character
+      name: 徐刚
+      aliases: []
+      description: '给罗峰警告，不要纠缠他的妹妹。表现出对妹妹的保护欲。
+
+        '
+      attributes:
+        实力: 不详
+        年龄: 不详
+        性格: 严格谨慎
+    - id: xuxin
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: '罗峰的老同学，曾与罗峰在酒吧有过长时间的交谈。
+
+        '
+      attributes:
+        实力: 不详
+        年龄: 不详
+        性格: 友好
+    - id: changong
+      type: Character
+      name: 高风
+      aliases: []
+      description: '罗峰的小队队长，关心队员的身体素质提升情况。
+
+        '
+      attributes:
+        实力: 初级战将及以上
+        年龄: 不详
+        性格: 老练
+    - id: weite
+      type: Character
+      name: 魏铁
+      aliases: []
+      description: '罗峰的小队成员之一，身体素质达到初级战将级标准。
+
+        '
+      attributes:
+        实力: 初级战将
+        年龄: 不详
+        性格: 耐心勤奋
+    - id: weiqing
+      type: Character
+      name: 魏青
+      aliases: []
+      description: '罗峰的小队成员之一，身体素质达到初级战将级标准。
+
+        '
+      attributes:
+        实力: 初级战将
+        年龄: 不详
+        性格: 耐心勤奋
+    - id: chengu
+      type: Character
+      name: 陈谷
+      aliases: []
+      description: '罗峰的小队成员，身体素质达到初级战将级优秀标准。
+
+        '
+      attributes:
+        实力: 初级战将及以上
+        年龄: 不详
+        性格: 热情
+    relationships:
+    - id: xuxin_rofei
+      type: 友好关系
+      description: 徐欣与罗峰曾经是同学，有过长时间的交谈。
+    - id: rofei_xujiang
+      type: 警告关系
+      description: 徐刚警告罗峰不要纠缠他的妹妹徐欣。
+    events:
+    - id: xueyin_jingyan
+      type: 经验积累
+      description: 罗峰通过连续五十天的战斗积累了丰富的实战经验。
+    - id: weite_weiqing_chengu_qiyejin
+      type: 体质提升
+      description: 魏铁、魏青和陈谷在服用基因药水后，身体素质得到了显著提高。
+    dialogues:
+    - speaker: xujiang
+      dialogue: '罗峰啊罗峰，我跟你说这么多，也够委婉，够给你面子了！希望你有自知之明……如果你将来再纠缠我妹妹，就不能怪我动用手段了！
+
+        '
+    timeline: null
+    mysteries:
+    - id: xuxin_jingli
+      type: 神秘信息
+      description: 徐欣的真实背景和实力是否如外界所说一般深厚，有待揭晓。
+- source: part_004_05.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases:
+      - 罗疯子
+      description: 武者，具有高能糖丸等物品。
+      attributes:
+        实力: 战神级武者
+        性格: 善良、乐于助人
+    - id: 万冬
+      type: Character
+      name: 万冬
+      aliases: []
+      description: 武者小队成员，从鼠潮中获救。
+      attributes:
+        实力: 武者
+        性格: 冷漠、感激罗峰
+    - id: 王可
+      type: Character
+      name: 王可
+      aliases: []
+      description: 武者小队成员，从鼠潮中获救。
+      attributes:
+        实力: 武者
+        性格: 秀气、乐观
+    - id: 蒋屠
+      type: Character
+      name: 蒋屠
+      aliases: []
+      description: 武者小队成员，从鼠潮中获救。
+      attributes:
+        实力: 武者
+        性格: 威猛、幽默
+    - id: 飞行战机
+      type: Item
+      name: 扁平圆形飞行战机
+      aliases: []
+      description: 军队使用的，用于防御鼠潮的武器。
+      attributes:
+        功能: 炮击防御
+    organizations:
+    - id: 军区武者补给基地
+      type: Organization
+      name: 武者补给基地
+      aliases: []
+      description: 提供武者物资的地方。
+    locations:
+    - id: 0231号县城
+      type: Location
+      name: 0231号县城
+      aliases: []
+      description: 发生三级鼠潮的地方。
+    events:
+    - id: 鼠潮攻击
+      type: Event
+      name: 三级鼠潮爆发
+      description: 武者遭遇大规模的兽兵级鼠兽袭击，造成伤亡。
+    dialogues:
+    - speaker: 万冬
+      listener: 罗峰
+      dialogue: 罗峰,有吃的没？给点吃的！喝的？
+    - speaker: 王可
+      listener: 罗峰
+      dialogue: 早听说罗疯子大名了。
+    timeline:
+    - event: 武者补给基地聚集大量武者
+      time: 补给基地门口
+    mysteries:
+    - question: 队长他们现在怎么样？
+      answer: 不清楚，没有返回。

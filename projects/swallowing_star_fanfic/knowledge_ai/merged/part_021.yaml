@@ -1,0 +1,366 @@
+part: part_021
+generated_time: '2026-07-23T15:46:33.944215'
+count: 5
+items:
+- source: part_021_01.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 靠巴巴塔的指导，以最高效率提升身体进化程度。计划在地球建造多座不同规模的生存基地。
+      attributes:
+        实力: 战神宫高层
+    - id: 白巴塔
+      type: Item
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的重要辅助工具，指导罗峰提升实力和效率。
+      attributes: []
+    relationships:
+    - 主体: 罗峰
+      关系类型: 指导
+      客体: 白巴塔
+    events:
+    - id: 在地球建造生存基地计划
+      type: Event
+      name: 在地球建造生存基地计划
+      description: 罗峰计划在不同地区建造多个规模不等的生存基地，以应对可能出现的宇宙级威胁。
+      timeline:
+        开始时间: 华夏时间 2062年12月24日
+    locations:
+    - id: 地球
+      type: Location
+      name: 地球
+      aliases: []
+      description: 多个国家的人口迁移到生存基地，以应对宇宙级威胁。
+      attributes:
+        生存基地数量: 多个
+        规模不等的生存基地计划: 包括500万人标准、1000万人标准等
+    organizations:
+    - id: 铁洛公司
+      type: Organization
+      name: 铁洛公司
+      aliases: []
+      description: 负责提供罗峰建造生存基地所需的材料，遭到投诉后更换负责人。
+      attributes:
+        分支机构: 黑龙山帝国分公司
+    timeline:
+    - 时间点: 华夏时间2063年2月21日
+      描述: 诺岚山家族舰队抵达太阳系。
+    mysteries:
+    - id: 生存基地的坚固程度
+      description: 不同地区的生存基地使用不同的标准（C2或C3），具体差距未知。
+- source: part_021_02.yaml
+  data:
+    source:
+      id: 罗峰遗产
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙中的一名恒星级强者，拥有来自老师的大笔财富。
+      attributes:
+        实力等级: 恒星级
+        财富: 100亿乾巫币
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的智能光脑，老师的虚拟助手。
+      attributes:
+        类型: 智能光脑
+    - id: 陨墨星主人
+      type: Character
+      name: 陨墨星主人
+      aliases: []
+      description: 超级强者，麾下有九位不朽奴仆，在乾巫宇宙国中是大人物。
+      attributes:
+        实力等级: 不朽且强
+    - id: 宇宙星河银行
+      type: Organization
+      name: 宇宙星河银行
+      aliases: []
+      description: 提供金融和财富管理服务的大型金融机构。
+    relationships:
+    - 主体: 罗峰
+      关系类型: 拥有
+      目标: 财富
+    - 主体: 罗峰
+      关系类型: 使用
+      目标: 宇宙星河银行账户
+    events:
+    - 名称: 取钱
+      时间线位置: 当前事件
+      描述: 罗峰通过宇宙星河银行取出了100亿乾巫币。
+      参与者:
+      - 罗峰
+      - 宇宙星河银行
+    dialogues:
+    - 对话人1: 巴巴塔
+      对话人2: 罗峰
+      内容: 你老师给你安排的三个账户，实际上都是这个账户。
+    - 对话人1: 银行行长
+      对话人2: 罗峰
+      内容: 尊敬的客人，请随我来。
+    timeline:
+    - 时间点: 取钱之前
+      描述: 罗峰前往宇宙星河银行准备取老师留下的遗产。
+    - 时间点: 取钱之时
+      描述: 罗峰通过智能光脑和念力解锁账户，取出100亿乾巫币。
+    mysteries:
+    - 内容: 老师为罗峰准备的宇宙级和域主级别的遗产金额是多少。
+- source: part_021_03.yaml
+  data:
+    source:
+      id: 第309章天空中的投影
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 领主大人，身份从公民变为星球领主。
+      attributes:
+        实力: 星球领主
+    - id: 洪
+      type: Character
+      name: 洪
+      aliases: []
+      description: 罗峰的同伴之一，与罗峰一同参与处理诺岚山家族带来的威胁。
+      attributes: []
+    - id: 雷神
+      type: Character
+      name: 雷神
+      aliases: []
+      description: 罗峰的同伴之一，与罗峰一同参与处理诺岚山家族带来的威胁。
+      attributes: []
+    - id: 徐欣
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 发通讯邀请给罗峰的人。
+      attributes: []
+    - id: 普拉
+      type: Character
+      name: 普拉
+      aliases: []
+      description: 诺岚山家族的代表，展示力量并要求地球高层给予尊重。
+      attributes:
+        实力: 恒星级九阶
+    - id: 诺岚山家族
+      type: Organization
+      name: 诺岚山家族
+      aliases: []
+      description: 最强武力为‘宇宙级九阶’的星际文明，拥有高级飞船和强大的幼兽。
+      attributes:
+        强度: 宇宙级九阶
+    locations:
+    - id: 地球
+      type: Location
+      name: 地球
+      aliases: []
+      description: 被诺岚山家族威胁的人类生存之地。
+    - id: 天津城
+      type: Location
+      name: 天津城
+      aliases:
+      - 京都基地市天津城
+      description: 地球的一个基地市，受到诺岚山家族的直接威胁。
+    relationships:
+    - entity1_id: 罗峰
+      entity2_id: 徐欣
+      type: 关系
+      description: 徐欣向罗峰发送通讯邀请，希望得到好消息。
+    events:
+    - id: 地球被威胁
+      type: Event
+      name: 地球被威胁
+      description: 诺岚山家族通过展示强大的力量要求地球高层给予尊重，否则将采取毁灭行动。
+    dialogues:
+    - speaker_id: 普拉
+      listener_ids: []
+      content: 我们是抱着善意来的，所以不会攻击任何城市！你们地球上一共有五大国23个基地市，在一个小时后，你们地球上所谓的‘王级怪兽’，每一个基地市中，我们都会丢在街道广场这种地方十头王级怪兽尸体！
+    timeline:
+    - event: 罗峰成为星球领主
+      time: 当前时间点
+    mysteries:
+    - id: 混乱的地球高层决策
+      description: 地球生存基地内的高层们在诺岚山家族威胁下的混乱决策过程，未明确定论。
+- source: part_021_04.yaml
+  data:
+    source:
+      id: 第310章至第311章
+    entities:
+    - id: 御柯*诺岚山
+      type: Character
+      name: 御柯*诺岚山
+      aliases: []
+      description: 当前诺岚山家族的族长，对家族的发展有着不同的看法。
+      attributes:
+        position: 家族现任族长
+    - id: 德温*诺岚山
+      type: Character
+      name: 德温*诺岚山
+      aliases: []
+      description: 老族长，曾经带领诺岚山家族走向辉煌。
+      attributes:
+        position: 家族老族长
+    - id: 未知男子（族祖）
+      type: Character
+      name: 无名氏（族祖）
+      aliases: []
+      description: 诺岚山家族的创立者，当前持有巨斧勋章，对家族的发展有着自己的想法。
+      attributes:
+        position: 家族创始人
+        power_level: 宇宙级九阶
+    - id: 普拉
+      type: Character
+      name: 普拉
+      aliases: []
+      description: 御柯*诺岚山的亲传弟子，负责指挥舰队。
+      attributes:
+        position: 舰队指挥官
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases:
+      - 罗氏家族后代
+      description: 地球人类英雄，成功抵御了诺岚山家族的入侵。
+      attributes:
+        power_level: 宇宙级一阶
+    organizations:
+    - id: 诺岚山家族
+      type: Organization
+      name: 诺岚山家族
+      aliases: []
+      description: 拥有强大实力和广阔领土的宇宙势力，曾经试图侵略地球。
+    items:
+    - id: 巨斧勋章
+      type: Item
+      name: 巨斧勋章
+      aliases: []
+      description: 宇宙级最强战士的荣誉象征，通过巨斧斗武场获得。
+    locations:
+    - id: 地球
+      type: Location
+      name: 地球
+      aliases: []
+      description: 被诺岚山家族入侵，但最终得以自由。
+    events:
+    - id: 地球抵御入侵事件
+      type: Event
+      name: 地球抵御入侵事件
+      description: 罗峰等人成功击退了诺岚山家族的入侵，保护了地球。
+    dialogues:
+    - speaker_id: 未知男子（族祖）
+      listener_ids:
+      - 御柯*诺岚山
+      - 德温*诺岚山
+      content: 家族又算什么，当年我白手起家，创造出家族来！将来照样能创造！最重要的是实力！是实力，你们明白吗？
+    timeline:
+    - event_id: 地球抵御入侵事件
+      time: 罗峰等人得知诺岚山家族即将到达消息后
+    mysteries:
+    - id: 家族未来走向
+      description: 在未知男子（族祖）的强烈反对下，诺岚山家族未来的走向充满不确定性。
+- source: part_021_05.yaml
+  data:
+    source:
+      id: text1
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙领主，地球上的妻子是徐欣。
+      attributes:
+        实力: 恒星级九阶
+        性格: 冷静理智
+    - id: 徐欣
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 罗峰的妻子，经常使用虚拟宇宙网络。
+      attributes:
+        关系: 罗峰妻子
+        性格: 温柔善良
+    - id: 陀雷武
+      type: Character
+      name: 陀雷武
+      aliases: []
+      description: 宇宙冒险小队队长，诺岚山家族精英。
+      attributes:
+        实力: 高于恒星级九阶
+        性格: 冷酷无情
+    - id: 戎至
+      type: Character
+      name: 戎至
+      aliases: []
+      description: 宇宙冒险小队队长，负责催眠审问。
+      attributes:
+        实力: 高于恒星级九阶
+        性格: 冷静
+    - id: 罗华
+      type: Character
+      name: 罗华
+      aliases: []
+      description: 罗峰的弟弟，瘫痪多年。
+      attributes:
+        关系: 罗峰弟弟
+        状态: 被抓走
+    organizations:
+    - id: 诺岚山家族
+      type: Organization
+      name: 诺岚山家族
+      aliases: []
+      description: 排名前十的宇宙冒险组织。
+      attributes:
+        实力: 强大
+        目标: 寻找金角巨兽尸体
+    locations:
+    - id: 地球
+      type: Location
+      name: 地球
+      aliases: []
+      description: 罗峰等人的居住地。
+    items:
+    - id: 吞噬兽尸体
+      type: Item
+      name: 吞噬兽尸体
+      aliases: []
+      description: 被误认为金角巨兽尸体。
+      attributes:
+        地点: 不详
+    events:
+    - id: 审问地球领导人
+      type: Event
+      name: 宇宙冒险小队审问地球领导人
+      description: 陀雷武带领队员审问地球五大强国的领导人，以寻找金角巨兽尸体。
+      timeline:
+        时间: 不详
+    dialogues:
+    - id: 罗峰与徐欣对话
+      type: Dialogue
+      characters:
+      - 罗峰
+      - 徐欣
+      dialogue: 徐欣询问罗峰关于吞噬兽尸体的下落，罗峰暗示她自己被抓住了。
+      timeline:
+        时间: 不详
+    - id: 罗峰与陀雷武对话
+      type: Dialogue
+      characters:
+      - 罗峰
+      - 陀雷武
+      dialogue: 罗峰利用弟弟作为谈判筹码，要求一手交人一手交金角巨兽尸体的坐标。
+      timeline:
+        时间: 不详
+    timeline: null
+    mysteries:
+    - id: 吞噬兽与金角巨兽的关系
+      type: Mystery
+      description: 领导人们被审问时提到吞噬兽，但其实是寻找金角巨兽尸体。

@@ -1,0 +1,330 @@
+part: part_093
+generated_time: '2026-07-23T15:46:34.861456'
+count: 5
+items:
+- source: part_093_01.yaml
+  data:
+    source:
+      id: 第1401章神王界
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 地球人本尊，驾驭银色战船前往神王谷的虚空真神。
+      attributes:
+        实力: 虚空真神
+    - id: 北苍
+      type: Character
+      name: 北苍
+      aliases: []
+      description: 神王界守卫之一，带领罗峰去往神王谷。
+      attributes:
+        实力: 虚空真神
+    - id: 银河
+      type: Character
+      name: 银河
+      aliases:
+      - 军士银河
+      description: 罗峰在东军蟒河军的身份，执行封号任务。
+      attributes:
+        实力: 虚空真神（罗峰的别名）
+    - id: 神王界
+      type: Location
+      name: 神王界
+      aliases: []
+      description: 晋之世界的五大陆地之一，是神王生活的地方。
+      attributes:
+        特点: 处处有危险法则之纹，由机械流至宝组成。
+    relationships:
+    - id: 罗峰与北苍
+      type: Encounter
+      name: ''
+      description: 罗峰被北苍守卫引导进入神王谷。
+      attributes:
+        时间: 飞行过程中
+    events:
+    - id: 封号任务开始
+      type: MissionStart
+      name: 封号任务开始
+      description: 罗峰申请封号任务，前往神王界执行。
+    dialogues:
+    - speaker: 北苍
+      content: 我为神王界守卫之一，名北苍。你要进行封号任务，那便随我来，我带你去神王谷。若是无我引导……你根本无法抵达神王谷。
+    timeline:
+    - id: 罗峰到达神王界
+      type: Arrival
+      name: 罗峰到达神王界
+      description: 罗峰驾驶银色战船飞临神王界的上方。
+      attributes:
+        时间: 文章开头
+    mysteries:
+    - id: 神王界的秘密
+      type: Mystery
+      name: 神王界的秘密
+      description: 神王界大陆处处有法则之纹，整个大陆是超级机械流至宝。
+- source: part_093_02.yaml
+  data:
+    source:
+      id: 第1404章神王谷统领
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 参加乌启楼试炼的军士，正在乌启楼第二层进行考验。
+      attributes:
+        实力: 真神级别
+    - id: 暗红色甲铠少年
+      type: Character
+      name: 暗红色甲铠少年
+      aliases: []
+      description: 参加乌启楼试炼的军士，与罗峰同一批参加。
+      attributes:
+        实力: 真神级别
+    - id: 五名军士
+      type: Character
+      name: 五名军士
+      aliases:
+      - 暗红色甲铠少年等
+      description: 参加乌启楼试炼的军士，与罗峰同一批参加。
+      attributes:
+        实力: 真神级别
+    - id: 小型世界
+      type: Location
+      name: 上亿公里的小型世界
+      aliases: []
+      description: 军士们被传送进入用于考验他们生存能力的环境，有古老秘纹图不断轰击。
+      attributes:
+        危险程度: 比一名普通真神攻击稍弱
+    - id: 古老秘纹图
+      type: Item
+      name: 古老秘纹图
+      aliases: []
+      description: 能产生光芒，对军士们进行连续轰击。
+      attributes:
+        强度: 堪比真神攻击
+    relationships:
+    - id: 罗峰与暗红色甲铠少年等五名军士的关系
+      type: 同伴关系
+      name: 同一批参加乌启楼试炼的同伴
+      description: 在第二层考验中互相关注对方的情况。
+      attributes: []
+    events:
+    - id: 军士们被传送进入小型世界
+      type: Event
+      name: 被传送到小型世界进行生存考验
+      description: 罗峰等人在乌启楼的第二层，被传送至各个小型世界内进行考验。
+      attributes:
+        时间: 乌启楼第二层开启后立即发生
+    - id: 古老秘纹图轰击小型世界
+      type: Event
+      name: 小型世界的古老秘纹图开始攻击军士们
+      description: 军士们进入小型世界，遭遇古老秘纹图的光芒不断轰击。
+      attributes:
+        时间: 被传送到小型世界后立即发生
+    - id: 灼热液体凝聚成暗红色岩石巨人
+      type: Event
+      name: 小型世界的赤红色液体聚集成巨大岩石巨人
+      description: 在军士们进入的小型世界中，炽热的赤红色液体从地面涌出并凝固成岩石巨人。
+      attributes:
+        时间: 地震颤动后不久
+    - id: 军士们与暗红色岩石巨人的战斗
+      type: Event
+      name: 军士们遭遇并抵抗暗红色岩石巨人的攻击
+      description: 暗红色岩石巨人开始对军士们进行猛烈的攻击。
+      attributes:
+        时间: 赤红色液体凝固成岩石巨人后立即发生
+    dialogues:
+    - id: 军士们的私下交谈
+      type: Dialogue
+      name: 罗峰和同伴之间的交流
+      description: 罗峰和他的五名同伴在等待时讨论第二层考验的情况。
+      attributes:
+        时间: 第一层考验结束后，进入第二层前
+    timeline:
+    - id: 军士们被传送到小型世界的时间线
+      type: Timeline
+      name: 小型世界的传送过程
+      description: 罗峰等人从乌启楼第一层被传送至各自的小型世界进行考验。
+      attributes:
+        时间顺序: 第一层结束后立即发生
+    mysteries:
+    - id: 神王谷统领的意图
+      type: Mystery
+      name: 神王谷统领为何设置这样的考验
+      description: 军士们不清楚神王谷统领设计如此复杂考验的目的。
+      attributes: 解释待定
+- source: part_093_03.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 特殊军团军士，能够燃烧神力第一重。
+      attributes:
+        实力: 峰值期，能压制暗红色岩石巨人
+        能力: 燃烧神力秘术
+    - id: 军士银河
+      type: Character
+      name: 军士银河
+      aliases: []
+      description: 特殊军团军士，与罗峰同批。
+      attributes:
+        实力: 较弱于罗峰，但能存活第二层
+    - id: 蟒河军的军士
+      type: Character
+      name: 蟒河军的军士
+      aliases: []
+      description: 特殊军团军士，实力较强。
+      attributes:
+        实力: 可压制暗红色岩石巨人
+    - id: 须钟
+      type: Character
+      name: 须钟
+      aliases: []
+      description: 和罗峰同批的特殊军团军士。
+      attributes:
+        实力: 衰弱，但侥幸存活
+    - id: 古老秘纹图
+      type: Item
+      name: 古老秘纹图
+      aliases: []
+      description: 军士们需要应对的试炼之物。
+    - id: 暗红色岩石巨人
+      type: Character
+      name: 暗红色岩石巨人
+      aliases: []
+      description: 第二层中的敌人，能够攻击军士。
+      attributes:
+        实力: 强大
+    - id: 岩石大手
+      type: Character
+      name: 岩石大手
+      aliases: []
+      description: 地面裂缝中伸出的岩石巨掌。
+      attributes:
+        攻击方式: 覆盖攻击，速度较快
+    relationships: null
+    events:
+    - id: 军士试炼第二层
+      type: Event
+      name: 第二层挑战
+      description: 特殊军团军士们在古老秘纹图的考验中挣扎求生。
+      timeline: []
+    dialogues:
+    - speaker: 罗峰
+      listener: 其他军士
+      content: 运气不错，还活着。
+      context: 在幸存下来后与须钟对话。
+    timeline: null
+    mysteries:
+    - 军士试炼后续是否提供神体恢复宝物？
+    - 各层具体机制和挑战差异？
+- source: part_093_04.yaml
+  data:
+    source:
+      id: uqi_lou_fourth_floor
+    entities:
+    - id: rofe
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 军士银河，选择进入神力路线的真神之路。
+      attributes:
+        实力: 强大
+        目标: 成为真神
+    - id: divine_king_lords
+      type: Organization
+      name: 神王谷统领
+      aliases: []
+      description: 负责守护乌启楼的四位统领。
+      attributes:
+        关系: 尊重神王陛下的意愿
+    - id: divine_king_road
+      type: Location
+      name: 神力路线通道
+      aliases:
+      - 黑光通道
+      description: 第四层中唯一珍贵，由神王陛下耗费心血留下的指引。
+    events:
+    - id: rofe_enters_divine_king_road
+      type: Event
+      name: 罗峰选择进入神力路线通道
+      description: 罗峰毫不犹豫地选择了神力路线的真神之路。
+      timeline:
+        时间: 第四层
+    relationships:
+    - id: rofe_divine_king_lords
+      type: Relationship
+      name: 神王谷统领对罗峰的选择赞赏
+      description: 四位统领感叹罗峰选择正确，认为这是神王陛下的心血所在。
+    dialogues:
+    - id: divine_king_road_guidance
+      speaker: 苍老声音
+      content: 四条通道只能选择一条！你们从这通道中的收获，则决定你们是否能够进入乌启楼第五层。
+      context: 第四层开始时的指引
+    mysteries:
+    - id: secret_inscription_pattern
+      type: Mystery
+      name: 生命立体图的秘密
+      description: 罗峰发现墙壁上的标本结合后形成了一幅复杂的立体秘纹图，代表完美生命的生命最详细结构。
+    timeline: null
+- source: part_093_05.yaml
+  data:
+    source:
+      id: 罗峰闯乌启楼
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 断东河传承者，已经创出七阶顶尖刀法。
+      attributes:
+        实力: 宇宙之主阶段
+        刀法境界: 七阶顶尖
+    - id: 白袍男子
+      type: Character
+      name: 白袍男子
+      aliases: []
+      description: 第五层的守卫者，能使用融合法则和金空法则。
+      attributes:
+        实力: 真神中等水准及以上
+    - id: 断东河
+      type: Organization
+      name: 断东河
+      aliases: []
+      description: 历代传承者的组织。
+    - id: 乌启楼
+      type: Location
+      name: 乌启楼
+      aliases: []
+      description: 一个用于考验和修炼的神秘建筑，有九层。
+    - id: 血影刀
+      type: Item
+      name: 血影刀
+      aliases: []
+      description: 罗峰的主武器，能够刻录多种攻击秘法。
+    relationships:
+    - source_id: 罗峰
+      target_id: 断东河
+      relationship_type: 继承者
+    events:
+    - id: 创出七阶顶尖刀法《九天之路》
+      type: Ability
+      description: 在乌启楼第五层中，罗峰突破并创出了新的攻击秘法。
+      attributes:
+        法则融合: 水、火、金、空
+        威能等级: 七阶顶尖
+    dialogues:
+    - speaker_id: 罗峰
+      content: 此刀，是在乌启楼内所创。此次，我也定要进入第九层，登顶乌启楼。所有拦在我面前的，尽皆粉碎，谁也挡不住我的路。这一招，便叫九天之路吧！
+    timeline:
+    - event_id: 创出七阶顶尖刀法《九天之路》
+      time: 第五层挑战
+    mysteries:
+    - question: 弑吴羽翼第三重秘法是什么？
+      context: 罗峰在提升至七阶顶尖后，希望能领悟弑吴羽翼的更高层次。

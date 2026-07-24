@@ -1,0 +1,325 @@
+part: part_059
+generated_time: '2026-07-23T15:46:34.452262'
+count: 5
+items:
+- source: part_059_01.yaml
+  data:
+    source:
+      id: 罗峰传-第十五篇至十六篇
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 初始宇宙界主，人类族群强者。
+      attributes:
+        实力: 封王极限（实际为界主）
+        特殊能力: 使用火神源晶、费摩毒液、弑吴羽翼等宝物，使用五倍灵魂振幅秘法《兽神吼》
+    - id: 刀河王
+      type: Character
+      name: 刀河王
+      aliases: []
+      description: 罗峰因击杀十四名封王并重伤血兽王获得的称号。
+      attributes:
+        实力: 封王极限（实际为界主）
+    - id: 血兽王
+      type: Character
+      name: 血兽王
+      aliases: []
+      description: 强大的异族封王，擅长使用火神源晶进行攻击。
+      attributes:
+        实力: 封王巅峰
+    - id: 真衍王
+      type: Character
+      name: 真衍王
+      aliases: []
+      description: 初始宇宙人类族群的领袖之一。
+      attributes:
+        实力: 宇宙尊者
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 初级宇宙混沌城的主宰，人类族群最高领导者之一。
+      attributes:
+        实力: 不详（高于封王）
+    relationships:
+    - 主角-罗峰与血兽王为敌对关系
+    - 罗峰与真衍王为师徒关系
+    - 混沌城主监督着包括真衍王在内的诸多人类族群领袖
+    events:
+    - 名称: 刀河王成名战
+      时间线位置: 第十五篇结束
+      描述: 罗峰杀死十四名封王，重伤血兽王，并因此获得刀河王的称号。
+    - 名称: 混沌城主下达绝密命令
+      时间线位置: 刀河王成名战后
+      描述: 混沌城主要求真衍王不得将罗峰是刀河王的消息外传。
+    dialogues:
+    - 对话人1: 血兽王
+      对话人2: 麾下生灵
+      内容: 你地由巴诺迩扶持我的家族管理。
+    - 对话人1: 混沌城主
+      对话人2: 真衍王
+      内容: 罗峰是刀河王的消息，乃绝密，绝不可外传。
+    timeline:
+    - 时间点: 刀河王成名战结束
+      描述: 血兽王开始闭关修炼。
+    - 时间点: 混沌城主下达命令后
+      描述: 真衍王遵照混沌城主指示行事。
+    mysteries:
+    - 罗峰为何能以界主之身达到封王极限的战力？
+- source: part_059_02.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，拥有不朽神灵实力。
+      attributes:
+        实力: 不朽神灵
+        性格: 冷静, 聪明
+    - id: 重箭王
+      type: Character
+      name: 重箭王
+      aliases:
+      - 管家装束的重箭王
+      description: 罗峰的属下，不朽神灵。
+      attributes:
+        实力: 不朽神灵
+        性格: 敬畏, 忠诚
+    - id: 星辰塔
+      type: Location
+      name: 星辰塔
+      aliases: []
+      description: 域外战场最危险的区域之一，聚集大量封王不朽。
+      attributes:
+        危险级别: 最高
+        封王数量: 数十万计
+    - id: 焱祭大陆
+      type: Location
+      name: 焱祭大陆
+      aliases: []
+      description: 域外战场的危险区域，但比星辰塔低一个层次。
+      attributes:
+        危险级别: 高级
+    relationships:
+    - 主体: 罗峰
+      客体: 重箭王
+      关系类型: 上下级关系
+    dialogues:
+    - 主体: 重箭王
+      对象: 罗峰
+      内容: 主人，你想去星辰塔？这，主人不是打算要离开域外战场么，怎么会去一趟星辰塔？
+    - 主体: 罗峰
+      对象: 重箭王
+      内容: 我军功早就达到要求，可既然来一次域外战场，那么域外战场最危险级别区域不去逛逛，难道不遗憾么？论危险级别，星辰塔属于最危险之地。
+    - 主体: 罗峰
+      对象: 重箭王
+      内容: 这是你恢复实力所需的宝物。
+    timeline:
+    - 时间点: 过去三个月
+      事件描述: 重箭王恢复了完整实力，达到最巅峰状态。
+    mysteries:
+    - 内容: 星辰塔为何能吸引大量封王不朽聚集？
+- source: part_059_03.yaml
+  data:
+    source:
+      id: 第886章蛟化龙危机感
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 封王极限强者，拥有银甲银翼。
+      attributes:
+        实力: 封王极限
+        特点: 自信防御能力强
+    - id: 重箭王
+      type: Character
+      name: 重箭王
+      aliases: []
+      description: 封王极限强者，具有不死之身和紫钟护体。
+      attributes:
+        实力: 封王极限
+        特点: 不死之身
+    - id: 巨型蜈蚣
+      type: Character
+      name: 巨型蜈蚣
+      aliases: []
+      description: 禁地护卫，体型巨大，长数百公里。
+      attributes:
+        实力: 封王极限以下
+        特点: 攻击强但无法逃离禁地空间
+    - id: 金甲蝎子
+      type: Character
+      name: 金甲蝎子
+      aliases: []
+      description: 禁地护卫，体型较小约20米长。
+      attributes:
+        实力: 封王极限以上
+        特点: 防御强且攻击部位为尾巴
+    locations:
+    - id: 星辰塔禁地空间
+      type: Location
+      name: 星辰塔禁地空间
+      description: 拥有各种禁地护卫，可能存在镇封星辰。
+      attributes:
+        特点: 平静但可能出现异状
+    items:
+    - id: 火神源晶
+      type: Item
+      name: 火神源晶
+      aliases: []
+      description: 可用于战斗中增强实力。
+    abilities:
+    - id: 不死之身
+      type: Ability
+      name: 不死之身
+      aliases: []
+      description: 封王极限强者特有，不朽身体难以被摧毁。
+    relationships:
+    - source_id: 罗峰
+      target_id: 重箭王
+      type: Alliance
+    events:
+    - id: 遭遇金甲蝎子
+      name: 遭遇金甲蝎子
+      description: 在星辰塔禁地空间内遭遇强大的金甲蝎子。
+      timeline:
+        时间: 尚未确定时间
+        发生顺序: 战斗开始
+    dialogues:
+    - speaker_id: 罗峰
+      listener_id: 重箭王
+      content: 发现它的弱点吗？
+    - speaker_id: 重箭王
+      listener_id: 罗峰
+      content: 没有。
+    timeline: null
+    mysteries:
+    - id: 镇封星辰出世
+      description: 星辰塔内出现异状，可能有镇封星辰要出世。
+- source: part_059_04.yaml
+  data:
+    source:
+      id: chapter_889
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 封王极限强者，拥有重箭王作为部下。
+      attributes:
+        实力: 封王极限
+        特殊能力: 购买了特殊武器并奴役了一位封王极限强者
+    - id: 晨混王
+      type: Character
+      name: 晨混王
+      aliases: []
+      description: 被罗峰杀死的虫族封王巅峰不朽。
+      attributes:
+        实力: 封王巅峰
+        结局: 遭遇重箭王秒杀，被涂有费摩毒液的弯刀摧毁神体
+    - id: 重箭王
+      type: Character
+      name: 重箭王
+      aliases: []
+      description: 被罗峰奴役的封王极限强者。
+      attributes:
+        实力: 封王极限
+        特殊能力: 心狠手辣，能够使用特殊武器
+    - id: 天阵王
+      type: Character
+      name: 天阵王
+      aliases: []
+      description: 人类阵营中的封王巅峰强者。
+      attributes:
+        实力: 封王巅峰
+        特长: 幻境和灵魂攻击
+    relationships:
+    - 主体: 罗峰
+      关系类型: 奴役
+      对象: 重箭王
+    events:
+    - 名称: 晨混王被杀事件
+      时间线位置: 第一阶段
+      描述: 罗峰部下重箭王使用涂有费摩毒液的弯刀杀死晨混王。
+    dialogues:
+    - 主体: 机械族阵营的强者
+      内容: 刀河王！你这是何意？
+      回应: 罗峰冷漠回应，表明自己出手的原因。
+    timeline:
+    - 时间点: 刚进入下一个禁地空间
+      描述: 罗峰和人类阵营中的天阵王相遇并交流。
+    mysteries:
+    - 内容: 重箭王被杀后短时间内完全恢复实力的具体方法或代价未知。
+- source: part_059_05.yaml
+  data:
+    source:
+      id: 第892章刺杀
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有强大的灵魂防御能力，能够抵抗封王初等的不朽神力攻击。
+      attributes:
+        实力: 封王极限或巅峰
+        特点: 金角巨兽本尊, 银甲、弑吴羽翼
+    - id: 重箭王
+      type: Character
+      name: 重箭王
+      aliases: []
+      description: 跟随罗峰行动，提供保护。
+      attributes:
+        关系: 罗峰的追随者
+    - id: 天阵王
+      type: Character
+      name: 天阵王
+      aliases: []
+      description: 担任指挥角色，负责防御和策略布置。
+      attributes:
+        实力: 封王极限或巅峰
+    items:
+    - id: 镇封星辰
+      type: Item
+      name: 镇封星辰
+      aliases: []
+      description: 宝物，具有极高的价值和重要性。
+    organizations:
+    - id: 各族不朽神灵同盟
+      type: Organization
+      name: 各族不朽神灵同盟
+      aliases: []
+      description: 联合对抗敌人。
+      attributes:
+        成员数量: 十多万名
+    locations:
+    - id: 宇宙虚空
+      type: Location
+      name: 宇宙虚空
+      aliases: []
+      description: 战斗发生的地点。
+    events:
+    - id: 镇封星辰出世
+      type: Event
+      name: 镇封星辰出世
+      description: 异族不朽神灵为争夺镇封星辰展开大混战。
+      attributes:
+        时间: 第12秒钟
+    dialogues:
+    - speaker: 罗峰
+      content: 快，冲。
+      context: 指示团队前进。
+    - speaker: 天阵王
+      content: 挡住！
+      context: 呼吁防御。
+    timeline:
+    - event: 镇封星辰出世
+      time: 第12秒钟
+    mysteries:
+    - question: 罗峰的地球人本尊是否会在此过程中受到威胁？
+      hint: 虽然罗峰有强大的灵魂防御，但精通灵魂攻击的强者依然存在。

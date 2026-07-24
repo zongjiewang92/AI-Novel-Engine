@@ -1,0 +1,302 @@
+part: part_090
+generated_time: '2026-07-23T15:46:34.826178'
+count: 5
+items:
+- source: part_090_01.yaml
+  data:
+    source:
+      id: 第1356章声威
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 人类族群成员，与浩雷星主战斗并取得胜利。
+      attributes:
+        实力: 宇宙之主
+    - id: 黑暗之主
+      type: Character
+      name: 黑暗之主
+      aliases: []
+      description: 罗峰的师侄，参与收刮浩雷星主的小型宇宙。
+      attributes:
+        实力: 宇宙最强者
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 人类族群成员，在虚拟宇宙中等待罗峰消息。
+      attributes:
+        实力: 宇宙之主
+    - id: 虚金之主
+      type: Character
+      name: 虚金之主
+      aliases: []
+      description: 人类族群成员，在虚拟宇宙中等待罗峰消息。
+      attributes:
+        实力: 宇宙之主
+    - id: 横行魔神
+      type: Character
+      name: 横行魔神
+      aliases: []
+      description: 异族强者，赶往浩雷星主的小型宇宙收刮宝物。
+      attributes:
+        外观: 全身金色光芒
+    - id: 浩雷星主
+      type: Character
+      name: 浩雷星主
+      aliases: []
+      description: 雷暴星一族的宇宙最强者，被罗峰击败并死亡。
+      attributes:
+        实力: 宇宙最强者
+    relationships:
+    - 主体: 罗峰
+      对象: 混沌城主
+      关系类型: 同属人类族群成员
+    - 主体: 黑暗之主
+      对象: 罗峰
+      关系类型: 师侄关系
+    events:
+    - id: 罗峰击败浩雷星主
+      type: Battle
+      description: 罗峰成功击败并杀死宇宙最强者浩雷星主。
+      timeline: 第1356章声威
+    - id: 黑暗之主收刮小型宇宙
+      type: Scavenging
+      description: 黑暗之主赶到浩雷星主的小型宇宙，将所有宝物收刮一空。
+      timeline: 第1356章声威
+    dialogues:
+    - speaker: 混沌城主
+      dialogue: 也不知罗峰能不能成功。
+    - speaker: 未提及
+      dialogue: 浩雷已死，扫荡吧！
+    timeline:
+    - event_id: 罗峰击败浩雷星主
+      time: 过去不久
+    - event_id: 黑暗之主收刮小型宇宙
+      time: 罗峰击败浩雷星主后
+    mysteries:
+    - content: 谁先一步到达并收刮了浩雷星主的小型宇宙。
+- source: part_090_02.yaml
+  data:
+    source:
+      id: 文本来源ID
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有弑吴羽翼的宇宙之主，实力强大。
+      attributes:
+        实力: 八阶顶尖
+        能力: 星辰塔、弑吴羽翼
+    - id: 霰行之主
+      type: Character
+      name: 霰行之主
+      aliases: []
+      description: 紫月圣地宇宙的宇宙之主，实力四阶顶尖。
+      attributes:
+        实力: 四阶顶尖
+        能力: 四翼束缚
+    - id: 紫月始祖
+      type: Character
+      name: 紫月始祖
+      aliases: []
+      description: 紫月圣地宇宙的始祖，强大的宇宙之主。
+      attributes:
+        实力: 强大
+    relationships:
+    - 主体ID: 霰行之主
+      客体ID: 罗峰
+      关系类型: 敌对关系
+    events:
+    - id: 紫月圣地宇宙之主对决
+      type: Event
+      name: 霰行之主遭遇罗峰
+      description: 霰行之主在宇宙海中遇到罗峰，最终被杀死。
+      timeline:
+        时间点: 文本描述时间
+    dialogues:
+    - 主体ID: 罗峰
+      客体ID: 霰行之主
+      对话内容: 你很配合，如果你不是紫月圣地的，我或许会饶你一命。
+    - 主体ID: 霰行之主
+      客体ID: 紫月始祖
+      对话内容: 罗峰！！！
+    timeline:
+      时间点1: 文本描述时间
+    mysteries:
+    - 内容: 罗峰从霈行之主身上获得的宝物详情。
+- source: part_090_03.yaml
+  data:
+    source:
+      id: 第1362章桀梵子的宝藏
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，修炼者。
+      attributes:
+        实力: 宇宙之主
+        目标: 获取桀梵子遗留的宝藏
+    - id: 楚盟
+      type: Organization
+      name: 鸿盟
+      aliases: []
+      description: 罗峰所属的强大组织。
+    locations:
+    - id: 宇宙舟
+      type: Location
+      name: 宇宙舟
+      description: 包含三个绝地，有大量危险区域。
+    - id: 青色密室空间区域
+      type: Location
+      name: 青色信物空间密室
+      aliases:
+      - 青色信物密室空间区域
+      description: 罗峰需要进入的特定空间。
+    items:
+    - id: 墓陵之舟
+      type: Item
+      name: 墓陵之舟
+      aliases: []
+      description: 一种交通工具，能穿越危险区域。
+    - id: 桀梵子遗留的宝藏
+      type: Item
+      name: 桀梵子遗留的宝藏
+      aliases:
+      - 藏宝
+      description: 罗峰要获取的目标。
+    abilities:
+    - id: 星辰塔
+      type: Ability
+      name: 星辰塔
+      aliases: []
+      description: 可以抓取敌人，罗峰用来对付紫月圣地的强者。
+    - id: 水火本源
+      type: Ability
+      name: 水火本源
+      aliases:
+      - 新绝学
+      description: 桀梵子创出的新流派。
+    relationships:
+    - from_id: 罗峰
+      to_id: 鸿盟
+      type: 属于
+    dialogues:
+    - speaker: 罗峰
+      listener: 混沌城主
+      content: '老师，我这羽翼宝物还欠缺最后一部件，也就是最后一对羽翼！而且我已经知晓……最后一对羽翼就在紫月圣地！
+
+        '
+    - speaker: 混沌城主
+      listener: 罗峰
+      content: '把握不大，也比没把握好。
+
+        去吧，桀梵子遗留的宝藏，你都去取了好几次了。
+
+        '
+    timeline:
+    - event_id: 获取最后一对羽翼信息
+      time: 近900年之前
+      description: 罗峰发现最后一对羽翼的信息，并决定寻求鸿盟帮助。
+    - event_id: 探索宇宙舟
+      time: 近900年之后
+      description: 罗峰乘坐墓陵之舟进入宇宙舟内部区域，寻找青色信物密室空间。
+    mysteries:
+    - id: 桀梵子的宝藏具体内容
+      content: 不清楚桀梵子遗留的具体内容是什么。
+    - id: 最后一对羽翼的位置
+      content: 罗峰推测最后一对羽翼可能在某个强者的藏宝库内，但具体位置未知。
+- source: part_090_04.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 妖兽始祖
+      type: Character
+      name: 妖兽始祖
+      aliases: []
+      description: 拥有强大的实力，企图控制妖族和星空巨兽联盟的野心家。
+      attributes:
+        实力: 宇宙最强者
+        野心: 统一妖族和星空巨兽联盟
+    - id: 庞然大物
+      type: Item
+      name: 庞然大物
+      aliases: []
+      description: 形状类似人形生物，大小超过小型宇宙。
+      attributes:
+        大小: 超过一亿光年
+        速度: 极其快速
+    relationships: null
+    events:
+    - id: 追踪庞然大物
+      type: Event
+      name: 追踪庞然大物
+      description: 妖兽始祖试图通过连续攻击来改变庞然大物的飞行方向。
+      timeline:
+        开始时间: 文本开始
+        结束时间: 六千五百年后
+    dialogues: null
+    timeline:
+    - 时间点1: 追踪开始，持续一百多年，妖兽始祖每日进行数百次攻击。
+    - 时间点2: 继续追踪六千五百多年，终于改变庞然大物的方向。
+    mysteries:
+    - 神秘的庞然大物是否为生灵或奇物？
+- source: part_090_05.yaml
+  data:
+    source:
+      id: xRO第1367章第四绝地撞宇宙舟
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 获得加封的条件非常苛刻，罗峰在宇宙海数千名强者大军中呆了3200年。
+      attributes:
+        实力: 宇宙最强者
+    - id: 类人形生物
+      type: Item
+      name: 类人形生物
+      aliases: []
+      description: 被认为可能是机械流宝物或者远古文明的存在，高达1.6亿光年。
+      attributes:
+        高度: 1.6亿光年
+        脚长: 0.3亿光年
+        速度: 1.2亿倍光速
+    - id: 宇宙舟
+      type: Item
+      name: 宇宙舟
+      aliases: []
+      description: 类似船型的机械流宝物，是宇宙海三大绝地之一。
+      attributes:
+        形状: 船型
+    relationships:
+    - 主体: 罗峰
+      对象: 类人形生物
+      关系类型: 观察者与被观察对象
+    events:
+    - id: 集体轰击类人形生物调整方向
+      type: Event
+      name: 集体轰击类人形生物调整方向
+      description: 宇宙海数千名强者为了将类人形生物的飞行路线调整约15度撞击宇宙舟，集体性瞬移并连续攻击了3000多年。
+      timeline:
+        开始时间: 未知
+        结束时间: 约3200年后
+    dialogues:
+    - 发言者: 不明
+      内容: 诸位准备。
+      对话类型: 命令
+    - 发言者: 不明
+      内容: 再一次轰击！
+      对话类型: 命令
+    - 发言者: 多名最强者
+      内容: 攻击！
+      对话类型: 同步行动命令
+    timeline:
+    - 时间点: 约3200年后
+      事件描述: 宇宙海数千名强者成功将类人形生物的飞行路线调整约15度撞击宇宙舟，罗峰在大军中呆了3200年。
+    mysteries:
+    - 类人形生物是否为宝物或远古文明的存在。

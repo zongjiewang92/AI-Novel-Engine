@@ -1,0 +1,440 @@
+part: part_069
+generated_time: '2026-07-23T15:46:34.568997'
+count: 5
+items:
+- source: part_069_01.yaml
+  data:
+    source:
+      id: 第1034章不朽荣耀
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '不朽强者，来自人类族群。因天赋秘法逆天而击败一些普通宇宙尊者，但实力与宇宙尊者相去甚远。
+
+        '
+      attributes:
+      - 实力: 不朽
+    - id: 真衍尊者
+      type: Character
+      name: 真衍尊者
+      aliases: []
+      description: '宇宙尊者，人类族群中的强者之一，天生喜欢交友。与罗峰关系密切。
+
+        '
+      attributes:
+      - 实力: 宇宙尊者
+    - id: 雷鸣尊者
+      type: Character
+      name: 雷鸣尊者
+      aliases: []
+      description: '宇宙尊者，雷霆岛上强者之一。因不满罗峰地位而向真衍尊者表达意见。
+
+        '
+      attributes:
+      - 实力: 宇宙尊者
+    - id: 血翼尊者
+      type: Character
+      name: 血翼尊者
+      aliases: []
+      description: '宇宙尊者，雷霆岛上强者之一。与雷鸣尊者实力相当。
+
+        '
+      attributes:
+      - 实力: 宇宙尊者
+    relationships:
+    - id: 罗峰-真衍尊者
+      type: 师徒关系
+      name: 真衍尊者是罗峰的老师
+      description: '真衍尊者教导过罗峰，并且对他的成长十分关心。
+
+        '
+    - id: 雷鸣尊者-血翼尊者
+      type: 同盟关系
+      name: 宇宙尊者的友谊
+      description: '雷鸣尊者与血翼尊者在雷霆岛上是朋友，两人实力接近。
+
+        '
+    locations:
+    - id: 霆雷岛
+      type: Location
+      name: 霆雷岛
+      aliases: []
+      description: '强者的聚集地，位于雷霆山腰上。宇宙尊者们在此居住和交流。
+
+        '
+    - id: 祖神教的荣耀世界
+      type: Location
+      name: 祖神教的荣耀世界
+      aliases: []
+      description: '千雨王与罗峰交谈的地方。
+
+        '
+    organizations:
+    - id: 人类族群
+      type: Civilization
+      name: 人类族群
+      aliases: []
+      description: '拥有悠久历史和强大文明的人类群体，拥有众多强者。
+
+        '
+    cultivation_systems:
+    - id: 宇宙尊者
+      type: Cultivation
+      name: 宇宙尊者
+      aliases: []
+      description: '强大的修炼境界，代表人类族群中的顶尖力量。
+
+        '
+    - id: 不朽
+      type: Cultivation
+      name: 不朽
+      aliases: []
+      description: '较宇宙尊者低一层次的修炼境界。
+
+        '
+    abilities:
+    - id: 天赋秘法逆天
+      type: Ability
+      name: 天赋秘法逆天
+      aliases: []
+      description: '能够让不朽强者在某些方面超越普通宇宙尊者的能力。
+
+        '
+    events:
+    - id: 罗峰入驻雷霆岛山腰
+      type: Event
+      name: 罗峰入驻雷霆岛山腰
+      description: '因为混沌城主的安排，罗峰被允许在雷霆岛上建立宫殿。
+
+        '
+    dialogues:
+    - id: 雷鸣尊者对真衍尊者的抱怨
+      type: Dialogue
+      speaker:
+      - name: 雷鸣尊者
+        text: 我的确是一肚子怒气，你可知道你弟子罗峰的事？
+      - name: 真衍尊者
+        text: 他知道什么？你说罗峰，难道是说他跨入不朽的事……
+    - id: 千雨王与罗峰的交谈
+      type: Dialogue
+      speaker:
+      - name: 罗峰
+        text: 老师，你怎么来了，我之前给你邮件，要找我，直接虚拟宇宙叫我声，我不就立即到了？
+      - name: 真衍尊者
+        text: 我刚得到你的邮件，可在雷霆岛上却是被我的不少好友给抓了去。
+    timeline:
+    - id: 时间线1
+      type: Timeline
+      description: '文章描述的是罗峰入驻雷霆岛山腰后引发的一系列事件。
+
+        '
+    mysteries:
+    - id: 罗峰未来的地位
+      type: Mystery
+      name: 真衍尊者对罗峰的未来考虑
+      description: '罗峰是否需要搬出雷霆岛，以避免因位置问题引起的不满。
+
+        '
+- source: part_069_02.yaml
+  data:
+    source:
+      id: text_1
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 刚刚跨入不朽的宇宙强者，拥有弑吴羽翼和塔珠等至宝。
+      attributes:
+        实力: 不朽
+        装备: 弑吴羽翼, 塔珠
+    - id: 沛风尊者
+      type: Character
+      name: 沛风尊者
+      aliases: []
+      description: 北疆联盟候选神将，宇宙霸主级别的强者。
+      attributes:
+        实力: 宇宙之主
+        装备: 法则领域
+    - id: 吠镜王
+      type: Character
+      name: 吠镜王
+      aliases: []
+      description: 北疆联盟的超级存在，自爆后遗留下诸多重宝。
+      attributes:
+        实力: 宇宙之主
+        装备: 空间戒指, 至宝战铠
+    - id: 塔珠
+      type: Item
+      name: 塔珠
+      aliases: []
+      description: 拥有保护灵魂的强大功能，可以抵抗沛风尊者的攻击。
+      attributes:
+        类型: 灵魂类至宝
+    - id: 弑吴羽翼
+      type: Item
+      name: 弑吴羽翼
+      aliases: []
+      description: 能够快速飞行的神器装备。
+      attributes:
+        功能: 高速移动, 抗灵魂攻击
+    relationships:
+    - 主体: 罗峰
+      关系类型: 拥有
+      对象: 塔珠
+    - 主体: 罗峰
+      关系类型: 拥有
+      对象: 弑吴羽翼
+    events:
+    - id: 吠镜王自爆
+      type: Event
+      description: 吠镜王在战斗中自爆，留下众多重宝给罗峰。
+      timeline: []
+    - id: 罗峰逃逸
+      type: Event
+      description: 沛风尊者追杀罗峰，罗峰利用弑吴羽翼逃离现场。
+      timeline: []
+    dialogues:
+    - 主体: 沛风尊者
+      内容: 刀河王，你太贪婪了！
+      对象: 罗峰
+    - 主体: 罗峰
+      内容: 愚蠢的家伙！你实在太过自大了。
+      对象: 沛风尊者
+    timeline:
+    - 时间点: 吠镜王自爆后
+      描述: 罗峰迅速收起吠镜王留下的重宝。
+    mysteries:
+    - 描述: 沛风尊者为何没有预料到罗峰会拥有强大的灵魂类至宝。
+- source: part_069_03.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: LuoFeng
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '界主罗家子弟，受到族群重视。已击败吠镜王，拥有宇宙中等尊者的实力。
+
+        '
+      attributes:
+      - 实力: 宇宙中等尊者
+      - 身份: 人类族群成员
+    - id: ZhenYanZunzhe
+      type: Character
+      name: 真衍尊者
+      aliases: []
+      description: '混沌城主的弟子，罗峰的老师。时常指导并支持罗峰的成长。
+
+        '
+      attributes:
+      - 实力: 强大宇宙尊者
+    - id: JiuYanGuozhu
+      type: Character
+      name: 九焱国主
+      aliases: []
+      description: '混沌城主的亲信，与罗峰关系良好。
+
+        '
+      attributes:
+      - 身份: 国主
+    - id: GuiyiZunzhe
+      type: Character
+      name: 归一尊者
+      aliases: []
+      description: '排行第二的弟子，混沌城主的亲信。负责传达混沌城主的信息和命令。
+
+        '
+      attributes:
+      - 实力: 强大宇宙尊者
+    - id: JiuxiaoJiejiong
+      type: Organization
+      name: 家族
+      aliases: []
+      description: '罗家家族，罗峰所属的家族。
+
+        '
+    relationships:
+    - entities:
+      - LuoFeng
+      - ZhenYanZunzhe
+      type: 师徒关系
+    events:
+    - id: 战斗视频传播
+      name: 战斗视频传播
+      description: '罗峰与吠镜王的战斗视频已经传入人类族群，很多宇宙尊者都看到了。
+
+        '
+      timeline: 已经过去两天
+    dialogues:
+    - speaker: ZhenYanZunzhe
+      listener: LuoFeng
+      content: 我给你一封邮件，你是立即就来接我。真是为师的好弟子啊。
+      context: 真衍尊者称赞罗峰迅速回应老师的消息。
+    - speaker: LuoFeng
+      listener: ZhenYanZunzhe
+      content: 尊敬老师嘛。
+      context: 罗峰对老师的夸奖进行谦虚的回答。
+    - speaker: GuiyiZunzhe
+      listener: LuoFeng
+      content: 师弟，我奉老师令，亲自传达消息给你……关于你加入我人类最高会议的提案，最高层已经审核通过。自此，你便有资格位列最高会议席位。
+      context: 归一尊者代表混沌城主宣布罗峰可以参加最高会议。
+    timeline:
+    - name: 战斗视频传播
+      time: 已经过去两天
+    mysteries:
+    - unknown_information: 罗峰未来具体会在人类族群中发挥怎样的作用。
+- source: part_069_04.yaml
+  data:
+    source:
+      id: text1
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 魔杀罗峰
+      aliases: []
+      description: 地球人本尊，获得金线极光镜的宇宙强者。
+      attributes:
+        实力: 宇宙强者
+        性格: 聪明机智
+    - id: 吠镜王
+      type: Character
+      name: 吠镜王
+      aliases: []
+      description: 狮子兽神族传承者，被刀河王打败。
+      attributes:
+        实力: 封王不朽
+        性格: 愤怒
+    - id: 刀河王
+      type: Character
+      name: 刀河王
+      aliases: []
+      description: 狮子兽神族的敌人，实力强大。
+      attributes:
+        实力: 宇宙尊者级
+        性格: 强大
+    - id: 沛风尊者
+      type: Character
+      name: 沛风尊者
+      aliases: []
+      description: 狮子兽神族的宇宙强者，吠镜王的朋友。
+      attributes:
+        实力: 宇宙尊者级
+        性格: 理性
+    - id: 金线极光镜
+      type: Item
+      name: 金线极光镜
+      aliases: []
+      description: 给罗峰的顶级重宝，能够施展出领域类的辅助效果。
+      attributes:
+        类型: 领域类顶级重宝
+        功能: 控制区域内的物质攻击
+    locations:
+    - id: 祖神秘境紫荆岛
+      type: Location
+      name: 紫荆岛
+      description: 祖神教的传承地，位于祖神秘境内。
+      attributes:
+        地点特征: 草原、罗峰府邸
+    organizations:
+    - id: 祖神教
+      type: Organization
+      name: 祖神教
+      aliases: []
+      description: 给予刀河王宇宙强者罗峰顶级重宝的组织。
+      attributes:
+        目的: 帮助人类族群，考虑周到
+    abilities:
+    - id: 法则领域
+      type: Ability
+      name: 法则领域
+      aliases: []
+      description: 罗峰施展金之法则形成的领域。
+    events:
+    - id: 获得金线极光镜
+      type: Event
+      name: 祖神教赐予罗峰顶级重宝
+      description: 罗峰得到祖神教赐予的金线极光镜，能够施展出强大的领域效果。
+      timeline: []
+    dialogues:
+    - id: 吟诵金线极光镜咒语
+      type: Dialogue
+      name: 神力烙印咒语
+      description: 罗峰将生命印记烙印在金线极光镜上，使其变小便于携带。
+      timeline: []
+    timeline: null
+    mysteries:
+    - id: 刀河王的下一步行动
+      type: Mystery
+      name: 刀河王的报复计划
+      description: 吠镜王对刀河王的仇恨加深，他将如何进行报复？
+- source: part_069_05.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 混沌城主
+      type: Character
+      name: 混沌城主
+      aliases: []
+      description: 宇宙之主级别的存在，以公无私著称，并且有耐心处理族群事务。
+      attributes:
+        实力: 宇宙之主
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases:
+      - 刀河王
+      description: 刚刚加入最高会议的人类宇宙初等尊者，得到了混沌城主赐予的至宝。
+      attributes:
+        实力: 宇宙初等尊者
+    - id: 原始星
+      type: Location
+      name: 原始星
+      aliases: []
+      description: 神秘的地方，共有10081颗，环绕宇宙本源之地。每隔漫长岁月开启一次，持续一千纪元。
+      attributes:
+        特点: 危险与宝物并存
+    organizations:
+    - id: 人类族群
+      type: Organization
+      name: 人类族群
+      aliases: []
+      description: 拥有最高会议的组织，成员贡献值可以换取资源。
+    abilities:
+    - id: 贡献值
+      type: Ability
+      name: 贡献值
+      attributes:
+        描述: 强者为族群作出贡献后可获得的数值，可用于交换宝物和资源。
+        来源: 宇宙强者在原始星或其他地方获取宝物后贡献给族群。
+    items:
+    - id: 刑弑吴羽翼
+      type: Item
+      name: 刑弑吴羽翼
+      attributes:
+        描述: 混沌城主赐予罗峰的至宝。
+        功能: 增强战斗力，具备特殊功能
+    dialogues:
+    - speaker: 混沌城主
+      dialogue: 他界主级时有三件至宝，唯有那弑吴羽翼是我赐予，其他两件……都是我这弟子际遇神奇，运气逆天。
+    - speaker: 不明人士
+      dialogue: 啊？他自己得到的至宝？这至宝可不是别的，不是际遇神奇想得到就得到的。一般都是些超级存在刻意留下的，留给传人的。管他什么超级存在……反正这宝物落到我们人类族群手里，就是好事。
+    events:
+    - id: 最高会议
+      type: Event
+      name: 最高会议
+      attributes:
+        描述: 关于原始星即将开启的重要会议。
+        时间点: 原始星开启前夕
+    timeline:
+    - event_id: 最高会议
+      time: 原始星开启前夕
+    mysteries:
+    - id: 刑弑吴羽翼的来源
+      type: Mystery
+      attributes:
+        描述: 罗峰得到的刑弑吴羽翼的具体来历和其背后的超级存在。

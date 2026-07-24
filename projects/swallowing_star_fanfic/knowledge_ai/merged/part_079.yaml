@@ -1,0 +1,285 @@
+part: part_079
+generated_time: '2026-07-23T15:46:34.686484'
+count: 5
+items:
+- source: part_079_01.yaml
+  data:
+    source:
+      id: origin_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 探索宇宙海水域的修炼者，潜力巨大。
+      attributes:
+        实力: 宇宙尊者级
+        目标: 在宇宙海中磨砺自己
+    - id: 燧石之主
+      type: Character
+      name: 燧石之主
+      aliases: []
+      description: 鸿盟中的燧石之主，神体周围有火焰环绕。
+      attributes:
+        实力: 宇宙之主级
+        性格: 不屑且愤愤不平
+    - id: 嫦鹫之主
+      type: Character
+      name: 嫦鹫之主
+      aliases: []
+      description: 当年妖族培养的绝世天才，现在地位极高。
+      attributes:
+        实力: 宇宙之主级
+        潜力: 极高
+    - id: 神眼族强者
+      type: Character
+      name: 神眼族强者
+      aliases: []
+      description: 第一宇宙时代的强敌，拥有巨大独眼虚影。
+      attributes:
+        实力: 宇宙之主级
+        性格: 残酷无情
+    - id: 安永之主
+      type: Character
+      name: 安永之主
+      aliases: []
+      description: 神眼族中的追杀者，以极高速度捕猎。
+      attributes:
+        实力: 宇宙之主级
+        目标: 从无尽杀戮中寻找永恒之路
+    organizations:
+    - id: 鸿盟
+      type: Organization
+      name: 鸿盟
+      aliases: []
+      description: 罗峰所在的宇宙联盟组织。
+      attributes: null
+    locations:
+    - id: 宇宙海水域深处
+      type: Location
+      name: 宇宙海水域深处
+      aliases: []
+      description: 广袤无尽的水域，充满危险和宝藏。
+    abilities:
+    - id: 空间封锁
+      type: Ability
+      name: 空间封锁
+      description: 封锁指定区域的空间波动。
+      attributes: null
+    events:
+    - id: 燧石之主求救
+      type: Event
+      name: 燧石之主求救
+      description: 第一宇宙时代的神眼族安永之主追杀燧石之主，燧石之主发出紧急求救信号。
+      timeline:
+        发生时间: 文本中
+    dialogues:
+    - id: 安永之主对话
+      type: Dialogue
+      name: 安永之主对话
+      description: 你逃得掉吗？生命有限。永恒难求，从无尽杀戮中寻找永恒之路。燧石之主……还是受死吧。
+      attributes: null
+    mysteries:
+    - id: 罗峰的未来潜力
+      type: Mystery
+      name: 罗峰的未来潜力
+      description: 将来罗峰会否达到嫦鹫之主那样的层次。
+- source: part_079_02.yaml
+  data:
+    source:
+      id: 倾峰界探索
+    entities:
+    - id: 珈御之主
+      type: Character
+      name: 珈御之主
+      aliases: []
+      description: 第一宇宙时代神眼族的强者之一，拥有无尽寿命。
+      attributes:
+        实力: 宇宙之主（顶尖层次）
+        特征: 脸容俊美，脑后有光圈及独眼虚影
+    - id: 安永之主
+      type: Character
+      name: 安永之主
+      aliases: []
+      description: 第一宇宙时代神眼族的强者之一。
+      attributes:
+        实力: 宇宙之主（顶尖层次）
+    - id: 倾峰界水域
+      type: Location
+      name: 倾峰界水域
+      aliases:
+      - 水域
+      description: 存在大量洞穴、峡谷，可能藏有宝物。
+    relationships:
+    - 主体: 珈御之主
+      对象: 安永之主
+      关系类型: 同族
+    events:
+    - id: 神秘宝藏的发现与陨落
+      type: Event
+      description: 在倾峰界水域探索时，珈御之主发现了神秘光幕后的宝藏，并在尝试进入时突然死亡。
+      timeline:
+        时间: 第一宇宙时代晚期
+        地点: 倾峰界水域底部洞穴
+    dialogues:
+    - 主体: 神眼族强者
+      对象: 安永之主
+      内容: 安永，你这次在内域，可有收获？
+      回应: 内域太危险，我也就在内域一些较为安全的地方逛逛，那些地方早就被搜遍了。什么收获都没有。
+    - 主体: 神眼族强者
+      对象: 安永之主
+      内容: 还是在水域慢慢闯，危险小，偶尔也能得到宝物。
+      回应: ''
+    - 主体: 珈御之主
+      对象: 安永之主
+      内容: 珈御，你有收获？
+      回应: 小收获。
+    mysteries:
+    - id: 神秘光幕
+      type: Mystery
+      description: 在水域中发现的多层神秘光幕后的宝藏，导致珈御之主瞬间陨落。
+      解释: 未知
+- source: part_079_03.yaml
+  data:
+    source:
+      id: unknown
+    entities:
+    - id: rofei1024
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 新晋宇宙之主，拥有时空掌控能力的特殊至宝。
+      attributes:
+        实力: 第二阶宇宙之主
+        特殊能力: 掌控时空
+    - id: anyingzhuzi
+      type: Character
+      name: 安永之主
+      aliases: []
+      description: 神眼族强者，擅长领域和速度。
+      attributes:
+        实力: 强大宇宙之主
+        特殊能力: 掌控领域和极速攻击
+    - id: jinchanzhuzi
+      type: Character
+      name: 金觇之主
+      aliases: []
+      description: 神眼族强者，有巅峰领域类至宝。
+      attributes:
+        实力: 强大宇宙之主
+    relationships:
+    - 主体: rofei1024
+      客体: anyingzhuzi
+      关系类型: 敌对
+    - 主体: jinchanzhuzi
+      客体: anyingzhuzi
+      关系类型: 合作
+    events:
+    - 名称: 罗峰与安永之主相遇
+      描述: 在倾峰界水域第193293参照系区域，罗峰和安永之主见面交战。
+      时间线: unknown
+    dialogues:
+    - 主体: rofei1024
+      客体: anyingzhuzi
+      内容: 安永之主，真是哪都能看到你！
+    - 主体: anyingzhuzi
+      客体: rofei1024
+      内容: 生命有限，永恒难求。杀戮才是唯一的道路！
+    timeline:
+    - 时间点: unknown
+      描述: 罗峰和安永之主在倾峰界水域交战。
+    mysteries:
+    - 未知内容: 安永之主为何会在该参照系区域探寻许久。
+- source: part_079_04.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: LuoFeng
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '观察和接近白色羽翼核心的宇宙之主。
+
+        '
+      attributes:
+      - 实力: 宇宙之主层次
+      - 能力: 星辰塔拥有镇守灵魂的作用，能抵挡物质攻击与意志冲击
+    - id: WhiteWing
+      type: Item
+      name: 白色羽翼
+      aliases: []
+      description: '构成巨大光翼的核心部分。周围有一圈真空般的虚无区域。
+
+        '
+      attributes:
+      - 形状: 约百米高
+      - 特性: 产生大量刀刃光芒，形成刀刃风暴
+    relationships:
+    - source_id: LuoFeng
+      target_id: WhiteWing
+      type: 追求
+    events:
+    - id: ApproachWhiteWing
+      name: 接近白色羽翼
+      description: '罗峰驾驶星辰塔接近白色羽翼，遭遇意志冲击。
+
+        '
+      timeline:
+        start: 开始接近时
+        end: 100公里附近
+      attributes:
+      - 意志强度变化: 随距离减小而显著增加
+    dialogues:
+    - speaker_id: LuoFeng
+      content: 滚开，杂碎，给我滚开，否则我一定会杀了你，并将你的灵魂剥离。
+      context: 意志冲击的恐吓内容
+    timeline: null
+    mysteries:
+    - id: WillOrigin
+      description: '白色羽翼周围的意志冲击来源及作用机制尚不清楚。
+
+        '
+- source: part_079_05.yaml
+  data:
+    source:
+      id: 罗峰宇宙
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有星辰塔和弑吴羽翼之灵，正在进行认主过程。
+      attributes:
+        实力: 宇宙尊者
+        目标: 认主白色羽翼
+    - id: 刺杀羽翼之灵
+      type: Item
+      name: 白色羽翼
+      aliases: []
+      description: 拥有极强的威能，需要宇宙最强者的意志才能认主。
+      attributes:
+        条件: 宇宙尊者意志
+        目前状态: 未被主人完全控制
+    relationships:
+    - 主体: 罗峰
+      客体: 刺杀羽翼之灵
+      关系类型: 认主过程中的争夺
+    events:
+    - 时间点: 过去三年
+      描述: 弑吴羽翼之灵迅速成长，罗峰通过磨砺意志准备认主白色羽翼。
+    - 时间点: 又过三年
+      描述: 罗峰成功识别出虚假的核心部件，并拒绝接受它以防止被攻击。
+    dialogues:
+    - 主体: 罗峰
+      客体: 白色羽翼之灵
+      对话内容: 你很直接，但你竟然连一巅峰至宝都不愿出，真是让我感到失望。
+    - 主体: 白色羽翼之灵
+      客体: 罗峰
+      对话内容: 好吧，我认输。
+    timeline:
+    - 时间节点1: 开始磨砺意志
+    - 时间节点2: 第一次接触失败
+    - 时间节点3: 决定等待时机
+    mysteries:
+    - 白色羽翼之灵的真正意图是什么？

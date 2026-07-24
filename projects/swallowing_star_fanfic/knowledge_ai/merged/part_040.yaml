@@ -1,0 +1,441 @@
+part: part_040
+generated_time: '2026-07-23T15:46:34.197754'
+count: 5
+items:
+- source: part_040_01.yaml
+  data:
+    source:
+      id: novel-snippet
+    entities:
+    - id: poyu_hou
+      type: Character
+      name: 魄瑜侯
+      aliases: []
+      description: 封侯级不朽，虚拟宇宙公司的银衣执事的上级。
+      attributes:
+        identity: 虚拟宇宙公司高层
+        strength: 封侯级不朽
+    - id: bayan
+      type: Character
+      name: 巴彦
+      aliases: []
+      description: 千星宗高手，界主九阶实力。
+      attributes:
+        affiliation: 千星宗
+        strength: 界主九阶
+    - id: purple_clothes_young_man
+      type: Character
+      name: 穿紫衣的青年
+      aliases: []
+      description: 英俊青年，请求魄瑜侯帮助解救墨查星球。
+      attributes:
+        identity: 魄瑜侯弟子
+        strength: 未知
+    organizations:
+    - id: virtual_universe_company
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 提供虚拟现实体验的大型企业。
+    locations:
+    - id: god_temple
+      type: Location
+      name: 神殿
+      aliases: []
+      description: 魄瑜侯所在的地方，位于魔音山外围。
+    - id: mozha_planet
+      type: Location
+      name: 墨查星
+      aliases: []
+      description: 英俊青年的家乡星球。
+    species:
+    - id: human
+      type: Species
+      name: 人类
+      aliases: []
+    events:
+    - id: poyu_hou_kills_bayan_and_companions
+      type: Event
+      name: 魄瑜侯杀死巴彦和同伴
+      description: 魄瑜侯因巴彦等人知道太多秘密，将其处死。
+    - id: purple_clothes_young_man_requests_help
+      type: Event
+      name: 穿紫衣的青年请求帮助
+      description: 英俊青年跪求魄瑜侯解救墨查星。
+    dialogues:
+    - speaker: 魄瑜侯
+      listener: 巴彦等三人
+      content: 不过，你们知道太多，必须死。
+    - speaker: 穿紫衣的青年
+      listener: 魄瑜侯
+      content: 师傅，求求你救救我的家乡——墨查星！
+    relationships:
+    - id: relationship_between_poyu_hou_and_bayan
+      type: Relationship
+      name: 魄瑜侯与巴彦等人的关系
+      description: 巴彦等人因知道过多秘密而被魄瑜侯处死。
+    - id: relationship_between_poyu_hou_and_purple_clothes_young_man
+      type: Relationship
+      name: 魄瑜侯与穿紫衣的青年的关系
+      description: 穿紫衣的青年是魄瑜侯的弟子，请求帮助解救墨查星。
+    timeline:
+    - event_id: poyu_hou_kills_bayan_and_companions
+      time: 不详
+    - event_id: purple_clothes_young_man_requests_help
+      time: 魔音山事件之后不久
+    mysteries:
+    - id: mystery_of_the_missing_inheritance_slot
+      type: Mystery
+      name: 失踪的传承名额之谜
+      description: 蒙苍王愤怒的原因是他的老师为他获得的“魔音山”传承名额被他人占据。
+- source: part_040_02.yaml
+  data:
+    source:
+      id: 第590章漏洞（第一更）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '血肉类生命的核心，正在接受魔音神将传承。灵魂承受接近极限。
+
+        '
+      attributes:
+        实力: 域主九阶
+        目标: 完成第一阶段的传承阶梯
+    - id: 摩云藤
+      type: Ability
+      name: 摩云藤
+      aliases: []
+      description: '罗峰的一种能力，能够延伸出细长且强大的藤蔓。
+
+        '
+      attributes:
+        长度: 3000公里（主藤蔓）
+    locations:
+    - id: 魔音神将传承神殿
+      type: Location
+      name: 魔音神将传承神殿
+      description: '存在于宇宙中不知多少年的魔山，内有亿万幻兽聚集。传承者需通过不断上阶梯获得传承。
+
+        '
+    - id: 虚空深处殿堂
+      type: Location
+      name: 虚空深处殿堂
+      description: '第一阶段的尽头，抵达即为初选者。
+
+        '
+    abilities:
+    - id: 魔音神将秘法传承
+      type: Ability
+      name: 魔音神将秘法传承
+      aliases: []
+      description: '只有灵魂接近极限才能被迫离开。需通过不断上阶梯获得，每层都带来独特的秘法讯息。
+
+        '
+    items:
+    - id: 战甲
+      type: Item
+      name: 战甲
+      description: 罗峰使用的装备，在接受传承时全身笼罩着它。
+    events:
+    - id: 灵魂承受接近极限
+      type: Event
+      name: 灵魂承受接近极限
+      description: '接受传承至1236层阶梯，罗峰感到灵魂几乎完全饱和。即使硬撑，也只能再前进一两层。
+
+        '
+    - id: 尝试越过限制
+      type: Event
+      name: 尝试越过限制
+      description: '罗峰从第1237阶直接跳至第1238阶，并遭遇魔音镇压。在意识下沉后醒来，回到前面一阶。
+
+        '
+    - id: 使用摩云藤探查
+      type: Event
+      name: 使用摩云藤探查
+      description: '罗峰尝试用摩云藤延伸到虚空深处以寻找可能的漏洞或方法来获取更多传承。
+
+        '
+    timeline:
+    - 时间点1: 数月后
+      描述: 接受魔音神将秘法至第1236层。
+    mysteries:
+    - id: 魔音神殿是否存在漏洞
+      type: Mystery
+      name: 魔音神殿是否存在漏洞
+      description: '罗峰通过摩云藤延伸到虚空深处，发现没有任何阻碍，这是否意味着魔音神殿存在可以利用的漏洞。
+
+        '
+- source: part_040_03.yaml
+  data:
+    source:
+      id: 第593章资格战（今天第一更）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司核心成员，正在进行魔音神将传承修炼。
+      attributes:
+        实力: 百年一度虚拟宇宙资格战的竞争者
+        目标: 冲击原始秘境
+    - id: 将莫
+      type: Character
+      name: 将莫
+      aliases: []
+      description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+      attributes:
+        实力: 虚拟宇宙资格战的竞争者
+        目标: 避免被淘汰进天地秘境
+    - id: 千水
+      type: Character
+      name: 千水
+      aliases: []
+      description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+      attributes:
+        实力: 虚拟宇宙资格战的竞争者
+        目标: 避免被淘汰进天地秘境
+    - id: 戎钧
+      type: Character
+      name: 戎钧
+      aliases: []
+      description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+      attributes:
+        实力: 虚拟宇宙资格战的竞争者
+        目标: 避免被淘汰进天地秘境
+    - id: 兰斯洛
+      type: Character
+      name: 兰斯洛
+      aliases: []
+      description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+      attributes:
+        实力: 虚拟宇宙资格战的竞争者
+        目标: 避免被淘汰进天地秘境
+    - id: 奥帕特拉
+      type: Character
+      name: 奥帕特拉
+      aliases: []
+      description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+      attributes:
+        实力: 虚拟宇宙资格战的竞争者
+        目标: 避免被淘汰进天地秘境
+    - id: 艾辰
+      type: Character
+      name: 艾辰
+      aliases: []
+      description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+      attributes:
+        实力: 虚拟宇宙资格战的竞争者
+        目标: 避免被淘汰进天地秘境
+    - id: 乌卡
+      type: Character
+      name: 乌卡
+      aliases: []
+      description: 罗峰的同辈竞争者，目标是不被淘汰到天地秘境。
+      attributes:
+        实力: 虚拟宇宙资格战的竞争者
+        目标: 避免被淘汰进天地秘境
+    - id: 洛夫鹨盘
+      type: Item
+      name: 洛夫鹨盘
+      aliases: []
+      description: 一种可变形状的奇异石盘，能融入罗峰体内。
+      attributes:
+        功能: 增强灵魂力量
+    relationships:
+    - 主体: 罗峰
+      关系类型: 同辈竞争者
+      对象: 将莫, 千水, 戎钧, 兰斯洛, 奥帕特拉, 艾辰, 乌卡
+    events:
+    - 名称: 百年一度虚拟宇宙资格战
+      时间线: 罗峰在太初秘境中修炼期间举行
+      地点: 太初秘境
+      描述: 新进核心成员与资深成员之间的竞争，罗峰的目标是冲击原始秘境。
+    dialogues:
+    - 主体: 乌卡, 将莫
+      对象: 罗峰
+      内容: 罗峰！今天可是资格战举行的日子。估计等会儿就会召集大家了，你竟然还慢吞吞的一直不出现……
+    - 主体: 艾辰
+      对象: 其他竞争者
+      内容: 我们八人中最没有压力的恐怕就是罗峰了，就罗峰，绝对不可能被淘汰进天地秘境。
+    timeline:
+    - 时间点: 罗峰开始修炼魔音神将传承秘法
+      描述: 罗峰在太初秘境中接受魔音神将传承。
+    - 时间点: 资格战即将举行
+      描述: 新进核心成员与资深成员之间的竞争正式开启。
+    mysteries:
+    - 内容: 罗峰进入魔音山的核心——传承之地的具体方式和过程并未详细说明。
+- source: part_040_04.yaml
+  data:
+    source:
+      id: 第596章三人（第一更）
+    entities:
+    - id: 洪
+      type: Character
+      name: 洪
+      aliases: []
+      description: 虚拟宇宙公司太初秘境的成员之一，罗峰和雷神的大哥。
+      attributes:
+        实力: 巨斧斗武场的一员
+        老师: 时光界主洛
+        状态: 正在潜修
+    - id: 雷神
+      type: Character
+      name: 雷神
+      aliases: []
+      description: 罗峰和洪的二哥，主要活动在银河系地球。
+      attributes:
+        实力: 巨斧斗武场的一员
+        老师: 时光界主洛
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 太初秘境资格战排名第二，虚拟宇宙公司核心层成员。
+      attributes:
+        实力: 魔音神将传承获得者
+        成绩: 36胜1负0平
+    - id: 虚拟宇宙公司
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 提供虚拟宇宙平台的公司，拥有太初秘境和原始秘境。
+    - id: 巨斧斗武场
+      type: Organization
+      name: 巨斧斗武场
+      aliases: []
+      description: 宇宙中最强大的五大势力之一。
+      attributes:
+        成员: 洪
+    - id: 时光界主洛
+      type: Character
+      name: 时光界主洛
+      aliases: []
+      description: 洪的老师，巨斧斗武场的一员。
+    relationships:
+    - 主体: 罗峰
+      关系类型: 兄弟关系
+      客体: 雷神
+    - 主体: 罗峰
+      关系类型: 兄弟关系
+      客体: 洪
+    events:
+    - id: 太初秘境资格战结束
+      type: Event
+      description: 太初秘境的内部资格战已经结束，罗峰取得了第二名的成绩。
+      timeline: 已经过去三天。
+    dialogues:
+    - 主体: 雷神
+      客体: 洪
+      内容: 大哥，我很久没看到你，也没看到老三了。
+      场景描述: 在黑龙山岛屿九星湾的木制亭子下，洪和雷神正在品茶。
+    - 主体: 雷神
+      客体: 洪
+      内容: 结束了，今天刚刚结束的。所以今天老三会有时间，我约好了，让老三还有大哥你都来。我们三兄弟好好聚聚！
+      场景描述: 介绍罗峰会和洪一起聚会。
+    - 主体: 罗峰
+      客体: 洪、雷神
+      内容: 大哥、二哥，有些日子没见了！听说大哥你加入巨斧斗武场了？
+      场景描述: 罗峰加入聚会时的问候。
+    timeline:
+    - 大事件1: 太初秘境资格战结束。时间点：三天前。
+    - 大事件2: 雷神邀请洪和罗峰相聚，时间点：当下。
+    mysteries:
+    - 内容: 罗峰与克罗夫的实力比较未明确说明谁更强。
+- source: part_040_05.yaml
+  data:
+    source:
+      id: 原著章节
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司的成员，实力强劲。
+      attributes:
+        实力: 太初秘境前三名
+        性格: 冷漠
+        角色地位: 争夺战主角之一
+    - id: 克罗夫
+      type: Character
+      name: 克罗夫
+      aliases: []
+      description: 狼人，虚拟宇宙公司的成员。
+      attributes:
+        实力: 太初秘境前三名
+        性格: 冷静
+        角色地位: 争夺战参与者
+    - id: 莫洛
+      type: Character
+      name: 莫洛
+      aliases: []
+      description: 帝国第一幻术师，虚拟宇宙公司的成员。
+      attributes:
+        实力: 原始秘境后三名
+        性格: 热情自信
+        角色地位: 争夺战参与者
+    - id: 隆云
+      type: Character
+      name: 隆云
+      aliases: []
+      description: 虚拟宇宙公司的成员，原始秘境后三名。
+      attributes:
+        实力: 原始秘境后三名
+        性格: 冷静
+        角色地位: 争夺战参与者
+    - id: 愚风
+      type: Character
+      name: 愚风
+      aliases: []
+      description: 药剂师，虚拟宇宙公司的成员。
+      attributes:
+        实力: 太初秘境前三名
+        性格: 冷静
+        角色地位: 争夺战参与者
+    - id: 伯兰
+      type: Character
+      name: 伯兰
+      aliases: []
+      description: 虚拟宇宙公司的成员，原始秘境后三名。
+      attributes:
+        实力: 原始秘境后三名
+        性格: 冷静
+        角色地位: 争夺战参与者
+    relationships:
+    - id: 罗峰_克罗夫
+      type: Competition
+      description: 参加争夺战的对手关系
+      attributes: null
+    - id: 罗峰_莫洛
+      type: Competition
+      description: 参加争夺战的对手关系
+      attributes: null
+    - id: 莫洛_伯兰
+      type: Competition
+      description: 原始秘境后三名之间的竞争关系
+      attributes: null
+    events:
+    - id: 争夺战准备
+      type: CompetitionPreparation
+      description: 太初秘境前三名和原始秘境后三名的成员参加争夺战准备会议。
+      timeline: 雨相山公共区的榕庄顶层
+    dialogues:
+    - characters:
+      - 罗峰
+      - 克罗夫
+      content: 克罗夫！
+      context: 罗峰微笑着走过去打招呼。
+    - characters:
+      - 莫洛
+      - 罗峰
+      content: 罗峰，这批新人中我最佩服的就是你，你的进步真得是让人吃惊，能见到你真是太让我开心了。
+      context: 莫洛对罗峰表示赞赏和尊敬。
+    timeline:
+    - id: 争夺战准备时间
+      description: 罗峰等人在榕庄顶层进行争夺战的准备会议。
+      start_time: 晚上
+    mysteries:
+    - id: 争夺战结果未知
+      type: CompetitionResultUnknown
+      description: 六人的争夺战最终结果尚未揭晓，谁将获得原始秘境名额仍不确定。

@@ -1,0 +1,328 @@
+part: part_041
+generated_time: '2026-07-23T15:46:34.215235'
+count: 5
+items:
+- source: part_041_01.yaml
+  data:
+    source:
+      id: 星辰变-第603章
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司核心层的天才之一，参加资格战，并在原始秘境名额争夺战中表现出色。
+      attributes:
+        实力: 宇宙级
+        经历: 天才战3胜0平0负
+    - id: 克罗夫
+      type: Character
+      name: 克罗夫
+      aliases: []
+      description: 虚拟宇宙公司核心层的天才之一，参加资格战，并在原始秘境名额争夺战中表现出色。
+      attributes:
+        实力: 宇宙级
+    - id: 愚风
+      type: Character
+      name: 愚风
+      aliases: []
+      description: 药剂师，虚拟宇宙公司核心层的成员之一，在资格战中与罗峰对战。
+      attributes:
+        实力: 宇宙级
+    - id: 雨相山公共区餐厅
+      type: Location
+      name: 雨相山公共区餐厅
+      aliases: []
+      description: 虚拟宇宙公司核心层天才们观看资格战的地方。
+    relationships:
+    - entity1_id: 罗峰
+      entity2_id: 克罗夫
+      relation_type: 竞争对手
+    events:
+    - id: 原始秘境名额争夺战
+      type: Event
+      description: 虚拟宇宙公司核心层天才间为争取进入原始秘境的资格而进行的比赛。
+      timeline:
+        start_date: 百年一次的资格战周期内
+        end_date: 第六名被淘汰
+    dialogues:
+    - speaker_id: 不明青年
+      listener_ids: []
+      content: 这届资格战的争夺战，到现在这六人，也就两个人还没有败绩！罗峰和克罗夫，都没有输过！这次进原始秘境的应该是他们俩人中的一个。
+      context: 雨相山公共区餐厅内观看比赛
+    - speaker_id: 赤瞳男子
+      listener_ids: []
+      content: 罗峰？输给克罗夫是肯定的。更何况他恐怕连愚风这关都过不去！
+      context: 雨相山公共区餐厅内观看比赛
+    mysteries:
+    - question: 罗峰如何击败药剂师愚风？
+      answer: 尚未揭晓
+    - question: 克罗夫与罗峰之间的最终对决结果会怎样？
+      answer: 尚未揭晓
+- source: part_041_02.yaml
+  data:
+    source:
+      id: 星辰变第605章至第606章
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司的天才成员，争夺原始秘境名额的参赛者。
+      attributes:
+        实力: 绝世天才, 初始级实力
+        性格: 有决心和毅力
+        关系:
+        - 师傅: 真衍王
+        - 朋友: 戎钧、乌卡等
+        - 家人: 洪(兄弟)、雷神、妻子孩子、弟弟
+    - id: 克罗夫
+      type: Character
+      name: 克罗夫
+      aliases: []
+      description: 参与争夺原始秘境名额的参赛者。
+      attributes:
+        实力: 强大, 虚拟宇宙网络内实力不明确
+        性格: 情况不明, 关键时刻弃权
+    - id: 真衍王
+      type: Character
+      name: 真衍王
+      aliases: []
+      description: 罗峰的老师，虚拟宇宙公司的高层成员。
+      attributes:
+        实力: 虚拟宇宙公司核心级实力, 高层地位
+    - id: 徐欣
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 关注罗峰比赛的人之一。
+      attributes:
+        性格: 惊讶和不解
+    - id: 虚拟宇宙网络系统
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 管理虚拟宇宙的公司，提供各种竞争和修炼环境。
+    locations:
+    - id: 战场位面原始森林上空
+      type: Location
+      name: 原始森林上空
+      attributes:
+        地点描述: 战场位面内, 处于争夺原始秘境名额的战斗区域
+    organizations:
+    - id: 虚拟宇宙公司
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 管理和运营虚拟宇宙的公司。
+    events:
+    - id: 罗峰对战克罗夫争夺原始秘境名额最后一场战斗
+      type: Event
+      name: 最后一场战斗
+      attributes:
+        时间: 规定时间内
+        地点: 战场位面原始森林上空
+        结果: 克罗夫弃权, 罗峰胜出
+    dialogues:
+    - id: 虚拟宇宙系统对罗峰的提示
+      type: Dialogue
+      content: 鉴于第五场开始到如今，克罗夫的意识一直未进入虚拟宇宙网络，所以无法传送过来！判定为……克罗夫弃权！
+    timeline:
+    - 时间点: 第五场战斗开始至结束期间
+      描述: 克罗夫未出现, 罗峰获得胜利
+    mysteries:
+    - id: 克罗夫为何放弃最后一场比赛
+      type: Mystery
+      content: 在规定时间内，克罗夫的意识未进入虚拟宇宙网络，导致弃权。
+- source: part_041_03.yaml
+  data:
+    source:
+      id: '610'
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 宇宙级九阶天才，拥有金角巨兽分身和魔杀族分身。
+      attributes:
+        实力: 绝境级任务完成者，得到过魔音神将传承
+        能力: 拥有魔杀族分身、金角巨兽分身
+    - id: 布布鲁
+      type: Character
+      name: 布布鲁
+      aliases: []
+      description: 矮人，罗峰的老师。
+      attributes:
+        实力: 不详
+        能力: 教授《三千星空》
+    relationships:
+    - 主体: 罗峰
+      关系类型: 学生
+      宾语: 布布鲁
+    events:
+    - 名称: 接受魔音神将传承
+      时间: 不详
+      描述: 在32座传承殿中接受魔音神将传承，进展顺利。
+    dialogues: null
+    timeline:
+    - 罗峰在完成绝境级任务后接受魔音神将传承
+    - 两年过去，克罗夫未现身虚拟宇宙网络
+    mysteries:
+    - 克罗夫的生死情况
+- source: part_041_04.yaml
+  data:
+    source:
+      id: 第614章巨额奖励
+    entities:
+    - id: 罗峰
+      type: character
+      name: 罗峰
+      aliases: []
+      description: '地球人，实力强大，拥有宇宙级九阶的实力。在魔音山中生存了十二年，并搜集到了1万枚黑色令牌。
+
+        '
+      attributes:
+        实力: 宇宙级九阶
+        特长: 念力振幅强度达到3200多
+    - id: 魄瑜侯
+      type: character
+      name: 魄瑜侯
+      aliases: []
+      description: '虚拟宇宙公司重要成员，地位极高。擅长灵魂研究。
+
+        '
+      attributes:
+        实力: 封王级不朽（接近于宇宙国主）
+    - id: 天羽王
+      type: character
+      name: 天羽王
+      aliases: []
+      description: '虚拟宇宙公司封王级不朽中的重要成员，实力强大。
+
+        '
+      attributes: null
+    - id: 白袍青年乙昌
+      type: character
+      name: 乙昌
+      aliases:
+      - 白袍青年
+      description: '魔音山银衣执事之一。负责接待罗峰。
+
+        '
+      attributes: null
+    - id: 莫洛
+      type: character
+      name: 莫洛
+      aliases: []
+      description: '在魔音山中搜集到了1万枚黑色令牌的殿下，仅用三年多时间完成任务。
+
+        '
+    relationships:
+    - 主体: 罗峰
+      关系类型: 指导关系
+      客体: 真衍王
+    - 主体: 魄瑜侯
+      关系类型: 敬畏
+      客体: 天羽王
+    locations:
+    - id: 魔音山
+      type: location
+      name: 魔音山
+      description: '虚拟宇宙公司的绝境级任务所在地。以岩石冰层环境著称，有各种危险。
+
+        '
+    items:
+    - id: 黑色令牌
+      type: item
+      name: 黑色令牌
+      description: '在魔音山中搜集到的物品，用于获取巨额奖励。
+
+        '
+    organizations:
+    - id: 虚拟宇宙公司
+      type: organization
+      name: 虚拟宇宙公司
+    abilities:
+    - id: 念力振幅强度
+      type: ability
+      name: 念力振幅强度
+      description: '罗峰的念力强度，达到3200多。
+
+        '
+    dialogues:
+    - 主体: 白袍青年乙昌
+      客体: 罗峰
+      内容: 恭喜殿下出魔音山。
+    events:
+    - id: 收集1万枚黑色令牌
+      type: event
+      name: 收集1万枚黑色令牌
+      description: '罗峰在魔音山中花费十二年时间完成的任务，获得了巨额奖励。
+
+        '
+    timeline:
+    - 时间点: 十二年后
+      描述: 罗峰从魔音山出来，并获得由天羽王亲自颁发的巨额奖励
+    mysteries:
+    - 内容: 莫洛是如何在三年多时间内搜集到1万枚黑色令牌的。
+- source: part_041_05.yaml
+  data:
+    source:
+      id: 第617章意外消息（第二更）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司的成员，实力强大，做事干脆利落。
+      attributes:
+        实力: 域主级九阶
+        目标: 完成绝境任务迷踪星系，寻找大秘密和机遇
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的老师兼导师，提供指导与建议。
+      attributes:
+        关系: 老师
+    - id: 绝境任务迷踪星系
+      type: Event
+      name: 迷踪星系绝境级任务
+      aliases: []
+      description: 在原始秘境内进行的搜寻39颗晶石的任务，难度较低。
+    - id: 紫宸百络叶
+      type: Item
+      name: 紫宸百络叶
+      aliases: []
+      description: 具有奇特用途的植物叶片，对不朽级植物生命尤其有益。
+      attributes:
+        价值: 200万混元单位
+    - id: 魔杀族分身
+      type: Character
+      name: 魔杀族分身
+      aliases: []
+      description: 罗峰的三个分身之一，拥有复制天赋秘法。
+      attributes:
+        能力: 千变万化的能力
+    - id: 金角巨兽分身
+      type: Character
+      name: 金角巨兽分身
+      aliases: []
+      description: 罗峰的三个分身之一，实力强大。
+    relationships:
+    - 主体: 罗峰
+      客体: 巴巴塔
+      关系类型: 师徒关系
+    events:
+    - 名称: 迷踪星系绝境级任务完成
+      时间线: 第617章
+      描述: 在迷踪星系中寻找39颗晶石，耗费5年零7个月。
+    dialogues:
+    - 发言者: 巴巴塔
+      对话内容: 罗峰，大赚啦！！！紫宸百络叶啊，你老师当年想买都没地方去买，等摩云藤突破到不朽后，你再让它服用紫宸百络叶，实力绝对会飙升！如果摩云藤在界主巅峰期，你给它服用紫宸百络叶，也有10%的希望能突破到不朽！
+    timeline:
+    - 时间点: 完成六个危险级任务
+      描述: 罗峰完成六个危险级修炼任务后休整三个月。
+    mysteries:
+    - 内容: 迷踪星系内的秘密和机遇。
+      描述: 罗峰坚信能够找到迷踪星系内的大秘密，即使花费几十年时间也在所不惜。

@@ -1,0 +1,321 @@
+part: part_098
+generated_time: '2026-07-23T15:46:34.921976'
+count: 5
+items:
+- source: part_098_01.yaml
+  data:
+    source:
+      id: 文本来源
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 银河领主，能够奴役界兽摩罗撒。
+      attributes:
+        实力: 强大到能够奴役界兽王者的程度
+    - id: 摩罗撒
+      type: Character
+      name: 摩罗撒
+      aliases: []
+      description: 界兽王者之一，被银河领主罗峰奴役。
+      attributes:
+        实力: 非常强大，能够在界兽中成为最后的王
+    - id: 坐山客
+      type: Character
+      name: 坐山客
+      aliases: []
+      description: 观察到规则波动的人，在宇宙舟外围。
+      attributes:
+        实力: 强大
+    - id: 贝迪
+      type: Character
+      name: 贝迪
+      aliases: []
+      description: 界兽王者，曾经受伤被摩罗撒吞食。
+    organizations:
+    - id: 晋之神王麾下奴役军团
+      type: Organization
+      name: 晋之神王麾下奴役军团
+      description: 被称为金的存在创建的神秘强大军团
+    species:
+    - id: 界兽
+      type: Species
+      name: 界兽
+      description: 代表毁灭，是原始宇宙对立的存在。
+      attributes:
+        特性: 能够感应彼此，天生互相厮杀吞食只有最后一个能存活。
+    locations:
+    - id: 宇宙舟外围
+      type: Location
+      name: 宇宙舟外围
+      description: 坐山客所在的位置
+    events:
+    - id: 界兽摩罗撒被奴役
+      type: Event
+      name: 界兽摩罗撒被奴役
+      description: 摩罗撒被银河领主罗峰使用《三星界》奴役。
+    dialogues:
+    - speaker: 罗峰
+      listener: 摩罗撒
+      content: 主人，那是什么奴役之法，竟让我没有丝毫察觉就陷入其中了。
+    - speaker: 罗峰
+      listener: 摩罗撒
+      content: 那叫《三星界》，一位名叫‘金’的伟大存在所创。
+    timeline:
+    - 时间点: 文本描述开始时间
+      事件: 界兽摩罗撒被奴役，规则波动引起宇宙舟外围观察者注意。
+    mysteries:
+    - id: 规则波动原因
+      type: Mystery
+      description: 规则波动的原因是什么？是否界兽王者的诞生或者其他影响整个宇宙海的大事？
+- source: part_098_02.yaml
+  data:
+    source:
+      id: 1
+    entities:
+    - id: rofei
+      type: character
+      name: 罗峰
+      aliases: []
+      description: 拥有银河圣地和小型宇宙的强者，正在修炼《不死河》以应对界兽浩劫。
+      attributes:
+        实力: 真神级
+        身份: 银河北域主宰、人类族群希望之一
+        关系: 与混沌城主关系密切
+    - id: chongtushizhe
+      type: character
+      name: 混沌城主
+      aliases: []
+      description: 管理银河圣地，对罗峰非常关心。
+      attributes:
+        实力: 高于真神级
+        身份: 银河北域的管理者
+    - id: jinzhiqishijie
+      type: location
+      name: 晋之世界
+      aliases: []
+      description: 可以进入的第四绝地，罗峰在那里奴役界兽。
+      attributes:
+        特性: 开启周期为一个纪元
+    - id: xingchentawa
+      type: item
+      name: 星辰塔
+      aliases: []
+      description: 罗峰的重要宝物之一，可以进行瞬移。
+    events:
+    - id: jianzhuzhongxiaoqiyu
+      type: event
+      name: 建造通往小型宇宙的宇宙通道
+      attributes:
+        时间: 收复摩罗撒后两天内
+        地点: 原始宇宙银河圣地
+    - id: xunjiejieshoujianzhuo
+      type: event
+      name: 准备前往界兽巢穴
+      attributes:
+        时间: 第1890年
+        地点: 晋之世界附近
+    dialogues:
+    - speaker: rofei
+      listener: chongtushizhe
+      content: 我能成功是好事，到时候公开自然更好。若失败……还不如不公开。
+      attributes: {}
+    timeline:
+    - event_id: jianzhuzhongxiaoqiyu
+      time: 收复摩罗撒后两天内
+    - event_id: xunjiejieshoujianzhuo
+      time: 第1890年
+    mysteries:
+    - question: 罗峰是否能够成功应对界兽巢穴的挑战？
+      context: 界兽巢穴中有千万头界兽，罗峰在未修炼成《不死河》前不敢贸然前往。
+- source: part_098_03.yaml
+  data:
+    source:
+      id: 罗峰的宇宙之旅
+    entities:
+    - id: 摩罗撒
+      type: Character
+      name: 摩罗撒
+      aliases: []
+      description: 界兽巢穴的奴仆，能够感应每个界兽的位置。
+      attributes:
+      - 能力：感应界兽数量和位置
+      - 关系：罗峰的奴仆
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，宇宙之主，使用星辰塔进入昏暗之地。
+      attributes:
+      - 能力：无形无相、瞬移
+      - 关系：摩罗撒的主人
+    - id: 星辰塔
+      type: Item
+      name: 星辰塔
+      aliases: []
+      description: 罗峰使用的飞行工具，可以缩小和隐形。
+      attributes:
+      - 功能：飞行、隐藏
+      - 关系：属于罗峰的宇宙之主
+    - id: 暗影之地
+      type: Location
+      name: 晦暗之地
+      aliases: []
+      description: 界兽巢穴，一片黑暗的地方。
+      attributes:
+      - 特点：内部时刻运转、容易迷失
+    relationships:
+    - 主体: 罗峰
+      宾语: 星辰塔
+      关系类型: 使用
+    - 主体: 摩罗撒
+      宾语: 界兽巢穴
+      关系类型: 控制
+    - 主体: 罗峰
+      宾语: 摩罗撒
+      关系类型: 主人
+    events:
+    - id: 进入暗影之地
+      type: Event
+      name: 星辰塔进入万重浪水域
+      description: 罗峰使用星辰塔缩小并隐形，开始在昏暗之地中穿梭。
+      timeline:
+        时间: 文本描述的时间点
+    - id: 界兽感应
+      type: Event
+      name: 隐形岩石被界兽发现
+      description: 某个界兽通过空间感应发现了罗峰伪装的岩石，并将其踩碎。
+      timeline:
+        时间: 进入暗影之地后一段时间
+    dialogues:
+    - 发言者: 神力化身
+      对话内容: 摩罗撒，将界兽巢穴的星图给我。
+    - 发言者: 摩罗撒
+      对话内容: 主人，我只能给出一个大概区域范围内的坐标。
+    timeline:
+    - 时间点: 罗峰进入万重浪水域前
+      描述: 计划并准备前往界兽巢穴。
+    - 时间点: 星辰塔飞入万重浪水域
+      描述: 星辰塔缩小后直接进入昏暗之地。
+    mysteries:
+    - 未解决信息: 罗峰能否成功在无形无相状态下不被发现并完成任务。
+- source: part_098_04.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有真神实力，能够施展乌启神第二重，掌握血影刀和多种强大招数。
+      attributes:
+        实力: 真神
+        武器: 血影刀
+        能力: 无尽金海、一念虚空、星辰塔、千丝泽
+    - id: 界兽贝迪
+      type: Character
+      name: 界兽贝迪
+      aliases: []
+      description: 拥有五阶实力，擅长施展毁灭本源的招数。
+      attributes:
+        实力: 五阶
+        秘法: 燃血秘术、轮回通道
+    items:
+    - id: 血影刀
+      type: Item
+      name: 血影刀
+      description: 罗峰持有的武器，具有强大的空间湮灭能力。
+      attributes: []
+    - id: 星辰塔
+      type: Item
+      name: 星辰塔
+      description: 可以产生无尽黑暗漩涡，吸收目标。
+      attributes: []
+    - id: 千丝泽
+      type: Item
+      name: 千丝泽
+      description: 念力兵器类的束缚类宝物，可以将敌人包裹起来。
+      attributes: []
+    abilities:
+    - id: 毁灭本源
+      type: Ability
+      name: 毁灭本源
+      description: 界兽贝迪施展的强大招数之一，能够轻易湮灭小型宇宙。
+    - id: 轮回通道
+      type: Ability
+      name: 轮回通道
+      description: 界兽贝迪掌握的招数之一，由两条漩涡通道缠绕形成无限映照世界。
+      attributes: []
+    relationships: null
+    events:
+    - id: 战斗
+      type: Event
+      name: 罗峰与界兽贝迪的战斗
+      description: 罗峰使用多种强大能力对抗五阶界兽贝迪，将其困住并试图消灭。
+      timeline:
+      - 时间点: 初始
+        描述: 界兽贝迪施展轮回通道攻击罗峰，被罗峰的空间湮灭招数反制。
+      - 时间点: 中期
+        描述: 罗峰使用星辰塔和千丝泽将界兽贝迪困住。
+      - 时间点: 结束
+        描述: 面临无法逃出的绝境，界兽贝迪施展出毁灭本源招数试图自救。
+    dialogues: null
+    timeline:
+    - 时间点: 战斗开始
+      描述: 界兽贝迪施展轮回通道攻击罗峰。
+    - 时间点: 中期战斗
+      描述: 罗峰使用星辰塔和千丝泽将界兽贝迪困住。
+    - 时间点: 最终决战
+      描述: 面临绝境，界兽贝迪施展出毁灭本源招数。
+    mysteries:
+    - 描述: 界兽贝迪施展的“毁灭”招数是否能真正杀死罗峰？
+- source: part_098_05.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 拥有弑吴羽翼的银河领主，正面临界兽浩劫。
+      attributes:
+        实力: 超级强者
+        能力: 无形无相, 使用"源"
+    - id: 摩罗撒
+      type: Character
+      name: 摩罗撒
+      aliases: []
+      description: 控制昏暗之地模型，为罗峰提供信息。
+      attributes:
+        实力: 界兽
+        能力: 感应界兽数量和位置
+    - id: 昏暗之地
+      type: Location
+      name: 昏暗之地
+      aliases: []
+      description: 罗峰面对大量界兽的地方。
+    - id: 界兽
+      type: Species
+      name: 界兽
+      aliases: []
+      description: 被银河领主罗峰所控制，数量超过九百万。
+      attributes:
+        实力范围: 三阶到四阶
+    relationships:
+    - 主体: 罗峰
+    - 对手: 界兽
+    events:
+    - 名称: 使用"源"
+      时间线: 现在
+      描述: 罗峰准备使用弑吴羽翼中的"源"来对抗界兽。
+    - 名称: 寻找银河领主
+      时间线: 过去几分钟内
+      描述: 数百万界兽数量的搜索和追捕罗峰。
+    timeline:
+    - 时间点1: 现在
+      描述: 数百万界兽正全力搜寻罗峰所在位置。
+    mysteries:
+    - 揭示银河领主藏身之处为何如此困难？

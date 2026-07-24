@@ -1,0 +1,372 @@
+part: part_047
+generated_time: '2026-07-23T15:46:34.303252'
+count: 5
+items:
+- source: part_047_01.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: lujuwang
+      type: Character
+      name: 隆厥王
+      aliases: []
+      description: 虚拟宇宙公司毋窿星域的管理者，与罗峰有上万纪元交情。
+      attributes:
+        role: 管理者
+        status: 权力不足
+    - id: kozel
+      type: Character
+      name: 科斯尔
+      aliases: []
+      description: 不朽神灵暗杀目标之一，体内被植入不朽神灵。
+      attributes:
+        condition: 被火焰焚烧成灰烬
+    - id: rofei
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 主角，正在遭遇不朽神灵的暗杀。
+      attributes:
+        status: 处于危险之中
+    - id: jinjiaoju
+      type: Species
+      name: 金角巨兽
+      aliases: []
+      description: 在无尽火焰中嘶吼，对抗不朽神灵。
+    - id: buxiushenling
+      type: Character
+      name: 不朽神灵
+      aliases: []
+      description: 潜入科斯尔体内世界中的暗杀者。
+      attributes:
+        status: 准备杀死罗峰
+    organizations:
+    - id: wulongxingyu
+      type: Location
+      name: 毋窿星域
+      aliases: []
+      description: 虚拟宇宙公司的一个重要区域，有严格的警戒系统。
+    abilities:
+    - id: fazeluoyu
+      type: Ability
+      name: 法则领域
+      aliases: []
+      description: 真正悟透完整一项法则才能拥有的能力，如火之法则领域。
+    items:
+    - id: qiyi
+      type: Item
+      name: 虫族尸体
+      aliases: []
+      description: 罗峰购买的虫族尸体用以炼制武器。
+    events:
+    - id: anshaishenling
+      type: Event
+      name: 不朽神灵暗杀
+      aliases: []
+      description: 科斯尔体内植入不朽神灵，准备在毋窿星域内刺杀罗峰。
+      timeline:
+        start_time: 罗峰发送邮件时
+        end_time: 邮件发出后4秒战斗结束
+    dialogues:
+    - id: lujuwang_email_alert
+      type: Dialogue
+      name: 隆厥王收到警报邮件
+      aliases: []
+      content: 隆厥王，快来救命，有内部成员携带不朽神灵来暗杀我。
+      participants:
+      - 罗峰
+      - 隆厥王
+    - id: lujuwang_instruction
+      type: Dialogue
+      name: 指令警戒系统
+      aliases: []
+      content: 有人在毋窿星域内被刺杀，赶紧查出！
+      participants:
+      - 隆厥王
+      - 警戒系统
+    relationships:
+    - id: lujuwang_rofei_relation
+      type: Relationship
+      name: 上万纪元的交情
+      aliases: []
+      description: 罗峰与隆厥王有深厚的友谊。
+- source: part_047_02.yaml
+  data:
+    source:
+      id: 第698章尊者的惩罚魇烛王（三更完毕）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 混沌宇宙中的重要人物，疑似拥有神秘能力或背景。
+      attributes:
+        实力: 强大界主, 使用火神源晶逃脱刺杀
+    - id: 宇宙尊者
+      type: Character
+      name: 宇宙尊者
+      aliases: []
+      description: 混沌宇宙中具有极高地位的存在，负责处理重要事务。
+      attributes:
+        实力: 封王级不朽神灵及以上, 管理混沌宇宙中的星域及事件
+    - id: 隆厥王
+      type: Character
+      name: 隆厥王
+      aliases: []
+      description: 毋窿星域的管理者，负责处理星域内的事务。
+      attributes:
+        实力: 封王级不朽神灵, 负责毋窿星域的安全及管理
+    - id: 迪伦
+      type: Character
+      name: 迪伦
+      aliases: []
+      description: 隆厥王的下属，负责保护罗峰。
+      attributes:
+        实力: 界主级, 忠诚于隆厥王和师祖
+    relationships:
+    - id: 罗峰与迪伦的关系
+      type: Relationship
+      description: 迪伦受命保护罗峰，对未能履行职责感到自责。
+    events:
+    - id: 科斯尔刺杀事件
+      type: Event
+      description: 毋窿星域内部成员科斯尔试图刺杀罗峰，但被火神源晶爆炸所阻止。
+      timeline:
+        时间点1: 罗峰逃脱并使用火神源晶引爆杀死科斯尔及十名界主护卫。
+        时间点2: 宇宙尊者到场确认情况，并将事件记录发送给毋窿星域的警戒管理系统。
+    dialogues:
+    - id: 战后隆厥王询问罗峰
+      type: Dialogue
+      description: 隆厥王和迪伦与罗峰讨论刺杀事件的原因及后续处理。
+      content: '"殿下这次是在毋窿星域遭到刺杀，是毋窿星域内部管理不力。" - 迪伦 "我也是虚拟宇宙公司的，当然是向着罗峰。不过，这件事是要五个负责人来决定。"
+        - 隆厥王
+
+        '
+    timeline: null
+    mysteries:
+    - id: 谁是真正的幕后黑手？
+      type: Mystery
+      description: 科斯尔已经死亡，无法确认刺杀事件的真正幕后操纵者。
+- source: part_047_03.yaml
+  data:
+    source:
+      id: 源文本
+    entities:
+    - id: 真衍王
+      type: Character
+      name: 真衍王
+      aliases: []
+      description: 虚拟宇宙公司的高层，接近宇宙尊者的存在。
+      attributes:
+        实力: 接近宇宙尊者
+        性格: 高傲自信
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司的天才学员，真衍王的弟子。
+      attributes:
+        实力: 封侯巅峰不朽神灵
+        性格: 深思熟虑
+    - id: 魇烛王
+      type: Character
+      name: 魇烛王
+      aliases: []
+      description: 巨斧斗武场的封王级不朽神灵，蚀火尊者的儿子。
+      attributes:
+        实力: 封王级不朽神灵
+        性格: 狭隘报复心强
+    - id: 隆厥王
+      type: Character
+      name: 隆厥王
+      aliases: []
+      description: 巨斧斗武场的高层。
+      attributes:
+        实力: 封侯级不朽神灵及以上
+        性格: 畏惧上级
+    - id: 蚀火尊者
+      type: Character
+      name: 蚀火尊者
+      aliases: []
+      description: 巨斧斗武场的宇宙尊者，魇烛王的父亲。
+      attributes:
+        实力: 宇宙尊者
+        性格: 枭雄型
+    relationships:
+    - id: 真衍王与罗峰
+      type: 教师-学生关系
+      description: 真衍王指导并培养罗峰成为天才。
+    - id: 魇烛王与隆厥王
+      type: 上级-下级关系
+      description: 隆厥王对魇烛王的畏惧和顺从体现他对上级的态度。
+    events:
+    - id: 罗峰被囚禁
+      type: 拘捕事件
+      description: 罗峰因不明原因遭到巨斧斗武场的怀疑并被捕。
+      timeline: 关押当天
+    dialogues:
+    - speaker: 真衍王
+      content: 那蚀火的儿子一直在找真衍的麻烦，但这次直接针对罗峰就显得愚蠢了。无凭无据想要让罗峰获罪真是笑话。
+    timeline:
+    - 罗峰被囚禁当天
+    mysteries:
+    - id: 罗峰为何被捕
+      description: 罗峰被捕的具体原因未明。
+    - id: 蚩火尊者的宝物
+      description: 那神秘的蚀火给儿子的宝物及其影响未知。
+- source: part_047_04.yaml
+  data:
+    source:
+      id: original_text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 宇宙佣兵，原始秘境成员。
+      attributes:
+        实力: 境界不详，但实力强大
+        性格: 谨慎、聪明
+    - id: 隆厥王
+      type: Character
+      name: 隆厥王
+      aliases: []
+      description: 白袍人领主，毋窿星域管理者。
+      attributes:
+        实力: 境界不详，但实力强大
+        性格: 慷慨大方、谨慎
+    - id: 宇宙飞船
+      type: Item
+      name: 宇宙飞船
+      aliases: []
+      description: 允许宇宙飞行的交通工具。
+      attributes:
+        种类: 多种多样，此处为隆厥王所使用的一种。
+    relationships:
+    - 主体: 罗峰
+      关系类型: 被赠送者
+      宾语: 隆厥王
+    events:
+    - id: 获取世界戒指
+      type: Item获得
+      description: 罗峰通过虚拟宇宙宝库购买了一枚超大型的世界戒指。
+      attributes:
+        时间: 第三天开始准备之后
+        地点: 毋窿星域储藏区附近
+        物品名称: 超大型世界戒指
+    - id: 收集虫族尸体
+      type: 实体收集
+      description: 罗峰委托白袍人搜集的虫族尸体已经送回。
+      attributes:
+        时间: 第四天
+        地点: 毋窿星域储藏区附近
+        物品名称: 虫族尸体
+    dialogues:
+    - 主体: 隆厥王
+      宾语: 罗峰
+      内容: 罗峰殿下，确定你所在位置是在毋窿星域，马上会有人送到。
+      attributes:
+        时间: 第三天之后
+        地点: 毋窿星域储藏区附近
+    - 主体: 隆厥王
+      宾语: 罗峰
+      内容: 现在虫族尸体到手，你是否准备在垃圾山淘宝？
+      attributes:
+        时间: 第四天返回之后
+        地点: 毋窿星域储藏区附近
+    - 主体: 罗峰
+      宾语: 隆厥王
+      内容: 现在虫族尸体到手，你是否准备在垃圾山淘宝？
+      attributes:
+        时间: 第四天返回之后
+        地点: 毋窿星域储藏区附近
+    - 主体: 罗峰
+      宾语: 白袍人
+      内容: 殿下，这毋窿星域处处都有垃圾山，不知道殿下从哪里开始寻宝？
+      attributes:
+        时间: 第四天之后
+        地点: 毋窿星域储藏区附近
+    timeline:
+    - id: 刺杀事件后第三天
+      type: 时间节点
+      description: 罗峰委托白袍人搜集虫族尸体。
+      attributes:
+        时间: 刺杀事件发生后的第三天
+    - id: 收集虫族尸体第四天
+      type: 时间节点
+      description: 白袍人送回虫族尸体。
+      attributes:
+        时间: 第四天返回之后
+    mysteries:
+    - 内容: 罗峰在垃圾山淘宝会找到什么？
+- source: part_047_05.yaml
+  data:
+    source:
+      id: text1
+    entities:
+    - id: lujuerwang
+      type: Character
+      name: 隆厥王
+      aliases: []
+      description: 毋窿星域的管理者，负责管理垃圾山淘宝业务。
+      attributes:
+        role: 管理者
+        location: 毋窿星域
+    - id: rofe
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 虚拟宇宙公司的成员，正在寻找甲壳碎片。
+      attributes:
+        level: 域主期
+        goal: 寻找甲壳碎片以组合兵甲
+    - id: baiyaoshuren1
+      type: Character
+      name: 白袍人1
+      aliases: []
+      description: 母窿星域的引领者，负责带罗峰淘宝。
+      attributes:
+        role: 引领者
+        task: 带罗峰寻找甲壳碎片
+    - id: baiyaoshuren2
+      type: Character
+      name: 白袍人2
+      aliases: []
+      description: 母窿星域的引领者，负责带罗峰淘宝。
+      attributes:
+        role: 引领者
+        task: 带罗峰寻找甲壳碎片
+    - id: zhengtiwuzhebingjia
+      type: Item
+      name: 兵甲
+      aliases: []
+      description: 罗峰正在搜集的物品，用于组合成完整的兵甲。
+      attributes:
+        fragments: 黑色甲壳碎片132个、银色甲壳碎片7个以及碎裂刀片一个
+    - id: jingaojuwure
+      type: Species
+      name: 金角巨兽
+      aliases: []
+      description: 拥有一套兵甲的生物。
+    relationships:
+    - source_id: rofe
+      target_id: lujuerwang
+      type: 合作
+    events:
+    - id: baoliangshigong
+      name: 垃圾山淘宝任务
+      attributes:
+        duration: 一年
+        location: 母窿星域的垃圾山
+        result: 罗峰获得了132个黑色甲壳碎片、7个银色甲壳碎片以及一个碎裂刀片
+    dialogues:
+    - speaker_id: lujuerwang
+      listener_id: rofe
+      content: 垃圾山淘宝，也就一个乐子，可别在这上面耗费太多时间。
+    timeline:
+    - event_id: baoliangshigong
+      time: 一年
+    mysteries:
+    - question: 罗峰接下来是否还会继续在垃圾山寻找甲壳碎片？
+      answer: []

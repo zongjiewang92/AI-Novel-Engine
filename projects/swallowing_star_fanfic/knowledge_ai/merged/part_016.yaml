@@ -1,0 +1,321 @@
+part: part_016
+generated_time: '2026-07-23T15:46:33.879946'
+count: 5
+items:
+- source: part_016_01.yaml
+  data:
+    source:
+      id: source_230
+    entities:
+    - id: entity_rofei
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '身穿黑色休闲衫的年轻人，精神念师。与永晴有亲戚关系。
+
+        '
+      attributes:
+        实力: 高等战神级别
+        性格: 冷静、自信
+    - id: entity_wangxingan
+      type: Character
+      name: 王兴安
+      aliases: []
+      description: '京都市王家的人，家族第一继承人候选人。掌控着家族经济大权。
+
+        '
+      attributes:
+        实力: 未明确
+        性格: 霸道、嚣张
+    - id: entity_yongqing
+      type: Character
+      name: 永晴
+      aliases: []
+      description: '王兴安的追求者，罗峰的亲戚。
+
+        '
+      attributes:
+        实力: 未明确
+        性格: 软弱、依赖
+    relationships:
+    - id: relationship_rofei_yongqing
+      type: Relationship
+      name: 表亲关系
+      description: 罗峰和永晴是表亲。
+    events:
+    - id: event_meeting_in_hospital
+      type: Event
+      name: 医院会面
+      description: '在医院内，罗峰阻止了王兴安对永晴的欺凌，并展示了他与多个重要人物联系的能力。
+
+        '
+      timeline: 现在
+    dialogues:
+    - id: dialogue_rofei_wangxingan
+      type: Dialogue
+      content: '"你在我眼里，就是个蝼蚁。"
+
+        "啪！啪！"
+
+        "我很不喜欢，有人在我面前装逼。"
+
+        '
+    mysteries:
+    - id: mystery_unknown_background
+      type: Mystery
+      description: '罗峰的具体背景和实力来源仍不明。
+
+        '
+- source: part_016_02.yaml
+  data:
+    source:
+      id: 罗峰的特殊能力
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 行星级一阶精神念师，学徒九阶巅峰武者。
+      attributes:
+        实力: 强大
+        能力: 具备特殊能力金刚身
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的老师，陨墨一脉传承者。
+      attributes:
+        实力: 强大
+        能力: 教授秘法
+    - id: 《魂印》
+      type: Item
+      name: 《魂印》
+      aliases: []
+      description: 控制奴仆的独门秘法书籍。
+    - id: 《虚空之塔》
+      type: Item
+      name: 《虚空之塔》
+      aliases: []
+      description: 灵魂防御绝顶秘法书籍。
+    relationships:
+    - 主体: 罗峰
+      关系类型: 学习
+      对象: 巴巴塔
+    events:
+    - 名称: 融合行星级武者
+      描述: 罗峰在巴巴塔的指导下，融合行星级武者。
+      时间线: 在虚拟空间修炼室中进行。
+    dialogues:
+    - 主体: 巴巴塔
+      内容: 这可是我陨墨一脉独门秘法，绝对不外传的。
+      相关人物: 罗峰
+    - 主体: 巴巴塔
+      内容: 教会徒弟饿死师傅，自己这老师活着的时候，或许难得才传授一个秘法，可自知必死后，当然是将全部秘法都留下。
+      相关人物: 罗峰
+    timeline:
+    - 时间点1: 融合行星级武者的开始
+      描述: 罗峰在虚拟空间的修炼室中，身体变得模糊消失。
+    - 时间点2: 意识刺痛
+      描述: 罗峰感到意识一阵刺痛，即将突破到新的层次。
+    mysteries:
+    - 内容: 罗峰的特殊能力是什么？
+- source: part_016_03.yaml
+  data:
+    source:
+      id: 236
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 武者和念师，现在同时达到行星级三阶。实力强大。
+      attributes:
+        实力等级: 行星级三阶
+        身份: 陨墨星传人
+    - id: 徐欣
+      type: Character
+      name: 徐欣
+      aliases: []
+      description: 罗峰的女友，现在自己创业并尝试烹饪。
+      attributes:
+        实力等级: 普通人类
+        身份: 创业者
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的智能生命体，给予罗峰指导和建议。
+      attributes:
+        实力等级: 高级人工智能
+        身份: 导师
+    - id: 扬州城
+      type: Location
+      name: 扬州城
+      aliases: []
+      description: 徐欣创业地点。
+    relationships:
+    - 主体: 罗峰
+      对象: 徐欣
+      关系类型: 女友
+    - 主体: 巴巴塔
+      对象: 罗峰
+      关系类型: 导师
+    events:
+    - id: 炼功
+      type: Event
+      name: 练功
+      description: 罗峰在重力室内锻炼，达到行星级三阶。
+      timeline:
+        时间点: 2060年1月12号上午
+    - id: 徐欣做饭
+      type: Event
+      name: 徐欣第一次尝试做菜
+      description: 徐欣为罗峰准备饭菜。
+      timeline:
+        时间点: 2060年1月12号中午
+    dialogues:
+    - 主体: 罗峰
+      对象: 巴巴塔
+      内容: 念力修炼果真比武者修炼难啊，今天才跨入行星级三阶。
+      情境: 在重力室内锻炼后
+    - 主体: 徐欣
+      对象: 罗峰
+      内容: 我刚刚买了菜...这是我第一次做菜啊。
+      情境: 菜买回来，准备做饭
+    - 主体: 罗峰
+      对象: 徐欣
+      内容: 就算再难吃，我也得吃下去，还得做出兴奋表情，夸赞她！
+      情境: 准备品尝徐欣做的饭菜前的内心独白
+    timeline:
+    - 时间点: 2060年1月12号上午
+      描述: 罗峰在重力室内锻炼达到行星级三阶念力
+    mysteries:
+    - 徐欣做的菜是否真的难吃，但从罗峰的反应来看，似乎并不如预期中的糟糕。
+- source: part_016_04.yaml
+  data:
+    source:
+      id: 罗峰的宇宙
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 行星级三阶精神念师，来自地球上一个基地市的高中生。
+      attributes:
+        实力: 行星级三阶精神念师
+        性格: 坚毅果敢
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的智能机器人，拥有超凡智慧。
+      attributes:
+        职能: 提供信息与建议
+    - id: 吞噬兽
+      type: Species
+      name: 吞噬兽
+      aliases: 金角巨兽, 星空巨兽
+      description: 属于星空巨兽中的一种，拥有极高血统和凶残暴虐的特点。
+      attributes:
+        等级: 界主级
+    - id: 地球人类
+      type: Civilization
+      name: 地球人类
+      aliases: []
+      description: 生活在地球上的所有人类。
+    relationships:
+    - 主体: 罗峰
+      关系类型: 拥有
+      客体: 巴巴塔
+    events:
+    - 名称: 吞噬兽袭击地球
+      时间线: 近期
+      描述: 太空中出现的神秘怪兽开始在地球上进行杀戮。
+    dialogues:
+    - 主体: 罗峰
+      对象: 巴巴塔
+      内容: 巴巴塔，金角巨兽一定得死！
+    - 主体: 巴巴塔
+      对象: 罗峰
+      内容: 你发烧了么？想杀恒星级金角巨兽简直就是在做梦。
+    timeline:
+    - 时间点: 近期
+      描述: 吞噬兽开始袭击地球
+    mysteries:
+    - 描述: 地球人类如何应对这头强大的怪兽？
+- source: part_016_05.yaml
+  data:
+    source:
+      id: 第242章
+    entities:
+    - id: 智能战机
+      type: Item
+      name: 智能战机
+      aliases: []
+      description: '罗峰的飞行工具，可以迅速抵达12号遗迹。
+
+        '
+      attributes:
+        最快速度: 8000米每秒
+    - id: 重力室
+      type: Item
+      name: 重力室
+      aliases: []
+      description: '家中安全设施之一，在紧急情况下提供避难场所，材料非常坚固。
+
+        '
+      attributes:
+        安全性: 非常高
+    relationships: null
+    dialogues:
+    - id: 罗峰-巴巴塔
+      type: Dialogue
+      name: 罗峰与巴巴塔对话
+      description: '"设定重力室给我爸妈、弟弟、甄楠、徐欣五人权限。"
+
+        "已经搞定。"
+
+        '
+      attributes:
+        时间: 夜晚
+    - id: 罗峰-洪
+      type: Dialogue
+      name: 罗峰与馆主洪的对话
+      description: '"按照氢弹攻击计划，洪荒级智能战机攻击之前，会安排其他的‘极限型号’战机携带原子弹，进行攻击！以混淆视听。"
+
+        "嗯？"
+
+        '
+      attributes:
+        时间: 夜晚
+    events:
+    - id: 罗峰前往12号遗迹
+      type: Event
+      name: 罗峰会见巴巴塔并前往12号遗迹
+      description: '罗峰离开家，准备前往12号遗迹获取武器。
+
+        '
+      attributes:
+        时间: 夜晚
+    - id: 氢弹攻击计划执行
+      type: Event
+      name: 执行氢弹攻击计划
+      description: '根据贾谊的描述，在吞噬兽进入苏俄国境内后，将实施氢弹攻击尝试消灭它。
+
+        '
+      attributes:
+        时间: 夜晚
+    timeline:
+    - id: 现在-今夜
+      type: Time
+      name: 当前时间至今晚
+      description: '时间非常紧迫，罗峰需要立即行动前往12号遗迹。
+
+        '
+    mysteries:
+    - id: 吞噬兽的动机
+      type: Mystery
+      name: 吞噬兽为何如此快速地摧毁战争基地？
+      description: '为什么吞噬兽要在极短时间内毁掉地球上所有的战争基地，这背后的原因是什么？
+
+        '

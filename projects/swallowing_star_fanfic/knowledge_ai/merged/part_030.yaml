@@ -1,0 +1,351 @@
+part: part_030
+generated_time: '2026-07-23T15:46:34.071841'
+count: 5
+items:
+- source: part_030_01.yaml
+  data:
+    source:
+      id: 第437章五年沉寂，一朝爆发（有月票么）
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases:
+      - 疯子
+      description: 生命之剑逸锋后唯一还在试炼空间中的参赛者。
+      attributes:
+        实力: 强大, 能够进入第五座试炼塔第六层
+    - id: 坎迪塔
+      type: Character
+      name: 坎迪塔
+      aliases:
+      - 血锋
+      description: 被踢出试炼空间的参赛者。
+      attributes:
+        实力: 强大, 战胜过机械傀儡
+    - id: 逸锋
+      type: Character
+      name: 逸锋
+      aliases:
+      - 生命之剑
+      description: 生命之剑，腼腆少年，能够进入第五座试炼塔第五层。
+      attributes:
+        实力: 强大, 战胜过机械傀儡
+    relationships: null
+    events:
+    - id: 第五座试炼塔第六层的战斗
+      type: Event
+      description: 罗峰面对十头星空巨兽‘苍’，开始进行第五座试炼塔第六层的挑战。
+      participants:
+      - 罗峰
+    - id: 坎迪塔与机械傀儡的战斗失败
+      type: Event
+      description: ’血锋‘坎迪塔在第五座试炼塔第五层中被100头高大的机械傀儡击败，最终排名第28。
+      participants:
+      - 坎迪塔
+    - id: 生命之剑逸锋的战斗失败
+      type: Event
+      description: ’生命之剑‘逸锋在第五座试炼塔第六层中被星空巨兽‘苍’击败，止步于第六层，排名第16。
+      participants:
+      - 逸锋
+    dialogues: null
+    timeline:
+    - 时间点: 进入第五座试炼塔第六层
+      描述: 罗峰面对十头星空巨兽‘苍’
+    mysteries:
+    - 星空巨兽‘苍’与金角巨兽的关系尚未完全揭晓，仅提到两者有特殊关系。
+- source: part_030_02.yaml
+  data:
+    source:
+      id: 网络小说《星辰与黑暗》节选
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: 黑龙山帝国出身的天才，目前宇宙总排名第三。
+      attributes:
+        实力: 宇宙级强者
+        身份: 银河系领主
+    - id: 帝皇
+      type: Character
+      name: 洪（黑龙山帝国帝皇）
+      aliases: []
+      description: 黑龙山帝国的最高统治者。
+      attributes:
+        实力: 不详
+    - id: 布罗林
+      type: Character
+      name: 布罗林
+      aliases: []
+      description: 黑龙山帝国九皇子，试图对罗峰不利。
+      attributes:
+        关系: 对立
+        实力: 不详
+    - id: 洪
+      type: Character
+      name: 洪（青年）
+      aliases: []
+      description: 生活在原始星球的黑衣青年，是时光界主洛的朋友。
+      attributes:
+        实力: 宇宙级强者
+    - id: 洛
+      type: Character
+      name: 洛（时光界主）
+      aliases: []
+      description: 训练罗峰、雷神等人的宇宙强者。
+      attributes:
+        身份: 界主
+    - id: 雷神
+      type: Character
+      name: 雷神
+      aliases: []
+      description: 按照雾大人的训练计划不断进步的宇宙级强者。
+      attributes:
+        实力: 宇宙级强者
+    - id: 戎钧
+      type: Character
+      name: 戎钧
+      aliases: []
+      description: 罗峰的朋友，同为鳞甲战袍巨人训话对象之一。
+      attributes:
+        关系: 友好
+    locations:
+    - id: 黑龙山帝国
+      type: Organization
+      name: 黑龙山帝国
+      aliases: []
+      description: 罗峰的出生地，一个不值得一提的小星域。
+    - id: 银河星系
+      type: Location
+      name: 银河星系
+      aliases:
+      - 银河系
+      description: 被黑龙山帝国帝皇赠予罗峰作为领地。
+    organizations:
+    - id: 黑龙山帝国皇室
+      type: Organization
+      name: 黄龙山帝国皇室
+      aliases: []
+      description: 黑龙山帝国的统治高层。
+    abilities:
+    - id: 宇宙级强者
+      type: Ability
+      name: 宇宙级强者
+      attributes:
+        描述: 在虚拟宇宙公司中排名前20的存在。
+    events:
+    - id: 银河系领地授予仪式
+      type: Event
+      description: 黑龙山帝国帝皇公开宣布将银河星系赠予罗峰作为领地。
+    dialogues:
+    - content: 罗峰，是我黑龙山帝国的英雄。
+      speaker: 洪（黑龙山帝国帝皇）
+      listener: 罗峰
+    timeline:
+    - 时间点: 黑龙山帝国公开授予仪式
+      描述: 帝王宣布将银河系赠予罗峰作为领地。
+    mysteries:
+    - 内容: 罗峰在宇宙中的真实排名和影响未知。
+- source: part_030_03.yaml
+  data:
+    source:
+      id: 文本出处
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases:
+      - 疯子
+      description: 来自乾巫宇宙国黑龙山帝国，试炼排名第三。以冷静下的疯狂出名。
+      attributes:
+        实力: 恒星级
+        特点: 极度冷静且狂热战斗
+    - id: 乌特维斯克
+      type: Character
+      name: 乌特维斯克
+      aliases:
+      - 狂风
+      description: 使用五阶原力兵器“虚影剑”，以出剑迅速、难以抵挡著称。试炼排名113。
+      attributes:
+        实力: 恒星级
+    - id: 虚拟宇宙公司
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: 开辟了多个宇宙国，并培养天才，拥有原始秘境、太初秘境等。
+      attributes: null
+    - id: 巴巴塔
+      type: Character
+      name: 巴巴塔
+      aliases: []
+      description: 罗峰的虚拟分身助手，提供指导和信息。
+      attributes: null
+    - id: 死神伯兰
+      type: Character
+      name: 死神伯兰
+      aliases:
+      - 原始秘境成员
+      description: 史上数千万年仅有的一名天才，在恒星级时便感悟到空间本源法则。
+      attributes:
+        实力: 恒星级
+    relationships: null
+    events:
+    - id: 决斗
+      type: Event
+      name: 罗峰与乌特维斯克的对决
+      description: 中央广场上，罗峰和100名恒星级天才中的乌特维斯克进行比赛。
+      timeline: 昨日之后
+    dialogues:
+    - speaker: 巴巴塔
+      content: 你乾巫国主相比，却根本不是一个层次的！
+    - speaker: 巴巴塔
+      content: 要享受最顶尖的资源，就得不断努力。因为在后面，有大量的绝顶天才在盯着你的位置，一旦你松懈，就可能被别人赶下去。
+    timeline: null
+    mysteries: null
+- source: part_030_04.yaml
+  data:
+    source:
+      id: text
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '来自乾巫宇宙国的天才，擅长精神念师掌控者，拥有暗云梭和衍神兵。
+
+        '
+      attributes:
+        实力: 强大不朽
+        特点: 身体精瘦、灵活运用多种秘法
+    - id: 陇云
+      type: Character
+      name: 陇云
+      aliases: []
+      description: '来自澜霆宇宙国，低调且实力强大的天才。擅长使用巨斧战斗。
+
+        '
+      attributes:
+        实力: 强大不朽
+        特点: 厚重战衣、牛角战盔、土之本源法则
+    - id: 戎钧
+      type: Character
+      name: 戎钧
+      aliases: []
+      description: '来自乾巫宇宙国的野人青年，创造秘法并擅长使用刀法。
+
+        '
+      attributes:
+        实力: 强大不朽
+        特点: 自创秘法、土和空间本源法则
+    - id: 伯兰
+      type: Character
+      name: 死神伯兰
+      aliases: []
+      description: '参与战斗的强者，实力强大。
+
+        '
+      attributes:
+        实力: 强大不朽
+        特点: 风和空间本源法则
+    - id: 中央广场
+      type: Location
+      name: 中央广场
+      aliases: []
+      description: '宇宙人类族群举行巅峰天才战的地方，拥有五座精美奢华的擂台。
+
+        '
+    relationships:
+    - entity1_id: 罗峰
+      entity2_id: 陇云
+      type: 对手
+    events:
+    - id: 巅峰对决开始
+      type: Event
+      description: '十名强大不朽青年在中央广场展开对决，其中一场是罗峰对战陇云。
+
+        '
+      timeline: 半个小时后
+    dialogues:
+    - speaker_id: 戎钧
+      listener_ids:
+      - 罗峰
+      content: '“小心陇云。”据我观察和之前搜集资料得知，陇云只感悟一种本源法则，土之本源法则，防御极强。
+
+        '
+      type: 原力传音
+    - speaker_id: 罗峰
+      listener_ids:
+      - 戎钧
+      content: '“谢了。”
+
+        '
+      type: 原力传音
+    mysteries:
+    - id: 陇云的实力来源
+      description: '陇云仅凭土之本源法则就能冲击前十，这显示他对这一领域的深度感悟。
+
+        '
+- source: part_030_05.yaml
+  data:
+    source:
+      id: 第448章雨相山距离
+    entities:
+    - id: 罗峰
+      type: Character
+      name: 罗峰
+      aliases: []
+      description: '天才战的参与者，来自乾巫宇宙国、黑龙山星域、银河系、白兰星。
+
+        '
+      attributes:
+        实力: 强大不朽
+    - id: 马纳
+      type: Character
+      name: 马纳
+      aliases: []
+      description: '虚拟宇宙公司的工作人员，负责安排飞船接天才战的参与者前往全宇宙总部。
+
+        '
+      attributes:
+        实力: 不详
+        职位: 工作人员
+    - id: 虚拟宇宙公司
+      type: Organization
+      name: 虚拟宇宙公司
+      aliases: []
+      description: '安排最优等的F级宇宙飞船接天才战参与者前往全宇宙总部。
+
+        '
+      attributes:
+        科技含量: 非常高
+    - id: 乾巫拍卖会
+      type: Event
+      name: 乾巫拍卖会
+      aliases: []
+      description: '罗峰参加过的两次大型拍卖会。
+
+        '
+    relationships:
+    - 主体: 罗峰
+      关系类型: 参与者
+      客体: 天才战
+    - 主体: 马纳
+      关系类型: 负责
+      客体: 接天才战参与者前往全宇宙总部的安排工作
+    dialogues:
+    - 发言人: 罗峰
+      对话内容: 乾巫宇宙国、黑龙山星域、银河系、白兰星。
+      上下文描述: 写自己的星球地址。
+    - 发言人: 马纳
+      对话内容: '“请大家暂时别走，关于接大家去我虚拟宇宙公司全宇宙总部，还有一些事和大家商谈。” "自我介绍一下，我叫马纳。" "因为旅途贯穿很多宇宙国，非常遥远，而民间的宇宙飞船在‘暗宇宙’中速度又慢，想要抵达我公司全宇宙总部，要很久很久。为了节省大家时间，自然是我们虚拟宇宙公司专门安排最优等的宇宙飞船去接！"
+        "这次在座的1000位，距离我们虚拟宇宙公司全宇宙总部，最远的一位，距离大概是在15亿光年。暗宇宙中和原宇宙距离比是1:1008.1万倍，就算1倍光速在暗宇宙中前进，也需要约150年才能抵达。"
+        "如果大家要自己乘坐飞船。1，速度慢，需要时间太久。2，超长旅途的飞行，飞船消耗的能量非常惊人。3，也是最重要的一点，就是暗宇宙飞行，在一些特殊地带也不安全，会有宇宙星盗乃至出现其他族群的劫掠。在座的各位，安全很重要。现在民间的宇宙飞船，在暗宇宙中优秀者速度也就数倍光速，超长距离飞行依旧要很久很久。"
+        "我虚拟宇宙公司，给各位安排的一律是F级宇宙飞船。而且并非是轻易能够购买到的F级飞船，而是……我虚拟宇宙公司内部的特殊型号F级飞船，内部科技含量远朝各个宇宙国的F级飞船。"
+
+        '
+    timeline:
+    - 时间点: 天才战结束
+      事件描述: 马纳开始介绍如何接天才战参与者前往全宇宙总部。
+    mysteries:
+    - 描述: 如何在三年内跨越15亿光年的距离，达到令人难以置信的飞行速度。
