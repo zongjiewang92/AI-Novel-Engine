@@ -161,10 +161,7 @@ def extract_knowledge(source_id, text):
 
 你的任务：
 抽取其中的  
-时间线，时间节点，时间信息
-时间线，时间节点，时间信息
-时间线，时间节点，时间信息
-时间线，时间节点，时间信息
+人物，角色
 
 
 目标：
@@ -183,21 +180,23 @@ def extract_knowledge(source_id, text):
 禁止输出一下字符:
 ```yaml
 ```
+禁止输出你的思考以及建议。
 
 
 【输出要求】
 输出 YAML 格式的数据。 重要，重要，重要。
 仅仅输出 YAML 格式的数据。 重要，重要，重要。
 要求出的的内容 必须能装换为 YAML 数据格式
+输出纯 yaml 数据，输出的数据 不能包含 
 
 
-- time: xxxxx
+----id 后面输出name的拼音
+- id: xxx  
+  name: xx
+  aliases: []
   event: xxxxx
-  description: 'xxxx'
-- time: xxxxx
-  event: xxxxx
-  description: 'xxxx'
-
+  description: xxxxxx
+  skill: []
 ================================================
 """
     return chat(prompt)

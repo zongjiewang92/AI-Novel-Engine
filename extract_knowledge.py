@@ -24,7 +24,7 @@ class KnowledgeExtractionManager:
 
         self.original_dir = self.root / "original_novel" / "split_detail"
 
-        self.output_dir = self.root / "knowledge_ai" / "raw_timeline"
+        self.output_dir = self.root / "knowledge_ai" / "raw_chars"
 
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -169,8 +169,8 @@ def main():
         project_name=PROJECT_NAME,
         # 第一阶段测试
         # 后面改成 1-100
-        part_start=50,
-        part_end=51,
+        part_start=1,
+        part_end=100,
     )
 
     manager.run()

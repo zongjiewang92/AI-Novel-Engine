@@ -1,84 +1,231 @@
-id: universe_structure
+world_structure:
+  version: 1
+  description:
+    name: 吞噬星空浑源宇宙空间体系
+    note:
+      - 基于吞噬星空宇宙结构
+      - 融合浑源体系扩展
+  scale_hierarchy:
+    # ------------------------
+    # 微观生命区域
+    # ------------------------
+    - level: 0
+      name: 微观世界
+      size:
+        range: 纳米级以下到微观尺度
+      contains:
+        - cells
+        - atoms
+        - molecules
+    - level: 1
+      name: 生命个体
+      size:
+        range:
+          meter级
+      contains:
+        - human
+        - beast
+        - special_life
+    # ------------------------
+    # 星球级
+    # ------------------------
+    - level: 2
+      name: 星球
+      size:
+        diameter:
+          range: 1000km-100000km
+      types:
+        - barren_planet
+        - life_planet
+        - cultivation_planet
+    - level: 3
+      name: 生命星球
+      description:
+        - 可以自然孕育生命
+        - 拥有生态系统
+      examples:
+        - earth
+    # ------------------------
+    # 恒星体系
+    # ------------------------
+    - level: 4
+      name: 恒星
+      examples:
+        - sun
+    - level: 5
+      name: 恒星系统
+      contains:
+        - star
+        - planets
+        - satellites
+      example:
+        name: 太阳系
+    # ------------------------
+    # 星系
+    # ------------------------
+    - level: 6
+      name: 星系
+      size:
+        range:
+          thousands_to_hundreds_of_thousands_light_years
+      contains:
+        - billions_of_stars
+        - planets
+      examples:
+        - milky_way
+    # ------------------------
+    # 星域
+    # ------------------------
+    - level: 7
+      name: 星域
+      description:
+        - 多个星系组成
+    # ------------------------
+    # 宇宙国
+    # ------------------------
+    - level: 8
+      name: 初等宇宙国
+      contains:
+        - multiple_star_regions
+    - level: 9
+      name: 中等宇宙国
+    - level: 10
+      name: 高等宇宙国
+      description:
+        - 人类族群早期主要文明区域
+    # ------------------------
+    # 大陆世界
+    # ------------------------
+    - level: 11
+      name: 大型大陆世界
+      size:
+        range:
+          hundred_light_years
+          to
+          billion_light_years
+      contains:
+        - cities
+        - kingdoms
+        - civilizations
+    # ------------------------
+    # 秘境
+    # ------------------------
+    - level: 12
+      name: 秘境空间
+      size:
+        range:
+          hundred_light_years
+          to
+          billion_light_years
+      features:
+        - special_environment
+        - natural_treasure
+        - unique_life
+    # ------------------------
+    # 神国
+    # ------------------------
+    - level: 13
+      name: 神国
+      description: "位于原始宇宙空间夹层，融合空间夹层的空间碎片创建的。根据不同的实力，创建的神国处于不同层级的空间夹层。"
+      creator:
+        realm:
+          - immortal
+      contains:
+        - divine_country_life
+        - ecosystem
+      evolution:
+        immortal:
+          divine_country
+        true_god:
+          small_universe
+    # ------------------------
+    # 空间夹层
+    # ------------------------
+    - level: 14
+      name: 原始宇宙空间夹层
+      contains:
+        - space_fragment
+        - divine_country
+        - space_storm
+      levels:
+        - outer_layer
+        - middle_layer
+        - deep_layer
 
-name: 宇宙结构
-
-description: >
-  描述整个无限浑源空间的空间层级。
-
-
-hierarchy:
-
-  - id: infinite_origin_space
-
-    name: 无限浑源空间
-
-    level: 0
-
-    description: >
-      已知最高层空间。
-
-    contains:
-
-      - origin_world
-
-      - natural_hunyuan_region
-
-      - special_regions
-
-
-
-  - id: origin_world
-
-    name: 源世界
-
-    level: 1
-
-    description: >
-      无限浑源空间中孕育出的世界。
-
-
-    examples:
-
-      - 起源初界
-
-      - 雪鹰世界
-
-      - 莽荒世界
-
-
-
-    contains:
-
-      - central_continent
-
-      - universe_sea
-
-
-
-  - id: universe_sea
-
-    name: 宇宙海
-
-    level: 2
-
-    description: >
-      围绕中心大陆存在。
-
-
-    contains:
-
-      - original_universe
-
-      - holy_universe
-
-      - small_universe
-
-      - three_forbidden_lands
-
-
-
-  - id: original_universe
-
-    name: 原始宇宙
-
-    level: 3
+    # ------------------------
+    # 原始宇宙
+    # ------------------------
+    - level: 13
+      name: 原始宇宙
+      size:
+        description:
+          - 无限接近无限大
+      contains:
+        - galaxies
+        - universe_country
+        - secret_region
+        - universe_origin
+      features:
+        - has_birth
+        - has_destruction
+        - reincarnation
+    # ------------------------
+    # 小型宇宙
+    # ------------------------
+    - level: 16
+      name: 真神小型宇宙
+      creator:
+        realm:
+          - true_god
+      size:
+        range:
+          hundred_million_light_years
+    # ------------------------
+    # 宇宙海
+    # ------------------------
+    - level: 17
+      name: 宇宙海
+      contains:
+        - primitive_universe
+        - holy_land_universe
+        - small_universe
+      special_regions:
+        - 流重山
+        - 倾峰界
+        - 宇宙舟
+    # ------------------------
+    # 圣地宇宙
+    # ------------------------
+    - level: 18
+      name: 圣地宇宙
+      examples:
+        - 东帝圣地宇宙
+        - 紫月圣地宇宙
+      feature:
+        - 永恒存在
+    # ------------------------
+    # 源世界
+    # ------------------------
+    - level: 19
+      name: 源世界
+      contains:
+        - origin_continent
+        - primitive_universes
+        - supreme_rule
+      feature:
+        - independent_world_rule
+    # ------------------------
+    # 无限浑源空间
+    # ------------------------
+    - level: 20
+      name: 无限浑源空间
+      size:
+        description:
+          - 无限
+          - 无边界
+      contains:
+        - countless_source_world
+        - natural_hunyuan_life
+        - special_region
+      highest:
+        - origin_level_existences

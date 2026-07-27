@@ -1,0 +1,17 @@
+id: volume01
+title: 地球篇
+goal: >
+  主角林玄完成复生，
+  建立主人格，
+  初步确认梦中《吞噬星空》可能是真实未来，
+  正式踏入这个世界。
+children:
+  - id: arc01
+  - id: arc02
+  - id: arc03
+  - id: arc04
+  - id: arc05
+  - id: arc06
+  - id: arc07
+  - id: arc08
+  

@@ -1,24 +1,226 @@
-id: arc01
-
-title: 远古遗迹探索
-
-volume:
-
-  volume01
-
-goal:
-
-  发现宇宙遗迹秘密
-
-start_chapter:
-
-  10
-
-end_chapter:
-
-  30
-
-plots:
-
-- plot01
-- plot02
+planning:
+  novel: 吞噬星空之浑源道主
+  volume:
+    id: volume01
+    title: 地球篇
+    goal: >
+      主角林玄完成复生，
+      建立主人格，
+      初步确认梦中《吞噬星空》可能是真实未来，
+      正式踏入这个世界。
+    children:
+      - id: arc01
+        title: 死域苏醒
+        word_count: 25000
+        stage: 第一幕
+        goal: >
+          主角完成复生，
+          建立主人格，
+          为进入荒野求生做好铺垫。
+        theme:
+          - 新生
+          - 孤独
+          - 自我
+          - 未知
+          - 修心
+        purpose:
+          - 建立主角人格
+          - 建立世界观
+          - 建立金手指悬念
+          - 埋下修心主线
+          - 埋下未来宇宙伏笔
+        protagonist_goal: >
+          搞清楚自己是谁，
+          搞清楚发生了什么。
+        reader_question:
+          - 林玄为什么会复活？
+          - 金光是什么？
+          - 金色光球到底是什么？
+          - 梦中的《吞噬星空》是真的吗？
+          - 为什么只有林玄拥有这些记忆？
+        reveal:
+          - 主角已经死亡一次
+          - 地球已经进入怪兽时代
+          - 存在三个未知金色光球
+          - 梦中的吞噬星空和现实高度一致
+        hide:
+          - 浑源生命
+          - 四滴血液
+          - 金球真正来源
+          - 四大生命权限
+          - 吞噬能力
+          - 分身能力
+        foreshadow:
+          - 阿柒
+          - 罗峰
+          - 修心体系
+          - 信息污染
+          - 无限浑源空间
+          - 金球成长
+        emotion_curve:
+          - 好奇
+          - 神秘
+          - 恐怖
+          - 压抑
+          - 希望
+        knowledge_unlock:
+          - 确认自己已经死亡过一次
+          - 确认主人格是林玄
+          - 确认梦中未来可能真实存在
+          - 确认脑海拥有三个未知金球
+        ability_unlock:
+          - 内视
+        next_arc_hook: >
+          林玄成功掌控身体，
+          决定破开血茧，
+          重新回到地面。
+        children:
+          ##################################################################
+          - id: plot01
+            title: 星空启程
+            goal: 用未来时间线制造悬念。
+            purpose:
+              - 告诉读者主角未来一定会成功
+              - 引出整部地球篇回忆
+            emotion:
+              - 震撼
+              - 向往
+            children:
+              - id: chapter0001
+                title: 十年准备
+                goal: 主角准备第一次进入宇宙。
+                children:
+                  - id: scene01
+                    goal: >
+                      飞船开始进入暗宇宙倒计时，
+                      展示未来科技。
+                  - id: scene02
+                    goal: >
+                      阿柒登场，
+                      建立俏皮话痨的人设。
+                  - id: scene03
+                    goal: >
+                      阿柒询问：
+                      "准备好了吗？"
+                  - id: scene04
+                    goal: >
+                      林玄回答：
+                      "准备了十年。"
+                  - id: scene05
+                    goal: >
+                      镜头切换，
+                      回到十年前。
+          ##################################################################
+          - id: plot02
+            title: 金光降临
+            goal: 描写复活过程。
+            children:
+              - id: chapter0002
+                title: 地下枯骨
+                children:
+                  - id: scene01
+                    goal: 描写地下尸骨。
+                  - id: scene02
+                    goal: 金光进入尸骨。
+                  - id: scene03
+                    goal: 开始吞噬生命。
+                  - id: scene04
+                    goal: 吞噬范围缓慢扩大。
+          ##################################################################
+          - id: plot03
+            title: 十年死域
+            goal: 建立神秘死域。
+            children:
+              - id: chapter0003
+                title: 死亡禁区
+                children:
+                  - id: scene01
+                    goal: 死域不断扩大。
+                  - id: scene02
+                    goal: 植物全部死亡。
+                  - id: scene03
+                    goal: 昆虫飞入化为灰烬。
+                  - id: scene04
+                    goal: 死域彻底形成。
+          ##################################################################
+          - id: plot04
+            title: 数亿次坚持
+            goal: 塑造修心。
+            children:
+              - id: chapter0004
+                title: 永恒痛苦
+                children:
+                  - id: scene01
+                    goal: 灵魂不断撕裂。
+                  - id: scene02
+                    goal: 主角不断数数。
+                  - id: scene03
+                    goal: 疼痛第一次减弱。
+                  - id: scene04
+                    goal: 陷入沉睡。
+          ##################################################################
+          - id: plot05
+            title: 我是谁
+            goal: 建立主人格。
+            children:
+              - id: chapter0005
+                title: 万千生命
+                children:
+                  - id: scene01
+                    goal: 蚯蚓记忆。
+                  - id: scene02
+                    goal: 蚊虫记忆。
+                  - id: scene03
+                    goal: 野兽记忆。
+                  - id: scene04
+                    goal: 林玄人格重新建立。
+          ##################################################################
+          - id: plot06
+            title: 梦中的未来
+            goal: 引入吞噬星空。
+            children:
+              - id: chapter0006
+                title: 一本小说
+                children:
+                  - id: scene01
+                    goal: 梦见吞噬星空。
+                  - id: scene02
+                    goal: 梦见评论区。
+                  - id: scene03
+                    goal: 怀疑未来真实性。
+          ##################################################################
+          - id: plot07
+            title: 第一次内视
+            goal: 展示未知能力。
+            children:
+              - id: chapter0007
+                title: 内视
+                children:
+                  - id: scene01
+                    goal: 观察细胞。
+                  - id: scene02
+                    goal: 观察DNA。
+                  - id: scene03
+                    goal: 发现三个金色光球。
+                  - id: scene04
+                    goal: 无法继续观察。
+          ##################################################################
+          - id: plot08
+            title: 破茧
+            goal: 第一阶段结束。
+            children:
+              - id: chapter0008
+                title: 新生
+                children:
+                  - id: scene01
+                    goal: 控制身体。
+                  - id: scene02
+                    goal: 打破血茧。
+                  - id: scene03
+                    goal: 第一次呼吸。
+                  - id: scene04
+                    goal: 第一次看见2038年的天空。
+                  - id: scene05
+                    goal: 看见没有生命的死域。
+                  - id: scene06
+                    goal: 决定前往人类世界。

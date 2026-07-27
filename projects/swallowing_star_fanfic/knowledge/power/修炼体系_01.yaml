@@ -1,0 +1,541 @@
+power_system:
+  source: '吞噬星空'
+  version: 1
+  description: "这里存储的是 不朽 之前的境界划分"
+  realms:
+    - id: 'apprentice'
+      name: '学徒'
+      levels: 9
+      description: '尚未凝聚原力核心。'
+      stages:
+        - level: 9
+          power: '数千吨'
+          speed: 'Mach 10'
+          flight: false
+          law:
+            stage: '无'
+            description: '无法则感悟'
+    - id: 'planetary'
+      name: '行星级'
+      levels: 9
+      description: '凝聚微型星球，可自由飞行。'
+      stages:
+        - level: 1
+          power: '万吨'
+          speed: '3 km/s'
+          flight: true
+          law:
+            stage: '无'
+        - level: 2
+          power: '2万吨'
+          speed: '5 km/s'
+          flight: true
+          law:
+            stage: '无'
+        - level: 3
+          power: '4万吨'
+          speed: '6 km/s'
+          flight: true
+          law:
+            stage: '无'
+        - level: 4
+          power: '8万吨'
+          speed: '7 km/s'
+          flight: true
+          law:
+            stage: '无'
+        - level: 5
+          power: '15万吨'
+          speed: '8 km/s'
+          flight: true
+          law:
+            stage: '无'
+        - level: 6
+          power: '30万吨'
+          speed: '9 km/s'
+          flight: true
+          law:
+            stage: '无'
+        - level: 7
+          power: '60万吨'
+          speed: '10 km/s'
+          flight: true
+          law:
+            stage: '无'
+        - level: 8
+          power: '100万吨'
+          speed: '11 km/s'
+          flight: true
+          law:
+            stage: '领域雏形'
+        - level: 9
+          power: '200万吨'
+          speed: '15 km/s'
+          flight: true
+          law:
+            stage: '领域入门'
+    - id: 'stellar'
+      name: '恒星级'
+      levels: 9
+      description: '体内形成恒星。'
+      stages:
+        - level: 1
+          power: '500万吨'
+          speed: '20 km/s'
+          law:
+            stage: '法则感悟'
+        - level: 2
+          power: '1000万吨'
+          speed: '30 km/s'
+          law:
+            stage: '法则入门'
+        - level: 3
+          power: '2000万吨'
+          speed: '40 km/s'
+        - level: 4
+          power: '4000万吨'
+          speed: '60 km/s'
+        - level: 5
+          power: '8000万吨'
+          speed: '80 km/s'
+        - level: 6
+          power: '1.5亿吨'
+          speed: '100 km/s'
+        - level: 7
+          power: '3亿吨'
+          speed: '150 km/s'
+        - level: 8
+          power: '6亿吨'
+          speed: '200 km/s'
+        - level: 9
+          power: '10亿吨'
+          speed: '300 km/s'
+          law:
+            stage: '法则第一层'
+    - id: 'universe'
+      name: '宇宙级'
+      levels: 9
+      stages:
+        - level: 1
+          power: '100亿吨'
+          speed: '1000 km/s'
+          law:
+            stage: '法则入门'
+        - level: 9
+          power: '20万亿吨'
+          speed: '20000 km/s'
+          law:
+            stage: '法则第一层'
+    - id: 'domain_lord'
+      name: '域主'
+      levels: 9
+      stages:
+        - level: 1
+          power: '百兆吨'
+          speed: '0.01c'
+          law:
+            stage: '领域一重'
+        - level: 9
+          power: '2京吨'
+          speed: '0.1c'
+          law:
+            stage: '法则精通'
+    - id: 'world_lord'
+      name: '界主'
+      levels: 9
+      stages:
+        - level: 1
+          power: '数十京吨'
+          speed: '0.2c'
+          law:
+            stage: '法则大量感悟'
+        - level: 9
+          power: '百京吨以上'
+          speed: '0.7c'
+          law:
+            stage: '法则承认'
+    - id: 'immortal'
+      name: '不朽神灵'
+      levels: 11
+      description: "不朽神灵阶段，生命完成神体化，拥有不死之身。战斗力主要取决于法则、神体、秘法、至宝、基因层次，而非单纯力量。\n"
+      power_unit: '界主巅峰 = 1'
+      body_height: "\"神体的高度决定了神体的体积，从而决定了神体的神力总含量，但是跟力量大小没有关系，跟持续性有关系。\" \"妖族的神体高度是人类的100倍左右\" \"妖族的神体高度是人类的10000倍左右\"\n"
+      genetic_level: "\"基因倍数，基因倍数是发挥力量的重要指标，基因倍数越高，单位爆发的力量级别更高。\" \"普通生命基因倍数最高为100倍\" \"妖族皇族基因倍数是人类的10倍左右，有的特殊的皇族可能高一点。\" \"特殊生命的基因倍数大都是超过100倍，所以才叫特殊生命。\"\n"
+      stages:
+        - id: 'warlord_low'
+          name: '军主初等'
+          power:
+            base: 10
+          speed:
+            flight: '0.8c'
+            reaction: '亚光速'
+            teleport: false
+          law:
+            stage:
+              - '完整一种下位法则'
+          body:
+            height: '3~10m'
+            divine_power: '极低'
+            immortal: true
+            recovery: '慢'
+            recovery_limit: '神体剩余10%以上可恢复'
+          genetic_level:
+            typical: '1倍'
+          skill:
+            movement:
+              - '神力飞行'
+            attack:
+              - '普通不朽秘法'
+            defense:
+              - '神体恢复'
+          items:
+            weapon:
+              - 'F级武器'
+            armor:
+              - 'F级战甲'
+            treasure: []
+        - id: 'warlord_high'
+          name: '军主高等'
+          power:
+            base: 30
+          speed:
+            flight: '0.9c'
+            reaction: '亚光速'
+            teleport: false
+          law:
+            stage:
+              - '完整一种下位法则'
+              - '空间法则初步感悟'
+          body:
+            height: '5~20m'
+            divine_power: '低'
+            immortal: true
+            recovery: '中'
+            recovery_limit: '神体剩余8%以上'
+          genetic_level:
+            typical: '1~3倍'
+          skill:
+            movement:
+              - '神力飞行'
+            attack:
+              - '普通不朽秘法'
+            defense:
+              - '神体恢复'
+          items:
+            weapon:
+              - 'F级极品武器'
+            armor:
+              - 'F级极品战甲'
+            treasure: []
+        - id: 'warlord_peak'
+          name: '軍主巅峰'
+          power:
+            base: 60
+          speed:
+            flight: '0.95c'
+            reaction: '亚光速'
+            teleport: false
+          law:
+            stage:
+              - '完整一种下位法则'
+              - '空间法则少量感悟'
+          body:
+            height: '10~30m'
+            divine_power: '中'
+            immortal: true
+            recovery: '中'
+            recovery_limit: '神体剩余5%以上'
+          genetic_level:
+            typical: '1~5倍'
+          skill:
+            movement:
+              - '神力飞行'
+            attack:
+              - '不朽秘法'
+            defense:
+              - '神体恢复'
+          items:
+            weapon:
+              - 'F级极品武器'
+            armor:
+              - 'F级极品战甲'
+            treasure:
+              - '极少拥有普通重宝'
+        - id: 'marquis_low'
+          name: '封侯初等'
+          power:
+            base: 100
+          speed:
+            flight: '0.99c'
+            reaction: '近光速'
+            teleport: true
+          law:
+            stage:
+              - '空间法则部分掌握'
+          body:
+            height: '10~30m'
+            divine_power: '中'
+            immortal: true
+            recovery: '快'
+            recovery_limit: '神体剩余3%以上'
+          genetic_level:
+            typical: '1~5倍'
+          skill:
+            movement:
+              - '瞬移'
+            attack:
+              - '封侯秘法'
+            defense:
+              - '神体恢复'
+          items:
+            weapon:
+              - 'F级极品武器'
+            armor:
+              - 'F级极品战甲'
+            treasure:
+              - '普通重宝（少数）'
+        - id: 'marquis_high'
+          name: '封侯高等'
+          power:
+            base: 200
+          speed:
+            flight: '光速'
+            reaction: '光速'
+            teleport: true
+          law:
+            stage:
+              - '空间法则较深'
+          body:
+            height: '15~40m'
+            divine_power: '高'
+            immortal: true
+            recovery: '快'
+          genetic_level:
+            typical: '1~10倍'
+          skill:
+            movement:
+              - '瞬移'
+            attack:
+              - '高等封侯秘法'
+          items:
+            weapon:
+              - '重宝'
+            armor:
+              - '重宝战甲（少数）'
+        - id: 'marquis_peak'
+          name: '封侯巅峰'
+          power:
+            base: 500
+          speed:
+            flight: '光速'
+            reaction: '光速'
+            teleport: true
+          law:
+            stage:
+              - '空间法则高深'
+          body:
+            height: '20~50m'
+            divine_power: '很高'
+            immortal: true
+            recovery: '很快'
+          genetic_level:
+            typical: '1~10倍'
+          skill:
+            movement:
+              - '瞬移'
+            attack:
+              - '封侯巅峰秘法'
+          items:
+            weapon:
+              - '普通重宝'
+            armor:
+              - '重宝'
+        - id: 'king_low'
+          name: '普通封王'
+          power:
+            base: 1000
+          speed:
+            flight: '光速'
+            reaction: '光速'
+            teleport: true
+          law:
+            stage:
+              - '空间法则高深'
+          body:
+            height: '20~80m'
+            divine_power: '极高'
+            immortal: true
+            recovery: '极快'
+          genetic_level:
+            typical: '1~15倍'
+          skill:
+            movement:
+              - '瞬移'
+            attack:
+              - '封王秘法'
+            defense:
+              - '不死之身'
+          items:
+            weapon:
+              - '重宝'
+            armor:
+              - '重宝'
+        - id: 'king_high'
+          name: '封王高等'
+          power:
+            base: 3000
+          speed:
+            flight: '光速'
+            reaction: '光速'
+            teleport: true
+          law:
+            stage:
+              - '空间法则接近圆满'
+          body:
+            height: '30~100m'
+            divine_power: '极高'
+            immortal: true
+            recovery: '极快'
+          genetic_level:
+            typical: '1~15倍'
+          skill:
+            movement:
+              - '瞬移'
+            attack:
+              - '高等封王秘法'
+          items:
+            weapon:
+              - '重宝'
+            armor:
+              - '重宝'
+            treasure:
+              - '顶级重宝（少数）'
+        - id: 'king_peak'
+          name: '封王巅峰'
+          power:
+            base: 7000
+          speed:
+            flight: '光速'
+            reaction: '光速'
+            teleport: true
+          law:
+            stage:
+              - '空间法则极深'
+          body:
+            height: '30~150m'
+            divine_power: '极高'
+            immortal: true
+            recovery: '极快'
+          genetic_level:
+            typical: '1~15倍'
+          skill:
+            movement:
+              - '瞬移'
+            attack:
+              - '封王巅峰秘法'
+          items:
+            weapon:
+              - '顶级重宝'
+            armor:
+              - '顶级重宝'
+        - id: 'king_limit'
+          name: '封王极限'
+          power:
+            base: 10000
+          speed:
+            flight: '光速'
+            reaction: '光速'
+            teleport: true
+          law:
+            stage:
+              - '空间法则无限接近圆满'
+          body:
+            height: '50~300m'
+            divine_power: '极其庞大'
+            immortal: true
+            recovery: '极快'
+          genetic_level:
+            typical: '1~20倍'
+          skill:
+            movement:
+              - '瞬移'
+            attack:
+              - '宇宙尊者级秘法雏形'
+          items:
+            weapon:
+              - '顶级重宝'
+            armor:
+              - '顶级重宝'
+        - id: 'king_invincible'
+          name: '封王无敌'
+          power:
+            base: 15000
+          speed:
+            flight: '光速'
+            reaction: '光速'
+            teleport: true
+          law:
+            stage:
+              - '空间法则距离圆满一步之遥'
+          body:
+            height: '50~1000m'
+            divine_power: '恐怖'
+            immortal: true
+            recovery: '极快'
+            recovery_limit: '仅剩极少神体仍可恢复'
+          genetic_level:
+            typical: '100倍以上（特殊生命更高）'
+          skill:
+            movement:
+              - '瞬移'
+            attack:
+              - '尊者级秘法雏形'
+              - '灵魂攻击（部分种族）'
+            defense:
+              - '极强神体恢复'
+          items:
+            weapon:
+              - '顶级重宝'
+            armor:
+              - '顶级重宝'
+            treasure:
+              - '少数拥有普通至宝'
+          notes:
+            - '尊者以下最强战力'
+            - '可短时间抗衡普通宇宙尊者'
+            - '大多拥有封王无敌称号'
+    - id: 'universe_venerable'
+      name: '宇宙尊者'
+      stages:
+        - name: '普通宇宙尊者'
+          power: '毁灭恒星系'
+          speed: '瞬移'
+          law:
+            stage: '完整空间法则'
+        - name: '高等宇宙尊者'
+          power: '毁灭多个恒星系'
+          speed: '瞬移'
+          law:
+            stage: '空间法则圆满'
+        - name: '宇宙霸主'
+          power: '毁灭星域'
+          speed: '瞬移'
+          law:
+            stage: '接近宇宙之主'
+        - name: '顶尖宇宙霸主'
+          power: '毁灭星域'
+          speed: '瞬移'
+          law:
+            stage: '接近宇宙之主一阶二阶水平'
+    - id: 'universe_master'
+      name: '宇宙之主'
+      stages:
+        - level: 1
+          title: '一阶宇宙之主'
+          power: '毁灭星域'
+          speed: '无限瞬移'
+          law:
+            stage: '掌控时空'
+            requirement:
+              - '完整空间法则'
+              - '完整时间法则'
