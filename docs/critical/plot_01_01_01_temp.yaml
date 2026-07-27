@@ -1,0 +1,178 @@
+id: plot_01_01_01
+title: xxx
+goal:
+- xxxxxxxxxxxxxxxxxxx
+theme:
+- xx
+- xx
+- xx
+- xx
+- xx
+purpose:
+- xxxxx
+- xxxxx
+- xxxxx
+
+opening_hook:
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+
+protagonist_state:
+  physical_state:
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  mental_state:
+  - xxxxx
+  - xxxxx
+  - xxxxx
+key_scene:
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+climax:
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+
+knowledge_unlock:
+- xxxxx
+- xxxxx
+- xxxxx
+ability_unlock:
+- xxxxx
+- xxxxx
+emotion_curve:
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+reader_question:
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+foreshadow:
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+reader_emotion:
+- xxxxx
+- xxxxx
+- xxxxx
+- xxxxx
+
+children:
+# =====================================================
+# Scene xxxx
+# xxxxxxx
+# =====================================================
+- id: scene_01
+  title: xxxxx
+  goal:
+  - xxxxxxxxxxxxxxxxxxx
+  - xxxxxxxxxxxxxxxxxxx
+  location:
+  - xxxxxx
+  - xxxxxx
+  - xxxxxx
+  characters:
+  - xxxxxx
+  - xxxxxx
+  - xxxxxx
+  events:
+  - xxxxxx
+  - xxxxxx
+  - xxxxxx
+  - xxxxxx
+  atmosphere:
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  key_scene:
+  - xxxxxx
+  dialogue:
+  - xxxxxx
+  - xxxxxx
+  emotional_focus:
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  mystery:
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  ending:
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+# =====================================================
+# Scene 02
+# xxx
+# =====================================================
+- id: scene_02
+  title: xxxxx
+  goal:
+  - xxxxxxxxxxxxxxxxxxx
+  - xxxxxxxxxxxxxxxxxxx
+  location:
+  - xxxxxx
+  - xxxxxx
+  - xxxxxx
+  characters:
+  - xxxxxx
+  - xxxxxx
+  - xxxxxx
+  events:
+  - xxxxxx
+  - xxxxxx
+  - xxxxxx
+  - xxxxxx
+  atmosphere:
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  key_scene:
+  - xxxxxx
+  dialogue:
+  - xxxxxx
+  - xxxxxx
+  emotional_focus:
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  mystery:
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  ending:
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
+  - xxxxx
