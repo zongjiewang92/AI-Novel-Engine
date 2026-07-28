@@ -66,13 +66,12 @@ class ProjectContext:
 
         self.current_plan = self.planning_manager.load_current_plan(self.target)
 
-        # 附近plot
+        # # 附近plot
+        # self.related_plots = self.planning_manager.load_related_plots(
+        #     self.target, limit=3
+        # )
 
-        self.related_plots = self.planning_manager.load_related_plots(
-            self.target, limit=3
-        )
-
-        self.volume_path = self.planning_manager.volume_path(self.target)
+        # self.volume_path = self.planning_manager.volume_path(self.target)
 
         # =================================
         # Memory
