@@ -115,3 +115,115 @@ class PlanningManager:
             "current_plot": current_plot,
             "after_plots": after_plots,
         }
+    # ==================================================
+    # Status Check
+    # ==================================================
+
+    def is_plot_finished(self, target):
+        """
+        判断当前 plot 是否完成
+
+        根据：
+        current_plot.yaml
+        中的 status 或 end_chapter 判断
+
+        """
+
+        plot = self.load_current_plan(target).get(
+            "current_plot",
+            {}
+        )
+
+
+        # 方式1:
+        # plot:
+        #   status: finished
+
+        if plot.get("status") == "finished":
+            return True
+
+
+        # 方式2:
+        # plot:
+        #   completed: true
+
+        if plot.get("completed") is True:
+            return True
+
+
+        return False
+
+
+
+    def is_arc_finished(self, target):
+        """
+        判断当前 Arc 是否完成
+
+        当前 plot 是否是 arc 下最后一个 plot
+        """
+
+        plots = self.load_plots(target)
+
+
+        if not plots:
+            return False
+
+
+        current_id = target["plot"]
+
+
+        plot_ids = [
+            x["id"]
+            for x in plots
+        ]
+
+
+        if current_id not in plot_ids:
+            return False
+
+
+        current_index = plot_ids.index(current_id)
+
+
+        # 最后一个 plot
+        return current_index == len(plot_ids) - 1
+
+
+
+    def is_volume_finished(self, target):
+        """
+        判断 Volume 是否完成
+
+        当前 arc 是否是 volume 最后一个 arc
+        """
+
+        volume = self.load_volume(target)
+
+
+        # volume.yaml
+
+        # 示例:
+        #
+        # volume:
+        #   arcs:
+        #     - arc_01
+        #     - arc_02
+
+
+        volume_data = volume.get(
+            "volume",
+            {}
+        )
+
+
+        arcs = volume_data.get(
+            "arcs",
+            []
+        )
+
+
+        if not arcs:
+            return False
+
+
+        return target["arc"] == arcs[-1]
