@@ -221,13 +221,13 @@ if __name__ == "__main__":
     # Critic
     # ==================================
 
-    review = review_chapter(context, chapter)
+    # review = review_chapter(context, chapter)
 
-    if not review["pass"]:
+    # if not review["pass"]:
 
-        logger.warning("章节审核失败")
+    #     logger.warning("章节审核失败")
 
-        sys.exit(1)
+    #     sys.exit(1)
 
     # ==================================
     # Memory

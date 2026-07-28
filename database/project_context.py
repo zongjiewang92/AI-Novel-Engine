@@ -1,7 +1,7 @@
 from pathlib import Path
 import yaml
 
-
+from llm.ollama_client import OllamaClient
 from database.task_manager import TaskManager
 from database.planning_manager import PlanningManager
 from database.memory_manager import MemoryManager
@@ -12,6 +12,7 @@ from database.character_manager import CharacterManager
 class ProjectContext:
 
     def __init__(self, project_path):
+        self.llm = OllamaClient()
 
         self.root = Path(project_path)
 
@@ -128,6 +129,7 @@ class ProjectContext:
         # Knowledge
         # =================================
 
+        self.rules = self.load_rules()
         self.knowledge = self.load_knowledge()
 
         # =================================
@@ -173,14 +175,35 @@ class ProjectContext:
         return result
 
     # =================================================
-    # knowledge
+    # rules
     # =================================================
 
+    def load_rules(self):
+
+        result = {}
+
+        folder = self.root / "knowledge" / "00_rules"
+
+        if not folder.exists():
+
+            return {}
+
+        for file in folder.rglob("*.yaml"):
+
+            key = str(file.relative_to(folder))
+
+            result[key] = yaml.safe_load(file.read_text(encoding="utf-8"))
+
+        return result
+
+    # =================================================
+    # search_knowledge
+    # =================================================
     def load_knowledge(self):
 
         result = {}
 
-        folder = self.root / "knowledge"
+        folder = self.root / "knowledge" / "search_knowledge"
 
         if not folder.exists():
 

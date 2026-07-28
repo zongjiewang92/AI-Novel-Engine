@@ -1,5 +1,38 @@
-from llm.ollama_client import chat
 import json
+
+CRITIC_SYSTEM = """
+你是一名资深网络小说责任编辑。
+
+你的职责不是创作，而是审核章节质量。
+
+审核原则：
+
+1. 尊重已经建立的世界观
+2. 尊重已有剧情历史
+3. 保持人物性格一致
+4. 保持力量体系一致
+5. 不允许剧情跳跃
+6. 不允许提前完成未来剧情
+7. 保持剧情方向一致
+8. 保持剧情连贯
+9. 检查逻辑漏洞
+10. 检查阅读体验
+
+你的目标：
+
+发现问题，而不是帮助润色。
+
+请保持客观。
+
+只输出 JSON。
+
+禁止输出：
+
+- Markdown
+- 解释
+- 分析过程
+- 额外说明
+"""
 
 
 class CriticAgent:
@@ -9,259 +42,152 @@ class CriticAgent:
         self.context = context
 
     # =====================================================
-    # 章节检查
+    # Review Chapter
     # =====================================================
 
     def review_chapter(self, chapter_content):
 
-        prompt = f"""
-
-
-你是一名资深网络小说编辑。
-
-
-你的任务：
-
-审核下面章节。
-
-
-小说：
-
-{self.context.config["novel"]["title"]}
-
-
-
-========================
-【章节正文】
-========================
-
+        chapter_prompt = f"""
+【当前章节正文】
 
 {chapter_content}
 
 
+==================================================
+【当前章节剧情】
+==================================================
+
+{self.context.current_plot}
 
 
-========================
-【当前规划 Planning】
-========================
+==================================================
+【上一章节剧情】
+==================================================
+
+{self.context.before_plots}
 
 
-Volume:
+==================================================
+【下一章节剧情】
+==================================================
 
-{self.context.current_plan.get("volume")}
-
-
-
-Arc:
-
-{self.context.current_plan.get("arc")}
+{self.context.after_plots}
 
 
-
-Plot:
-
-{self.context.current_plan.get("plot")}
-
-
-
-Chapter Goal:
-
-{self.context.current_plan.get("chapter")}
-
-
-
-
-========================
-【历史 Memory】
-========================
-
-
-Volume Memory:
-
-{self.context.volume_memory}
-
-
-
-Arc Memory:
-
-{self.context.arc_memory}
-
-
-
-Plot Memory:
-
-{self.context.plot_memory}
-
-
-
-Recent Chapter Memory:
+==================================================
+【最近发生事件】
+==================================================
 
 {self.context.chapter_memory}
 
 
+==================================================
+【人物当前状态】
+==================================================
+
+{self.context.related_characters}
 
 
-========================
-【世界知识】
-========================
+==================================================
+【本章相关规则】
+==================================================
+
+{self.context.relevant_knowledge}
 
 
-{self.context.knowledge}
+==================================================
+【审核要求】
+==================================================
 
-
-
-
-================================================
 请检查：
-================================================
 
+1. 是否完成当前 Plot
 
+2. 是否偏离剧情方向
 
-1.
-世界观一致性
+3. 是否提前完成未来剧情
 
+4. 是否违反世界规则
 
-检查：
+5. 是否违反人物设定
 
-- 力量体系
-- 世界规则
-- 时间线
+6. 是否存在逻辑漏洞
 
+7. 是否存在剧情重复
 
+8. 是否存在节奏问题
 
-2.
-剧情规划一致性
+9. 是否存在明显水文
 
+10. 是否适合作为正式章节发布
 
-检查：
 
-- 是否完成章节目标
-- 是否提前完成未来剧情
-- 是否偏离Plot
+==================================================
+【评分标准】
+==================================================
 
+90-100：
+优秀，可直接发布
 
+70-89：
+存在少量问题，可以修改后发布
 
-3.
-人物一致性
+50-69：
+问题较多，需要重新修改
 
+0-49：
+严重问题，建议重新生成
 
-检查：
 
-- 性格
-- 行为
-- 动机
+==================================================
+【输出格式】
+==================================================
 
+只输出 JSON。
 
-
-4.
-逻辑问题
-
-
-检查：
-
-- 不合理行为
-- 矛盾
-- BUG
-
-
-
-5.
-阅读质量
-
-
-检查：
-
-- 是否拖沓
-- 是否缺少冲突
-- 是否缺少推进
-
-
-
-
-输出 JSON:
-
-
-
-{{
-
-"score":0,
-
-
-"pass":true,
-
-
-"issues":[
-
-{{
-
-"type":"",
-"description":"",
-"severity":"low"
-
-}}
-
-],
-
-
-"world_consistency":"",
-
-"planning_consistency":"",
-
-"character_consistency":"",
-
-"logic_problems":"",
-
-
-"suggestions":[]
-
-
-}}
-
-
-
-评分：
-
-90-100:
-优秀
-
-
-70-90:
-可以发布
-
-
-50-70:
-需要修改
-
-
-<50:
-重新生成
-
-
-
+{
+    "score": 0,
+    "pass": true,
+    "issues": [
+        {
+            "type": "",
+            "severity": "low",
+            "description": ""
+        }
+    ],
+    "summary": "",
+    "suggestions": [
+        ""
+    ]
+}
 """
 
-        result = chat(prompt)
+        result = self.context.llm.chat(
+            prompt=chapter_prompt,
+            system=CRITIC_SYSTEM,
+            options={
+                "temperature": 0.2,
+                "num_predict": 1200,
+            },
+        )
 
         return self.parse_json(result)
 
     # =====================================================
-    # JSON解析
+    # Parse JSON
     # =====================================================
 
     def parse_json(self, result):
 
         try:
-
             return json.loads(result)
 
         except Exception:
 
             start = result.find("{")
-
             end = result.rfind("}")
 
             if start != -1 and end != -1:
-
                 return json.loads(result[start : end + 1])
 
-            raise Exception("Critic输出错误:\n" + result)
+            raise Exception("Critic 输出错误：\n" + result)

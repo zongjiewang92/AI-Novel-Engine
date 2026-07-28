@@ -34,7 +34,7 @@ class PlanningManager:
         return self.volume_path(target) / target["arc"]
 
     # ==================================================
-    # Load Volume
+    # Volume
     # ==================================================
 
     def load_volume(self, target):
@@ -44,12 +44,15 @@ class PlanningManager:
         return self.load_yaml(file)
 
     # ==================================================
-    # Load Arc
+    # Arc
     # ==================================================
 
     def load_arc(self, target):
 
         folder = self.arc_path(target)
+
+        if not folder.exists():
+            return {}
 
         for file in sorted(folder.glob("arc_*.yaml")):
 
@@ -58,172 +61,193 @@ class PlanningManager:
         return {}
 
     # ==================================================
-    # Load Plots
+    # 获取 Volume 下所有 Arc
     # ==================================================
 
-    def load_plots(self, target):
+    def list_arcs(self, target):
 
-        folder = self.arc_path(target)
-
-        plots = []
+        folder = self.volume_path(target)
 
         if not folder.exists():
-            return plots
+
+            return []
+
+        return sorted(
+            [
+                x.name
+                for x in folder.iterdir()
+                if x.is_dir() and x.name.startswith("arc_")
+            ]
+        )
+
+    # ==================================================
+    # 获取 Arc 下所有 Plot
+    # ==================================================
+
+    def list_plots(self, target, arc=None):
+
+        if arc is None:
+
+            arc = target["arc"]
+
+        folder = self.volume_path(target) / arc
+
+        if not folder.exists():
+
+            return []
+
+        result = []
 
         for file in sorted(folder.glob("plot_*.yaml")):
 
-            plots.append({"id": file.stem, "data": self.load_yaml(file)})
+            result.append({"id": file.stem, "data": self.load_yaml(file), "arc": arc})
 
-        return plots
+        return result
 
     # ==================================================
-    # Current Plan
+    # 获取 Volume 全部 Plot
+    #
+    # 用于跨 Arc 查找
+    #
+    # ==================================================
+
+    def list_all_plots(self, target):
+
+        result = []
+
+        arcs = self.list_arcs(target)
+
+        for arc in arcs:
+
+            plots = self.list_plots(target, arc)
+
+            result.extend(plots)
+
+        return result
+
+    # ==================================================
+    # 当前 Plot 上下文
+    #
+    # before:
+    #   上一个 plot
+    #
+    # current:
+    #   当前 plot
+    #
+    # after:
+    #   下一个 plot
+    #
     # ==================================================
 
     def load_current_plan(self, target):
 
-        plots = self.load_plots(target)
+        all_plots = self.list_all_plots(target)
 
         current_id = target["plot"]
 
-        before_plots = []
-        current_plot = {}
-        after_plots = []
+        current_index = -1
 
-        found_current = False
-
-        for plot in plots:
+        for index, plot in enumerate(all_plots):
 
             if plot["id"] == current_id:
 
-                current_plot = plot["data"]
+                current_index = index
+                break
 
-                found_current = True
+        if current_index == -1:
 
-            elif not found_current:
+            return {
+                "volume": self.load_volume(target),
+                "arc": self.load_arc(target),
+                "before_plots": {},
+                "current_plot": {},
+                "after_plots": {},
+            }
 
-                before_plots.append(plot["data"])
+        current_plot = all_plots[current_index].get("data", {})
 
-            else:
+        # ----------------------------
+        # previous
+        # ----------------------------
 
-                after_plots.append(plot["data"])
+        before_plot = {}
+
+        if current_index > 0:
+
+            before_plot = all_plots[current_index - 1].get("data", {})
+
+        # ----------------------------
+        # next
+        # ----------------------------
+
+        after_plot = {}
+
+        if current_index < len(all_plots) - 1:
+
+            after_plot = all_plots[current_index + 1].get("data", {})
 
         return {
             "volume": self.load_volume(target),
             "arc": self.load_arc(target),
-            "before_plots": before_plots,
+            "before_plots": before_plot,
             "current_plot": current_plot,
-            "after_plots": after_plots,
+            "after_plots": after_plot,
         }
+
     # ==================================================
-    # Status Check
+    # Plot 完成检查
     # ==================================================
 
     def is_plot_finished(self, target):
-        """
-        判断当前 plot 是否完成
 
-        根据：
-        current_plot.yaml
-        中的 status 或 end_chapter 判断
-
-        """
-
-        plot = self.load_current_plan(target).get(
-            "current_plot",
-            {}
-        )
-
-
-        # 方式1:
-        # plot:
-        #   status: finished
+        plot = self.load_current_plan(target).get("current_plot", {})
 
         if plot.get("status") == "finished":
+
             return True
-
-
-        # 方式2:
-        # plot:
-        #   completed: true
 
         if plot.get("completed") is True:
-            return True
 
+            return True
 
         return False
 
-
+    # ==================================================
+    # Arc 完成检查
+    # ==================================================
 
     def is_arc_finished(self, target):
-        """
-        判断当前 Arc 是否完成
 
-        当前 plot 是否是 arc 下最后一个 plot
-        """
+        arcs = self.list_arcs(target)
 
-        plots = self.load_plots(target)
+        if not arcs:
 
-
-        if not plots:
             return False
 
+        current_arc = target["arc"]
 
-        current_id = target["plot"]
+        if current_arc not in arcs:
 
-
-        plot_ids = [
-            x["id"]
-            for x in plots
-        ]
-
-
-        if current_id not in plot_ids:
             return False
 
+        index = arcs.index(current_arc)
 
-        current_index = plot_ids.index(current_id)
+        return index == len(arcs) - 1
 
-
-        # 最后一个 plot
-        return current_index == len(plot_ids) - 1
-
-
+    # ==================================================
+    # Volume 完成检查
+    # ==================================================
 
     def is_volume_finished(self, target):
-        """
-        判断 Volume 是否完成
-
-        当前 arc 是否是 volume 最后一个 arc
-        """
 
         volume = self.load_volume(target)
 
+        volume_data = volume.get("volume", {})
 
-        # volume.yaml
-
-        # 示例:
-        #
-        # volume:
-        #   arcs:
-        #     - arc_01
-        #     - arc_02
-
-
-        volume_data = volume.get(
-            "volume",
-            {}
-        )
-
-
-        arcs = volume_data.get(
-            "arcs",
-            []
-        )
-
+        arcs = volume_data.get("arcs", [])
 
         if not arcs:
-            return False
 
+            return False
 
         return target["arc"] == arcs[-1]
