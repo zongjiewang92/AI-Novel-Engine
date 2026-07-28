@@ -2,57 +2,44 @@ import logging
 from pathlib import Path
 from datetime import datetime
 
+_initialized = False
 
-def get_logger(name, project_path=None):
 
-    logger = logging.getLogger(name)
+def setup_logger(project_root):
 
-    if logger.handlers:
-        return logger
+    global _initialized
 
-    logger.setLevel(logging.INFO)
+    if _initialized:
 
-    # =================================
-    # log目录
-    # =================================
+        return
 
-    if project_path:
+    root = Path(project_root)
 
-        log_dir = Path(project_path) / "logs" / datetime.now().strftime("%Y-%m-%d")
-
-    else:
-
-        log_dir = Path("logs") / datetime.now().strftime("%Y-%m-%d")
+    log_dir = root / "logs"
 
     log_dir.mkdir(parents=True, exist_ok=True)
 
-    log_file = log_dir / "novel_engine.log"
+    log_file = log_dir / f"{datetime.now():%Y-%m-%d}.log"
 
-    # =================================
+    formatter = logging.Formatter(
+        "%(asctime)s " "[%(levelname)s] " "%(name)s: " "%(message)s"
+    )
+
+    # root logger
+
+    logger = logging.getLogger()
+
+    logger.setLevel(logging.INFO)
+
     # console
-    # =================================
 
     console = logging.StreamHandler()
 
-    console.setLevel(logging.INFO)
+    console.setFormatter(formatter)
 
-    # =================================
     # file
-    # =================================
 
     file_handler = logging.FileHandler(log_file, encoding="utf-8")
-
-    file_handler.setLevel(logging.INFO)
-
-    # =================================
-    # format
-    # =================================
-
-    formatter = logging.Formatter(
-        "%(asctime)s | %(name)s | %(levelname)s | %(message)s"
-    )
-
-    console.setFormatter(formatter)
 
     file_handler.setFormatter(formatter)
 
@@ -60,4 +47,9 @@ def get_logger(name, project_path=None):
 
     logger.addHandler(file_handler)
 
-    return logger
+    _initialized = True
+
+
+def get_logger(name):
+
+    return logging.getLogger(name)

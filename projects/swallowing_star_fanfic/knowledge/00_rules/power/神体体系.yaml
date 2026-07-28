@@ -1,0 +1,443 @@
+#这里应该主要是 不朽 以上 会有 神体的概念，随着 法则的感悟 越来越深，法则对神体的改造越来越多， 会出现  不朽境界神体 ：普通不朽神体，掌控普通的法则 。神力是界主的100倍，不死之身神体，对于空间 或者时间法则 又更近一步的理解，法则神体碎成粒子状态仍然会重新组合成神体，.....  尊者神体：空间尊者 掌控完整 空间法则 空间法则神体，或者 时间尊者 掌控完整时间法则 时间法则神体。。。。神体神力等级是 普通不朽的100倍，  宇宙之主神体： 时空神体-因为掌控了 时间 空间 法则 是 普通尊者的 100倍
+
+god_body_system:
+
+  source: '吞噬星空'
+
+  version: 1
+
+  description: >
+    
+    描述不朽以上生命的神体体系。
+
+    神体是生命达到不朽之后， 脱离普通血肉生命， 进入法则生命阶段后的身体形态。
+
+    神体强度由：
+
+    生命基因 法则感悟 神力质量 神体结构
+
+    共同决定。
+
+  concept:
+
+    mortal_body:
+
+      name: 血肉生命
+
+      realms:
+
+      - 学徒
+      - 行星级
+      - 恒星级
+      - 宇宙级
+      - 域主
+      - 界主
+
+      characteristic:
+
+        description: >
+          
+          身体虽然不断强化。
+
+          但本质仍属于物质生命。
+
+  immortal_transformation:
+
+    name: 不朽神体蜕变
+
+    trigger:
+
+      realm:
+
+      - 界主突破不朽
+
+    process:
+
+      step_1:
+
+        name: 法则灌体
+
+        description: >
+          
+          原始宇宙本源法则降临。
+
+          大量宇宙能量进入身体。
+
+      step_2:
+
+        name: 身体神化
+
+        description: >
+          
+          身体从血肉结构。
+
+          转化为不朽神体。
+
+      step_3:
+
+        name: 生命印记形成
+
+        description: >
+          
+          真灵与神体结合。
+
+          每一份神体都拥有生命印记。
+
+      step_4:
+
+        name: 神力诞生
+
+        description: >
+          
+          界主原力转换为神力。
+
+  divine_power:
+
+    name: 神力体系
+
+    description: >
+      
+      神体内部运行的力量。
+
+      神力质量远超界主原力。
+
+    comparison:
+
+      world_lord_power:
+
+        name: 界主原力
+
+        base: 1
+
+      immortal_power:
+
+        name: 不朽神力
+
+        multiplier: 100
+
+      universe_exalt_power:
+
+        name: 尊者神力
+
+        multiplier: 10000
+
+      universe_master_power:
+
+        name: 宇宙之主神力
+
+        multiplier: 1000000
+
+  god_body_levels:
+
+  # =====================================================
+  # 普通不朽神体
+  # =====================================================
+
+
+  - id: ordinary_immortal_body
+
+    name: 普通不朽神体
+
+    realm:
+
+      不朽
+
+    law_level:
+
+      description: >
+        
+        掌握基础法则。
+
+        如金木水火土等。
+
+    characteristics:
+
+      body:
+
+      - 血肉转化神体
+      - 生命印记形成
+
+      recovery:
+
+        description: >
+          
+          消耗神力恢复身体。
+
+    divine_power:
+
+      multiplier:
+
+        100
+
+    combat:
+
+      ability:
+
+      - 神体攻击
+      - 神力燃烧
+
+  # =====================================================
+  # 不死之身
+  # =====================================================
+
+
+  - id: undying_body
+
+    name: 不死之身
+
+    realm:
+
+      不朽
+
+    requirement:
+
+    - 法则感悟提升
+    - 神体粒子化
+    - 生命印记强化
+
+    characteristics:
+
+      description: >
+        
+        神体可以碎裂成无数粒子。
+
+      process:
+
+      - 神体破碎
+      - 粒子保存生命印记
+      - 吸收神力
+      - 重新组合神体
+
+    weakness:
+
+      description: >
+        
+        如果全部神体粒子被灭。
+
+        生命印记消失。
+
+        才会真正死亡。
+
+  # =====================================================
+  # 尊者神体
+  # =====================================================
+
+
+  - id: universe_exalt_body
+
+    name: 尊者神体
+
+    realm:
+
+      宇宙尊者
+
+    description: >
+      
+      法则感悟达到完整层次。
+
+      神体开始融合法则。
+
+    types:
+
+      space_exalt:
+
+        name: 空间尊者神体
+
+        law:
+
+          space:
+
+            complete: true
+
+        characteristic:
+
+        - 空间法则融入神体
+        - 空间防御增强
+        - 空间恢复能力提升
+
+      time_exalt:
+
+        name: 时间尊者神体
+
+        law:
+
+          time:
+
+            complete: true
+
+        characteristic:
+
+        - 时间法则融入神体
+        - 时间恢复能力提升
+
+    divine_power:
+
+      multiplier:
+
+        10000
+
+  # =====================================================
+  # 宇宙之主神体
+  # =====================================================
+
+
+  - id: universe_master_body
+
+    name: 宇宙之主神体
+
+    realm:
+
+      宇宙之主
+
+    description: >
+      
+      掌控时间空间两大法则。
+
+      神体发生质变。
+
+    law:
+
+      space:
+
+        complete: true
+
+      time:
+
+        complete: true
+
+    type:
+
+      name:
+
+        时空神体
+
+    characteristics:
+
+    - 时空规则融入神体
+    - 神体防御极强
+    - 神力恢复速度提升
+
+    divine_power:
+
+      multiplier:
+
+        1000000
+
+  body_size:
+
+    description: >
+      
+      神体大小影响战斗能力。
+
+      特殊生命可以拥有巨大优势。
+
+    examples:
+
+      normal_immortal:
+
+        size:
+
+          meters:
+
+            10
+
+      special_life:
+
+        size:
+
+          description:
+
+            数百公里甚至更大
+
+      giant_special_life:
+
+        examples:
+
+        - 金角巨兽
+        - 九幽之主
+
+  law_body_evolution:
+
+    description: >
+      
+      法则感悟越深。
+
+      神体越接近规则本身。
+
+    stages:
+
+      immortal:
+
+        law:
+
+          初步法则
+
+        body:
+
+          普通不朽神体
+
+      exalt:
+
+        law:
+
+          完整法则
+
+        body:
+
+          法则神体
+
+      universe_master:
+
+        law:
+
+          时空融合
+
+        body:
+
+          时空神体
+
+  recovery_system:
+
+    description: >
+      
+      神体恢复能力。
+
+    factors:
+
+    - 神体大小
+    - 神力储备
+    - 法则融合程度
+    - 宝物辅助
+
+  relationship:
+
+    summary: >
+      
+
+      境界：
+
+      决定力量控制。
+
+
+
+      基因：
+
+      决定生命基础。
+
+
+
+      神体：
+
+      决定力量承载。
+
+
+
+      神力：
+
+      决定力量输出。
+
+
+
+      法则：
+
+      决定神体进化方向。

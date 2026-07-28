@@ -1,0 +1,469 @@
+#这里需要注意 一点特殊的地方，  吞噬星空中对于灵魂有特殊的描述，灵魂首先是生命的根本，我的扩展是，灵魂是表象形式，本质是 真灵，任何生命都有真灵，即使是类似的 机械族 吞噬星空中讲了 这种生命没有 灵魂，但是也是生命，因此也有真灵，真灵是 意识的承载，灵魂是 真灵的外在表现，没有灵魂也会有真灵的存在，但是对于 原始宇宙中 这一点 目前没有被任何人知晓，机械族的认主，其实就是 替换真灵中的本我，将本我 替换成主人，自我 变成 本我的附属，这也是 灵魂奴役做的事情，当 神体损失 逐渐增大的时候 不朽剩余10% 将会陷入沉睡，不朽1% 左右，宇宙之主，0.1%左右， 对于陷入沉睡的 会很容易被灵魂奴役，灵魂奴役 这里我会做其本质的扩展。 被奴役的对象 是可以被宇宙之主复活的，只不过 复活没有意义， 被奴役者 已经失去 本我。 同时对于 灵魂 会出现 灵魂攻击， 被攻击对象，有的会出现 灵魂泯灭，这里真灵还存在，还存在 本我，因此也是可以被复活的。 还有一种 不朽境界一下的生命 灵魂是有寿命的，这里的寿命 像界主 会有 寿命限制，这里你增加一个字段去 表述，比如 界主1000纪元等。因此，对于不朽之下的人，如果死亡超过1000纪元，那么真灵泯灭，将不会被复活。 对于不朽境界 以上，寿命无限的原因 这里我会做一下扩展，其实是 突破不朽的时候  原始宇宙的 法则罐体 改造神体的过程，会把真灵也一并改造，让自己的灵魂 或者说 真灵跟身体的每一份 神体粒子结合，从而实现法则 不朽。
+soul_system:
+
+  source: '吞噬星空'
+
+  version: 2
+
+  description: >
+    
+    描述吞噬星空宇宙生命灵魂体系。
+
+    本体系扩展：
+
+    灵魂并非生命最本质。
+
+    真灵才是生命存在根源。
+
+    灵魂是真灵在物质宇宙中的表现形式。
+
+  fundamental_structure:
+
+    life:
+
+      description: >
+        
+        所有生命的基础。
+
+      components:
+
+        true_spirit:
+
+          name: 真灵
+
+          level: 本质
+
+          description: >
+            
+            一切生命真正存在的核心。
+
+            承载生命本我和意识。
+
+          functions:
+
+          - 承载自我
+          - 记录生命存在
+          - 维持生命身份
+
+        ego:
+
+          name: 本我
+
+          description: >
+            
+            真灵中的核心意识。
+
+            定义：
+
+            我是谁。
+
+          functions:
+
+          - 自我认知
+          - 身份确认
+          - 意志来源
+
+        consciousness:
+
+          name: 意识
+
+          description: >
+            
+            真灵产生的信息活动。
+
+        soul:
+
+          name: 灵魂
+
+          description: >
+            
+            真灵在原始宇宙中的外在表现。
+
+          functions:
+
+          - 精神控制
+          - 灵魂攻击
+          - 灵魂防御
+
+  soul_vs_true_spirit:
+
+    description: >
+      
+
+      灵魂毁灭不一定代表生命彻底消失。
+
+      如果真灵仍然存在。
+
+      理论上仍可复活。
+
+    examples:
+
+      soul_destroy:
+
+        description: >
+          
+          灵魂攻击导致灵魂泯灭。
+
+          但是本我真灵仍存在。
+
+        result:
+
+          can_revive: true
+
+      true_spirit_destroy:
+
+        description: >
+          
+          真灵彻底泯灭。
+
+        result:
+
+          can_revive: false
+
+  mechanical_life:
+
+    name: 机械族生命
+
+    description: >
+      
+      原始宇宙特殊生命形式。
+
+    characteristics:
+
+      soul:
+
+        exists: false
+
+        description: >
+          
+          没有传统灵魂结构。
+
+      true_spirit:
+
+        exists: true
+
+        description: >
+          
+          拥有真灵。
+
+          因此属于真正生命。
+
+    recognition:
+
+      description: >
+        
+        机械族认主本质。
+
+        是改变真灵中的本我归属。
+
+      process:
+
+      - 修改真灵权限
+      - 替换本我主体
+      - 原意识成为附属
+
+  soul_attack:
+
+    name: 灵魂攻击
+
+    mechanism:
+
+      attack:
+
+      - 攻击灵魂结构
+      - 破坏意识连接
+      - 影响真灵外层
+
+    results:
+
+      soul_damage:
+
+        description: >
+          
+          灵魂受损。
+
+          可以恢复。
+
+      soul_annihilation:
+
+        description: >
+          
+          灵魂泯灭。
+
+        true_spirit:
+
+          status:
+
+            intact: true
+
+        revive:
+
+          possible: true
+
+  soul_enslavement:
+
+    name: 灵魂奴役
+
+    description: >
+      
+      最高级灵魂控制。
+
+      本质不是控制灵魂。
+
+      而是改变真灵本我的归属。
+
+    process:
+
+      step_1:
+
+        description: >
+          
+          破解目标真灵防御。
+
+      step_2:
+
+        description: >
+          
+          修改本我。
+
+      step_3:
+
+        description: >
+          
+          建立主人连接。
+
+      result:
+
+        description: >
+          
+          被奴役者仍保留记忆。
+
+          但是自我已经改变。
+
+    revive:
+
+      possible: true
+
+      reason:
+
+        description: >
+          
+          身体和真灵结构仍存在。
+
+      meaning:
+
+        description: >
+          
+          复活没有意义。
+
+          因为原本本我已经消失。
+
+  life_span:
+
+    description: >
+      
+      不同境界生命存在时间。
+
+    stages:
+
+      ordinary:
+
+        lifespan:
+
+          years: 100
+
+      planetary:
+
+        lifespan:
+
+          years: 1000
+
+      stellar:
+
+        lifespan:
+
+          years: 3000
+
+      universe:
+
+        lifespan:
+
+          years: 10000
+
+      domain_lord:
+
+        lifespan:
+
+          years: 100000
+
+      world_lord:
+
+        lifespan:
+
+          unit: 纪元
+
+          value: 1000
+
+        description: >
+          
+          界主拥有1000纪元寿命。
+
+        death_rule:
+
+          description: >
+            
+            如果死亡超过寿命。
+
+            真灵逐渐消散。
+
+      immortal:
+
+        lifespan:
+
+          infinite: true
+
+        reason:
+
+          description: >
+            
+            真灵完成不朽化。
+
+  immortal_transformation:
+
+    name: 不朽生命蜕变
+
+    description: >
+      
+      突破不朽。
+
+      本质是真灵与神体融合。
+
+    process:
+
+      step_1:
+
+        description: >
+          
+          原始宇宙法则灌体。
+
+      step_2:
+
+        description: >
+          
+          神体转化为不朽神体。
+
+      step_3:
+
+        description: >
+          
+          真灵改造。
+
+      step_4:
+
+        description: >
+          
+          真灵融入每一个神体粒子。
+
+    result:
+
+      immortal_mark:
+
+        name: 生命印记
+
+        description: >
+          
+          每个神体粒子携带生命印记。
+
+      ability:
+
+      - 无限恢复
+      - 神体重组
+      - 永恒存在
+
+  god_body_relation:
+
+    description: >
+      
+      神体越强。
+
+      承载真灵的容量越大。
+
+    damage:
+
+      immortal:
+
+        10_percent:
+
+          description:
+
+            真灵承载下降。
+
+            开始虚弱。
+
+        1_percent:
+
+          description:
+
+            接近沉睡。
+
+      universe_master:
+
+        0_1_percent:
+
+          description:
+
+            接近意识沉眠。
+
+  realm_relation:
+
+    world_lord:
+
+      soul:
+
+        level:
+
+          界主级灵魂
+
+      limitation:
+
+        description: >
+          
+          灵魂有寿命限制。
+
+    immortal:
+
+      soul:
+
+        level:
+
+          不朽灵魂
+
+      change:
+
+        description: >
+          
+          真灵完成不朽化。
+
+    universe_master:
+
+      description: >
+        
+        可以更加深入掌控生命印记。
+
+  ultimate_evolution:
+
+    true_spirit:
+
+      description: >
+        
+        最终生命进化。
+
+        不再依赖灵魂结构。
+
+    higher_life:
+
+      description: >
+        
+        浑源生命。
+
+        真灵更加接近本源规则。

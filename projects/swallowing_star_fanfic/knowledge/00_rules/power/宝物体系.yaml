@@ -1,0 +1,385 @@
+treasure_system:
+
+  source: '吞噬星空'
+
+  version: 1
+
+  description: >
+    
+    吞噬星空宇宙宝物体系。
+
+    宝物按照威能、价值、使用者境界划分。
+
+    包含武器、防具、至宝、辅助资源、特殊宝物。
+
+  hierarchy:
+
+  - level: 0
+
+    name: 普通兵器
+
+    users:
+
+    - 学徒级
+    - 行星级
+    - 恒星级
+
+    description: >
+      
+      普通金属制造。
+
+      没有宇宙法则威能。
+
+  - level: 1
+
+    name: 原力兵器
+
+    users:
+
+    - 行星级
+    - 恒星级
+    - 宇宙级
+
+    description: >
+      
+      融合宇宙材料。
+
+      可以承载原力。
+
+  - level: 2
+
+    name: 念力兵器
+
+    users:
+
+    - 精神念师
+
+    description: >
+      
+      精神念力控制的武器。
+
+  - level: 3
+
+    name: 重宝
+
+    users:
+
+    - 不朽
+    - 尊者
+
+    description: >
+      
+      蕴含宇宙法则威能。
+
+      超越普通兵器。
+
+  - level: 4
+
+    name: 至宝
+
+    users:
+
+    - 宇宙尊者
+    - 宇宙之主
+
+    description: >
+      
+      包含完整法则秘纹。
+
+      可以发挥巨大威能。
+
+  - level: 5
+
+    name: 顶级至宝
+
+    users:
+
+    - 宇宙之主
+
+    description: >
+      
+      极其珍贵。
+
+      可以改变宇宙之主之间战斗。
+
+  - level: 6
+
+    name: 巅峰至宝
+
+    users:
+
+    - 宇宙之主
+
+    description: >
+      
+      宇宙海顶级宝物。
+
+  - level: 7
+
+    name: 至强至宝
+
+    users:
+
+    - 宇宙最强者
+
+    description: >
+      
+      宇宙海最顶级宝物。
+
+  - level: 8
+
+    name: 神王级宝物
+
+    users:
+
+    - 神王
+
+    description: >
+      
+      起源大陆层次宝物。
+
+  categories:
+
+    weapon:
+
+      name: 武器类
+
+      examples:
+
+      - 战刀
+      - 长枪
+      - 剑
+
+      functions:
+
+      - 增强攻击
+      - 增幅秘法
+      - 法则融合
+
+    armor:
+
+      name: 防御类
+
+      examples:
+
+      - 战甲
+      - 铠甲
+
+      functions:
+
+      - 减少神体损耗
+      - 防御物理攻击
+      - 防御灵魂攻击
+
+    soul:
+
+      name: 灵魂类宝物
+
+      rarity:
+
+        level: 极高
+
+      functions:
+
+      - 防御灵魂攻击
+      - 增强灵魂攻击
+      - 保护灵魂核心
+
+      reason:
+
+        description: >
+          
+          灵魂攻击难以防御。
+
+          所以灵魂类宝物价值极高。
+
+    palace:
+
+      name: 宫殿类至宝
+
+      functions:
+
+      - 飞行
+      - 防御
+      - 镇压
+
+      examples:
+
+      - 星辰塔
+
+      description: >
+        
+        宇宙海最珍贵类别之一。
+
+    domain:
+
+      name: 领域类至宝
+
+      functions:
+
+      - 领域压制
+      - 限制速度
+      - 削弱敌人
+
+      examples:
+
+      - 五彩极光湖
+
+    sealing:
+
+      name: 镇封类宝物
+
+      functions:
+
+      - 镇压
+      - 封印
+      - 囚禁
+
+    flying:
+
+      name: 飞行类宝物
+
+      functions:
+
+      - 高速移动
+      - 空间穿梭
+      - 逃生
+
+    mechanical:
+
+      name: 机械流宝物
+
+      users:
+
+      - 机械族
+
+      characteristics:
+
+      - 消耗能量
+      - 爆发强大
+      - 可批量制造
+
+      description: >
+        
+        机械族科技体系核心。
+
+    gene:
+
+      name: 基因提升宝物
+
+      functions:
+
+      - 提升基因倍数
+      - 改造生命本质
+
+      examples:
+
+        blood_luo_crystal:
+
+          name: 血洛晶
+
+          effect:
+
+          - 提升身体强度
+          - 提升生命基因层次
+
+          users:
+
+          - 界主
+          - 不朽
+          - 尊者
+
+          description: >
+            
+            极其珍贵的消耗型宝物。
+
+    cultivation:
+
+      name: 修炼辅助宝物
+
+      functions:
+
+      - 提升法则感悟
+      - 提升灵魂
+      - 加快修炼
+
+  famous_treasures:
+
+    star_tower:
+
+      name: 星辰塔
+
+      level:
+
+        至强至宝
+
+      category:
+
+      - 宫殿
+      - 攻击
+      - 镇封
+
+      abilities:
+
+      - 镇压
+      - 防御
+      - 飞行
+      - 攻击
+
+    black_prison_tower:
+
+      name: 黑狱塔
+
+      category:
+
+      - 镇封类
+
+    five_color_light_lake:
+
+      name: 五彩极光湖
+
+      category:
+
+      - 领域类至宝
+
+  treasure_rules:
+
+    rule_1:
+
+      description: >
+        
+        宝物等级越高。
+
+        对使用者境界要求越高。
+
+    rule_2:
+
+      description: >
+        
+        高等级宝物可以跨越境界发挥作用。
+
+    rule_3:
+
+      description: >
+        
+        真正顶级强者竞争。
+
+        核心不是秘法。
+
+        而是至宝。
+
+  future_evolution:
+
+    true_god:
+
+      description: >
+        
+        真神以后。
+
+        宝物进入神王级体系。
+
+    origin_continent:
+
+      description: >
+        
+        起源大陆存在更加高级的机械流、 神王级、浑源级宝物。

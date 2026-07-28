@@ -11,7 +11,7 @@ from database.project_context import ProjectContext
 from database.memory_manager import MemoryManager
 from database.character_manager import CharacterManager
 
-from utils.logger import get_logger
+from utils.logger import setup_logger, get_logger
 from pathlib import Path
 
 
@@ -189,7 +189,9 @@ if __name__ == "__main__":
 
     project = ProjectManager("swallowing_star_fanfic")
 
-    logger = get_logger(__name__, project.root)
+    setup_logger(project.root)
+
+    logger = get_logger(__name__)
 
     logger.info("小说引擎启动")
 

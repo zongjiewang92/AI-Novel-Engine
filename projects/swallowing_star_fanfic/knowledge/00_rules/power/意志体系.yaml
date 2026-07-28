@@ -1,0 +1,372 @@
+will_system:
+
+  source: '吞噬星空'
+
+  version: 1
+
+  description: >
+    
+    描述吞噬星空宇宙中的意志体系。
+
+    意志代表生命精神核心、信念、 道心和灵魂控制能力。
+
+    意志不完全等同于灵魂强度。
+
+    可以通过磨炼突破生命境界限制。
+
+  concept:
+
+    definition:
+
+      name: 意志
+
+      description: >
+        
+        生命对于自身存在、 目标和道路的坚定程度。
+
+        是精神层面的力量。
+
+    difference:
+
+      soul:
+
+        name: 灵魂
+
+        function:
+
+        - 承载意识
+        - 控制身体
+        - 发动灵魂攻击
+
+      will:
+
+        name: 意志
+
+        function:
+
+        - 抵抗威压
+        - 抵抗灵魂攻击
+        - 控制自身力量
+        - 坚守本心
+
+  characteristics:
+
+    transcendence:
+
+      description: >
+        
+        意志可以突破境界限制。
+
+        低境界生命可能拥有高境界意志。
+
+    growth:
+
+      methods:
+
+      - 生死磨炼
+      - 无数战斗
+      - 心境提升
+      - 传承考验
+      - 宇宙本源压迫
+
+  levels:
+
+  - id: ordinary
+
+    name: 普通意志
+
+    level: 0
+
+    users:
+
+    - 普通生命
+
+    description: >
+      
+      普通人的精神力量。
+
+  - id: warrior
+
+    name: 战士意志
+
+    level: 1
+
+    users:
+
+    - 学徒级
+    - 行星级
+
+    characteristics:
+
+    - 坚定战斗信念
+    - 克服恐惧
+
+  - id: domain_lord
+
+    name: 域主级意志
+
+    level: 3
+
+    users:
+
+    - 域主
+
+    characteristics:
+
+    - 可以承受领域压力
+    - 精神更加稳定
+
+  - id: world_lord
+
+    name: 界主级意志
+
+    level: 4
+
+    users:
+
+    - 界主
+
+    characteristics:
+
+    - 可以承受世界力量
+    - 掌控体内世界
+
+  - id: immortal
+
+    name: 不朽级意志
+
+    level: 5
+
+    users:
+
+    - 不朽
+
+    characteristics:
+
+    - 意志与生命印记结合
+    - 抵抗灵魂攻击
+
+  - id: universe_exalt
+
+    name: 宇宙尊者级意志
+
+    level: 6
+
+    characteristics:
+
+    - 可以抵抗强大威压
+    - 开始影响周围空间
+
+  - id: universe_master
+
+    name: 宇宙之主级意志
+
+    level: 7
+
+    characteristics:
+
+    - 意志形成威压
+    - 可以压制弱者灵魂
+
+  - id: true_god
+
+    name: 真神级意志
+
+    level: 8
+
+    characteristics:
+
+    - 意志影响宇宙本源
+    - 可以承受真神级力量
+
+  - id: void_true_god
+
+    name: 虚空真神级意志
+
+    level: 9
+
+    characteristics:
+
+    - 意志凝聚为实质
+    - 可以影响规则
+
+  - id: eternal_true_god
+
+    name: 永恒真神级意志
+
+    level: 10
+
+    characteristics:
+
+    - 意志覆盖巨大范围
+    - 精神威压极强
+
+  - id: chaos_master
+
+    name: 混沌主宰级意志
+
+    level: 11
+
+    characteristics:
+
+    - 掌控混沌规则
+    - 意志接近本源
+
+  - id: god_king
+
+    name: 神王级意志
+
+    level: 12
+
+    characteristics:
+
+    - 超越宇宙海层次
+    - 可以影响更高规则
+
+  will_pressure:
+
+    description: >
+      
+      高等级生命可以释放意志威压。
+
+    effects:
+
+      low_level:
+
+      - 灵魂震荡
+      - 无法行动
+      - 意识崩溃
+
+      high_level:
+
+      - 压制秘法
+      - 影响判断
+      - 直接击溃弱者意志
+
+  combat_application:
+
+    defense:
+
+      description: >
+        
+        强大意志可以抵抗灵魂攻击。
+
+      abilities:
+
+      - 防御幻境
+      - 抵抗灵魂控制
+      - 保持意识清醒
+
+    attack:
+
+      description: >
+        
+        顶级强者可以使用意志攻击。
+
+      methods:
+
+      - 意志冲击
+      - 灵魂压迫
+      - 幻境攻击
+
+  cultivation_relation:
+
+    realm_relation:
+
+      apprentice:
+
+        maximum:
+
+          战士意志
+
+      world_lord:
+
+        common:
+
+          界主意志
+
+        genius:
+
+          不朽意志
+
+      immortal:
+
+        common:
+
+          不朽意志
+
+        genius:
+
+          尊者意志
+
+      universe_master:
+
+        common:
+
+          宇宙之主意志
+
+        peak:
+
+          真神意志
+
+  famous_examples:
+
+    luofeng:
+
+      name: 罗峰
+
+      characteristics:
+
+      - 界主时期拥有极强意志
+      - 宇宙之主时期达到真神级意志
+
+      description: >
+        
+        罗峰依靠大量磨炼。
+
+        意志远超同期强者。
+
+    original_ancestor:
+
+      name: 原祖
+
+      characteristics:
+
+      - 意志极其恐怖
+
+      description: >
+        
+        即使被原始宇宙镇压。
+
+        依然保持惊人意志。
+
+  inheritance_requirement:
+
+    description: >
+      
+      高级传承通常要求意志。
+
+    examples:
+
+    - 晋之世界传承
+    - 断东河传承
+
+    reason:
+
+      description: >
+        
+        传承力量过强。
+
+        意志不足会直接陨落。
+
+  relationship:
+
+    summary: >
+      
+      境界决定力量上限。
+
+      基因决定生命本质。
+
+      灵魂决定精神能力。
+
+      意志决定能够承受和掌控多少力量。

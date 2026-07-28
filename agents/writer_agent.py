@@ -28,15 +28,31 @@ WRITER_SYSTEM = """
 - 创作过程
 """
 
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
+
 
 def write_chapter(context):
-    # =====================================
-    # Planning
-    # =====================================
-    plan = context.current_plan
-    before_plots = plan.get("before_plots", {})
-    current_plot = plan.get("current_plot", {})
-    after_plots = plan.get("after_plots", {})
+
+    # ==================================================
+    # Input Check
+    # ==================================================
+
+    check_inputs = {
+        "current_plot": context.current_plot,
+        "before_plots": context.before_plots,
+        "after_plots": context.after_plots,
+    }
+
+    for name, value in check_inputs.items():
+        if not value:
+            logger.warning("Writer输入为空: %s", name)
+
+    # 核心剧情为空，直接阻止生成
+    if not context.current_plot:
+        logger.error("当前章节没有 current_plot，无法生成章节: %s", context.chapter_id)
+        raise ValueError("current_plot为空，无法生成章节")
 
     chapter_prompt = f"""
 

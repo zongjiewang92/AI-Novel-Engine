@@ -1,0 +1,175 @@
+power_system:
+  source: '吞噬星空'
+  version: 1
+  realm:
+    id: 'master_and_true_god'
+    name: '宇宙之主与真神体系'
+    description: >
+      宇宙之主和真神属于宇宙顶级生命层次。 战斗力主要由小型宇宙规模、神体强度、秘法层次、 基因层次、至宝以及境界感悟决定。 同一境界内部差距巨大。
+    levels: 6
+    stages:
+    # =====================================================
+    # 宇宙之主阶段
+    # =====================================================
+
+    - level: 1
+      name: '宇宙之主一阶'
+      realm: '宇宙之主'
+      combat_power:
+        tier: 1
+        description: >
+          刚突破宇宙之主。 掌握宇宙本源之力， 可以创造小型宇宙空间。
+      law:
+        stage: >
+          完全掌控一种本源法则， 融合部分空间或时间法则。
+
+      ability:
+      - '掌控时空'
+      - '创造小型宇宙'
+      - '宇宙之主级秘法'
+
+      comparison:
+        stronger_than:
+        - '顶尖宇宙霸主'
+
+    - level: 2
+      name: '宇宙之主二阶'
+      realm: '宇宙之主'
+      combat_power:
+        tier: 2
+        description: >
+          对宇宙本源力量掌控更加深入， 秘法威力明显提升。
+      ability:
+      - '更强掌控时空'
+      - '更稳定小型宇宙'
+      - '高等宇宙之主秘法'
+
+    - level: 3
+      name: '宇宙之主三阶'
+      realm: '宇宙之主'
+      combat_power:
+        tier: 3
+        description: >
+          宇宙之主中的中等强者。 能够创造强大的巅峰秘法。
+      ability:
+      - '巅峰宇宙之主秘法'
+      - '强大神体爆发'
+      - '高级领域能力'
+
+    - level: 4
+      name: '宇宙之主四阶'
+      realm: '宇宙之主'
+      combat_power:
+        tier: 4
+        description: >
+          宇宙之主中的强者， 接近顶尖层次。
+      ability:
+      - '顶尖宇宙之主秘法'
+      - '强大至宝配合'
+      - '压制普通宇宙之主'
+
+    - level: 5
+      name: '宇宙之主五阶'
+      realm: '宇宙之主'
+      combat_power:
+        tier: 5
+        description: >
+          宇宙之主巅峰层次。 通常拥有极强秘法和至宝。
+      examples:
+      - '混沌城主'
+      ability:
+      - '最强宇宙之主最强融合秘法'
+      - '顶级至宝组合'
+      - '越阶挑战能力'
+
+    - level: 6
+      name: '宇宙之主六阶'
+      realm: '宇宙之主'
+      combat_power:
+        tier: 6
+        description: >
+          宇宙之主理论上的最高战力层次。 已经无限接近真神。 一般情况拥有 至强至宝 的5阶宇宙之主 被称为6阶宇宙之主
+      ability:
+      - '极限宇宙之主最强融合秘法'
+      - '超级神体'
+      - '接近真神战力'
+
+    # =====================================================
+    # 真神阶段
+    # =====================================================
+
+
+    - level: 7
+      name: '真神'
+      realm: '真神'
+      combat_power:
+        tier: 7
+      description: >
+        宇宙海时代突破宇宙最强者后的生命层次。 拥有自己的小型宇宙。
+
+      small_universe:
+        size:
+        - '一亿光年级'
+      ability:
+      - '真神级秘法'
+      - '小型宇宙'
+      - '真神之力'
+
+    - level: 8
+      name: '虚空真神'
+      realm: '真神'
+      combat_power:
+        tier: 8
+      description: >
+        真神进一步突破。 小型宇宙发生蜕变， 实力远超普通真神。
+
+      small_universe:
+        size:
+        - '数亿光年'
+
+      ability:
+      - '虚空真神秘法'
+      - '虚空道感悟'
+      - '更高层次生命结构'
+
+    - level: 9
+      name: '永恒真神'
+      realm: '真神'
+      combat_power:
+        tier: 9
+      description: >
+        起源大陆强者层次。 已经达到极高生命层次。
+      ability:
+      - '永恒真神秘法'
+      - '掌控更高规则'
+      - '创造强大神体结构'
+
+    - level: 10
+      name: '混沌主宰'
+      realm: '真神'
+      combat_power:
+        tier: 10
+      description: >
+        真神体系中的顶级存在。 掌握混沌规则。
+      ability:
+      - '混沌法则'
+      - '混沌主宰秘法'
+      - '影响源世界规则'
+      comparison:
+        above:
+        - '永恒真神'
+
+  hierarchy:
+    universe_master:
+    - '宇宙之主一阶'
+    - '宇宙之主二阶'
+    - '宇宙之主三阶'
+    - '宇宙之主四阶'
+    - '宇宙之主五阶'
+    - '宇宙之主六阶'
+
+    true_god:
+    - '真神-宇宙之主七阶实力'
+    - '真神-宇宙之主八阶实力'
+    - '真神-宇宙之主九阶实力'
+    - '真神-宇宙之主十阶实力'

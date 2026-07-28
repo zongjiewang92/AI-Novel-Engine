@@ -1,0 +1,506 @@
+mind_cultivation_system:
+
+  source: '吞噬星空'
+
+  version: 1
+
+  description: >
+    
+    修心体系。
+
+    描述生命精神、认知、自我、世界观、 意志和宇宙规则之间的关系。
+
+    修心不是提升力量。
+
+    而是提升生命对于自身、他人、 世界和宇宙规律的理解。
+
+  concept:
+
+    definition:
+
+      name: 修心
+
+      description: >
+        
+        修炼内心。
+
+        让意识从混乱走向清明。
+
+        从认识自己。
+
+        到认识世界。
+
+        最终与宇宙规律契合。
+
+    relationship:
+
+      power:
+
+        description: >
+          
+          力量决定能够做到什么。
+
+      mind:
+
+        description: >
+          
+          心境决定能够承载多少力量。
+
+  original_three_realms:
+
+  # =================================================
+  # 第一境 赤子之心
+  # =================================================
+
+
+  - id: pure_child_heart
+
+    name: 赤子之心
+
+    origin: 原著
+
+    keyword:
+
+    - 纯粹
+    - 真诚
+    - 初心
+
+    description: >
+      
+      心灵如明镜。
+
+      没有复杂杂念污染。
+
+      对目标拥有纯粹坚定的追求。
+
+    characteristics:
+
+    - 不被外界诱惑改变
+    - 真诚面对自己
+    - 勇敢面对困难
+    - 保持初心
+    - 思想简单而坚定
+
+    misunderstanding:
+
+      description: >
+        
+        不是幼稚。
+
+        而是不被欲望和恐惧污染。
+
+    representative:
+
+      example:
+
+      - 小孩般纯粹的心
+
+  # =================================================
+  # 第二境 明心见性
+  # =================================================
+
+
+  - id: understand_self
+
+    name: 明心见性
+
+    origin: 原著
+
+    keyword:
+
+    - 认识自己
+    - 看见本心
+
+    description: >
+      
+      真正理解自己的内心。
+
+      知道自己为什么愤怒。
+
+      为什么恐惧。
+
+      为什么执着。
+
+    characteristics:
+
+    - 认识自己的弱点
+    - 理解自己的欲望
+    - 不被情绪控制
+    - 可以观察自己的思想
+
+    ability:
+
+      description: >
+        
+        心灵拥有旁观自己的能力。
+
+    representative:
+
+      example:
+
+      - 看清自己的洪荒欲望
+      - 接受自己的黑暗面
+
+  # =================================================
+  # 第三境 心无限
+  # =================================================
+
+
+  - id: unlimited_heart
+
+    name: 心无限
+
+    origin: 原著
+
+    representative:
+
+      name: 洪
+
+    keyword:
+
+    - 包容
+    - 无限
+    - 宇宙
+
+    description: >
+      
+      心有多大。
+
+      世界就有多大。
+
+    characteristics:
+
+    - 心容万物
+    - 接纳不同生命
+    - 没有恐惧
+    - 没有限制
+    - 思维无限开放
+
+    ability:
+
+      creation:
+
+        description: >
+          
+          心境无限。
+
+          思维没有束缚。
+
+          更容易创造秘法。
+
+  protagonist_path:
+
+    name: 林玄修心体系
+
+    description: >
+      
+      林玄不是从赤子之心开始。
+
+      因为他经历死亡。
+
+      他的第一课不是纯粹。
+
+      而是接受自己的存在。
+
+    first_stage:
+
+      id: knowing_fate
+
+      name: 知命
+
+      keyword:
+
+      - 认识现实
+      - 接受现实
+      - 改变现实
+
+      meaning:
+
+        description: >
+          
+          知命不是宿命。
+
+          而是认识现实规律。
+
+          接受当前状态。
+
+          然后主动改变未来。
+
+      stages:
+
+      # -----------------------------------------
+      # 第一层 知
+      # -----------------------------------------
+
+
+      - id: know
+
+        name: 知
+
+        meaning:
+
+          认识
+
+        description: >
+          
+          看见真实的自己。
+
+          不逃避现实。
+
+        examples:
+
+        - 我已经死亡
+        - 我现在弱小
+        - 我没有优势
+        - 世界存在差距
+
+        core:
+
+          sentence: >
+            
+            事实如此。
+
+      # -----------------------------------------
+      # 第二层 容
+      # -----------------------------------------
+
+
+      - id: accept
+
+        name: 容
+
+        meaning:
+
+          接受
+
+        description: >
+          
+          接受已经存在的一切。
+
+        acceptance:
+
+        - 接受自己的不完美
+        - 接受过去
+        - 接受失败
+        - 接受世界不公平
+        - 接受别人不同
+
+        misunderstanding:
+
+          description: >
+            
+            接受不是放弃。
+
+            而是不再浪费力量对抗事实。
+
+        core:
+
+          sentence: >
+            
+            它存在，所以我面对它。
+
+      # -----------------------------------------
+      # 第三层 行
+      # -----------------------------------------
+
+
+      - id: act
+
+        name: 行
+
+        meaning:
+
+          行动
+
+        description: >
+          
+          在接受现实之后。
+
+          主动创造未来。
+
+        principles:
+
+        - 制定计划
+        - 获取资源
+        - 持续执行
+        - 调整方向
+
+        core:
+
+          sentence: >
+            
+            未来不是等待，而是创造。
+
+  civilization_mind:
+
+    name: 文明修心体系
+
+    description: >
+      
+      林玄未来推动地球文明统一修心教育。
+
+    plan:
+
+      plan_3:
+
+        name: 全球思想整理计划
+
+        objective:
+
+        - 收集华夏历史文献
+        - 收录优秀思想
+        - 整合全球哲学体系
+        - 总结人类智慧
+
+        result:
+
+          name:
+
+            全球修心教材
+
+      plan_4:
+
+        name:
+
+          文明人才培养计划
+
+        objective:
+
+        - 挖掘天才
+        - 培养科研人才
+        - 培养武者
+        - 为宇宙时代准备
+
+        philosophy:
+
+          description: >
+            
+            身体进化之前。
+
+            先完成精神进化。
+
+  cultivation_relation:
+
+    planetary:
+
+      mind_stage:
+
+        知命第一阶段
+
+      description: >
+        
+        开始认识自己。
+
+    stellar:
+
+      mind_stage:
+
+        知命完整阶段
+
+      breakthrough:
+
+        description: >
+          
+          完成认识自己。
+
+          接受自己。
+
+          相信自己可以改变未来。
+
+  stellar_breakthrough:
+
+    name:
+
+      行星级突破恒星级
+
+    requirement:
+
+      physical:
+
+      - 原力核心达到极限
+      - 身体吸收足够宇宙能量
+
+      mental:
+
+      - 完成知命
+      - 心境稳定
+
+    process:
+
+      step_1:
+
+        description: >
+          
+          原力核心开始蜕变。
+
+      step_2:
+
+        description: >
+          
+          大量宇宙能量进入身体。
+
+      step_3:
+
+        description: >
+          
+          原力核心发生变化。
+
+          形成恒星结构。
+
+      step_4:
+
+        description: >
+          
+          身体细胞进一步宇宙化。
+
+    result:
+
+      body:
+
+      - 生命层次提升
+      - 细胞强化
+      - 寿命增加
+
+      energy:
+
+      - 原力储存提升
+      - 能量质量提升
+
+      soul:
+
+      - 灵魂增强
+      - 精神念力增强
+
+  future_evolution:
+
+    universe_level:
+
+      description: >
+        
+        从认识自己。
+
+        进入认识宇宙规律。
+
+    world_lord:
+
+      description: >
+        
+        心创造世界。
+
+        对应界主体内世界。
+
+    universe_master:
+
+      description: >
+        
+        心掌控时空。
+
+        对应宇宙之主境界。
+
+    final:
+
+      description: >
+        
+        心与宇宙规律完全契合。
+
+        走向浑源生命。

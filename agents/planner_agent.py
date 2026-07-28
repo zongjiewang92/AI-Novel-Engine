@@ -1,6 +1,43 @@
-from llm.ollama_client import chat
 import yaml
-import json
+
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
+
+
+PLANNER_SYSTEM = """
+
+你是一名专业的长篇网络小说策划编辑。
+
+
+你的任务：
+
+设计长篇网络小说剧情规划。
+
+
+必须遵守：
+
+1. 尊重已有世界观
+2. 尊重力量体系
+3. 尊重时间线
+4. 保持剧情递进
+5. 不提前消耗核心剧情
+6. 保留长期伏笔
+
+
+输出要求：
+
+只输出 YAML。
+
+禁止：
+
+- Markdown
+- 解释
+- 分析
+- 作者说明
+
+
+"""
 
 
 class PlannerAgent:
@@ -10,67 +47,75 @@ class PlannerAgent:
         self.context = context
 
     # =================================================
-    # Volume Planning
+    # LLM
+    # =================================================
+
+    def call_llm(self, prompt):
+
+        result = self.context.llm.chat(
+            prompt=prompt,
+            system=PLANNER_SYSTEM,
+            options={"temperature": 0.5, "num_predict": 3000, "repeat_penalty": 1.1},
+        )
+
+        return self.parse_yaml(result)
+
+    # =================================================
+    # Volume
     # =================================================
 
     def create_volume_plan(self):
 
+        logger.info("生成 Volume Planning")
+
         prompt = f"""
 
-你是一名资深网络小说总策划。
-
-请为小说创建 Volume（卷）级剧情规划。
-
-
-小说:
+【小说信息】
 
 {self.context.config["novel"]}
 
 
 
-世界背景:
+【世界规则】
 
-{self.context.knowledge}
+{self.context.global_rules}
 
 
 
-主角:
+【主角状态】
 
-{self.context.novel_state["protagonist"]}
+{self.context.novel_state.get("protagonist")}
 
+
+
+任务：
+
+设计一个 Volume。
 
 
 要求：
 
-生成一个长期剧情 Volume。
+包含：
 
-
-必须包含：
-
-- volume id
-- name
+- id
+- title
 - goal
 - theme
 - main_conflict
 - ending
 
 
-输出 YAML。
 
-
-
-格式:
+输出格式：
 
 
 volume:
 
-  id: volume001
+  id:
 
-  name:
-
+  title:
 
   goal:
-
 
   theme:
 
@@ -85,109 +130,101 @@ volume:
 
 """
 
-        result = chat(prompt)
-
-        return yaml.safe_load(result)
+        return self.call_llm(prompt)
 
     # =================================================
-    # Arc Planning
+    # Arc
     # =================================================
 
     def create_arc_plan(self, volume_plan):
 
+        logger.info("生成 Arc Planning")
+
         prompt = f"""
 
 
-你是一名网络小说剧情设计师。
-
-
-根据 Volume 规划生成 Arc。
-
-
-Volume:
+【Volume规划】
 
 {volume_plan}
 
 
 
-要求：
+任务：
 
-Arc 是一个连续剧情阶段。
+设计一个 Arc。
+
+
+Arc 是 Volume 内连续剧情阶段。
 
 
 必须包含：
 
-- arc id
-- name
+- id
+- title
 - goal
 - conflict
 - key_events
 - ending
 
 
-输出 YAML。
 
-
-格式：
+输出：
 
 
 arc:
 
- id: arc001
+  id:
+
+  title:
+
+  goal:
+
+  conflict:
 
 
- name:
+  key_events:
+
+    -
 
 
- goal:
-
-
- conflict:
-
-
- key_events:
-
-   -
-
-
- ending:
+  ending:
 
 
 """
 
-        result = chat(prompt)
-
-        return yaml.safe_load(result)
+        return self.call_llm(prompt)
 
     # =================================================
-    # Plot Planning
+    # Plot
     # =================================================
 
     def create_plot_plan(self, volume_plan, arc_plan):
 
+        logger.info("生成 Plot Planning")
+
         prompt = f"""
 
 
-你是一名小说剧情规划师。
-
-
-根据：
-
-Volume:
+【Volume】
 
 {volume_plan}
 
 
-Arc:
+
+【Arc】
 
 {arc_plan}
 
 
 
-生成 Plot。
+任务：
+
+设计 Plot。
 
 
-Plot 是几个章节完成的关键事件。
+Plot 是：
+
+几个章节完成的核心剧情事件。
 
 
 必须包含：
@@ -198,14 +235,13 @@ plot:
  id:
 
 
- name:
+ title:
 
 
  goal:
 
 
  events:
-
 
    -
 
@@ -220,44 +256,39 @@ plot:
 
 
 
-输出 YAML。
-
-
 """
 
-        result = chat(prompt)
-
-        return yaml.safe_load(result)
+        return self.call_llm(prompt)
 
     # =================================================
-    # Chapter Planning
+    # Chapter
     # =================================================
 
     def create_chapter_plan(self, plot_plan):
 
+        logger.info("生成 Chapter Planning")
+
         prompt = f"""
 
 
-你是一名章节规划专家。
-
-
-根据 Plot：
+【Plot】
 
 {plot_plan}
 
 
 
+任务：
+
 拆分章节。
 
 
-生成一个章节规划。
+一个 Chapter 是实际生成正文单位。
 
 
-要求：
+输出：
 
 
 chapter:
-
 
  id:
 
@@ -280,46 +311,40 @@ chapter:
  scenes:
 
 
-   - scene01
+   - scene_01
 
-   - scene02
-
-
-
-输出 YAML。
 
 
 """
 
-        result = chat(prompt)
-
-        return yaml.safe_load(result)
+        return self.call_llm(prompt)
 
     # =================================================
-    # Scene Planning
+    # Scene
     # =================================================
 
     def create_scene_plan(self, chapter_plan):
 
+        logger.info("生成 Scene Planning")
+
         prompt = f"""
 
 
-你是一名网文分镜设计师。
-
-
-根据章节：
+【Chapter】
 
 {chapter_plan}
 
 
 
+任务：
+
 生成 Scene。
 
 
-Scene 是实际写作的小单元。
+Scene 是最小写作单元。
 
 
-每个 Scene 必须包含：
+输出：
 
 
 scene:
@@ -348,17 +373,12 @@ scene:
  ending:
 
 
-输出 YAML。
-
-
 """
 
-        result = chat(prompt)
-
-        return yaml.safe_load(result)
+        return self.call_llm(prompt)
 
     # =================================================
-    # Full Pipeline
+    # Full
     # =================================================
 
     def generate_full_plan(self):
@@ -373,7 +393,9 @@ scene:
 
         scenes = []
 
-        for scene_id in chapter["chapter"]["scenes"]:
+        scene_ids = chapter.get("chapter", {}).get("scenes", [])
+
+        for scene_id in scene_ids:
 
             scene = self.create_scene_plan(chapter)
 
@@ -386,3 +408,31 @@ scene:
             "chapter": chapter,
             "scenes": scenes,
         }
+
+    # =================================================
+    # YAML Parser
+    # =================================================
+
+    def parse_yaml(self, result):
+
+        try:
+
+            return yaml.safe_load(result)
+
+        except Exception:
+
+            logger.error("Planner YAML解析失败:\n%s", result)
+
+            start = result.find("volume:")
+
+            if start != -1:
+
+                try:
+
+                    return yaml.safe_load(result[start:])
+
+                except:
+
+                    pass
+
+            raise ValueError("Planner输出无法解析")

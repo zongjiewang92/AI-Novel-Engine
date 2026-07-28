@@ -1,0 +1,540 @@
+power_system:
+  source: '吞噬星空'
+  version: 2
+  description: >
+    不朽之前生命进化体系。 描述武者从普通生命向宇宙生命跃迁过程。 包含身体、灵魂、能量核心、生命本质、体内世界以及突破过程。
+  realms:
+  # =====================================================
+  # 学徒级
+  # =====================================================
+  - id: apprentice
+    name: 学徒级
+    levels: 9
+    description: >
+      普通生命阶段。 尚未真正掌握宇宙能量。 身体依靠自身力量和基础生命能量。
+    life_level:
+      level: 1
+      description: >
+        普通碳基生命。 生命本质没有发生宇宙级跃迁。
+    evolution:
+      body:
+      - 身体强化
+      - 肌肉密度增加
+      - 骨骼强度提升
+      cell:
+      - 细胞活性提升
+      - 新陈代谢增强
+    soul:
+      level: 普通灵魂
+      description: >
+        灵魂弱小，只能影响自身精神活动。
+    energy_core:
+      type: 无
+      description: >
+        未形成原力核心。
+    breakthrough:
+      condition:
+      - 身体突破极限
+      - 感应宇宙能量
+      process:
+      - 引动宇宙能量进入身体
+      - 凝聚原力核心
+    abilities:
+    - 超越普通人的力量
+    - 极限速度
+    - 身体强化
+    stages:
+    - level: 9
+      power: 数千吨
+      speed: Mach 10
+      flight: false
+      law:
+        stage: 无
+        description: 无法则感悟
+  # =====================================================
+  # 行星级
+  # =====================================================
+  - id: planetary
+    name: 行星级
+    levels: 9
+    description: >
+      第一次生命跃迁。 身体内部形成微型行星。 可以吸收宇宙能量，自主产生原力。
+    life_level:
+      level: 2
+      description: >
+        初级宇宙生命。 生命强度超过普通生命数十倍。
+    evolution:
+      body:
+      - 身体细胞宇宙能量化
+      - 肉身强度大幅提升
+      - 寿命增加
+      cell:
+        description: >
+          每一个细胞开始储存原力。
+    energy_core:
+      type: 原力核心
+      description: >
+        丹田位置形成原力核心。 可以储存和释放原力。
+    soul:
+      level: 初级精神生命
+      evolution:
+      - 精神念力增强
+      - 可以控制精神念师能力
+    breakthrough:
+      process:
+      - 吸收宇宙能量
+      - 凝聚原力核心
+      - 身体完成第一次宇宙化
+    abilities:
+    - 肉身飞行
+    - 原力攻击
+    - 精神念力控制
+    - 初步感悟领域
+    stages:
+    - level: 1
+      power: 万吨
+      speed: 3 km/s
+      flight: true
+      law:
+        stage: 无
+    - level: 2
+      power: 2万吨
+      speed: 5 km/s
+      flight: true
+      law:
+        stage: 无
+    - level: 3
+      power: 4万吨
+      speed: 6 km/s
+      flight: true
+    - level: 4
+      power: 8万吨
+      speed: 7 km/s
+    - level: 5
+      power: 15万吨
+      speed: 8 km/s
+    - level: 6
+      power: 30万吨
+      speed: 9 km/s
+    - level: 7
+      power: 60万吨
+      speed: 10 km/s
+    - level: 8
+      power: 100万吨
+      speed: 11 km/s
+      law:
+        stage: 领域雏形
+    - level: 9
+      power: 200万吨
+      speed: 15 km/s
+      law:
+        stage: 领域入门
+  # =====================================================
+  # 恒星级
+  # =====================================================
+  - id: stellar
+    name: 恒星级
+    levels: 9
+    description: >
+      第二次生命跃迁。 体内形成恒星。 原力核心进化为恒星核心。
+    life_level:
+      level: 3
+      description: >
+        真正宇宙生命。 身体可以长期存在于宇宙环境。
+    evolution:
+      body:
+      - 细胞完全宇宙能量化
+      - 身体强度达到恒星级
+      lifespan:
+        description: 寿命提升到数千年
+    energy_core:
+      type: 恒星核心
+      description: >
+        原力核心进一步成长。 内部形成类似恒星结构。 持续产生庞大原力。
+    soul:
+      evolution:
+      - 灵魂强度提升
+      - 精神念力大幅增强
+      - 可以控制更多念力兵器
+    breakthrough:
+      process:
+      - 原力核心吸收宇宙能量
+      - 核心坍缩
+      - 形成恒星结构
+    abilities:
+    - 恒星级肉身
+    - 宇宙空间长期生存
+    - 强大的原力攻击
+    - 初步宇宙法则感悟
+    stages:
+    - level: 1
+      power: 500万吨
+      speed: 20 km/s
+      law:
+        stage: 法则感悟
+    - level: 2
+      power: 1000万吨
+      speed: 30 km/s
+      law:
+        stage: 法则入门
+    - level: 3
+      power: 2000万吨
+      speed: 40 km/s
+    - level: 4
+      power: 4000万吨
+      speed: 60 km/s
+    - level: 5
+      power: 8000万吨
+      speed: 80 km/s
+    - level: 6
+      power: 1.5亿吨
+      speed: 100 km/s
+    - level: 7
+      power: 3亿吨
+      speed: 150 km/s
+    - level: 8
+      power: 6亿吨
+      speed: 200 km/s
+    - level: 9
+      power: 10亿吨
+      speed: 300 km/s
+      law:
+        stage: 法则第一层
+  # =====================================================
+  # 域主级
+  # =====================================================
+  - id: domain_lord
+    name: 域主级
+    levels: 9
+    description: >
+      
+      第三次生命跃迁。 身体开始掌控空间领域。 可以形成领域力量。 域主已经真正进入宇宙强者体系。
+    life_level:
+      level: 4
+      description: >
+        
+        高等宇宙生命。 身体完全宇宙能量化。 生命结构远超恒星级。
+    evolution:
+      body:
+      - 细胞进一步强化
+      - 身体可以承载更庞大的原力
+      - 肉身拥有强大恢复能力
+      lifespan:
+        description: >
+          
+          寿命达到数百万年级别。
+    core:
+      type: 原力核心
+      description: >
+        
+        恒星级核心进一步压缩。 体内形成稳定原力核心 质点。 这是未来突破界主， 凝聚晶核的基础。
+      structure:
+      - 原力能量核心
+      - 精神念力核心
+      - 身体生命能量融合
+    soul:
+      evolution:
+      - 灵魂进一步凝练
+      - 精神念力达到高阶
+      - 可以同时控制大量念力兵器
+      description: >
+        
+        域主灵魂已经具备一定不灭性质， 但仍然无法脱离身体长期存在。
+    breakthrough:
+      process:
+      - 原力核心不断成长
+      - 感悟空间法则或者时间法则
+      - 形成领域
+      result:
+      - 掌控自身领域
+      - 可以压制低等级生命
+    law_advantage:
+      description: >
+        
+        域主开始大量接触宇宙本源法则。 领域是法则力量的初级体现。
+      abilities:
+      - 领域压制
+      - 法则攻击
+      - 空间波动感知
+    stages:
+    - level: 1
+      power: 百兆吨
+      speed: 0.01c
+      law:
+        stage: 领域一重
+    - level: 2
+      power: 两百兆吨
+      speed: 0.015c
+    - level: 3
+      power: 五百兆吨
+      speed: 0.02c
+    - level: 4
+      power: 千兆吨
+      speed: 0.04c
+    - level: 5
+      power: 数千兆吨
+      speed: 0.05c
+    - level: 6
+      power: 万兆吨
+      speed: 0.06c
+    - level: 7
+      power: 数京吨
+      speed: 0.08c
+    - level: 8
+      power: 十京吨
+      speed: 0.09c
+    - level: 9
+      power: 两京吨
+      speed: 0.1c
+      law:
+        stage: 法则精通
+  # =====================================================
+  # 界主级
+  # =====================================================
+  - id: world_lord
+    name: 界主级
+    levels: 9
+    description: >
+      
+      宇宙生命第四次跃迁。 域主突破后， 原力核心发生本质变化。 原力、念力、灵魂、生命本源融合， 凝聚成为界主晶核。 晶核内部诞生体内世界。 界主因此拥有创造一个小型世界的能力。
+    life_level:
+      level: 5
+      description: >
+        
+        顶级宇宙生命。 已经触摸宇宙本源。 是宇宙中真正的强者阶层。
+    evolution:
+      body:
+      - 身体完全生命能量化
+      - 细胞拥有强大生命本源
+      - 肉身可以承载世界力量
+      lifespan:
+        description: >
+          
+          寿命达到亿年级。
+    core:
+      previous:
+        type: 原力核心
+        description: >
+          
+          域主体内的能量核心。
+      evolution:
+        type: 晶核
+        name: 界主晶核
+        description: >
+          
+          域主突破界主时。 原力、念力、灵魂、生命印记融合。 原力核心发生蜕变。 形成承载界主全部生命本质的晶核。
+      function:
+      - 储存生命本源
+      - 承载灵魂
+      - 储存世界力量
+      - 连接体内世界
+      importance:
+        description: >
+          
+          界主身体即使毁灭。 只要晶核存在， 生命本源仍然可以恢复。
+    soul:
+      evolution:
+      - 灵魂与晶核融合
+      - 灵魂强度产生巨大提升
+      - 可以承载世界力量
+      description: >
+        
+        界主灵魂已经发生质变。 灵魂力量可以影响空间。
+    breakthrough:
+      name: 域主突破界主
+      requirements:
+      - 域主九阶
+      - 对空间法则或者时间法则有所感悟
+      - 原力核心达到极限
+      process:
+        step_1:
+          description: >
+            
+            原力核心开始崩解。
+        step_2:
+          description: >
+            
+            原力、念力、灵魂融合。
+        step_3:
+          description: >
+            
+            凝聚界主晶核。
+        step_4:
+          description: >
+            
+            晶核沟通宇宙本源。
+        step_5:
+          description: >
+            
+            大量宇宙本源能量灌入晶核。
+        step_6:
+          description: >
+            
+            在晶核内部形成体内世界。
+    inner_world:
+      name: 体内世界
+      description: >
+        
+        界主最核心能力。 晶核内部孕育的小型宇宙空间。 是界主力量来源。
+      creation:
+        source:
+          description: >
+            
+            宇宙本源力量进入晶核。 形成空间结构。
+        initial:
+          description: >
+            
+            普通界主突破后。 体内世界通常只有几十公里到数百公里直径。
+      size:
+        ordinary_world_lord:
+          diameter:
+            range: >
+              
+              10公里 - 1000公里
+          description: 普通界主。
+        advanced_world_lord:
+          diameter:
+            range: >
+              
+              数千公里 - 数万公里
+          description: 强大界主。
+        perfect_gene:
+          diameter:
+            range: >
+              
+              上亿公里
+          example:
+            name: 罗峰
+            description: >
+              
+              金角巨兽完美基因。 突破界主后体内世界达到恐怖规模。
+      growth:
+        factors:
+        - 基因层次
+        - 身体大小
+        - 秘法
+        - 灵魂强度
+        limitation:
+          description: >
+            
+            体内世界越大。 界主实力越强。 但是突破不朽时难度越高。
+    law_advantage:
+      description: >
+        
+        界主是感悟宇宙法则最快的阶段。
+      reason:
+      - 可以直接沟通宇宙本源
+      - 体内世界模拟真实宇宙运行
+      - 可以观察空间结构变化
+      - 法则感悟速度远超域主
+      advantage:
+        space_law:
+          description: >
+            
+            体内世界不断成长。 界主对于空间结构天然更加敏感。
+        time_law:
+          description: >
+            
+            部分天才界主开始接触时间法则。
+    abilities:
+      creation_ability:
+        description: >
+          
+          界主拥有创造空间和世界的能力。
+        abilities:
+          world_projection:
+            name: 世界投影
+            description: >
+              
+              将体内世界力量投射到外界。 形成强大压制领域。
+          space_cut:
+            name: 空间切割
+            description: >
+              
+              利用空间法则。 可以简单切割空间。
+          world_creation:
+            name: 界主世界
+            description: >
+              
+              利用体内世界力量。 创造独立空间。
+          world_inside_world:
+            name: 界中界
+            description: >
+              
+              在大型空间内部创造独立世界。
+            example:
+            - 雷霆世界界中界
+          space_ring:
+            name: 空间戒指
+            description: >
+              
+              利用空间法则创造稳定空间装备。
+            requirement:
+              minimum: 界主级
+    combat:
+      abilities:
+      - 掌控世界力量
+      - 空间压制
+      - 创造世界
+      - 世界投影
+      - 强大领域能力
+    immortal_breakthrough:
+      name: 界主突破不朽
+      process:
+        step_1:
+          description: >
+            
+            打碎界主晶核。
+        step_2:
+          description: >
+            
+            体内世界崩溃。
+        step_3:
+          description: >
+            
+            世界力量转化为不朽神力。
+        step_4:
+          description: >
+            
+            生命印记融入宇宙本源。
+      difficulty:
+        description: >
+          
+          体内世界越大。 需要粉碎的世界本源越多。 突破失败概率越高。
+        examples:
+          ordinary:
+            description: 普通界主体内世界较小。 突破相对容易。
+          perfect_gene:
+            description: 完美基因生命。 体内世界巨大。 突破不朽难度极高。
+    stages:
+    - level: 1
+      power: 数十京吨以上
+      speed: 0.2c
+      law:
+        stage: 法则大量感悟
+    - level: 2
+      power: 百京吨
+      speed: 0.25c
+    - level: 3
+      power: 数百京吨
+      speed: 0.3c
+    - level: 4
+      power: 千京吨
+      speed: 0.4c
+    - level: 5
+      power: 万京吨
+      speed: 0.5c
+    - level: 6
+      power: 数万京吨
+      speed: 0.55c
+    - level: 7
+      power: 十万京吨
+      speed: 0.6c
+    - level: 8
+      power: 数十万京吨
+      speed: 0.65c
+    - level: 9
+      power: 百京吨以上
+      speed: 0.7c
+      law:
+        stage: 法则承认

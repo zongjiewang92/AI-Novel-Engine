@@ -1,0 +1,200 @@
+gene_system:
+  source: '吞噬星空'
+  version: 1
+  description: >
+    
+    描述吞噬星空宇宙中的生命基因体系。 基因倍数代表生命本质强弱。 与境界体系独立。 境界决定力量上限。 基因倍数决定同境界下神体强度。
+  basic_concept:
+    gene_level:
+      description: >
+        境界越低，生命层次越低，身体强度越低，基因强度越低，反而更容易提升基因倍数，但是对于低境界的人很难获取到提升基因倍数的宝物，因此多数人基因倍数是1倍。 基因倍数代表生命基因层次。 同境界情况下，基因倍数越高，身体强度、神体大小、恢复能力越强，更容易感悟法则。
+    calculation:
+      formula: >
+        
+        实力 = 境界 × 基因倍数 × 秘法 × 宝物
+  normal_life:
+    name: 普通宇宙生命
+    origin:
+      description: >
+        
+        原始宇宙自然孕育的大量生命。
+    initial_gene:
+      multiple: 1
+      description: >
+        
+        普通生命出生时基因倍数。
+    evolution_limit:
+      before_universe_master:
+        maximum: 100
+        description: >
+          
+          宇宙之主之前。 普通生命受到原始宇宙规则限制。 基因倍数最高只能达到100倍。
+      reason:
+      - 生命结构限制
+      - 原始宇宙规则压制
+      - 无法完全掌控自身生命本源
+  gene_multiplier:
+    stages:
+    - range: 1-10
+      level: 初级生命
+      description: >
+        
+        普通生命阶段。
+    - range: 10-50
+      level: 高等生命
+      description: >
+        
+        生命本质明显提升。
+    - range: 50-100
+      level: 顶级普通生命
+      description: >
+        
+        达到宇宙规则允许极限。
+    - range: 100-1000
+      level: 超越普通生命
+      description: >
+        
+        天生特殊生命或者突破限制生命。
+    - range: 1000-10081
+      level: 高等特殊生命
+      description: >
+        
+        接近完美基因。
+    - range: 10081-10086
+      level: 完美基因
+      description: >
+        
+        宇宙生命理论极限。
+  special_life:
+    name: 天生特殊生命
+    description: >
+      
+      宇宙自然孕育。 出生时生命基因已经远超普通生命。
+    characteristics:
+    - 出生即拥有高基因倍数
+    - 身体结构特殊
+    - 神体巨大
+    - 天赋秘法强大
+    examples:
+      golden_horn_beast:
+        name: 金角巨兽
+        description: >
+          
+          天生特殊生命。 出生拥有远超普通生命的基因层次。
+      plant_life:
+        name: 特殊植物生命
+        description: >
+          
+          部分植物生命拥有极高生命本质。
+  universe_master_breakthrough:
+    name: 宇宙之主基因突破
+    description: >
+      
+      宇宙之主掌控时空后。 可以影响自身生命本源。
+    reason:
+      space_time_control:
+        description: >
+          
+          掌控时空后。 可以完全控制自身神体内部空间。
+      remove_constraint:
+        description: >
+          
+          屏蔽原始宇宙规则影响。 打破100倍基因限制。
+    process:
+    - 掌控时空
+    - 改造神体结构
+    - 提升生命基因
+    - 突破100倍限制
+    limit:
+      description: >
+        
+        即使成为宇宙之主。 想达到完美基因依旧极其困难。
+      maximum:
+        theoretical:
+          value: 10086
+          description: 完美基因层次。
+  perfect_gene:
+    name: 完美基因生命
+    multiple:
+      value: 10086
+    description: >
+      
+      理论上宇宙生命最高基因层次。
+    characteristics:
+      body:
+      - 神体强度达到极限
+      - 能量储备巨大
+      - 恢复能力恐怖
+      breakthrough:
+        description: >
+          
+          基因层次越高。 后续突破越困难。
+    example:
+      name: 罗峰
+      description: >
+        
+        通过特殊机缘达到完美基因层次。
+  nine_calamity_secret:
+    name: 九劫秘典
+    type: 后天基因进化秘法
+    description: >
+      
+      一种能够突破普通生命限制。 强行提升生命基因层次的秘法。
+    mechanism:
+    - 改变基因结构
+    - 提升生命本质
+    - 突破100倍限制
+    significance:
+      description: >
+        
+        普通生命可以依靠此类秘法。 走向特殊生命层次。
+  treasure_upgrade:
+    name: 基因提升宝物
+    description: >
+      
+      可以提升生命基因倍数的特殊宝物。
+    characteristics:
+      rarity:
+        level: 极高
+      reason:
+      - 数量稀少
+      - 大多数不可复制
+      - 高阶强者争夺
+    examples:
+      blood_luo_crystal:
+        name: 血洛晶
+        type: 消耗型宝物
+        function:
+          description: >
+            
+            融合后提升生命本质。 增强基因倍数。
+        users:
+        - 界主
+        - 不朽
+        - 尊者
+        value:
+          description: >
+            
+            即使尊者层次。 也会争夺此类宝物。
+  relationship_with_realm:
+    description: >
+      
+      基因倍数不会直接提升境界。 但会极大增强同境界实力。
+    examples:
+      normal_world_lord:
+        gene: 1
+        comparison: 基础界主
+      perfect_gene_world_lord:
+        gene: 10086
+        comparison: >
+          
+          同境界拥有数千倍生命本质优势。
+  future_evolution:
+    universe_master:
+      description: >
+        
+        宇宙之主阶段。 是基因突破的重要阶段。
+    true_god:
+      description: >
+        
+        真神之后。 可以继续优化神体。 迈向更高生命层次。
