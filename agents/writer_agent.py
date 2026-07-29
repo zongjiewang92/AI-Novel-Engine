@@ -47,20 +47,20 @@ def write_chapter(context):
 
     for name, value in check_inputs.items():
         if not value:
-            logger.warning("Writer输入为空: %s", name)
+            logger.warning("Writer input is empty: %s", name)
 
-    # 统计输入长度
+    # length
     for name, value in check_inputs.items():
         length = len(str(value)) if value else 0
-        logger.info("Writer输入长度: %s = %d chars", name, length)
+        logger.info("Writer input length: %s = %d chars", name, length)
 
-    # 核心剧情为空，直接阻止生成
+    # current_plot is empty exit
     if not context.current_plot:
         logger.error(
-            "当前章节没有 current_plot，无法生成章节: %s",
+            "current_plot is empty, do exit. : %s",
             context.chapter_id,
         )
-        raise ValueError("current_plot为空，无法生成章节")
+        raise ValueError("current_plot is empty, can not generate chapter.")
 
     prompt = f"""
 

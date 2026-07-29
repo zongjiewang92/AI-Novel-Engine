@@ -64,7 +64,7 @@ def ensure_planning(context):
 
 
 def generate_chapter(context):
-    logger.info("开始生成章节")
+    logger.info("Start generate_chapter")
     return write_chapter(context)
 
 
@@ -189,7 +189,7 @@ if __name__ == "__main__":
 
     project = ProjectManager("swallowing_star_fanfic")
 
-    logger.info("小说引擎启动")
+    logger.info("Start...")
 
     # ==================================
     # Context
@@ -205,7 +205,7 @@ if __name__ == "__main__":
 
     if not ensure_planning(context):
 
-        logger.info("Planning生成完成，请重新运行")
+        logger.info("Planning generate done.")
 
         sys.exit(0)
 
@@ -224,7 +224,7 @@ if __name__ == "__main__":
 
     # if not review["pass"]:
 
-    #     logger.warning("章节审核失败")
+    #     logger.warning("Failed review!")
 
     #     sys.exit(1)
 
@@ -236,17 +236,17 @@ if __name__ == "__main__":
     logger.info("Done generate_memory.")
 
     # ==================================
-    # 8. 保存章节和基础memory
+    # 8. save chapter and memory
     # ==================================
 
     save_result(context, chapter, memories)
     logger.info("Done save_result.")
 
     # ==================================
-    # 9. 更新人物长期Memory
+    # 9. update character Memory
     # ==================================
 
     update_character_memory(context, memories["chapter"])
     logger.info("Done update_character_memory.")
 
-    logger.info("本章生成完成")
+    logger.info("ALL DONE!!!!")
