@@ -24,20 +24,14 @@ class ProjectContext:
         self.llm = OllamaClient()
 
         # =================================================
-        # Config
-        # =================================================
-
-        self.config = self.load_config()
-
-        # =================================================
         # State
         # =================================================
 
         self.state_manager = StateManager(self.root)
 
-        self.state_manager.create_checkpoint_if_changed()
+        # self.state_manager.create_checkpoint_if_changed()
 
-        self.novel_state = self.state_manager.load_state()
+        # self.novel_state = self.state_manager.load_state()
 
         # =================================================
         # Task
@@ -134,18 +128,6 @@ class ProjectContext:
         # # =================================================
 
         # self.chapter_count = self.get_chapter_count()
-
-    # =================================================
-    # Config
-    # =================================================
-
-    def load_config(self):
-
-        file = self.root / "config.yaml"
-
-        with open(file, encoding="utf-8") as f:
-
-            return yaml.safe_load(f)
 
     # =================================================
     # Chapter History

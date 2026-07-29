@@ -70,11 +70,6 @@ class PlannerAgent:
 
         prompt = f"""
 
-【小说信息】
-
-{self.context.config["novel"]}
-
-
 
 【世界规则】
 

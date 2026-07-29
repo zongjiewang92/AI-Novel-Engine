@@ -1,3 +1,8 @@
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
+
+
 WRITER_SYSTEM = """
 你是一名专业的长篇网络小说作者。
 
@@ -28,10 +33,6 @@ WRITER_SYSTEM = """
 - 创作过程
 """
 
-from utils.logger import get_logger
-
-logger = get_logger(__name__)
-
 
 def write_chapter(context):
 
@@ -60,8 +61,6 @@ def write_chapter(context):
             context.chapter_id,
         )
         raise ValueError("current_plot为空，无法生成章节")
-    
-
 
     prompt = f"""
 

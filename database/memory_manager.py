@@ -15,7 +15,7 @@ class MemoryManager:
         #   volumes
         #       volume001
         #
-        self.memory_root = self.root / "memory" / "volumes"
+        self.memory_root = self.root / "memory"
 
     # ==================================================
     # JSON
@@ -64,19 +64,19 @@ class MemoryManager:
 
         volume, arc, _, _ = self._ids(target)
 
-        return self.volume_path(target) / "arcs" / arc
+        return self.volume_path(target) / arc
 
     def plot_path(self, target):
 
         volume, arc, plot, _ = self._ids(target)
 
-        return self.arc_path(target) / "plots" / plot
+        return self.arc_path(target) / plot
 
     def chapter_path(self, target):
 
         volume, arc, plot, chapter = self._ids(target)
 
-        return self.plot_path(target) / "chapters" / chapter
+        return self.plot_path(target) / chapter
 
     # ==================================================
     # Exists

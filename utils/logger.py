@@ -2,54 +2,41 @@ import logging
 from pathlib import Path
 from datetime import datetime
 
-_initialized = False
+# ==================================================
+# Repository Root
+# ==================================================
 
+REPO_ROOT = Path(__file__).resolve().parent.parent
 
-def setup_logger(project_root):
+# ==================================================
+# Logger
+# ==================================================
 
-    global _initialized
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
 
-    if _initialized:
+if not logger.handlers:
 
-        return
+    formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 
-    root = Path(project_root)
+    # Console
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
 
-    log_dir = root / "logs"
-
-    log_dir.mkdir(parents=True, exist_ok=True)
-
-    log_file = log_dir / f"{datetime.now():%Y-%m-%d}.log"
-
-    formatter = logging.Formatter(
-        "%(asctime)s " "[%(levelname)s] " "%(name)s: " "%(message)s"
+    # File
+    file_handler = logging.FileHandler(
+        REPO_ROOT / f"{datetime.now():%Y-%m-%d}.log", encoding="utf-8"
     )
-
-    # root logger
-
-    logger = logging.getLogger()
-
-    logger.setLevel(logging.INFO)
-
-    # console
-
-    console = logging.StreamHandler()
-
-    console.setFormatter(formatter)
-
-    # file
-
-    file_handler = logging.FileHandler(log_file, encoding="utf-8")
-
     file_handler.setFormatter(formatter)
 
-    logger.addHandler(console)
-
+    logger.addHandler(console_handler)
     logger.addHandler(file_handler)
 
-    _initialized = True
+
+# ==================================================
+# API
+# ==================================================
 
 
-def get_logger(name):
-
+def get_logger(name: str) -> logging.Logger:
     return logging.getLogger(name)

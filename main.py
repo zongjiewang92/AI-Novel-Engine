@@ -11,8 +11,9 @@ from database.project_context import ProjectContext
 from database.memory_manager import MemoryManager
 from database.character_manager import CharacterManager
 
-from utils.logger import setup_logger, get_logger
-from pathlib import Path
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 
 def save_chapter(content, context):
@@ -20,7 +21,6 @@ def save_chapter(content, context):
     target = context.target
     output = context.output
 
-    volume = target["volume"]
     chapter = target["chapter"]
 
     # ==============================
@@ -29,7 +29,7 @@ def save_chapter(content, context):
 
     root = context.root / output["directory"]
 
-    chapter_dir = root / volume / "chapters" / chapter
+    chapter_dir = root / target["volume"] / target["arc"] / target["plot"]
 
     chapter_dir.mkdir(parents=True, exist_ok=True)
 
@@ -115,35 +115,35 @@ def generate_memory(context, chapter):
 
     memories["characters"] = character_memory
 
-    # -----------------------
-    # Plot Memory
-    # -----------------------
+    # # -----------------------
+    # # Plot Memory
+    # # -----------------------
 
-    if context.is_plot_finished:
+    # if context.is_plot_finished:
 
-        logger.info("Plot结束，更新Plot Memory")
+    #     logger.info("Plot结束，更新Plot Memory")
 
-        memories["plot"] = agent.update_plot_memory(chapter_memory)
+    #     memories["plot"] = agent.update_plot_memory(chapter_memory)
 
-    # -----------------------
-    # Arc Memory
-    # -----------------------
+    # # -----------------------
+    # # Arc Memory
+    # # -----------------------
 
-    if context.is_arc_finished:
+    # if context.is_arc_finished:
 
-        logger.info("Arc结束，更新Arc Memory")
+    #     logger.info("Arc结束，更新Arc Memory")
 
-        memories["arc"] = agent.update_arc_memory(context.plot_memories)
+    #     memories["arc"] = agent.update_arc_memory(context.plot_memories)
 
-    # -----------------------
-    # Volume Memory
-    # -----------------------
+    # # -----------------------
+    # # Volume Memory
+    # # -----------------------
 
-    if context.is_volume_finished:
+    # if context.is_volume_finished:
 
-        logger.info("Volume结束，更新Volume Memory")
+    #     logger.info("Volume结束，更新Volume Memory")
 
-        memories["volume"] = agent.update_volume_memory(context.arc_memories)
+    #     memories["volume"] = agent.update_volume_memory(context.arc_memories)
 
     return memories
 
@@ -189,10 +189,6 @@ if __name__ == "__main__":
 
     project = ProjectManager("swallowing_star_fanfic")
 
-    setup_logger(project.root)
-
-    logger = get_logger(__name__)
-
     logger.info("小说引擎启动")
 
     # ==================================
@@ -220,10 +216,6 @@ if __name__ == "__main__":
     chapter = generate_chapter(context)
     logger.info("Done generate_chapter.")
 
-
-
-
-
     # ==================================
     # Critic
     # ==================================
@@ -240,11 +232,8 @@ if __name__ == "__main__":
     # Memory
     # ==================================
 
-
     memories = generate_memory(context, chapter)
     logger.info("Done generate_memory.")
-
-
 
     # ==================================
     # 8. 保存章节和基础memory
@@ -253,14 +242,11 @@ if __name__ == "__main__":
     save_result(context, chapter, memories)
     logger.info("Done save_result.")
 
-
-
     # ==================================
     # 9. 更新人物长期Memory
     # ==================================
 
     update_character_memory(context, memories["chapter"])
     logger.info("Done update_character_memory.")
-    
 
     logger.info("本章生成完成")

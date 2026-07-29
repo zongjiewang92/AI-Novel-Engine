@@ -1,3 +1,22 @@
+model:
+  provider: ollama
+  name: qwen2.5:14b
+
+novel:
+  title: 吞噬星空之浑源道主
+  author: 觉觉
+  type:
+  - 同人
+  - 科幻
+  - 修炼
+planning:
+  levels:
+  - volume
+  - arc
+  - plot
+  - chapter
+  - scene
+
 target:
   # =====================
   # 当前生成章节
