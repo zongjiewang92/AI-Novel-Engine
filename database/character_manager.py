@@ -8,7 +8,7 @@ class CharacterManager:
 
         self.root = Path(project_root)
 
-        self.character_root = self.root / "memory" / "characters"
+        self.character_root = self.root / "z_ai_memory" / "characters"
 
         self.character_root.mkdir(parents=True, exist_ok=True)
 

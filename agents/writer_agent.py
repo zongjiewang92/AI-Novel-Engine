@@ -85,5 +85,5 @@ def write_chapter(context):
     return context.llm.chat(
         prompt=prompt,
         system=WRITER_SYSTEM,
-        options={"temperature": 0.8, "num_predict": 6000, "repeat_penalty": 1.1},
+        options={"temperature": 0.8, "num_predict": 2500, "repeat_penalty": 1.25},
     )

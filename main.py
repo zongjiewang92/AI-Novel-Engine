@@ -50,7 +50,7 @@ def save_chapter(content, context):
 def ensure_planning(context):
     planner = PlannerAgent(context)
     if not context.current_plan:
-        logger.warning("当前planning不存在，开始生成")
+        logger.warning("No planning!!!!!!")
         # plan = planner.generate_plan()
         # context.planning_manager.save_plan(context.target, plan)
         return False
@@ -93,7 +93,7 @@ def review_chapter(context, chapter):
 
 def generate_memory(context, chapter):
 
-    logger.info("开始生成Memory")
+    logger.info("Start generate_memory...")
 
     agent = MemoryAgent(context)
 
@@ -149,13 +149,13 @@ def generate_memory(context, chapter):
 
 
 def update_character_memory(context, chapter_memory):
-    logger.info("更新人物系统")
+    logger.info("update_character_memory")
 
     agent = CharacterAgent(context)
 
     result = agent.process(chapter_memory)
 
-    logger.info(f"更新人物数量:{len(result)}")
+    logger.info(f"update_character_memory:{len(result)}")
 
 
 # ==================================================
