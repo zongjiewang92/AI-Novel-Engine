@@ -218,6 +218,7 @@ if __name__ == "__main__":
     # ==================================
 
     chapter = generate_chapter(context)
+    logger.info("Done generate_chapter.")
 
 
 
@@ -241,6 +242,7 @@ if __name__ == "__main__":
 
 
     memories = generate_memory(context, chapter)
+    logger.info("Done generate_memory.")
 
 
 
@@ -249,7 +251,8 @@ if __name__ == "__main__":
     # ==================================
 
     save_result(context, chapter, memories)
-    
+    logger.info("Done save_result.")
+
 
 
     # ==================================
@@ -257,7 +260,7 @@ if __name__ == "__main__":
     # ==================================
 
     update_character_memory(context, memories["chapter"])
-    logger.info("小说引擎启动")
+    logger.info("Done update_character_memory.")
     
 
     logger.info("本章生成完成")

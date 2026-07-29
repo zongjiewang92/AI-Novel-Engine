@@ -25,6 +25,7 @@ projects/*/volumes/*/chapters/*.md
 projects/*/knowledge_ai
 projects/*/original*
 projects/*/planning_ai
+projects/*/logs
 
 
 # Vector database
