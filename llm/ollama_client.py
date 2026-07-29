@@ -26,7 +26,7 @@ class OllamaClient:
     def __init__(
         self,
         model: str = "qwen2.5:14b",
-        num_ctx: int = 32768,
+        num_ctx: int = 15000,
         temperature: float = 0.75,
         max_tokens: int = 6000,
         top_p: float = 0.9,

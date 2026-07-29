@@ -22,7 +22,9 @@ venv/
 
 # Generated novels
 projects/*/volumes/*/chapters/*.md
-projects/*/knowledge_ai/raw*
+projects/*/knowledge_ai
+projects/*/original*
+projects/*/planning_ai
 
 
 # Vector database

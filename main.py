@@ -219,6 +219,10 @@ if __name__ == "__main__":
 
     chapter = generate_chapter(context)
 
+
+
+
+
     # ==================================
     # Critic
     # ==================================
@@ -235,16 +239,25 @@ if __name__ == "__main__":
     # Memory
     # ==================================
 
+
     memories = generate_memory(context, chapter)
+
+
 
     # ==================================
     # 8. 保存章节和基础memory
     # ==================================
+
     save_result(context, chapter, memories)
+    
+
 
     # ==================================
     # 9. 更新人物长期Memory
     # ==================================
+
     update_character_memory(context, memories["chapter"])
+    logger.info("小说引擎启动")
+    
 
     logger.info("本章生成完成")
