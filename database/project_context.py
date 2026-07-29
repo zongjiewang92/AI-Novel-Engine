@@ -73,35 +73,35 @@ class ProjectContext:
 
         self.after_plots = self.current_plan.get("after_plots", {})
 
-        # =================================================
-        # Memory
-        # =================================================
+        # # =================================================
+        # # Memory
+        # # =================================================
 
-        self.memory_manager = MemoryManager(self.root)
+        # self.memory_manager = MemoryManager(self.root)
 
-        self.volume_memory = self.memory_manager.load_volume_memory(self.target)
+        # self.volume_memory = self.memory_manager.load_volume_memory(self.target)
 
-        self.arc_memory = self.memory_manager.load_arc_memory(self.target)
+        # self.arc_memory = self.memory_manager.load_arc_memory(self.target)
 
-        self.plot_memory = self.memory_manager.load_plot_memory(self.target)
+        # self.plot_memory = self.memory_manager.load_plot_memory(self.target)
 
-        self.chapter_memory = self.memory_manager.load_chapter_memory(self.target)
+        # self.chapter_memory = self.memory_manager.load_chapter_memory(self.target)
 
-        # =================================================
-        # Memory Tree
-        # =================================================
+        # # =================================================
+        # # Memory Tree
+        # # =================================================
 
-        self.plot_memories = self.memory_manager.load_arc_plot_memories(self.target)
+        # self.plot_memories = self.memory_manager.load_arc_plot_memories(self.target)
 
-        self.arc_memories = self.memory_manager.load_volume_arc_memories(self.target)
+        # self.arc_memories = self.memory_manager.load_volume_arc_memories(self.target)
 
-        # =================================================
-        # Character
-        # =================================================
+        # # =================================================
+        # # Character
+        # # =================================================
 
-        self.character_manager = CharacterManager(self.root)
+        # self.character_manager = CharacterManager(self.root)
 
-        self.related_characters = self.load_related_characters()
+        # self.related_characters = self.load_related_characters()
 
         # =================================================
         # Status
@@ -113,27 +113,27 @@ class ProjectContext:
 
         self.is_volume_finished = self.planning_manager.is_volume_finished(self.target)
 
-        # =================================================
-        # Recent Chapters
-        # =================================================
+        # # =================================================
+        # # Recent Chapters
+        # # =================================================
 
-        self.chapter_history = self.load_chapters(limit=3)
+        # self.chapter_history = self.load_chapters(limit=3)
 
-        # =================================================
-        # Knowledge
-        # =================================================
+        # # =================================================
+        # # Knowledge
+        # # =================================================
 
-        # 永久规则
-        self.global_rules = self.load_global_rules()
+        # # 永久规则
+        # self.global_rules = self.load_global_rules()
 
-        # 当前章节相关知识
-        self.relevant_knowledge = self.load_relevant_knowledge()
+        # # 当前章节相关知识
+        # self.relevant_knowledge = self.load_relevant_knowledge()
 
-        # =================================================
-        # Statistics
-        # =================================================
+        # # =================================================
+        # # Statistics
+        # # =================================================
 
-        self.chapter_count = self.get_chapter_count()
+        # self.chapter_count = self.get_chapter_count()
 
     # =================================================
     # Config
