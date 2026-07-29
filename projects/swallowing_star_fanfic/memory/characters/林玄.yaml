@@ -1,0 +1,26 @@
+name: 林玄
+basic: {}
+personality: []
+realm: {}
+abilities: []
+relationships: {}
+growth_history:
+- status_change: 死亡, 灵魂消散殆尽, 意识逐渐苏醒
+  realm_change: ''
+  new_abilities: []
+  personality_change: []
+  relationship_change: []
+  important_events: &id004
+  - 因建筑坍塌而死，身体在地下深处风化为枯骨；神秘金色光芒解析和重建生命信息
+- status_change: 从死亡中复苏并逐渐苏醒，生命信息恢复。
+  realm_change: ''
+  new_abilities: &id001
+  - 灵魂受到金色光芒影响，开始复苏
+  personality_change: &id002 []
+  relationship_change: &id003 []
+status_change: 从死亡中复苏并逐渐苏醒，生命信息恢复。
+realm_change: ''
+new_abilities: *id001
+personality_change: *id002
+relationship_change: *id003
+important_events: *id004

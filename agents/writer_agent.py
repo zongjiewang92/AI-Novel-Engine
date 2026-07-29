@@ -38,7 +38,6 @@ def write_chapter(context):
     # ==================================================
     # Input Check
     # ==================================================
-
     check_inputs = {
         "current_plot": context.current_plot,
         "before_plots": context.before_plots,
@@ -49,36 +48,43 @@ def write_chapter(context):
         if not value:
             logger.warning("Writer输入为空: %s", name)
 
+    # 统计输入长度
+    for name, value in check_inputs.items():
+        length = len(str(value)) if value else 0
+        logger.info("Writer输入长度: %s = %d chars", name, length)
+
     # 核心剧情为空，直接阻止生成
     if not context.current_plot:
-        logger.error("当前章节没有 current_plot，无法生成章节: %s", context.chapter_id)
+        logger.error(
+            "当前章节没有 current_plot，无法生成章节: %s",
+            context.chapter_id,
+        )
         raise ValueError("current_plot为空，无法生成章节")
+    
 
-    chapter_prompt = f"""
+
+    prompt = f"""
 
 【当前章节剧情】
 {context.current_plot}
 
 
-【上一章的剧情】
-{context.before_plots}
-
-【下一章的剧情】
-{context.after_plots}
-
-
 【输出要求】
 
 生成 当前章节 正文。
-
+- 保持剧情方向
+- 保持剧情连贯
 要求：
-
-3500-4500中文字。
+4000字。
 
 """
-
+    logger.info(
+        "Writer Prompt长度: %d chars (%.2f KB)",
+        len(prompt),
+        len(prompt.encode("utf-8")) / 1024,
+    )
     return context.llm.chat(
-        prompt=chapter_prompt,
+        prompt=prompt,
         system=WRITER_SYSTEM,
-        options={"temperature": 0.8, "num_predict": 3000, "repeat_penalty": 1.1},
+        options={"temperature": 0.8, "num_predict": 6000, "repeat_penalty": 1.1},
     )
