@@ -15,7 +15,7 @@ class MemoryManager:
         #   volumes
         #       volume001
         #
-        self.memory_root = self.root / "memory"
+        self.memory_root = self.root / "z_ai_memory"
 
     # ==================================================
     # JSON

@@ -35,4 +35,4 @@ target:
 # 输出
 # =====================
 output:
-  directory: output_drafts
+  directory: z_ai_output_drafts
