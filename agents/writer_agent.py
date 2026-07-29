@@ -82,8 +82,13 @@ def write_chapter(context):
         len(prompt),
         len(prompt.encode("utf-8")) / 1024,
     )
-    return context.llm.chat(
+    result = context.llm.chat(
         prompt=prompt,
         system=WRITER_SYSTEM,
         options={"temperature": 0.8, "num_predict": 2500, "repeat_penalty": 1.25},
     )
+    length = len(str(result)) if result else 0
+    logger.info(
+        "Writer output length: %s = %d chars", "current_chapter_context_length", length
+    )
+    return result
