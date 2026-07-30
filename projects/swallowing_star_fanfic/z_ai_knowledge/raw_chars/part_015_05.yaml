@@ -1,0 +1,38 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗华]
+  event: 回家后准备前往洪宁基地市一趟，计划兑换草木之灵和其他宝物
+  description: 战斗力强大，拥有摩云藤幼体和刀锋残片等武器。对母亲做的饭菜有特别的情感。
+  skill: [使用虚拟空间战神宫, 控制深蓝色三角形智能战机]
+- id: babata  
+  name: 巴巴塔
+  aliases: []
+  event: 指导罗峰如何培育摩云藤幼体和使用刀锋残片，提供关于老师被杀原因的暗示。
+  description: 来自陨墨星，是罗峰的智能护腕空间内的生物，狂傲自信。指导罗峰提升战斗力。
+  skill: [精神念力利用, 智能辅助]
+- id: luohongguo  
+  name: 罗洪国
+  aliases: []
+  event: 在明月小区等待儿子罗峰归来，并准备迎接他中午的惊喜。
+  description: 老父亲，由于受伤坐在轮椅上。对儿子很关心和期待。
+  skill: [坐在轮椅上的生活]
+- id: gunxinlan  
+  name: 龚心兰
+  aliases: []
+  event: 等待罗峰回家并准备中午给他做他最喜欢的饭菜。
+  description: 母亲角色，对儿子的归家充满期待。关心和爱护孩子。
+  skill: [烹饪]
+- id: huangningbajianshi  
+  name: 洪宁基地市
+  aliases: []
+  event: 极限武馆总部所在地，罗峰前往此地兑换草木之灵和其他宝物。
+  description: 地球上的一个基地城市。极限武馆的总部设于此地。
+  skill: [拥有飞船建筑入口]
+- id: jiaotongdang  
+  name: HR联盟
+  aliases: []
+  event: 议长在洪宁基地市逗留，试图与洪谈判。
+  description: 地下世界的一个重要组织。议长是该组织的最高领导人。
+  skill: [地下世界的控制]
+```

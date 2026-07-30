@@ -1,0 +1,32 @@
+```yaml
+- id: xiaohua
+  name: 罗华
+  aliases: [罗峰的弟弟]
+  event: 接待维诺议员并拒绝出售资源
+  description: 罗峰的弟弟，目前是一家投资公司的老总。在接待维诺议员时表现出成熟和自信。
+- id: weinuo
+  name: 维诺
+  aliases: [金发男子, 议员]
+  event: 想从罗华那里购买资源但被拒绝
+  description: HR联盟的一名议员，试图通过谈判或威胁的方式获取罗家的资源。最终遭到罗华的坚决拒绝。
+- id: huangningjiedashi
+  name: 洪宁基地市
+  aliases: []
+  event: 极限武馆高层在虚拟空间崩溃后的紧急会议
+  description: 地球上的一个城市，极限武馆总部所在地。在虚拟空间崩溃后，极限武馆的高层召开紧急会议商讨应对措施。
+- id: xingxingzheshi
+  name: 行星级武者
+  aliases: []
+  event: 战神宫崩溃后的混乱局面
+  description: 地球上的一种高级战士，在战神宫崩溃后变得四散无依，形成了一种新的局势动荡的局面。
+- id: zhandengong
+  name: 战神
+  aliases: []
+  event: 虚拟空间崩溃导致的组织解散
+  description: 极限武馆内部的一种高级战士，战神宫的成员。虚拟空间崩溃后战神宫解散，他们失去了联系和控制。
+- id: jiangzhuozi
+  name: 巨兽
+  aliases: []
+  event: 海域怪兽再次来袭的可能性
+  description: 地球海洋中的巨大生物，在上次事件中对人类社会造成了严重的威胁。目前人们担心它们可能再次袭击地球。
+```

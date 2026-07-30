@@ -1,0 +1,22 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [银河领主]
+  event: 和东帝圣地交易，带走罗家核心成员和地球人一脉的人类
+  description: 人类族群的支柱强者之一，负责与东帝圣地进行重要交易。
+- id: chongmuchi  
+  name: 混沌城主
+  aliases: []
+  event: 召集会议讨论应对策略
+  description: 集会时建议罗峰尽快完成和东帝圣地的交易。
+- id: heiyinzhizhu  
+  name: 黑暗之主
+  aliases: []
+  event: 讨论族群面临的困境，关注人类族群未来的命运
+  description: 对于人类族群未来感到担忧，并讨论如何应对可能的战争。
+- id: xujinx  
+  name: 徐欣
+  aliases: [罗峰的妻子]
+  event: 询问罗峰为何行动
+  description: 罗峰的妻子，在知道巨斧陨落的消息后担心家族的安全。
+```

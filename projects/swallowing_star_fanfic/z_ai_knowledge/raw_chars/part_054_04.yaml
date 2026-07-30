@@ -1,0 +1,26 @@
+```yaml
+- id: rofe
+  name: 罗峰
+  aliases: [刀河王]
+  event: 第八百一十三章 刀河王积累军功
+  description: 正坐在控制室中端着酒杯，品着果酒，并且透过1号探测仪清晰知道那艘生物飞船和自己的距离。
+  skill: [能够准确判断异族不朽的攻击并迅速反击]
+- id: renshenlinmao
+  name: 人身鳞甲狼首男子
+  aliases: []
+  event: 第八百一十三章 刀河王积累军功
+  description: 指着护臂屏幕嗤笑着，认为罗峰是一名界主，并且可能是在雾沙岛中觉得无敌了所以来主大陆闯闯。
+  skill: [能够使用恐金犼族的封侯巅峰力量]
+- id: weiyizujuzi
+  name: 尾遗族女子
+  aliases: []
+  event: 第八百一十三章 刀河王积累军功
+  description: 发现罗峰后嘲笑他，并且认为杀死他可以获得很高的奖励。
+  skill: [能够使用尾遗族的特殊能力，如高速移动和发射丝线]
+- id: weiyizujunu
+  name: 尾遗族男子
+  aliases: []
+  event: 第八百一十三章 刀河王积累军功
+  description: 认为杀死罗峰会很快结束，并且可以获得很高的奖励。
+  skill: [能够使用尾遗族的特殊能力，如高速移动和发射丝线]
+```

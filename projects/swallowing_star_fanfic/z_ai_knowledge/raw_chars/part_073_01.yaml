@@ -1,0 +1,15 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 原始星探索，遇到繁光领主
+  description: 宇宙霸主级别的强者，在原始星上寻找宝物。拥有六件至宝。
+  skill: [灵魂类攻击, 念力兵器操控, 羽翼飞行]
+
+- id: fanGuangLingZhu  
+  name: 繁光领主
+  aliases: [繁光领主]
+  event: 在原始星上遇到罗峰
+  description: 宇宙霸主级别的能量类生命，属于北疆联盟的超级强者。
+  skill: [飞行, 战斗]
+```

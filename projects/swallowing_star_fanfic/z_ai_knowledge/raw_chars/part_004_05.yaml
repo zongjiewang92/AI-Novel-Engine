@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng 
+  name: 罗峰 
+  aliases: [罗疯子]
+  event: 遇到万冬三人，给他们提供高能糖丸和水
+  description: 武者，背着战刀盾牌等装备，保持六十米每秒的速度逃离鼠潮。在补给基地接到了多个电话。
+  skill: []
+- id: wandong 
+  name: 万冬 
+  aliases: []  
+  event: 遇到罗峰三人，请求食物和水
+  description: 武者，在逃亡过程中感到非常疲累，劫后余生的喜悦。介绍王可、蒋屠给罗峰。
+  skill: []
+- id: wangke 
+  name: 王可  
+  aliases: []   
+  event: 被万冬三人救起
+  description: 武者，长相俊秀，在逃亡过程中感到非常疲累。
+  skill: []
+- id: jiangtu 
+  name: 蒋屠  
+  aliases: []   
+  event: 被万冬三人救起
+  description: 武者，一把大胡子，在逃亡过程中感到非常疲累。
+  skill: []
+```

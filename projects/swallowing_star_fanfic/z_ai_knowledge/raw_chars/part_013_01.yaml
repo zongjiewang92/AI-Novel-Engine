@@ -1,0 +1,32 @@
+```yaml
+- id: LuoFeng  
+  name: 罗峰
+  aliases: []
+  event: 极限武馆前往9号古文明遗迹探险，与战神同伴一起行动。
+  description: 经过内部电话咨询后决定参与进入古文明遗迹的冒险。
+  skill: []
+- id: TuobaYan  
+  name: 拓跋岩
+  aliases: []
+  event: 在巨型飞船建筑内迎接罗峰并介绍自己。
+  description: 来自京都基地市，是罗峰在此次探险中的同伴之一。
+  skill: []
+- id: NaoRao  
+  name: 妖娆
+  aliases: [三大亲卫]
+  event: 指挥前往9号古文明遗迹的行动，并为战神们介绍遗迹情况。
+  description: 极限武馆馆主洪的手下之一，负责带领罗峰等人进入古文明遗迹探险。
+  skill: []
+- id: Hong  
+  name: 洪
+  aliases: [黑衣男子]
+  event: 决定让罗峰参与9号古文明遗迹的探险，并在出发前与其谈话。
+  description: 极限武馆的馆主，负责派遣战神前往古文明遗迹进行探险任务。
+  skill: []
+- id: LiJie  
+  name: 李小姐
+  aliases: []
+  event: 被提及为洪宁基地市的人，并且与拓跋岩交谈过。
+  description: 在巨型飞船建筑内被提到，是罗峰的同伴之一。
+  skill: []
+```

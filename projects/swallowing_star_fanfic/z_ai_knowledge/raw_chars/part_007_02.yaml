@@ -1,0 +1,26 @@
+```yaml
+- id: liyaoshi
+  name: 李耀
+  aliases: [毒蝎]
+  event: 调查杀死阿威的凶手
+  description: 武者圈中人称‘毒蝎’的高等战神，冷酷且充满煞气。李耀对调查目标要求严格，并亲自处理案件。
+  skill: []
+- id: weinina
+  name: 维妮娜*波莱纳斯
+  aliases: [维妮娜]
+  event: 调查杀死阿威的凶手
+  description: 李耀的妻子，出生于波莱纳斯家族的大小姐，是高等战神。在调查中提供意见。
+  skill: []
+- id: huangzidong
+  name: 黄子栋
+  aliases: [管家]
+  event: 调查杀死阿威的凶手
+  description: 李耀家中的黑西服管家，在调查案件时负责收集信息和筛选目标。
+  skill: []
+- id: luofeng
+  name: 罗峰
+  aliases: [疯子]
+  event: 极限会馆训练
+  description: 在极限会馆进行神经反应测试，准备前往荒野区。与大胡子壮汉闲聊。
+  skill: []
+```

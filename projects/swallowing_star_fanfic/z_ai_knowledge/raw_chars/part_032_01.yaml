@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 研究宇宙空间本质,闯通天桥第一层
+  description: 探索并研究飘血秘典中的108文字，试图领悟剑法的精髓。近期在混沌城进行一系列修炼和探索。
+  skill: [心神疲累时脱离沉迷状态感叹领悟]
+- id: babata  
+  name: 巴巴塔
+  aliases: []
+  event: 见证罗峰的研究过程
+  description: 清楚地知道罗峰研究宇宙空间本质的过程，并且提供了相关的指导和建议。
+  skill: [提供指引和评价]
+- id: zhenyanwang  
+  name: 真衍王
+  aliases: []
+  event: 关注罗峰的修炼进展
+  description: 注意到罗峰没有购买《飘血》秘典，认为罗峰应该更基础地利用自己的积分。
+  skill: [关注并评价罗峰的行为]
+- id: heiyuoshizhe  
+  name: 黑袍使者
+  aliases: []
+  event: 指导混沌城三宝的位置和信息
+  description: 向罗峰介绍了混沌城的三个宝藏，包括第三件宝藏在城门外石碑上的描述。
+  skill: [提供指导]
+- id: yunurenzhang  
+  name: 猿人壮汉
+  aliases: []
+  event: 带领学生离开府邸
+  description: 招呼学生们离开府邸，未参与具体情节发展。
+  skill: [指挥行动]
+```

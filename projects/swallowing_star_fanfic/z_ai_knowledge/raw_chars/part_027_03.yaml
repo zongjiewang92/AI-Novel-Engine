@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗三]
+  event: 极限天才战
+  description: 虚拟宇宙网络中的一名恒星级人类，有着金角巨兽身体的特殊天赋。
+  skill: []
+- id: hong  
+  name: 洪
+  aliases: [大哥, 大哥洪]
+  event: 极限天才战
+  description: 地球三强者之一的大哥，虚拟宇宙网络中的一名恒星级人类。
+  skill: []
+- id: leishen  
+  name: 雷神
+  aliases: [二弟]
+  event: 极限天才战
+  description: 罗峰的弟弟，地球三强者之一的小弟。
+  skill: []
+- id: babata  
+  name: 巴巴塔
+  aliases: []
+  event: 极限天才战
+  description: 虚拟宇宙公司给罗峰提供的智能助手，为他提供指导和建议。
+  skill: []
+```

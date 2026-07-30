@@ -1,0 +1,20 @@
+```yaml
+- id: luojunqing
+  name: 隆厥王
+  aliases: [隆厥]
+  event: 和罗峰聊天, 返回休息舱, 带领罗峰去垃圾山淘宝
+  description: 母巢级强者，赠送世界戒指给罗峰，保护罗峰不受虫族刺杀。
+  skill: []
+- id: luofeng
+  name: 罗峰
+  aliases: [殿下]
+  event: 使用虚拟宇宙网络, 购买世界戒指, 遇到虫族刺杀
+  description: 域主级强者，想要在垃圾山寻找宝物。
+  skill: []
+- id: baiporren
+  name: 白袍人
+  aliases: [引领者]
+  event: 收集虫族尸体, 引领罗峰去垃圾山淘宝
+  description: 负责带领罗峰进入垃圾山，搜集100单位的虫族尸体。
+  skill: []
+```

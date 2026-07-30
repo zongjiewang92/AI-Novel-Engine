@@ -1,0 +1,15 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 规划去星辰塔探险
+  description: 军功达到要求，决定前往域外战场最危险区域之一的星辰塔游玩一番。
+  skill: []
+
+- id: zhongjianwang  
+  name: 重箭王
+  aliases: [zhongjian]
+  event: 苏醒并成为罗峰的灵魂奴仆
+  description: 罗峰利用奇异物质让重箭王苏醒，随后将其变成灵魂奴仆，并赐予紫钟和空间戒指等宝物。
+  skill: []
+```

@@ -1,0 +1,56 @@
+```yaml
+- id: zhouzhengyong 
+  name: 周正永
+  aliases: []
+  event: 极限总会馆的会长，接到了全球总部对罗峰任命的通知。
+  description: 接到通知后显得十分惊讶，并且与三位主管讨论如何应对新的监察使。
+  skill: []
+- id: zhuge Tao 
+  name: 诸葛韬
+  aliases: []
+  event: 是极限总会馆的主管之一，帮助过年轻时的罗峰，现在对罗峰成为顶头上司感到暗喜。
+  description: 认为新任监察使年纪轻脾气可能大，但相对好哄骗，建议大家要重视并且准备迎接罗峰的到来。
+  skill: []
+- id: yusen 
+  name: 俞森
+  aliases: []
+  event: 是极限总会馆的主管之一，在接到任命通知后表现出疑惑和担忧。
+  description: 认为新任监察使年纪轻，可能会因为无意中的冒犯而被罢免职务。
+  skill: []
+- id: lanzhoujiedashi 
+  name: 江南基地市
+  aliases: [Jiangnan Jiedashi]
+  event: 罗峰被任命为此地的极限总会馆监察使。
+  description: 极限总会馆的所在地，罗峰将在这里担任重要职位。
+  skill: []
+- id: lufeng 
+  name: 罗峰
+  aliases: [Luo Feng]
+  event: 被全球总部正式任命为江南基地市极限总会馆监察使，成为本地人的最高掌权人。
+  description: 是一名年轻且有天赋的武者，在短时间内从普通成员晋升到高层职位，并且拥有飞行战机等稀有资产。
+  skill: []
+- id: wutong 
+  name: 邬通
+  aliases: []
+  event: 向会长周正永通报罗峰抵达明月小区的情况。
+  description: 明月小区的管理员，负责通知极限总会馆关于罗峰的消息。
+  skill: []
+- id: luhuangguo 
+  name: 罗洪国
+  aliases: [Luo Hongguo]
+  event: 听到儿子被任命为监察使感到震惊，并询问其详细情况。
+  description: 罗峰的父亲，对儿子的成就表示惊讶和好奇。
+  skill: []
+- id: gongxinlan 
+  name: 龚心兰
+  aliases: [Gong Xinlan]
+  event: 听到儿子被任命为监察使感到震惊，并询问其详细情况。
+  description: 罗峰的母亲，对儿子的成就表示惊讶和好奇。
+  skill: []
+- id: luhua 
+  name: 罗华
+  aliases: [Luo Hua]
+  event: 向哥哥罗峰询问关于他被任命为监察使的事情，并表现出极大的激动之情。
+  description: 罗峰的弟弟，对于哥哥获得的重要职位感到非常兴奋和自豪。
+  skill: []
+```

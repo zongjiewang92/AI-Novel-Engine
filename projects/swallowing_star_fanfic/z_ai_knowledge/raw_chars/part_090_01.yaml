@@ -1,0 +1,58 @@
+```yaml
+- id: luofeng 
+  name: 罗峰
+  aliases: []
+  event: 杀死浩雷星主，赢得与雷暴星一族的小型宇宙争夺战
+  description: 在旋泽海海底击败了浩雷星主，并成功夺取其小型宇宙中的宝藏。
+  skill: []
+
+- id: daanhujuzhuyi 
+  name: 黑暗之主
+  aliases: []
+  event: 收刮浩雷星主崩解的小型宇宙中遗落的财富
+  description: 在得知浩雷星主死亡后，立即赶往其小型宇宙进行收刮。
+  skill: []
+
+- id: hongmochengzhu 
+  name: 混沌城主
+  aliases: []
+  event: 等待罗峰与浩雷星主战斗的结果，并收到胜利的消息。
+  description: 在虚拟宇宙雷霆岛之巅，和人类族群的其他宇宙之主一起等待结果。
+  skill: []
+
+- id: luoxingzhuyi 
+  name: 龙行之主
+  aliases: []
+  event: 等待罗峰与浩雷星主战斗的结果，并收到胜利的消息。
+  description: 在虚拟宇宙雷霆岛之巅，和人类族群的其他宇宙之主一起等待结果。
+  skill: []
+
+- id: xujinzhu 
+  name: 虚金之主
+  aliases: []
+  event: 等待罗峰与浩雷星主战斗的结果，并收到胜利的消息。
+  description: 在虚拟宇宙雷霆岛之巅，和人类族群的其他宇宙之主一起等待结果。
+  skill: []
+
+- id: huangjianzhuyi 
+  name: 荒鉴之主
+  aliases: []
+  event: 等待罗峰与浩雷星主战斗的结果，并收到胜利的消息。
+  description: 在虚拟宇宙雷霆岛之巅，和人类族群的其他宇宙之主一起等待结果。
+  skill: []
+
+- id: haoleixingzhu 
+  name: 浩雷星主
+  aliases: []
+  event: 被罗峰杀死，小型宇宙崩解后财富被掠夺。
+  description: 雷暴星一族的宇宙最强者，在旋泽海海底与罗峰交战失败并死亡。
+  skill: []
+
+- id: hangxingmeshen 
+  name: 横行魔神
+  aliases: []
+  event: 尝试收刮浩雷星主崩解的小型宇宙，但未获得任何财富。
+  description: 在小型宇宙中被其他势力指责为财富掠夺者，但实际上并未得到任何东西。
+  skill: []
+
+```

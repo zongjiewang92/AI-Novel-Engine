@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [墓陵之舟,金角巨兽分身]
+  event: 宇宙最强者篇
+  description: 拥有封号，借用晋之世界的力量。获得了大量的机械流宝物和真神级兵器铠甲。
+  skill: []
+- id: hunzhuochengzhu
+  name: 混沌城主
+  aliases: [原祖]
+  event: 宇宙最强者篇
+  description: 接受了罗峰赠送的机械流宝物，为即将到来的危机做准备。
+  skill: []
+- id: xingrenmeijiaoshengdi
+  name: 星人美女教圣帝
+  aliases: [虫族女皇]
+  event: 宇宙最强者篇
+  description: 虫族女皇在考虑是否让真神进入晋之世界。
+  skill: []
+- id: jingzhishenjiang
+  name: 晋之将军
+  aliases: []
+  event: 宇宙最强者篇
+  description: 管理晋之世界的四大将军之一，负责筛选军队。
+  skill: []
+```

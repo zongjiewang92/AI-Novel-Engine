@@ -1,0 +1,26 @@
+```yaml
+- id: LuoFeng  
+  name: 罗峰
+  aliases: [地球人本尊, 黑衣罗峰]
+  event: 融合兽神之血和血洛晶, 幽海分身出世
+  description: 地球人类，具有多个分身，通过《九劫秘典》提升自身实力。最新拥有幽海分身。
+  skill: [驱动血洛之力, 创造三大分身]
+- id: JinJiaoJuZhuFenShen  
+  name: 金角巨兽分身
+  aliases: []
+  event: 融合血洛晶
+  description: 罗峰的第一个分身，拥有强大的身体素质和战斗力。
+  skill: [驱动兽神之血, 战斗]
+- id: MoShaZuFenShen  
+  name: 魔杀族分身
+  aliases: []
+  event: 获得空间之心精华
+  description: 罗峰的第二分身，擅长逃命、隐匿和伪装。
+  skill: [隐身, 隐匿行踪]
+- id: YouHaiFenShen  
+  name: 幽海分身
+  aliases: []
+  event: 出世并能修炼《九劫秘典》
+  description: 罗峰的第三分身，血肉类生命，具有强大的潜力。
+  skill: [修炼《九劫秘典》, 强大的身体素质]
+```

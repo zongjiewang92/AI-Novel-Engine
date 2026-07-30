@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [罗峰]
+  event: 参加宴会，任命巡察使
+  description: 极限武馆的成员，正在进行九九煅神修炼。
+  skill: []
+- id: hong
+  name: 洪
+  aliases: [洪哥]
+  event: 视频会议，任命罗峰为第六位巡察使
+  description: 极限武馆创始人之一，地球上的强者之一。
+  skill: []
+- id: leishen
+  name: 雷神
+  aliases: [雷神]
+  event: 视频会议讨论罗峰隐藏的秘密
+  description: 地球上的另一位强大存在，与洪共同担忧地球的命运。
+  skill: []
+- id: xuxin
+  name: 徐欣
+  aliases: [徐欣]
+  event: 和罗峰通话
+  description: 罗峰的朋友或伴侣。
+  skill: []
+```

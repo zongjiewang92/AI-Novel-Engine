@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [九十七]
+  event: 加入血神卫，队长阿一介绍罗峰是唯一一个在云霄级就被吸纳进来的成员。
+  description: 击杀了一头域主一阶的血魔，在法则感悟上比大多数人都强。融合了两颗血洛晶，正在努力提高身体对煞气的承受能力。
+  skill: [击杀跨入法则门槛的血魔]
+- id: ayi
+  name: 阿一
+  aliases: []
+  event: 血神卫队长，向罗峰介绍队伍成员和古神废墟的情况。
+  description: 界主级战士，负责保护大人并在古神废墟中修炼。知道罗峰击杀血魔的具体情况。
+  skill: [带领队员在古神废墟修炼]
+- id: aer
+  name: 阿二
+  aliases: []
+  event: 血神卫副队长。
+  description: 负责保护大人并在古神废墟中修炼。
+  skill: []
+```

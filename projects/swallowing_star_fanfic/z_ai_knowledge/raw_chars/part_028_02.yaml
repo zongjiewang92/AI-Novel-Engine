@@ -1,0 +1,44 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 擂台混战
+  description: 通过预选，参加擂台战第382组。
+  skill: [虚拟宇宙]
+- id: hong
+  name: 洪
+  aliases: [大哥洪]
+  event: 擂台混战
+  description: 参加擂台战第161组。
+  skill: []
+- id: nabinini
+  name: 纳比尼
+  aliases: []
+  event: 擂台混战
+  description: 来自黑龙山帝国，参加第32组。
+  skill: [惊人战斗力]
+- id: pingping
+  name: 平平
+  aliases: []
+  event: 观众席观看擂台战
+  description: 罗峰的女儿，观战纳比尼的比赛。
+  skill: []
+- id: xiaohai
+  name: 小海
+  aliases: []
+  event: 观众席观看擂台战
+  description: 罗峰的儿子，和妹妹一起为纳比尼加油。
+  skill: []
+- id: xu gangs
+  name: 徐刚
+  aliases: [妹夫]
+  event: 购买门票观战
+  description: 和罗峰的家人一起来观看比赛。
+  skill: []
+- id: leishen
+  name: 雷神
+  aliases: []
+  event: 观众席观看擂台战
+  description: 罗峰的朋友，和他一起观看比赛。
+  skill: []
+```

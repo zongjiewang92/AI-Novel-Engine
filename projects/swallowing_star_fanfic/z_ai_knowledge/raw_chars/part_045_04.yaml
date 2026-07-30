@@ -1,0 +1,38 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [no.9]
+  event: 在圣城外的斗武场中击败卑牀，引起虫族注意
+  description: 虚拟宇宙公司培养的人类天才，在金角族群拉斯奥世界的圣城中引起关注
+  skill: []
+- id: difenqiq长老  
+  name: 寺番祁
+  aliases: [寺番祁长老]
+  event: 带领罗峰进入元老神宫
+  description: 元老神宫的长老，协助罗峰与元老见面
+  skill: []
+- id: di lun  
+  name: 迪伦
+  aliases: []
+  event: 跟随罗峰进入元老神宫
+  description: 罗峰的追随者之一，在拉斯奥世界保护罗峰
+  skill: []
+- id: jinjiaoju zuzhi languo shijie  
+  name: 金角族群拉斯奥世界
+  aliases: [拉斯奥世界, 圣城]
+  event: 罗峰在圣城中引起关注，击败卑牀
+  description: 人类附庸族群之一的生存之地，罗峰在此地活动受到虫族监视
+  skill: []
+- id: jinjiaoju zuzhi languo shijie de zhaoxiang ren  
+  name: 安插在金角族群拉斯奥世界的不朽神灵
+  aliases: [no.9]
+  event: 发现并报告罗峰的行为，受到主人的命令提高对罗峰的关注级别
+  description: 虫族安插在人类附庸族群中的间谍，监视和执行暗杀任务
+  skill: []
+- id: jinjiaoju zuzhi languo shijie de bugong ren  
+  name: 金角族元老神宫守卫
+  aliases: [守卫]
+  event: 负责保护元老神宫，允许罗峰进入
+  description: 元老神宫的工作人员，对人类来访者感到好奇
+  skill: []
+```

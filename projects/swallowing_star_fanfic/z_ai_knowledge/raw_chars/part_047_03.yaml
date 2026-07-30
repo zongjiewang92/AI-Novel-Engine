@@ -1,0 +1,36 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: []
+  event: 被魇烛王针对，真衍王解释魇烛王背景
+  description: 天才虚拟宇宙学员，被魇烛王关押。
+  skill: []
+
+- id: zhen Yan Wang  
+  name: 真衍王
+  aliases: []
+  event: 解释魇烛王的来历和父亲蚀火尊者的情况
+  description: 虚拟宇宙公司的老师，接近宇宙尊者的存在。
+  skill: []
+
+- id: yan Zhuo Wang  
+  name: 魇烛王
+  aliases: []
+  event: 关押罗峰，对真衍王有仇
+  description: 巨斧斗武场的封侯级巅峰不朽神灵，心胸狭窄，嫉妒天才。
+  skill: []
+
+- id: e Huo Zun Zhe  
+  name: 蚀火尊者
+  aliases: []
+  event: 提到其儿子魇烛王和父亲蚀火尊者的恩怨情仇
+  description: 巨斧斗武场的宇宙尊者，儿子是魇烛王。
+  skill: []
+
+- id: long Jue Wang  
+  name: 隆厥王
+  aliases: []
+  event: 向真衍王汇报关于罗峰的事情
+  description: 虚拟宇宙雷霆岛的重要人物。
+  skill: []
+```

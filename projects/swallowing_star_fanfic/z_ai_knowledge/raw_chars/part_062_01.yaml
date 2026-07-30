@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng 
+  name: 罗峰
+  aliases: [罗峰殿下]
+  event: 闯过界主级原始通天山、挑战九宇通天桥
+  description: 混沌城主亲传弟子，进步速度极快的天才。
+  skill: []
+- id: niutouren 
+  name: 牛头人
+  aliases: [牛头]
+  event: 守护原始通天山山脚一关
+  description: 原始秘境成员之一，守护界主级原始通天山的守关者。
+  skill: []
+- id: bayinfen 
+  name: 巴芬
+  aliases: [坚守者巴芬]
+  event: 守护通天桥位面空间岛屿
+  description: 亿万年如一日守护岛屿，与罗峰相熟。
+  skill: []
+```

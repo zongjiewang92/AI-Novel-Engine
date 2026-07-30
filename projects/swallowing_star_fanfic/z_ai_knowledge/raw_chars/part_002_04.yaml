@@ -1,0 +1,50 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗哥]
+  event: 参加武者实战考核,被扬州极限会馆总教官邬通找去谈话
+  description: 提前被极限武馆招入准武者圈子，实力强大，沉稳冷静。
+  skill: []
+- id: yangwu  
+  name: 杨武
+  aliases: []
+  event: 和罗峰一起参加武者实战考核
+  description: 罗峰的朋友，在前往军营的路上兴奋地指给罗峰看外面的怪兽情况。
+  skill: []
+- id: wutong  
+  name: 邬通
+  aliases: [邬叔]
+  event: 被罗峰称为邬叔，找罗峰谈话
+  description: 扬州极限会馆总教官，在军营中找到罗峰并带他去见诸葛韬。
+  skill: []
+- id: zhuge Tao  
+  name: 诸葛韬
+  aliases: [主管]
+  event: 在军营内与罗峰见面，讨论武者实战考核事宜
+  description: 江南市极限会馆四大巨头之一，负责招录有潜力的准武者。
+  skill: []
+- id: wan dong  
+  name: 万冬
+  aliases: [阴沉青年]
+  event: 在军营内与罗峰见面,挑战罗峰争夺积分第一的位置
+  description: 雷电武馆提前招收的两个年轻人之一，性格阴沉。
+  skill: []
+- id: ma xiao  
+  name: 马晓
+  aliases: [漂亮青年]
+  event: 在军营内与罗峰见面,挑战罗峰争夺积分第一的位置
+  description: 雷电武馆提前招收的两个年轻人之一，长相非常漂亮。
+  skill: []
+- id: qiangzhi  
+  name: 枪械天才
+  aliases: [枪械天才青年]
+  event: 在军营内与罗峰见面,挑战罗峰争夺积分第一的位置
+  description: 雷电武馆提前招收的两个年轻人之一，擅长使用枪械。
+  skill: []
+- id: kuiwu daohan  
+  name: 魁梧大汉
+  aliases: [雷电武馆魁梧大汉]
+  event: 在军营内与罗峰见面,讨论挑战事宜
+  description: 雷电武馆的高层，性格开朗。
+  skill: []
+```

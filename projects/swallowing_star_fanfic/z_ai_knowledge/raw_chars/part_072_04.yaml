@@ -1,0 +1,20 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: []
+  event: 秘纹图修炼、金之兽神八大秘纹图研究
+  description: 在兽神界中，罗峰全身心投入秘纹图流派的研究，经历了一亿八千万年的岁月。他掌握了兽神之心，并能随意创造出宇宙尊者级别的秘法。
+  skill: [秘纹图修炼, 兽神之道]
+- id: zuo Shan Ke  
+  name: 坐山客
+  aliases: []
+  event: 指导罗峰进入兽神界进行秘纹图流派的研究
+  description: 坐山客是罗峰的老师，他让罗峰来到兽神界修炼，并且知道有一种特殊的修炼方式。
+  skill: [指导弟子]
+- id: shi Zu  
+  name: 始祖
+  aliases: []
+  event: 观察罗峰在秘纹图流派上的成就
+  description: 始祖是兽神界的主人，他见证了罗峰在一亿八千万年中对秘纹图的研究，并且确认了罗峰掌握了兽神之心。
+  skill: [观察弟子进展]
+```

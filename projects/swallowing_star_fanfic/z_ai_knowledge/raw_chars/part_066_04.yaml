@@ -1,0 +1,20 @@
+```yaml
+- id: ziya 
+  name: 兹鸦尊者
+  aliases: [兹鸦]
+  event: 探查九幽时空,与吠镜王一同前往九幽之海
+  description: 来自北疆联盟的宇宙尊者，和吠镜王合作探查危险之地。对吠镜王有所忌惮。
+  skill: []
+- id: weijing 
+  name: 吠镜王
+  aliases: [吠镜]
+  event: 探查九幽时空,带领其他传承者前往九幽之海
+  description: 紫荆岛上排名前十的不朽传承者，探查手段独步宇宙。来自北疆联盟。
+  skill: ['天赋秘法“宇宙之镜”']
+- id: wugong 
+  name: 五位不朽传承者
+  aliases: [五位]
+  event: 探查九幽时空,跟随兹鸦尊者和吠镜王前往九幽之海
+  description: 来自北疆联盟的不朽传承者，与吠镜王、兹鸦尊者一同行动。
+  skill: []
+```

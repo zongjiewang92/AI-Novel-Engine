@@ -1,0 +1,23 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: []
+  event: 创造巅峰绝学，战胜绿线噬虫，向老师汇报
+  description: 武者出身，背负着照顾父母的责任，在荒野区中奋斗，最终成为宇宙强者。拥有自己的巅峰绝学。
+  skill: [银河挂长空]
+- id: xi Luo Duo  
+  name: 希罗多
+  aliases: []
+  event: 创造出的绝学被罗峰所模仿并成功创造出自己的绝学
+  description: 宇宙中伟大存在，所创造的绝学属于巅峰层次。
+- id: ba Ba Ta  
+  name: 巴巴塔
+  aliases: [虚拟助手]
+  event: 罗峰在创造巅峰绝学时给予支持和赞叹
+  description: 虚拟宇宙中的智能程序，帮助罗峰进行各种试炼。
+- id: huan Xiao Mu  
+  name: 混沌城主
+  aliases: []
+  event: 给予罗峰指导并认可他的成就
+  description: 罗峰的老师，在虚拟宇宙中给予他强大的力量和智慧支持。
+```

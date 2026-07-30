@@ -1,0 +1,29 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 击杀八爪兽皇
+  description: 使用弧刀盘击杀八爪兽皇，展现极强实力。
+  skill: [使用弧刀盘, 能力强大]
+
+- id: baabata  
+  name: 巴巴塔
+  aliases: []
+  event: 罗峰杀死八爪兽皇后评论
+  description: 在罗峰击杀八爪兽皇之后，巴巴塔表示不屑并进行评价。
+  skill: []
+
+- id: hong  
+  name: 洪
+  aliases: [洪]
+  event: 和雷神谈论领域之境
+  description: 向雷神传授关于领域的知识，并且与雷神决定一起面对吞噬兽的挑战。
+  skill: [拥有领域]
+
+- id: leishen  
+  name: 雷神
+  aliases: []
+  event: 领悟并进入领域之境, 决定和洪一起对抗吞噬兽
+  description: 在修炼过程中，雷神领悟了领域，并且决定与洪一同面对即将到来的挑战。
+  skill: [领悟领域]
+```

@@ -1,0 +1,50 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 预测界中界的宝藏将被九皇子争夺
+  description: 观察和分析九皇子的实力与战术，感叹其威力。
+  skill: []
+
+- id: leishen
+  name: 雷神
+  aliases: []
+  event: 看到九皇子使用的镭射枪感到震惊
+  description: 被C2级镭射枪的快速发射能力所震撼。
+  skill: []
+
+- id: hong
+  name: 洪
+  aliases: []
+  event: 分析九皇子的优势和影响
+  description: 认为九皇子凭借武力、人马和身份难以阻挡。
+  skill: []
+
+- id: jiujiong
+  name: 九皇子
+  aliases: [布罗林]
+  event: 带领大军争夺界中界的宝藏
+  description: 使用C2级镭射枪震慑四方，带领六百多人及黑龙山阵营进入城堡。
+  skill: []
+
+- id: heiyunhui
+  name: 黑云会
+  aliases: []
+  event: 观看九皇子争夺宝藏的过程
+  description: 和其他几个阵营一起目睹九皇子的行动。
+  skill: []
+
+- id: baihulou
+  name: 百虎楼
+  aliases: []
+  event: 领头人被九皇子镭射枪击杀
+  description: 发生了领头人的意外死亡，阵营陷入沉默。
+  skill: []
+
+- id: xiaokangjingguo
+  name: 小康帝国
+  aliases: [黑龙山帝国]
+  event: 九皇子代表的皇族势力参与争夺宝藏
+  description: 黑龙山圣地作为小康新兴王国的根基，支持皇族。
+  skill: []
+```

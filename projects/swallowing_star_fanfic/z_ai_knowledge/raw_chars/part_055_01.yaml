@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng 
+  name: 罗峰
+  aliases: [罗峰]
+  event: 域外战场，九绝神国
+  description: 封王初等强者，在域外战场上遇到机械族敌人的强大防御系统“九绝神国”，并陷入其中。
+  skill: ["血影战刀", "六棱盾"]
+- id: xuxin 
+  name: 徐欣
+  aliases: [徐欣]
+  event: 祈求上天保佑罗峰
+  description: 在虚拟宇宙黑龙山九星湾为罗峰祈福，担心罗峰的安全。
+  skill: []
+- id: ziwei 
+  name: 茨维卡
+  aliases: [茨维卡]
+  event: 制造“九绝神国”
+  description: 罗峰的机械族武器制造者，设计并建造了“九绝神国”防御系统。
+  skill: ["九绝神国"]
+- id: heimu 
+  name: 黑甲青年
+  aliases: [黑甲青年]
+  event: 初次前往域外战场
+  description: 封王初等强者，以妖族身份初次进入域外战场，并前往焱祭大陆。
+  skill: []
+```

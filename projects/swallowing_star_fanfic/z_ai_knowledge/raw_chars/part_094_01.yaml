@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [军士银河]
+  event: 学习神眼秘术至第六卷
+  description: 法则之主，进入乌启楼第七层学习神眼秘术。
+  skill: []
+- id: heimuwulingdaosheng
+  name: 黑雾统领
+  aliases: []
+  event: 观察军士银河的学习进度
+  description: 死死盯着屏幕观察罗峰在第七层的表现，推测他能学到的神眼秘术卷数。
+  skill: []
+- id: kuiwuulingdaosheng
+  name: 魁梧统领
+  aliases: []
+  event: 收集信息
+  description: 观察军士银河学习进度，并在罗峰离开第七层后让屏幕消失，结束观察。
+  skill: []
+- id: yinjiazhiniulingdaosheng
+  name: 银甲女子统领
+  aliases: []
+  event: 讨论第八层的秘密
+  description: 和其他统领讨论乌启楼第八层可能存在的秘密和规则。
+  skill: []
+```

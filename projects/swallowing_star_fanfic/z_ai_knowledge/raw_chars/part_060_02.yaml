@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 认主过程开始，面临痛苦的考验。
+  description: 正在经历晶珠融合的过程，需要承受极大的痛苦来通过这个考验。
+  skill: []
+- id: puti  
+  name: 普缇
+  aliases: [普缇]
+  event: 观察罗峰认主过程，并给予鼓励和支持。
+  description: 是一个观察并协助地球一脉首领选拔的重要角色，对整个事件的发展有重要影响。
+  skill: []
+- id: zhongjianwang  
+  name: 重箭王
+  aliases: [重箭]
+  event: 离开星辰塔等待罗峰的指令。
+  description: 向罗峰报告了驱武王的陨落，并按照罗峰的指示离开星辰塔。
+  skill: []
+- id: tianzhenwang  
+  name: 天阵王
+  aliases: [天阵王]
+  event: 被认为是导致驱武王死亡的原因，受到罗峰的仇恨。
+  description: 在妖族阵营的一方围攻下陨落了驱武王，并成为罗峰要报仇的目标。
+  skill: []
+- id: quwuwang  
+  name: 驱武王
+  aliases: [驱武]
+  event: 被天阵王的阴谋导致陨落，令重箭王向罗峰报告。
+  description: 在妖族阵营的一方围攻下被击杀。
+  skill: []
+```

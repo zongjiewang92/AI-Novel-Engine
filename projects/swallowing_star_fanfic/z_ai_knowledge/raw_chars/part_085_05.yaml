@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: [罗峰, 人类银河]
+  event: 联系东帝始祖商议交换记忆之石和至强至宝事宜
+  description: 罗峰在传承空间修炼，通过联系北真星主间接与东帝始祖交谈，拒绝了东帝始祖想要无偿获取第二颗记忆之石的要求。
+  skill: [修炼, 谈判]
+- id: dongzhishu
+  name: DongZhiShu
+  aliases: [东帝始祖]
+  event: 向罗峰要求再次交换一颗新的记忆之石而不付出任何代价
+  description: 东帝始祖不满意罗峰提供的第一颗超越宇宙最强者层次的修炼经验的记忆之石，希望再获得更高深经验。
+  skill: [谈判, 威胁]
+- id: bazhi-zhushou
+  name: BaZhi-ZhuShou
+  aliases: [巴狮之主]
+  event: 在原始宇宙中发现巨斧创始者的陨落
+  description: 巴狮之主在前往倾峰界途中，注意到巨斧创始者的小型宇宙出现异常迹象，并确认其已经陨落。
+  skill: [瞬移, 探查]
+```

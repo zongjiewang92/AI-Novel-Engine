@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: []
+  event: 界兽王者的诞生
+  description: 胜利后将摩罗撒收入星辰塔，准备奴役界兽王者。
+  skill: [至高意志秘术《列元术》]
+- id: mohe
+  name: MoHe
+  aliases: []
+  event: 界兽漠河被击败
+  description: 被罗峰用《列元术》攻击灵魂，导致瞬间陨落。
+  skill: []
+- id: molosasa
+  name: MoluoSaSa
+  aliases: []
+  event: 即将进化成界兽王者
+  description: 成功被奴役后准备成为最后的界兽王者。
+  skill: []
+```

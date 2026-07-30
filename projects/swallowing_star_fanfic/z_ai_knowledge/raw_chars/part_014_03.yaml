@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: [罗峰]
+  event: 接任巡察使大典
+  description: 罗峰接任极限武馆新一任巡察使，身份为议员。
+  skill: [精神念力, 振幅36倍, 控制18柄飞刀]
+- id: hong
+  name: Hong
+  aliases: [洪]
+  event: 讨论雾岛宝藏
+  description: 行星级强者，拥有“洪荒级智能战机”，与雷神讨论关于雾岛上出现的怪兽皇者及宝物。
+  skill: []
+- id: leishen
+  name: LeiShen
+  aliases: [雷神]
+  event: 讨论雾岛宝藏
+  description: 行星级强者，与洪讨论雾岛上出现的怪兽皇者和可能存在的宝物。
+  skill: []
+- id: luohongguo
+  name: LuoHongGuo
+  aliases: [罗洪国, 父亲]
+  event: 清晨散步
+  description: 身体不便，需要儿子搀扶，在小区内散步。
+  skill: []
+```

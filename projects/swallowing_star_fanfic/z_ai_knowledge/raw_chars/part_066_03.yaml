@@ -1,0 +1,20 @@
+```yaml
+- id: luofengbenzhen
+  name: 罗峰本尊
+  aliases: [罗峰]
+  event: 魔杀族分身的天赋秘法‘域’施展，极虹王协助空间封锁
+  description: 地球人本尊，银甲银翼形态，拥有世界戒指和极虹王。
+  skill: [空间封锁]
+- id: moheshufenzhi
+  name: 魔杀族分身
+  aliases: []
+  event: 施展天赋秘法‘域’，瞬移穿越空间封锁
+  description: 吸纳了空间之心精华能量的生命体，拥有特殊生命天赋秘法。
+  skill: ['域', 瞬移]
+- id: jiuhongwang
+  name: 极虹王
+  aliases: []
+  event: 协助罗峰本尊进行空间封锁
+  description: 属于罗峰的分身之一，能够辅助施展空间封锁技能。
+  skill: [空间封锁]
+```

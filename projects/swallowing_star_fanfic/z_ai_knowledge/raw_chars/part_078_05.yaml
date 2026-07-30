@@ -1,0 +1,15 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 观察原始宇宙和参照物小型宇宙
+  description: 刚从初始宇宙出发，观察到混沌气流的强大威压，并跟随混沌城主前往参照物小型宇宙。
+  skill: []
+
+- id: hunzaochengzhuzi
+  name: 混沌城主
+  aliases: []
+  event: 带领罗峰进入宇宙海并介绍原始宇宙和参照物小型宇宙的情况
+  description: 向罗峰解释混沌气流的性质，带领他前往参照物小型宇宙，并讲解了关于三个宇宙时代的知识。
+  skill: []
+```

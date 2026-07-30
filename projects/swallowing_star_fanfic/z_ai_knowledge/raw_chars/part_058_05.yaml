@@ -1,0 +1,26 @@
+```yaml
+- id: xieyangwang
+  name: 血兽王
+  aliases: []
+  event: 炎祭大陆战斗之地
+  description: 封王强者，不朽神体损失42%，灵魂也有损伤。
+  skill: [瞬移能力]
+- id: zhongjianwang
+  name: 重箭王
+  aliases: []
+  event: 炎祭大陆战斗之地
+  description: 封王强者，不朽神体损失59%。
+  skill: [瞬移能力]
+- id: zizhongwang
+  name: 紫钟王
+  aliases: []
+  event: 炎祭大陆战斗之地
+  description: 拥有紫钟的封王强者，在与罗峰的战斗中被炸死。
+  skill: [瞬移能力, 携带紫钟]
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 炎祭大陆战斗之地
+  description: 收获了紫钟王留下的宝物，并准备迎战到来的封王强者。
+  skill: [瞬移能力, 双翼振翅飞行]
+```

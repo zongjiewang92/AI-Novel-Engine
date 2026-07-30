@@ -1,0 +1,22 @@
+```yaml
+- id: ju斧创始者  
+  name: jufuzhengzhe
+  aliases: [巨斧]
+  event: 倾峰界核心之地遇险,提醒众人不要来昏暗之地
+  description: 人类族群的宇宙最强者之一，目前被困在倾峰界的昏暗之地。正在全力想办法脱困。
+  skill: []
+
+- id: 混沌城主  
+  name: hundunchengzhu
+  aliases: []
+  event: 召集会议,提醒罗峰注意保密
+  description: 混沌城的管理者，与巨斧创始者和罗峰一起策划人类族群的崛起计划。
+  skill: []
+
+- id: 罗峰  
+  name: luo Feng
+  aliases: [东帝圣地交易联系人]
+  event: 返回原始宇宙,参与人类族群崛起计划会议,被提醒不要来昏暗之地
+  description: 人类族群的重要成员，负责与东帝圣地的交易，并领导培养系统。
+  skill: []
+```

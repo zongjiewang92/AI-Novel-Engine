@@ -1,0 +1,50 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: [罗峰]
+  event: 刀河王接战数十万邀战信
+  description: 界主刀河王发出邀请战书，收到回信后开始接战。
+  skill: []
+
+- id: qiaomanwang
+  name: QiaoManWang
+  aliases: [察曼王]
+  event: 被界主罗峰击败
+  description: 封王极限强者被刀河王击溃。
+  skill: []
+
+- id: qiujianwang
+  name: QiuJianWang
+  aliases: [逐虫王]
+  event: 提到的背景信息
+  description: 曾经向罗峰低头的封王极限强者。
+  skill: []
+
+- id: mengsuining
+  name: MengSuiNing
+  aliases: [梦燧宁, 梦燧王]
+  event: 被提及的人类不朽天才
+  description: 和七剑王一样，被认定为人类族群的优秀不朽天才。
+  skill: []
+
+- id: qijianwang
+  name: QiJianWang
+  aliases: [七剑王]
+  event: 在荣耀世界与罗峰邀战
+  description: 赢得宝藏之地的一处宝藏，并在现实中拥有强大的保命能力。在荣耀世界中，他接到了刀河王的挑战。
+  skill: []
+
+- id: zaozhenjiao
+  name: ZaoZhenJiao
+  aliases: [祖神教]
+  event: 提到的背景信息
+  description: 祖神教内部有宝藏之地供绝世天才们寻找宝藏，是刀河王和七剑王等人的培养地。
+  skill: []
+
+- id: leishenmian
+  name: LeiShenMian
+  aliases: [雷兽神殿]
+  event: 提到的背景信息
+  description: 祖神教内的一个兽神殿，由雷兽神管理。
+  skill: []
+```

@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 兑换宝物，分批卖掉雷霆石
+  description: 在雷电城堡中成功兑换大量宝物，并将剩余的雷霆石卖出。
+  skill: [精密探测, 挖掘第一桶金]
+- id: hai  
+  name: 海
+  aliases: []
+  event: 联军军队数量增加，指导如何处理剩余的雷霆石
+  description: 提醒罗峰尽快卖掉剩下的雷霆石以避免贬值。
+  skill: [谨慎传音]
+- id: lei 
+  name: 雷神
+  aliases: []
+  event: 接收罗峰带来的宝物, 分享售卖雷霆石收益
+  description: 对于无法兑换的雷霆石感到失望，但同意尽快卖掉剩余的。
+  skill: [期待传音]
+- id: burolin  
+  name: 布罗林
+  aliases: []
+  event: 提到九皇子对宝藏的获取情况
+  description: 在联军中具有重要地位，从宝藏中获得了大量财富。
+  skill: [大队伍领导能力]
+```

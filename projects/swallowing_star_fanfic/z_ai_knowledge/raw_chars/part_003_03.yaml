@@ -1,0 +1,44 @@
+```yaml
+- id: zhangzehu  
+  name: 张泽虎
+  aliases: [张昊白的叔叔]
+  event: 和陈谷较劲, 在荒野区遇到罗峰所在的火锤小队
+  description: 火锤小队的成员之一，使用冷兵器，对罗峰有怨恨。
+  skill: []
+- id: chengu  
+  name: 陈谷
+  aliases: [陈哥]
+  event: 提醒罗峰小心独角野猪, 和罗峰对话
+  description: 火锤小队的成员之一，使用热武器机枪，关心新人罗峰。
+  skill: []
+- id: zhangke  
+  name: 张科
+  aliases: [铁枪张科]
+  event: 鼓励罗峰对付独角野猪, 和火锤小队其他队员一起行动
+  description: 火锤小队的成员之一，使用热武器机枪。
+  skill: []
+- id: gao_feng  
+  name: 高风
+  aliases: [双风锤]
+  event: 指挥队伍, 分配任务给罗峰
+  description: 火锤小队队长，使用冷兵器，指挥整个队伍行动。
+  skill: []
+- id: weijia_xiongdi  
+  name: 魏家兄弟
+  aliases: [双月弯刀]
+  event: 在队伍最前面, 参与对付独角野猪的任务
+  description: 火锤小队的成员，使用冷兵器。
+  skill: []
+- id: luo_feng  
+  name: 罗峰
+  aliases: []
+  event: 首次进入荒野区, 对付独角野猪
+  description: 新加入火锤小队的新队员，首次面对G级、F级之间的独角野猪。
+  skill: []
+- id: duzhong_ryu  
+  name: 独眼中年人
+  aliases: [张泽虎的队友]
+  event: 和张泽虎对话, 谈论对付老怪兽的计划
+  description: 张泽虎队伍中的一员，独眼中年男子。
+  skill: []
+```

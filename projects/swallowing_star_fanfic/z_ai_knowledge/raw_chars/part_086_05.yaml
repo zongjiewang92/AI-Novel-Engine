@@ -1,0 +1,20 @@
+```yaml
+- id: zuoshanke  
+  name: Zuoshanke  
+  aliases: [坐山客]  
+  event: 教罗峰炼制至宝古神眼，拒绝加入人类阵营对抗敌人  
+  description: 炼制了名为“古神眼”的至宝交给罗峰，并告知使用方法。明确表示不会加入任何一方阵营参与战争，但会按之前承诺为罗峰服务  
+  skill: [炼制至宝]
+- id: luofeng  
+  name: Luofeng  
+  aliases: []  
+  event: 接受坐山客赠送的古神眼至宝，并告知混沌城主  
+  description: 得到古神眼后立即回到原始秘境，将消息告诉老师混沌城主并讨论战局应对策略  
+  skill: [得到古神眼]
+- id: hundunchengzhu  
+  name: Hundianchengzhu  
+  aliases: [混沌城主]  
+  event: 接受罗峰告知的古神眼信息，准备迎战即将到来的大规模战争  
+  description: 听取罗峰关于古神眼的消息并对其作用表示肯定，指示罗峰尽快提升实力以减轻人类一方的压力  
+  skill: [指挥大规模战争]
+```

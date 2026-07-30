@@ -1,0 +1,30 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 观看加封的讯息和有关乌启神的信息。
+  description: 在宇宙海中等待类人形生物，参与集体轰击任务，并且最终确认方向无误。
+  skill: []
+
+- id: jinzhi  
+  name: 晋之世界
+  aliases: []
+  event: 提供加封的讯息和乌启神的信息。
+  description: 具有创造乌启神的能力，拥有悠久的历史。
+  skill: []
+
+- id: wangbaoshi  
+  name: 王宝时
+  aliases: []
+  event: 创造宇宙海中的机制筛选出强者，并且加封真神或者法则之主。
+  description: 晋之世界中的神王陛下，创造了乌启神的机器，并制定规则。
+  skill: []
+
+- id: duandonghe  
+  name: 断东河
+  aliases: []
+  event: 被加封了一个吴字。
+  description: 上一任断东河，是被加封过的一个强者。
+  skill: []
+
+```

@@ -1,0 +1,26 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [罗师弟]
+  event: 实力突破，成为高等战神级精神念师；准备参加生死冒险任务
+  description: 精神念力达到初等战神底线，身体素质勉强算作初等战神。具有SS级飞刀。
+  skill: ["操控SS级飞刀"]
+- id: zhang  
+  name: 赵若
+  aliases: [赵师妹]
+  event: 准备参加生死冒险任务；梦见洪
+  description: 梦见世界第一强者洪，对洪充满向往之情。
+  skill: []
+- id: shi Jiang  
+  name: 史江
+  aliases: [史师兄]
+  event: 讨论总馆主洪的形象与实力
+  description: 曾见过总馆主洪，对其极为崇敬。认为其他超越战神的存在无法和洪相比。
+  skill: []
+- id: hong  
+  name: 洪
+  aliases: [世界第一强者]
+  event: 被学员们期待着参加生死冒险任务前的会议；被史江描述为神灵一般的存在
+  description: 第一世界强者，被称为神灵一般的存在。
+  skill: []
+```

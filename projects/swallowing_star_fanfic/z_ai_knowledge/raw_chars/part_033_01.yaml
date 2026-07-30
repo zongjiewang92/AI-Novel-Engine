@@ -1,0 +1,32 @@
+```yaml
+- id: zhengyanwang
+  name: 真衍王
+  aliases: [老师, 先生]
+  event: 教导罗峰20年, 准备让罗峰离开混沌城
+  description: 混沌城内地位极高，收罗峰为徒并教导他悟透《九宇混沌碑》第一幅图‘雨滴图’，以及参悟《飘血》秘典。真衍王拥有众多弟子，仅三师兄成为不朽且封王。
+- id: luo Feng
+  name: 罗峰
+  aliases: [徒儿, 弟子]
+  event: 准备离开混沌城, 获得真衍王教导与指导
+  description: 在混沌城学习20年，悟透《九宇混沌碑》第一幅图‘雨滴图’的前九套剑法，并参悟《飘血》秘典。罗峰计划在离开混沌城后继续他的修炼之路。
+- id: ba Ba Ta
+  name: 巴巴塔
+  aliases: []
+  event: 给予罗峰建议
+  description: 在罗峰准备离开老师时，巴巴塔提出修炼千万年后的设想，并被罗峰拒绝。
+- id: bo Lan
+  name: 伯兰
+  aliases: []
+  event: 混沌城天才之一, 罗峰的竞争对手
+  description: 和罗峰是同一批进入混沌城的天才之一，通过了通天桥第五层，在混沌城内实力仅次于罗峰。
+- id: Long Yu Wang
+  name: 珑玉王
+  aliases: []
+  event: 向尊者报告混沌城天才的情况
+  description: 报告罗峰和伯兰等人的表现情况，尤其是他们通过通天桥的层数。
+- id: Jiu Jian Zun Zhe
+  name: 九剑尊者
+  aliases: []
+  event: 计划接回罗峰等人, 听取报告
+  description: 在不朽们的陪同下听取珑玉王对混沌城天才情况的报告，决定接回罗峰他们这一批人。
+```

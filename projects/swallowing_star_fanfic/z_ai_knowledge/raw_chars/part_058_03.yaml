@@ -1,0 +1,16 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 购买资源提升金角巨兽的《本尊天地》修为和火神源晶
+  description: 罗峰花费巨额财富购买资源，以提升金角巨兽的能力。同时购得四颗价值高昂的火神源晶。
+  skill: []
+
+- id: yilinana  
+  name: 伊琳娜
+  aliases: []
+  event: 解释虫族母皇成为不朽级难度极高
+  description: 伊琳娜向罗峰解释，想要让虫族母皇进化成不朽需要极高的法则感悟和物质条件。
+  skill: []
+
+```

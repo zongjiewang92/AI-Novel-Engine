@@ -1,0 +1,32 @@
+```yaml
+- id: li_yao
+  name: 李耀
+  aliases: [秃鹫]
+  event: 被判死刑后试图逃脱
+  description: 在被送往下场执行死刑时，李耀突破为议员层次并利用特殊能力“光线”逃离。
+  skill: [光线]
+
+- id: wei_ni_na
+  name: 维妮娜
+  aliases: []
+  event: 被处决
+  description: 李耀的同伴维妮娜在荒野区被执行死刑，被议员阿木罕杀死。
+
+- id: luo_feng
+  name: 罗峰
+  aliases: []
+  event: 捕捉并追击李耀
+  description: 在李耀试图逃脱时，罗峰迅速跟上并利用遁天梭追赶他。
+
+- id: liu_he
+  name: 柳河
+  aliases: []
+  event: 执行死刑及抓捕任务
+  description: 随同阿木罕议员执行对李耀的死刑，在柳河和阿木罕未能追上时向馆主报告情况。
+
+- id: a_mu_han
+  name: 阿木罕
+  aliases: []
+  event: 杀死维妮娜并追赶李耀
+  description: 在荒野区杀死维妮娜后，与柳河一同追赶逃跑的李耀但未能成功。
+```

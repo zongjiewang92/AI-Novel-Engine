@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰学员]
+  event: 极限武馆总部召见，分配雾岛收获
+  description: 发现并报告了雾岛的存在，获得15%的草木之灵奖励份额。
+  skill: []
+- id: liuxianceishi  
+  name: 柳巡察使
+  aliases: [柳]
+  event: 极限武馆总部召见
+  description: 获得部分雾岛收获分配额度，向罗峰介绍兑换宝物的机会。
+  skill: []
+- id: bingshan  
+  name: 冰山
+  aliases: [冰山先生, 冰山亲卫]
+  event: 极限武馆总部召见
+  description: 洪的亲卫，沉默寡言。
+  skill: []
+- id: hong  
+  name: 洪
+  aliases: [馆主]
+  event: 召见罗峰分配奖励
+  description: 发放雾岛收获给罗峰15%份额，并介绍兑换宝物的机会。
+  skill: []
+```

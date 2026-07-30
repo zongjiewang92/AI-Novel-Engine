@@ -1,0 +1,26 @@
+```yaml
+- id: shihuaodaozhu 
+  name: 始化岛主 
+  aliases: [] 
+  event: 自由联盟内部派系争议、与人类阵营的交涉
+  description: 自由联盟的核心领袖，试图掌控自由联盟并迫使人类交出修炼到宇宙最强者极限的传承讯息。
+  skill: []
+- id: luofeng  
+  name: 罗峰 
+  aliases: [] 
+  event: 接受各方势力的要求、回应星空巨兽联盟等
+  description: 人类族群的核心人物，拥有断东河一脉传承，拒绝交出修炼到宇宙最强者极限的经验方法。
+  skill: []
+- id: heiyantongzhu  
+  name: 黑暗之主 
+  aliases: [] 
+  event: 参与罗峰的决策
+  description: 支持并协助罗峰处理各方势力的要求，对人类族群的发展充满信心。
+  skill: []
+- id: xingkongshizu 
+  name: 星空始祖  
+  aliases: [] 
+  event: 决策如何回应人类拒绝交出修炼方法
+  description: 星空巨兽联盟的领袖，对人类拒绝做出强烈反应并考虑采取进一步行动。
+  skill: []
+```

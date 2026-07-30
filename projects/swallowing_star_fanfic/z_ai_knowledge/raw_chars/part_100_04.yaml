@@ -1,0 +1,38 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 参悟三十六万纪元，创造毁灭之道，突破至永恒真神
+  description: 生命本源之毁灭！毁灭本源之毁灭！令罗峰参悟出‘毁灭之道’，在境界上，罗峰已然踏入了永恒真神阶段。
+  skill: ["生命本源之毁灭", "毁灭本源之毁灭"]
+- id: xuxin  
+  name: 徐欣
+  aliases: []
+  event: 知道罗峰参悟结束前来见他
+  description: 告诉罗峰原始宇宙已经诞生，新的轮回时代已经开始。
+  skill: []
+- id: yuanzu  
+  name: 原祖
+  aliases: [原祖]
+  event: 向罗峰询问感悟情况，并帮助罗峰准备突破至永恒真神
+  description: 罗峰参悟结束后，原祖的一神力化身来到罗峰的小型宇宙中。罗峰将小型宇宙提升到一定规模后，原祖也开始进行提升。
+  skill: []
+- id: zuoshankemu  
+  name: 坐山客
+  aliases: [坐山客]
+  event: 远眺罗峰的小型宇宙扩张过程，并评论进展
+  description: 见证罗峰小型宇宙的膨胀和突破，对罗峰的进步表示惊叹。
+  skill: []
+- id: hunzouchuzhu  
+  name: 混沌城主
+  aliases: [混沌城主]
+  event: 参与见证罗峰的小型宇宙扩张过程
+  description: 见证了银河圣地宇宙从初生到突破至永恒真神的整个过程。
+  skill: []
+- id: ximo  
+  name: 西莫
+  aliases: [西莫]
+  event: 在小型宇宙扩张过程中激动无比，赞叹罗峰的进步
+  description: 激动地见证了银河圣地宇宙从小型宇宙到突破至永恒真神的全过程，并对父神（罗峰）表示惊叹。
+  skill: []
+```

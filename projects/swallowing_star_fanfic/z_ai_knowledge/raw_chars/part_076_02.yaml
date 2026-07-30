@@ -1,0 +1,30 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [刀河之主]
+  event: 击退班夫之主，一次性灭杀6000多名宇宙尊者
+  description: 以魔杀族分身快速通过漩涡通道转移，并伪装成血云殿主。轻松躺在原始星丘陵上。
+  skill: [秘法]
+
+- id: chen Huo zhi Zhu  
+  name: 沉火之主
+  aliases: []
+  event: 发现罗峰的踪迹，传递消息给梦妖祖和震妖祖
+  description: 威压降临原始星，发现血云殿主。
+  skill: []
+
+- id: meng Yao zu  
+  name: 梦妖祖
+  aliases: [梦茶]
+  event: 等待罗峰的消息，接收到沉火之主的报告。
+  description: 在虚拟空间宫殿前等待消息。
+  skill: []
+
+- id: zhen Yao zu  
+  name: 震妖祖
+  aliases: []
+  event: 和梦妖祖讨论如何找到罗峰以及应对策略。
+  description: 猜测罗峰可能已经逃回人类疆域。
+  skill: []
+
+```

@@ -1,0 +1,26 @@
+```yaml
+- id: siqirenbo Lan
+  name: 死神伯兰
+  aliases: [死神]
+  event: 第七座试炼塔第一层
+  description: 总排名第1，实力极为强大。
+  skill: [极强的战斗力]
+- id: kandi Ta
+  name: 坎迪塔
+  aliases: ['血锋']
+  event: 第五座试炼塔第五层
+  description: 失败于机械傀儡战斗中，最终排名第28。
+  skill: [旋风沿]
+- id: yi Feng
+  name: 逸锋
+  aliases: ['生命之剑']
+  event: 第五座试炼塔第六层
+  description: 在击败100头机械傀儡后失败于星空巨兽‘苍’，排名第16。
+  skill: [木之本源法则, 风之本源法则]
+- id: lun Zi
+  name: 罗子
+  aliases: ['疯子']
+  event: 第五座试炼塔第六层及以后
+  description: 继续进行试炼，是最后一位还在试炼中的选手。
+  skill: []
+```

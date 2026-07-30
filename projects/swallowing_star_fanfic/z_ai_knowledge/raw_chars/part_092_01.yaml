@@ -1,0 +1,22 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 等待时机出现，寻找真神尸体。
+  description: 观察战场情况，计算最安全的路线接近目标真神尸体。
+  skill: []
+
+- id: zhuanyuan
+  name: 队长
+  aliases: [队长]
+  event: 完成自身任务，并帮助手下军士完成军队任务。
+  description: 带领一支小队在九烟泽区域寻找并夺取真神尸体，同时保护手下成员安全。
+  skill: []
+  
+- id: jishou
+  name: 军士
+  aliases: [法则之主]
+  event: 吹捧队长，并期待队长带领他们完成军队任务。
+  description: 跟随队长行动，在队长的带领下寻找并夺取真神尸体，同时等待机会帮助其他成员完成任务。
+  skill: []
+```

@@ -1,0 +1,44 @@
+```yaml
+- id: luofeng 
+  name: 罗峰 
+  aliases: [] 
+  event: 断东河传承的闯荡者之一，遭遇怪物奎洛
+  description: 银色羽翼展开，与怪物奎洛战斗，利用金色国度进行加持。在被踢飞和蹂躏后通过了怪物奎洛的考验。
+  skill: [弑吴羽翼]
+- id: kongzhuanghe 
+  name: 巨斧 
+  aliases: [] 
+  event: 责成罗峰继续闯荡断东河传承
+  description: 担心人类族群的利益，支持罗峰的决定。
+  skill: []
+- id: hunzhouchengzhu 
+  name: 混沌城主 
+  aliases: [] 
+  event: 向罗峰询问有关断东河传承的消息
+  description: 对断东河传承非常关注，并且支持罗峰继续闯荡。
+  skill: []
+- id: duandonghe 
+  name: 断东河 
+  aliases: [] 
+  event: 发布传承挑战，提供怪物奎洛和金色国度的考验
+  description: 创始者，发布断东河传承的任务，并且通过声音传达信息。
+  skill: [魔方仪器测定, 冰冷的声音]
+- id: wuliangzhuzi 
+  name: 巫魉之主 
+  aliases: [] 
+  event: 在闯荡断东河传承的途中幸存下来
+  description: 惊诧于罗峰能在怪物奎洛手下存活。
+  skill: []
+- id: yingaizhuzi 
+  name: 影埃之主 
+  aliases: [] 
+  event: 参与挑战，嘲笑罗峰的实力
+  description: 冷笑称自己遇到的怪物奎洛比罗峰强。
+  skill: [冷笑]
+- id: luchongzhuzi 
+  name: 鹿虫之主 
+  aliases: [] 
+  event: 讲述遭遇怪物奎洛的情况
+  description: 描述自己遇到的强大怪物奎洛，感叹其可怕实力。
+  skill: []
+```

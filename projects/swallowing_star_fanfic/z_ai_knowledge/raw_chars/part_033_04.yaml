@@ -1,0 +1,15 @@
+```yaml
+- id: luofeng 
+  name: 罗峰 
+  aliases: [罗峰殿下]
+  event: 加入虚拟宇宙公司核心成员, 接受生活和学习资源
+  description: 虚拟宇宙公司核心成员，身份重要且受到特别待遇。
+  skill: []
+
+- id: bafabata 
+  name: 巴巴塔 
+  aliases: [小恶魔]
+  event: 提供罗峰关于虚拟宇宙公司的建议与指导
+  description: 罗峰的助手，对虚拟宇宙公司有深入了解。
+  skill: []
+```

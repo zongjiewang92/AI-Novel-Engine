@@ -1,0 +1,62 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [罗洪]
+  event: 天才战预选
+  description: 在虚拟宇宙中参加天才战预选，住在第一世界区一栋住宅楼内。
+  skill: [幻剑式, 念力虚空之塔]
+- id: gong Xin Lan  
+  name: 龚心兰
+  aliases: []
+  event: 天才战预选观战
+  description: 和家人乘坐飞船在第一世界区上空观看天才战预选。
+  skill: []
+- id: xu Xin  
+  name: 徐欣
+  aliases: [徐欣的哥哥]
+  event: 天才战预选观战
+  description: 和家人乘坐飞船在第一世界区上空观看天才战预选，关心罗峰排名情况。
+  skill: []
+- id: xiao Hai  
+  name: 小海
+  aliases: []
+  event: 天才战预选观战
+  description: 在飞船中关注爸爸和大伯的排名变化。
+  skill: []
+- id: xu Gang  
+  name: 徐刚
+  aliases: [徐欣哥哥]
+  event: 天才战预选观战
+  description: 和家人乘坐飞船在第一世界区上空观看天才战预选，对比赛没有转播表示感慨。
+  skill: []
+- id: xiao Ping  
+  name: 小平
+  aliases: [二伯的孩子]
+  event: 天才战预选观战
+  description: 在飞船中和小海争论爸爸是否需要保留实力。
+  skill: []
+- id: luo Hong Guo  
+  name: 罗洪国
+  aliases: []
+  event: 天才战预选观战
+  description: 和家人乘坐飞船在第一世界区上空观看天才战预选，关心罗峰排名情况。
+  skill: []
+- id: bu Luo Lin  
+  name: 布罗林
+  aliases: [黑龙山帝国皇子]
+  event: 天才战预选观战
+  description: 在豪华宇宙飞船上与世子殿下等人观看比赛，并被问起黑龙山帝国的表现。
+  skill: []
+- id: cao Tu Er  
+  name: 骆涂儿
+  aliases: [鹏羽帝国皇子]
+  event: 天才战预选观战
+  description: 在豪华宇宙飞船上与世子殿下等人观看比赛，讨论未来继承皇位的可能性。
+  skill: []
+- id: duo Tian Hou  
+  name: 鼎天侯
+  aliases: []
+  event: 天才战预选观战
+  description: 国主之下地位最高的封侯之一，领地比鹏羽帝国大十倍。
+  skill: []
+```

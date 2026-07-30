@@ -1,0 +1,17 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 冲到第99名, 第二层A阶段失败了, 努力猎杀怪兽, 在试炼塔第二层努力挑战铁甲蝎群
+  description: 战神强者，近一个月在精英训练营表现突出。尊敬老师江芳，在排行榜上不断努力提升排名。
+- id: jiangfang  
+  name: 江芳
+  aliases: [江芳]
+  event: 出现在九重楼门口, 表扬罗峰并鼓励他继续努力
+  description: 精英训练营的老师，战神强者。对学员罗峰的帮助很大。
+- id: kandices  
+  name: 坎迪斯
+  aliases: [坎迪斯]
+  event: 听说罗峰排名, 在训练营门口冷笑
+  description: 训练营的一名学员，看到罗峰的排名变化后表现出不屑的态度。
+```

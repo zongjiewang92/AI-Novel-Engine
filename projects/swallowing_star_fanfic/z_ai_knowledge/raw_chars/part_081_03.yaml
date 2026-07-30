@@ -1,0 +1,15 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 寻找灭绝神铠的鳞片，老师坐山客到来帮助他。
+  description: 正在第九深渊寻找灭绝神铠的最后一片鳞片，并且与老师坐山客联系，在最后三处区域中等待老师的到来。
+  skill: []
+
+- id: zuoshankeshi
+  name: 坐山客
+  aliases: []
+  event: 来到第九深渊帮助罗峰，告诉罗峰他所在的位置并约定见面地点。
+  description: 罗峰的老师，在得知罗峰陷入困境后立即赶来帮助。
+  skill: []
+```

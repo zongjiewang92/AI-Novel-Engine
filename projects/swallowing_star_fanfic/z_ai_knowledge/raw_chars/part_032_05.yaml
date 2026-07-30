@@ -1,0 +1,26 @@
+```yaml
+- id: luo-pin
+  name: 罗平
+  aliases: [罗峰的大儿子]
+  event: 欢迎父亲回家
+  description: 罗峰大儿子，与母亲徐欣一起管理家族事务。
+  skill: []
+- id: xu-xin
+  name: 徐欣
+  aliases: []
+  event: 迎接罗峰归来
+  description: 罗峰的妻子，负责管理家族商业和家庭事务。
+  skill: []
+- id: luo-hai
+  name: 罗海
+  aliases: [罗峰的小儿子]
+  event: 武疯子追求超级强者的道路
+  description: 罗峰的小儿子，热衷于追求人体极限成为宇宙中的超级强者。
+  skill: []
+- id: bak-sen
+  name: 巴克森
+  aliases: []
+  event: 遇见罗平时的反应
+  description: 拥有三万多颗生命星球领地的大奴隶供应商，表面上诚恳但实际上心狠手辣。
+  skill: []
+```

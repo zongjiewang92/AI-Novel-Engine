@@ -1,0 +1,38 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 原始星寻宝
+  description: 在原始星中寻找宝藏，遇到妖族和九域联盟的战斗，并且发现了一件重宝。
+  skill: []
+- id: yanzhouzunzhe  
+  name: 狷宙尊者
+  aliases: [狃宙尊者]
+  event: 资料描述
+  description: 原始星中强者们的资料，罗峰参考此资料进行寻宝。
+  skill: []
+- id: yuanxingzhongdeqiangzhe  
+  name: 原星中的强者们
+  aliases: [原始星的强者们]
+  event: 寻找宝藏
+  description: 在原始星中寻找宝藏，非常谨慎并且不会轻易出手。
+  skill: []
+- id: yaozu  
+  name: 妖族
+  aliases: [妖族联盟, 狼狈的九域联盟宇宙尊者]
+  event: 战斗与离开
+  description: 和九域联盟发生战斗，并且在罗峰到达前离开了。
+  skill: []
+- id: jiuzhualliance  
+  name: 九域联盟
+  aliases: [九域联盟的强者们, 狼狈的九域联盟宇宙尊者]
+  event: 战斗与离开
+  description: 和妖族发生战斗，并且在罗峰到达前离开了。
+  skill: []
+- id: yuzhualliance  
+  name: 星空巨兽联盟
+  aliases: [星空巨兽联盟的强者们, 巨兽联盟]
+  event: 离开现场
+  description: 观察战斗后离开，没有参与战斗。
+  skill: []
+```

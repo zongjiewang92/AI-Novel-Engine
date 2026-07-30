@@ -1,0 +1,56 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: [罗峰]
+  event: 界主小队与虬嗜族的战斗
+  description: 队伍中的成员，提醒队友敌人来袭。
+  skill: []
+- id: taiwo
+  name: TaiWo
+  aliases: [泰沃]
+  event: 界主小队与虬嗜族的战斗
+  description: 队伍队长，在发现虬嗜族时变得异常愤怒，并命令队员全力攻击。
+  skill: []
+- id: duoyao
+  name: DuoYao
+  aliases: [毒药]
+  event: 界主小队与虬嗜族的战斗
+  description: 队员之一，因过去的仇恨而暴怒，身体变得巨大并使用藤蔓攻击。
+  skill: []
+- id: xuanfeng
+  name: XuanFeng
+  aliases: [旋风]
+  event: 界主小队与虬嗜族的战斗
+  description: 队员之一，因过去的仇恨而暴怒。
+  skill: []
+- id: meinv
+  name: MeiNv
+  aliases: [魅女]
+  event: 界主小队与虬嗜族的战斗
+  description: 幻术师之一，在发现敌人时变得异常愤怒。
+  skill: []
+- id: wei
+  name: Wei
+  aliases: [卫]
+  event: 界主小队与虬嗜族的战斗
+  description: 幻术师之一，在发现敌人时变得异常愤怒。
+  skill: []
+- id: feishizhiyu
+  name: FeiShiZhiYu
+  aliases: [虬嗜族, 鳞甲生物]
+  event: 界主小队与虬嗜族的战斗
+  description: 敌人之一，拥有两名不朽神灵和二十名界主。
+  skill: []
+- id: fuwei
+  name: FuWei
+  aliases: [夫威撒, 精悍不朽鳞甲生物]
+  event: 界主小队与虬嗜族的战斗
+  description: 虬嗜族的一名不朽神灵，擅长使用火焰。
+  skill: []
+- id: rouluo
+  name: RouLuo
+  aliases: [托鲁, 粗壮不朽鳞甲生物]
+  event: 界主小队与虬嗜族的战斗
+  description: 虬嗜族的一名不朽神灵，擅长使用火焰。
+  skill: []
+```

@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰老师]
+  event: 净眼之主和罗峰交手
+  description: 显示了强大的灵魂防御能力，能够抵挡净眼之主的灵魂攻击。
+  skill: ["疯魔灭神甲", "星辰塔"]
+- id: jingyanzhizhu  
+  name: 净眼之主
+  aliases: []
+  event: 和罗峰交手
+  description: 使用巅峰领域类至宝对付罗峰，但未能击败他。
+  skill: ["领域类至宝"]
+- id: yanyingzhizhu  
+  name: 燕鹰之主
+  aliases: []
+  event: 观看净眼之主和罗峰交手的战斗
+  description: 和其他二十多位宇宙之主一起观看这场战斗。
+  skill: []
+- id: wuhunzhizhu  
+  name: 五浑之主
+  aliases: []
+  event: 与安永之主寻找空间密室，得知罗峰在黑纹石柱空间击败净眼之主
+  description: 对罗峰的实力感到烦恼。
+  skill: []
+- id: anyongzhizhu  
+  name: 安永之主
+  aliases: []
+  event: 和五浑之主一起寻找空间密室，得知罗峰在黑纹石柱空间击败净眼之主
+  description: 对净眼之主感到忌惮。
+  skill: []
+```

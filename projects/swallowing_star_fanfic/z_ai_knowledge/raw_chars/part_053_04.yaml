@@ -1,0 +1,30 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 和不朽军主舒凡、博野铸在一起，准备在雾沙岛积累战斗经验。
+  description: 刚进入焱祭大陆不久，为了对付诺岚山和适应战场环境而决定加入一支队伍。
+  skill: []
+
+- id: nolanshan  
+  name: 诺岚山
+  aliases: []
+  event: 在军队内暗自警惕罗峰，并计划一直呆在军队中避免被杀。
+  description: 认为只要留在军队内，罗峰就无法下手对付自己。因之前与罗峰的矛盾而恐惧。
+  skill: []
+
+- id: shufan  
+  name: 舒凡
+  aliases: []
+  event: 和博野铸一起邀请罗峰和他们在一起，并介绍雾沙岛的情况。
+  description: 不朽军主，负责招待罗峰并提醒他注意封侯不朽神灵的危险。
+  skill: []
+
+- id: boyezhu  
+  name: 博野铸
+  aliases: []
+  event: 和舒凡一起邀请罗峰和他们在一起，并介绍雾沙岛的情况。
+  description: 不朽军主，负责招待罗峰并提醒他注意封侯不朽神灵的危险。
+  skill: []
+
+```

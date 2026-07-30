@@ -1,0 +1,38 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 在神殿最高处的殿厅中问讯炬炼主神和搜查不朽神灵的记忆
+  description: 能够操控金色蛤蟆双眸变红的目标，能够令宇宙尊者陷入幻境但无法直接搜查记忆。疑似顶尖宇宙霸主或宇宙之主。
+  skill: [操控幻境, 心灵感应]
+- id: juelianzhushen  
+  name: 炬炼主神
+  aliases: []
+  event: 被罗峰问讯并搜查其灵魂仆从的记忆
+  description: 垣奥秘境的管理者，垣奥之主的灵魂仆从。拥有20位灵魂仆从。
+  skill: [未知]
+- id: yuanzu 
+  name: 祖神教
+  aliases: []
+  event: 被提及在原始宇宙中自称守护者
+  description: 原始宇宙中的一个势力，被提到可能对原始宇宙不利。
+  skill: []
+- id: yuanyuzhiqigongzhu 
+  name: 垣奥之主
+  aliases: [垣奥至高神]
+  event: 被提及拥有灵魂仆从炬炼主神和另外两位不朽神灵，其计划启动后祖神教有反应。
+  description: 原始宇宙中的强大力量，可能是罗峰的目标。疑似操控金色蛤蟆双眸变红目标的灵魂控制者。
+  skill: [未知]
+- id: bowaishen 
+  name: 波瓦神
+  aliases: []
+  event: 被提及是炬炼主神灵魂仆从之一，已被击杀。
+  description: 觉暗大陆的不朽神灵，被罗峰调查后发现是目标。
+  skill: [未知]
+- id: juelianzhushen-de-hunlingfuci 
+  name: 炬炼主神的灵魂仆从
+  aliases: []
+  event: 被提及共有20位，其中13位不朽和三位半神。
+  description: 觉暗大陆的各个不朽帝国中的成员，被罗峰调查后确认是目标。包括波瓦神在内。
+  skill: [未知]
+```

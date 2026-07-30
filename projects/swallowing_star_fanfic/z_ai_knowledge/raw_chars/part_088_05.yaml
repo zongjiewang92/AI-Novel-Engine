@@ -1,0 +1,107 @@
+```yaml
+- id: heirenshizhuyi
+  name: 黑狱之主
+  aliases: [黑暗师叔]
+  event: 抓获自由联盟的宇宙之主
+  description: 使用黑狱塔抓获了70多位异族宇宙之主，感谢罗峰的帮助。
+  skill: [黑狱塔, 意志冲击宝物]
+
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 制造无尽幽海困住敌方
+  description: 使用无尽幽海和神力海水将联军阵营的宇宙之主困住。
+  skill: [无尽幽海, 神力海水]
+
+- id: ziyoulianshe
+  name: 自由联盟
+  aliases: []
+  event: 被抓获的一部分成员投靠人类一方
+  description: 其中一个分队的72名宇宙之主被黑狱塔捕获，大部分表示愿意加入人类阵营。
+  skill: []
+
+- id: jiqunifushe
+  name: 机械族群父神
+  aliases: []
+  event: 命令宇宙之主撤离无尽幽海范围
+  description: 发出指令让所有的队伍尽量逃离无尽幽海，避免被捕获。
+  skill: [意念传递]
+
+- id: zhenyaozu
+  name: 震妖祖
+  aliases: []
+  event: 撤离无尽幽海范围
+  description: 听从机械族群父神的命令，带领宇宙之主撤离。
+  skill: []
+
+- id: mengyaofu
+  name: 梦妖祖
+  aliases: []
+  event: 撤离无尽幽海范围
+  description: 听从机械族群父神的命令，带领宇宙之主撤离。
+  skill: []
+
+- id: yuzumu
+  name: 狱族魔祖
+  aliases: []
+  event: 撤离无尽幽海范围
+  description: 听从机械族群父神的命令，带领宇宙之主撤离。
+  skill: []
+
+- id: jingzusaintzu
+  name: 晶族群圣主
+  aliases: []
+  event: 撤离无尽幽海范围
+  description: 听从机械族群父神的命令，带领宇宙之主撤离。
+  skill: []
+
+- id: chongzhunvhuang
+  name: 虫族女皇
+  aliases: []
+  event: 撤离无尽幽海范围
+  description: 听从机械族群父神的命令，带领宇宙之主撤离。
+  skill: []
+
+- id: beijiangmengzhu
+  name: 北疆盟主
+  aliases: []
+  event: 发出警告让联军成员小心人类阵营的行动
+  description: 将自由联盟被捕获的信息传送给其他成员，并提醒他们注意危险。
+  skill: [意念传递]
+
+- id: xingkuoshizhuyi
+  name: 星空始祖
+  aliases: []
+  event: 撤离无尽幽海范围
+  description: 听从机械族群父神的命令，带领宇宙之主撤离。
+  skill: []
+
+- id: heiyouchuangzoshi
+  name: 黑宙创始者
+  aliases: []
+  event: 撤离无尽幽海范围
+  description: 听从机械族群父神的命令，带领宇宙之主撤离。
+  skill: []
+
+- id: ezhoushizhuyi
+  name: 厄宙
+  aliases: []
+  event: 撤离无尽幽海范围
+  description: 听从机械族群父神的命令，带领宇宙之主撤离。
+  skill: []
+
+- id: xuozhenmoshen
+  name: 虚真魔神
+  aliases: []
+  event: 撤离无尽幽海范围
+  description: 听从机械族群父神的命令，带领宇宙之主撤离。
+  skill: []
+
+- id: shihuazhoudaozhu
+  name: 始化岛主
+  aliases: [始化]
+  event: 被告知自由联盟被捕获的信息
+  description: 收到北疆盟主传递的消息，得知自由联盟的一个分队被抓获。
+  skill: []
+
+```

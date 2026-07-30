@@ -1,0 +1,32 @@
+```yaml
+- id: rofeng  
+  name: 罗峰
+  aliases: []
+  event: 战神罗峰挑战
+  description: 初等战神，来自华夏国的江南基地市。在精英训练营中被人邀请赌战，并表示愿意以50亿进行赌战。
+  skill: [九重雷刀]
+- id: zaoruo  
+  name: 赵若
+  aliases: []
+  event: 战神罗峰挑战
+  description: 罗峰的师姐，来自华夏国。警告罗峰不要跟威廉赌战，并提醒他训练营中新人常被欺负。
+  skill: []
+- id: jiangchen  
+  name: 江辰
+  aliases: []
+  event: 战神罗峰挑战
+  description: 罗峰的同学，来自华夏国。警告罗峰不要跟威廉赌战，并且提到自己曾经被骗去挑战室并输掉很多钱。
+  skill: []
+- id: weiliyan  
+  name: 威廉
+  aliases: []
+  event: 战神罗峰挑战
+  description: 金发青年，来自精英训练营。邀请初来乍到的罗峰赌战，并提出以十亿进行赌战。
+  skill: [中等战力振幅]
+- id: shijiang  
+  name: 史江
+  aliases: []
+  event: 战神罗峰挑战
+  description: 罗峰的同学，来自华夏国。提醒赵若不要生气，并鼓励罗峰在赌战时展现实力。
+  skill: []
+```

@@ -1,0 +1,29 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 擂台群战第382组比赛
+  description: 来自黑龙山帝国，预选排名是第1世界区第51名。拥有强大的实力。
+  skill: []
+
+- id: pusijin  
+  name: 普希金
+  aliases: [普希金]
+  event: 擂台群战第382组比赛
+  description: 来自乾巫宇宙国皇族培养的绝世天才，预选排名是第89世界区第9名。
+  skill: []
+
+- id: jinzhiLi  
+  name: 津刺李
+  aliases: [津刺李]
+  event: 擂台群战第382组比赛
+  description: 来自乾巫宇宙国，预选排名是第13世界区第21名。
+  skill: []
+
+- id: buluolin  
+  name: 布罗林
+  aliases: [布罗林]
+  event: 黑龙山帝国皇族最高宴会
+  description: 黑龙山帝国的九皇子，对罗峰感到震惊并担心他的报复。
+  skill: []
+```

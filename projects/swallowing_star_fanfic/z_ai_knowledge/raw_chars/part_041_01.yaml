@@ -1,0 +1,38 @@
+```yaml
+- id: mo_lo
+  name: 莫洛
+  aliases: []
+  event: 虚拟宇宙公司核心层宇宙级资格战原始秘境名额争夺战
+  description: 在虚拟宇宙公司的宇宙级资格战中，莫洛在原始秘境名额争夺战中败给了罗峰。
+  skill: [空间法则]
+- id: bo_lan
+  name: 伯兰
+  aliases: []
+  event: 虚拟宇宙公司核心层宇宙级资格战原始秘境名额争夺战
+  description: 参加虚拟宇宙公司的宇宙级资格战，与罗峰同届天才战。
+  skill: [空间法则]
+- id: long_yun
+  name: 隆云
+  aliases: []
+  event: 虚拟宇宙公司核心层宇宙级资格战原始秘境名额争夺战
+  description: 在虚拟宇宙公司的宇宙级资格战中，与罗峰交手并败给罗峰。
+  skill: [未知]
+- id: yi_feng
+  name: 愚风
+  aliases: []
+  event: 虚拟宇宙公司核心层宇宙级资格战原始秘境名额争夺战
+  description: 在虚拟宇宙公司的宇宙级资格战中，药剂师愚风是罗峰的对手。
+  skill: [未知]
+- id: ke_lo_fu
+  name: 克罗夫
+  aliases: []
+  event: 虚拟宇宙公司核心层宇宙级资格战原始秘境名额争夺战
+  description: 参加虚拟宇宙公司的宇宙级资格战，与罗峰同届天才战。
+  skill: [未知]
+- id: lu_o_fu
+  name: 罗峰
+  aliases: []
+  event: 虚拟宇宙公司核心层宇宙级资格战原始秘境名额争夺战
+  description: 在虚拟宇宙公司的宇宙级资格战中，以3胜0平0负的战绩领先。
+  skill: [图腾金柱, 剑之世界]
+```

@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰  
+  aliases: []  
+  event: 原文未提及具体事件，罗峰作为监察特使被迎接进入乾巫分部。  
+  description: 监察特使，新来的不朽神灵，来自黑龙山星域。  
+  skill: []
+- id: heiyanhou  
+  name: 黑湮侯  
+  aliases: [薇撒]  
+  event: 原文未提及具体事件，黑湮侯是军部的部长，迎接罗峰进入乾巫分部。  
+  description: 军部的部长，负责军事事务。  
+  skill: []
+- id: jinyuhou  
+  name: 金羽侯  
+  aliases: [埃弗]  
+  event: 原文未提及具体事件，金羽侯是武部的部长，迎接罗峰进入乾巫分部。  
+  description: 武部的部长，负责军事训练和战斗事务。  
+  skill: []
+- id: zidianhou  
+  name: 紫电侯  
+  aliases: [震潜]  
+  event: 原文未提及具体事件，紫电侯是商部的部长，迎接罗峰进入乾巫分部。  
+  description: 商部的部长，负责商业和经济事务。  
+  skill: []
+- id: manluo  
+  name: 曼落  
+  aliases: []  
+  event: 原文未提及具体事件，曼落是黑龙山星域杀戮场的老者，现在成为罗峰下属不朽神灵之一。  
+  description: 黑龙山星域的高级官员，不朽神灵。  
+  skill: []
+```

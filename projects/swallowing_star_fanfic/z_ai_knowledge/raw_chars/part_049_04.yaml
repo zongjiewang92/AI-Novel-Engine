@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [魔杀罗峰, 黑衣魔神]
+  event: 第二环任务完成及第三环任务开始
+  description: 完成第二环任务，将100亿行星级人类释放。接收到虚拟宇宙公司发来的第三环任务邮件。
+  skill: []
+- id: babata
+  name: 巴巴塔
+  aliases: [小塔]
+  event: 第二环任务完成及第三环任务开始
+  description: 在罗峰肩膀上，帮助解释第二环任务的评判标准，并提醒罗峰第三环任务的重要性。
+  skill: []
+- id: zhuiyiyi
+  name: 翼眉老者
+  aliases: [白眉羽翼老者]
+  event: 第二环任务完成及第三环任务开始
+  description: 向罗峰传达虚拟宇宙公司命令，将100亿行星级人类转移到安全地点，并告知罗峰即将执行第三环任务。
+  skill: []
+- id: dielen
+  name: 迪伦
+  aliases: []
+  event: 第二环任务完成及第三环任务开始
+  description: 和罗峰一起参与第二环和第三环任务的相关行动。
+  skill: []
+```

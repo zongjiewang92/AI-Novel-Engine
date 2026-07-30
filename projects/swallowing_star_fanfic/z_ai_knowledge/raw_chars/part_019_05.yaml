@@ -1,0 +1,36 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [罗三]
+  event: 宇宙冒险者发现新星球,与高升一起吃饭
+  description: 拥有念力兵器，曾为地球领主的后代。现居住在虬龙星。
+  skill: []
+
+- id: gao Sheng  
+  name: 高升
+  aliases: []
+  event: 告诉罗峰遇到喜事,带罗峰去吃饭
+  description: 在虬龙星生活，与罗峰关系较好。
+  skill: []
+
+- id: hun  
+  name: 洪
+  aliases: [洪老大]
+  event: 和雷神一起飞行前往撒哈拉大沙漠方向
+  description: 地球的强者之一，人类空前强大的贡献者。
+  skill: []
+
+- id: lei Shen  
+  name: 雷神
+  aliases: []
+  event: 和洪一起飞行,谈论罗峰离开的事
+  description: 地球的强者之一，对罗峰感到不满。
+  skill: []
+
+- id: ba Ba Ta  
+  name: 巴巴塔
+  aliases: [小宇宙]
+  event: 提供关于地球领主的信息给罗峰
+  description: 罗峰的虚拟助手,能提供各种信息和支持。
+  skill: []
+```

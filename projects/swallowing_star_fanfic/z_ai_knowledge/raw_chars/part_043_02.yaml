@@ -1,0 +1,42 @@
+```yaml
+- id: hong
+  name: 洪
+  aliases: []
+  event: 赌命闯过十八爱欲幻境，与姬青见面后离开。
+  description: 修心境界极高，观察敏锐。面对爱情时表现得果决而痛苦。
+  skill: []
+
+- id: luo_feng
+  name: 罗峰
+  aliases: []
+  event: 观看洪与姬青的对话，并协助洪进入幻灵宫见姬青。
+  description: 洪的好友，对洪的爱情故事表示关心和支持。
+  skill: []
+
+- id: ji_qing
+  name: 姬青
+  aliases: []
+  event: 在洪成功闯过十八爱欲幻境后拒绝与他在一起。
+  description: 身材高挑，身材完美。齐耳短发，英姿飒爽，性格果断、坚毅独立。在爱情面前表现出犹豫和牺牲精神。
+  skill: []
+
+- id: chimei_zu_nvzi
+  name: 魑魅族女子们
+  aliases: []
+  event: 观看洪与姬青的对话，并议论二人关系的变化。
+  description: 对两人关系变化感到困惑，讨论着各自的看法和猜测。
+  skill: []
+
+- id: yin_xue_hou
+  name: 银雪侯
+  aliases: []
+  event: 提到的名字。
+  description: 被提及可能影响姬青的不朽神灵之一。
+  skill: []
+
+- id: hunuang_ren
+  name: 幻灵王
+  aliases: []
+  description: 姬青的老师，布置十八爱欲幻境来考验洪。
+  skill: []
+```

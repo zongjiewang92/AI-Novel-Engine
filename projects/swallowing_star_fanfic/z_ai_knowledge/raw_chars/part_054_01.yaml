@@ -1,0 +1,22 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: [罗峰]
+  event: 湖泊上的决战
+  description: 地球人，掌握了新七绝刀法和金角巨兽的战斗技巧。
+  skill: [三振穿梭宇宙, 新七绝刀法, 兽神兵第一式]
+
+- id: fanya
+  name: FaNya
+  aliases: [焚亚]
+  event: 湖泊上的决战
+  description: 封侯不朽，卡巫族群成员。
+  skill: []
+
+- id: longsuo
+  name: LongSuo
+  aliases: [隆索]
+  event: 湖泊上的决战
+  description: 卡巫族群成员，已故。
+  skill: []
+```

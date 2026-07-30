@@ -1,0 +1,28 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [罗峰]
+  event: 银河领主、混沌城主请求本源意志放出原祖，以对抗即将到来的界兽浩劫。罗峰在虚拟宇宙中向众多真神展示了界兽的位置。
+  description: 虚空级强者，拥有奇异际遇和强大意志力。
+  skill: [知晓所有界兽位置的方法]
+- id: hunzouchengzhuzhu
+  name: 混沌城主
+  aliases: []
+  event: 和罗峰一起请求本源意志放出原祖，并前往初始宇宙与被镇压的原祖见面。
+  description: 小型宇宙的管理者，曾是人类族群早期领袖原祖的学生。
+- id: yuanzu
+  name: 原祖
+  aliases: []
+  event: 被原始宇宙本源意志压制多年后，终于可以在初始宇宙内凝聚神力化身。罗峰和混沌城主向他求援对抗界兽。
+  description: 最早期的人类族群领袖之一，曾创立“虚拟宇宙”秘法，被尊为人类之祖。
+- id: chuangzaozu
+  name: 创造族
+  aliases: [祖神]
+  event: 祖神们代表原始宇宙本源意志拒绝释放原祖的请求，并告知罗峰和混沌城主有关原祖为何会被镇压的原因。
+  description: 原始宇宙中的古老种族，拥有强大的力量并受到至高规则限制。
+- id: yinliuzhenzhu
+  name: 九幽真主
+  aliases: []
+  event: 在银河圣地向各族强者发出警告，并强调这场界兽浩劫的严重性。
+  description: 强大的真神，对即将到来的界兽危机表现出担忧和警觉。
+```

@@ -1,0 +1,36 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [峰大人]
+  event: 决择如何处理纳布和小纳可的安危问题
+  description: 面临来自司雍的压力，决定是否带纳家父子离开燕岗城。
+  skill: [灵魂秘法]
+
+- id: babata  
+  name: 巴巴塔
+  aliases: []
+  event: 提醒罗峰尽快逃离并处理与纳布的关系
+  description: 建议罗峰迅速行动，避免暴露，并提出解决方案。
+  skill: []
+
+- id: suying  
+  name: 司雍
+  aliases: [世界主]
+  event: 危及燕岗城的安全
+  description: 燕岗城的世界主，拥有极强实力和影响力。
+  skill: [世界之力]
+
+- id: nabu  
+  name: 纳布
+  aliases: []
+  event: 面临是否离开燕岗城的抉择
+  description: 决定留在燕岗城，但让儿子小纳可跟随罗峰离去。
+  skill: []
+
+- id: xiao_nake  
+  name: 小纳可
+  aliases: [可可]
+  event: 父子分离
+  description: 哭泣不舍与父亲分别，最终随罗峰离开燕岗城。
+  skill: []
+```

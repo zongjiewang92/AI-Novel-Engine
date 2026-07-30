@@ -1,0 +1,22 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [罗峰]
+  event: 收复白色羽翼
+  description: 穿越宇宙舟后，准备去倾峰界收复白色羽翼。
+  skill: [断灭, 东华]
+
+- id: hunzhuochengzhu
+  name: 混沌城主
+  aliases: []
+  event: 分配至强至宝
+  description: 将一件至强至宝分配给罗峰，另一件则计划留给混沌城主。
+  skill: []
+
+- id: jufa
+  name: 巨斧
+  aliases: [巨斧创始者]
+  event: 分配至强至宝
+  description: 和混沌城主一起讨论将一件至强至宝分配给罗峰，另一件则计划留给混沌城主。
+  skill: []
+```

@@ -1,0 +1,32 @@
+```yaml
+- id: bei_feng  
+  name: 北风
+  aliases: []
+  event: 生死斗
+  description: 干野部落的战士，拥有至强至宝战甲，在3000名战士中实力突出。
+  skill: ["燃烧神力秘术"]
+- id: guan_ye_bu  
+  name: 干野部落
+  aliases: []
+  event: 生死斗
+  description: 参加生死斗的干野部落战士们，大部分被分到两个阵营进行厮杀筛选。
+  skill: []
+- id: ying_xiong  
+  name: You兽
+  aliases: []
+  event: 引领3000名战士和异兽进入选拔
+  description: 巨大且强大的异兽，引领罗峰等人进行军队血腥筛选。
+  skill: []
+- id: yi_sheng_du_jun  
+  name: 独角男子
+  aliases: []
+  event: 生死斗
+  description: 身穿黑色流线战甲的虚空真神，在高空俯瞰并主持生死斗，决定进入军队的人选。
+  skill: ["无形威压", "金光圈住战士"]
+- id: yin_gal  
+  name: 银河
+  aliases: []
+  event: 生死斗
+  description: 罗峰的同伴，在北风指导下靠近罗峰，试图表现优异以进入特殊军团。
+  skill: []
+```

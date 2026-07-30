@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [疯子]
+  event: 擂台决战
+  description: 正在进行擂台决战，第四战对手是野人戎钧。
+  skill: []
+- id: hong  
+  name: 洪
+  aliases: []
+  event: 讨论罗峰的擂台决战情况
+  description: 建议罗峰谨慎对待即将面对的强敌。
+  skill: []
+- id: leishen  
+  name: 雷神
+  aliases: []
+  event: 讨论罗峰的擂台决战情况
+  description: 提醒罗峰对手的强大，建议小心应对。
+  skill: []
+- id: saivaruo  
+  name: 塞瓦罗
+  aliases: []
+  event: 擂台决战第一战
+  description: 罗峰的第一战对手，擅长使用巨型踏板发射银色箭矢进行攻击。
+  skill: []
+```

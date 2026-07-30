@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [罗峰]
+  event: 天才战,虚拟宇宙公司官网排行榜
+  description: 正在参加天才战的淘汰赛，面对强大的虫族母巢和各种试炼对手。他意识强大，修炼虚空之塔。
+  skill: [《虚空之塔》]
+- id: bababa
+  name: 巴巴塔
+  aliases: []
+  event: 天才战,虚拟宇宙公司官网排行榜
+  description: 罗峰的飞船助手，知道虫族母巢的情况，并解释给罗峰听。
+  skill: [解释情况]
+- id: roujun
+  name: 戎钧
+  aliases: [野人戎钧]
+  event: 天才战,虚拟宇宙公司官网排行榜
+  description: 虚拟宇宙公司为乾巫宇宙国的天才制作宣传视频，参与天才战。
+  skill: []
+```

@@ -1,0 +1,36 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 猎捕计划
+  description: 在星辰塔内进行猎捕，获得多位灵魂奴仆。
+  skill: [万心控魂秘法, 使用镇封星辰, 星辰图能力]
+
+- id: zhongjianwang  
+  name: 重箭王
+  aliases: []
+  event: 指挥战斗
+  description: 在罗峰的猎捕计划中担任重要角色。
+  skill: [弑吴羽翼, 紫钟]
+
+- id: lianxinwang  
+  name: 炼心王
+  aliases: [炼心]
+  event: 成为灵魂奴仆
+  description: 被罗峰控制，成为其手下最强的灵魂大师之一。
+  skill: []
+
+- id: feimotoxianren  
+  name: 钻石人帕罗娲族
+  aliases: []
+  event: 捕获奴隶
+  description: 在禁地空间内被罗峰捕获为灵魂奴仆。
+  skill: [费摩毒液侵蚀抗性]
+
+- id: zhendefengxing  
+  name: 镇封星辰
+  aliases: []
+  event: 猎捕工具
+  description: 作为猎捕过程中用来镇压和击杀敌人的工具，罗峰禁止使用其镇压封印能力。
+  skill: [缩小成晶球, 撞击敌人]
+```

@@ -1,0 +1,26 @@
+```yaml
+- id: lizao
+  name: 李耀
+  aliases: [黑神]
+  event: 飞行客机起飞前与罗峰的冲突
+  description: 在基地市内，被罗峰用飞刀攻击，并且身着黑神套装。
+  skill: ["高等战神巅峰", "身体素质强横"]
+- id: weni娜
+  name: 维妮娜
+  aliases: []
+  event: 与李耀交谈并等待飞行客机起飞时间，讨论乘坐飞行战机的计划。
+  description: 担心罗峰的行为，并在看到罗峰出现时惊呼。
+  skill: []
+- id: lizhao
+  name: 李肇
+  aliases: [朱先生]
+  event: 在豪华大厅内与维妮娜和李耀交谈，目击了罗峰的突然袭击。
+  description: 被罗峰用飞刀攻击时被震得滚到角落里。
+  skill: []
+- id: luofeng
+  name: 罗峰
+  aliases: [罗峰]
+  event: 飞行客机起飞前使用遁天梭和飞刀袭击李耀，并在广场上施展金线网捆住李耀。
+  description: 脚踏遁天梭，手持16柄飞刀以及一条金线网，展现出了超越战神的力量。
+  skill: ["脚踏遁天梭", "飞刀攻击", "使用金线网"]
+```

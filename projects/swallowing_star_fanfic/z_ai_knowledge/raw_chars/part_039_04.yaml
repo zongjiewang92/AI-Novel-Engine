@@ -1,0 +1,15 @@
+```yaml
+- id: LuoFeng  
+  name: 罗峰
+  aliases: [罗, F]
+  event: 参悟《时空随笔》第三册、发现魔音山危险、观察莫洛战斗
+  description: 虚拟宇宙中的强者，意识强大。收集情报准备即将到来的资格战。
+  skill: [参悟时空随笔, 收集情报]
+
+- id: MoLuo  
+  name: 莫洛
+  aliases: []
+  event: 在魔音山遭遇高约300米猩猩幻兽追杀
+  description: 原始秘境成员，来自南狐宇宙国。孤儿出身，展现非凡天赋后被莫氏家族培养，成为虚拟宇宙公司的核心成员。
+  skill: [兽拳]
+```

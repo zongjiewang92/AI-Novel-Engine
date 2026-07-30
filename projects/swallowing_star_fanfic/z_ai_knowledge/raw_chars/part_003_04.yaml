@@ -1,0 +1,17 @@
+```yaml
+- id: huochui-xiaozu
+  name: 火锤小队
+  aliases: [罗峰, 高风, 张科, 魏家兄弟, 陈谷]
+  event: 在蓝天小区的21层住宅楼天台上寻找兽将级怪兽
+  description: 六人武者小队，其中五人在使用望远镜搜索兽将级怪兽，一人在组装重型狙击枪。罗峰和张科负责关闭楼梯口。
+- id: zhangzehu
+  name: 张泽虎
+  aliases: []
+  event: 领导虎牙小队追捕高级兽将级猎杀者
+  description: 虎牙小队的成员，是高级战士级武者。正在追踪一头受伤的银月凶狼。
+- id: huya-xiaozu
+  name: 虎牙小队
+  aliases: [老韩]
+  event: 追踪并准备猎杀兽将级怪兽
+  description: 六人精英武者小队，由使用冷兵器和热武器的成员组成。正在追踪一头高级兽将级或接近领主级的银月凶狼。
+```

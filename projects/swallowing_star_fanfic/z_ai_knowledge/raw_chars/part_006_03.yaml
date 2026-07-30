@@ -1,0 +1,32 @@
+```yaml
+- id: panya  
+  name: 潘亚
+  aliases: [虎牙队长]
+  event: 遇到罗峰并试图杀死他
+  description: 曾经是火锤小队的队长，因与罗峰有仇怨而想杀掉罗峰。实力为中等战将级。
+  skill: []
+- id: liwei  
+  name: 李威
+  aliases: [混血儿青年李威少爷]
+  event: 见到并试图观看潘亚杀死罗峰
+  description: 地下联盟的重要人物，身份背景强大。实力较弱但有强大的支持者。
+  skill: []
+- id: lixianlaogesi  
+  name: 刘姓老者
+  aliases: []
+  event: 参与追杀罗峰
+  description: 高等战将级别，帮助潘亚试图杀死罗峰。实力强大。
+  skill: []
+- id: bairenzhonghan  
+  name: 白人壮汉
+  aliases: []
+  event: 参与追杀罗峰
+  description: 高等战将级别，帮助潘亚试图杀死罗峰。实力强大。
+  skill: []
+- id: luofeng  
+  name: 罗峰
+  aliases: [疯子]
+  event: 被潘亚等人追杀并反击
+  description: 实力强大的武者天才，以独身一人对付四位敌人。猎杀了大量怪兽而闻名。
+  skill: []
+```

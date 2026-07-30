@@ -1,0 +1,20 @@
+```yaml
+- id: yao1hai4 
+  name: 曜亥
+  aliases: [杰弗里斯]
+  event: 不朽之战
+  description: 穿着碧绿色战铠，拥有强大的不朽之力。是罗峰的二号人物，也是一名弟子。对白发老者隆赤尔怀有怨毒。
+  skill: []
+- id: baida1laohu4 
+  name: 白发老者
+  aliases: [隆赤尔]
+  event: 不朽之战
+  description: 穿着暗金色长袍，面带微笑。是人族的不朽神灵，实力强大。
+  skill: []
+- id: jiefuresi1 
+  name: 杰弗里斯
+  aliases: []
+  event: 不朽之战
+  description: 曜亥的学生和助手，在战斗中被杀死。
+  skill: []
+```

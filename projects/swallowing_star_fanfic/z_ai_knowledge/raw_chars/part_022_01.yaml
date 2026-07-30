@@ -1,0 +1,29 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: []
+  event: 追逐杀戮
+  description: 罗峰潜伏在一片海域，被诺岚山家族精英小队追杀。罗峰的八名恒星级九阶奴仆与对方激战。
+  skill: []
+
+- id: tuoleweiwu
+  name: TuLeWeiWu
+  aliases: []
+  event: 追逐杀戮
+  description: 陀雷武是诺岚山家族精英小队的一员，负责追捕罗峰的人质。他对族祖保证不会出问题。
+  skill: []
+
+- id: jingxiao-xiaozu-yongyu
+  name: JingXiao-XiaoZu-YongYu
+  aliases: []
+  event: 追逐杀戮
+  description: 诺岚山家族精英小队的成员，包括15名恒星级九阶、18名恒星级八阶和26名恒星级七阶。他们追捕罗峰并试图捕捉金角巨兽。
+  skill: []
+
+- id: jinjiao-jugu
+  name: JinJiao-JuGu
+  aliases: []
+  event: 追逐杀戮
+  description: 金角巨兽从海底出现，它是一个活生生的吞噬兽。诺岚山家族精英小队试图捕捉它。
+  skill: []
+```

@@ -1,0 +1,29 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 被邀请到全球总部进行特等培训合同的B级考验
+  description: 江南基地市极限总会馆火锤小队成员，实力突出。
+  skill: []
+
+- id: yanghui  
+  name: 杨辉
+  aliases: []
+  event: 带领罗峰前往全球总部进行特等培训合同的B级考验
+  description: 战神强者，负责考核罗峰是否符合进入精英训练营的资格。
+  skill: []
+
+- id: zhugetao  
+  name: 诸葛韬
+  aliases: []
+  event: 火锤小队主管，安排罗峰前往全球总部进行特等培训合同的B级考验
+  description: 极限总会馆江南基地市分支的总管。
+  skill: []
+
+- id: zhengyongzhou  
+  name: 周正永
+  aliases: ['铁手']
+  event: 向罗峰介绍精英训练营和基础训练营的情况
+  description: 江南基地市极限总会馆会长，战神强者。
+  skill: []
+```

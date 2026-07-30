@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [银河领主]
+  event: 共同的敌人（本篇终章）
+  description: 在界兽巢穴中使用《三星界》奴役了摩罗撒，引起了规则的警告。
+  skill: ['三星界']
+- id: moresa  
+  name: 摩罗撒
+  aliases: []
+  event: 共同的敌人（本篇终章）
+  description: 被银河领主罗峰使用《三星界》奴役后，成为了罗峰的仆从。
+  skill: ['']
+- id: zhuanshanke  
+  name: 坐山客
+  aliases: []
+  event: 共同的敌人（本篇终章）
+  description: 在宇宙舟外围担心引起规则反应的大事。
+  skill: ['']
+```

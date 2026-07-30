@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗洪]
+  event: 古文明遗迹考核任务
+  description: 正在尝试破开密室，以求尽快回家。
+  skill: [掌控师秘传《基础312式》修炼]
+
+- id: hong  
+  name: 洪
+  aliases: []
+  event: 极限武馆全球总部通知罗峰亲属
+  description: 正在安排通知罗峰的父母，罗峰可能死亡。
+
+- id: gongxinlan  
+  name: 龚心兰
+  aliases: [龚妈]
+  event: 接收极限武馆的通知
+  description: 对儿子罗峰的情况非常担心，并且急于知道消息。
+
+- id: luohongguo  
+  name: 罗洪国
+  aliases: []
+  event: 被通知有关儿子罗峰的消息
+  description: 儿子是绝世高手，虽然心存担忧但依然抱有信心。
+```

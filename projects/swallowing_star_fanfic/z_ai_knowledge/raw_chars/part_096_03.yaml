@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [金角罗峰]
+  event: 紫月圣地事件、守护界兽
+  description: 虚空真神候选者，拥有强大机械流宝物和分身。与紫月始祖有仇怨。
+- id: ziyueshengdi
+  name: 紫月圣地
+  aliases: []
+  event: 紫月圣地事件
+  description: 虚空真神的宇宙圣地，与罗峰有敌对关系。
+- id: zhenshen
+  name: 真神
+  aliases: [虚空真神, 永恒真神]
+  event: 宇宙海小型宇宙本源被界兽吞食事件
+  description: 强大的存在，拥有小型宇宙。
+- id: huozong
+  name: 火穹
+  aliases: []
+  event: 阻止罗峰前往紫月圣地
+  description: 混沌城主之一，关心罗峰的安危。
+- id: hongdu
+  name: 洪都
+  aliases: []
+  event: 阻止罗峰前往紫月圣地
+  description: 混沌城主之一，关心罗峰的安危。
+- id: haizhuizhenzhǔ
+  name: 海犽真主
+  aliases: []
+  event: 界兽出现在小型宇宙外
+  description: 宇宙之主，求助银河领主协助对抗界兽。
+```

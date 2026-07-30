@@ -1,0 +1,30 @@
+```yaml
+- id: yanhai  
+  name: 颜海
+  aliases: []
+  event: 被罗峰杀死
+  description: 行星级强者，突然死亡。
+  skill: []
+
+- id: atking  
+  name: 阿特金
+  aliases: []
+  event: 收到颜海死亡消息，怀疑罗峰复活
+  description: 当今地球上的第一人，HR联盟议会的新任议长。
+  skill: []
+
+- id: niheelu 
+  name: 尼赫鲁家族
+  aliases: []
+  event: 招收精神念师弟子
+  description: 印度国古老的且拥有极高权势的家族。
+  skill: []
+
+- id: sagoniheelu  
+  name: 萨戈*尼赫鲁
+  aliases: []
+  event: 成为行星级精神念师，被怀疑杀害颜海
+  description: 尼赫鲁家族子弟，地球上的唯一行星级精神念师。
+  skill: []
+
+```

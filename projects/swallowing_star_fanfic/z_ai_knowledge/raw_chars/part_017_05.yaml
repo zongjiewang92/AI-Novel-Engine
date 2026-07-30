@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [罗巡察使]
+  event: 明月小区极限会馆练武厅内观看洪与雷神大战
+  description: 正在紧张地观看屏幕上的战斗，握着妻子的手等待结果。
+  skill: []
+- id: xuxin
+  name: 徐欣
+  aliases: []
+  event: 在明月小区极限会馆练武厅内看洪与雷神大战，腹部有孕。
+  description: 罗峰的妻子，怀有身孕，在观看战斗时紧握着罗峰的手。
+  skill: []
+- id: hong
+  name: 洪
+  aliases: [世界第一强者]
+  event: 太平洋海域上空与雷神一起对抗吞噬兽
+  description: 黑衣武者，地球历史上最强大的武者之一，正在全力以赴地应对挑战。
+  skill: []
+- id: leishen
+  name: 雷神
+  aliases: [世界第二强者]
+  event: 太平洋海域上空与洪一起对抗吞噬兽
+  description: 白衣武者，地球历史上最强大的武者之一，正在全力以赴地应对挑战。
+  skill: []
+- id: robata
+  name: 巴巴塔
+  aliases: [虚拟助手]
+  event: 在罗峰脑海中提供关于战斗的信息和分析
+  description: 罗峰的虚拟助手，为他讲解洪与雷神所使用的招数以及战斗结局的可能性。
+  skill: []
+```

@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [银河]
+  event: 探查九烟泽外围情况，寻找机会完成一万军功的任务
+  description: 小队成员之一，在北真海横冲直撞。在此次任务中与兀赫合作行动。
+  skill: []
+- id: wuhe  
+  name: 兀赫
+  aliases: [Orus]
+  event: 探查九烟泽外围情况，寻找机会完成一万军功的任务
+  description: 小队成员之一，在此次任务中与罗峰合作行动。不理解如何完成任务时寻求罗峰的帮助。
+  skill: []
+- id: kufa  
+  name: 库法
+  aliases: [Ku Fa]
+  event: 带领小队抵达九烟泽，祝福罗峰和兀赫好运
+  description: 小队成员之一。在此次任务中带领自己的团队行动。
+  skill: []
+- id: hengxingmashen  
+  name: 横行魔神
+  aliases: [横行, Heging Mashen]
+  event: 在军备点大殿与其他异兽军士交谈，计划回到宇宙海换取至强至宝
+  description: 异兽强者之一。在此次任务中与另一头异兽军士行动。
+  skill: []
+```

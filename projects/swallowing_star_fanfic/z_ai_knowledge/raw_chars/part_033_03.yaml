@@ -1,0 +1,64 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗华]
+  event: 混沌城修炼结束，前往虚拟宇宙公司全宇宙总部
+  description: 在混沌城完成30年基础修炼后离开，并与妻子通话了解情况。
+  skill: []
+
+- id: xuxin  
+  name: 徐欣
+  aliases: []
+  event: 联系罗峰告知在万语楼见面
+  description: 成为虚拟宇宙公司核心成员，通过收购平海公司资产快速增长。
+  skill: []
+
+- id: wuka  
+  name: 乌卡
+  aliases: []
+  event: 混沌城修炼结束，与罗峰、戎钧交谈
+  description: 在混沌城基础修炼结束后表达对罗峰和戎钧的不满。
+  skill: []
+
+- id: rongjun  
+  name: 戎钧
+  aliases: []
+  event: 混沌城修炼结束，与乌卡交谈
+  description: 在混沌城完成30年基础修炼后离开，并在万语楼附近被提及。
+  skill: []
+
+- id: bolan  
+  name: 伯兰
+  aliases: []
+  event: 混沌城修炼结束，被提到成绩优秀
+  description: 罗峰和戎钧的竞争对手，在混沌城完成通天桥第六层挑战。
+  skill: []
+
+- id: langca 
+  name: 蛮卡
+  aliases: []
+  event: 混沌城修炼结束，与乌卡交谈
+  description: 提到罗峰和戎钧的表现，并表达自己的不悦。
+  skill: []
+
+- id: longyun  
+  name: 陇云
+  aliases: []
+  event: 被提到差距越来越大
+  description: 在混沌城基础修炼结束后被提及，感到与罗峰的差距增大。
+  skill: []
+
+- id: jiujianzunzhe 
+  name: 九剑尊者
+  aliases: []
+  event: 宣布混沌城基础修炼结束
+  description: 宣布816名年轻人完成30年混沌城修炼，特别提及罗峰、伯兰和戎钧。
+  skill: []
+
+- id: baabata  
+  name: 巴巴塔
+  aliases: []
+  event: 协助罗峰开启网络接收
+  description: 在宇宙飞船离开初始宇宙后帮助罗峰开启网络接收功能。
+  skill: []
+```

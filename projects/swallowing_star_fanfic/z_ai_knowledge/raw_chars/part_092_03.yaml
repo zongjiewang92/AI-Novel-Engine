@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [银河]
+  event: 银河使用机械流宝物逃脱九烟泽军士追捕
+  description: 新兵银河在被18名军士围攻时，利用机械流战刀和墓陵之舟逃脱。
+  skill: [断灭第二卷, 血影刀法]
+- id: wangjiao
+  name: 弯角
+  aliases: []
+  event: 弯角队长追捕银河失败后放弃追赶
+  description: 弯角队长在追捕新兵银河时，被银河逃脱，并且被迫放开战船。
+  skill: [黑云翼]
+- id: qunjunshi
+  name: 军士们
+  aliases: []
+  event: 多名军士围攻银河未果
+  description: 这些军士试图追捕银河，但最终被银河逃脱。
+  skill: []
+```

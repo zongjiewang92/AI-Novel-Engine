@@ -1,0 +1,44 @@
+```yaml
+- id: luofeng 
+  name: 罗峰
+  aliases: []
+  event: 赌命
+  description: 听过幻灵王的威名，罗峰不敢怠慢。他见过老师真衍王，并认为老师在暴力程度上丝毫不亚于嗜血王三师兄。
+  skill: []
+
+- id: hong 
+  name: 洪
+  aliases: []
+  event: 赌命
+  description: 敢来见幻灵王，不怕死。选择赌命去闯十八爱欲幻境。
+  skill: []
+
+- id: xuanlingwang 
+  name: 幻灵王
+  aliases: []
+  event: 赌命
+  description: 给洪和罗峰布置挑战，允许他们选择宇宙战争或闯过十八爱欲幻境来获得青青的权利，并且如果失败将被宇宙佣兵联盟追杀。
+  skill: []
+
+- id: qingqing 
+  name: 青青
+  aliases: []
+  event: 赌命
+  description: 洪和她的关系密切，若洪成功闯过十八爱欲幻境则可以在一起。
+  skill: []
+
+- id: zhenyanwang 
+  name: 真衍王
+  aliases: []
+  event: 赌命
+  description: 罗峰的老师，曾经非常疯狂但后来变得低调。现在在混沌城潜修。
+  skill: []
+
+- id: busheala 
+  name: 布舍喇 
+  aliases: []
+  event: 赌命
+  description: 幻灵王的徒弟，负责带洪去幻境殿。
+  skill: []
+
+```

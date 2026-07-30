@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 上万的强大傀儡、上百宇宙之主的联合攻击
+  description: 使用墓陵之舟防御，抵挡住三族联军的攻击。
+  skill: [使用血影刀]
+- id: penggongzhizhu  
+  name: 彭工之主
+  aliases: []
+  event: 上万的强大傀儡、上百宇宙之主的联合攻击
+  description: 使用延钧棍抵抗机械族父神的傀儡军团。
+  skill: [使用延钧棍]
+- id: heijingzhihu  
+  name: 黑暗之主
+  aliases: []
+  event: 帮助罗峰和彭工之主抵御攻击
+  description: 下令宇宙之主们反击三族联军的宇宙之主。
+  skill: [传音命令]
+- id: jiqizuzifushi  
+  name: 机械族父神
+  aliases: []
+  event: 上万的强大傀儡、上百名宇宙之主进行联合攻击
+  description: 使用上万尊强大傀儡围困罗峰和彭工之主，同时命令大量宇宙之主协同作战。
+  skill: [使用傀儡军团]
+- id: chongzuzhu  
+  name: 虫族女皇
+  aliases: []
+  event: 女皇宫的深渊入口
+  description: 派遣虫族战士进行联合攻击，与机械族父神一同发动大规模攻势。
+  skill: [使用虫族战士]
+```

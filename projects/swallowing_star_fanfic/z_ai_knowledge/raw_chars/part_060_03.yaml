@@ -1,0 +1,50 @@
+```yaml
+- id: luofeng 
+  name: 罗峰 
+  aliases: [罗峰, 罗平的哥哥, 徐欣的丈夫]
+  event: 遇到灵魂撕裂剧痛, 接受生死传承
+  description: 虚拟宇宙公司的重要成员，乾巫宇宙国的顶梁柱，在星辰塔内接受生死传承，面临巨大的挑战和痛苦。
+  skill: [兽神之道]
+
+- id: xuxin 
+  name: 徐欣 
+  aliases: [罗峰的妻子]
+  event: 收到罗峰留下的邮件, 准备应对家族危机
+  description: 罗家的顶梁柱，虚拟宇宙公司的核心成员，在罗峰可能陨落时，努力保持家族稳定。
+  skill: []
+
+- id: luhongguo 
+  name: 罗洪国 
+  aliases: [罗峰的父亲]
+  event: 面对家族危机
+  description: 罗家的家长之一，在儿子遇到困难时支持妻子徐欣处理家族事务。
+  skill: []
+
+- id: gongxinlan 
+  name: 龚心兰 
+  aliases: [罗峰的母亲]
+  event: 得知罗峰可能陨落的消息
+  description: 罗家的家长之一，对儿子的命运表示担忧和牵挂。
+  skill: []
+
+- id: zhengyanwang 
+  name: 真衍王 
+  aliases: [罗峰的老师]
+  event: 求见混沌城主, 向徐欣提供帮助
+  description: 宇宙中的超级强者，为了解罗峰的情况而联系虚拟宇宙公司成员，并直接求见混沌城主。
+  skill: []
+
+- id: hundunchengzhu 
+  name: 混沌城主 
+  aliases: [真衍王的老师]
+  event: 接见真衍王
+  description: 宇宙中的至高存在，接见了真衍王并确认罗峰的情况。
+  skill: []
+
+- id: puti 
+  name: 普缇 
+  aliases: []
+  event: 观察罗峰的状况
+  description: 星辰塔内的一位观察者，能够看清灵魂撕裂剧痛对罗峰的影响，并给予建议。
+  skill: [宇宙之主]
+```

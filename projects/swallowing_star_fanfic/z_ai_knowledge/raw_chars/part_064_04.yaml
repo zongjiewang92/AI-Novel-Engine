@@ -1,0 +1,22 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 进入祖神秘境内部寻找传承之地
+  description: 和真衍王一起被斐沧族尊者带往紫荆岛
+  skill: []
+
+- id: zhenyanwang  
+  name: 真衍王
+  aliases: []
+  event: 带领罗峰进入祖神秘境内，与斐沧族尊者相遇
+  description: 指导罗峰完成任务，并一同前往紫荆岛
+  skill: []
+
+- id: feicangzu zunzhe  
+  name: 斐沧族尊者
+  aliases: []
+  event: 在五彩极光湖边迎接罗峰和真衍王，带他们进入传承之地
+  description: 祖神教的接引者，保护祖神秘境不被擅闯
+  skill: []
+```

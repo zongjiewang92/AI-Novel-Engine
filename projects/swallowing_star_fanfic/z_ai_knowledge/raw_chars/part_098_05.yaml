@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: [罗峰]
+  event: 界兽浩劫，寻找银河领主贝迪死亡地点
+  description: 使用机械流宝物的超级强者，拥有弑吴羽翼中的“源”能量。试图吸引更多的界兽聚集以施展“源”的力量。
+  skill: [无形无相, 迅速瞬移]
+- id: shenlihuashen
+  name: ShenLiHuaShen
+  aliases: [神力化身]
+  event: 指导罗峰的行动，与摩罗撒沟通
+  description: 罗峰的精神力量衍生出来的实体形象。
+  skill: []
+- id: molarasa
+  name: MoLaRaSa
+  aliases: [摩罗撒]
+  event: 提供界兽信息和位置给神力化身
+  description: 被罗峰奴役的三阶巅峰界兽，渴望杀死其他所有界兽。
+  skill: []
+- id: bei-di
+  name: BeiDi
+  aliases: [贝迪]
+  event: 死亡后引起众多界兽的注意和搜索
+  description: 银河领主之一，被罗峰所杀。
+  skill: []
+```

@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [银河领主]
+  event: 挑衅浩雷星主，将战场引向旋泽海核心漩涡
+  description: 宇宙之主，拥有墓陵之舟和金之兽神变身能力。对巨斧的死怀恨在心。
+  skill: [墓陵之舟, 变身金之兽神]
+- id: haoleixingzhu
+  name: 浩雷星主
+  aliases: []
+  event: 对罗峰发出挑战，追击至旋泽海核心漩涡
+  description: 宇宙最强者之一。拥有强大实力和至强至宝神甲。
+  skill: [高速飞行, 雷电攻击]
+- id: juliushaixingzhu
+  name: 震迦王
+  aliases: []
+  event: 准备参与浩雷星主与罗峰之间的战斗
+  description: 宇宙之主，准备协助浩雷星主。
+  skill: []
+- id: qiyuanzuoshen
+  name: 虬岩祖神
+  aliases: []
+  event: 准备参与浩雷星主与罗峰之间的战斗
+  description: 宇宙之主，准备协助浩雷星主。
+  skill: []
+```

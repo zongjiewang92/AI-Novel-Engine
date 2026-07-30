@@ -1,0 +1,32 @@
+```yaml
+- id: LuoFeng  
+  name: 罗峰  
+  aliases: [罗平, 小峰]  
+  event: 返回地球, 收集玄铁原材料  
+  description: 身体达到恒星级，拥有金角巨兽身体和人类身体。在火星收集大量玄铁原材料返回地球。  
+  skill: ["一心二用", "《绝对空间》修炼"]
+- id: BaBaTa  
+  name: 巴巴塔  
+  aliases: []  
+  event: 帮助罗峰存储玄铁原材料  
+  description: 罗峰的智能生命，负责储存玄铁原材料，并提供宇宙货币相关建议。  
+  skill: ["储物空间", "虚拟宇宙网络"]
+- id: XuXin  
+  name: 徐欣  
+  aliases: []  
+  event: 接罗峰回家, 准备晚饭  
+  description: 罗峰的妻子，开车接丈夫和孩子回家，并准备晚饭。  
+  skill: []
+- id: PingPing  
+  name: 平平  
+  aliases: []  
+  event: 欢迎父亲回家  
+  description: 罗峰的大儿子，在庭院中等待迎接父亲归来。  
+  skill: []
+- id: XiaoHai  
+  name: 小海  
+  aliases: []  
+  event: 欢迎父亲回家  
+  description: 罗峰的二儿子，与哥哥一起欢迎父亲回家。  
+  skill: []
+```

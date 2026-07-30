@@ -1,0 +1,64 @@
+```yaml
+- id: zhangzehu 
+  name: 张泽虎 
+  aliases: [] 
+  event: 补给基地的火锤小队与虎牙小队对峙 
+  description: 火锤小队成员，参与了怪兽材料分配讨论。 
+  skill: []
+
+- id: gao Feng  
+  name: 高风  
+  aliases: []
+  event: 在补给基地与虎牙小队发生冲突，并处理猎杀得到的怪兽数量和分配金钱
+  description: 火锤小队队长，对虎牙小队采取强硬态度并主导了兽将级怪兽材料的分配。 
+  skill: []
+
+- id: Chen Gu  
+  name: 陈谷  
+  aliases: []
+  event: 在补给基地与虎牙小队发生冲突，并处理猎杀得到的怪兽数量和分配金钱
+  description: 火锤小队成员，参与了兽将级怪兽材料的分配讨论。 
+  skill: []
+
+- id: Luo Feng  
+  name: 罗峰  
+  aliases: []
+  event: 在补给基地与虎牙小队发生冲突，并处理猎杀得到的怪兽数量和分配金钱
+  description: 火锤小队成员，因个人实力强大而对虎牙小队构成威胁。在兽将级怪兽材料的分配中，分得相应份额。 
+  skill: []
+
+- id: Zhang Ke  
+  name: 张科  
+  aliases: []
+  event: 在补给基地与虎牙小队发生冲突，并处理猎杀得到的怪兽数量和分配金钱
+  description: 火锤小队成员，因受伤导致残疾，在兽将级怪兽材料的分配中分得较多份额。 
+  skill: []
+
+- id: Wei Tie  
+  name: 魏铁  
+  aliases: []
+  event: 在补给基地与虎牙小队发生冲突，并处理猎杀得到的怪兽数量和分配金钱
+  description: 火锤小队成员，参与了兽将级怪兽材料的分配讨论。 
+  skill: []
+
+- id: Wei Qing  
+  name: 魏青  
+  aliases: []
+  event: 在补给基地与虎牙小队发生冲突，并处理猎杀得到的怪兽数量和分配金钱
+  description: 火锤小队成员，参与了兽将级怪兽材料的分配讨论。 
+  skill: []
+
+- id: huaya xiao-dui  
+  name: 虎牙小队 
+  aliases: []
+  event: 在补给基地与火锤小队发生冲突，并处理猎杀得到的怪兽数量和分配金钱
+  description: 补给基地内的一支小队，以强硬态度对待火锤小队。 
+  skill: []
+
+- id: ping'an ju  
+  name: 安全局 
+  aliases: []
+  event: 火锤小队考虑将虎牙小队的行为上报安全部门
+  description: 荒野区的管理机构，负责处理类似争端案件。 
+  skill: []
+```

@@ -1,0 +1,8 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 进入铁甲龙老巢取走龙蛋
+  description: 罗峰正在通过精神念力寻找电梯天井，企图进入超市内部获取铁甲龙的龙蛋。
+  skill: [使用精神念力, 控制飞刀和盾牌]
+```

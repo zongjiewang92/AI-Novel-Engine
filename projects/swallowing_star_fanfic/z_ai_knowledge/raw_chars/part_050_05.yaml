@@ -1,0 +1,32 @@
+```yaml
+- id: zhenyanzhu
+  name: 真衍
+  aliases: []
+  event: 兑换《衍神七变》的上篇给罗峰
+  description: 混沌城主分身，擅长杀伐。
+  skill: [兑换珍贵秘典]
+- id: guiyizunzhe
+  name: 归一尊者
+  aliases: []
+  event: 向混沌城主提出收罗峰为弟子的建议，并陪伴罗峰前往见混沌城主。
+  description: 混沌城主的大弟子，罗峰的老师。
+  skill: [提供建议]
+- id: hundunchengzhu
+  name: 混沌城主
+  aliases: []
+  event: 观察并决定是否收罗峰为亲传弟子，并赠予罗峰参悟《九宇混沌碑》的机会。
+  description: 虚拟宇宙公司的创始人，金角族群的首领之一。
+  skill: [观察天赋, 赠予资源]
+- id: jinfuzunzhe
+  name: 金斧尊者
+  aliases: []
+  event: 混沌城主分身指派给罗峰作为指导老师，每十年指点一次。
+  description: 六臂六眼巨汉，背负黄金色巨斧的强者。
+  skill: [指导修炼]
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 拜混沌城主为师，并接受《衍神七变》和参悟《九宇混沌碑》的任务。
+  description: 虚拟宇宙公司培养的天才，归一尊者的徒弟。
+  skill: [修炼, 参悟]
+```

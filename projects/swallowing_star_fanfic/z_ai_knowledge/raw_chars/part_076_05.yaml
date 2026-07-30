@@ -1,0 +1,38 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [You主弟子]
+  event: 虚拟宇宙公司一脉六位宇宙之主齐聚
+  description: 在十万年左右的时间内达到当前实力，拥有天赋分身的能力，并且其中一分身的生命形态类似于九幽之主。神体海洋直径几百亿公里。
+  skill: [天赋分身能力, 类似于九幽之主的生命形态]
+- id: yuhouzhizhu  
+  name: 幽侯之主
+  aliases: []
+  event: 虚拟宇宙公司一脉六位宇宙之主齐聚
+  description: 在虚拟宇宙中穿着鳞甲状深青色铠甲，身材瘦高。
+  skill: [强大战斗力]
+- id: longxingzhizhu  
+  name: 龙行之主
+  aliases: []
+  event: 虚拟宇宙公司一脉六位宇宙之主齐聚
+  description: 魁梧如山的身躯，延伸出龙尾。
+  skill: [强大战斗力]
+- id: bingfengzhizhu  
+  name: 冰峰之主
+  aliases: []
+  event: 虚拟宇宙公司一脉六位宇宙之主齐聚
+  description: 穿着古老战铠，银发双鬓斑白。
+  skill: [强大战斗力]
+- id: heimingshizhu  
+  name: 黑暗之主
+  aliases: []
+  event: 虚拟宇宙公司一脉六位宇宙之主齐聚
+  description: 光头皮肤洁白如玉，眼神邪异复杂秘纹。
+  skill: [强大战斗力, 邪异黑暗气息]
+- id: hunzhuochengzhu  
+  name: 混沌城主
+  aliases: []
+  event: 虚拟宇宙公司一脉六位宇宙之主齐聚
+  description: 罗峰的老师，虚拟宇宙公司的领头者。
+  skill: [强大战斗力, 和黑暗之主相对立的气息]
+```

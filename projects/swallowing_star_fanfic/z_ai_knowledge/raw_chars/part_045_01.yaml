@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng 
+  name: 罗峰 
+  aliases: [] 
+  event: 斗武对战 
+  description: 使用衍神兵第六重剑之世界的天才人类战士，念力振幅超3200。 
+  skill: [剑之世界, 世界之剑]
+- id: jingfangqi
+  name: 寺番祁 
+  aliases: [] 
+  event: 斗武对战保证罗峰的安全 
+  description: 金角族的长老，负责在战斗中保护罗峰。 
+  skill: [判定胜负, 中止战斗]  
+- id: dilei
+  name: 迪伦 
+  aliases: [] 
+  event: 保护罗峰 
+  description: 罗峰的师祖，要求迪伦保证罗峰的安全。 
+  skill: []
+- id: beiqiang
+  name: 卑牀 
+  aliases: [] 
+  event: 斗武对战 
+  description: 使用衍神兵第六重剑之世界的天才金角族战士。 
+  skill: [剑之世界, 震空剑术]
+```

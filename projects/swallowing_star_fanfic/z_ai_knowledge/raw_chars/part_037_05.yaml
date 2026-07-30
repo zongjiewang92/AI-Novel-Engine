@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰殿下]
+  event: 原始通天山的挑战者
+  description: 背负着暗金色长棍，准备挑战原始通天山的宇宙级强者。
+  skill: ["剑之世界"]
+- id: niutouren  
+  name: 牛头人
+  aliases: []
+  event: 原始通天山守关者之一
+  description: 持有骇人的巨斧，是原始通天山山脚的守关者。
+  skill: ["巨斧"]
+- id: yuren  
+  name: 精瘦猿人
+  aliases: [白皮猿]
+  event: 原始通天山守关者之一
+  description: 银白色战甲，背着黑色竹竿的宇宙人族成员。
+  skill: []
+- id: sheeren  
+  name: 蛇女
+  aliases: [**人, 蛇人]
+  event: 原始通天山守关者之一
+  description: 半透明纱衣和蛇尾，拥有水汪汪的狐媚眼睛。
+  skill: []
+```

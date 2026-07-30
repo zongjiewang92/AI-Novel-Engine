@@ -1,0 +1,14 @@
+```yaml
+- id: luo_feng  
+  name: 罗峰
+  aliases: [魏先生]
+  event: 卖给王侯宝物
+  description: 将龙蛋、SS级宝剑和一套作战服卖给王侯，获得288亿华夏币。
+  skill: []
+- id: wang_hou  
+  name: 王侯
+  aliases: []
+  event: 收购罗峰的宝物
+  description: 购买了罗峰的龙蛋、SS级宝剑和一套作战服，总共支付288亿华夏币。
+  skill: []
+```

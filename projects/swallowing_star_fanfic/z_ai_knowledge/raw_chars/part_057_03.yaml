@@ -1,0 +1,38 @@
+```yaml
+- id: langongwang
+  name: 苍金王
+  aliases: [苍金]
+  event: 紫钟王燃烧不朽神体攻击罗峰，夜辰王和虎刺王战斗中。
+  description: 封王级别的异族强者，擅长雷电武器与振幅类秘法。在战斗中试图击败罗峰夺取宝藏。
+  skill: [雷电长矛, 振幅类秘法]
+- id: yeqinwang
+  name: 夜辰王
+  aliases: []
+  event: 紫钟王燃烧不朽神体攻击罗峰，夜辰王和虎刺王战斗中。
+  description: 封王级别的异族强者，在战斗中与苍金王对抗。实力强大，威胁性仅次于虎刺王。
+  skill: [未知]
+- id: hushiwang
+  name: 虎刺王
+  aliases: []
+  event: 紫钟王燃烧不朽神体攻击罗峰，夜辰王和虎刺王战斗中。
+  description: 封王级别的异族强者，在战斗中与冰刃对抗。实力强大，威胁性仅次于夜辰王。
+  skill: [未知]
+- id: zizongwang
+  name: 紫钟王
+  aliases: []
+  event: 燃烧不朽神体攻击罗峰。
+  description: 封王级别的异族强者，在战斗中试图击败罗峰夺取宝藏。实力强大，擅长使用三座火焰钟。
+  skill: [燃烧不朽神体, 三座火焰钟]
+- id: yang
+  name: 扬
+  aliases: []
+  event: 紫钟王燃烧不朽神体攻击罗峰，夜辰王和虎刺王战斗中。
+  description: 封王级别的异族强者，在战斗中与紫钟王对抗。实力相对较弱，威胁性最小。
+  skill: [未知]
+- id: bingre
+  name: 冰刃
+  aliases: []
+  event: 紫钟王燃烧不朽神体攻击罗峰，夜辰王和虎刺王战斗中。
+  description: 封王级别的异族强者，在战斗中与虎刺王对抗。实力强大。
+  skill: [未知]
+```

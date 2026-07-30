@@ -1,0 +1,14 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 垣奥秘境交战
+  description: 和垣奥之主战斗，利用至宝绝客抵挡对方的焚灭攻击。
+  skill: [金色的国度, 九虓河]
+- id: yuanaozhizhu  
+  name: 垣奥之主
+  aliases: []
+  event: 垣奥秘境交战
+  description: 使用神锤施展强大威能的焚灭，准备动用更强力量对付罗峰。
+  skill: [焚灭]
+```

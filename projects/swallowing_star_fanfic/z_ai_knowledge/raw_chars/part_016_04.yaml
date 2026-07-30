@@ -1,0 +1,14 @@
+```yaml
+- id: rofeng
+  name: 罗峰
+  aliases: [罗峰]
+  event: 视频会议讨论如何对付神秘怪兽，巴巴塔告知金角巨兽的危险性
+  description: 行星级三阶精神念师，决心要杀死威胁地球的金角巨兽。
+  skill: []
+- id: babata
+  name: 巴巴塔
+  aliases: [巴巴塔]
+  event: 告知罗峰神秘怪兽的真实身份和危险性
+  description: 智能助手，对宇宙中的星空巨兽有深入了解。
+  skill: []
+```

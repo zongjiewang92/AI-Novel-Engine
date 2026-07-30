@@ -1,0 +1,44 @@
+```yaml
+- id: yuesan
+  name: 罗峰
+  aliases: [银河领主]
+  event: 竞争牵丝图碎片
+  description: 和焱帝、尤难之主等人争夺牵丝图碎片，通过使用金色的国度和冰峰之主的寒雾界结合抵挡对手攻击。
+  skill: ["我为宇宙"]
+- id: yanhuangzhiwuzi
+  name: 焱帝
+  aliases: [三师弟]
+  event: 竞争牵丝图碎片
+  description: 在争夺牵丝图碎片时被罗峰等人用金色的国度和寒雾界结合压制速度，被迫离开。
+  skill: []
+- id: younanzhizhu
+  name: 尤难之主
+  aliases: []
+  event: 竞争牵丝图碎片
+  description: 在争夺牵丝图碎片时飞得很快，但最终被罗峰和冰峰之主的防御手段阻止而离开。
+  skill: ["梦祖域", "魔屿藤"]
+- id: yinfengzhiwuzi
+  name: 冰峰之主
+  aliases: []
+  event: 竞争牵丝图碎片
+  description: 使用寒雾界与罗峰的金色国度结合抵御其他宇宙之主，协助罗峰获得牵丝图碎片。
+  skill: ["寒雾界"]
+- id: tianlangzhiwuzi
+  name: 天狼之主
+  aliases: []
+  event: 竞争牵丝图碎片
+  description: 使用梦祖域和魔屿藤与罗峰等人争夺牵丝图碎片，成功压制对手。
+  skill: ["梦祖域", "魔屿藤"]
+- id: youmeizhizhu
+  name: 幽魔之主
+  aliases: []
+  event: 竞争牵丝图碎片
+  description: 使用魔屿藤协助天狼之主与罗峰等人争夺牵丝图碎片。
+  skill: ["魔屿藤"]
+- id: mengyaozu
+  name: 梦妖祖
+  aliases: []
+  event: 赐予至宝
+  description: 给天狼之主和幽魔之主赐予梦祖域和魔屿藤，助他们夺得牵丝图碎片。
+  skill: ["梦祖域", "魔屿藤"]
+```

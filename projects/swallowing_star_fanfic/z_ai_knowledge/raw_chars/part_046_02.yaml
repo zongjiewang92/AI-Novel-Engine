@@ -1,0 +1,38 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 在老家见了亲人，也见了魏文等一些好友。带着迪伦前往神农架。
+  description: 回到地球后，罗峰见到了徐欣，并且计划回家闭关潜修尽快控制虫族母巢中的那头母皇。
+  skill: []
+- id: xuxin
+  name: 徐欣
+  aliases: [xu_xin]
+  event: 招呼罗峰不要召开家族聚会，提醒罗峰回罗家见她安排事项。
+  description: 罗峰的老朋友，曾是罗氏家族成员，现在主要负责处理家族事务。
+  skill: []
+- id: weiweng
+  name: 魏文
+  aliases: [wei_wen]
+  event: 是罗峰的朋友，在罗峰提供的资源下达到了恒星级实力。
+  description: 罗峰的好友之一，通过罗峰的帮助成功提升到了恒星级别的战斗力。
+  skill: []
+- id: diven
+  name: 迪文
+  aliases: [diwen]
+  event: 跟随罗峰前往神农架，并一同进入虫族母巢体内世界中闭关潜修。
+  description: 罗峰的同伴，协助他处理一些重要事务并陪伴他进行修炼活动。
+  skill: []
+- id: diban
+  name: 迪梵
+  aliases: [di_fan]
+  event: 负责神农架古堡的安全工作，并向罗峰报告了自己突破到了界主级。
+  description: 罗峰的奴隶护卫之一，具备强大的战斗能力并且忠心耿耿。
+  skill: []
+- id: baka Luo
+  name: 百卡罗
+  aliases: [bai_karuo]
+  event: 在神农架古堡和迪梵一同负责安全工作，并且被鼓励努力修炼提升到界主级。
+  description: 罗峰的奴隶护卫之一，拥有极高的潜力并得到了罗峰的重点培养。
+  skill: []
+```

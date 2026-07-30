@@ -1,0 +1,44 @@
+```yaml
+- id: gaofeng  
+  name: 高风
+  aliases: []
+  event: 火锤小队队长，提供购买A级基因药剂的内部渠道。
+  description: 拥有广泛的内部关系，帮助队员提升实力。
+  skill: [武者技能, 内部资源利用]
+- id: weitie  
+  name: 魏铁
+  aliases: []
+  event: 火锤小队成员之一，讨论是否购买A级基因药剂以提升实力。
+  description: 武士级别战士级队员，考虑自身经济状况犹豫不决。
+  skill: [武者技能]
+- id: weiqing  
+  name: 魏青
+  aliases: []
+  event: 火锤小队成员之一，与哥哥魏铁讨论购买基因药剂事宜。
+  description: 武士级别战士级队员，考虑自身经济状况犹豫不决。
+  skill: [武者技能]
+- id: chengu  
+  name: 陈谷
+  aliases: []
+  event: 火锤小队成员之一，负责火力压制等任务，购买A级基因药剂以提升实力。
+  description: 战士级别队员，擅长使用热武器。
+  skill: [武者技能, 使用热武器]
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 火锤小队成员之一，购买两柄9系飞刀以提升实力。
+  description: 战士级别队员，精神念师，考虑火锤小队未来发展方向。
+  skill: [武者技能, 精神念师技能]
+- id: zhangke  
+  name: 张科
+  aliases: []
+  event: 极限会馆成员之一，购买基因药剂以提升实力。
+  description: 战士级别队员，擅长使用热武器，曾经断臂受伤。
+  skill: [武者技能, 使用热武器]
+- id: luohua  
+  name: 罗华
+  aliases: []
+  event: 罗峰的弟弟，在小区中迎接罗峰归来。
+  description: 因伤在轮椅上生活，与哥哥关系亲密。
+  skill: [无]
+```

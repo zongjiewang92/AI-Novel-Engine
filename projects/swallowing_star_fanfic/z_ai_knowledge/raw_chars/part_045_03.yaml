@@ -1,0 +1,14 @@
+```yaml
+- id: luofeng 
+  name: 罗峰 
+  aliases: [] 
+  event: 登上第999层秘典塔，挑选《金魂》秘法。 
+  description: 拥有兽神雕像和《时空随笔》，在寻找适合自己的战斗秘法。
+  skill: []
+- id: sesi 
+  name: 瑟斯 
+  aliases: [] 
+  event: 向罗峰介绍秘典塔内贡献点的使用规则及书架摆放规律。 
+  description: 金角族女性成员，负责为罗峰提供指引服务。
+  skill: []
+```

@@ -1,0 +1,86 @@
+```yaml
+- id: mengtaoli
+  name: 蒙塔里
+  aliases: []
+  event: 异族宇宙之主，发现妖族联盟进入晋之世界的宇宙之主突然消失。
+  description: 发现梦万之主和蒙万之主从虚拟世界中同时消失后，向梦妖祖求助。
+  skill: []
+
+- id: mengyaozu
+  name: 梦妖祖
+  aliases: []
+  event: 接到蒙塔里通知后，立即探测发现所有进入晋之世界的宇宙之主突然消失，并且都已陨落。
+  description: 发现联军阵营中进入晋之世界的大量宇宙之主突然消失并陨落后感到极度恐慌。
+  skill: []
+
+- id: zhendaozu
+  name: 震妖祖
+  aliases: []
+  event: 向梦妖祖报告自己麾下所有去晋之世界的宇宙之主全部消失，随后与梦妖祖一同调查此事。
+  description: 发现自己统领的进入晋之世界的异兽族宇宙之主全部突然消失，并且都已陨落。
+  skill: []
+
+- id: jingzu
+  name: 晶族圣主
+  aliases: []
+  event: 联军阵营发现所有进入晋之世界的宇宙之主死亡后，晶族同样遭受巨大打击。
+  description: 发现联军阵营其他势力的宇宙之主全部突然消失并陨落之后感到震惊和恐慌。
+  skill: []
+
+- id: yezu
+  name: 狱族魔祖
+  aliases: []
+  event: 联军阵营发现所有进入晋之世界的宇宙之主死亡后，狱族同样遭受巨大打击。
+  description: 发现联军阵营其他势力的宇宙之主全部突然消失并陨落之后感到震惊和恐慌。
+  skill: []
+
+- id: chongzu
+  name: 虫族女皇
+  aliases: []
+  event: 联军阵营发现所有进入晋之世界的宇宙之主死亡后，虫族同样遭受巨大打击。
+  description: 发现联军阵营其他势力的宇宙之主全部突然消失并陨落之后感到震惊和恐慌。
+  skill: []
+
+- id: jiqizu
+  name: 机械族父神
+  aliases: []
+  event: 联军阵营发现所有进入晋之世界的宇宙之主死亡后，机械族同样遭受巨大打击。
+  description: 发现联军阵营其他势力的宇宙之主全部突然消失并陨落之后感到震惊和恐慌。
+  skill: []
+
+- id: beijianglianheng
+  name: 北疆联盟
+  aliases: []
+  event: 联军阵营发现所有进入晋之世界的宇宙之主死亡后，北疆联盟同样遭受巨大打击。
+  description: 发现联军阵营其他势力的宇宙之主全部突然消失并陨落之后感到震惊和恐慌。
+  skill: []
+
+- id: ziyeshandi
+  name: 紫月圣地
+  aliases: []
+  event: 联系到人类联盟，发现除联军阵营外的所有势力都安然无恙，意识到了不寻常的情况。
+  description: 发现进入晋之世界的紫月圣地宇宙之主全部突然消失并陨落之后感到震惊和恐慌。
+  skill: []
+
+- id: hetaizu
+  name: 骸族
+  aliases: []
+  event: 宇宙海势力中唯一一个未遭受打击的族群，发现自己的宇宙之主安然无恙。
+  description: 发现其他联军阵营和紫月圣地的宇宙之主全部突然消失并陨落之后感到不解和惊讶。
+  skill: []
+
+- id: dongdishandi
+  name: 东帝圣地
+  aliases: []
+  event: 宇宙海势力中唯一一个未遭受打击的族群，发现自己的宇宙之主安然无恙。
+  description: 发现其他联军阵营和紫月圣地的宇宙之主全部突然消失并陨落之后感到不解和惊讶。
+  skill: []
+
+- id: renlei
+  name: 人类
+  aliases: []
+  event: 联系到紫月圣地，发现整个人类联盟的宇宙之主都安然无恙。
+  description: 发现除联军阵营外的所有势力包括自身在内的宇宙之主都安然无恙之后感到不解和惊讶。
+  skill: []
+
+```

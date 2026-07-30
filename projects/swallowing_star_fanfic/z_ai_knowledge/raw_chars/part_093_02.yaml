@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: []
+  event: 十道光柱从天而降，瞬间笼罩他们十名军士。
+  description: 罗峰安然在一旁看着其他军士使用宝物恢复神体。接着他观察着远处五个小型世界内的五名军士的处境，并且意识到第二层并不是想象中的那样轻松。
+  skill: []
+- id: suzhong
+  name: SuZhong
+  aliases: []
+  event: 必须得靠机械流宝物。暗红色甲铠少年被吓得立即双腿开始出现一道道环纹，银色的花纹缠绕双腿，甚至很快延续到全身，顿时暗红色甲铠少年的速度更加快。
+  description: 须钟在刚一出现时化为‘颏鸟’远远闪躲开，并警惕看向四周。他迅速使用机械流宝物来尽快恢复神体。
+  skill: []
+- id: anhongsejiakeqiaoshao
+  name: AnHongSeJiaKeQiaoShao
+  aliases: []
+  event: 十道光柱从天而降，瞬间笼罩他们十名军士。
+  description: 暗红色甲铠少年被小型世界内的古老秘纹图不停轰击，并且迅速使用机械流宝物来抵抗攻击。当他面对暗红色岩石巨人时显得十分紧张和害怕。
+  skill: []
+```

@@ -1,0 +1,32 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [罗峰, 黑甲武者]
+  event: 与石风雄的战斗，神殿使者出现
+  description: 穿着黑色战甲，拥有强大实力，擅长使用魔杀族分身能力。在战斗中杀死石风雄，并寻找空间储物器具。
+  skill: [魔杀族分身, 强大战斗力]
+- id: shi Feng Xiong  
+  name: 石风雄
+  aliases: []
+  event: 被罗峰杀死
+  description: 血洛城主，拥有两颗血洛晶。被罗峰击败并杀死。
+  skill: [领域级实力, 拥有空间储物器具]
+- id: chun Yu Tao  
+  name: 淳羽陶
+  aliases: []
+  event: 观察战斗情况，谨慎行动
+  description: 燕岗城淳羽家族成员。试图联系不朽神殿使者，并因罗峰与石风雄的战斗而警惕。
+  skill: [领域级实力, 谨慎行事]
+- id: you  
+  name: 游
+  aliases: []
+  event: 出现在战斗现场，愤怒质问罗峰
+  description: 不朽神殿特使之一。与另一名特使同时出现，对杀死其师弟的罗峰表示愤怒。
+  skill: [强大气息, 领域级实力]
+- id: lao Mo  
+  name: 老莫
+  aliases: []
+  event: 出现在战斗现场，解释情况
+  description: 不朽神殿特使之一。对发生的事情表示歉意，并与另一名特使讨论如何应对。
+  skill: [强大气息, 领域级实力]
+```

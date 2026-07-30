@@ -1,0 +1,38 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 和队友洪、雷神、铁南河、敖骨一起挖掘雷霆石
+  description: 领导队伍，利用摩云藤和巴巴塔的探测能力高效采集雷霆石。
+  skill: [使用摩云藤, 掌握巴巴塔的探测技术]
+- id: hong  
+  name: 洪
+  aliases: []
+  event: 和罗峰、雷神、铁南河、敖骨一起挖掘雷霆石
+  description: 参与采集工作，对获得大量雷霆石表示感慨。
+  skill: [无特殊技能描述]
+- id: leishen  
+  name: 雷神
+  aliases: []
+  event: 和罗峰、洪、铁南河、敖骨一起挖掘雷霆石
+  description: 参与采集工作，对获得大量雷霆石表示惊叹。
+  skill: [无特殊技能描述]
+- id: tie_nan_he  
+  name: 铁南河
+  aliases: []
+  event: 和罗峰、洪、雷神、敖骨一起挖掘雷霆石
+  description: 参与采集工作，负责掩饰挖出的坑洞表面。
+  skill: [无特殊技能描述]
+- id: ao_gu  
+  name: 敖骨
+  aliases: []
+  event: 和罗峰、洪、雷神、铁南河一起挖掘雷霆石
+  description: 参与采集工作，负责掩饰挖出的坑洞表面。
+  skill: [无特殊技能描述]
+- id: babata  
+  name: 巴巴塔
+  aliases: []
+  event: 协助罗峰等人探测和收集雷霆石
+  description: 提供地图和探测设备的信息帮助团队高效采集雷霆石。
+  skill: [提供探测信息, 指导挖掘方向]
+```

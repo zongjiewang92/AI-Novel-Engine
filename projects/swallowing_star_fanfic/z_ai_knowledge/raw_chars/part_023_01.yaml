@@ -1,0 +1,43 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 白兰星、虬龙星、沧澜星，见习佣兵考核准备阶段。
+  description: 恒星级九阶精神念师，带着两名恒星级九阶的仆人。正准备进行宇宙见习佣兵考核。
+  skill: []
+
+- id: hong  
+  name: 洪
+  aliases: []
+  event: 白兰星、虬龙星、沧澜星，见习佣兵考核准备阶段。
+  description: 参加罗峰的小队一同进行宇宙见习佣兵考核。
+  skill: []
+
+- id: leishen  
+  name: 雷神
+  aliases: []
+  event: 白兰星、虬龙星、沧澜星，见习佣兵考核准备阶段。
+  description: 参加罗峰的小队一同进行宇宙见习佣兵考核。
+  skill: []
+
+- id: ao骨  
+  name: 敖骨
+  aliases: []
+  event: 虬龙星至沧澜星旅途上，见习佣兵考核准备阶段。
+  description: 罗峰带来的恒星级九阶精神念师仆人。精瘦，暗红色头发乱糟糟的，是罗峰购买诸多恒星级九阶奴隶中排名第一的精神念师。
+  skill: []
+
+- id: tie南河  
+  name: 铁南河
+  aliases: []
+  event: 虬龙星至沧澜星旅途上，见习佣兵考核准备阶段。
+  description: 罗峰带来的恒星级九阶武者仆人。精壮高大，双眸凹陷，额头有三鳞片，是罗峰购买的恒星级九阶奴隶中排名第一的武者。
+  skill: []
+
+- id: luohai  
+  name: 罗海
+  aliases: []
+  event: 白兰星
+  description: 战衣男童，罗峰的儿子。
+  skill: []
+```

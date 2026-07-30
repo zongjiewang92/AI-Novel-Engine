@@ -1,0 +1,51 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 不朽最高会议,雷霆岛山腰会客
+  description: 杀死吠镜王，获得宇宙中等尊者实力评价。得到真衍尊者的指导和帮助。
+  skill: []
+
+- id: zhenyan  
+  name: 真衍
+  aliases: []
+  event: 不朽最高会议,雷霆岛山腰会客
+  description: 指导罗峰，传递不朽最高会议的邀请。
+  skill: []
+
+- id: jiuyan 
+  name: 九焱
+  aliases: []
+  event: 不朽最高会议,雷霆岛山腰会客
+  description: 国主级别的人物，在混沌城主麾下众多弟子中排行第二的归一尊者亲自传达邀请。
+  skill: []
+
+- id: guiyi  
+  name: 归一
+  aliases: []
+  event: 不朽最高会议,雷霆岛山腰会客
+  description: 混沌城主的亲信，负责传达混沌城主的重要信息。亲自来传达罗峰加入人类不朽最高会议的消息。
+  skill: []
+
+- id: biaohai 
+  name: 碑骸
+  aliases: []
+  event: 雷霆岛山腰会客
+  description: 来访的宇宙尊者之一，对罗峰表示祝贺和歉意。
+  skill: []
+
+- id: jinfu  
+  name: 金斧
+  aliases: []
+  event: 雷霆岛山腰会客
+  description: 来访的宇宙尊者之一，对罗峰表示祝贺和歉意。
+  skill: []
+
+- id: gudun 
+  name: 古轮
+  aliases: []
+  event: 雷霆岛山腰会客
+  description: 来访的宇宙国主之一，对罗峰表示祝贺和歉意。
+  skill: []
+
+```

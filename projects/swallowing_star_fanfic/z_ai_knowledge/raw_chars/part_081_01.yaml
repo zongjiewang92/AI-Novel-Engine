@@ -1,0 +1,64 @@
+```yaml
+- id: roufeng  
+  name: 罗峰
+  aliases: []
+  event: 被五浑之主、封砻之主等四位宇宙之主追杀
+  description: 在宇宙舟内域的灭神涧与因沱、五浑之主、究箭之主交战，后被熔岩魔神重创因沱，并且成功穿过岩浆海抵达焰水湖。
+  skill: [弑吴羽翼, 星辰塔]
+
+- id: wuhunzhuzhu  
+  name: 五浑之主
+  aliases: []
+  event: 在宇宙舟内域的灭神涧与罗峰交战，并且穿过岩浆海抵达焰水湖。
+  description: 被熔岩魔神重创，但幸运地穿越了岩浆海。
+  skill: [刀芯界]
+
+- id: fenglongzhuzhu  
+  name: 封砻之主
+  aliases: []
+  event: 在宇宙舟内域的焰水湖与罗峰交战
+  description: 和五浑之主联手追杀罗峰，并且和他争夺羽翼至宝。
+  skill: [星云灯]
+
+- id: sutizhuzhu  
+  name: 燧石之主
+  aliases: []
+  event: 在虚拟宇宙鸿盟城内询问关于罗峰的消息
+  description: 对于罗峰的安全表示关心，并且与混沌城主和其他宇宙之主讨论相关消息。
+  skill: []
+
+- id: xujinzhihu  
+  name: 虚金之主
+  aliases: []
+  event: 在虚拟宇宙鸿盟城内询问关于罗峰的消息，对五浑之主的战斗情况表示怀疑。
+  description: 认为有关罗峰与因沱、五浑之主等人的消息可能是假的。
+  skill: []
+
+- id: penggongzhuzhu  
+  name: 彭工之主
+  aliases: []
+  event: 确认关于罗峰的消息，并且向混沌城主传达确认后的信息。
+  description: 向紫月圣地的宇宙之主询问并确认了有关罗峰的消息，然后告知其他宇宙之主们。
+  skill: []
+
+- id: chongtuzhuchengzhu  
+  name: 混沌城主
+  aliases: []
+  event: 召集宇宙之主讨论关于罗峰的消息，并且直接联系罗峰确认信息的真实性。
+  description: 向罗峰询问他在灭神涧的战斗情况，并且关心他的安全。
+  skill: []
+
+- id: yin tuo  
+  name: 因沱
+  aliases: []
+  event: 在宇宙舟内域被熔岩魔神重创，后退守焰水湖。
+  description: 被罗峰和熔岩魔神严重伤害，金砜甲损坏，神体受到重大损失。
+  skill: []
+
+- id: jiuzhanzhuzhu  
+  name: 究箭之主
+  aliases: []
+  event: 在宇宙舟内域与罗峰交战后陨落。
+  description: 被熔岩魔神击败，并且在五浑之主手中失去了刀芯界，最终死亡。
+  skill: [刀芯界]
+```

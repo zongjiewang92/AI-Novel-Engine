@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [精神念师]
+  event: 战斗银月凶狼
+  description: 在火锤小队中，罗峰是一名精神念师，拥有飞行能力。他提议独自尝试对付受伤的高级兽将级银月凶狼。
+  skill: ["《九重雷刀》", "踏物飞行"]
+- id: gaofeng  
+  name: 高风
+  aliases: [队长]
+  event: 讨论是否应对付银月凶狼
+  description: 火锤小队的队长，他对罗峰提议对付受伤的高级兽将级银月凶狼表示谨慎。
+  skill: []
+- id: chengu  
+  name: 陈谷
+  aliases: []
+  event: 提议让罗峰尝试对付银月凶狼
+  description: 火锤小队成员，鼓励队长高风允许罗峰去尝试捕捉受伤的高级兽将级银月凶狼。
+  skill: []
+- id: weite  
+  name: 魏铁
+  aliases: []
+  event: 转达关于银月凶狼的信息给队长
+  description: 火锤小队成员，提醒队长注意时间紧迫，建议尽快行动捕捉受伤的高级兽将级银月凶狼。
+  skill: []
+```

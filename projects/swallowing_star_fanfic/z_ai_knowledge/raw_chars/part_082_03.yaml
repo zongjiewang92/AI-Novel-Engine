@@ -1,0 +1,20 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 获得地图、与混沌城主交流
+  description: 在宇宙舟内域发现黑色信物，进入密室独立空间获取详细的地图，并将其分享给老师。同时，在虚拟宇宙中向混沌城主汇报自己的情况。
+  skill: []
+- id: huan He Cheng Zhu  
+  name: 混沌城主
+  aliases: [混沌城主]
+  event: 突破、接受罗峰地图
+  description: 最近有所突破，但尚未达到宇宙最强者。从罗峰处接收三大绝地的地图，并对其详细程度感到震惊。
+  skill: []
+- id: Duan Dong He  
+  name: 断东河
+  aliases: [断东河]
+  event: 提及传承空间
+  description: 在宇宙舟内域拥有一个独立的空间，用于历代强者的传承。
+  skill: []
+```

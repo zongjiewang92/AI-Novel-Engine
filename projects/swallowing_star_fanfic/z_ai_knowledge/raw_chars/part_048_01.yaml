@@ -1,0 +1,29 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [神秘黑发青年]
+  event: 来到贝斯星球, 宣判火凤组成员死刑
+  description: 银色战铠、银色战靴、黑色短发、冷漠双眸的宇宙级强者，灵魂方面造诣高深。
+  skill: [搜魂]
+
+- id: ji Jiao lun jia man zi  
+  name: 犄角鳞甲男子
+  aliases: []
+  event: 惊恐面对罗峰, 向罗峰解释身份
+  description: 额头冷汗淋淋，惊恐的恒星级三阶战士。
+  skill: []
+
+- id: nian Lao zu chang  
+  name: 年老族长
+  aliases: []
+  event: 被魔神击杀
+  description: 巨木部落年老族长，在魔神面前被杀死。
+  skill: []
+
+- id: long Lou  
+  name: 龙楼
+  aliases: [巨木部落的真正天才]
+  event: 被罗峰抓住
+  description: 拥有悬浮半空能力，行星级三阶实力的少年。
+  skill: []
+```

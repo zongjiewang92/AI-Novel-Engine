@@ -1,0 +1,43 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 闯过通天桥第13层
+  description: 在短短数百年内连续闯过通天桥的六层，最终成功到达第13层。
+  skill: []
+
+- id: zhenyanwang  
+  name: 真衍王
+  aliases: []
+  event: 恭喜罗峰闯过通天桥第13层
+  description: 表示对弟子罗峰取得的成就感到高兴，并提醒珑玉王小心宇宙尊者们会因为罗峰的能力而争相邀请他。
+  skill: []
+
+- id: longyuwang  
+  name: 珑玉王
+  aliases: []
+  event: 向九剑尊者汇报罗峰的表现
+  description: 带着对弟子罗峰的惊异，向自己的上级九剑尊者报告了罗峰在通天桥上的惊人表现。
+  skill: []
+
+- id: jiujianzunzhe  
+  name: 九剑尊者
+  aliases: []
+  event: 接收关于罗峰的信息并决策
+  description: 在接收到关于弟子罗峰的报告后，意识到需要尽快采取行动以确保对罗峰的影响。
+  skill: []
+
+- id: baifenjianshuo  
+  name: 监守者巴芬
+  aliases: []
+  event: 报告罗峰的表现给虚拟宇宙公司高层
+  description: 在得知罗峰在通天桥上的成绩后，立即向虚拟宇宙公司的最高层报告了这一消息。
+  skill: []
+
+- id: boren  
+  name: 伯兰
+  aliases: []
+  event: 提到的比较对象
+  description: 和罗峰相比，尽管也是一位非常优秀的天才，但在通天桥上的表现远不及罗峰。九剑尊者用他来衬托出罗峰惊人的进步。
+  skill: []
+```

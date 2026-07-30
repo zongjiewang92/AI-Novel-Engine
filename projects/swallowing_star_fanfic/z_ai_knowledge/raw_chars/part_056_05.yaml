@@ -1,0 +1,24 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 鸿盟城内购物
+  description: 观察宇宝堂内的各类宝物，特别关注一套八米多高的奇异金色战铠。
+  skill: []
+
+- id: muyuwang
+  name: 木玉王
+  aliases: []
+  event: 带罗峰参观鸿盟城
+  description: 向罗峰介绍宇宝堂二楼的进入条件及吴吕王的信息。
+  skill: []
+
+- id: wuqiwang
+  name: 吴吕王
+  aliases: []
+  event: 遇到罗峰时出现
+  description: 异族强者，拥有强大的背景支持，对人类中颇来历的强者豪爽结交。
+  skill: []
+
+```
+注意：此部分提取了人物、角色的信息，并严格遵守原文内容。

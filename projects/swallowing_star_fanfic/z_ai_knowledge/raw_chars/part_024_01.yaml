@@ -1,0 +1,44 @@
+```yaml
+- id: luofeng 
+  name: 罗峰
+  aliases: []
+  event: 第七天，罗峰小队在森林中已经前进了大概8个小时。
+  description: 领导地球五人小队，在界中界狩猎宇宙晶。面对追杀时改变方向，并利用查探设备来寻找安全路径。
+  skill: [念力传音, 查探设备使用]
+- id: hong 
+  name: 洪
+  aliases: []
+  event: 第七天，和雷神一起跟随罗峰小队行动。
+  description: 地球五人小队成员，在面对追杀时感到紧张，并认为在森林中有优势。
+  skill: [原力传音]
+- id: leishen 
+  name: 雷神
+  aliases: []
+  event: 第七天，和洪一起跟随罗峰小队行动。
+  description: 地球五人小队成员，在面对追杀时感到紧张，并建议快速奔跑以避免被发现。
+  skill: [原力传音]
+- id: ao骨 
+  name: 敖骨
+  aliases: []
+  event: 第七天，帮助罗峰小队在飞行中躲避危险。
+  description: 地球五人小队成员，在面对追杀时建议保护主人并改变方向。
+  skill: [念力传音]
+- id: tie nanhe 
+  name: 铁南河
+  aliases: []
+  event: 第七天，跟随罗峰小队在飞行中躲避危险。
+  description: 地球五人小队成员，在面对追杀时未有具体描述的行动和技能展现。
+  skill: [未知]
+- id: xiaoyuqingnian 
+  name: 小青年
+  aliases: []
+  event: 第七天，带领300人的队伍进行狩猎任务。
+  description: 冷酷青年，穿着银色战衣，脚踏黑色战靴。在森林边缘放弃追击罗峰小队，转而返回草原继续狩猎。
+  skill: [原力传音, 战斗指挥]
+- id: qizhongrenwu 
+  name: 其中一人
+  aliases: []
+  event: 第七天，在粗壮大树顶端进行探查任务。
+  description: 在大树顶端使用望远设备，发现远处罗峰小队的踪迹，并向队长汇报情况。
+  skill: [望远设备使用]
+```

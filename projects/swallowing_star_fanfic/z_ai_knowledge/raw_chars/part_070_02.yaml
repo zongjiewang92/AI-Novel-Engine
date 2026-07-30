@@ -1,0 +1,32 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [刀河王罗峰]
+  event: 暴力逃逸宇宙尊者追杀
+  description: 在空间封锁区域内利用天赋秘法“域”逃脱三位宇宙霸主的追杀。
+  skill: ["域"]
+- id: xie Yi jiao zhu  
+  name: 邪翼教主
+  aliases: []
+  event: 追击罗峰，试图用法则领域干扰其逃逸
+  description: 在空间封锁区域内利用法则领域和瞬移追杀罗峰。
+  skill: ["法则领域"]
+- id: ni Wa zhi zhe  
+  name: 泥蛙智者
+  aliases: []
+  event: 参与追捕罗峰，使用灵魂攻击手段试图困住他
+  description: 在空间封锁区域内利用瞬移和灵魂类至宝追杀罗峰。
+  skill: ["灵魂攻击"]
+- id: ma Sha zun zhe  
+  name: 麻沙尊者
+  aliases: []
+  event: 使用领域类至宝“无尽沙粒”试图击杀罗峰，最终失败
+  description: 在空间封锁区域内利用领域类至宝追杀罗峰。
+  skill: ["无尽沙粒"]
+- id: yan Di  
+  name: 焱帝
+  aliases: []
+  event: 操纵空间封锁区域和劫甲的争夺战
+  description: 虚空宫殿群主殿内操控一切，确保刀河王获得劫甲。
+  skill: ["虚空控制"]
+```

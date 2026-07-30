@@ -1,0 +1,44 @@
+```yaml
+- id: tuo_lei_wu  
+  name: 陀雷武
+  aliases: [队长, 冒险小队队长]
+  event: 抓走五大强国领导人和徐欣罗华逼问金角巨兽尸体下落
+  description: 宇宙冒险小队中的队长，目标是找到吞噬兽的尸体。
+  skill: [无形念力渗透识海询问信息]
+- id: rong_zhi  
+  name: 戎至
+  aliases: [队长]
+  event: 迫使徐欣进入虚拟宇宙网络联系罗峰
+  description: 宇宙冒险小队中的队长，负责催眠并询问相关信息。
+  skill: [使用无形念力渗透识海]
+- id: xu_xin  
+  name: 徐欣
+  aliases: []
+  event: 被逼问金角巨兽尸体下落
+  description: 罗峰的妻子，面对宇宙冒险小队的威胁而联系罗峰。
+  skill: [虚拟宇宙网络通讯申请]
+- id: luo_hua  
+  name: 罗华
+  aliases: [弟弟]
+  event: 被宇宙冒险小队抓走作为人质
+  description: 罗峰的弟弟，被宇宙冒险小队用来逼问金角巨兽尸体下落。
+  skill: []
+- id: luo_feng  
+  name: 罗峰
+  aliases: [虚拟领主]
+  event: 被要求提供金角巨兽尸体坐标信息
+  description: 地球的虚拟领主，通过虚拟宇宙网络与徐欣联系并商定交易条件。
+  skill: [虚拟宇宙网络通讯, 提供精确坐标信息]
+- id: mei_li_gan_zheng_ling_dui  
+  name: 美利坚总统
+  aliases: []
+  event: 被抓走作为人质
+  description: 地球五大强国之一的领导人，被宇宙冒险小队抓走用来逼问相关信息。
+  skill: []
+- id: qi_ta_daxiang_lingdui  
+  name: 其他四大强国领导
+  aliases: []
+  event: 被抓走作为人质
+  description: 地球五大强国领导人之一，被宇宙冒险小队抓走用来逼问相关信息。
+  skill: []
+```

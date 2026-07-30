@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗家藏宝库]
+  event: 潜伏在人类疆域内的封侯级不朽神灵、虫族母巢计划
+  description: 掌握虚拟宇宙公司特权，计划控制一头活的界主级别的虫族母巢。
+  skill: ["万心控魂秘法"]
+- id: xuxin  
+  name: 徐欣
+  aliases: []
+  event: 负责罗峰在地球的安全保障及虫族母巢的看守事宜。
+  description: 罗家藏宝库的负责人，关注罗峰安全及财产状况。
+  skill: []
+- id: luping  
+  name: 罗平
+  aliases: []
+  event: 担心父亲罗峰的安全。
+  description: 罗家成员之一，关心家族重要人物的安全。
+  skill: []
+- id: luohai  
+  name: 罗海
+  aliases: []
+  event: 对父亲罗峰的安全表示担忧。
+  description: 罗家成员之一，担心家族的重要人物可能面临的危险。
+  skill: []
+- id: dilun  
+  name: 迪伦
+  aliases: []
+  event: 提供关于虚拟宇宙公司安全措施及虫族母巢价值的信息。
+  description: 虚拟宇宙公司的人员，提供了有关罗峰安全问题的解答以及虫族母巢的价值评估。
+  skill: ["万心控魂秘法的价格"]
+```

@@ -1,0 +1,38 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [罗峰大人]
+  event: 击杀吠镜王，献出剑河罗神剑给族群
+  description: 宇宙流浪五万年，终跨入不朽。曾经和岐血宫主、卑酆尊者、天旸尊者等宇宙霸主交手过。
+  skill: [研究究极绝学]
+- id: bo Lan  
+  name: 伯兰
+  aliases: []
+  event: 当年的天才中最耀眼的
+  description: 在第一次前往混沌城时，罗峰提到的一位与他同一批的天才。
+  skill: []
+- id: er Huo Zun Zhe  
+  name: 蚀火尊者
+  aliases: []
+  event: 罗峰不再将当年高高在上的蚀火尊者等当成什么对手。
+  description: 当年罗峰认为强大的宇宙强者之一，现被超越。
+  skill: []
+- id: qi Xue Gong Zhu  
+  name: 岐血宫主
+  aliases: [岐血]
+  event: 曾和罗峰交手过
+  description: 宇宙霸主级别的人物。
+  skill: []
+- id: bi Feng Zun Zhe  
+  name: 卑酆尊者
+  aliases: []
+  event: 曾和罗峰交手过
+  description: 宇宙霸主级别的人物。
+  skill: []
+- id: tian Yang Zun Zhe  
+  name: 天旸尊者
+  aliases: []
+  event: 曾和罗峰交手过
+  description: 宇宙霸主级别的人物。
+  skill: []
+```

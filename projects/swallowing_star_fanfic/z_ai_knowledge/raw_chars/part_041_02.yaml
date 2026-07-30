@@ -1,0 +1,57 @@
+```yaml
+- id: xuxin
+  name: 徐欣
+  aliases: []
+  event: 原始秘境名额争夺战（宇宙级）
+  description: 关注罗峰的战斗，对克罗夫弃权表示疑惑。
+  skill: []
+
+- id: kelong
+  name: 克罗夫
+  aliases: [Krovf]
+  event: 原始秘境名额争夺战（宇宙级）
+  description: 在最后一战中未进入虚拟宇宙网络而被判定为弃权，导致罗峰不战获胜。
+  skill: []
+
+- id: zhenyanwang
+  name: 真衍王
+  aliases: [Zhen Yan Wang]
+  event: 原始秘境名额争夺战（宇宙级）
+  description: 对罗峰第一次资格战获得原始秘境名额表示祝贺。
+  skill: []
+
+- id: moluo
+  name: 莫洛
+  aliases: []
+  event: 原始秘境名额争夺战（宇宙级）
+  description: 参加了与罗峰的争夺战，最终被淘汰到太初秘境，并对克罗夫弃权表示不解和愤怒。
+  skill: []
+
+- id: yufeng
+  name: 愚风
+  aliases: []
+  event: 原始秘境名额争夺战（宇宙级）
+  description: 参加了与罗峰的争夺战，被罗峰击败后进入太初秘境。
+  skill: []
+
+- id: longyun
+  name: 隆云
+  aliases: []
+  event: 原始秘境名额争夺战（宇宙级）
+  description: 被罗峰击败后进入太初秘境。
+  skill: []
+
+- id: boren
+  name: 伯兰
+  aliases: []
+  event: 原始秘境名额争夺战（宇宙级）
+  description: 击败隆云，随后与罗峰的战斗被克罗夫弃权而自动获胜，进入太初秘境。
+  skill: []
+
+- id: puyuhou
+  name: 魄瑜侯
+  aliases: []
+  event: 原始秘境名额争夺战（宇宙级）
+  description: 对罗峰冲进原始秘境表示惊讶。
+  skill: []
+```

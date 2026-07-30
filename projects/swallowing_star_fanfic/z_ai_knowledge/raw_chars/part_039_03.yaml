@@ -1,0 +1,20 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 使用摩云藤对付对手，面对E9级镭射枪的威胁，召唤机械族飞船逃生。
+  description: 面对敌人的攻击，迅速反应并采取措施自救。展现出强大的战斗意识和冷静应对危机的能力。
+  skill: [使用摩云藤, 召唤机械族飞船]
+- id: ba Ba Ta  
+  name: 巴巴塔
+  aliases: []
+  event: 提醒罗峰镭射枪的威胁，建议立即逃跑并帮助罗峰召唤机械族飞船。
+  description: 在危机时刻为罗峰提供关键信息和支援。
+  skill: [提醒, 召唤]
+- id: pa Tuo  
+  name: 帕拓
+  aliases: []
+  event: 持有E9级镭射枪，使用激光攻击罗峰。
+  description: 使用高科技武器进行攻击，给罗峰带来极大威胁。
+  skill: [持有E9级镭射枪, 使用激光]
+```

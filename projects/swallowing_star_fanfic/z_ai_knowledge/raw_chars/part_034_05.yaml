@@ -1,0 +1,44 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 探查血洛晶的持有者
+  description: 宇宙级九阶的精神念师，擅长瞬间爆发速度。在燕岗领抓走了淳羽崇，并询问他关于血洛晶的信息。
+  skill: [瞬移, 念力攻击]
+
+- id: chun Yu Chong  
+  name: 淳羽崇
+  aliases: []
+  event: 被罗峰抓捕并审问
+  description: 淳羽家族的家主，被罗峰使用灵魂秘法控制后坦白了关于血洛晶的信息。
+  skill: []
+
+- id: shi Feng Xiong  
+  name: 石风雄
+  aliases: []
+  event: 被怀疑持有血洛晶
+  description: 燕岗领的领主，有背景深厚的关系网。被认为很可能拥有至少一颗未融合的血洛晶。
+  skill: []
+
+- id: shi Feng Zhan  
+  name: 石风战
+  aliases: []
+  event: 被怀疑持有血洛晶
+  description: 当前燕岗城管理军队的将军，石风雄的弟弟。据说持有由哥哥赐予的一颗血洛晶。
+  skill: []
+
+- id: chun Yu Tao  
+  name: 淳羽陶
+  aliases: []
+  event: 调查黑袍人的事件
+  description: 淳羽家族的老祖，地位显赫，对家族成员有着极强的控制力。在调查余可奇带黑袍人一事时表现出极大的愤怒。
+  skill: []
+
+- id: yu Ke Qi  
+  name: 余可奇
+  aliases: []
+  event: 被提到与黑袍人的接触
+  description: 淳羽家族中的一名成员，被提及为目击者之一，亲眼看到黑袍人和淳羽崇在一起。
+  skill: []
+
+```

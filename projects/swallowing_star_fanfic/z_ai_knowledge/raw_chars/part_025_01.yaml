@@ -1,0 +1,36 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [罗峰]
+  event: 巴巴塔指挥摩云藤狩猎，杀死多个小队队长，并在边缘地带进行狩猎。
+  description: 在界中界进行雷霆石的挖掘和争夺战，依靠摩云藤进行狩猎行动。
+  skill: []
+
+- id: babata
+  name: 巴巴塔
+  aliases: [巴巴塔]
+  event: 指挥摩云藤在界中界进行狩猎行动，并提供精确指引。
+  description: 虚拟宇宙中的生命体，帮助罗峰在界中界进行雷霆石的挖掘和争夺战。
+  skill: []
+
+- id: leishen
+  name: 雷神
+  aliases: [雷神]
+  event: 在控制室内检查空间储存器物。
+  description: 和罗峰一起参与对摩云藤猎杀成果的处理工作，急不可耐地查看收获的财物。
+  skill: []
+
+- id: bulolin
+  name: 布罗林
+  aliases: [布罗林]
+  event: 控制超过22万人，并应对其他队伍对自己麾下大队的袭击。
+  description: 界中界联军中的重要人物，控制多个大部队参与雷霆石的争夺战。
+  skill: []
+
+- id: chaqietuo
+  name: 查克托
+  aliases: [猿人查克托]
+  event: 在虚拟宇宙黑龙山岛屿上指挥对布罗林麾下大队的袭击行动，并与两位屏幕上的人员交流。
+  description: 黑龙山星域势力中的重要人物，参与界中界的雷霆石争夺战。
+  skill: []
+```

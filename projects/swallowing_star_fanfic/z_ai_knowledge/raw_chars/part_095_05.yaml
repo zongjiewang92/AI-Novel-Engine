@@ -1,0 +1,38 @@
+```yaml
+- id: dazhizhuyou
+  name: 查闇之主
+  aliases: [查闇]
+  event: 界兽摩罗撒出现
+  description: 负责调查界兽的存在和位置。
+  skill: [燃烧神力第一重秘术, 大挪移]
+- id: huochongzhenzhuyou
+  name: 火虫真主
+  aliases: []
+  event: 发现界兽摩罗撒并通知宇宙海各族
+  description: 感应到异种能量汇聚后，确认了界兽的存在并向其他种族传递消息。
+  skill: [大挪移]
+- id: jiaowu
+  name: 罗峰
+  aliases: []
+  event: 准备前往火虫真主处应对界兽摩罗撒
+  description: 宇宙海第一强者，准备出发去对抗界兽。
+  skill: [意志秘术, 眼神攻击]
+- id: hong
+  name: 洪
+  aliases: []
+  event: 准备前往火虫真主处应对界兽摩罗撒
+  description: 罗峰的大哥，准备一同出发去对抗界兽。
+  skill: [未知]
+- id: huqiongzhenshen
+  name: 火穹真神
+  aliases: []
+  event: 跟随老师前往火虫真主处应对界兽摩罗撒
+  description: 罗峰的弟子，准备一同出发去对抗界兽。
+  skill: [燃烧神力秘术, 意志缺乏]
+- id: jiejuezhuyou
+  name: 界兽摩罗撒
+  aliases: []
+  event: 吞噬本源并被发现
+  description: 出现在宇宙海，吞噬本源并导致查闇之主的分身被吞吃。
+  skill: [吞噬本源, 曲线光芒]
+```

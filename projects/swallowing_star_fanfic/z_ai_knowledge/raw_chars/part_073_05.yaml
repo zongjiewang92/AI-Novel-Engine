@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 星河之主辨认宝物
+  description: 虚拟宇宙网络上搜查金属资料，无法辨认的三种金属中寻找未知宝物。
+  skill: ["我为宇宙", "世界戒指"]
+- id: cannuo
+  name: 梵挪堡主
+  aliases: []
+  event: 和罗峰换取金属失败后战斗
+  description: 因为某种金属与罗峰交易未果，转而和罗峰战斗。
+  skill: ["天赋秘法分身"]
+- id: xinghezhizhu
+  name: 星河之主
+  aliases: []
+  event: 复活宇宙高等尊者
+  description: 在宫殿内通过时空回朔复活39位宇宙高等尊者，询问人类罗峰的帮手是谁。
+  skill: ["时空回朔"]
+```

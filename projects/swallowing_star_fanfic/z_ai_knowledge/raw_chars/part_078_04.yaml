@@ -1,0 +1,22 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [弑吴羽翼的拥有者]
+  event: 获得火焰沙杯，牵丝图碎片上的贡献
+  description: 在宇宙海中获得重要至宝，并展示出强大的实力。
+  skill: []
+
+- id: hunzhuochengzhu  
+  name: 混沌城主
+  aliases: [老师]
+  event: 决定让罗峰进入宇宙海探险
+  description: 罗峰的老师，给予他指引和保护。
+  skill: []
+
+- id: bingfenzhuzhi  
+  name: 冰峰之主
+  aliases: []
+  event: 赞赏罗峰在宇宙海中的表现
+  description: 混沌城主的师兄，支持罗峰进入宇宙海探险。
+  skill: []
+```

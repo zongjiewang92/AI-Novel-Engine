@@ -1,0 +1,26 @@
+```yaml
+- id: jinjiaojuqiu 
+  name: 金角巨兽 
+  aliases: [] 
+  event: 霸剑尊者遭遇战, 策天尊者和羽黯领主逃离  
+  description: 拥有九虓河领域的强大宇宙生物，能使用高等至宝铠甲。战斗力极强且难以被杀死。
+  skill: [领域类至宝“九虓河”, 高等至宝神剑]
+- id: baqianzhongzhe 
+  name: 霸剑尊者 
+  aliases: []  
+  event: 与金角巨兽战斗并最终自爆陨落
+  description: 来自九域联盟的宇宙霸主，拥有高等至宝神剑。战斗力强大但被金角巨兽击败。
+  skill: [高等至宝神剑]
+- id: cetaizunzhe 
+  name: 策天尊者 
+  aliases: []  
+  event: 观察并逃离与金角巨兽的战斗
+  description: 对金角巨兽感到畏惧，但最终选择逃离而不是继续对抗。
+  skill: []
+- id: yuananklingzhu 
+  name: 羽黯领主 
+  aliases: []  
+  event: 观察并逃离与金角巨兽的战斗
+  description: 和策天尊者一起逃离战场，对金角巨兽的能力表示震惊。
+  skill: []
+```

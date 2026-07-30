@@ -1,0 +1,22 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 倾峰界水域探宝，机缘巧合得到牵丝图地图
+  description: 在宇宙舟内域深处发现桀梵子遗留的宝藏，并决定前往青色信物密室空间寻找。
+  skill: []
+
+- id: jufazhouchengzhe
+  name: 巨斧创始者
+  aliases: []
+  event: 宣布罗峰得到牵丝图地图的消息，给罗峰5000至宝点作为奖励。
+  description: 是人类族群的领袖之一，为族群贡献大量宝物和地图资料。
+  skill: []
+
+- id: hunzhangchengzhu
+  name: 混沌城主
+  aliases: []
+  event: 对罗峰得到牵丝图地图表示惊叹，并讨论地图的重要性。
+  description: 是人类族群的领袖之一，也是宇宙之主中的一员。
+  skill: []
+```

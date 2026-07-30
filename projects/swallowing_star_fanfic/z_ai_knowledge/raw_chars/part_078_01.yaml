@@ -1,0 +1,57 @@
+```yaml
+- id: roufeng  
+  name: 罗峰
+  aliases: []
+  event: 垣奥之主的威胁
+  description: 银河领主，与老师混沌城主闲聊了解宇宙之主实力。
+  skill: []
+
+- id: jiuyouzhuzhi  
+  name: 九幽之主
+  aliases: [九幽]
+  event: 垣奥之主的威胁
+  description: 宇宙最强中的顶尖存在，拥有分身自爆攻击手段。
+  skill: ['分身自爆']
+
+- id: anmangzhuzhi  
+  name: 黯蟒之主
+  aliases: [黯蟒]
+  event: 垣奥之主的威胁
+  description: 宇宙最强者之一，与罗峰等人一同面对垣奥之主。
+  skill: []
+
+- id: yunanzhuzhi  
+  name: 尤难之主
+  aliases: []
+  event: 垣奥之主的威胁
+  description: 宇宙最强者之一，与黯蟒之主一起面对垣奥之主。
+  skill: []
+
+- id: minglian-zhuzhi  
+  name: 溟莲之主
+  aliases: [溟莲]
+  event: 垣奥之主的威胁
+  description: 虫族宇宙之主，实力强横且精通幻术等灵魂类手段。
+  skill: ['幻术']
+
+- id: tianlang-zhuzhi  
+  name: 天狼之主
+  aliases: []
+  event: 垣奥之主的威胁
+  description: 狼族宇宙之主，实力强大，擅长使用究极秘法。
+  skill: ['究极秘法']
+
+- id: youmo-zhuzhi  
+  name: 幽魔之主
+  aliases: []
+  event: 垣奥之主的威胁
+  description: 狼族宇宙之主，与天狼之主一同面对垣奥之主。
+  skill: ['究极秘法']
+
+- id: yuanaozhuzhi  
+  name: 垣奥之主
+  aliases: []
+  event: 垣奥之主的威胁
+  description: 持有黑色神木，实力强大且难以战胜，擅长使用究极秘法。
+  skill: ['究极秘法', '黑木攻击']
+```

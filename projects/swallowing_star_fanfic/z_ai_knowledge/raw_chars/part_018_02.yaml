@@ -1,0 +1,64 @@
+```yaml
+- id: xiewen
+  name: XieWen
+  aliases: []
+  event: 魏文和他的女友在广场上郑重鞠躬，而后在人群中离去。
+  description: 罗峰的好友，早早成为高等学员和武者，并为罗峰感到骄傲。当得知罗峰牺牲的消息后非常伤心。
+  skill: []
+
+- id: xiesin
+  name: XieXin
+  aliases: []
+  event: 徐欣躺在床上脸色苍白，在床上默默哭泣，思念着已经去世的丈夫罗峰。
+  description: 罗峰的妻子，怀着罗峰的孩子。在得知罗峰牺牲的消息后一直沉浸在哀伤中。
+  skill: []
+
+- id: xujiang
+  name: XuJiang
+  aliases: []
+  event: 徐刚安慰徐欣，并劝她为了孩子保重身体。
+  description: 罗峰的大哥，希望妹妹为罗峰生下孩子。关心着徐欣的身体状况。
+  skill: []
+
+- id: hualaozhangshi
+  name: HuaLaoZhangShi
+  aliases: []
+  event: 华老先生亲自给徐欣看病，并安慰她要为了孩子保重身体。
+  description: 著名的医生，被请来治疗徐欣。关心罗峰家族血脉的传承问题。
+  skill: []
+
+- id: gongxinlan
+  name: GongXinLan
+  aliases: []
+  event: 龚心兰询问华老先生关于徐欣的情况，并表示要保住体内的孩子。
+  description: 徐欣的母亲，对罗峰家族血脉的传承非常关心。希望保全孩子的生命。
+  skill: []
+
+- id: longfeng
+  name: LongFeng
+  aliases: []
+  event: 罗峰的灵魂在金角巨兽体内进行夺舍，并试图恢复人身。
+  description: 地球人类“八英雄”之一，地球上的第一精神念师。牺牲后灵魂留在了金角巨兽的体内。
+  skill: []
+
+- id: baoba
+  name: BaBa
+  aliases: []
+  event: 巴巴塔指导罗峰进行夺舍，并解释如何与智能联系以及恢复人身的方法。
+  description: 罗峰的灵魂导师，教给罗峰很多知识和秘技。帮助罗峰掌控金角巨兽的身体。
+  skill: []
+
+- id: leilonghuang
+  name: LeiLongHuang
+  aliases: []
+  event: 雷龙皇渴望吃掉金角巨兽的尸体，并愤怒盯着流银护卫。
+  description: 海洋中的唯一兽皇，现在正试图获取金角巨兽的身体。非常强大但未能得逞。
+  skill: []
+
+- id: liuyinhuofu
+  name: LiuYinHuoFu
+  aliases: []
+  event: 流银护卫阻止雷龙皇接近金角巨兽的尸体，并成功保护了它。
+  description: 罗峰的手下，帮助罗峰对抗吞噬兽。现在在保护金角巨兽的身体不被抢夺。
+  skill: []
+```

@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 见真衍尊者、与混沌城主交谈
+  description: 正准备离开人类疆域，向老师说明情况。
+  skill: []
+- id: zhenyanzunzhe  
+  name: 真衍尊者
+  aliases: [真衍尊者]
+  event: 为罗峰的成长感到骄傲、赠送三件至宝给罗峰
+  description: 对于弟子的未来表现出担忧和关心。
+  skill: []
+- id: hunzongchengzhu  
+  name: 混沌城主
+  aliases: [混沌城主]
+  event: 同意罗峰暂时离开人类疆域，提醒注意事项
+  description: 罗峰尊敬的老师之一，对弟子的成长给予支持。
+  skill: []
+```

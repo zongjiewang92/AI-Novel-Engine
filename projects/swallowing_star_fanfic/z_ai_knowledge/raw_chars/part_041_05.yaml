@@ -1,0 +1,44 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [罗三]
+  event: 完成六个危险级任务后开始进行绝境级任务——迷踪星系！
+  description: 决定量力而行，完成危险级和绝境级任务，并试图发现其中的秘密。
+  skill: ["复制"]
+- id: ba Ba Ta  
+  name: 巴巴塔
+  aliases: []
+  event: 激动万分地告诉罗峰紫宸百络叶的价值及其对摩云藤的潜在好处。
+  description: 罗峰老师巴巴塔激动地提到紫宸百络叶，并强调其价值和用途。
+  skill: []
+- id: mo Yun Teng  
+  name: 摩云藤
+  aliases: [金角巨兽分身, 魔杀族分身]
+  event: 罗峰计划在摩云藤达到不朽级后，使用紫宸百络叶提升其实力。
+  description: 被罗峰寄予厚望，期望通过服用紫宸百络叶突破到不朽级别。
+  skill: []
+- id: mo Yin Shen Jiang  
+  name: 魔音神将
+  aliases: [魔音山]
+  event: 罗峰在完成魔音山任务后得到了一部分传承。
+  description: 被罗峰通过危险级和绝境级任务取得部分传承的神秘人物。
+  skill: ["部分传承"]
+- id: zui Jian Ju Zhuo  
+  name: 最坚韧巨兽
+  aliases: [金角巨兽]
+  event: 罗峰计划在其达到界主期后再进行最难的任务炼狱深渊。
+  description: 被罗峰寄予厚望，期望在分身达到界主期后参与绝境任务。
+  skill: []
+- id: mo Sha Zu Fen Shen  
+  name: 魔杀族分身
+  aliases: [魔杀族]
+  event: 罗峰通过其探索迷踪星系的秘密，并且在探索中丧生6次。
+  description: 被罗峰用来进行绝境级任务中的探险，具有复制能力。
+  skill: ["复制"]
+- id: lei Shen  
+  name: 雷神
+  aliases: []
+  event: 紧急呼叫三子的名字。
+  description: 在紧急情况下呼唤罗峰的代号“三子”。
+  skill: []
+```

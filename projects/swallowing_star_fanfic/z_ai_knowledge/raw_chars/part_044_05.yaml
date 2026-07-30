@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 观察毁娑巨兽，考虑分身选择
+  description: 罗峰站在山脚下观察困锁在秘阵中的毁娑巨兽，并思考是否利用这头巨兽的毛发来培育分身。
+  skill: [天赋秘法：强化]
+- id: simianqi
+  name: 寺番祁
+  aliases: []
+  event: 带领罗峰前往元老神宫，告知罗峰会见元老安排
+  description: 寺番祁长老带领罗峰等人到山脚下观察毁娑巨兽，并告知将会见到元老安排。
+  skill: []
+- id: kashana
+  name: 卡什那
+  aliases: []
+  event: 随罗峰一起观察毁娑巨兽，表现出对巨兽的兴趣
+  description: 卡什那跟随罗峰一同观看困锁在秘阵中的毁娑巨兽，并对其表现出浓厚兴趣。
+  skill: []
+- id: dilun
+  name: 迪伦
+  aliases: []
+  event: 跟随罗峰一起观察毁娑巨兽
+  description: 迪伦与罗峰等人一同前往山脚下，观察困锁在秘阵中的毁娑巨兽。
+  skill: []
+```

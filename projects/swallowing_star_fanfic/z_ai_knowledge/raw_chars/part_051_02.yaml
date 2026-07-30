@@ -1,0 +1,26 @@
+```yaml
+- id: roufeng  
+  name: 罗峰
+  aliases: []
+  event: 闯过原始通天山
+  description: 背负暗金色长棍，使用“兽神变”和衍神兵击败牛头人、猿人和蛇女。
+  skill: ["兽神变", "明心见性"]
+- id: niutouren  
+  name: 牛头人
+  aliases: []
+  event: 被罗峰击杀
+  description: 持血腥巨斧，拥有域主级九阶实力。
+  skill: ["血腥巨斧"]
+- id: yuanren 
+  name: 精瘦猿人
+  aliases: []
+  event: 施展弧形流光刀斩向罗峰的脖颈
+  description: 身着长袍，施展幻术。
+  skill: ["弧形流光刀"]
+- id: shenv 
+  name: 蛇女
+  aliases: []
+  event: 展示魅惑笑容并施展幻境
+  description: 披薄纱戏水于潭中。
+  skill: ["魅惑一笑", "幻境"]
+```

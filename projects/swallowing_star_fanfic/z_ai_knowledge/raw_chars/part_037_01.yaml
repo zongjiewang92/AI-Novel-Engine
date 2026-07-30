@@ -1,0 +1,36 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: []
+  event: 探访血神霸戚的巨坑之府，等待拿取血洛勋章。
+  description: 穿着青铜战衣的罗峰，在巨坑之府中静静等候。
+  skill: []
+
+- id: jike
+  name: JiKe
+  aliases: []
+  event: 被派遣带着血洛勋章给霸戚大人，同时接库闫世界主一起前往。
+  description: 穿着白袍的狱轲，特使队首领，带领队伍飞往巨坑之府。
+  skill: []
+
+- id: kuyan
+  name: KuYan
+  aliases: []
+  event: 偶然发现遗迹宝藏，并得到其中一件兽神雕像要献给不朽神殿。
+  description: 库闫世界主，因偶然机会发现了古老遗迹，并得到了一件珍贵的宝物——兽神雕像。
+  skill: []
+
+- id: bachi
+  name: BaChi
+  aliases: []
+  event: 接收狱轲送来的血洛勋章和库闫献上的兽神雕像。
+  description: 血色长袍的霸戚大人，特使队首领狱轲带着血洛勋章前来拜访，并且带来了一尊传说中的兽神雕像。
+  skill: []
+
+- id: qiniu
+  name: QiNiu
+  aliases: []
+  event: 陪同主人接待来客。
+  description: 高大的荒兽岐牛，是霸戚大人的兄弟兼护卫之一，在巨坑之府中负责守卫。
+  skill: []
+```

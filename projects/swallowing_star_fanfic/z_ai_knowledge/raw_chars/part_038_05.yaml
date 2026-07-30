@@ -1,0 +1,26 @@
+```yaml
+- id: wangzuo
+  name: 美妇人
+  aliases: [主人]
+  event: 召集千星宗的界主和域主，下达任务杀黑发青年罗峰
+  description: 身份不明的强大存在，控制了千星宗的太上宗主及其他强者。
+  skill: []
+- id: qianxinglaoren
+  name: 千星老人
+  aliases: [黑色长角老者]
+  event: 听从美妇人的命令，组织界主和域主进入神殿
+  description: 千星宗的太上宗主，对美妇人极为恭敬。
+  skill: []
+- id: liushen
+  name: 六名界主域主
+  aliases: [六位强者]
+  event: 被选中执行任务杀黑发青年罗峰
+  description: 包括三名界主和三名域主，接受美妇人的命令。
+  skill: []
+- id: luofeng
+  name: 罗峰
+  aliases: [黑发青年]
+  event: 成为被下达杀死任务的目标
+  description: 身穿合金铠甲，体内有摩云藤战衣，实力宇宙级九阶。
+  skill: []
+```

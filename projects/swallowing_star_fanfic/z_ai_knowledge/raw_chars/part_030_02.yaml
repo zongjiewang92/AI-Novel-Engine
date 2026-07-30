@@ -1,0 +1,43 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 宇宙天才战，银河领主
+  description: 在宇宙级的天才战中取得第三名的好成绩，被黑龙山帝国授予银河星系领主称号。
+  skill: []
+
+- id: hong  
+  name: 洪
+  aliases: []
+  event: 盘膝静坐在茅屋内，与洛时光界主交流
+  description: 黑衣青年，盘膝静坐于茅屋中修炼，对老师的朋友感到好奇。
+  skill: []
+
+- id: tuo 
+  name: 雾大人
+  aliases: [雾]
+  event: 指导雷神提升实力
+  description: 在火星上指导罗峰的弟弟雷神进行训练计划，提高其实力。
+  skill: []
+
+- id: lingjun  
+  name: 戎钧
+  aliases: []
+  event: 参加资格争夺战
+  description: 和罗峰一起参加鳞甲战袍巨人的训话，并被留下聆听指示。
+  skill: []
+
+- id: longlin 
+  name: 布罗林
+  aliases: [布罗林]
+  event: 对罗峰晋升表示嫉妒和不满
+  description: 黑龙山帝国的九皇子，对罗峰被拉拢感到愤怒，并认为自己没有机会。
+  skill: []
+
+- id: nuolanshan 
+  name: 诺岚山
+  aliases: [诺岚山]
+  event: 感到威胁并决定离开
+  description: 在得知罗峰身份后感到了巨大的压力，选择前往域外战场以图超越罗峰。
+  skill: []
+```

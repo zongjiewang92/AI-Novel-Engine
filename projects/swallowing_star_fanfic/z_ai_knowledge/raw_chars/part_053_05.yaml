@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: [罗峰]
+  event: 罗峰刀法初成，准备试刀挑战妖族不朽
+  description: 罗峰是一名强大的宇宙战士，掌握了兽神之道和多种战斗秘法。他拥有地球人本尊、金角巨兽分身以及魔杀族分身等多种身份。
+  skill: [幽影七绝刀, 新七绝刀]
+- id: zhujiaoju
+  name: ZhuJiaoJu
+  aliases: []
+  event: 被罗峰击杀
+  description: 步刺牙是妖族的一名封侯不朽神灵，多次遭遇罗峰并最终被其杀死。
+  skill: []
+- id: buguzhizhu
+  name: BuGuZhiZhu
+  aliases: [虫族母皇]
+  event: 带领虫族战士袭击罗峰
+  description: 虫族母皇是一只强大的异族不朽神灵，指挥着大量的虫族战士。
+  skill: []
+```

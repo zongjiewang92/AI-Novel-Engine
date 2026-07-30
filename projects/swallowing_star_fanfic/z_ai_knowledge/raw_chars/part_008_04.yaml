@@ -1,0 +1,14 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 战神罗峰在训练营的日子
+  description: 初入训练营，展示了自己的拳力发力和刀法技巧。对重力室的功能进行了了解。
+  skill: [拳力发力, 刀法]
+- id: jiangfang  
+  name: 江芳
+  aliases: []
+  event: 战神罗峰在训练营的日子
+  description: 罗峰的老师，向他介绍九重楼的设施和功能。展示了自己高超的刀法技巧。
+  skill: [刀法, 解释古文明遗迹]
+```

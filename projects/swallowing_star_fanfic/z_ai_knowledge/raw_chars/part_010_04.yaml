@@ -1,0 +1,20 @@
+```yaml
+- id: luo_feng  
+  name: 罗峰
+  aliases: [罗华的哥哥]
+  event: 和弟弟通话，讲述自己在雾岛的经历及计划针对李耀
+  description: 武者，在澳洲大陆发现变异柳树，利用飞刀钻地逃脱。与弟弟通电话时显得自信满满，并告知年底可以得到生命之水。
+  skill: [精神念力, 钻地]
+- id: luo_hua  
+  name: 罗华
+  aliases: []
+  event: 和哥哥通话，讨论关于生命之水的消息及自己与女朋友的关系问题
+  description: 坐在轮椅上的弟弟，对罗峰带来的消息感到震惊和激动。
+  skill: []
+- id: li_yao  
+  name: 李耀
+  aliases: [追杀罗峰的人]
+  event: 正在澳洲大陆上追杀罗峰
+  description: 试图抓住罗峰以获得生命之水，但不知道具体藏身位置。
+  skill: []
+```

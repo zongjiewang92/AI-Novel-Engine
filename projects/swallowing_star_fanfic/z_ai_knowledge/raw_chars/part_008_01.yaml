@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 进入精英训练营，与杨辉交谈
+  description: 观察和了解精英训练营的环境及规则
+  skill: [基因原能修炼]
+- id: yanghui  
+  name: 杨辉
+  aliases: []
+  event: 指导罗峰办理入住手续，并介绍精英训练营的情况
+  description: 向罗峰讲解精英训练营的竞争机制和排名制度，安排罗峰明日接受B级考验
+  skill: [无]
+- id: hengxia  
+  name: 衡夏
+  aliases: []
+  event: 被杨辉提及有机会进入精英训练营
+  description: 听取杨辉关于基础训练营的竞争激烈性及争取名额的建议
+  skill: [无]
+- id: tianqiong  
+  name: 田琼
+  aliases: []
+  event: 远处打招呼并介绍自己来自东北基地市
+  description: 拥有出色的枪法技巧，鼓励罗峰努力加入训练营
+  skill: [枪法技巧]
+```

@@ -1,0 +1,36 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [戎钧]
+  event: 冰峰之主会议、银河系改造请求
+  description: 成为宇宙之主，拥有天赋分身能力，生存能力在宇宙中排名前十。
+  skill: []
+
+- id: jufaxianzhuozhe  
+  name: 巨斧创始者
+  aliases: []
+  event: 冰峰之主会议
+  description: 人类族群的领导者之一，指导罗峰成为宇宙之主，并赠与顶级至宝价值的物品。
+  skill: []
+
+- id: hunpuzhucheng  
+  name: 混沌城主
+  aliases: []
+  event: 冰峰之主会议、银河系改造请求
+  description: 虚拟宇宙公司的代表，同意将地球一半所有权归还给罗峰。
+  skill: []
+
+- id: huangjianzhuzhi  
+  name: 荒鉴之主
+  aliases: []
+  event: 冰峰之主会议、银河系改造请求
+  description: 参与讨论关于罗峰获得地球一半所有权的条件，支持公平交换的原则。
+  skill: []
+
+- id: rongjun  
+  name: 戎钧
+  aliases: [戎钧]
+  event: 过去事件提及
+  description: 罗峰的好友，被宇宙国主收为弟子，引起罗峰的嫉妒和不甘心。
+  skill: []
+```

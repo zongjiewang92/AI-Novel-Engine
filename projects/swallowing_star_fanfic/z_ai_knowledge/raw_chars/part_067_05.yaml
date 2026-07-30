@@ -1,0 +1,26 @@
+```yaml
+- id: heiyi_luo Feng  
+  name: 黑衣罗峰
+  aliases: [罗峰]
+  event: 跨入不朽，创造无尽幽海
+  description: 罗峰在九幽时空潜修后成为宇宙尊者，并创造了巨大的神力海洋——无尽幽海。
+  skill: [转化神体, 创造幽海分身, 恢复神力]
+- id: chao Mu Cheng Zhu  
+  name: 混沌城主
+  aliases: []
+  event: 接见罗峰，询问逐虫王之事
+  description: 混沌城主对罗峰跨入不朽表示满意，并询问他击败逐虫王的把握。
+  skill: [未知]
+- id: yiti Hong Wang  
+  name: 天阵王
+  aliases: []
+  event: 迎接罗峰归来
+  description: 罗峰从九幽时空回来后，天阵王在宫殿内迎接他。
+  skill: [未知]
+- id: ji HONG Wang  
+  name: 极虹王
+  aliases: []
+  event: 迎接罗峰归来
+  description: 罗峰从九幽时空回来后，极虹王在宫殿内迎接他。
+  skill: [未知]
+```

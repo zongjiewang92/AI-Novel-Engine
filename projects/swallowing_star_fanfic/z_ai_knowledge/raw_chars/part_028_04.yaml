@@ -1,0 +1,44 @@
+```yaml
+- id: wangshe
+  name: WangShe
+  aliases: [红瞳男子]
+  event: 黑龙山帝国的神主会议，与沃特交流关于寻找优秀弟子的事情。
+  description: 红瞳男子是黑龙山帝国的一位不朽存在，拥有强大的金之本源法则。他关心自己的兄弟沃特并愿意帮助其寻找合适的弟子。
+  skill: [不朽之力, 金之本源法则]
+- id: wote
+  name: Wote
+  aliases: []
+  event: 黑龙山帝国的神主会议，请求红瞳男子协助寻觅合适弟子以继承自己的秘法。
+  description: 沃特是黑龙山帝国的一位不朽存在，因寿命即将到达终点而迫切需要寻找能够继承其秘法的传人。
+  skill: [不朽之力, 秘法传承]
+- id: buliaoshaka
+  name: BuLiaoShiKa
+  aliases: [布特阿什卡, 银发老者]
+  event: 在黑龙山帝国的中央会议中讨论罗峰未来的可能性。
+  description: 黑龙山圣地的界主，银发老者认为罗峰将成为乾巫宇宙国的一员，并且建议与罗峰交好以备将来可能的合作机会。
+  skill: [恒星级到法则门槛跨越, 界主实力]
+- id: dehuang
+  name: DeHuang
+  aliases: [帝皇]
+  event: 在黑龙山帝国的中央会议中关注罗峰的发展，并商讨是否能将他招进圣地。
+  description: 黑龙山帝国的一位统治者，对罗峰展现出的兴趣表示疑问和谨慎态度。
+  skill: [帝王之权, 圣地管理]
+- id: xuxin
+  name: XuXin
+  aliases: []
+  event: 罗峰家中谈论关于罗峰的成名与外界反应。
+  description: 徐欣是罗峰的妻子，她注意到没有超级组织来拜访他们家，并对此表示疑惑和好奇。
+  skill: [家庭支持, 资讯分享]
+- id: mingu
+  name: MingYu
+  aliases: []
+  event: 作为三斧山组织的成员来到罗峰家中拜访。
+  description: 冥昱是三斧山组织的一员，与罗峰有直接接触，并且可能是该组织的重要人物之一。
+  skill: [未知]
+- id: xiaohai
+  name: XiaoHai
+  aliases: []
+  event: 罗峰家中谈及罗峰的名声和未来伪装出行方式。
+  description: 小海是罗峰的儿子，对父亲在黑龙山岛屿上的成名感到自豪，并建议他以后出去时需要伪装身份。
+  skill: [家庭支持, 父子情感]
+```

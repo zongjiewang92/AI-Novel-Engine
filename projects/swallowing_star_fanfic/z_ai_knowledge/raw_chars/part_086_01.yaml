@@ -1,0 +1,58 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 战梦妖祖
+  description: 领导一支由冰峰之主、龙行之主、荒鉴之主、幽侯之主组成的队伍，前往原始宇宙对抗三族联军。
+  skill: []
+
+- id: heiyin  
+  name: 黑暗
+  aliases: []
+  event: 战梦妖祖
+  description: 领导一支队伍参与对抗三族联军。
+  skill: []
+
+- id: penggong  
+  name: 彭工
+  aliases: []
+  event: 战梦妖祖
+  description: 领导一支队伍参与对抗三族联军。
+  skill: []
+
+- id: bingfengzhizhu  
+  name: 冰峰之主
+  aliases: []
+  event: 战梦妖祖
+  description: 参与对抗三族联军的战斗，跟随罗峰行动。
+  skill: []
+
+- id: longxingzhizhu  
+  name: 龙行之主
+  aliases: []
+  event: 战梦妖祖
+  description: 参与对抗三族联军的战斗，跟随罗峰行动。
+  skill: []
+
+- id: huangjianzhizhu  
+  name: 荒鉴之主
+  aliases: []
+  event: 战梦妖祖
+  description: 参与对抗三族联军的战斗，跟随罗峰行动。
+  skill: []
+
+- id: youhouzhizhu  
+  name: 幽侯之主
+  aliases: []
+  event: 战梦妖祖
+  description: 参与对抗三族联军的战斗，跟随罗峰行动。
+  skill: []
+
+- id: mengyaozu  
+  name: 梦妖祖
+  aliases: []
+  event: 战梦妖祖
+  description: 巨大舰船内的银色大蛇，指挥着12名强大的宇宙之主对抗人类联军。
+  skill: []
+
+```

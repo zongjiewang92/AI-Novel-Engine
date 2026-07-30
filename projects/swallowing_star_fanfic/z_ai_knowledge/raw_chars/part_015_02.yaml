@@ -1,0 +1,8 @@
+```yaml
+- id: luofen
+  name: 罗峰
+  aliases: []
+  event: 古老遗迹
+  description: 精神念师，发现血红色刀锋碎片，并尝试测试其威力。
+  skill: ['钻山锥']
+```

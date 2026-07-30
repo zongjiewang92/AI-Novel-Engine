@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 观看混沌碑,选择《九宇混沌碑》,前往城主府城楼等待参悟
+  description: 智能光脑提醒他观看图画的三十分钟内找到最适合自己的混沌碑。最后在两尊蕴含无比玄奥大道混沌碑之间做出了选择。
+  skill: []
+- id: yerenrongjun  
+  name: 野人戎钧
+  aliases: [野人戎钧]
+  event: 观看混沌碑,选择《巨斧混沌碑》,前往城主府城楼等待参悟
+  description: 和罗峰一起在前五争夺战上失败，一同选择了《巨斧混沌碑》，并询问罗峰选择的混沌碑。
+  skill: []
+- id: wuka  
+  name: 乌卡
+  aliases: [乌卡]
+  event: 告诉戎钧和罗峰关于《巨斧混沌碑》的信息,前往城主府城楼等待参悟
+  description: 向戎钧与罗峰透露了《巨斧混沌碑》的创始人身份及其强大威力。
+  skill: []
+```

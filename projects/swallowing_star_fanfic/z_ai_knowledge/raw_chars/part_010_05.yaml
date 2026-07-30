@@ -1,0 +1,44 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 雾岛争夺草木之灵
+  description: 正在等待波莱纳斯家族的人马，准备采取行动。
+  skill: [精神念力]
+- id: liyao
+  name: 李耀
+  aliases: []
+  event: 寻找柳树王
+  description: 带领卡特兰、凯塔和伊凡前往九棵柳树类草木之灵区域，计划夺取柳树王。
+  skill: [英语流利]
+- id: katelan
+  name: 卡特兰
+  aliases: []
+  event: 雾岛争夺草木之灵
+  description: 波莱纳斯家族的黑袍人，装备有黑神套装，携带匕首和标枪。
+  skill: [黑神套装, 匕首, 标枪]
+- id: kaita
+  name: 凯塔
+  aliases: []
+  event: 雾岛争夺草木之灵
+  description: 波莱纳斯家族的野蛮大汉，跟随李耀前往九棵柳树类草木之灵区域。
+  skill: [力量]
+- id: ifan
+  name: 伊凡
+  aliases: []
+  event: 雾岛争夺草木之灵
+  description: 波莱纳斯家族的精瘦男子，跟随李耀前往九棵柳树类草木之灵区域。
+  skill: [机敏]
+- id: liuxieshi
+  name: 柳巡察使
+  aliases: []
+  event: 飞往雾岛
+  description: 极限武馆五大巡察使之一，受命前往雾岛夺取草木之灵。
+  skill: [超越战神, 多种手段]
+- id: jinseguangzhuangmanzi
+  name: 黄金面具男子
+  aliases: []
+  event: 飞往雾岛
+  description: 穿着作战服，戴着黄金面具，与柳巡察使一同前往雾岛。
+  skill: [不在乎草木之灵份额, 出手平分]
+```

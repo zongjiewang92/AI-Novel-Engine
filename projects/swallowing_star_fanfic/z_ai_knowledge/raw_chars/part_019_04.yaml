@@ -1,0 +1,23 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰兄弟]
+  event: 踏入虬龙星，与高升等人分开
+  description: 来到虬龙城后发现城市规模宏大且历史悠久。对周围的奇异生物感到新奇。
+  skill: []
+
+- id: gaosheng  
+  name: 高升
+  aliases: []
+  event: 告诉罗峰关于虬龙星的房屋价格以及自己的通讯编号，并提议晚上一起吃饭
+  description: 来自卡罗帝国，不满父亲对自己零花钱的控制。在虬龙城内拥有长辈需要拜访。
+  skill: []
+
+- id: baba_ta  
+  name: 巴巴塔
+  aliases: []
+  event: 给予罗峰关于宇宙中房产价格的信息以及他在虬龙星的通讯编号
+  description: 罗峰的辅助光脑，在进入虬龙城时提供帮助。
+  skill: []
+
+```

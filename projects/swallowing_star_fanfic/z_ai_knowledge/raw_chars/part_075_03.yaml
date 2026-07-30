@@ -1,0 +1,28 @@
+```yaml
+- id: LuoFeng 
+  name: 罗峰
+  aliases: [刀河]
+  event: 寻找天华尊者并遇到至宝出世的战斗
+  description: 使用天赋秘法‘复制’，背负战刀伯和飞行寻找天华尊者。
+  skill: ['复制']
+- id: TianHuaZunZhe 
+  name: 天华尊者
+  aliases: [天狼]
+  event: 在原始星争夺高等至宝神锤的战斗中与札威领主、千影尊者对战。
+  description: 曾夺舍特殊生命，拥有极强的生命层次和血腥气息。
+- id: NiuZhouZunZhe 
+  name: 狺宙尊者
+  aliases: []
+  event: 向刀河发送邮件告知天华尊者的坐标位置及战斗情况。
+  description: 提供原始星上的信息给罗峰。
+- id: ZaWeiLingZhu 
+  name: 札威领主
+  aliases: []
+  event: 参与争夺神锤至宝的战斗，与千影尊者联手对抗天华尊者。
+  description: 走武者流派，拥有强大的身体素质和攻击力。
+- id: QianYingZunZhe 
+  name: 千影尊者
+  aliases: []
+  event: 参与争夺神锤至宝的战斗，与札威领主联手对抗天华尊者。
+  description: 走精神念师流派，拥有强大的精神力和幻术能力。
+```

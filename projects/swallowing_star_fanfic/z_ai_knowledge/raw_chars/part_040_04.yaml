@@ -1,0 +1,20 @@
+```yaml
+- id: hong 
+  name: 洪
+  aliases: [黑发男子]
+  event: 黑龙山岛屿九星湾亭子下聊天
+  description: 穿着黑色长袍，经常在宇宙中流浪。被推荐进入巨斧斗武场重点栽培。
+  skill: []
+- id: leishen 
+  name: 雷神
+  aliases: [白袍雷神]
+  event: 黑龙山岛屿九星湾亭子下聊天
+  description: 经常留在银河系，穿着白色长袍。约见洪和罗峰聚会。
+  skill: []
+- id: luofeng 
+  name: 罗峰
+  aliases: [罗三]
+  event: 黑龙山岛屿九星湾亭子下聊天
+  description: 刚加入太初秘境，取得资格战第二名成绩。穿着休闲衫，寸长短发。
+  skill: []
+```

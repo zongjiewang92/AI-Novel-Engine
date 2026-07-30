@@ -1,0 +1,20 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [罗监察使]
+  event: 对付领主级水域怪兽, 在战争基地中执行任务
+  description: 足以抵挡超大口径炮弹的攻击，能够迅速击杀领主级怪兽。
+  skill: []
+- id: lei Meng  
+  name: 雷猛
+  aliases: []
+  event: 参与对付上岸的领主级水域怪兽
+  description: 
+  skill: []
+- id: li Da Wei  
+  name: 李达威
+  aliases: [李司令]
+  event: 发布指令给罗峰和雷猛, 应对透明水母类怪兽进入基地的情况
+  description: 在指挥大厅内下达命令，处理突发事件。
+  skill: []
+```

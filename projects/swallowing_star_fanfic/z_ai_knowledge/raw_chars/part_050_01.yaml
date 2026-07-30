@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [罗殿]
+  event: 审判家族子弟
+  description: 因家族血脉子弟的不当行为，决定进行严厉审判。
+  skill: [冷酷执法, 决策力]
+- id: xuxin
+  name: 徐欣
+  aliases: []
+  event: 协助罗峰准备审判资料
+  description: 帮助罗峰收集并整理家族子弟的情报资料。
+  skill: [执行力]
+- id: luofenxin
+  name: 罗夫鑫
+  aliases: []
+  event: 受审并被处决
+  description: 因杀人无数而被判死刑，当场被罗峰处死。
+  skill: [残忍狡猾]
+- id: luyuqian
+  name: 罗玉潜
+  aliases: []
+  event: 审判庭受审
+  description: 被指控放权妹妹并纵容其犯罪，被判万年牢狱之灾。
+  skill: [宠溺家人]
+- id: luyurong
+  name: 罗玉蓉
+  aliases: []
+  event: 受审并被处决
+  description: 因蛊惑兄长而被判死刑，并当场被罗峰处死。
+  skill: [狡猾]
+```

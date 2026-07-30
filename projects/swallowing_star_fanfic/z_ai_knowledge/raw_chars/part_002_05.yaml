@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [疯子]
+  event: 武者实战考核, 见面雷电总会馆主管王衡
+  description: 出身普通家庭，父亲是装饰工人，母亲在超市当导购员。18周岁已经是一名准武者，并且猎杀了36头怪兽。
+  skill: [磨练身法]
+- id: yangwu  
+  name: 杨武
+  aliases: []
+  event: 武者实战考核
+  description: 罗峰的朋友，安全归来后与罗峰见面。猎杀了三个怪兽。
+  skill: []
+- id: wangheng  
+  name: 王衡
+  aliases: [雷电总会馆主管]
+  event: 邀请罗峰加入雷电武馆
+  description: 江南基地市四大巨头之一，邀请罗峰加入雷电武馆并愿意支付违约金。
+  skill: []
+- id: wandong  
+  name: 万冬
+  aliases: [雷电武馆提前招募的天才准武者]
+  event: 武者实战考核, 猎杀51头怪兽
+  description: 据说身体素质与罗峰不相上下，猎杀了51个怪兽左耳。
+  skill: []
+- id: zhugezhangguan  
+  name: 诸葛主管
+  aliases: []
+  event: 之前交谈过王衡
+  description: 雷电武馆的主管之一，与雷电总会馆主管王衡有过交谈。
+  skill: []
+```

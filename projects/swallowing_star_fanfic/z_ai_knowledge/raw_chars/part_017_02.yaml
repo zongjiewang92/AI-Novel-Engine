@@ -1,0 +1,44 @@
+```yaml
+- id: LuoFeng  
+  name: 罗峰
+  aliases: [巴巴塔]
+  event: 黑龙山X81飞船的控制和修复
+  description: 在面对智能系统攻击时，通过野蛮摧毁的方式保护了飞船，并开始准备武器。
+  skill: ["掌控九诀", "遁天梭"]
+- id: BaBaTa  
+  name: 巴巴塔
+  aliases: []
+  event: 黑龙山X81飞船的控制和修复
+  description: 使用大量流量瞬间摧毁智能系统，保护了罗峰，并开始准备武器。
+  skill: ["野蛮摧毁", "温柔方法"]
+- id: LuoHuangGuo  
+  name: 罗洪国
+  aliases: []
+  event: 江南基地市扬州城的混乱
+  description: 在军队人员试图撤离家人的请求下，拒绝离开重力室等待罗峰归来。
+  skill: []
+- id: GongXinLan  
+  name: 龚心兰
+  aliases: []
+  event: 江南基地市扬州城的混乱
+  description: 和家人一起留在重力室内等待罗峰归来。
+  skill: []
+- id: LuoHua  
+  name: 罗华
+  aliases: []
+  event: 江南基地市扬州城的混乱
+  description: 在军队人员试图撤离家人的请求下，拒绝离开重力室等待罗峰归来。
+  skill: []
+- id: ZhenNan  
+  name: 甄楠
+  aliases: []
+  event: 江南基地市扬州城的混乱
+  description: 和家人一起留在重力室内等待罗峰归来。
+  skill: []
+- id: XuXin  
+  name: 徐欣
+  aliases: []
+  event: 江南基地市扬州城的混乱
+  description: 和家人一起留在重力室内等待罗峰归来。
+  skill: []
+```

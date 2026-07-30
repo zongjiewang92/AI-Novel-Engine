@@ -1,0 +1,14 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: []
+  event: 焱祭大陆上战斗
+  description: 在焱祭大陆上，罗峰通过地球人本尊和金角巨兽分身两种方式展开战斗，磨练刀法并积累军功。
+  skill: [弑吴羽翼]
+- id: zivika
+  name: ZiWeiKa
+  aliases: []
+  event: 虚拟世界大本营中的对话
+  description: 机械族俊美青年茨维卡与高大机械族青年的交谈，汇报完成主人要求的情况。
+  skill: []
+```

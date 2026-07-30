@@ -1,0 +1,26 @@
+```yaml
+- id: LuoFeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 十强对决
+  description: 虚拟宇宙乾巫宇宙国天才，拥有强大的心性和意志。
+  skill: ['金、空间本源法则']
+- id: LongYun  
+  name: 陇云
+  aliases: []
+  event: 十强对决
+  description: 来自澜霆宇宙国的低调天才，擅长土之本源法则。
+  skill: ['土之本源法则']
+- id: RongJun  
+  name: 戎钧
+  aliases: [戎钧]
+  event: 十强对决
+  description: 虚拟宇宙乾巫宇宙国天才，自创秘法对抗伯兰。
+  skill: ['土、空间本源法则']
+- id: BoLan  
+  name: 伯兰
+  aliases: [死神伯兰]
+  event: 十强对决
+  description: 强大的敌人，十强中的一位。
+  skill: ['风、空间本源法则']
+```

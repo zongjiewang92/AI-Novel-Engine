@@ -1,0 +1,36 @@
+```yaml
+- id: xieyijuwushen 
+  name: 邪异巨兽
+  aliases: [邪异巨兽]
+  event: 和横行魔神厮杀，被挑衅学会发音，叫帮手来围攻横行魔神。
+  description: 拥有珍贵战甲的强者，战斗中愤怒咆哮，向其他生物求助以对抗强敌。
+  skill: []
+
+- id: hengxingmeshen 
+  name: 横行魔神
+  aliases: [横行魔神]
+  event: 不停挑衅邪异巨兽，学会发音，逃跑时召唤帮手。
+  description: 强大的战士，能够轻易学习新的语言，并在战斗中巧妙利用战术。
+  skill: []
+
+- id: zhenmoeg 
+  name: 真莫鄂
+  aliases: [真莫鄂]
+  event: 观看罗峰与银河的打斗，欢呼雀跃欢迎罗峰胜利。
+  description: 干野部落的小孩，在观看战斗时表现兴奋和崇拜之情。
+  skill: []
+
+- id: luofeng 
+  name: 罗峰
+  aliases: [银河]
+  event: 在干野部落游历三天后决定加入军队，与北风切磋并建立友谊，了解晋之世界的许多信息。
+  description: 游历者，擅长战斗，在部落中建立了自己的名声，并计划去强化自己成为更强的战士。
+  skill: []
+
+- id: beiqing 
+  name: 北风
+  aliases: [北风]
+  event: 与罗峰切磋时建立友谊，询问罗峰是否继续游历或加入军队。
+  description: 干野部落中的强大战士，有成为真神的潜力，在和罗峰的多次切磋中表现出色并获得对方的认可。
+  skill: []
+```

@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [银翼王]
+  event: 与黑甲青年战斗
+  description: 使用弑吴羽翼和兽神吼等能力，实力相当于封王巅峰。
+  skill: ['超九成九灵魂攻击防御', '时间暂停破解']
+- id: heimajiqingnian
+  name: 黑甲青年
+  aliases: []
+  event: 与金角巨兽战斗
+  description: 使用黑节鞭和时间暂停等能力，控制时间和空间。
+  skill: ['黑节鞭操控', '时间暂停释放']
+- id: fenghoupusuogan1
+  name: 封侯仆从一
+  aliases: [罗沙]
+  event: 被金角巨兽杀死
+  description: 受到银翼王致命攻击，实力为封侯高等。
+  skill: ['念力兵器操控']
+- id: fenghoupusuogan2
+  name: 封侯仆从二
+  aliases: []
+  event: 被金角巨兽杀死
+  description: 同样受到银翼王致命攻击，实力为封侯高等。
+  skill: ['念力兵器操控']
+```

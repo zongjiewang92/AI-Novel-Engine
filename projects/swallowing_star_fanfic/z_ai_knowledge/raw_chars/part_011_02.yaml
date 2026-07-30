@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 雾岛之战
+  description: 极限武馆的天才精神念师，19周岁就达到了高等战神巅峰。在雾岛上发现了万年柳木心。
+  skill: [精神念力]
+- id: liuxueyangshi  
+  name: 柳巡察使
+  aliases: []
+  event: 雾岛之战
+  description: 极限武馆的巡察使，对罗峰评价很高，并提醒他要注意超越战神的存在。 
+  skill: [飞行速度极快]
+- id: fayileyishi  
+  name: 法尔议员
+  aliases: []
+  event: 雾岛之战
+  description: 在雾岛上与罗峰交手，被罗峰击败。
+  skill: [火焰能力]
+- id: kateilan  
+  name: 卡特兰
+  aliases: []
+  event: 雾岛之战
+  description: 幻魔卡特兰参与了寻找草木之灵的工作，在雾岛上与罗峰交手。 
+  skill: [幻影能力, 黑色踏板飞行]
+- id: hong  
+  name: 洪
+  aliases: []
+  event: 雾岛之战
+  description: 极限武馆的总馆主，手下有三大亲卫。
+  skill: [培养超越战神的亲卫]
+```

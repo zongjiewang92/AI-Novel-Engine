@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [银河]
+  event: 接受传承，突破第一瓶颈和第二瓶颈，磨砺意志
+  description: 原始宇宙的人类炎纯的分身。已经突破第二瓶颈。
+  skill: []
+- id: duandonghe  
+  name: 断东河
+  aliases: []
+  event: 审核达到要求者并给予传承
+  description: 犀皇局的创造者，负责审核在场所有强者能否接受传承。
+  skill: []
+- id: ziwukei 
+  name: 紫未开
+  aliases: []
+  event: 达到第一瓶颈
+  description: 原始宇宙的人类分身。达到要求后被金红光芒宫殿笼罩。
+  skill: []
+- id: bixuezunzhe 
+  name: 碧血尊者
+  aliases: [碧血]
+  event: 突破第二瓶颈，成为东帝圣地最耀眼的存在
+  description: 来自东帝圣地的宇宙尊者。突破第一瓶颈后被金红光芒宫殿笼罩。
+  skill: []
+- id: dongdisanti 
+  name: 东帝圣地
+  aliases: []
+  event: 派出强者参与传承竞争
+  description: 罗峰和碧血尊者的势力，期待得到断东河一脉的传承。
+  skill: []
+```

@@ -1,0 +1,26 @@
+```yaml
+- id: luo_feng  
+  name: 罗峰
+  aliases: [罗)
+  event: 剑之世界中使用万线流对抗萨金*火龙
+  description: 在剑之世界的压迫下，施展《万线流》躲避攻击。
+  skill: [暗云梭, 万线流]
+- id: sa_jin_huo_long  
+  name: 萨金*火龙
+  aliases: []
+  event: 剑之世界中使用九炼拳对抗罗峰
+  description: 展示了《黑洞衍变》中的秘法“九炼拳”，威力巨大。
+  skill: [九炼拳]
+- id: yan_bo_luo  
+  name: 炎婆罗
+  aliases: []
+  event: 和漭牙对赌萨金能否获胜
+  description: 预测萨金会赢，和漭牙进行物资对赌。
+  skill: []
+- id: mang_ya  
+  name: 漶牙
+  aliases: [三眼男子]
+  event: 和炎婆罗对赌罗峰能否获胜
+  description: 认为罗峰会赢，并且提出用紫蓝雷璃交换金角界石。
+  skill: []
+```

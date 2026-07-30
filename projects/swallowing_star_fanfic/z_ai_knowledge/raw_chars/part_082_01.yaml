@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [裂金之主]
+  event: 波星海一役
+  description: 秘纹图流造诣达到宇宙之主层次，创造最强秘法“裂金”，能驱使疯魔灭神甲第三重秘纹。
+  skill: [裂金, 灭神]
+- id: hunzhuocheng  
+  name: 混沌城主
+  aliases: []
+  event: 告诫罗峰小心谨慎
+  description: 对弟子罗峰的期望极高，建议他成为宇宙之主后尽快尝试冲刺宇宙最强者。
+  skill: []
+- id: ju斧  
+  name: 巨斧
+  aliases: []
+  event: 被混沌城主提及为罗峰求助的对象之一
+  description: 未具体描述其在故事中的行动或话语。
+  skill: []
+- id: yuanzu  
+  name: 原祖
+  aliases: []
+  event: 和巨斧、混沌城主商谈关于宇宙最强者的可能性排列
+  description: 虽被永久镇压，但能通过虚拟宇宙与外界交流，认为罗峰有成为宇宙最强者的潜力。
+  skill: [虚拟宇宙]
+- id: jingai  
+  name: 燕鹰
+  aliases: []
+  event: 黑纹石柱空间中出现的人物之一
+  description: 没有更多的描述和互动记录。
+  skill: []
+```

@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [幽海分身]
+  event: 剑河罗至宝争夺战
+  description: 在原始星上，通过认主的方式获得了黑色剑体这件至宝。
+  skill: []
+- id: jinjiaojueshou
+  name: 金角巨兽
+  aliases: []
+  event: 剑河罗至宝争夺战
+  description: 拥有强大的防御力和飞行能力，成功守护了黑色剑体。
+  skill: []
+- id: baihemozhezunzhe
+  name: 百貉尊者
+  aliases: []
+  event: 发现剑河罗神剑的消息传递
+  description: 接到了发现剑河罗神剑的信息，并迅速向联盟内部传达了消息。
+  skill: []
+```

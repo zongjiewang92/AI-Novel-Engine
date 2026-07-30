@@ -1,0 +1,20 @@
+```yaml
+- id: rouguangshen
+  name: 罗光神
+  aliases: [罗峰]
+  event: 抓捕、传承空间修炼、宝藏空间取宝
+  description: 正在墓陵之舟内进行修练和寻找机会逃脱，得到断东河一脉的传承，并计划尽快突破成为宇宙之主。
+  skill: [金空兽神之道, 断灭]
+- id: dongbishizuxi
+  name: 东帝始祖
+  aliases: []
+  event: 命令监视银河领主罗峰、强调抓捕的重要性
+  description: 发出命令，要求北真星主等宇宙之主密切关注银河领主罗峰，并不惜一切代价将其抓回。
+  skill: [无明确提及]
+- id: beiqinexingzhu
+  name: 北真星主
+  aliases: []
+  event: 接受东帝始祖命令、监视墓陵之舟周围一带
+  description: 带领其他宇宙之主在炎冰域中守候，并随时准备抓捕银河领主罗峰。
+  skill: [至强至宝]
+```

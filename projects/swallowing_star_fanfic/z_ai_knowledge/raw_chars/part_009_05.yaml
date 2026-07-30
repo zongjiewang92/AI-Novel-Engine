@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 在澳洲大陆独自一人猎杀怪兽，计划对付秃鹫李耀。
+  description: 排名四十几的学员，真正身份是精神念师。实力非常强，在高等战神中接近无敌的存在。
+- id: shijiang  
+  name: 史江
+  aliases: [史江师兄]
+  event: 邀请罗峰组成小队参加澳洲大陆生存任务，被拒绝了。
+  description: 战神老师，排名在罗峰之上。试图和罗峰联手，但未成功。
+- id: kandices  
+  name: 坎迪斯
+  aliases: [坎迪斯]
+  event: 观察并记录下单独行动的罗峰的方向。
+  description: 来自澳洲本地的学员，在训练营中排名前二十。怀疑她是秃鹫毒蝎的眼线。
+- id: weinina  
+  name: 维妮娜
+  aliases: [维妮娜]
+  event: 尝试雇佣雇佣军帮助李耀对付罗峰，但被拒绝了。
+  description: 李耀的姑妈，在欧洲巴黎基地市居住。与李耀一同策划针对罗峰的行动。
+- id: liyaoyao  
+  name: 李耀
+  aliases: [秃鹫毒蝎]
+  event: 聘请三位战神以私人身份帮助对抗罗峰，但大多数雇佣军拒绝了邀请。
+  description: 秃鹫毒蝎，企图对付极限武馆的学员罗峰。通过姑妈维妮娜策划行动。
+- id: hong  
+  name: 洪
+  aliases: [总馆主]
+  event: 夸赞罗峰精神念力强，让史江想要与他合作。
+  description: 极限武馆的总馆主，在学员中拥有很高的地位和威望。
+```

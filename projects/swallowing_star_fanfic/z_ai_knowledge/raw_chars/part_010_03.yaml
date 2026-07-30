@@ -1,0 +1,15 @@
+```yaml
+- id: tuojiuliyaoshi
+  name: 秃鹫李耀
+  aliases: [秃鹫, 李耀]
+  event: 极限武馆特别行动队来收缴激光炮
+  description: 李耀的儿子被罗峰杀死，他气愤地决定不惜一切代价也要杀死罗峰。
+  skill: [虚拟空间交手经历, 对普卡和铁宗的了解]
+
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 探索神秘湖泊
+  description: 罗峰在探索一个被浓雾笼罩的神秘湖泊，他计划在白天时分仔细探查。
+  skill: [战神级视力, 水底前进能力]
+```

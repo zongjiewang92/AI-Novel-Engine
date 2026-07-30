@@ -1,0 +1,44 @@
+```yaml
+- id: luo_feng  
+  name: 罗峰
+  aliases: []
+  event: 和徐欣在小区门口相见，徐欣从京都基地市赶到扬州城。
+  description: 成为议员后开始被战神宫追捕，之前为了保护女友的安全退学，并且和徐欣倾诉思念之情。
+  skill: []
+
+- id: xu_xin  
+  name: 徐欣
+  aliases: []
+  event: 等待罗峰从京都基地市回来，在小区门口等待罗峰，与罗峰在阳台上交谈并准备回去。
+  description: 因为担心和牵挂退学离开学校，并且计划自己创业开一家公司。
+  skill: []
+
+- id: li_yao  
+  name: 李耀
+  aliases: []
+  event: 在从江南基地市飞往欧洲巴黎基地市的飞机上被战神宫议员逮捕，准备回巴黎基地市。
+  description: 和维妮娜一起被捕，并且在飞行客机上得知罗峰成为议员的消息后显得很紧张。
+  skill: []
+
+- id: weini_na  
+  name: 维妮娜
+  aliases: []
+  event: 在从江南基地市飞往欧洲巴黎基地市的飞机上被战神宫议员逮捕，准备回巴黎基地市。
+  description: 和李耀一起被捕，并且在飞行客机上得知罗峰成为议员的消息后显得很紧张。
+  skill: []
+
+- id: yan_hai  
+  name: 颜海
+  aliases: []
+  event: 在从江南基地市飞往欧洲巴黎基地市的飞机上出现，表示无法帮助李耀和维妮娜。
+  description: 和李耀有深厚的交情，并且以战神宫议员的身份出现在机场中。
+  skill: []
+
+- id: boni_te  
+  name: 博尼特
+  aliases: []
+  event: 在从江南基地市飞往欧洲巴黎基地市的飞机上出现，代表战神宫正式逮捕李耀和维妮娜。
+  description: 冷漠地下令带走李耀和维妮娜夫妇二人，并且警告他们如果反抗会被击杀。
+  skill: []
+
+```

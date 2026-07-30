@@ -1,0 +1,29 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 战神宫欢迎新晋战神罗峰
+  description: 新晋高等战神，第一次来到战神宫时受到热烈欢迎。
+  skill: []
+
+- id: fulalaoditi  
+  name: 弗拉洛蒂
+  aliases: []
+  event: 和罗峰初次见面并介绍战神宫情况
+  description: 战神宫的常客，认识地球上百分之九十九的战神。
+  skill: []
+
+- id: yanghui  
+  name: 杨辉
+  aliases: []
+  event: 在战神宫迎接罗峰并向他介绍其他人
+  description: 精英训练营老师之一，曾带罗峰去训练营。
+  skill: []
+
+- id: weiti  
+  name: 维特
+  aliases: []
+  event: 和杨辉等人一起在战神宫迎接罗峰
+  description: 精英训练营的老师。
+  skill: []
+```

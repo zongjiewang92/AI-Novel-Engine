@@ -1,0 +1,36 @@
+```yaml
+- id: zivika
+  name: 茨维卡
+  aliases: []
+  event: 追杀罗峰的耗费还不算大，才几个亿瑜蓝单位。可这方案，却是贵的离谱了。
+  description: 正在考虑是否购买昂贵武器来对付罗峰。
+  skill: []
+
+- id: yinyinwang
+  name: 银翼王
+  aliases: []
+  event: 感谢星幻王的帮助，并解释自己领悟了瞬移和空间绞杀的部分结合的特殊飞行手段。
+  description: 和星幻王讨论自己的特殊飞行技巧，表示将来会尽快将瞬移悟透。
+  skill: []
+
+- id: xinghuanwang
+  name: 星幻王
+  aliases: []
+  event: 赞美银翼王在空间方面的造诣，并且帮助他施展瞬移来到无尽冰原深处底部。
+  description: 和银翼王讨论其飞行手段，对其特殊技巧表示钦佩和赞赏。
+  skill: []
+
+- id: heitiayoungman
+  name: 黑甲青年
+  aliases: []
+  event: 罗峰从他那里得到了战利品，包括两枚世界戒指及黑色金属板等宝物。
+  description: 死于罗峰之手，拥有神秘的黑色金属板和其他宝贵物品。
+  skill: []
+
+- id: qibangjinshuban
+  name: 黑色金属板
+  aliases: []
+  event: 罗峰从黑甲青年的世界戒指中得到，能够感应到兵甲、将甲的强大召唤，材质神奇且充满神秘力量。
+  description: 内含无名秘典的九劫内容，对罗峰和金角巨兽具有重要的传承意义。
+  skill: []
+```

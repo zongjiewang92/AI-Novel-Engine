@@ -1,0 +1,22 @@
+```yaml
+- id: luo Feng  
+  name: 罗峰
+  aliases: [老三]
+  event: 购买澜可果实, 孵育第二分身
+  description: 正在研究衍神兵技巧，计划孕育宇宙级空间本源的第二分身。
+  skill: []
+
+- id: Hong  
+  name: 洪
+  aliases: [大哥]
+  event: 接受澜可果实
+  description: 摩云藤需要提升实力，得到罗峰赠送的100颗澜可果实。
+  skill: []
+
+- id: Lei Shen  
+  name: 雷神
+  aliases: [老二]
+  event: 获得卡布界主传承, 训练中
+  description: 得到了智能生命‘雾大人’指导，实力提升较快。
+  skill: []
+```

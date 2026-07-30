@@ -1,0 +1,26 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 钻入九幽漩涡，面对异族军队追杀。
+  description: 感受九幽时空的独特空间阻力和特殊力量压制，利用弑吴羽翼快速逃脱。
+  skill: [镇封星辰, 弑吴羽翼]
+- id: ziyazi 
+  name: 兹鸦
+  aliases: []
+  event: 观察吠镜王与异族宇宙尊者的战斗后逃离。
+  description: 惊讶于九幽漩涡的神秘力量，感叹人类刀河王可能死亡且至宝遗落核心之地。
+  skill: [瞬移]
+- id: fujingwang 
+  name: 吠镜王
+  aliases: []
+  event: 被异族宇宙尊者追杀，通过九幽漩涡逃脱。
+  description: 强大的实力被罗峰嘲讽并逃离。
+  skill: [瞬移]
+- id: yuzuowurensheng 
+  name: 异族战士
+  aliases: []
+  event: 追捕从九幽漩涡中出现的外族人。
+  description: 见到罗峰后立即追捕，但因速度差距无法追上。
+  skill: [飞行]
+```

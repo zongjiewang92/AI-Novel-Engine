@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: []
+  event: 获取九劫秘典第四块金属板
+  description: 罗峰派遣金角巨兽分身前往匠神星获取《九劫秘典》的第四块黑色金属板。罗峰利用幽海分身和魔杀族分身辅助金角巨兽完成任务。
+  skill: []
+- id: jiangshenzhuzi
+  name: JiangShenZhuZi
+  aliases: []
+  event: 应对入侵者
+  description: 匠神之主察觉到有人破坏其秘法封印，利用强大能力抓住金角巨兽并将其丢进通往绝地的空间漩涡中。
+  skill: []
+- id: jinjiaojuzhu
+  name: JinJiaoJuZhu
+  aliases: []
+  event: 获取金属板
+  description: 金角巨兽分身深入匠神星内部获取《九劫秘典》的第四块黑色金属板，面对极强火焰和空间束缚仍坚持完成任务。
+  skill: []
+- id: youhaifenshen
+  name: YouHaiFenShen
+  aliases: []
+  event: 提供神力
+  description: 幽海分身通过世界戒指向金角巨兽提供能量补充，使其能持续抵抗极强火焰和空间束缚。
+  skill: []
+- id: moqiaozufenshen
+  name: MoQiaoZuFenShen
+  aliases: []
+  event: 隐藏于体内
+  description: 魔杀族分身藏在金角巨兽的体内，未直接参与获取金属板的过程。
+  skill: []
+```

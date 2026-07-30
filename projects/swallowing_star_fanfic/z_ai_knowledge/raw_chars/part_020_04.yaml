@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 弧刀盘击杀八爪兽皇时
+  description: 使用弧刀盘击杀八爪兽皇。
+  skill: []
+- id: shipang
+  name: 船长
+  aliases: []
+  event: 观看地球资料视频
+  description: 对金角巨兽幼兽尸体非常感兴趣，认为是巨大财富。
+  skill: []
+- id: heiqinzirendahan
+  name: 黑猩猩大汉
+  aliases: []
+  event: 弧刀盘击杀八爪兽皇时
+  description: 双眸放光，认为发现宝物。
+  skill: []
+- id: hong
+  name: 洪
+  aliases: []
+  event: 和雷神联手战金角巨兽
+  description: 身穿奇特战甲，使用领域战斗。
+  skill: []
+- id: leishen
+  name: 雷神
+  aliases: []
+  event: 和洪联手战金角巨兽
+  description: 使用领域战斗。
+  skill: []
+```

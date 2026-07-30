@@ -1,0 +1,29 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [幽罗]
+  event: 考虑如何获得黑色金属板
+  description: 站在匠神山脚下，思考如何进入匠神之主的生活区域并获取第四块黑色金属板。
+  skill: []
+
+- id: jinyinzhizhe
+  name: 金眼尊者
+  aliases: []
+  event: 建议罗峰尝试拜师
+  description: 向罗峰建议如果炼器天赋足够，或许能被匠神之主收为弟子。同时感叹自己在众多天才中显得不足。
+  skill: []
+
+- id: chanyazu
+  name: 蚕岩族
+  aliases: []
+  event: 讨论族群资源问题
+  description: 蛹合尊者带领的族群，需要匠神之主的帮助来发展和维持族群力量。
+  skill: []
+
+- id: qionghesi
+  name: 蜮合尊者
+  aliases: [蛹合]
+  event: 讨论族群资源问题
+  description: 是蚕岩族的伟大领袖，在匠神山下等待机会求取至宝以帮助族群发展。
+  skill: []
+```

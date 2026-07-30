@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: [刀河王]
+  event: 参加最高会议，讨论原始星开启事宜。
+  description: 界主级时便获得三件灵魂类至宝，引起其他宇宙之主不满。罗峰对于贡献值制度表示认同。
+  skill: []
+- id: hundunchengzhu
+  name: HunDunChengZhu
+  aliases: [混沌城主]
+  event: 解释为何在罗峰还是界主级时就赐予他三件灵魂类至宝，主持最高会议讨论原始星开启事宜。
+  description: 混沌城主是宇宙之主中最公无私的一位，并且有耐心处理族群事务。他对弟子的宠爱不会影响到公平公正的原则。
+  skill: []
+- id: zhengyan
+  name: ZhengYan
+  aliases: [真衍尊者]
+  event: 参加最高会议，讨论原始星开启事宜。
+  description: 第一次参加最高会议，并获得有关贡献值详细解说资料。
+  skill: []
+```

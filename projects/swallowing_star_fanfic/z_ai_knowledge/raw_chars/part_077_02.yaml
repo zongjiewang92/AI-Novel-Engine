@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [乾巫国主, 狓宙尊者, 北螟尊者]
+  event: 智慧宇宙之主收弟子，研究弑吴羽翼第二层
+  description: 地球人一脉的杰出代表，拥有银河领主称号。在地球和神国内部之间建立了固定通道，并致力于修炼和研究。
+  skill: [瞬移, 研究弑吴羽翼]
+- id: chengu  
+  name: 陈谷
+  aliases: []
+  event: 火锤小队成员，曾待罗峰极好
+  description: 当年加入火锤小队时的队友之一，对罗峰有过帮助。
+  skill: [使用热武器]
+- id: zhangke  
+  name: 张科
+  aliases: []
+  event: 火锤小队成员，曾断臂
+  description: 在荒野区闯荡时期的一名火锤小队队友，曾经断过手臂。
+  skill: []
+- id: weijiaxiongdi  
+  name: 魏家兄弟
+  aliases: [魏家]
+  event: 火锤小队成员，善使弯刀
+  description: 罗峰荒野区闯荡时的队友，擅长使用弯刀。
+  skill: [使用弯刀]
+- id: gaodaqing  
+  name: 高队长
+  aliases: []
+  event: 火锤小队领导者
+  description: 当年火锤小队的双风锤高队长，彪悍而勇敢。
+  skill: [使用双风锤]
+```

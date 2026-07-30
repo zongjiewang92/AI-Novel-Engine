@@ -1,0 +1,58 @@
+```yaml
+- id: roufei 
+  name: 罗峰
+  aliases: []
+  event: 随着队伍在碎星带中进行第一次行动
+  description: 具备探测仪器，已兑换军功以购买所需物品。
+  skill: []
+
+- id: tiewo 
+  name: 泰沃
+  aliases: [不朽神灵]
+  event: 组织队员们进入碎星带执行任务
+  description: 拥有C9级宇宙飞船和高价探测仪器，经验丰富。
+  skill: []
+
+- id: duoyao 
+  name: 毒药
+  aliases: []
+  event: 提醒队友们注意潜在敌人
+  description: 警告新队员们不要被异族界主的手段吓倒。
+  skill: []
+
+- id: kuangwu 
+  name: 狂舞
+  aliases: []
+  event: 在泰沃发现六名不朽神灵时与魅女戏谑地嘲笑其他队员
+  description: 对于即将到来的任务持乐观态度。
+  skill: []
+
+- id: shiye 
+  name: 岩石
+  aliases: []
+  event: 参加队伍的第一次碎星带任务
+  description: 和罗峰一同被泰沃带领执行任务。
+  skill: []
+
+- id: meiniu 
+  name: 魅女
+  aliases: []
+  event: 在发现六名不朽神灵时与狂舞一起嘲笑其他队员
+  description: 对于即将到来的任务持乐观态度。
+  skill: []
+
+- id: xuanzhuangshi 
+  name: 幻术师卫
+  aliases: [抱着白色猫的幻术师]
+  event: 在发现六名不朽神灵时惊讶地瞪大眼睛
+  description: 担心队伍的安全，对雷电异族表示出谨慎。
+  skill: []
+
+- id: leiquantu 
+  name: 雷泉族
+  aliases: []
+  event: 被泰沃和毒药等人讨论为难对付的敌人
+  description: 知道这些异族擅长使用雷电攻击，是虫族一方的。
+  skill: []
+
+```

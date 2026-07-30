@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 发现月票不要就会落后，真是欲哭无泪，已经落后超过一千票了，大家看看有没月票，你的一张月票对番茄就是莫大的鼓励了。
+  description: 正在思考如何选择拯救目标星系的任务。决定去维里星系拯救100亿行星级人类。
+  skill: [虚拟宇宙网络传送]
+- id: babata  
+  name: 巴巴塔
+  aliases: []
+  event: 提醒罗峰关于前往古轮宇宙国的时间紧迫问题，分析罗峰的选择并给出建议。
+  description: 罗峰的肩膀上的小拳头形态生物，为罗峰提供信息和建议。
+  skill: [无]
+- id: dili  
+  name: 迪伦
+  aliases: []
+  event: 帮助罗峰通过神国传送前往古轮宇宙国，并驾驶陨墨星号飞船前往维里星系。
+  description: 罗峰的不朽护卫之一，提供帮助和支持。
+  skill: [神国传送]
+- id: xuedemogwang  
+  name: 血魔王
+  aliases: [渡拓]
+  event: 控制渡拓星域并进行血魔试炼。
+  description: 鸿盟成员，统治渡拓星域，并每年举行残酷的选拔仪式“血魔试炼”。
+  skill: []
+- id: hongmeng  
+  name: 鸿盟
+  aliases: []
+  event: 决定魔音山传承名额以及影响不朽神灵的生活和决策。
+  description: 一个神秘且影响力强大的组织，成员包括独行侠和封王级的不朽神灵等。
+  skill: [决定血魔王控制星域内的生命选拔规则]
+```

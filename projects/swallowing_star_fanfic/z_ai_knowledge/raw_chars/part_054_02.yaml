@@ -1,0 +1,13 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: []
+  event: 查阅资料，发现杀死封侯不朽的困难性；思考如何杀死焚亚。
+  description: 拥有弑吴羽翼和金角巨兽，实力强大，试图杀死卡巫族封侯不朽焚亚。
+  skill: [使用弑吴羽翼, 控制金角巨兽]
+- id: fanya  
+  name: 焚亚
+  aliases: []
+  event: 被罗峰的银色怪兽持续攻击；尝试逃脱。
+  description: 卡巫族封侯不朽，拥有不死之身，试图逃离被毁灭的命运。
+```

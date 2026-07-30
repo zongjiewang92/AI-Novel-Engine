@@ -1,0 +1,38 @@
+```yaml
+- id: yongjiewang 
+  name: 魇烛王
+  aliases: [魇烛]
+  event: 被虚金之主惩罚，进入第九星域牢狱服刑1000纪元。
+  description: 峡谷族群的强者，父亲为蚀火尊者。在地球上惹了不少乱子。
+  skill: []
+- id: shihuhuanzhe 
+  name: 蚀火尊者
+  aliases: [老师]
+  event: 惩罚魇烛王并让他进入第九星域牢狱服刑1000纪元，对罗峰很客气。
+  description: 魇烛王的父亲，人类族群中的强者。是巨斧斗武场的成员。
+  skill: []
+- id: xujinzhi Zhu
+  name: 虚金之主
+  aliases: []
+  event: 惩罚魇烛王，并让其进入第九星域牢狱服刑1000纪元。
+  description: 高高在上，宇宙国主们在他面前跪伏的存在。人类族群中最古老最强横的成员之一。
+  skill: []
+- id: shixiezhu 
+  name: 玲玉王
+  aliases: [珑玉]
+  event: 调动庞大的不朽军队前往地球，并向九剑尊者汇报情况。
+  description: 强大的神灵，参与了对地球上事件的处理。
+  skill: []
+- id: jiujianzhu 
+  name: 九剑尊者
+  aliases: [九剑]
+  event: 听取关于地球上事件的情况报告，并决定亲自见罗峰。
+  description: 虚拟宇宙公司高层，负责处理虚拟宇宙中的重要事务。
+  skill: []
+- id: diden 
+  name: 迪伦
+  aliases: []
+  event: 和嗜血王、罗峰一起留在地球星空中。
+  description: 不详，可能是不朽军队中的一员。
+  skill: []
+```

@@ -1,0 +1,37 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [神力化身]
+  event: 拦截界兽，进入浩瀚宇宙海
+  description: 在倾峰界中阻止九十万界兽逃往宇宙海，并且通过超远距离瞬移赶回原始宇宙召开各族会议。
+  skill: [超远距离瞬移, 小型宇宙混沌气流形成的大手掌]
+
+- id: zhenjia
+  name: 震迦王
+  aliases: []
+  event: 被罗峰关押进星辰塔内
+  description: 巨斧陨落的主要阴谋者之一，因为被发现是界兽的奸细而失去利用价值。
+  skill: []
+
+- id: qiyansanzuoshen
+  name: 虬岩祖神
+  aliases: []
+  event: 被罗峰关押进星辰塔内
+  description: 巨斧陨落的主要阴谋者之一，因被发现是界兽的奸细而失去利用价值。
+  skill: []
+
+- id: moreosa
+  name: 摩罗撒
+  aliases: []
+  event: 协助罗峰观察幸存界兽们踪迹
+  description: 在罗峰的小型宇宙中负责监控和报告幸存界兽们的动向。
+  skill: []
+
+- id: chongmuchengzhu
+  name: 混沌城主
+  aliases: []
+  event: 参加各族会议
+  description: 坐在最高处，参与讨论应对界兽浩劫的策略。
+  skill: []
+
+```

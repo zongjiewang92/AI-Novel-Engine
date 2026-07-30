@@ -1,0 +1,67 @@
+```yaml
+- id: LuoFeng  
+  name: 罗峰  
+  aliases: []  
+  event: 虚拟空间会议厅各国领导人们发现吞噬兽飞往欧洲毁掉战争基地，氢弹攻击计划执行
+  description: 担心地球人类灭亡而决定迅速前往遗迹组装武器并准备屠杀王级怪兽。
+  skill: []
+
+- id: BaBaTa  
+  name: 巴巴塔  
+  aliases: []  
+  event: 协助罗峰提升智能战机速度，远程操控设定重力室权限
+  description: 罗峰的手腕智能空间助手，帮助罗峰提高装备性能并保护家人。
+  skill: []
+
+- id: XuXin  
+  name: 徐欣  
+  aliases: []  
+  event: 和罗峰一起离开家前往遗迹
+  description: 罗峰的女友，在危难时刻陪伴着罗峰。
+  skill: []
+
+- id: LuoHongGuo  
+  name: 罗洪国  
+  name2: 父亲  
+  aliases: []  
+  event: 告诉家人进入重力室避险
+  description: 罗峰的父亲，担忧儿子的安全并保护家庭。
+  skill: []
+
+- id: GongXinLan  
+  name: 龚心兰  
+  name2: 母亲  
+  aliases: []  
+  event: 告诉家人进入重力室避险
+  description: 罗峰的母亲，担忧儿子的安全并保护家庭。
+  skill: []
+
+- id: LuoHua  
+  name: 罗华  
+  name2: 弟弟  
+  aliases: []  
+  event: 和罗洪国夫妇、甄楠一起留在家中等待
+  description: 罗峰的弟弟，希望哥哥早点回来。
+  skill: []
+
+- id: ZhenNan  
+  name: 甄楠  
+  aliases: []  
+  event: 和罗华一起留在家中等待
+  description: 罗峰女友徐欣的同学和好友，在危难时刻与家人一同避险。
+  skill: []
+
+- id: JiaYi  
+  name: 贾谊  
+  aliases: []  
+  event: 告诉罗峰吞噬兽破坏战争基地的消息，氢弹攻击计划执行
+  description: 罗峰的朋友，告知他紧急情况并提供信息支持。
+  skill: []
+
+- id: Hong  
+  name: 洪  
+  aliases: []  
+  event: 安排极限型号战机携带原子弹进行混淆视听的攻击
+  description: 极限武馆馆主，安排氢弹攻击计划的具体实施细节。
+  skill: []
+```

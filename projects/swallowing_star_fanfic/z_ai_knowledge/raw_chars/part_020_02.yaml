@@ -1,0 +1,30 @@
+```yaml
+- id: lu_feng
+  name: 罗峰
+  aliases: [罗先生]
+  event: 购买1016名奴隶并接收它们的控制权
+  description: 在虬龙星购买了1016名奴隶，其中有十六个恒星级和一千名行星级九阶精神念师。与绿发男子进行交易，并成功认主这些奴隶。
+  skill: []
+
+- id: lv_fu_man
+  name: 绿发男子
+  aliases: [兀剌先生, 绿发中年人]
+  event: 协助罗峰购买和接收1016名奴隶的控制权
+  description: 在虬龙星向罗峰出售一千零十六个奴隶，并协助完成交易手续。在飞船大厅内进行认主权限转移。
+  skill: []
+
+- id: hei_meng_zu_slaves
+  name: 黑蒙族奴隶
+  aliases: [埃博拉*沙德尼恩尼塔斯娜, 尾田剌*科德泥森图拉德]
+  event: 被罗峰认主并分配新身份
+  description: 六名黑蒙族恒星级七阶精神念师在罗峰购买的奴隶中最为强大，被直接任命为蒙一至蒙六。
+  skill: []
+
+- id: qiu_long_xing_staff
+  name: 虬龙星停泊港工作人员
+  aliases: [绿皮肤壮汉]
+  event: 协助处理黑龙飞船的起降事宜
+  description: 拿回罗峰手中的停泊卡，并目送黑龙飞船离开。
+  skill: []
+
+```

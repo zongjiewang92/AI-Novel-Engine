@@ -1,0 +1,38 @@
+```yaml
+- id: gaofeng  
+  name: 高风
+  aliases: [队长]
+  event: 火锤小队与虎猫怪兽群的战斗，硬拼初级兽将级双尾虎猫
+  description: 火锤小队的领导者，力量强大，可以比拟一般中级战将武者。速度略慢。
+  skill: []
+- id: luofeng  
+  name: 罗峰
+  aliases: [新人]
+  event: 参与火锤小队与虎猫怪兽群的战斗
+  description: 使用血影战刀和盾牌，表现出色，但对兽将级怪物速度感到惊讶。
+  skill: []
+- id: weitie  
+  name: 魏铁
+  aliases: [魏青兄弟]
+  event: 被双尾虎猫撞飞受伤
+  description: 火锤小队队员，在战斗中被双尾虎猫撞击而受重伤。
+  skill: []
+- id: weiqing  
+  name: 魏青
+  aliases: [魏铁兄弟]
+  event: 被双尾虎猫撞飞受伤
+  description: 火锤小队队员，与魏铁一起被双尾虎猫撞击而受重伤。
+  skill: []
+- id: zhangle  
+  name: 张泽
+  aliases: [张泽虎, 背负巨型开山刀的]
+  event: 观察火锤小队战斗并计划暗杀罗峰
+  description: 虎牙小队队员，提出利用狙击枪杀死罗峰以报复损失。
+  skill: []
+- id: tuoya  
+  name: 独眼
+  aliases: [虎牙队长的队员]
+  event: 讨论如何借火锤小队之手清除怪兽并趁机暗杀对手成员
+  description: 虎牙小队中的一员，建议利用狙击枪对付火锤小队。
+  skill: []
+```

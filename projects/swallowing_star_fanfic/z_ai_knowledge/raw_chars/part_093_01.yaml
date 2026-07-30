@@ -1,0 +1,14 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: [金角罗峰]
+  event: 封号任务,突破完美基因瓶颈
+  description: 驾驭银色战船前往神王界，进行封号任务。在修炼空间中突破了生命本源结构，达到了16000倍的生命基因层次。
+  skill: [神体重组]
+- id: beiang
+  name: 北苍
+  aliases: []
+  event: 引导罗峰前往神王谷
+  description: 神王界的守卫之一，带领罗峰进行超远距离瞬移前往神王谷。向罗峰解释了神王界大陆的危险和机械流至宝特性。
+  skill: [超远距离瞬移]
+```

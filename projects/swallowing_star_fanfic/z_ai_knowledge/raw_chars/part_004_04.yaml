@@ -1,0 +1,56 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 武者实战考核，荒野区磨练身法
+  description: 主角，在武者实战考核中表现出色。在荒野区通过不断击杀怪物来提升自己身体素质和战斗技巧。
+  skill: [精神念力, 流光身法, 第一重雷刀]
+- id: xujing  
+  name: 徐静
+  aliases: []
+  event: 被徐刚叮嘱不要理睬罗峰
+  description: HR联盟商城一楼大厅酒吧的女经理。是徐欣的妹妹，被哥哥警告不可与罗峰来往。
+  skill: []
+- id: xuxiang  
+  name: 徐欣
+  aliases: [欣]
+  event: 在茶室包厢内和陈谷等人讨论关于罗峰的话题
+  description: HR联盟商城一楼大厅酒吧的女老板，徐静的姐姐。与罗峰是老同学关系。
+  skill: []
+- id: xujiang  
+  name: 徐刚
+  aliases: [刚]
+  event: 警告妹妹不要理睬罗峰
+  description: 徐欣和徐静的哥哥。在酒吧内警告妹妹不可与罗峰来往，否则将采取行动。
+  skill: []
+- id: changu  
+  name: 陈谷
+  aliases: [陈哥]
+  event: 在HR联盟商城三楼茶室包厢内讨论关于罗峰的话题
+  description: 罗峰的朋友，在茶室中与高风等人讨论了罗峰的训练进展。
+  skill: [神经反应测试初级战将级优秀, 热武器武者]
+- id: gaofeng  
+  name: 高风
+  aliases: []
+  event: 讨论队员们的训练情况和身体素质提升程度
+  description: 组织成员的队长，负责指导团队中的罗峰、魏铁和魏青三人进行基因药水训练。
+  skill: [团队管理]
+- id: weitie  
+  name: 魏铁
+  aliases: []
+  event: 讨论自己的身体素质提升情况
+  description: 罗峰的队友之一，正在进行基因药水训练以提高自身实力。
+  skill: [拳力9650kg左右, 速度102米每秒]
+- id: weiqing  
+  name: 魏青
+  aliases: []
+  event: 讨论自己的身体素质提升情况
+  description: 罗峰的队友之一，正在进行基因药水训练以提高自身实力。
+  skill: [拳力9510kg左右, 速度106米每秒]
+- id: wandong  
+  name: 万冬
+  aliases: []
+  event: 被鼠潮追赶逃命
+  description: 武者实战考核中的优秀成员之一，被罗峰认出正在逃离鼠潮。
+  skill: [武者]
+```

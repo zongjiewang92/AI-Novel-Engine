@@ -1,0 +1,26 @@
+```yaml
+- id: luoqiong
+  name: 罗峰
+  aliases: [罗殿下]
+  event: 虚拟宇宙公司分配太初区
+  description: 天才战中排名第10，获得虚拟宇宙公司的核心成员资格。
+  skill: []
+- id: shawei
+  name: 沙戊
+  aliases: []
+  event: 带领罗峰了解雨相山和雷霆岛
+  description: 瘦削的老者，带领罗峰到达太初区入口。
+  skill: []
+- id: fusu
+  name: 福斯
+  aliases: [福斯夫人]
+  event: 引导罗峰进入太初区庄园
+  description: 太初区内专门管理琐事的界主，负责引导新成员罗峰。
+  skill: []
+- id: oddoricwenshenglai
+  name: 奥多里克文圣来索
+  aliases: [奥多]
+  event: 成为罗峰的护卫队将军
+  description: 得到本源法则承认的界主，担任罗峰的护卫队将军。
+  skill: []
+```

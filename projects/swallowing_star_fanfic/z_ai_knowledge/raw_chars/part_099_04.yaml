@@ -1,0 +1,20 @@
+```yaml
+- id: zuoshanke  
+  name: 坐山客  
+  aliases: []  
+  event: 等待界兽吞吃罗峰的小型宇宙  
+  description: 在罗峰的小型宇宙中等待界兽们攻击，时刻准备守护罗峰。  
+  skill: []
+- id: luofeng  
+  name: 罗峰  
+  aliases: [银河领主]  
+  event: 抵抗四十五万界兽的攻击  
+  description: 使用神力化身和一元之始的小型宇宙架构抵抗界兽们的吞吃。  
+  skill: ['毁灭', '十万诸天']
+- id: jia 
+  name: 齐亚  
+  aliases: []  
+  event: 疯狂向其他界兽传音求救  
+  description: 在被银河领主攻击后，疯狂地向其他的界兽们传达信息请求帮助。  
+  skill: ['毁灭']
+```

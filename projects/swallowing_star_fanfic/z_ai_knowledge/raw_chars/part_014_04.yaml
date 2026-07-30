@@ -1,0 +1,37 @@
+```yaml
+- id: jiayi
+  name: 贾谊
+  aliases: [贾议员]
+  event: 来自地球，是军方的领袖级人物，在大涅槃时期拯救了千万人。
+  description: 行星级二阶武者，现任*****，实权排前三。曾参与过很多历史事件，包括基地市建立等。
+- id: luofeng
+  name: 罗峰
+  aliases: [罗议员]
+  event: 刚刚突破成为议员级强者，并被邀请加入协助处理雾岛湖泊的事务。
+  description: 被誉为地球新一代天才武者，有击杀李耀的实力，在接任极限武馆馆主后，受到贾谊等人的关注和热情接待。
+- id: bingshan
+  name: 冰山
+  aliases: []
+  event: 在高空向所有人发出警告，洪即将进入雾岛湖泊对付兽皇。
+  description: 极限武馆的亲卫，在极端天气中发布指令保护其他人安全。
+- id: hong
+  name: 洪
+  aliases: [极限武馆馆主]
+  event: 决定再次尝试杀死兽皇，此前曾受伤并令兽皇受伤。
+  description: 极限武馆的现任馆主，拥有极强的实力和决心。在雾岛湖泊事件中扮演了关键角色。
+- id: zhuyi
+  name: 朱议
+  aliases: []
+  event: 出现在贾谊等人旁边，罗峰与之见面并打招呼。
+  description: 议员级别的强者之一，在现场观看洪对付兽皇的行动。
+- id: tuobabu
+  name: 拓跋议
+  aliases: []
+  event: 和朱议员、邓议员一起出现在贾谊等人旁边，罗峰见到了他们。
+  description: 议员级别的强者之一，参与雾岛湖泊事件处理。
+- id: dengyi
+  name: 邓议
+  aliases: []
+  event: 出现在贾谊等人旁边，罗峰打招呼时提到他们的名字。
+  description: 议员级别的强者之一，在现场观看洪对付兽皇的行动。
+```

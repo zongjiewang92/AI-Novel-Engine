@@ -1,0 +1,14 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: [罗峰]
+  event: 发现五彩渊华之地，进入悬浮锥形山寻找本源至宝材料空间之心。
+  description: 祖神教的不朽传承者，魔杀族分身，在悬浮锥形山中发现空间之心，并试图等待其完全成体。
+  skill: [变化为传承者之一, 模拟气息]
+- id: yuzuozhe
+  name: YuZuoZhe
+  aliases: []
+  event: 飞入悬浮锥形山，进入山腹之中寻找自己的空间之心。
+  description: 异族强者，拥有三张面孔的狰狞头颅和蛇尾。神体缩小并飞行在山洞中。
+  skill: [灵魂控制, 灭杀]
+```

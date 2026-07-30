@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 混沌城主收罗峰为记名弟子的八百年后，罗峰依旧是理所当然地获得第一
+  description: 盘膝坐在修炼居所天台上进行《衍神七变》的修炼。罗峰来到混沌城超过900年，这段时间内他一直在不断进步。
+  skill: [《衍神七变》]
+- id: yanzuowang  
+  name: 魇烛王
+  aliases: [魇烛王, 主人]
+  event: 在虚拟宇宙中疯狂地发泄，并听取手下汇报最近100年的情报
+  description: 因为罗峰被惩罚关押在第九星域牢狱1000纪元，而罗峰本人却成了混沌城主记名弟子。每次来虚拟宇宙时都会歇斯底里用各种手段发泄。
+  skill: [享受发泄]
+- id: jinfuzhizhe  
+  name: 金斧尊者
+  aliases: [金斧尊者, 老师]
+  event: 向混沌城主汇报关于罗峰的修炼情况
+  description: 在虚拟宇宙中教导罗峰，发现罗峰的进步速度非常快。
+  skill: []
+- id: zhenyanwang  
+  name: 真衍王
+  aliases: [真衍王, 师徒]
+  event: 近100年一直在混沌城修炼没有动静
+  description: 罗峰的师傅，混沌城主的弟子之一。
+  skill: []
+- id: shixiewang  
+  name: 嗜血王
+  aliases: [嗜血王, 徒弟]
+  event: 踪迹难寻
+  description: 真衍王的徒弟之一。
+  skill: []
+```

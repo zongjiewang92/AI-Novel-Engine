@@ -1,0 +1,32 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [罗峰]
+  event: 洪和雷神战金角巨兽，罗峰决定为人类拼一把
+  description: 18岁成为武者后从未畏惧过死亡。决定通过《六芒》秘技让五位行星级强者献祭灵魂并燃烧自己来对抗星空巨兽。
+  skill: [虚空之塔, 六芒]
+- id: bangbata  
+  name: 巴巴塔
+  aliases: []
+  event: 罗峰与巴巴塔商议对策，决定使用《六芒》秘技和《虚空之塔》对抗金角巨兽
+  description: 虽然不愿意罗峰冒险牺牲自己，但在罗峰的坚持下同意帮他出谋划策。
+  skill: [为罗峰出谋划策]
+- id: hong  
+  name: 洪
+  aliases: []
+  event: 当年洪与雷神对抗金角巨兽时燃烧灵魂，虽未死但陷入沉睡之中
+  description: 地球上最强的武者之一，在对抗星空巨兽数十万年后最终陷入长眠。
+  skill: [未知]
+- id: leishen  
+  name: 雷神
+  aliases: []
+  event: 当年雷神与洪一起对抗金角巨兽，同样燃烧灵魂后陷入沉睡之中
+  description: 地球上最强的精神念师之一，在对抗星空巨兽数十万年后最终陷入长眠。
+  skill: [未知]
+- id: xiaoyao  
+  name: 妖娆
+  aliases: []
+  event: 愿意加入罗峰的计划，为对抗金角巨兽献出自己的灵魂
+  description: 馆主洪麾下三大亲卫之一，在关键时刻愿意牺牲自己。
+  skill: [未知]
+```

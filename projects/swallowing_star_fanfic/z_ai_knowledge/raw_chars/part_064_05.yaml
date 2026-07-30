@@ -1,0 +1,26 @@
+```yaml
+- id: luo_feng  
+  name: 罗峰
+  aliases: []
+  event: 接受兽神传承
+  description: 感受到神秘力量控制，并从中领悟到了更多的融合法则奥妙。
+  skill: []
+- id: zhen_yan_wang  
+  name: 真衍王
+  aliases: [teacher]
+  event: 接受兽神传承
+  description: 表示自己有突破的感觉，接受了第四重的传承。
+  skill: []
+- id: jiu_feng_zun_zhe  
+  name: 鸠风尊者
+  aliases: []
+  event: 引导罗峰和真衍王进入祖神教传承之地
+  description: 是人类族群七星霸主之一，向罗峰和真衍王介绍传承之地，并说明其神秘力量的来源与作用。
+  skill: []
+- id: lang_ren_zu_qiang_xiong  
+  name: 狼人族强者
+  aliases: []
+  event: 出现在陨石上迎接罗峰和真衍王
+  description: 是狼人族中的强者，看到罗峰时露出一丝惊诧色。
+  skill: []
+```

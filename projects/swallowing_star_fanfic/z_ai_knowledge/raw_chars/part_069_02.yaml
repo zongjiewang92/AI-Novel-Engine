@@ -1,0 +1,20 @@
+```yaml
+- id: loufeng  
+  name: 罗峰
+  aliases: []
+  event: 戮杀吠镜王, 携带至宝逃逸
+  description: 刚刚跨入不朽的宇宙霸主，凭借灵魂类至宝抵挡沛风尊者的攻击。
+  skill: [弑吴羽翼]
+- id: feijingwang  
+  name: 吠镜王
+  aliases: []
+  event: 被罗峰杀死后自爆
+  description: 北疆联盟的超级强者，候选神将之一。
+  skill: [天赋秘法]
+- id: peifengzunzhe  
+  name: 沛风尊者
+  aliases: []
+  event: 追杀罗峰, 施展灵魂攻击和法则领域
+  description: 北疆联盟的超级强者，候选神将之一。
+  skill: [灵魂振幅, 法则领域]
+```

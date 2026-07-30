@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng
+  name: 罗峰
+  aliases: []
+  event: 刺杀
+  description: 当镇封星辰一飞冲天的刹那，罗峰率领重箭王等人迅速行动。
+  skill: [兽神吼, 永恒意志]
+- id: zhongjianwang
+  name: 重箭王
+  aliases: []
+  event: 刺杀
+  description: 跟随罗峰飞向镇封星辰，保护其免受灵魂攻击。
+  skill: [瞬移, 神力防御]
+- id: tianzhenwang
+  name: 天阵王
+  aliases: []
+  event: 刺杀
+  description: 在队伍中焦急传音指挥行动，并组织防御。
+  skill: [空间封锁, 永恒意志]
+```

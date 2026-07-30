@@ -1,0 +1,38 @@
+```yaml
+- id: duan donghe 
+  name: 断东河
+  aliases: [断东河大人]
+  event: 舍我其谁
+  description: 展示出强大的力量，威胁其他任何攻击罗峰的人将被灭杀，并宣布保护人类银河的秘密方法。
+  skill: []
+- id: lu chongzhu 
+  name: 鹿虫之主
+  aliases: [鹿虫]
+  event: 舍我其谁
+  description: 在紫月圣地群宇宙之主中讨论如何应对罗峰的威胁，认为直接击杀罗峰会被断东河灭杀。
+  skill: []
+- id: ro feng 
+  name: 罗峰
+  aliases: [老七]
+  event: 舍我其谁
+  description: 成为第一个达到解局要求的生命体，并在所有势力的愤怒和威胁下继续参悟，争取传承机会。
+  skill: []
+- id: jiufu chuanshengzhe 
+  name: 巨斧创始者
+  aliases: [巨斧]
+  event: 舍我其谁
+  description: 知道罗峰已经达到断东河的要求并给予鼓励和支持，认为这是人类族群的大好机会。
+  skill: []
+- id: hundun chengzhu 
+  name: 混沌城主
+  aliases: [混沌]
+  event: 舍我其谁
+  description: 支持巨斧创始者的观点，建议罗峰专心夺取传承不要理会其他威胁。
+  skill: []
+- id: hei jin zhi zhu 
+  name: 黑暗之主
+  aliases: []
+  event: 舍我其谁
+  description: 祝贺罗峰，并强调这是人类族群最大的机会，错过了是极大的罪过。
+  skill: []
+```

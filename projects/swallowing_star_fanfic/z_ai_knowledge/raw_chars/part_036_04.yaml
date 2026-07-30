@@ -1,0 +1,12 @@
+```yaml
+- id: luofeng 
+  name: 罗峰
+  aliases: [黑衣罗峰, 地球人本尊, 魔杀族分身]
+  event: 血洛大陆获得血洛晶, 磨砺自我心境
+  description: 多重身份的强者，通过融合血洛晶增强实力，并修炼各种秘法提升能力。
+- id: meibabata 
+  name: 恶魔巴巴塔
+  aliases: []
+  event: 解释罗峰失败原因, 给予建议
+  description: 罗峰的助手，提供指导和解释。
+```

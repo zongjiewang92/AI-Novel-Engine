@@ -1,0 +1,32 @@
+```yaml
+- id: zhendiaozu 
+  name: 震妖祖
+  aliases: [震妖]
+  event: 第一次交战后吃了亏，宇宙之主分配时保护巨大舰船内80名宇宙之主。
+  description: 三族联盟之一的妖族领袖，在意志冲击下损失了12位宇宙之主。
+- id: mengdiaozu 
+  name: 梦妖祖
+  aliases: [梦妖]
+  event: 第一次交战后吃了亏，宇宙之主分配时保护巨大舰船内80名宇宙之主。
+  description: 三族联盟之一的妖族领袖，在意志冲击下损失了12位宇宙之主。
+- id: jiqiaizu
+  name: 机械族父神
+  aliases: [机械族]
+  event: 宇宙之主分配时保护椭圆黑色球体内80名宇宙之主，被攻击后损失了一名宇宙之主。
+  description: 三族联盟之一的机械族领袖，在意志冲击下损失了12位宇宙之主。
+- id: chongzuzhu
+  name: 虫族女皇
+  aliases: [虫族]
+  event: 控制女皇宫吞吸和保护80名宇宙之主，利用巅峰至宝宫殿让部分宇宙之主逃脱被黑狱塔吞吸的危险。
+  description: 三族联盟之一的虫族领袖，在意志冲击下损失了12位宇宙之主。
+- id: luofeng
+  name: 罗峰
+  aliases: [人类]
+  event: 操控墓陵之舟上的古神眼攻击80名漂浮在虚空中飞行的宇宙之主，造成大量伤亡。
+  description: 三号计划的主要执行者之一，在意志冲击下成功消灭22尊神体。
+- id: penggongzhi
+  name: 彭工之主
+  aliases: []
+  event: 参与攻击80名漂浮在虚空中飞行的宇宙之主，造成大量伤亡。
+  description: 人类阵营中的一名重要成员，在三号计划中发挥了重要作用。
+```

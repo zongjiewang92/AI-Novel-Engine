@@ -1,0 +1,50 @@
+```yaml
+- id: gaofeng  
+  name: 高风
+  aliases: []
+  event: 火锤小队队长，队员休息时独自一人出去猎杀怪兽。
+  description: 赞罗峰身法漂亮，劝说罗峰不要太拼命。
+  skill: []
+
+- id: weiqing  
+  name: 魏青
+  aliases: []
+  event: 责任不明，只是火锤小队成员之一，在队长高风赞罗峰时附和。
+  description: 
+  skill: []
+
+- id: luofeng  
+  name: 罗峰
+  aliases: [疯子]
+  event: 单独猎杀怪兽，努力修炼身法和刀法，回到据点后修习导引术。
+  description: 在荒野区中每天的进步明显比家里快了近三分之一。
+  skill: ['九重雷刀', '极限会馆的神经反应测试机']
+
+- id: chengu  
+  name: 陈谷
+  aliases: []
+  event: 火锤小队成员，劝说罗峰不要太拼命。
+  description: 
+  skill: []
+
+- id: yanghui  
+  name: 杨辉
+  aliases: [战神杨辉]
+  event: 总部特使，询问扬州城极限会馆馆长邬通关于罗峰的信息。
+  description: 对罗峰的天赋和刻苦表示认可，并决定亲自见他。
+  skill: []
+
+- id: wutong  
+  name: 邬通
+  aliases: []
+  event: 扬州城极限会馆馆长，提供罗峰的身体素质讯息以及他的实力等信息给战神杨辉。
+  description: 认为罗峰是扬州城最近十年来有数的天才人物。
+  skill: []
+
+- id: zhengyongzhou  
+  name: 周正永
+  aliases: []
+  event: 极限总会馆会长，与战神杨辉讨论关于罗峰的信息，并决定更改上面的决定。
+  description: 
+  skill: []
+```

@@ -1,0 +1,37 @@
+```yaml
+- id: huayezuzhuren
+  name: 华裔男子
+  aliases: []
+  event: 拍卖会主持
+  description: 在拍卖会上用汉语宣布拍卖品信息。
+  skill: []
+
+- id: bairen
+  name: 白人
+  aliases: []
+  event: 拍卖会主持
+  description: 在拍卖会上用英语重复华裔男子的发言。
+  skill: []
+
+- id: luofeng
+  name: 罗峰
+  aliases: [监察使]
+  event: 参加战神宫拍卖会，收到9号古文明遗迹的通知邮件
+  description: 极限武馆成员，对进入9号古文明遗迹有所犹豫。
+  skill: []
+
+- id: jiangfang
+  name: 江芳
+  aliases: []
+  event: 解释拍卖会上的物品来源
+  description: 向罗峰解释战神宫拍卖会的性质和规则。
+  skill: []
+
+- id: xuxin
+  name: 徐欣
+  aliases: []
+  event: 和罗峰通过视频交流
+  description: 罗峰的朋友，提醒罗峰不要给自己太大压力。
+  skill: []
+
+```

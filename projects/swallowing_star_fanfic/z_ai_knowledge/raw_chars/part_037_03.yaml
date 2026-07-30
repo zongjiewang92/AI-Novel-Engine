@@ -1,0 +1,14 @@
+```yaml
+- id: luofeng
+  name: LuoFeng
+  aliases: [黑衣罗峰]
+  event: 杀死司雍
+  description: 罗峰是故事中的主要角色，他使用魔杀族分身的能力击败了司雍。
+  skill: [幽影七绝刀, 复制生命气息]
+- id: siyong
+  name: SiYong
+  aliases: []
+  event: 被罗峰杀死
+  description: 司雍是世界级的战士，但在与罗峰一对一的战斗中失败并被杀。
+  skill: [念力兵器, 四面盾牌]
+```

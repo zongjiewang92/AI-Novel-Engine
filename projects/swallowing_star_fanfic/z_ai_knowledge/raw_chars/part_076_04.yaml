@@ -1,0 +1,20 @@
+```yaml
+- id: luofeng  
+  name: 罗峰
+  aliases: [徒儿]
+  event: 和星河之主硬拼，杀死沉火之主分身
+  description: 显示宇宙最强者的战力，拥有劫甲和星辰塔等至宝
+  skill: ['金光', '微型宇宙']
+- id: zuoshankemu  
+  name: 坐山客
+  aliases: [老师]
+  event: 接受罗峰传递的讯息，并同意接收其得到的至宝以兑换其他至宝
+  description: 能够炼制各种特殊的至宝，是罗峰的老师
+  skill: []
+- id: xinghezhizhu  
+  name: 星河之主
+  aliases: []
+  event: 和罗峰硬拼过一次
+  description: 拥有强大的领域类至宝和战斗兵器
+  skill: ['微型宇宙']
+```
