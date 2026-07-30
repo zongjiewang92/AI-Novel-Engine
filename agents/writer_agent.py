@@ -78,7 +78,7 @@ def write_chapter(context):
 
 """
     logger.info(
-        "Writer Prompt长度: %d chars (%.2f KB)",
+        "Writer Prompt length: %d chars (%.2f KB)",
         len(prompt),
         len(prompt.encode("utf-8")) / 1024,
     )

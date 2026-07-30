@@ -178,7 +178,7 @@ def save_result(context, chapter, memories):
 
     memory_manager.save_all(context.target, memories)
 
-    logger.info("章节和Memory保存完成")
+    logger.info("Done chapter and Memory save.")
 
 
 # ==================================================
