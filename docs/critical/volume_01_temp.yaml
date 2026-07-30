@@ -1,0 +1,73 @@
+id: volume_xx
+title: xxxx
+chapter_count: 50
+stage: 第一篇
+goal:
+- xxxxxxxxx。
+- xxxxxxxxx。
+- xxxxxxxxx。
+- xxxxxxxxx。。
+- xxxxxxxxx。。
+- xxxxxxxxx。。
+children:
+# =====================================================
+# ARC 01
+# =====================================================
+- id: arc_01_01
+  title: xxxxxx
+  chapter_range: x-x
+  goal:
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  key_events:
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+
+# =====================================================
+# ARC 02
+# =====================================================
+- id: arc_01_02
+  title: xxxxxx
+  chapter_range: x-x
+  goal:
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  key_events:
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+# =====================================================
+# ARC 03
+# =====================================================
+- id: arc_01_03
+  title: xxxxxx
+  chapter_range: x-x
+  goal:
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  key_events:
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
+  - xxxxxxxxx。
