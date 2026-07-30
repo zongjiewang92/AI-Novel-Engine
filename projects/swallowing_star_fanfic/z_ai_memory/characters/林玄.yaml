@@ -1,0 +1,22 @@
+name: 林玄
+basic: {}
+personality: []
+realm: {}
+abilities: []
+relationships: {}
+growth_history:
+- status_change: 从死亡状态复活
+  realm_change: 从常规生命极限突破到未知的新起点
+  new_abilities: &id001
+  - 获得未知力量
+  personality_change: &id002 []
+  relationship_change: &id003 []
+  important_events: &id004
+  - 为了抢救实验数据而牺牲
+  - 二十年后神秘金光降临
+status_change: 从死亡状态复活
+realm_change: 从常规生命极限突破到未知的新起点
+new_abilities: *id001
+personality_change: *id002
+relationship_change: *id003
+important_events: *id004

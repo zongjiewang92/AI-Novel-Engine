@@ -39,7 +39,7 @@ def save_chapter(content, context):
 
         f.write(content)
 
-    print(f"章节已保存: {file}")
+    logger.info(f"Save chapter path: {file}")
 
     return file
 

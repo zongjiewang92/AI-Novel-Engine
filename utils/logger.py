@@ -9,6 +9,13 @@ from datetime import datetime
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # ==================================================
+# Log Directory
+# ==================================================
+
+LOG_DIR = REPO_ROOT / "logs"
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+
+# ==================================================
 # Logger
 # ==================================================
 
@@ -17,7 +24,9 @@ logger.setLevel(logging.INFO)
 
 if not logger.handlers:
 
-    formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+    formatter = logging.Formatter(
+        "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+    )
 
     # Console
     console_handler = logging.StreamHandler()
@@ -25,7 +34,8 @@ if not logger.handlers:
 
     # File
     file_handler = logging.FileHandler(
-        REPO_ROOT / f"{datetime.now():%Y-%m-%d}.log", encoding="utf-8"
+        LOG_DIR / f"{datetime.now():%Y-%m-%d}.log",
+        encoding="utf-8",
     )
     file_handler.setFormatter(formatter)
 
@@ -36,7 +46,6 @@ if not logger.handlers:
 # ==================================================
 # API
 # ==================================================
-
 
 def get_logger(name: str) -> logging.Logger:
     return logging.getLogger(name)
