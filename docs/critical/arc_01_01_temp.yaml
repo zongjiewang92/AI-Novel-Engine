@@ -72,6 +72,16 @@ ability_unlock:
 - xxxx
 next_arc_hook:
 - xxxxxx
+- xxxxxx
+timeline:
+  - time: xxxx
+    event: xxxx
+    description:
+      - xxxxxxxxxxxxxxxxxxxx
+  - time: xxxx
+    event: xxxx
+    description:
+      - xxxxxxxxxxxxxxxxxxxx
 children:
 # =====================================================
 # Chapter xxxx
