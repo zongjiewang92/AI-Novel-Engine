@@ -81,7 +81,7 @@ children:
 # Chapter xxxx
 # xxxxxxxx
 # =====================================================
-- id: plot_01_01_01
+- id: plot_01_01_XX
   title: xxxxx
   chapter_range: xxxx
   goal:
@@ -116,7 +116,7 @@ children:
 # Chapter xxxx
 # xxxxxxxxx
 # =====================================================
-- id: plot_01_01_02
+- id: plot_01_01_XX
   title: xxxxxxx
   chapter_range: xxxx
   goal:
@@ -148,3 +148,4 @@ children:
   - xxxxxxx
   - xxxxxxx
   - xxxxxxx
+..........
