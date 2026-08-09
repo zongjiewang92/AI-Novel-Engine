@@ -7,15 +7,45 @@ relationships: {}
 growth_history:
 - status_change: 从死亡状态复活
   realm_change: 从常规生命极限突破到未知的新起点
-  new_abilities: &id001
+  new_abilities:
   - 获得未知力量
-  personality_change: &id002 []
-  relationship_change: &id003 []
-  important_events: &id004
+  personality_change: []
+  relationship_change: []
+  important_events:
   - 为了抢救实验数据而牺牲
   - 二十年后神秘金光降临
-status_change: 从死亡状态复活
-realm_change: 从常规生命极限突破到未知的新起点
+- status_change: 回顾过去经历，表现出对未来的期待和决心。
+  realm_change: ''
+  new_abilities:
+  - 准备了五年时间，拥有成为真正强者的资本
+  personality_change: []
+  relationship_change:
+  - 初步建立伙伴关系，小柒作为智能生命陪伴林玄。
+  important_events:
+  - 飞船突破光速进入暗宇宙
+- status_change: 对未知世界的探索充满期待和决心
+  realm_change: ''
+  new_abilities:
+  - 准备开始一项关于自己的秘密实验
+  personality_change: []
+  relationship_change:
+  - 两人之间建立了深厚的友谊与信任关系
+  important_events:
+  - 宇宙航行
+  - 进入暗黑空间
+- status_change: 更加坚定地面对未知世界
+  realm_change: ''
+  new_abilities: &id001
+  - 掌握了某些力量，并准备面对更强大的敌人
+  personality_change: &id002
+  - 更加坚定地面对未知世界
+  relationship_change: &id003
+  - 与小柒建立了信任关系，共同完成任务
+  important_events: &id004
+  - 星际之梦启程
+  - 暗宇宙航行
+status_change: 更加坚定地面对未知世界
+realm_change: ''
 new_abilities: *id001
 personality_change: *id002
 relationship_change: *id003

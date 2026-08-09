@@ -101,11 +101,11 @@ class ProjectContext:
         # Status
         # =================================================
 
-        self.is_plot_finished = self.planning_manager.is_plot_finished(self.target)
+        # self.is_plot_finished = self.planning_manager.is_plot_finished(self.target)
 
-        self.is_arc_finished = self.planning_manager.is_arc_finished(self.target)
+        # self.is_arc_finished = self.planning_manager.is_arc_finished(self.target)
 
-        self.is_volume_finished = self.planning_manager.is_volume_finished(self.target)
+        # self.is_volume_finished = self.planning_manager.is_volume_finished(self.target)
 
         # # =================================================
         # # Recent Chapters

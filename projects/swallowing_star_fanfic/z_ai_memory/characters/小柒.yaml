@@ -1,0 +1,40 @@
+name: 小柒
+basic: {}
+personality: []
+realm: {}
+abilities: []
+relationships: {}
+growth_history:
+- status_change: ''
+  realm_change: ''
+  new_abilities: []
+  personality_change:
+  - 活泼、灵动的性格特点
+  relationship_change:
+  - 初步建立伙伴关系，小柒作为智能生命陪伴林玄。
+  important_events:
+  - 遇见智能生命小柒
+- status_change: 作为智能生命体，陪伴并支持着林玄的冒险旅程
+  realm_change: ''
+  new_abilities: []
+  personality_change: []
+  relationship_change:
+  - 两人之间建立了深厚的友谊与信任关系
+  important_events:
+  - 宇宙航行
+  - 进入暗黑空间
+- status_change: ''
+  realm_change: ''
+  new_abilities: &id001 []
+  personality_change: &id002 []
+  relationship_change: &id003
+  - 与林玄建立了信任关系，成为其重要助手
+  important_events: &id004
+  - 星际之梦启程
+  - 暗宇宙航行
+status_change: ''
+realm_change: ''
+new_abilities: *id001
+personality_change: *id002
+relationship_change: *id003
+important_events: *id004

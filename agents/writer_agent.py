@@ -41,8 +41,8 @@ def write_chapter(context):
     # ==================================================
     check_inputs = {
         "current_plot": context.current_plot,
-        "before_plots": context.before_plots,
-        "after_plots": context.after_plots,
+        # "before_plots": context.before_plots,
+        # "after_plots": context.after_plots,
     }
 
     for name, value in check_inputs.items():
@@ -76,7 +76,7 @@ def write_chapter(context):
 - 根据当前章节剧情，对剧情细节进行扩充。
 
 要求：
-输出不少于4000字文章正文。
+输出不少于8000字文章正文。
 
 """
     logger.info(
@@ -87,7 +87,7 @@ def write_chapter(context):
     result = context.llm.chat(
         prompt=prompt,
         system=WRITER_SYSTEM,
-        options={"temperature": 0.8, "num_predict": 2500, "repeat_penalty": 1.25},
+        options={"temperature": 0.8, "num_predict": 5000, "repeat_penalty": 1.25},
     )
     length = len(str(result)) if result else 0
     logger.info(
