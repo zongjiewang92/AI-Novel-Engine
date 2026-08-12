@@ -1,8 +1,0 @@
-```yaml
-- id: LuoFeng  
-  name: 罗峰
-  aliases: []
-  event: 极限武馆总部、精英训练营
-  description: 阅读黑神套装、遁天梭的说明书，打开密码箱，使用智能战机前往目的地。
-  skill: [使用智能战机, 使用遁天梭飞行]
-```

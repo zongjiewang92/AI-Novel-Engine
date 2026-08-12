@@ -11,6 +11,7 @@ target:
   arc: arc_01
   plot: plot_01_01_01
   chapter: chapter0001
+  md_file: plot_01_01_01.md
 
 # =====================
 # 输出

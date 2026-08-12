@@ -67,6 +67,8 @@ class ProjectContext:
 
         self.after_plots = self.current_plan.get("after_plots", {})
 
+        self.current_md = self.current_plan.get("current_md", {})
+
         # # =================================================
         # # Memory
         # # =================================================

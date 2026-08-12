@@ -192,6 +192,7 @@ class PlanningManager:
             "before_plots": before_plot,
             "current_plot": current_plot,
             "after_plots": after_plot,
+            "current_md": self.load_md(target),
         }
 
     # ==================================================
@@ -251,3 +252,50 @@ class PlanningManager:
             return False
 
         return target["arc"] == arcs[-1]
+
+
+    def load_md(self, target):
+        """
+        读取 target 指定的 Markdown 文件。
+        """
+
+        filename = target.get("md_file")
+
+        if not filename:
+            return ""
+
+        return self.load_file(target, filename)
+        
+    # ==================================================
+    # File
+    # ==================================================
+
+    def load_file(self, target, filename, encoding="utf-8"):
+        """
+        根据 target 定位文件，并读取文件内容。
+
+        默认文件位于：
+            planning/{volume}/{arc}/{filename}
+
+        例如：
+            target:
+                volume: volume_01
+                arc: arc_01
+
+            filename:
+                plot_01_01_01.md
+
+            实际读取：
+                planning/volume_01/arc_01/plot_01_01_01.md
+        """
+
+        file = self.arc_path(target) / filename
+
+        if not file.exists():
+            return ""
+
+        if not file.is_file():
+            return ""
+
+        with open(file, "r", encoding=encoding) as f:
+            return f.read()

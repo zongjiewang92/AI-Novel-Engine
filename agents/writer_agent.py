@@ -43,6 +43,9 @@ def write_chapter(context):
         "current_plot": context.current_plot,
         # "before_plots": context.before_plots,
         # "after_plots": context.after_plots,
+        "current_md": context.current_md,
+        
+
     }
 
     for name, value in check_inputs.items():
@@ -62,6 +65,8 @@ def write_chapter(context):
         )
         raise ValueError("current_plot is empty, can not generate chapter.")
 
+    if context.current_md:
+        context.current_plot = context.current_md
     prompt = f"""
 
 【当前章节剧情】
@@ -87,7 +92,7 @@ def write_chapter(context):
     result = context.llm.chat(
         prompt=prompt,
         system=WRITER_SYSTEM,
-        options={"temperature": 0.8, "num_predict": 5000, "repeat_penalty": 1.25},
+        options={"temperature": 0.8, "num_predict": 3000, "repeat_penalty": 1.25},
     )
     length = len(str(result)) if result else 0
     logger.info(
