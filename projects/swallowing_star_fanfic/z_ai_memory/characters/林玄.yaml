@@ -35,16 +35,36 @@ growth_history:
   - 进入暗黑空间
 - status_change: 更加坚定地面对未知世界
   realm_change: ''
-  new_abilities: &id001
+  new_abilities:
   - 掌握了某些力量，并准备面对更强大的敌人
-  personality_change: &id002
+  personality_change:
   - 更加坚定地面对未知世界
-  relationship_change: &id003
+  relationship_change:
   - 与小柒建立了信任关系，共同完成任务
-  important_events: &id004
+  important_events:
   - 星际之梦启程
   - 暗宇宙航行
-status_change: 更加坚定地面对未知世界
+- status_change: 开始执行新的任务，内心波澜壮阔但外表平静。
+  realm_change: ''
+  new_abilities:
+  - 金色圆球作为力量核心物品，代表即将到来的变化
+  personality_change: 内心波澜壮阔但外表平静
+  relationship_change: []
+  important_events:
+  - 飞船从暗宇宙中脱离，进入正常宇宙空间
+  - 摇篮号将按照预定路线返回地球，并抹去所有行动痕迹
+- status_change: ''
+  realm_change: ''
+  new_abilities: &id001 []
+  personality_change: &id002
+  - 更加谨慎和担忧未来实验的风险
+  - 更加坚定和决断力
+  relationship_change: &id003 []
+  important_events: &id004
+  - 五年航行
+  - 脱离暗物质区域
+  - 接近奇洛星系
+status_change: ''
 realm_change: ''
 new_abilities: *id001
 personality_change: *id002

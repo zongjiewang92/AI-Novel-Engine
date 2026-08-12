@@ -92,7 +92,7 @@ def write_chapter(context):
     result = context.llm.chat(
         prompt=prompt,
         system=WRITER_SYSTEM,
-        options={"temperature": 0.8, "num_predict": 3000, "repeat_penalty": 1.25},
+        options={"temperature": 0.8, "num_predict": 6000, "repeat_penalty": 1.25},
     )
     length = len(str(result)) if result else 0
     logger.info(
