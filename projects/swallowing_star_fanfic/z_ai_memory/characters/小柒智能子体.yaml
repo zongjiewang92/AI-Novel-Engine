@@ -1,0 +1,23 @@
+name: 小柒智能子体
+basic: {}
+personality: []
+realm: {}
+abilities: []
+relationships: {}
+growth_history:
+- status_change: ''
+  realm_change: ''
+  new_abilities: &id001 []
+  personality_change: &id002
+  - 伪装成普通飞船控制系统，准备应对可能出现的一切意外情况
+  relationship_change: &id003 []
+  important_events: &id004
+  - 五年航行
+  - 脱离暗物质区域
+  - 接近奇洛星系
+status_change: ''
+realm_change: ''
+new_abilities: *id001
+personality_change: *id002
+relationship_change: *id003
+important_events: *id004

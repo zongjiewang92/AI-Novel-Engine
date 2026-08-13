@@ -55,15 +55,25 @@ growth_history:
   - 摇篮号将按照预定路线返回地球，并抹去所有行动痕迹
 - status_change: ''
   realm_change: ''
-  new_abilities: &id001 []
-  personality_change: &id002
+  new_abilities: []
+  personality_change:
   - 更加谨慎和担忧未来实验的风险
   - 更加坚定和决断力
-  relationship_change: &id003 []
-  important_events: &id004
+  relationship_change: []
+  important_events:
   - 五年航行
   - 脱离暗物质区域
   - 接近奇洛星系
+- status_change: ''
+  realm_change: ''
+  new_abilities: &id001 []
+  personality_change: &id002
+  - 更加谨慎和冷静
+  - 面对未知的勇气增强
+  relationship_change: &id003
+  - 默契和信任达到了前所未有的高度
+  important_events: &id004
+  - 启动了自毁程序，摧毁了第一艘高速飞艇
 status_change: ''
 realm_change: ''
 new_abilities: *id001
