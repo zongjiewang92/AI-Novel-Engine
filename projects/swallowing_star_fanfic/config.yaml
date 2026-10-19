@@ -6,6 +6,9 @@ model:
 generation:
   temperature: 0.7
   max_tokens: 4000
+  # 写章节 prompt 的 token 上限（默认 24000，qwen2.5:14b 上下文 32k，留输出空间）
+  # 超出部分按优先级自动截断/丢弃，详见 llm/token_budget.py
+  max_prompt_tokens: 24000
 
 
 novel:

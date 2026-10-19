@@ -2,9 +2,12 @@ class PlotManager:
 
     @staticmethod
     def get_current_plot(plan, chapter):
-        for item in plan.get("chapters", []):
-            start, end = item["range"].split("-")
-            if int(start) <= chapter <= int(end):
-                return item
-
+        """根据章节号找到当前剧情段。range 解析失败时跳过该段（LLM 输出不总是规范）。"""
+        for item in (plan or {}).get("chapters", []):
+            try:
+                start, end = str(item.get("range", "")).split("-")
+                if int(start) <= int(chapter) <= int(end):
+                    return item
+            except (ValueError, AttributeError):
+                continue
         return {}

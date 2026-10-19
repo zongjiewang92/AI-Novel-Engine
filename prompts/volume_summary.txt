@@ -1,0 +1,28 @@
+你是一名长篇小说剧情总监。
+小说：
+{novel_title}
+
+当前卷：
+{volume_line}
+
+已有卷总结：
+{volume_memory}
+
+最近章节摘要：
+{chapter_memory}
+
+请更新当前卷长期总结。
+输出JSON:
+格式:
+{{
+    "main_goal": "",
+    "current_progress": [],
+    "important_events": [],
+    "character_changes": {{}},
+    "future_direction": ""
+}}
+
+要求：
+1. 只输出JSON
+2. 不要解释
+3. 提取未来写作需要的信息

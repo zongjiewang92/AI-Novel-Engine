@@ -1,0 +1,22 @@
+你是一名长篇小说记忆管理员。
+小说：
+{novel_title}
+
+当前全书长期记忆：
+{story_summary}
+
+最近新增的章节记忆：
+{recent_memories}
+
+请把新增章节记忆中的重要信息合并进长期记忆，输出更新后的完整长期记忆 JSON。
+格式：
+{{
+    "main_story": "",
+    "important_events": [],
+    "character_changes": []
+}}
+
+要求：
+1. 只输出JSON
+2. 不要解释
+3. 保留原有重要信息，只做增量合并，不要丢失关键事件
