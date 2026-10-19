@@ -1,0 +1,20 @@
+# 人物 bible：role 主角/配角/反派；arc 人物弧光；status 存活/死亡/失踪
+characters:
+  - name: 林玄
+    role: 主角
+    traits: [坚韧, 重情义]
+    abilities: [精神念师, 空间天赋]
+    level: 恒星级
+    location: 地球
+    arc: 从普通武者崛起，目标浑源道主
+    status: 存活
+    first_appearance: 第 1 章
+  - name: 蕾娜
+    role: 配角
+    traits: []
+    abilities: [符文操作]
+    level: 未知
+    location: 地球遗迹
+    arc: 身份未知（第 6 章协助林玄破解遗迹机关）
+    status: 存活
+    first_appearance: 第 6 章

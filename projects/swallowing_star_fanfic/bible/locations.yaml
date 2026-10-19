@@ -1,0 +1,6 @@
+# 地点 bible
+locations:
+  - name: 地球
+    description: 主角当前所在行星，面临怪兽威胁与地球危机
+  - name: 宇宙遗迹
+    description: 林玄发现空间晶核的古老遗迹，深处秘密尚未探索

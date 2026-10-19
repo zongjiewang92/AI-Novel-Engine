@@ -1,10 +1,11 @@
-"""写章节 agent：按 token 预算组装 prompt，超预算时低优先级材料先降级。"""
+"""写章节 agent：按 token 预算组装 prompt，bible 优先于散装 knowledge。"""
 import json
 
-from llm.ollama_client import chat, get_llm_params
+from llm import provider
 from llm.token_budget import estimate_tokens, fit_to_budget, DEFAULT_MAX_PROMPT_TOKENS
 from utils.prompt_loader import render_prompt
 from utils.logger import get_logger
+from database.bible_manager import Bible
 
 logger = get_logger(__name__)
 
@@ -12,24 +13,32 @@ logger = get_logger(__name__)
 SECTION_NAMES = {
     "current_plot": "未来剧情规划",
     "world_rules": "世界规则",
+    "foreshadowing": "未回收伏笔",
     "story_goal": "本卷目标",
     "chapter_history": "最近章节正文",
     "characters": "人物资料",
+    "power_system": "力量体系",
     "chapter_memory": "最近章节摘要",
     "story_summary": "长期记忆",
     "timeline": "时间线",
+    "factions": "势力",
+    "locations": "地点",
 }
 
 # (优先级, 模板占位符) —— 数字越小越重要，超预算时从后往前截断/丢弃
 SECTION_PRIORITIES = [
     (1, "current_plot"),
     (2, "world_rules"),
-    (3, "story_goal"),
-    (4, "chapter_history"),
-    (5, "characters"),
-    (6, "chapter_memory"),
-    (7, "story_summary"),
-    (8, "timeline"),
+    (3, "foreshadowing"),
+    (4, "story_goal"),
+    (5, "chapter_history"),
+    (6, "characters"),
+    (7, "power_system"),
+    (8, "chapter_memory"),
+    (9, "story_summary"),
+    (10, "timeline"),
+    (11, "factions"),
+    (12, "locations"),
 ]
 
 
@@ -39,6 +48,11 @@ def _fmt_dict_section(d):
     if isinstance(d, dict):
         return "\n\n".join(f"## {k}\n{v}" for k, v in d.items())
     return str(d)
+
+
+def _pick(bible_text, knowledge_text):
+    """bible 有内容用 bible，否则回退到 knowledge/ 的散装 md。"""
+    return bible_text or knowledge_text or "（无）"
 
 
 def write_chapter(context):
@@ -64,15 +78,24 @@ def write_chapter(context):
         f"--- {h['chapter']} ---\n{h['content']}" for h in history
     ) or "（无）"
 
+    bible_sections = Bible.load(context.root).format_sections()
+
     raw_sections = {
         "current_plot": json.dumps(context.current_plot, ensure_ascii=False, indent=2),
-        "world_rules": _fmt_dict_section(context.world_rules),
+        "world_rules": _pick(bible_sections.get("world_rules"),
+                             _fmt_dict_section(context.world_rules)),
+        "foreshadowing": bible_sections.get("foreshadowing", "（暂无未回收伏笔）"),
         "story_goal": story_goal_text,
         "chapter_history": history_text,
-        "characters": _fmt_dict_section(context.characters),
+        "characters": _pick(bible_sections.get("characters"),
+                            _fmt_dict_section(context.characters)),
+        "power_system": bible_sections.get("power_system", "（无）"),
         "chapter_memory": json.dumps(context.chapter_memory, ensure_ascii=False, indent=2),
         "story_summary": json.dumps(context.story_summary, ensure_ascii=False, indent=2),
-        "timeline": _fmt_dict_section(context.timeline),
+        "timeline": _pick(bible_sections.get("timeline"),
+                          _fmt_dict_section(context.timeline)),
+        "factions": bible_sections.get("factions", "（无）"),
+        "locations": bible_sections.get("locations", "（无）"),
     }
 
     # ---- token 预算 ----
@@ -80,7 +103,8 @@ def write_chapter(context):
     max_prompt = gen_cfg.get("max_prompt_tokens", DEFAULT_MAX_PROMPT_TOKENS)
     skeleton = render_prompt(
         "writer", novel_title="", volume_line="", story_goal="",
-        current_plot="", world_rules="", story_summary="", chapter_memory="",
+        current_plot="", world_rules="", power_system="", foreshadowing="",
+        factions="", locations="", story_summary="", chapter_memory="",
         characters="", timeline="", chapter_history="", protagonist_block="",
         current_chapter="",
     )
@@ -107,4 +131,4 @@ def write_chapter(context):
     total = estimate_tokens(prompt)
     logger.info("prompt 约 %s tokens（预算 %s）", total, max_prompt)
 
-    return chat(prompt, **get_llm_params(config))
+    return provider.chat("write_chapter", prompt, config)

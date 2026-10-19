@@ -4,13 +4,16 @@
 1. 所有 LLM 调用（易失败）先于任何落盘（难回滚）——中途崩了重跑是安全的。
 2. 落盘一律原子写（tmp + rename），不留半截文件。
 3. 生成步骤幂等：本章产物已存在则复用，不重复烧 token。
-4. 加新步骤（比如审稿 agent）只需在 STEPS 里注册一行，不用改编排逻辑。
+4. 写→审→改：初稿经 critic 审稿，不合格自动改稿（轮数可在 config 里配，0 关闭）。
+5. 加新步骤只需在 STEPS 里注册一行，不用改编排逻辑。
 
 各步骤签名：fn(ctx, results) -> 输出；STEPS 元素为 (名称, 函数, 结果键名)。
 """
 import json
 
 from agents.writer_agent import write_chapter
+from agents.critic_agent import critique_chapter
+from agents.reviser_agent import revise_chapter
 from agents.chapter_summary_agent import summarize_chapter
 from agents.volume_summary_agent import summarize_volume
 from agents.planner_agent import create_plot_plan
@@ -41,6 +44,14 @@ def _chapter_memory_file(ctx, n):
     return ctx.volume_path / "memory" / "chapter_summary" / f"chapter{n:04d}.json"
 
 
+def _critique_cfg(ctx):
+    gen = ctx.config.get("generation", {})
+    return {
+        "rounds": gen.get("critique_rounds", 1),
+        "threshold": gen.get("critic_threshold", 7),
+    }
+
+
 def step_generate_chapter(ctx, results):
     n = ctx.novel_state["current_chapter"]
     path = _chapter_file(ctx, n)
@@ -49,6 +60,35 @@ def step_generate_chapter(ctx, results):
         return read_chapter(path)
     logger.info("正在生成第 %s 章…", n)
     return write_chapter(ctx)
+
+
+def step_critique_and_revise(ctx, results):
+    """审稿 + 改稿：verdict=revise 或评分低于阈值则改，最多 rounds 轮。"""
+    cfg = _critique_cfg(ctx)
+    if not cfg["rounds"]:
+        logger.info("审稿已关闭（critique_rounds=0），跳过")
+        return {"verdict": "pass", "score": None, "issues": []}
+
+    draft = results["chapter"]
+    critique = critique_chapter(ctx, draft)
+    attempts = 0
+    while attempts < cfg["rounds"]:
+        score = critique.get("score")
+        needs_revise = (
+            critique.get("verdict") == "revise"
+            or (isinstance(score, (int, float)) and score < cfg["threshold"])
+        )
+        if not needs_revise:
+            break
+        logger.info("审稿 %s 分（阈值 %s），第 %s 轮改稿…",
+                    score, cfg["threshold"], attempts + 1)
+        draft = revise_chapter(ctx, draft, critique)
+        results["chapter"] = draft
+        critique = critique_chapter(ctx, draft)
+        attempts += 1
+    logger.info("审改完成：最终 %s 分，%s",
+                critique.get("score"), critique.get("verdict"))
+    return critique
 
 
 def step_generate_chapter_memory(ctx, results):
@@ -100,6 +140,7 @@ def step_maybe_story_summary(ctx, results):
 
 STEPS = [
     ("生成章节", step_generate_chapter, "chapter"),
+    ("审稿+改稿", step_critique_and_revise, "critique"),
     ("生成章节记忆", step_generate_chapter_memory, "chapter_memory"),
     ("落盘（正文+记忆）", step_persist, None),
     ("推进章节计数", step_bump_state, None),

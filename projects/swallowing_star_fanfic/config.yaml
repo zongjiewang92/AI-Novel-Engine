@@ -9,6 +9,25 @@ generation:
   # 写章节 prompt 的 token 上限（默认 24000，qwen2.5:14b 上下文 32k，留输出空间）
   # 超出部分按优先级自动截断/丢弃，详见 llm/token_budget.py
   max_prompt_tokens: 24000
+  # 审稿：每章写完后审稿+改稿的最大轮数；0 = 关闭审稿
+  critique_rounds: 1
+  # 审稿评分低于此阈值（或 verdict=revise）则改稿
+  critic_threshold: 7
+
+
+# LLM 路由：不同任务用不同模型（百万字架构的核心）
+# - 写章节/审稿/改稿：质量敏感，适合线上强模型
+# - 总结/规划/记忆：机械活，默认走本地（免费）
+# 线上 key 走环境变量，绝不写进配置文件，例如：
+#   export DEEPSEEK_API_KEY=sk-...
+llm:
+  default: {provider: ollama, model: qwen2.5:14b}
+  tasks:
+    # 有 key 后取消注释即切换，例如：
+    # write_chapter: {provider: deepseek, model: deepseek-chat}
+    # critique:      {provider: deepseek, model: deepseek-chat}
+    # revise:        {provider: deepseek, model: deepseek-chat}
+    # summarize / plan / memory 不写则走 default
 
 
 novel:

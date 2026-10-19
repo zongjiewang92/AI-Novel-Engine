@@ -1,20 +1,20 @@
 """长期记忆治理：把新增章节记忆定期合并进 story_summary（记忆闭环）。
 
-此前 story_summary.json 有存无取、从未被更新 —— 写到 100 章时
-全书主线摘要依然是空的。本 agent 每 N 章跑一次，做增量合并。
+走 memory 任务路由（机械活，默认本地模型）。
 """
 import json
 
-from llm.ollama_client import chat, get_llm_params
+from llm import provider
 from llm.json_utils import parse_json_with_repair
 from utils.prompt_loader import render_prompt
 from utils.logger import get_logger
 
 logger = get_logger(__name__)
 
+TASK = "memory"
+
 
 def update_story_summary(context):
-    params = get_llm_params(context.config)
     prompt = render_prompt(
         "memory_update",
         novel_title=context.config["novel"]["title"],
@@ -22,5 +22,6 @@ def update_story_summary(context):
         recent_memories=json.dumps(context.chapter_memory, ensure_ascii=False, indent=2),
     )
     logger.info("正在合并长期记忆…")
-    result = chat(prompt, **params)
-    return parse_json_with_repair(result, lambda p: chat(p, **params))
+    result = provider.chat(TASK, prompt, context.config)
+    return parse_json_with_repair(
+        result, lambda p: provider.chat(TASK, p, context.config))

@@ -1,0 +1,22 @@
+# 伏笔登记簿：防烂尾的核心。
+# status: planted（已种下）/ resolved（已回收）/ abandoned（已放弃，需注明原因）
+# 写手每章会看到未回收的伏笔；审稿会检查到期伏笔是否推进。
+hooks:
+  - id: FH001
+    description: 空间晶核的来历与真正用途
+    planted_in: 1
+    status: planted
+    resolved_in: null
+    notes: 第 1 章林玄在遗迹中发现
+  - id: FH002
+    description: 遗迹最深处的秘密
+    planted_in: 6
+    status: planted
+    resolved_in: null
+    notes: 第 6 章进入更深区域，秘密尚未揭晓
+  - id: FH003
+    description: 蕾娜的真实身份与背景
+    planted_in: 6
+    status: planted
+    resolved_in: null
+    notes: 蕾娜协助操作符文，身份未知
