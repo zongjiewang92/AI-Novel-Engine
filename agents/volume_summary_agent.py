@@ -1,48 +1,24 @@
-from llm.ollama_client import chat
-from utils.logger import get_logger
+"""卷总结 agent：输出 JSON，带自修复的容错解析。"""
 import json
+
+from llm.ollama_client import chat, get_llm_params
+from llm.json_utils import parse_json_with_repair
+from utils.prompt_loader import render_prompt
+from utils.logger import get_logger
 
 logger = get_logger(__name__)
 
 
 def summarize_volume(context):
-
-    prompt = f"""
-你是一名长篇小说剧情总监。
-小说：
-{context.config["novel"]["title"]}
-
-当前卷：
-{context.volume}
-
-已有卷总结：
-{context.volume_memory}
-
-最近章节摘要：
-{context.chapter_memory}
-
-请更新当前卷长期总结。
-输出JSON:
-格式:
-{{
-"main_goal":"",
-"current_progress":[],
-"important_events":[],
-"character_changes":{{}},
-"future_direction":""
-}}
-
-要求：
-1. 只输出JSON
-2. 不要解释
-3. 提取未来写作需要的信息
-
-"""
-
-    result = chat(prompt)
-
-    # logger.info("====================")
-    # logger.info("Planner AI output:\n%s", result)
-    # logger.info("====================")
-
-    return json.loads(result)
+    params = get_llm_params(context.config)
+    volume_cfg = context.volume.get("volume", {})
+    volume_line = f"{volume_cfg.get('name', '')}（第 {volume_cfg.get('id', '?')} 卷）"
+    prompt = render_prompt(
+        "volume_summary",
+        novel_title=context.config["novel"]["title"],
+        volume_line=volume_line,
+        volume_memory=json.dumps(context.volume_memory, ensure_ascii=False, indent=2),
+        chapter_memory=json.dumps(context.chapter_memory, ensure_ascii=False, indent=2),
+    )
+    result = chat(prompt, **params)
+    return parse_json_with_repair(result, lambda p: chat(p, **params))

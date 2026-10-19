@@ -23,6 +23,12 @@ pip install -r requirements.txt
 # 3. 跑起来（默认项目 swallowing_star_fanfic，可换成 projects/ 下任意目录名）
 python main.py
 python main.py my_new_novel
+
+# 开新卷（建目录 + 切换 current_volume_id）
+python main.py swallowing_star_fanfic --new-volume "星空篇"
+
+# 跑单元测试（无需 Ollama）
+python -m unittest discover -s tests
 ```
 
 详细步骤见 [docs/RUN.md](docs/RUN.md)。
@@ -31,20 +37,31 @@ python main.py my_new_novel
 
 ```
 AI-Novel-Engine
-├── main.py                  # 入口：加载项目 → 写章节 → 存记忆 → 更新状态
-├── llm/ollama_client.py     # 大模型调用封装（Ollama）
-├── agents/                  # 四个 Agent
-│   ├── planner_agent.py         # 剧情规划（输出 JSON）
-│   ├── writer_agent.py          # 章节写作
+├── main.py                  # 薄 CLI（参数解析），编排在 pipeline.py
+├── pipeline.py              # 步骤注册表：LLM 先行→原子落盘→幂等可重跑
+├── llm/
+│   ├── ollama_client.py     # 大模型调用（参数从 config.yaml 读取，不再是摆设）
+│   ├── token_budget.py      # prompt token 预算：超限按优先级截断/丢弃
+│   └── json_utils.py        # JSON 自修复解析（裸 json.loads 的终结者）
+├── prompts/                 # prompt 模板（调 prompt 不用改代码）
+│   ├── writer.txt               # 写章节（模板变量，不再硬编码《吞噬星空》）
+│   ├── chapter_summary.txt / volume_summary.txt / planner.txt
+│   └── memory_update.txt        # 长期记忆合并
+├── agents/                  # 五个 Agent
+│   ├── writer_agent.py          # 写章节（token 预算组装 prompt）
 │   ├── chapter_summary_agent.py # 章节总结 → 章节记忆
-│   └── volume_summary_agent.py  # 卷总结 → 卷记忆（每 10 章）
+│   ├── volume_summary_agent.py  # 卷总结 → 卷记忆（每 10 章）
+│   ├── planner_agent.py         # 剧情规划
+│   └── memory_agent.py          # 长期记忆合并 → story_summary（记忆闭环）
 ├── database/                # 项目与状态管理
 │   ├── project_manager.py       # 项目目录/配置文件
-│   ├── project_context.py       # 聚合上下文（给 Agent 的"弹药库"）
-│   ├── state_manager.py         # novel_state.json 读写
-│   ├── memory_manager.py        # 三级记忆存取
-│   └── plot_manager.py
-├── utils/                   # 日志、文件工具
+│   ├── project_context.py       # 聚合上下文（卷定位收敛到单一方法）
+│   ├── volume_manager.py        # 建卷/切卷显式化
+│   ├── state_manager.py         # novel_state.json 读写（原子写）
+│   ├── memory_manager.py        # 三级记忆存取（原子写）
+│   └── plot_manager.py          # 当前剧情段定位（range 解析容错）
+├── utils/                   # 日志、文件工具（含原子写、prompt 加载）
+├── tests/                   # 单元测试（unittest，零新依赖）
 ├── projects/                # 一书一目录
 │   └── swallowing_star_fanfic/  # 《吞噬星空之浑源道主》（当前在写第 7 章）
 │       ├── config.yaml          # 书名、模型、温度
@@ -68,7 +85,15 @@ python main.py my_new_novel
 
 - 《吞噬星空之浑源道主》（吞噬星空同人）：第一卷「地球篇」，已写完 6 章，`current_chapter = 7`
 
+## 架构说明（2026-10-18 重构后）
+
+- **Token 预算**：写章节的 prompt 按优先级组装（剧情目标 > 世界规则 > 本卷目标 > 近章正文 > 人物 > 章节摘要 > 长期记忆 > 时间线），超 `max_prompt_tokens` 自动截断/丢弃，日志会告诉你丢了什么
+- **先算后写**：流水线里所有 LLM 调用都在落盘之前，中途崩了重跑安全；已生成的章节/记忆会复用，不重复烧 token
+- **配置即生效**：`config.yaml` 的 temperature / max_tokens / max_prompt_tokens 真正传给 Ollama（以前改了没用）
+- **记忆闭环**：每 10 章自动把章节记忆合并进 `story_summary.json`（以前这个文件永远是空的）
+- **开新卷**：`--new-volume` 一行命令建卷并切换，不用手动改 state
+
 ## 规划中（还没做）
 
-- `rag/`：检索增强（人物/世界观知识库，预留了 chromadb 位置）
+- `rag/`：检索增强（人物/世界观知识库，替代现在的全文加载）
 - API 服务：FastAPI 对外提供写作接口（依赖已从 requirements 暂时移除，用时加回）

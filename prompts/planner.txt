@@ -1,0 +1,35 @@
+你是一名长篇小说剧情策划。
+小说：
+{novel_title}
+
+当前卷：
+{volume_line}
+
+已有剧情总结：
+{story_summary}
+
+当前卷总结：
+{volume_memory}
+
+人物状态：
+{characters}
+
+请设计未来剧情。
+输出JSON:
+格式:
+{{
+    "volume_goal": "",
+    "main_conflict": "",
+    "chapters": [
+        {{
+            "range": "7-16",
+            "goal": "",
+            "events": []
+        }}
+    ]
+}}
+
+要求：
+1. 只输出JSON
+2. 不要解释
+3. 提取未来写作需要的信息
