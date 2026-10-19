@@ -1,14 +1,10 @@
-python-dotenv
+# 实际用到的依赖（2026-10-18 清理后）
+ollama      # 本地大模型调用
+pyyaml      # config.yaml 解析
 
-langchain
-langchain-community
-
-openai
-anthropic
-
-ollama
-
-chromadb
-
-fastapi
-uvicorn
+# 以下曾在历史 requirements 中，但代码里并未使用，暂时移除：
+# openai / anthropic —— 预留的多模型路线，用时加回
+# langchain / langchain-community —— 未使用
+# chromadb —— 给 rag/ 预留的向量库，用时加回
+# fastapi / uvicorn —— 预留的 API 服务，用时加回
+# python-dotenv —— 未使用
